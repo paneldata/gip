@@ -1,3 +1,10 @@
+---
+name: gip
+label: German Internet Panel
+config:
+    variables:
+        label-table: True
+---
 
 # German Internet Panel (GIP)
 
