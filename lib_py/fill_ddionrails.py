@@ -3,11 +3,11 @@ import pandas as pd
 
 sys.path.append(os.path.expanduser("~/github/ddi.py/"))
 
-from ddi.onrails.repos import merge_instruments, dor1, copy, extract_variables
+from ddi.onrails.repos import merge_instruments, dor1, copy, extract_variables, convert_r2ddi
 
 def main():
     copy.study()
-    copy.r2ddi("r2ddi/v1/en", "ddionrails/r2ddi/v1")
+    convert_r2ddi.Parser(version="v1").write_json()
     extract_variables.XmlParser("r2ddi/v1/en", "gip").run()
 
 if __name__ == "__main__":
