@@ -7,7 +7,7 @@ from ddi.onrails.repos import merge_instruments, dor1, copy, extract_variables, 
 
 def main():
     copy.study()
-    convert_r2ddi.Parser(version="v1").write_json()
+    convert_r2ddi.Parser("gip", version="v1").write_json()
     extract_variables.XmlParser("r2ddi/v1/en", "gip").run()
 
 if __name__ == "__main__":
