@@ -1,6 +1,6 @@
----
+﻿---
 name: gip
-label: German Internet Panel
+label: German Internet Panel (GIP)
 config:
     variables:
         label-table: True
@@ -10,34 +10,58 @@ config:
 
 ## Citation
 
-*  **Title:** German Internet Panel (GIP)
-*  **Authors:** Blom Annelies G.; Bossert Dayana; Gebhard Franziska; Funke Frederik; Holthausen Annette; Krieger Ulrich 
-*  **Citation:** Blom A.G., Gathmann C. and Krieger U. (2015).   Setting Up an Online Panel Representative of the General Population: The German Internet Panel, Field Methods, 27(4)
+-  **Title:** German Internet Panel (GIP)
+-  **Authors:** Annelies Blom, Ulrich Krieger, et al. (for additional authors see each wave respectively)
+-  **Citation:** All work using German Internet Panel data must include the following references:
+    - This paper uses data from the German Internet Panel wave(s) XX (DOIs:[insert DOIs here]), (Blom et al. [year of data release]). A study description can be found in Blom et al. (2015). The German Internet Panel is funded by the German Research Foundation through the Collaborative Research Center 884 "Political Economy of Reforms" (SFB 884).
+    - Each wave has its own DOI and reference that can be found at the website of the GESIS data archive here https://dbk.gesis.org/dbksearch/GDesc2.asp?no=0109&tab=&ll=10&notabs=1&db=E
+    - Blom, A. G., Gathmann, C., and Krieger, U. (2015). Setting Up an Online Panel Representative of the General Population: The German Internet Panel. Field Methods, 27(4), 391-408. DOI: 10.1177/1525822X15574494
+-  **DOI:** (see each wave, respectively)
+-  **URL:** https://reforms.uni-mannheim.de/internet_panel/Internet_Panel/
 
-## Study info 
+## Study Info
 
-The German Internet Panel (GIP) is a longitudinal panel survey of the Collaborative Research Center "Political Economy of Reforms" (SFB 884). 
-As a SFB infrastructure project, the GIP collects data on individual attitudes and preferences relevant in political and economic decision-making processes. The data obtained the empirical basis for the scientific research of projects at the SFB 884.
+The German Internet Panel (GIP) is a longitudinal panel survey of the Collaborative Research Center SFB 884 "Political Economy of Reforms".
 
-The methodological composition of the GIP aims to build a panel study which on the one hand benefits from the advantages of online surveys (lower costs, higher flexibility) and on the other hand is representative for the entire German population (16 to 75 years).
-Topics covered in the GIP are divers and include attitudes towards the reform policies, the welfare state, German an EU politics, health, social inequality, education, employment and key socio-demographic information.    
-The GIP conducts online survey waves on an bi-monthly basis. The GIP is based on a probability sample of the general population in Germany aged 16 to 75. The initial sample was drawn by meand of strict random probability methods. Recruitment was conducted offline with face-to-face interviews, during which respondents were invited to the online panel.    
-To ensure the representativeness of the online and offline population, the GIP includes respondents without computer and Internet access, by providing them with the necessary equipment and training.    
-The GIP data are available to the scientific community via the GESIS Data Archive for the Social Sciences as scientific use file.    
-The GIP currently collects data for research project at the SFB884 only. For this reason, we cannot accept questionnaire proposals from external researchers.
+As a SFB 884 infrastructure project, the GIP collects data on individual attitudes and preferences relevant in political and economic decision-making processes. The data obtained provide the empirical basis for the scientific research of the SFB projects. All GIP survey data are made available to the scientific community via the GESIS Data Archive for the Social Sciences as scientific use files.
 
-## Method
-
-The GIP is the first internet panel that is representative of the entire German population.
-In a first step, a true probability sample was built using an ADM-selection mechanism with separated random route address sampling. The sample frame consists of German-speaking individuals aged 16-75 living in private households.
-Sample addresses were then compiled for a face-to-face recruitment interview. The interview was conducted with one household member. In this interview, eligible household members between the ages of 16 and 75 were identified. When consent was obtained in the recruitment interview, these eligible household members were sent an invitation letter to register for the GIP online panel.
-Individuals without access to the internet or a computer were offered equipment and internet access free of charge (for further information see  equipment of offline-households http://reforms.uni-mannheim.de/internet_panel/equipment_of_offline_households/). 
-When registered for the online panel, sample members receive invitations to the online panel every odd month. 
-This recruitment procedure outlined here was followed during initial recruitment in 2012 and when recruiting a refreshment sample in 2014.
-During initial recruitment, 5,500 households were contacted resulting in 2,543 face-to-face interviews. 1,603 individuals from these households registered for the GIP online survey.
-In 2014, 9,386 addresses were used during recruitment of phase 2, the refreshment sample. 4,426 face-to-face interviews were realized, 4,034 individuals registered for the GIP online panel.
+The topics covered in the GIP are divers and include attitudes towards the reform policies, the welfare state, German and EU politics, health, social inequality, education, employment and key socio-demographic information. Questionnaire modules on these topics are developed by SFB 884 researchers in collaboration with the GIP team. GIP online questionnaires of 20-25 minutes are implemented bi-monthly.
 
 ## Data access
 
-Data is available here https://dbk.gesis.org/dbksearch/GDESC2.asp?no=0109&DB=D via the GESIS data archive. 
+The GIP data are available to the scientific community via the GESIS Data Archive for the Social Sciences as scientific use files here https://dbk.gesis.org/dbksearch/GDESC2.asp?no=0109&DB=D
+
+To order the scientific use files please proceed as described here https://dbk.gesis.org/dbksearch/download.asp?db=D&id=54805
+
+## Method
+
+Data collector: GIP team, SFB 884, University of Mannheim
+
+Population: Persons living in private households in Germany and aged 16-75 at the time of recruitment.
+
+Sampling method: All GIP samples are multi-stage random samples which are regionally clustered. The 2012 and 2014 samples are additionally clustered in households.
+
+Recruitment method: The 2012 and 2014 samples were recruited with face-to-face interviews during which respondents were invited to the online panel. Sampled persons without access to the internet were provided with the necessary equipment, internet, and support. The 2018 sample was recruited via postal invitations.
+
+Sample sizes and response rates: An overview of all sample sizes and response rates can be found at https://reforms.uni-mannheim.de/ionas/sowi/reforms/internet_panel/Response_rates/
+
+Incentives: For their participation GIP panel members receive 4€ per completed questionnaire as well as a bonus of 5€ for completing five or 10€ for all six waves within a year. Incentives are paid out twice a year and panel members can choose whether to receive their incentives via bank transfer, as an online voucher or whether to donate it to charity. In addition, several SFB-projects incentivize panel members in various different ways.
+
+Further information: Further information on the GIP methodology is available at the following sources:
+
+General information:
+
+https://reforms.uni-mannheim.de/internet_panel/Internet_Panel/
+
+Blom, A. G., Gathmann, C., and Krieger, U. (2015). Setting Up an Online Panel Representative of the General Population: The German Internet Panel. Field Methods, 27(4), 391-408. DOI: 10.1177/1525822X15574494
+
+Information on the inclusion of the offline population:
+
+Blom, A. G., Herzing, J. M. E., Cornesse, C., Sakshaug, J. W., Krieger, U., and Bossert, D. (2016). Does the Recruitment of Offline Households Increase the Sample Representativeness of Probability-Based Online Panels? Evidence from the German Internet Panel. Social Science Computer Review, 35(4), 498-520. DOI: 10.1177/0894439315574825
+
+Herzing, J. M. E. and Blom, A. G. (2018). The Influence of a Person's IT Literacy on Unit Nonresponse and Attrition in an Online Panel. Social Science Computer Review, Published Online First on 20th May 2018. DOI: 10.1177/0894439318774758.
+
+Information on cross-national collaborations:
+
+Blom, A. G., Bosnjak, M., Cornilleau, A., Cousteaux, A.-S., Das, M., Douhou, S., and Krieger, U. (2016). A Comparison of Four Probability-Based Online and Mixed-Mode Panels in Europe, Social Science Computer Review, 34(1), 8-25. DOI: 10.1177/0894439315574825
 
