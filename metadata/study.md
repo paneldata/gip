@@ -1,4 +1,4 @@
-﻿---
+---
 name: gip
 label: German Internet Panel (GIP)
 config:
