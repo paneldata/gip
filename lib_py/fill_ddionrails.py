@@ -13,6 +13,7 @@ def main():
     extract_variables.XmlParser("r2ddi/v1/en", "gip").run()
     merge_instruments.main()
     copy.f("datasets.csv")
+    copy.f("attachments.csv")
 
 if __name__ == "__main__":
     main()
