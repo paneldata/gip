@@ -1,11 +1,11 @@
 {
-  "id": {
+  "id_g": {
     "study": "gip",
-    "name": "id",
-    "name_cs": "id",
-    "variable": "id",
+    "name": "id_g",
+    "name_cs": "id_g",
+    "variable": "id_g",
     "dataset": "gip_w36_v1",
-    "label": "TNS id",
+    "label": "Unique ID, GIP",
     "categories": {
       "frequencies": [],
       "labels": [],
@@ -24,12 +24,12 @@
         "invalid"
       ],
       "values": [
-        "12201",
-        "2161301.75",
-        "4002151.5",
-        "3591423.25811688",
-        "4931451",
-        "6002601",
+        "10005901",
+        "27582376",
+        "30334201.5",
+        "27564877.6412338",
+        "30809251.75",
+        "31223802",
         "2464",
         "0"
       ]
@@ -40,13 +40,13 @@
     "boost": "1",
     "period": "2018/07"
   },
-  "hhid": {
+  "hhid_g": {
     "study": "gip",
-    "name": "hhid",
-    "name_cs": "hhid",
-    "variable": "hhid",
+    "name": "hhid_g",
+    "name_cs": "hhid_g",
+    "variable": "hhid_g",
     "dataset": "gip_w36_v1",
-    "label": "",
+    "label": "Household Identifyer, GIP",
     "categories": {
       "frequencies": [],
       "labels": [],
@@ -65,12 +65,12 @@
         "invalid"
       ],
       "values": [
-        "122",
-        "21613",
-        "40021.5",
-        "35914.2175324675",
-        "49314.5",
-        "60026",
+        "100059",
+        "275823.75",
+        "303342",
+        "275648.761363636",
+        "308092.5",
+        "312238",
         "2464",
         "0"
       ]
@@ -87,7 +87,7 @@
     "name_cs": "pid",
     "variable": "pid",
     "dataset": "gip_w36_v1",
-    "label": "",
+    "label": "Person identifyer (wthin HH)",
     "categories": {
       "frequencies": [],
       "labels": [],
@@ -141,10 +141,10 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. m\u00e4nnlich",
+        "1. m\u00c3\u00a4nnlich",
         "2. weiblich",
         "."
       ],
@@ -155,7 +155,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -213,7 +213,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1935-1939",
@@ -249,7 +249,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -278,8 +278,8 @@
         "invalid"
       ],
       "values": [
-        "2463",
-        "1"
+        "2461",
+        "3"
       ]
     },
     "scale": "cat",
@@ -311,10 +311,10 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. Noch Sch\u00fcler/-in",
+        "1. Noch Sch\u00c3\u00bcler/-in",
         "2. Schule beendet ohne Abschluss",
         "3. Volks-/Hauptschulabschluss bzw. Polytechnische Oberschule mit Abschluss 8. oder 9. Klasse",
         "4. Mittlere Reife, Realschulabschluss bzw. Polytechnische Oberschule mit Abschluss 10. Klasse",
@@ -393,19 +393,19 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Noch in beruflicher Ausbildung (Berufsvorbereitungsjahr, Auszubildende/-r, Praktikant/-in, Student/-in)",
-        "2. Sch\u00fcler/-in und besuche eine berufsorientierte Aufbau-, Fachschule o. \u00e4.",
+        "2. Sch\u00c3\u00bcler/-in und besuche eine berufsorientierte Aufbau-, Fachschule o. \u00c3\u00a4.",
         "3. Keinen beruflichen Abschluss und bin nicht in beruflicher Ausbildung",
         "4. Beruflich-betriebliche Berufsausbildung (Lehre) abgeschlossen",
-        "5. Beruflich-schulische Ausbildung (Berufsfachschule, Handelsschule, Vorbereitungsdienst f\u00fcr den mittleren Dienst in der \u00f6ffentlichen Verwaltung) abgeschlossen",
+        "5. Beruflich-schulische Ausbildung (Berufsfachschule, Handelsschule, Vorbereitungsdienst f\u00c3\u00bcr den mittleren Dienst in der \u00c3\u00b6ffentlichen Verwaltung) abgeschlossen",
         "6. Ausbildung an einer Fachschule der DDR abgeschlossen",
         "7. Ausbildung an einer Fach-, Meister-, Technikerschule, Berufs- oder Fachakademie abgeschlossen",
         "8. Bachelor an (Fach-)Hochschule abgeschlossen",
         "9. Fachhochschulabschluss (z. B. Diplom, Master)",
-        "10. Universit\u00e4tsabschluss (z. B. Diplom, Magister, Staatsexamen, Master)",
+        "10. Universit\u00c3\u00a4tsabschluss (z. B. Diplom, Magister, Staatsexamen, Master)",
         "11. Promotion",
         "12. Ein anderer beruflicher Abschluss, und zwar (bitte eintragen): _____________________"
       ],
@@ -483,12 +483,11 @@
         18,
         3,
         0,
-        2,
-        0
+        2
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Verheiratet und leben mit Ihrem/Ihrer Ehepartner/-in zusammen",
@@ -499,11 +498,9 @@
         "6. Eingetragene Lebenspartnerschaft, zusammenlebend",
         "7. Eingetragene Lebenspartnerschaft, getrennt lebend",
         "8. Eingetragene/-r Lebenspartner/-in verstorben",
-        "9. Eingetragene Lebenspartnerschaft aufgehoben",
-        "10.  "
+        "9. Eingetragene Lebenspartnerschaft aufgehoben"
       ],
       "missings": [
-        false,
         false,
         false,
         false,
@@ -531,8 +528,7 @@
         "6",
         "7",
         "8",
-        "9",
-        "10"
+        "9"
       ]
     },
     "statistics": {
@@ -573,7 +569,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1",
@@ -593,7 +589,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -658,25 +654,25 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. Vollzeiterwerbst\u00e4tig",
-        "2. Teilzeiterwerbst\u00e4tig",
-        "3. Altersteilzeit (unabh\u00e4ngig davon, ob in der Arbeits- oder Freistellungsphase befindlich)",
-        "4. Geringf\u00fcgig erwerbst\u00e4tig, 400-Euro-Job, Minijob",
-        "5. \u201eEin-Euro-Job\u201c (bei Bezug von Arbeitslosengeld II)",
-        "6. Gelegentlich oder unregelm\u00e4\u00dfig besch\u00e4ftigt",
+        "1. Vollzeiterwerbst\u00c3\u00a4tig",
+        "2. Teilzeiterwerbst\u00c3\u00a4tig",
+        "3. Altersteilzeit (unabh\u00c3\u00a4ngig davon, ob in der Arbeits- oder Freistellungsphase befindlich)",
+        "4. Geringf\u00c3\u00bcgig erwerbst\u00c3\u00a4tig, 400-Euro-Job, Minijob",
+        "5. \u00e2\u20ac\u017eEin-Euro-Job\u00e2\u20ac\u0153 (bei Bezug von Arbeitslosengeld II)",
+        "6. Gelegentlich oder unregelm\u00c3\u00a4\u00c3\u0178ig besch\u00c3\u00a4ftigt",
         "7. In einer beruflichen Ausbildung/Lehre",
         "8. In Umschulung",
         "9. Freiwilliger Wehrdienst, Bundesfreiwilligendienst",
-        "10. Freiwilliges Soziales/\u00d6kologisches/Kulturelles Jahr",
+        "10. Freiwilliges Soziales/\u00c3\u2013kologisches/Kulturelles Jahr",
         "11. Mutterschafts-, Erziehungsurlaub, Elternzeit oder sonstige Beurlaubung (Altersteilzeit oben angeben)",
-        "12. Sch\u00fcler/-in an einer allgemeinbildenden Schule",
+        "12. Sch\u00c3\u00bcler/-in an einer allgemeinbildenden Schule",
         "13. Student/-in",
-        "14. Rentner/-in, Pension\u00e4r/-in, im Vorruhestand",
+        "14. Rentner/-in, Pension\u00c3\u00a4r/-in, im Vorruhestand",
         "15. Arbeitslos",
-        "16. Dauerhaft erwerbsunf\u00e4hig",
+        "16. Dauerhaft erwerbsunf\u00c3\u00a4hig",
         "17. Hausfrau/Hausmann",
         "."
       ],
@@ -702,7 +698,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -764,12 +760,12 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. Ja, nur die deutsche Staatsangeh\u00f6rig",
-        "2. Ja, die deutsche Staatsangeh\u00f6rigkeit",
-        "3. Nein, habe eine andere Staatsangeh\u00f6rigkeit"
+        "1. Ja, nur die deutsche Staatsangeh\u00c3\u00b6rig",
+        "2. Ja, die deutsche Staatsangeh\u00c3\u00b6rigkeit",
+        "3. Nein, habe eine andere Staatsangeh\u00c3\u00b6rigkeit"
       ],
       "missings": [
         false,
@@ -830,9 +826,9 @@
         4
       ],
       "labels": [
-        "-99. Wei\u00df nicht",
+        "-99. Wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "2. Nutze ich nie",
@@ -841,7 +837,7 @@
         "5. Mehrmals im Monat",
         "6. Einmal in der Woche",
         "7. Mehrmals in der Woche",
-        "8. T\u00e4glich",
+        "8. T\u00c3\u00a4glich",
         "."
       ],
       "missings": [
@@ -857,7 +853,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -881,8 +877,8 @@
         "invalid"
       ],
       "values": [
-        "2460",
-        "4"
+        "2450",
+        "14"
       ]
     },
     "scale": "cat",
@@ -919,7 +915,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Schleswig-Holstein/Hamburg",
@@ -927,13 +923,13 @@
         "5. Nordrhein-Westfalen",
         "6. Hessen",
         "7. Rheinland-Pfalz/Saarland",
-        "8. Baden-W\u00fcrttemberg",
+        "8. Baden-W\u00c3\u00bcrttemberg",
         "9. Bayern",
         "11. Berlin/Brandenburg",
         "13. Mecklenburg-Vorpommern",
         "14. Sachsen",
         "15. Sachsen-Anhalt",
-        "16. Th\u00fcringen"
+        "16. Th\u00c3\u00bcringen"
       ],
       "missings": [
         false,
@@ -1006,7 +1002,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. recruited 2012",
@@ -1106,7 +1102,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. not equipped with pc/internet",
@@ -1173,7 +1169,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Gruppe 1",
@@ -1193,7 +1189,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -1244,22 +1240,20 @@
         113,
         156,
         71,
-        0,
         1852
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. stimme \u00fcberhaupt nicht zu",
+        "1. stimme \u00c3\u00bcberhaupt nicht zu",
         "2. stimme nicht zu",
         "3. stimme eher nicht zu",
         "4. teils-teils",
         "5. stimme eher zu",
         "6. stimme zu",
         "7. stimme voll und ganz zu",
-        "8.  ",
         "."
       ],
       "missings": [
@@ -1274,8 +1268,7 @@
         false,
         false,
         false,
-        false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -1289,7 +1282,6 @@
         "5",
         "6",
         "7",
-        "8",
         "."
       ]
     },
@@ -1299,8 +1291,8 @@
         "invalid"
       ],
       "values": [
-        "612",
-        "1852"
+        "610",
+        "1854"
       ]
     },
     "scale": "cat",
@@ -1329,22 +1321,20 @@
         394,
         281,
         67,
-        0,
         18
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. stimme \u00fcberhaupt nicht zu",
+        "1. stimme \u00c3\u00bcberhaupt nicht zu",
         "2. stimme nicht zu",
         "3. stimme eher nicht zu",
         "4. teils-teils",
         "5. stimme eher zu",
         "6. stimme zu",
         "7. stimme voll und ganz zu",
-        "8.  ",
         "."
       ],
       "missings": [
@@ -1359,8 +1349,7 @@
         false,
         false,
         false,
-        false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -1374,7 +1363,6 @@
         "5",
         "6",
         "7",
-        "8",
         "."
       ]
     },
@@ -1384,8 +1372,8 @@
         "invalid"
       ],
       "values": [
-        "2446",
-        "18"
+        "2445",
+        "19"
       ]
     },
     "scale": "cat",
@@ -1414,22 +1402,20 @@
         107,
         34,
         4,
-        0,
         18
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. stimme \u00fcberhaupt nicht zu",
+        "1. stimme \u00c3\u00bcberhaupt nicht zu",
         "2. stimme nicht zu",
         "3. stimme eher nicht zu",
         "4. teils-teils",
         "5. stimme eher zu",
         "6. stimme zu",
         "7. stimme voll und ganz zu",
-        "8.  ",
         "."
       ],
       "missings": [
@@ -1444,8 +1430,7 @@
         false,
         false,
         false,
-        false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -1459,7 +1444,6 @@
         "5",
         "6",
         "7",
-        "8",
         "."
       ]
     },
@@ -1506,31 +1490,27 @@
         1,
         24,
         209,
-        0,
-        0,
         19
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Christlich Demokratische Union/Christlich Soziale Union (CDU/CSU)",
         "2. Sozialdemokratische Partei Deutschlands (SPD)",
-        "3. Alternative f\u00fcr Deutschland (AfD)",
+        "3. Alternative f\u00c3\u00bcr Deutschland (AfD)",
         "4. Freie Demokratische Partei (FDP)",
         "5. Die Linke (Linke)",
-        "6. B\u00fcndnis 90 / Die Gr\u00fcnen (Gr\u00fcne)",
-        "7. Freie W\u00e4hler(FW)",
+        "6. B\u00c3\u00bcndnis 90 / Die Gr\u00c3\u00bcnen (Gr\u00c3\u00bcne)",
+        "7. Freie W\u00c3\u00a4hler(FW)",
         "8. Die PARTEI",
         "9. Nationaldemokratische Partei Deutschlands (NPD)",
         "10. Piratenpartei Deutschland (Piraten)",
         "11. Die Republikaner (REP)",
         "12. Andere Partei",
-        "13. W\u00fcrde nicht w\u00e4hlen",
-        "14.  ",
-        "15.  ",
+        "13. W\u00c3\u00bcrde nicht w\u00c3\u00a4hlen",
         "."
       ],
       "missings": [
@@ -1552,9 +1532,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -1575,8 +1553,6 @@
         "11",
         "12",
         "13",
-        "14",
-        "15",
         "."
       ]
     },
@@ -1586,8 +1562,8 @@
         "invalid"
       ],
       "values": [
-        "2445",
-        "19"
+        "1992",
+        "472"
       ]
     },
     "scale": "cat",
@@ -1621,17 +1597,12 @@
         124,
         58,
         227,
-        0,
-        0,
-        0,
-        0,
-        0,
         19
       ],
       "labels": [
-        "-99. wei\u00df ich nicht",
+        "-99. wei\u00c3\u0178 ich nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1 weiter vorantreiben",
@@ -1645,11 +1616,6 @@
         "9. 9",
         "10. 10",
         "11. 11 zu weit gegangen",
-        "12.  ",
-        "13.  ",
-        "14.  ",
-        "15.  ",
-        "16.  ",
         "."
       ],
       "missings": [
@@ -1669,12 +1635,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -1693,11 +1654,6 @@
         "9",
         "10",
         "11",
-        "12",
-        "13",
-        "14",
-        "15",
-        "16",
         "."
       ]
     },
@@ -1707,8 +1663,8 @@
         "invalid"
       ],
       "values": [
-        "2445",
-        "19"
+        "2237",
+        "227"
       ]
     },
     "scale": "cat",
@@ -1773,15 +1729,12 @@
         28,
         3,
         65,
-        0,
-        0,
-        0,
         1660
       ],
       "labels": [
-        "-99. wei\u00df ich nicht",
+        "-99. wei\u00c3\u0178 ich nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1 weiter vorantreiben",
@@ -1796,10 +1749,7 @@
         "10. 10",
         "11. 11 zu weit gegangen",
         "12. kenne die Partei nicht",
-        "13. wei\u00df nicht, wo ich die Partei platzieren soll",
-        "14.  ",
-        "15.  ",
-        "16.  ",
+        "13. wei\u00c3\u0178 nicht, wo ich die Partei platzieren soll",
         "."
       ],
       "missings": [
@@ -1821,10 +1771,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -1845,9 +1792,6 @@
         "11",
         "12",
         "13",
-        "14",
-        "15",
-        "16",
         "."
       ]
     },
@@ -1857,8 +1801,8 @@
         "invalid"
       ],
       "values": [
-        "804",
-        "1660"
+        "728",
+        "1736"
       ]
     },
     "scale": "cat",
@@ -1894,15 +1838,12 @@
         18,
         0,
         80,
-        0,
-        0,
-        0,
         1641
       ],
       "labels": [
-        "-99. wei\u00df ich nicht",
+        "-99. wei\u00c3\u0178 ich nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1 weiter vorantreiben",
@@ -1917,10 +1858,7 @@
         "10. 10",
         "11. 11 zu weit gegangen",
         "12. kenne die Partei nicht",
-        "13. wei\u00df nicht, wo ich die Partei platzieren soll",
-        "14.  ",
-        "15.  ",
-        "16.  ",
+        "13. wei\u00c3\u0178 nicht, wo ich die Partei platzieren soll",
         "."
       ],
       "missings": [
@@ -1942,10 +1880,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -1966,9 +1901,6 @@
         "11",
         "12",
         "13",
-        "14",
-        "15",
-        "16",
         "."
       ]
     },
@@ -1978,8 +1910,8 @@
         "invalid"
       ],
       "values": [
-        "823",
-        "1641"
+        "744",
+        "1720"
       ]
     },
     "scale": "cat",
@@ -2015,15 +1947,12 @@
         32,
         6,
         158,
-        0,
-        0,
-        0,
         1627
       ],
       "labels": [
-        "-99. wei\u00df ich nicht",
+        "-99. wei\u00c3\u0178 ich nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1 weiter vorantreiben",
@@ -2038,10 +1967,7 @@
         "10. 10",
         "11. 11 zu weit gegangen",
         "12. kenne die Partei nicht",
-        "13. wei\u00df nicht, wo ich die Partei platzieren soll",
-        "14.  ",
-        "15.  ",
-        "16.  ",
+        "13. wei\u00c3\u0178 nicht, wo ich die Partei platzieren soll",
         "."
       ],
       "missings": [
@@ -2063,10 +1989,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -2087,9 +2010,6 @@
         "11",
         "12",
         "13",
-        "14",
-        "15",
-        "16",
         "."
       ]
     },
@@ -2099,8 +2019,8 @@
         "invalid"
       ],
       "values": [
-        "837",
-        "1627"
+        "730",
+        "1734"
       ]
     },
     "scale": "cat",
@@ -2136,15 +2056,12 @@
         15,
         6,
         119,
-        0,
-        0,
-        0,
         1659
       ],
       "labels": [
-        "-99. wei\u00df ich nicht",
+        "-99. wei\u00c3\u0178 ich nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1 weiter vorantreiben",
@@ -2159,10 +2076,7 @@
         "10. 10",
         "11. 11 zu weit gegangen",
         "12. kenne die Partei nicht",
-        "13. wei\u00df nicht, wo ich die Partei platzieren soll",
-        "14.  ",
-        "15.  ",
-        "16.  ",
+        "13. wei\u00c3\u0178 nicht, wo ich die Partei platzieren soll",
         "."
       ],
       "missings": [
@@ -2184,10 +2098,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -2208,9 +2119,6 @@
         "11",
         "12",
         "13",
-        "14",
-        "15",
-        "16",
         "."
       ]
     },
@@ -2220,8 +2128,8 @@
         "invalid"
       ],
       "values": [
-        "805",
-        "1659"
+        "706",
+        "1758"
       ]
     },
     "scale": "cat",
@@ -2257,15 +2165,12 @@
         14,
         5,
         161,
-        0,
-        0,
-        0,
         1665
       ],
       "labels": [
-        "-99. wei\u00df ich nicht",
+        "-99. wei\u00c3\u0178 ich nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1 weiter vorantreiben",
@@ -2280,10 +2185,7 @@
         "10. 10",
         "11. 11 zu weit gegangen",
         "12. kenne die Partei nicht",
-        "13. wei\u00df nicht, wo ich die Partei platzieren soll",
-        "14.  ",
-        "15.  ",
-        "16.  ",
+        "13. wei\u00c3\u0178 nicht, wo ich die Partei platzieren soll",
         "."
       ],
       "missings": [
@@ -2305,10 +2207,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -2329,9 +2228,6 @@
         "11",
         "12",
         "13",
-        "14",
-        "15",
-        "16",
         "."
       ]
     },
@@ -2341,8 +2237,8 @@
         "invalid"
       ],
       "values": [
-        "799",
-        "1665"
+        "705",
+        "1759"
       ]
     },
     "scale": "cat",
@@ -2378,15 +2274,12 @@
         306,
         5,
         109,
-        0,
-        0,
-        0,
         1646
       ],
       "labels": [
-        "-99. wei\u00df ich nicht",
+        "-99. wei\u00c3\u0178 ich nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1 weiter vorantreiben",
@@ -2401,10 +2294,7 @@
         "10. 10",
         "11. 11 zu weit gegangen",
         "12. kenne die Partei nicht",
-        "13. wei\u00df nicht, wo ich die Partei platzieren soll",
-        "14.  ",
-        "15.  ",
-        "16.  ",
+        "13. wei\u00c3\u0178 nicht, wo ich die Partei platzieren soll",
         "."
       ],
       "missings": [
@@ -2426,10 +2316,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -2450,9 +2337,6 @@
         "11",
         "12",
         "13",
-        "14",
-        "15",
-        "16",
         "."
       ]
     },
@@ -2462,8 +2346,8 @@
         "invalid"
       ],
       "values": [
-        "818",
-        "1646"
+        "733",
+        "1731"
       ]
     },
     "scale": "cat",
@@ -2494,7 +2378,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Gruppe 1",
@@ -2514,7 +2398,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -2565,22 +2449,20 @@
         380,
         207,
         132,
-        0,
         23
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. stimme \u00fcberhaupt nicht zu",
+        "1. stimme \u00c3\u00bcberhaupt nicht zu",
         "2. stimme nicht zu",
         "3. stimme eher nicht zu",
         "4. teils-teils",
         "5. stimme eher zu",
         "6. stimme zu",
         "7. stimme voll und ganz zu",
-        "8.  ",
         "."
       ],
       "missings": [
@@ -2595,8 +2477,7 @@
         false,
         false,
         false,
-        false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -2610,7 +2491,6 @@
         "5",
         "6",
         "7",
-        "8",
         "."
       ]
     },
@@ -2620,8 +2500,8 @@
         "invalid"
       ],
       "values": [
-        "2441",
-        "23"
+        "2440",
+        "24"
       ]
     },
     "scale": "cat",
@@ -2652,7 +2532,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Gruppe 1",
@@ -2672,7 +2552,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -2723,22 +2603,20 @@
         507,
         56,
         15,
-        0,
         26
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. v\u00f6llig unzufrieden",
+        "1. v\u00c3\u00b6llig unzufrieden",
         "2. sehr unzufrieden",
         "3. ziemlich unzufrieden",
         "4. weder unzufrieden noch zufrieden",
         "5. ziemlich zufrieden",
         "6. sehr zufrieden",
-        "7. v\u00f6llig zufrieden",
-        "8.  ",
+        "7. v\u00c3\u00b6llig zufrieden",
         "."
       ],
       "missings": [
@@ -2753,8 +2631,7 @@
         false,
         false,
         false,
-        false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -2768,7 +2645,6 @@
         "5",
         "6",
         "7",
-        "8",
         "."
       ]
     },
@@ -2778,8 +2654,8 @@
         "invalid"
       ],
       "values": [
-        "2438",
-        "26"
+        "2429",
+        "35"
       ]
     },
     "scale": "cat",
@@ -2807,7 +2683,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Gruppe 1",
@@ -2821,7 +2697,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -2855,7 +2731,7 @@
     "name_cs": "CD36129",
     "variable": "cd36129",
     "dataset": "gip_w36_v1",
-    "label": "Most important topic overall - B90/Gr\u00fcne",
+    "label": "Most important topic overall - B90/Gr\u00c3\u00bcne",
     "categories": {
       "frequencies": [
         105,
@@ -2891,11 +2767,11 @@
         1245
       ],
       "labels": [
-        "-99. wei\u00df nicht/keine Meinung",
-        "-98. m\u00f6chte ich nicht sagen/keine Angabe",
+        "-99. wei\u00c3\u0178 nicht/keine Meinung",
+        "-98. m\u00c3\u00b6chte ich nicht sagen/keine Angabe",
         "-97. trifft nicht zu",
-        "-95. Antwort l\u00e4sst sich keinem Politikfeld zuordnen",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-95. Antwort l\u00c3\u00a4sst sich keinem Politikfeld zuordnen",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Macroeconomics",
@@ -2954,7 +2830,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -2996,8 +2872,8 @@
         "invalid"
       ],
       "values": [
-        "1219",
-        "1245"
+        "962",
+        "1502"
       ]
     },
     "scale": "cat",
@@ -3026,7 +2902,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Treatment 1 (Gruppe 1)",
@@ -3042,7 +2918,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -3077,7 +2953,7 @@
     "name_cs": "CD36131",
     "variable": "cd36131",
     "dataset": "gip_w36_v1",
-    "label": "Most important topic in last election - B90/Gr\u00fcne",
+    "label": "Most important topic in last election - B90/Gr\u00c3\u00bcne",
     "categories": {
       "frequencies": [
         110,
@@ -3113,11 +2989,11 @@
         1249
       ],
       "labels": [
-        "-99. wei\u00df nicht/keine Meinung",
-        "-98. m\u00f6chte ich nicht sagen/keine Angabe",
+        "-99. wei\u00c3\u0178 nicht/keine Meinung",
+        "-98. m\u00c3\u00b6chte ich nicht sagen/keine Angabe",
         "-97. trifft nicht zu",
-        "-95. Antwort l\u00e4sst sich keinem Politikfeld zuordnen",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-95. Antwort l\u00c3\u00a4sst sich keinem Politikfeld zuordnen",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Macroeconomics",
@@ -3176,7 +3052,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -3218,8 +3094,8 @@
         "invalid"
       ],
       "values": [
-        "1215",
-        "1249"
+        "932",
+        "1532"
       ]
     },
     "scale": "cat",
@@ -3270,11 +3146,11 @@
         1245
       ],
       "labels": [
-        "-99. wei\u00df nicht/keine Meinung",
-        "-98. m\u00f6chte ich nicht sagen/keine Angabe",
+        "-99. wei\u00c3\u0178 nicht/keine Meinung",
+        "-98. m\u00c3\u00b6chte ich nicht sagen/keine Angabe",
         "-97. trifft nicht zu",
-        "-95. Antwort l\u00e4sst sich keinem Politikfeld zuordnen",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-95. Antwort l\u00c3\u00a4sst sich keinem Politikfeld zuordnen",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Macroeconomics",
@@ -3333,7 +3209,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -3375,8 +3251,8 @@
         "invalid"
       ],
       "values": [
-        "1219",
-        "1245"
+        "982",
+        "1482"
       ]
     },
     "scale": "cat",
@@ -3405,7 +3281,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Treatment 1 (Gruppe 1)",
@@ -3421,7 +3297,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -3492,11 +3368,11 @@
         1253
       ],
       "labels": [
-        "-99. wei\u00df nicht/keine Meinung",
-        "-98. m\u00f6chte ich nicht sagen/keine Angabe",
+        "-99. wei\u00c3\u0178 nicht/keine Meinung",
+        "-98. m\u00c3\u00b6chte ich nicht sagen/keine Angabe",
         "-97. trifft nicht zu",
-        "-95. Antwort l\u00e4sst sich keinem Politikfeld zuordnen",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-95. Antwort l\u00c3\u00a4sst sich keinem Politikfeld zuordnen",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Macroeconomics",
@@ -3555,7 +3431,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -3597,8 +3473,8 @@
         "invalid"
       ],
       "values": [
-        "1211",
-        "1253"
+        "969",
+        "1495"
       ]
     },
     "scale": "cat",
@@ -3619,7 +3495,9 @@
         19,
         125,
         623,
+        0,
         8,
+        0,
         34,
         29,
         88,
@@ -3634,10 +3512,12 @@
         37
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-98. Keine Angabe",
         "-97. trifft nicht zu",
-        "-90",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
         "0. 0 ganz und gar unzufrieden",
         "1. 1",
         "2. 2",
@@ -3667,13 +3547,17 @@
         false,
         false,
         false,
-        true
+        false,
+        false,
+        false
       ],
       "values": [
         "-99",
         "-98",
         "-97",
+        "-91",
         "-90",
+        "-80",
         "0",
         "1",
         "2",
@@ -3694,8 +3578,8 @@
         "invalid"
       ],
       "values": [
-        "2427",
-        "37"
+        "1652",
+        "812"
       ]
     },
     "scale": "cat",
@@ -3716,7 +3600,9 @@
         10,
         52,
         5,
+        0,
         4,
+        0,
         45,
         31,
         74,
@@ -3731,10 +3617,12 @@
         37
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-98. Keine Angabe",
         "-97. trifft nicht zu",
-        "-90",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
         "0. 0 ganz und gar unzufrieden",
         "1. 1",
         "2. 2",
@@ -3764,13 +3652,17 @@
         false,
         false,
         false,
-        true
+        false,
+        false,
+        false
       ],
       "values": [
         "-99",
         "-98",
         "-97",
+        "-91",
         "-90",
+        "-80",
         "0",
         "1",
         "2",
@@ -3791,8 +3683,8 @@
         "invalid"
       ],
       "values": [
-        "2427",
-        "37"
+        "2356",
+        "108"
       ]
     },
     "scale": "cat",
@@ -3813,7 +3705,9 @@
         13,
         96,
         550,
+        0,
         3,
+        0,
         68,
         37,
         109,
@@ -3828,10 +3722,12 @@
         37
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-98. Keine Angabe",
         "-97. trifft nicht zu",
-        "-90",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
         "0. 0 ganz und gar unzufrieden",
         "1. 1",
         "2. 2",
@@ -3861,13 +3757,17 @@
         false,
         false,
         false,
-        true
+        false,
+        false,
+        false
       ],
       "values": [
         "-99",
         "-98",
         "-97",
+        "-91",
         "-90",
+        "-80",
         "0",
         "1",
         "2",
@@ -3888,8 +3788,8 @@
         "invalid"
       ],
       "values": [
-        "2427",
-        "37"
+        "1765",
+        "699"
       ]
     },
     "scale": "cat",
@@ -3924,15 +3824,15 @@
         "invalid"
       ],
       "values": [
-        "-90",
-        "1",
+        "0",
+        "2",
         "8",
-        "4.04987633965375",
+        "6.59822184589331",
         "10",
         "24",
-        "38",
-        "2426",
-        "38"
+        "102",
+        "2362",
+        "102"
       ]
     },
     "scale": "",
@@ -3967,15 +3867,15 @@
         "invalid"
       ],
       "values": [
-        "-90",
+        "0",
         "1",
         "2",
-        "1.70074196207749",
+        "2.88768267223382",
         "4",
         "24",
-        "38",
-        "2426",
-        "38"
+        "69",
+        "2395",
+        "69"
       ]
     },
     "scale": "",
@@ -4004,28 +3904,20 @@
         408,
         417,
         144,
-        0,
-        0,
-        0,
-        0,
         38
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-98. Keine Angabe",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. unterst\u00fctze ich voll und ganz",
-        "2. unterst\u00fctze ich eher",
+        "1. unterst\u00c3\u00bctze ich voll und ganz",
+        "2. unterst\u00c3\u00bctze ich eher",
         "3. weder noch",
         "4. lehne ich eher ab",
         "5. lehne ich voll und ganz ab",
-        "6.  ",
-        "7.  ",
-        "8.  ",
-        "9.  ",
         "."
       ],
       "missings": [
@@ -4040,11 +3932,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -4058,10 +3946,6 @@
         "3",
         "4",
         "5",
-        "6",
-        "7",
-        "8",
-        "9",
         "."
       ]
     },
@@ -4071,8 +3955,8 @@
         "invalid"
       ],
       "values": [
-        "2426",
-        "38"
+        "2148",
+        "316"
       ]
     },
     "scale": "cat",
@@ -4098,25 +3982,17 @@
         0,
         1139,
         475,
-        0,
-        0,
-        0,
-        0,
         38
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-98. Keine Angabe",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. ja",
         "2. nein",
-        "3.  ",
-        "4.  ",
-        "5.  ",
-        "6.  ",
         "."
       ],
       "missings": [
@@ -4128,11 +4004,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -4143,10 +4015,6 @@
         "-80",
         "1",
         "2",
-        "3",
-        "4",
-        "5",
-        "6",
         "."
       ]
     },
@@ -4156,8 +4024,8 @@
         "invalid"
       ],
       "values": [
-        "2426",
-        "38"
+        "1614",
+        "850"
       ]
     },
     "scale": "cat",
@@ -4186,28 +4054,20 @@
         463,
         146,
         162,
-        0,
-        0,
-        0,
-        0,
         1325
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-98. Keine Angabe",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. ich h\u00e4tte gerne mehr Zeit f\u00fcr meine Kinder.",
-        "2. ich h\u00e4tte gerne mehr Zeit f\u00fcr die Pflege von Menschen, die mir nahe stehen.",
-        "3. ich h\u00e4tte gerne mehr Zeit f\u00fcr mich.",
+        "1. ich h\u00c3\u00a4tte gerne mehr Zeit f\u00c3\u00bcr meine Kinder.",
+        "2. ich h\u00c3\u00a4tte gerne mehr Zeit f\u00c3\u00bcr die Pflege von Menschen, die mir nahe stehen.",
+        "3. ich h\u00c3\u00a4tte gerne mehr Zeit f\u00c3\u00bcr mich.",
         "4. ich habe gesundheitliche Beschwerden.",
-        "5. ich habe andere Gr\u00fcnde.",
-        "6.  ",
-        "7.  ",
-        "8.  ",
-        "9.  ",
+        "5. ich habe andere Gr\u00c3\u00bcnde.",
         "."
       ],
       "missings": [
@@ -4222,11 +4082,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -4240,10 +4096,6 @@
         "3",
         "4",
         "5",
-        "6",
-        "7",
-        "8",
-        "9",
         "."
       ]
     },
@@ -4253,8 +4105,8 @@
         "invalid"
       ],
       "values": [
-        "1139",
-        "1325"
+        "1099",
+        "1365"
       ]
     },
     "scale": "cat",
@@ -4283,28 +4135,20 @@
         145,
         59,
         59,
-        0,
-        0,
-        0,
-        0,
         1989
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-98. Keine Angabe",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. ich w\u00fcrde damit meine Karriere gef\u00e4hrden.",
-        "2. ich k\u00f6nnte es mir finanziell nicht leisten.",
+        "1. ich w\u00c3\u00bcrde damit meine Karriere gef\u00c3\u00a4hrden.",
+        "2. ich k\u00c3\u00b6nnte es mir finanziell nicht leisten.",
         "3. ich bin mit meiner Arbeitszeit zufrieden so wie sie ist.",
         "4. ich habe meine Arbeitszeit bereits in der Vergangenheit reduziert oder arbeite m",
-        "5. ich habe andere Gr\u00fcnde.",
-        "6.  ",
-        "7.  ",
-        "8.  ",
-        "9.  ",
+        "5. ich habe andere Gr\u00c3\u00bcnde.",
         "."
       ],
       "missings": [
@@ -4319,11 +4163,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -4337,10 +4177,6 @@
         "3",
         "4",
         "5",
-        "6",
-        "7",
-        "8",
-        "9",
         "."
       ]
     },
@@ -4350,8 +4186,8 @@
         "invalid"
       ],
       "values": [
-        "475",
-        "1989"
+        "450",
+        "2014"
       ]
     },
     "scale": "cat",
@@ -4379,27 +4215,19 @@
         1057,
         254,
         504,
-        0,
-        0,
-        0,
-        0,
         38
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-98. Keine Angabe",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. Berufst\u00e4tige sind \u00fcberwiegend selbst verantwortlich. Sie m\u00fcssen ihr Privatleb",
-        "2. Auch Arbeitgeber haben eine Verantwortung daf\u00fcr, die Arbeitsbedingungen so zu g",
-        "3. Die Tarifparteien m\u00fcssen entsprechende Regelungen in den Tarifvertr\u00e4gen schaff",
-        "4. Die Verantwortung sehe ich vor allem beim Staat. Es m\u00fcssen bessere Gesetze gesc",
-        "5.  ",
-        "6.  ",
-        "7.  ",
-        "8.  ",
+        "1. Berufst\u00c3\u00a4tige sind \u00c3\u00bcberwiegend selbst verantwortlich. Sie m\u00c3\u00bcssen ihr Privatleb",
+        "2. Auch Arbeitgeber haben eine Verantwortung daf\u00c3\u00bcr, die Arbeitsbedingungen so zu g",
+        "3. Die Tarifparteien m\u00c3\u00bcssen entsprechende Regelungen in den Tarifvertr\u00c3\u00a4gen schaff",
+        "4. Die Verantwortung sehe ich vor allem beim Staat. Es m\u00c3\u00bcssen bessere Gesetze gesc",
         "."
       ],
       "missings": [
@@ -4413,11 +4241,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -4430,10 +4254,6 @@
         "2",
         "3",
         "4",
-        "5",
-        "6",
-        "7",
-        "8",
         "."
       ]
     },
@@ -4443,8 +4263,8 @@
         "invalid"
       ],
       "values": [
-        "2426",
-        "38"
+        "2246",
+        "218"
       ]
     },
     "scale": "cat",
@@ -4473,17 +4293,13 @@
         564,
         516,
         117,
-        0,
-        0,
-        0,
-        0,
         38
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-98. Keine Angabe",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. ich stimme voll und ganz zu",
@@ -4491,10 +4307,6 @@
         "3. weder noch",
         "4. ich lehne eher ab",
         "5. ich lehne voll und ganz ab",
-        "6.  ",
-        "7.  ",
-        "8.  ",
-        "9.  ",
         "."
       ],
       "missings": [
@@ -4509,11 +4321,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -4527,10 +4335,6 @@
         "3",
         "4",
         "5",
-        "6",
-        "7",
-        "8",
-        "9",
         "."
       ]
     },
@@ -4540,8 +4344,8 @@
         "invalid"
       ],
       "values": [
-        "2426",
-        "38"
+        "2090",
+        "374"
       ]
     },
     "scale": "cat",
@@ -4584,25 +4388,25 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. Vollzeiterwerbst\u00e4tig",
-        "2. Teilzeiterwerbst\u00e4tig",
-        "3. Altersteilzeit (unabh\u00e4ngig davon, ob in der Arbeits- oder Freistellungsphase be",
-        "4. Geringf\u00fcgig erwerbst\u00e4tig, 450-Euro-Job, Minijob",
-        "5. \u0084Ein-Euro-Job\u0093 (bei Bezug von Arbeitslosengeld II)",
-        "6. Gelegentlich oder unregelm\u00e4\u00dfig besch\u00e4ftigt",
+        "1. Vollzeiterwerbst\u00c3\u00a4tig",
+        "2. Teilzeiterwerbst\u00c3\u00a4tig",
+        "3. Altersteilzeit (unabh\u00c3\u00a4ngig davon, ob in der Arbeits- oder Freistellungsphase be",
+        "4. Geringf\u00c3\u00bcgig erwerbst\u00c3\u00a4tig, 450-Euro-Job, Minijob",
+        "5. \u00c2\u201eEin-Euro-Job\u00c2\u201c (bei Bezug von Arbeitslosengeld II)",
+        "6. Gelegentlich oder unregelm\u00c3\u00a4\u00c3\u0178ig besch\u00c3\u00a4ftigt",
         "7. In einer beruflichen Ausbildung/Lehre",
         "8. In Umschulung",
         "9. Freiwilliger Wehrdienst, Bundesfreiwilligendienst",
-        "10. Freiwilliges Soziales/\u00d6kologisches/Kulturelles Jahr",
+        "10. Freiwilliges Soziales/\u00c3\u2013kologisches/Kulturelles Jahr",
         "11. Mutterschafts-, Erziehungsurlaub, Elternzeit oder sonstige Beurlaubung (Alterste",
-        "12. Sch\u00fcler/-in an einer allgemeinbildenden Schule",
+        "12. Sch\u00c3\u00bcler/-in an einer allgemeinbildenden Schule",
         "13. Student/-in",
-        "14. Rentner/-in, Pension\u00e4r/-in, im Vorruhestand",
+        "14. Rentner/-in, Pension\u00c3\u00a4r/-in, im Vorruhestand",
         "15. Arbeitslos",
-        "16. Dauerhaft erwerbsunf\u00e4hig",
+        "16. Dauerhaft erwerbsunf\u00c3\u00a4hig",
         "17. Hausfrau/Hausmann",
         "."
       ],
@@ -4628,7 +4432,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -4661,8 +4465,8 @@
         "invalid"
       ],
       "values": [
-        "2426",
-        "38"
+        "2423",
+        "41"
       ]
     },
     "scale": "cat",
@@ -4695,9 +4499,9 @@
         0
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. sehr viel mehr ausgeben",
@@ -4746,8 +4550,8 @@
         "invalid"
       ],
       "values": [
-        "2464",
-        "0"
+        "2244",
+        "220"
       ]
     },
     "scale": "cat",
@@ -4776,7 +4580,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Gruppe 1",
@@ -4792,7 +4596,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -4840,15 +4644,12 @@
         620,
         48,
         17,
-        0,
-        0,
-        0,
         38
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. sehr viel mehr ausgeben",
@@ -4856,9 +4657,6 @@
         "3. die Ausgaben auf dem jetzigen Stand halten",
         "4. etwas weniger ausgeben",
         "5. sehr viel weniger ausgeben",
-        "6.  ",
-        "7.  ",
-        "8.  ",
         "."
       ],
       "missings": [
@@ -4872,10 +4670,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -4888,9 +4683,6 @@
         "3",
         "4",
         "5",
-        "6",
-        "7",
-        "8",
         "."
       ]
     },
@@ -4900,8 +4692,8 @@
         "invalid"
       ],
       "values": [
-        "2426",
-        "38"
+        "2322",
+        "142"
       ]
     },
     "scale": "cat",
@@ -4916,7 +4708,7 @@
     "name_cs": "AC36194_TXT_na",
     "variable": "ac36194_txt_na",
     "dataset": "gip_w36_v1",
-    "label": "Gr\u00fcnde f\u00fcr Meinungs\u00e4nderung_na",
+    "label": "Gr\u00c3\u00bcnde f\u00c3\u00bcr Meinungs\u00c3\u00a4nderung_na",
     "categories": {
       "frequencies": [
         0,
@@ -4929,7 +4721,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. item not answered",
@@ -4943,7 +4735,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -4995,9 +4787,9 @@
         0
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. sehr viel mehr ausgeben",
@@ -5046,8 +4838,8 @@
         "invalid"
       ],
       "values": [
-        "2464",
-        "0"
+        "2204",
+        "260"
       ]
     },
     "scale": "cat",
@@ -5076,7 +4868,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Gruppe 1",
@@ -5092,7 +4884,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -5140,15 +4932,12 @@
         1189,
         388,
         124,
-        0,
-        0,
-        0,
         38
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. sehr viel mehr ausgeben",
@@ -5156,9 +4945,6 @@
         "3. die Ausgaben auf dem jetzigen Stand halten",
         "4. etwas weniger ausgeben",
         "5. sehr viel weniger ausgeben",
-        "6.  ",
-        "7.  ",
-        "8.  ",
         "."
       ],
       "missings": [
@@ -5172,10 +4958,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -5188,9 +4971,6 @@
         "3",
         "4",
         "5",
-        "6",
-        "7",
-        "8",
         "."
       ]
     },
@@ -5200,8 +4980,8 @@
         "invalid"
       ],
       "values": [
-        "2426",
-        "38"
+        "2298",
+        "166"
       ]
     },
     "scale": "cat",
@@ -5216,7 +4996,7 @@
     "name_cs": "AC36195_TXT_na",
     "variable": "ac36195_txt_na",
     "dataset": "gip_w36_v1",
-    "label": "Gr\u00fcnde f\u00fcr Meinungs\u00e4nderung_na",
+    "label": "Gr\u00c3\u00bcnde f\u00c3\u00bcr Meinungs\u00c3\u00a4nderung_na",
     "categories": {
       "frequencies": [
         0,
@@ -5229,7 +5009,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. item not answered",
@@ -5243,7 +5023,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -5283,32 +5063,28 @@
         203,
         654,
         43,
+        0,
+        0,
+        0,
         71,
         267,
         430,
         482,
         274,
-        0,
-        0,
-        0,
-        0,
-        0,
         40
       ],
       "labels": [
-        "-99. Wei\u00df nicht, weil f\u00fcr meine Person keine Steuererkl\u00e4rung abgegeben wird.",
-        "-98. Wei\u00df nicht, weil ich meine Steuererkl\u00e4rung nicht selbst ausf\u00fclle (sondern Par",
-        "-97. Keine Meinung",
+        "-99. Wei\u00c3\u0178 nicht, weil f\u00c3\u00bcr meine Person keine Steuererkl\u00c3\u00a4rung abgegeben wird.",
+        "-98. Wei\u00c3\u0178 nicht, weil ich meine Steuererkl\u00c3\u00a4rung nicht selbst ausf\u00c3\u00bclle (sondern Par",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
         "1. 1 Sehr leicht",
         "2. 2",
         "3. 3",
         "4. 4",
         "5. 5 Sehr schwer",
-        "6.  ",
-        "7.  ",
-        "8.  ",
-        "9.  ",
-        "10.  ",
         "."
       ],
       "missings": [
@@ -5323,24 +5099,20 @@
         false,
         false,
         false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
         "-98",
         "-97",
+        "-91",
+        "-90",
+        "-80",
         "1",
         "2",
         "3",
         "4",
         "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
         "."
       ]
     },
@@ -5350,8 +5122,8 @@
         "invalid"
       ],
       "values": [
-        "2424",
-        "40"
+        "1524",
+        "940"
       ]
     },
     "scale": "cat",
@@ -5380,7 +5152,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Gruppe 1",
@@ -5396,7 +5168,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -5445,14 +5217,12 @@
         355,
         501,
         1156,
-        0,
-        0,
         41
       ],
       "labels": [
-        "-99. Wei\u00df nicht",
+        "-99. Wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1 Auf keinen Fall",
@@ -5461,8 +5231,6 @@
         "4. 4",
         "5. 5",
         "6. 6 Auf jeden Fall",
-        "7.  ",
-        "8.  ",
         "."
       ],
       "missings": [
@@ -5477,9 +5245,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -5493,8 +5259,6 @@
         "4",
         "5",
         "6",
-        "7",
-        "8",
         "."
       ]
     },
@@ -5504,8 +5268,8 @@
         "invalid"
       ],
       "values": [
-        "2423",
-        "41"
+        "2190",
+        "274"
       ]
     },
     "scale": "cat",
@@ -5534,14 +5298,12 @@
         375,
         521,
         972,
-        0,
-        0,
         41
       ],
       "labels": [
-        "-99. Wei\u00df nicht",
+        "-99. Wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1 Auf keinen Fall",
@@ -5550,8 +5312,6 @@
         "4. 4",
         "5. 5",
         "6. 6 Auf jeden Fall",
-        "7.  ",
-        "8.  ",
         "."
       ],
       "missings": [
@@ -5566,9 +5326,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -5582,8 +5340,6 @@
         "4",
         "5",
         "6",
-        "7",
-        "8",
         "."
       ]
     },
@@ -5593,8 +5349,8 @@
         "invalid"
       ],
       "values": [
-        "2423",
-        "41"
+        "2067",
+        "397"
       ]
     },
     "scale": "cat",
@@ -5623,14 +5379,12 @@
         353,
         408,
         661,
-        0,
-        0,
         41
       ],
       "labels": [
-        "-99. Wei\u00df nicht",
+        "-99. Wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1 Beitrag zu einer gerechteren Einkommensverteilung",
@@ -5638,9 +5392,7 @@
         "3. 3",
         "4. 4",
         "5. 5",
-        "6. 6 Einkommensstarke B\u00fcrgerinnen und B\u00fcrger profitieren",
-        "7.  ",
-        "8.  ",
+        "6. 6 Einkommensstarke B\u00c3\u00bcrgerinnen und B\u00c3\u00bcrger profitieren",
         "."
       ],
       "missings": [
@@ -5655,9 +5407,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -5671,8 +5421,6 @@
         "4",
         "5",
         "6",
-        "7",
-        "8",
         "."
       ]
     },
@@ -5682,8 +5430,8 @@
         "invalid"
       ],
       "values": [
-        "2423",
-        "41"
+        "1998",
+        "466"
       ]
     },
     "scale": "cat",
@@ -5712,24 +5460,20 @@
         306,
         102,
         144,
-        0,
-        0,
         41
       ],
       "labels": [
-        "-99. Wei\u00df nicht",
+        "-99. Wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. Steuersystem mit einheitlichem Steuersatz f\u00fcr alle Steuerpflichtigen, aber ohne",
-        "2. Steuersystem mit einheitlichem Steuersatz f\u00fcr alle Steuerpflichtigen und unter",
-        "3. Steuersystem mit h\u00f6heren Steuers\u00e4tzen als derzeit f\u00fcr Besserverdiener (also s",
-        "4. Steuersystem mit vorausgef\u00fcllter Steuererkl\u00e4rung",
-        "5. Keine Ver\u00e4nderung",
-        "6. Andere Ma\u00dfnahme: Bitte tragen Sie hier Ihren Vorschlag ein",
-        "7.  ",
-        "8.  ",
+        "1. Steuersystem mit einheitlichem Steuersatz f\u00c3\u00bcr alle Steuerpflichtigen, aber ohne",
+        "2. Steuersystem mit einheitlichem Steuersatz f\u00c3\u00bcr alle Steuerpflichtigen und unter",
+        "3. Steuersystem mit h\u00c3\u00b6heren Steuers\u00c3\u00a4tzen als derzeit f\u00c3\u00bcr Besserverdiener (also s",
+        "4. Steuersystem mit vorausgef\u00c3\u00bcllter Steuererkl\u00c3\u00a4rung",
+        "5. Keine Ver\u00c3\u00a4nderung",
+        "6. Andere Ma\u00c3\u0178nahme: Bitte tragen Sie hier Ihren Vorschlag ein",
         "."
       ],
       "missings": [
@@ -5744,9 +5488,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -5760,8 +5502,6 @@
         "4",
         "5",
         "6",
-        "7",
-        "8",
         "."
       ]
     },
@@ -5771,8 +5511,8 @@
         "invalid"
       ],
       "values": [
-        "2423",
-        "41"
+        "1771",
+        "693"
       ]
     },
     "scale": "cat",
@@ -5804,7 +5544,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1-2-3",
@@ -5826,7 +5566,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -5874,18 +5614,16 @@
         46,
         1417,
         934,
-        0,
         43
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Person A sollte mehr Steuern zahlen",
         "2. Person B sollte mehr Steuern zahlen",
         "3. Person A und B sollten gleich viel Steuern zahlen",
-        "4.  ",
         "."
       ],
       "missings": [
@@ -5896,8 +5634,7 @@
         false,
         false,
         false,
-        false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -5907,7 +5644,6 @@
         "1",
         "2",
         "3",
-        "4",
         "."
       ]
     },
@@ -5917,8 +5653,8 @@
         "invalid"
       ],
       "values": [
-        "2421",
-        "43"
+        "2397",
+        "67"
       ]
     },
     "scale": "cat",
@@ -5950,7 +5686,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1-2-3",
@@ -5972,7 +5708,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -6020,18 +5756,16 @@
         59,
         758,
         1581,
-        0,
         43
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Person A sollte mehr Steuern zahlen",
         "2. Person B sollte mehr Steuern zahlen",
         "3. Person A und B sollten gleich viel Steuern zahlen",
-        "4.  ",
         "."
       ],
       "missings": [
@@ -6042,8 +5776,7 @@
         false,
         false,
         false,
-        false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -6053,7 +5786,6 @@
         "1",
         "2",
         "3",
-        "4",
         "."
       ]
     },
@@ -6063,8 +5795,8 @@
         "invalid"
       ],
       "values": [
-        "2421",
-        "43"
+        "2398",
+        "66"
       ]
     },
     "scale": "cat",
@@ -6096,7 +5828,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1-2-3",
@@ -6118,7 +5850,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -6166,18 +5898,16 @@
         58,
         930,
         1406,
-        0,
         45
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Person A sollte mehr Steuern zahlen",
         "2. Person B sollte mehr Steuern zahlen",
         "3. Person A und B sollten gleich viel Steuern zahlen",
-        "4.  ",
         "."
       ],
       "missings": [
@@ -6188,8 +5918,7 @@
         false,
         false,
         false,
-        false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -6199,7 +5928,6 @@
         "1",
         "2",
         "3",
-        "4",
         "."
       ]
     },
@@ -6209,8 +5937,8 @@
         "invalid"
       ],
       "values": [
-        "2419",
-        "45"
+        "2394",
+        "70"
       ]
     },
     "scale": "cat",
@@ -6239,7 +5967,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Gruppe 1",
@@ -6255,7 +5983,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -6304,14 +6032,12 @@
         470,
         507,
         969,
-        0,
-        0,
         45
       ],
       "labels": [
-        "-99. Wei\u00df nicht",
+        "-99. Wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1 Auf keinen Fall",
@@ -6320,8 +6046,6 @@
         "4. 4",
         "5. 5",
         "6. 6 Auf jeden Fall",
-        "7.  ",
-        "8.  ",
         "."
       ],
       "missings": [
@@ -6336,9 +6060,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -6352,8 +6074,6 @@
         "4",
         "5",
         "6",
-        "7",
-        "8",
         "."
       ]
     },
@@ -6363,8 +6083,8 @@
         "invalid"
       ],
       "values": [
-        "2419",
-        "45"
+        "2187",
+        "277"
       ]
     },
     "scale": "cat",
@@ -6392,7 +6112,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. item not checked",
@@ -6406,7 +6126,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -6453,7 +6173,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. item not checked",
@@ -6467,7 +6187,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -6514,7 +6234,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. item not checked",
@@ -6528,7 +6248,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -6575,7 +6295,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. item not checked",
@@ -6589,7 +6309,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -6636,7 +6356,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. item not checked",
@@ -6650,7 +6370,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -6697,7 +6417,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. item not checked",
@@ -6711,7 +6431,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -6758,7 +6478,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. item not checked",
@@ -6772,7 +6492,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -6819,7 +6539,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. item not checked",
@@ -6833,7 +6553,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -6880,7 +6600,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. item not checked",
@@ -6894,7 +6614,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -6941,7 +6661,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. item not checked",
@@ -6955,7 +6675,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -7002,7 +6722,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. item not checked",
@@ -7016,7 +6736,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -7050,7 +6770,7 @@
     "name_cs": "CF36087_l",
     "variable": "cf36087_l",
     "dataset": "gip_w36_v1",
-    "label": "Don\u0092t know",
+    "label": "Don\u00c2\u2019t know",
     "categories": {
       "frequencies": [
         0,
@@ -7063,7 +6783,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. item not checked",
@@ -7077,7 +6797,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -7124,12 +6844,11 @@
         216,
         147,
         495,
-        0,
         46
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. ab <b>2018</b>",
@@ -7137,8 +6856,7 @@
         "3. ab <b>2025</b>",
         "4. ab <b>2030</b>",
         "5. nach <b>2030</b>",
-        "6. <b>\u00fcberhaupt nicht</b>",
-        "7.  ",
+        "6. <b>\u00c3\u00bcberhaupt nicht</b>",
         "."
       ],
       "missings": [
@@ -7152,8 +6870,7 @@
         false,
         false,
         false,
-        false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -7166,7 +6883,6 @@
         "4",
         "5",
         "6",
-        "7",
         "."
       ]
     },
@@ -7176,8 +6892,8 @@
         "invalid"
       ],
       "values": [
-        "2418",
-        "46"
+        "2389",
+        "75"
       ]
     },
     "scale": "cat",
@@ -7206,12 +6922,11 @@
         233,
         73,
         42,
-        0,
         48
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. sehr gut",
@@ -7221,7 +6936,6 @@
         "5. eher schlecht",
         "6. schlecht",
         "7. sehr schlecht",
-        "8.  ",
         "."
       ],
       "missings": [
@@ -7236,8 +6950,7 @@
         false,
         false,
         false,
-        false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -7251,7 +6964,6 @@
         "5",
         "6",
         "7",
-        "8",
         "."
       ]
     },
@@ -7261,8 +6973,8 @@
         "invalid"
       ],
       "values": [
-        "2416",
-        "48"
+        "2400",
+        "64"
       ]
     },
     "scale": "cat",
@@ -7291,15 +7003,12 @@
         692,
         266,
         227,
-        0,
-        0,
-        0,
         48
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. sehr wahrscheinlich",
@@ -7308,9 +7017,6 @@
         "4. eher unwahrscheinlich",
         "5. unwahrscheinlich",
         "6. sehr unwahrscheinlich",
-        "7.  ",
-        "8.  ",
-        "9.  ",
         "."
       ],
       "missings": [
@@ -7325,10 +7031,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -7342,9 +7045,6 @@
         "4",
         "5",
         "6",
-        "7",
-        "8",
-        "9",
         "."
       ]
     },
@@ -7354,8 +7054,8 @@
         "invalid"
       ],
       "values": [
-        "2416",
-        "48"
+        "2237",
+        "227"
       ]
     },
     "scale": "cat",
@@ -7387,7 +7087,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. Gruppe 1",
@@ -7409,7 +7109,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -7461,12 +7161,11 @@
         224,
         59,
         34,
-        0,
         48
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. sehr gut",
@@ -7476,7 +7175,6 @@
         "5. eher schlecht",
         "6. schlecht",
         "7. sehr schlecht",
-        "8.  ",
         "."
       ],
       "missings": [
@@ -7491,8 +7189,7 @@
         false,
         false,
         false,
-        false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -7506,7 +7203,6 @@
         "5",
         "6",
         "7",
-        "8",
         "."
       ]
     },
@@ -7516,8 +7212,8 @@
         "invalid"
       ],
       "values": [
-        "2416",
-        "48"
+        "2399",
+        "65"
       ]
     },
     "scale": "cat",
@@ -7542,22 +7238,16 @@
         0,
         755,
         966,
-        0,
-        0,
-        0,
         48
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. bekommt Geld",
         "2. muss Geld bezahlen",
-        "3.  ",
-        "4.  ",
-        "5.  ",
         "."
       ],
       "missings": [
@@ -7568,10 +7258,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -7581,9 +7268,6 @@
         "-80",
         "1",
         "2",
-        "3",
-        "4",
-        "5",
         "."
       ]
     },
@@ -7593,8 +7277,8 @@
         "invalid"
       ],
       "values": [
-        "2416",
-        "48"
+        "1721",
+        "743"
       ]
     },
     "scale": "cat",
@@ -7622,7 +7306,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. 1-2-3-4",
@@ -7636,7 +7320,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -7682,24 +7366,18 @@
         922,
         596,
         143,
-        0,
-        0,
-        0,
         618
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "1. sehr zufrieden",
         "2. ziemlich zufrieden",
         "3. nicht sehr zufrieden",
-        "4. \u00fcberhaupt nicht zufrieden",
-        "5.  ",
-        "6.  ",
-        "7.  ",
+        "4. \u00c3\u00bcberhaupt nicht zufrieden",
         "."
       ],
       "missings": [
@@ -7712,10 +7390,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -7727,9 +7402,6 @@
         "2",
         "3",
         "4",
-        "5",
-        "6",
-        "7",
         "."
       ]
     },
@@ -7739,8 +7411,8 @@
         "invalid"
       ],
       "values": [
-        "1846",
-        "618"
+        "1751",
+        "713"
       ]
     },
     "scale": "cat",
@@ -7774,18 +7446,15 @@
         52,
         14,
         18,
-        0,
-        0,
-        0,
         618
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. 1 v\u00f6llig unzufrieden",
+        "1. 1 v\u00c3\u00b6llig unzufrieden",
         "2. 2",
         "3. 3",
         "4. 4",
@@ -7795,10 +7464,7 @@
         "8. 8",
         "9. 9",
         "10. 10",
-        "11. 11 v\u00f6llig zufrieden",
-        "12.  ",
-        "13.  ",
-        "14.  ",
+        "11. 11 v\u00c3\u00b6llig zufrieden",
         "."
       ],
       "missings": [
@@ -7818,10 +7484,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -7840,9 +7503,6 @@
         "9",
         "10",
         "11",
-        "12",
-        "13",
-        "14",
         "."
       ]
     },
@@ -7852,8 +7512,8 @@
         "invalid"
       ],
       "values": [
-        "1846",
-        "618"
+        "1775",
+        "689"
       ]
     },
     "scale": "cat",
@@ -7887,18 +7547,15 @@
         51,
         15,
         16,
-        0,
-        0,
-        0,
         618
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. 1 v\u00f6llig unzufrieden",
+        "1. 1 v\u00c3\u00b6llig unzufrieden",
         "2. 2",
         "3. 3",
         "4. 4",
@@ -7908,10 +7565,7 @@
         "8. 8",
         "9. 9",
         "10. 10",
-        "11. 11 v\u00f6llig zufrieden",
-        "12.  ",
-        "13.  ",
-        "14.  ",
+        "11. 11 v\u00c3\u00b6llig zufrieden",
         "."
       ],
       "missings": [
@@ -7931,10 +7585,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -7953,9 +7604,6 @@
         "9",
         "10",
         "11",
-        "12",
-        "13",
-        "14",
         "."
       ]
     },
@@ -7965,8 +7613,8 @@
         "invalid"
       ],
       "values": [
-        "1846",
-        "618"
+        "1718",
+        "746"
       ]
     },
     "scale": "cat",
@@ -8000,18 +7648,15 @@
         125,
         59,
         31,
-        0,
-        0,
-        0,
         618
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. 1 v\u00f6llig unzufrieden",
+        "1. 1 v\u00c3\u00b6llig unzufrieden",
         "2. 2",
         "3. 3",
         "4. 4",
@@ -8021,10 +7666,7 @@
         "8. 8",
         "9. 9",
         "10. 10",
-        "11. 11 v\u00f6llig zufrieden",
-        "12.  ",
-        "13.  ",
-        "14.  ",
+        "11. 11 v\u00c3\u00b6llig zufrieden",
         "."
       ],
       "missings": [
@@ -8044,10 +7686,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -8066,9 +7705,6 @@
         "9",
         "10",
         "11",
-        "12",
-        "13",
-        "14",
         "."
       ]
     },
@@ -8078,8 +7714,8 @@
         "invalid"
       ],
       "values": [
-        "1846",
-        "618"
+        "1780",
+        "684"
       ]
     },
     "scale": "cat",
@@ -8113,18 +7749,15 @@
         299,
         158,
         78,
-        0,
-        0,
-        0,
         618
       ],
       "labels": [
-        "-99. wei\u00df nicht",
+        "-99. wei\u00c3\u0178 nicht",
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. -5 \u00fcberhaupt nichts",
+        "1. -5 \u00c3\u00bcberhaupt nichts",
         "2. -4",
         "3. -3",
         "4. -2",
@@ -8135,9 +7768,6 @@
         "9. +3",
         "10. +4",
         "11. +5 sehr viel",
-        "12.  ",
-        "13.  ",
-        "14.  ",
         "."
       ],
       "missings": [
@@ -8157,10 +7787,7 @@
         false,
         false,
         false,
-        false,
-        false,
-        false,
-        true
+        false
       ],
       "values": [
         "-99",
@@ -8179,9 +7806,6 @@
         "9",
         "10",
         "11",
-        "12",
-        "13",
-        "14",
         "."
       ]
     },
@@ -8191,8 +7815,8 @@
         "invalid"
       ],
       "values": [
-        "1846",
-        "618"
+        "1790",
+        "674"
       ]
     },
     "scale": "cat",
@@ -8222,10 +7846,10 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. 1 \u00fcberhaupt nicht",
+        "1. 1 \u00c3\u00bcberhaupt nicht",
         "2. 2",
         "3. 3",
         "4. sehr",
@@ -8240,7 +7864,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -8260,8 +7884,8 @@
         "invalid"
       ],
       "values": [
-        "2416",
-        "48"
+        "2408",
+        "56"
       ]
     },
     "scale": "cat",
@@ -8291,10 +7915,10 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. 1 \u00fcberhaupt nicht",
+        "1. 1 \u00c3\u00bcberhaupt nicht",
         "2. 2",
         "3. 3",
         "4. sehr",
@@ -8309,7 +7933,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -8329,8 +7953,8 @@
         "invalid"
       ],
       "values": [
-        "2416",
-        "48"
+        "2407",
+        "57"
       ]
     },
     "scale": "cat",
@@ -8360,10 +7984,10 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. 1 \u00fcberhaupt nicht",
+        "1. 1 \u00c3\u00bcberhaupt nicht",
         "2. 2",
         "3. 3",
         "4. sehr",
@@ -8378,7 +8002,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -8398,8 +8022,8 @@
         "invalid"
       ],
       "values": [
-        "2416",
-        "48"
+        "2406",
+        "58"
       ]
     },
     "scale": "cat",
@@ -8429,10 +8053,10 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. 1 \u00fcberhaupt nicht",
+        "1. 1 \u00c3\u00bcberhaupt nicht",
         "2. 2",
         "3. 3",
         "4. sehr",
@@ -8447,7 +8071,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -8467,8 +8091,8 @@
         "invalid"
       ],
       "values": [
-        "2416",
-        "48"
+        "2410",
+        "54"
       ]
     },
     "scale": "cat",
@@ -8498,10 +8122,10 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. 1 \u00fcberhaupt nicht",
+        "1. 1 \u00c3\u00bcberhaupt nicht",
         "2. 2",
         "3. 3",
         "4. sehr",
@@ -8516,7 +8140,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -8536,8 +8160,8 @@
         "invalid"
       ],
       "values": [
-        "2416",
-        "48"
+        "2410",
+        "54"
       ]
     },
     "scale": "cat",
@@ -8552,7 +8176,7 @@
     "name_cs": "QE36006",
     "variable": "qe36006",
     "dataset": "gip_w36_v1",
-    "label": "Fragebogen: zu pers\u00f6nlich",
+    "label": "Fragebogen: zu pers\u00c3\u00b6nlich",
     "categories": {
       "frequencies": [
         0,
@@ -8567,10 +8191,10 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. 1 \u00fcberhaupt nicht",
+        "1. 1 \u00c3\u00bcberhaupt nicht",
         "2. 2",
         "3. 3",
         "4. sehr",
@@ -8585,7 +8209,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -8605,8 +8229,8 @@
         "invalid"
       ],
       "values": [
-        "2416",
-        "48"
+        "2409",
+        "55"
       ]
     },
     "scale": "cat",
@@ -8637,12 +8261,12 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
-        "1. \u00fcberhaupt nicht",
+        "1. \u00c3\u00bcberhaupt nicht",
         "2. nicht so gut",
-        "3. mittelm\u00e4\u00dfig",
+        "3. mittelm\u00c3\u00a4\u00c3\u0178ig",
         "4. gut",
         "5. sehr gut",
         "."
@@ -8657,7 +8281,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
@@ -8678,8 +8302,8 @@
         "invalid"
       ],
       "values": [
-        "2416",
-        "48"
+        "2408",
+        "56"
       ]
     },
     "scale": "cat",
@@ -8707,7 +8331,7 @@
       ],
       "labels": [
         "-97. trifft nicht zu",
-        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-91. 'bitte w\u00c3\u00a4hlen'-Platzhalter",
         "-90. item nonresponse",
         "-80. Wert nicht plausibel",
         "0. Item not answered",
@@ -8721,7 +8345,7 @@
         false,
         false,
         false,
-        true
+        false
       ],
       "values": [
         "-97",
