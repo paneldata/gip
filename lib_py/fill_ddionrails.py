@@ -1,7 +1,7 @@
 import os, sys
 import pandas as pd
 
-sys.path.append(os.path.expanduser("ddi.py/"))
+sys.path.append(os.path.expanduser("../ddi.py/"))
 
 from ddi.onrails.repos import merge_instruments, dor1, copy, extract_variables, convert_r2ddi
 
