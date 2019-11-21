@@ -27,11 +27,8 @@ As a SFB 884 infrastructure project, the GIP collects data on individual attitud
 
 The topics covered in the GIP are divers and include attitudes towards the reform policies, the welfare state, German and EU politics, health, social inequality, education, employment and key socio-demographic information. Questionnaire modules on these topics are developed by SFB 884 researchers in collaboration with the GIP team. GIP online questionnaires of 20-25 minutes are implemented bi-monthly.
 
-<<<<<<< HEAD
 For publications with GIP data please see database here: https://intranet.reforms.uni-mannheim.de/extern/publications/index.php
 
-=======
->>>>>>> paneldata/master
 ## Data access
 
 The GIP data are available to the scientific community via the GESIS Data Archive for the Social Sciences as scientific use files here https://dbk.gesis.org/dbksearch/GDESC2.asp?no=0109&DB=D.
