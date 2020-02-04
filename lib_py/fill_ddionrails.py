@@ -9,10 +9,10 @@ def main():
     copy.study()
     copy.f("instruments.csv")
     copy.f("questions_variables.csv")
-    copy.f("datasets.csv")
     copy.f("attachments.csv")
     convert_r2ddi.Parser("gip").write_json()
     extract_variables.XmlParser("r2ddi/v1/en", "gip").run()
+    copy.f("datasets.csv")
     merge_instruments.main()
 
 if __name__ == "__main__":
