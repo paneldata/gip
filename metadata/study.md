@@ -31,7 +31,7 @@ For publications with GIP data please see database [here](https://intranet.refor
 
 ## Data access
 
-The GIP data are available to the scientific community via the GESIS Data Archive for the Social Sciences as scientific use files [here] (https://dbk.gesis.org/dbksearch/GDESC2.asp?no=0109&DB=D).
+The GIP data are available to the scientific community via the GESIS Data Archive for the Social Sciences as scientific use files [here](https://dbk.gesis.org/dbksearch/GDESC2.asp?no=0109&DB=D).
 
 To order the scientific use files please proceed as described [here](https://dbk.gesis.org/dbksearch/download.asp?db=D&id=54805).
 
