@@ -17,7 +17,7 @@ config:
     - Each wave has its own DOI and reference that can be found at the website of the GESIS data archive [here](https://dbk.gesis.org/dbksearch/GDesc2.asp?no=0109&tab=&ll=10&notabs=1&db=E)
     - Blom, A. G., Gathmann, C., and Krieger, U. (2015). Setting Up an Online Panel Representative of the General Population: The German Internet Panel. Field Methods, 27(4), 391-408. DOI: 10.1177/1525822X15574494
 -  **DOI:** (see each wave, respectively)
--  **URL:** (German Internet Panel)[https://reforms.uni-mannheim.de/internet_panel/Internet_Panel/]
+-  **URL:** [German Internet Panel](https://reforms.uni-mannheim.de/internet_panel/Internet_Panel/)
 
 ## Study Info
 
