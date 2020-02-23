@@ -18,6 +18,7 @@ def main():
     copy.study()
     copy.f("instruments.csv")
     copy.f("questions_variables.csv")
+    copy.f("questions_images.csv")
     copy.f("attachments.csv")
     convert_r2ddi.Parser("gip").write_json()
     recode_datasets()
