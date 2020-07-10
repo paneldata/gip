@@ -2,6 +2,7 @@ from glob import glob
 from os import path, listdir
 import codecs
 
+
 def fix_encoding_r2ddi(dirpath=path.join("r2ddi", "v1", "en")):
     """
     DEPRECATED
@@ -17,6 +18,20 @@ def fix_encoding_r2ddi(dirpath=path.join("r2ddi", "v1", "en")):
             content = f.read()
         with codecs.open(filepath, "w", "utf8") as f:
             f.write(content)
+
+
+def recode_datasets(in_enc="windows-1252", out_enc="utf-8"):
+    """
+    DEPRECATED
+    """
+    
+    dpath = os.path.join("ddionrails", "datasets")
+    for filename in os.listdir(dpath):
+        filepath = os.path.join(dpath, filename)
+        content = codecs.open(filepath, encoding=in_enc, errors="strict").read()
+        with codecs.open(filepath, "w+", encoding=out_enc) as f:
+            f.write(content)
+
 
 def fix_unicode_to_utf8(glob_def="ddionrails/*/*.json"):
     filelist = glob(glob_def)
