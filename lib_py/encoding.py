@@ -34,12 +34,13 @@ def recode_datasets(in_enc="windows-1252", out_enc="utf-8"):
 
 
 def fix_unicode_to_utf8(glob_def="ddionrails/*/*.json"):
+    print("[INFO] Run Fix unicode to UTF8")
     filelist = glob(glob_def)
     for filename in filelist:
         with open(filename, "r", encoding="unicode-escape") as f:
             x = f.read()
 
-        with open(filename, "w") as f:
+        with open(filename, "w", encoding="utf8") as f:
             f.write(x)
 
 
