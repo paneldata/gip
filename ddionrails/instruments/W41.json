@@ -3,6 +3,7 @@
   "label": "GIP Wave 41",
   "period": "2019/05",
   "analysis_unit": "p",
+  "dataset_name": "GIP_W41_V1",
   "study": "gip",
   "questionnaire": "W41",
   "instrument": "W41",
@@ -10,30 +11,12 @@
     "Page 1 Introduction": {
       "question": "Page 1 Introduction",
       "name": "Page 1 Introduction",
-      "label": " Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
-
-wir freuen uns, dass Sie unseren Fragebogen gestartet haben.
-      
-Die Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.
-      
-Sie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. 
-
-Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:
-
-<a href=“mailto:info@gesellschaft-im-wandel.de“>info@gesellschaft-im-wandel.de</a>
-0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-
-Wir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!
-
-
-Ihr Forschungsteam der Universität Mannheim
-",
       "items": [
         {
           "instrument_name": "W41",
           "question_name": "Page 1 Introduction",
           "item_name": "0",
-          "text": " Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
+          "gip_info_text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
 
 wir freuen uns, dass Sie unseren Fragebogen gestartet haben.
       
@@ -58,24 +41,6 @@ Ihr Forschungsteam der Universität Mannheim
           "gip_image_extra": "W41_P1.png",
           "study_name": "gip",
           "item": "0",
-          "gip_question_text": " Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
-
-wir freuen uns, dass Sie unseren Fragebogen gestartet haben.
-      
-Die Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.
-      
-Sie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. 
-
-Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:
-
-<a href=“mailto:info@gesellschaft-im-wandel.de“>info@gesellschaft-im-wandel.de</a>
-0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-
-Wir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!
-
-
-Ihr Forschungsteam der Universität Mannheim
-",
           "item_image_url": "W41_P1.png",
           "image_url": "https://github.com/paneldata/gip/raw/master/screenshots/W41/W41_P1.png",
           "sn": 0,
@@ -220,22 +185,19 @@ Die Bundesregierung sollte das Gesundheitssystem …",
     "Page 3": {
       "question": "Page 3",
       "name": "Page 3",
-      "label": "Die Ausgaben für das Gesundheitssystem sind in den letzten Jahren gestiegen. Um Einnahmen und Ausgaben im Gleichgewicht zu halten, gibt es unterschiedliche Maßnahmen, die im Folgenden aufgeführt sind.
-
-Welche dieser Maßnahmen befürworten Sie?
+      "label": "Welche dieser Maßnahmen befürworten Sie?
 ",
       "items": [
         {
           "instrument_name": "W41",
           "question_name": "Page 3",
           "item_name": "0",
-          "text": "Die Ausgaben für das Gesundheitssystem sind in den letzten Jahren gestiegen. Um Einnahmen und Ausgaben im Gleichgewicht zu halten, gibt es unterschiedliche Maßnahmen, die im Folgenden aufgeführt sind.
-
-Welche dieser Maßnahmen befürworten Sie?
+          "gip_info_text": "Die Ausgaben für das Gesundheitssystem sind in den letzten Jahren gestiegen. Um Einnahmen und Ausgaben im Gleichgewicht zu halten, gibt es unterschiedliche Maßnahmen, die im Folgenden aufgeführt sind.",
+          "text": "Welche dieser Maßnahmen befürworten Sie?
 ",
           "scale": "txt",
           "dataset_name": "GIP_W41_V1",
-          "variable_name": "RM41002",
+          "variable_name": "RM41002_a, RM41002_b, RM41002_c, RM41002_d, RM41002_e, RM41002_f, RM41002_g, RM41002_h",
           "gip_sources": "Replikation 1:1 der Fragen RM17002_a bis RM17002_h aus Welle 17 (Mai 2014)",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "half-open",
@@ -248,9 +210,7 @@ Codierung der Variablen RM41002_a bis RM41002_h: 0 Item not checked, 1 Item chec
           "study_name": "gip",
           "item": "0",
           "description": "Bitte geben Sie alles Zutreffende an.",
-          "gip_question_text": "Die Ausgaben für das Gesundheitssystem sind in den letzten Jahren gestiegen. Um Einnahmen und Ausgaben im Gleichgewicht zu halten, gibt es unterschiedliche Maßnahmen, die im Folgenden aufgeführt sind.
-
-Welche dieser Maßnahmen befürworten Sie?
+          "gip_question_text": "Welche dieser Maßnahmen befürworten Sie?
 ",
           "var_key": "RM41002",
           "images_from_key": "RM41002.png",
@@ -412,22 +372,17 @@ Welche dieser Maßnahmen befürworten Sie?
     "Page 4": {
       "question": "Page 4",
       "name": "Page 4",
-      "label": "Ein Hausarztmodell verpflichtet jeden Patienten bei gesundheitlichen Problemen zuerst zu seinem Hausarzt zu gehen. Dieser entscheidet dann, ob Patienten zu einem Facharzt überwiesen werden. In Notfällen ist keine Überweisung erforderlich.
-      
-Bei der freien Arztwahl kann der Patient bei gesundheitlichen Problemen selbst entscheiden, ob er zum Hausarzt oder gleich zu einem Facharzt geht.
-      
-Was finden Sie besser?
+      "label": "Was finden Sie besser?
 ",
       "items": [
         {
           "instrument_name": "W41",
           "question_name": "Page 4",
           "item_name": "0",
-          "text": "Ein Hausarztmodell verpflichtet jeden Patienten bei gesundheitlichen Problemen zuerst zu seinem Hausarzt zu gehen. Dieser entscheidet dann, ob Patienten zu einem Facharzt überwiesen werden. In Notfällen ist keine Überweisung erforderlich.
+          "gip_info_text": "Ein Hausarztmodell verpflichtet jeden Patienten bei gesundheitlichen Problemen zuerst zu seinem Hausarzt zu gehen. Dieser entscheidet dann, ob Patienten zu einem Facharzt überwiesen werden. In Notfällen ist keine Überweisung erforderlich.
       
-Bei der freien Arztwahl kann der Patient bei gesundheitlichen Problemen selbst entscheiden, ob er zum Hausarzt oder gleich zu einem Facharzt geht.
-      
-Was finden Sie besser?
+Bei der freien Arztwahl kann der Patient bei gesundheitlichen Problemen selbst entscheiden, ob er zum Hausarzt oder gleich zu einem Facharzt geht.",
+          "text": "Was finden Sie besser?
 ",
           "scale": "cat",
           "answer_list_name": "1-2-arzt",
@@ -444,11 +399,7 @@ Was finden Sie besser?
           "item": "0",
           "answer_list": "1-2-arzt",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Ein Hausarztmodell verpflichtet jeden Patienten bei gesundheitlichen Problemen zuerst zu seinem Hausarzt zu gehen. Dieser entscheidet dann, ob Patienten zu einem Facharzt überwiesen werden. In Notfällen ist keine Überweisung erforderlich.
-      
-Bei der freien Arztwahl kann der Patient bei gesundheitlichen Problemen selbst entscheiden, ob er zum Hausarzt oder gleich zu einem Facharzt geht.
-      
-Was finden Sie besser?
+          "gip_question_text": "Was finden Sie besser?
 ",
           "var_key": "RM41003",
           "images_from_key": "RM41003.png",
@@ -494,6 +445,7 @@ Was finden Sie besser?
           "gip_question_type": "Open Question",
           "gip_response_format": "text",
           "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "long answer field",
           "gip_variable_label": "comments healthcare",
           "study_name": "gip",
           "item": "0",
@@ -657,7 +609,8 @@ Sie sollten …",
 Sie sollten …",
           "scale": "txt",
           "dataset_name": "GIP_W41_V1",
-          "variable_name": "RM41005",
+          "variable_name": "RM41005_a, RM41005_b
+RM41005_c, RM41005_d, RM41005_e, RM41005_f, RM41005_g, RM41005_h, RM41005_i, RM41005_j",
           "gip_sources": "Replikation 1:1 der Fragen RM17005_a bis RM17005_j aus Welle 17 (Mai 2015)",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "half-open",
@@ -869,18 +822,15 @@ Sie sollten …",
     "Page 8": {
       "question": "Page 8",
       "name": "Page 8",
-      "label": "Der Arbeitsmarkt in Deutschland wird durch mehrere Gesetze, beispielsweise zum Mindestlohn oder zum Kündigungsschutz, reguliert.
-   
-Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?
+      "label": "Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?
 ",
       "items": [
         {
           "instrument_name": "W41",
           "question_name": "Page 8",
           "item_name": "0",
-          "text": "Der Arbeitsmarkt in Deutschland wird durch mehrere Gesetze, beispielsweise zum Mindestlohn oder zum Kündigungsschutz, reguliert.
-   
-Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?
+          "gip_info_text": "Der Arbeitsmarkt in Deutschland wird durch mehrere Gesetze, beispielsweise zum Mindestlohn oder zum Kündigungsschutz, reguliert.",
+          "text": "Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?
 ",
           "scale": "cat",
           "answer_list_name": "1-5-regeln",
@@ -897,9 +847,7 @@ Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsma
           "item": "0",
           "answer_list": "1-5-regeln",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Der Arbeitsmarkt in Deutschland wird durch mehrere Gesetze, beispielsweise zum Mindestlohn oder zum Kündigungsschutz, reguliert.
-   
-Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?
+          "gip_question_text": "Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?
 ",
           "var_key": "RM41006",
           "images_from_key": "RM41006.png",
@@ -966,6 +914,7 @@ Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsma
           "gip_question_type": "Open Question",
           "gip_response_format": "text",
           "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "long answer field",
           "gip_variable_label": "comments unemployment",
           "study_name": "gip",
           "item": "0",
@@ -1319,6 +1268,7 @@ Welchen der folgenden Vorschläge zur Finanzierung der gesetzlichen Renten würd
           "gip_question_type": "Open Question",
           "gip_response_format": "text",
           "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "long answer field",
           "gip_variable_label": "comments retirement",
           "study_name": "gip",
           "item": "0",
@@ -1825,6 +1775,7 @@ Bedenken Sie dabei, dass höhere Ausgaben unter anderem auch über Steuern, also
           "gip_question_type": "Open Question",
           "gip_response_format": "text",
           "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "long answer field",
           "gip_variable_label": "comments education",
           "study_name": "gip",
           "item": "0",
@@ -1844,9 +1795,7 @@ Bedenken Sie dabei, dass höhere Ausgaben unter anderem auch über Steuern, also
     "Page 20": {
       "question": "Page 20",
       "name": "Page 20",
-      "label": "Mit Steuern, wie beispielsweise der Einkommenssteuer oder der Mehrwertsteuer, erzielt der Staat seine Einnahmen und muss dabei auch auf die damit verbundenen Folgen achten. Beispielsweise können hohe Einkommenssteuersätze Unternehmer davon abhalten, neue Arbeitsplätze zu schaffen.
-
-Was ist vor diesem Hintergrund Ihre persönliche Meinung zum Steuersystem in Deutschland? Inwieweit sollte die Bundesregierung das Steuersystem verändern?
+      "label": "Was ist vor diesem Hintergrund Ihre persönliche Meinung zum Steuersystem in Deutschland? Inwieweit sollte die Bundesregierung das Steuersystem verändern?
 
 Die Bundesregierung sollte das Steuersystem …",
       "items": [
@@ -1854,9 +1803,8 @@ Die Bundesregierung sollte das Steuersystem …",
           "instrument_name": "W41",
           "question_name": "Page 20",
           "item_name": "0",
-          "text": "Mit Steuern, wie beispielsweise der Einkommenssteuer oder der Mehrwertsteuer, erzielt der Staat seine Einnahmen und muss dabei auch auf die damit verbundenen Folgen achten. Beispielsweise können hohe Einkommenssteuersätze Unternehmer davon abhalten, neue Arbeitsplätze zu schaffen.
-
-Was ist vor diesem Hintergrund Ihre persönliche Meinung zum Steuersystem in Deutschland? Inwieweit sollte die Bundesregierung das Steuersystem verändern?
+          "gip_info_text": "Mit Steuern, wie beispielsweise der Einkommenssteuer oder der Mehrwertsteuer, erzielt der Staat seine Einnahmen und muss dabei auch auf die damit verbundenen Folgen achten. Beispielsweise können hohe Einkommenssteuersätze Unternehmer davon abhalten, neue Arbeitsplätze zu schaffen.",
+          "text": "Was ist vor diesem Hintergrund Ihre persönliche Meinung zum Steuersystem in Deutschland? Inwieweit sollte die Bundesregierung das Steuersystem verändern?
 
 Die Bundesregierung sollte das Steuersystem …",
           "scale": "cat",
@@ -1875,9 +1823,7 @@ Die Bundesregierung sollte das Steuersystem …",
           "item": "0",
           "answer_list": "0-10-veraendern",
           "description": "Bitte antworten Sie anhand der Skala.",
-          "gip_question_text": "Mit Steuern, wie beispielsweise der Einkommenssteuer oder der Mehrwertsteuer, erzielt der Staat seine Einnahmen und muss dabei auch auf die damit verbundenen Folgen achten. Beispielsweise können hohe Einkommenssteuersätze Unternehmer davon abhalten, neue Arbeitsplätze zu schaffen.
-
-Was ist vor diesem Hintergrund Ihre persönliche Meinung zum Steuersystem in Deutschland? Inwieweit sollte die Bundesregierung das Steuersystem verändern?
+          "gip_question_text": "Was ist vor diesem Hintergrund Ihre persönliche Meinung zum Steuersystem in Deutschland? Inwieweit sollte die Bundesregierung das Steuersystem verändern?
 
 Die Bundesregierung sollte das Steuersystem …",
           "var_key": "RM41015",
@@ -1981,9 +1927,7 @@ Die Bundesregierung sollte das Steuersystem …",
     "Page 21": {
       "question": "Page 21",
       "name": "Page 21",
-      "label": "Bitte geben Sie an, inwieweit Sie folgender Aussage zustimmen:
- 
-Der Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern.
+      "label": "Der Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern.
 
 Bedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt finanziert werden müssen.
 ",
@@ -1992,9 +1936,8 @@ Bedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letz
           "instrument_name": "W41",
           "question_name": "Page 21",
           "item_name": "0",
-          "text": "Bitte geben Sie an, inwieweit Sie folgender Aussage zustimmen:
- 
-Der Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern.
+          "gip_info_text": "Bitte geben Sie an, inwieweit Sie folgender Aussage zustimmen:",
+          "text": "Der Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern.
 
 Bedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt finanziert werden müssen.
 ",
@@ -2013,9 +1956,7 @@ Bedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letz
           "item": "0",
           "answer_list": "1-5-zustimmung",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Bitte geben Sie an, inwieweit Sie folgender Aussage zustimmen:
- 
-Der Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern.
+          "gip_question_text": "Der Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern.
 
 Bedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt finanziert werden müssen.
 ",
@@ -2071,20 +2012,15 @@ Bedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letz
     "Page 22": {
       "question": "Page 22",
       "name": "Page 22",
-      "label": "Über Fälle von Steuerhinterziehung wird immer wieder in den Medien berichtet.
-
-Für wie vertretbar halten Sie es, Steuern zu hinterziehen, wenn sich dafür eine einfache
-Möglichkeit ergibt?
+      "label": "Für wie vertretbar halten Sie es, Steuern zu hinterziehen, wenn sich dafür eine einfache Möglichkeit ergibt?
 ",
       "items": [
         {
           "instrument_name": "W41",
           "question_name": "Page 22",
           "item_name": "0",
-          "text": "Über Fälle von Steuerhinterziehung wird immer wieder in den Medien berichtet.
-
-Für wie vertretbar halten Sie es, Steuern zu hinterziehen, wenn sich dafür eine einfache
-Möglichkeit ergibt?
+          "gip_info_text": "Über Fälle von Steuerhinterziehung wird immer wieder in den Medien berichtet.",
+          "text": "Für wie vertretbar halten Sie es, Steuern zu hinterziehen, wenn sich dafür eine einfache Möglichkeit ergibt?
 ",
           "scale": "cat",
           "answer_list_name": "1-6-vertretbar",
@@ -2101,10 +2037,7 @@ Möglichkeit ergibt?
           "item": "0",
           "answer_list": "1-6-vertretbar",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Über Fälle von Steuerhinterziehung wird immer wieder in den Medien berichtet.
-
-Für wie vertretbar halten Sie es, Steuern zu hinterziehen, wenn sich dafür eine einfache
-Möglichkeit ergibt?
+          "gip_question_text": "Für wie vertretbar halten Sie es, Steuern zu hinterziehen, wenn sich dafür eine einfache Möglichkeit ergibt?
 ",
           "var_key": "CF41015",
           "images_from_key": "CF41015.png",
@@ -2178,6 +2111,7 @@ Möglichkeit ergibt?
           "gip_question_type": "Open Question",
           "gip_response_format": "text",
           "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "long answer field",
           "gip_variable_label": "comments taxes",
           "study_name": "gip",
           "item": "0",
@@ -2197,9 +2131,7 @@ Möglichkeit ergibt?
     "Page 24": {
       "question": "Page 24",
       "name": "Page 24",
-      "label": "Ein Vorschlag, die Stabilität des Euro zu gewährleisten, ist, dass alle Mitgliedsstaaten der Euro-Zone Reformen ihrer Arbeitsmarkt- und Sozialsysteme durchführen. Solche Reformen können jedoch Nachteile für einzelne Bevölkerungsgruppen bedeuten (zum Beispiel längere Arbeitszeiten).
-
-Wie ist Ihre persönliche Meinung zu diesen Reformen? Inwieweit sollen die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone verändert werden?
+      "label": "Wie ist Ihre persönliche Meinung zu diesen Reformen? Inwieweit sollen die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone verändert werden?
 
 Die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone sollten …",
       "items": [
@@ -2207,9 +2139,8 @@ Die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone sollte
           "instrument_name": "W41",
           "question_name": "Page 24",
           "item_name": "0",
-          "text": "Ein Vorschlag, die Stabilität des Euro zu gewährleisten, ist, dass alle Mitgliedsstaaten der Euro-Zone Reformen ihrer Arbeitsmarkt- und Sozialsysteme durchführen. Solche Reformen können jedoch Nachteile für einzelne Bevölkerungsgruppen bedeuten (zum Beispiel längere Arbeitszeiten).
-
-Wie ist Ihre persönliche Meinung zu diesen Reformen? Inwieweit sollen die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone verändert werden?
+          "gip_info_text": "Ein Vorschlag, die Stabilität des Euro zu gewährleisten, ist, dass alle Mitgliedsstaaten der Euro-Zone Reformen ihrer Arbeitsmarkt- und Sozialsysteme durchführen. Solche Reformen können jedoch Nachteile für einzelne Bevölkerungsgruppen bedeuten (zum Beispiel längere Arbeitszeiten).",
+          "text": "Wie ist Ihre persönliche Meinung zu diesen Reformen? Inwieweit sollen die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone verändert werden?
 
 Die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone sollten …",
           "scale": "cat",
@@ -2228,9 +2159,7 @@ Die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone sollte
           "item": "0",
           "answer_list": "0-10-veraendert",
           "description": "Bitte antworten Sie anhand der Skala.",
-          "gip_question_text": "Ein Vorschlag, die Stabilität des Euro zu gewährleisten, ist, dass alle Mitgliedsstaaten der Euro-Zone Reformen ihrer Arbeitsmarkt- und Sozialsysteme durchführen. Solche Reformen können jedoch Nachteile für einzelne Bevölkerungsgruppen bedeuten (zum Beispiel längere Arbeitszeiten).
-
-Wie ist Ihre persönliche Meinung zu diesen Reformen? Inwieweit sollen die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone verändert werden?
+          "gip_question_text": "Wie ist Ihre persönliche Meinung zu diesen Reformen? Inwieweit sollen die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone verändert werden?
 
 Die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone sollten …",
           "var_key": "RM41018",
@@ -2334,9 +2263,7 @@ Die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone sollte
     "Page 25": {
       "question": "Page 25",
       "name": "Page 25",
-      "label": "Diese Reformen können entweder von einem Mitgliedsstaat einzeln oder gemeinsam auf europäischer Ebene beschlossen werden. Für die Reformen auf der europäischen Ebene müsste die Europäische Union jedoch mehr Entscheidungsrechte erhalten.
-   
-Sollte die Europäische Union  mehr oder weniger über Reformen in den Mitgliedsstaaten entscheiden als momentan?
+      "label": "Sollte die Europäische Union  mehr oder weniger über Reformen in den Mitgliedsstaaten entscheiden als momentan?
 
 Die Europäische Union sollte …
 ",
@@ -2345,9 +2272,8 @@ Die Europäische Union sollte …
           "instrument_name": "W41",
           "question_name": "Page 25",
           "item_name": "0",
-          "text": "Diese Reformen können entweder von einem Mitgliedsstaat einzeln oder gemeinsam auf europäischer Ebene beschlossen werden. Für die Reformen auf der europäischen Ebene müsste die Europäische Union jedoch mehr Entscheidungsrechte erhalten.
-   
-Sollte die Europäische Union  mehr oder weniger über Reformen in den Mitgliedsstaaten entscheiden als momentan?
+          "gip_info_text": "Diese Reformen können entweder von einem Mitgliedsstaat einzeln oder gemeinsam auf europäischer Ebene beschlossen werden. Für die Reformen auf der europäischen Ebene müsste die Europäische Union jedoch mehr Entscheidungsrechte erhalten.",
+          "text": "Sollte die Europäische Union  mehr oder weniger über Reformen in den Mitgliedsstaaten entscheiden als momentan?
 
 Die Europäische Union sollte …
 ",
@@ -2366,9 +2292,7 @@ Die Europäische Union sollte …
           "item": "0",
           "answer_list": "1-5-entscheiden",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Diese Reformen können entweder von einem Mitgliedsstaat einzeln oder gemeinsam auf europäischer Ebene beschlossen werden. Für die Reformen auf der europäischen Ebene müsste die Europäische Union jedoch mehr Entscheidungsrechte erhalten.
-   
-Sollte die Europäische Union  mehr oder weniger über Reformen in den Mitgliedsstaaten entscheiden als momentan?
+          "gip_question_text": "Sollte die Europäische Union  mehr oder weniger über Reformen in den Mitgliedsstaaten entscheiden als momentan?
 
 Die Europäische Union sollte …
 ",
@@ -2434,7 +2358,7 @@ Die Europäische Union sollte …
           "scale": "txt",
           "filter": "RM41019 = 1, 2 (Europäische Union sollte mehr über Reformen entscheiden)",
           "dataset_name": "GIP_W41_V1",
-          "variable_name": "RM41020",
+          "variable_name": "RM41020_a, RM41020_b, RM41020_c, RM41020_d, RM41020_e, RM41020_f, RM41020_g, RM41020_h, RM41020_i, RM41020_j",
           "gip_sources": "Replikation 1:1 der Fragen RM17020_a bis RM17020_TXT aus Welle 17 (Mai 2015)",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "half-open",
@@ -2652,7 +2576,7 @@ Die Europäische Union sollte …
           "scale": "txt",
           "filter": "RM41019 = 4, 5 (Europäische Union sollte weniger über Reformen entscheiden)",
           "dataset_name": "GIP_W41_V1",
-          "variable_name": "RM41021",
+          "variable_name": "RM41021_a, RM41021_b, RM41021_c, RM41021_d, RM41021_e, RM41021_f, RM41021_g, RM41021_h, RM41021_i, RM41021_j",
           "gip_sources": "Replikation 1:1 der Fragen RM17021_a bis RM17021_TXT aus Welle 17 (Mai 2015)",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "half-open",
@@ -2870,7 +2794,7 @@ Die Europäische Union sollte …
           "scale": "txt",
           "filter": "RM41019 = 3 (Europäische Union sollte genau so viel über Reformen entscheiden)",
           "dataset_name": "GIP_W41_V1",
-          "variable_name": "RM41022",
+          "variable_name": "RM41022_a, RM41022_b, RM41022_c, RM41022_d, RM41022_e, RM41022_f, RM41022_g, RM41022_h, RM41022_i, RM41022_j, RM41022_k",
           "gip_sources": "Replikation 1:1 der Fragen RM17022_a bis RM17022_k aus Welle 17 (Mai 2015)",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "half-open",
@@ -3110,6 +3034,7 @@ Codierung der Variablen RM41022_a bis RM41022_k: 0 Item not checked, 1 Item chec
           "gip_question_type": "Open Question",
           "gip_response_format": "text",
           "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "long answer field",
           "gip_variable_label": "comments eu decisions",
           "study_name": "gip",
           "item": "0",
@@ -3129,18 +3054,15 @@ Codierung der Variablen RM41022_a bis RM41022_k: 0 Item not checked, 1 Item chec
     "Page 30": {
       "question": "Page 30",
       "name": "Page 30",
-      "label": "Abschließend geht es um einen Vergleich der Politikbereiche, zu denen Sie bisher Fragen beantwortet haben.
- 
-In welchem Bereich sollte der Staat am ehesten Leistungen ausbauen?
+      "label": "In welchem Bereich sollte der Staat am ehesten Leistungen ausbauen?
 ",
       "items": [
         {
           "instrument_name": "W41",
           "question_name": "Page 30",
           "item_name": "0",
-          "text": "Abschließend geht es um einen Vergleich der Politikbereiche, zu denen Sie bisher Fragen beantwortet haben.
- 
-In welchem Bereich sollte der Staat am ehesten Leistungen ausbauen?
+          "gip_info_text": "Abschließend geht es um einen Vergleich der Politikbereiche, zu denen Sie bisher Fragen beantwortet haben.",
+          "text": "In welchem Bereich sollte der Staat am ehesten Leistungen ausbauen?
 ",
           "scale": "cat",
           "answer_list_name": "1-7-politikbereiche_1",
@@ -3157,9 +3079,7 @@ In welchem Bereich sollte der Staat am ehesten Leistungen ausbauen?
           "item": "0",
           "answer_list": "1-7-politikbereiche_1",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Abschließend geht es um einen Vergleich der Politikbereiche, zu denen Sie bisher Fragen beantwortet haben.
- 
-In welchem Bereich sollte der Staat am ehesten Leistungen ausbauen?
+          "gip_question_text": "In welchem Bereich sollte der Staat am ehesten Leistungen ausbauen?
 ",
           "var_key": "RM41023",
           "images_from_key": "RM41023.png",
@@ -3319,8 +3239,7 @@ In welchem Bereich sollte der Staat am ehesten Leistungen ausbauen?
       "name": "Page 32",
       "label": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Arbeitsmarkts zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Arbeitsmarkts zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -3328,8 +3247,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Arbeitsmarkts zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Arbeitsmarkts zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -3348,8 +3266,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Arbeitsmarkts zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Arbeitsmarkts zu?",
           "var_key": "CE41014",
           "images_from_key": "CE41014.png CE41014_1.png",
           "item_image_url": "CE41014.png CE41014_1.png",
@@ -3411,8 +3328,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
       "name": "Page 33",
       "label": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich des Arbeitsmarkts zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich des Arbeitsmarkts zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -3420,8 +3336,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich des Arbeitsmarkts zu?
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich des Arbeitsmarkts zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich des Arbeitsmarkts zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -3440,8 +3355,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich des Arbeitsmarkts zu?
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich des Arbeitsmarkts zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich des Arbeitsmarkts zu?",
           "var_key": "CE41034",
           "images_from_key": "CE41034.png CE41034_1.png",
           "item_image_url": "CE41034.png CE41034_1.png",
@@ -3503,8 +3417,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich des Arbeitsmarkts zu?
       "name": "Page 34",
       "label": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Außenpolitik zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Außenpolitik zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -3512,8 +3425,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Außenpolitik zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Außenpolitik zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -3532,8 +3444,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Außenpolitik zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Außenpolitik zu?",
           "var_key": "CE41015",
           "images_from_key": "CE41015.png CE41015_1.png",
           "item_image_url": "CE41015.png CE41015_1.png",
@@ -3595,8 +3506,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
       "name": "Page 35",
       "label": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Außenpolitik zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Außenpolitik zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -3604,8 +3514,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Außenpolitik zu?
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Außenpolitik zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Außenpolitik zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -3624,8 +3533,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Außenpolitik zu?
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Außenpolitik zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Außenpolitik zu?",
           "var_key": "CE41035",
           "images_from_key": "CE41035.png CE41035_1.png",
           "item_image_url": "CE41035.png CE41035_1.png",
@@ -3687,8 +3595,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Außenpolitik zu?
       "name": "Page 36",
       "label": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Europäischen Einigung zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Europäischen Einigung zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -3696,8 +3603,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Europäischen Einigung zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Europäischen Einigung zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -3716,8 +3622,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Europäischen Einigung zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Europäischen Einigung zu?",
           "var_key": "CE41019",
           "images_from_key": "CE41019.png CE41019_1.png",
           "item_image_url": "CE41019.png CE41019_1.png",
@@ -3779,8 +3684,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
       "name": "Page 37",
       "label": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Europäischen Einigung zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Europäischen Einigung zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -3788,8 +3692,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Europäischen Einigung zu?
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Europäischen Einigung zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Europäischen Einigung zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -3808,8 +3711,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Europäischen Einigung zu?
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Europäischen Einigung zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Europäischen Einigung zu?",
           "var_key": "CE41039",
           "images_from_key": "CE41039.png CE41039_1.png",
           "item_image_url": "CE41039.png CE41039_1.png",
@@ -3871,8 +3773,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Europäischen Einigung zu?
       "name": "Page 38",
       "label": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Inneren Sicherheit zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Inneren Sicherheit zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -3880,8 +3781,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Inneren Sicherheit zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Inneren Sicherheit zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -3900,8 +3800,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Inneren Sicherheit zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Inneren Sicherheit zu?",
           "var_key": "CE41023",
           "images_from_key": "CE41023.png CE41023_1.png",
           "item_image_url": "CE41023.png CE41023_1.png",
@@ -3963,8 +3862,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
       "name": "Page 39",
       "label": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Inneren Sicherheit zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Inneren Sicherheit zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -3972,8 +3870,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Inneren Sicherheit zu?
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Inneren Sicherheit zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Inneren Sicherheit zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -3992,8 +3889,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Inneren Sicherheit zu?
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Inneren Sicherheit zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Inneren Sicherheit zu?",
           "var_key": "CE41043",
           "images_from_key": "CE41043.png CE41043_1.png",
           "item_image_url": "CE41043.png CE41043_1.png",
@@ -4055,8 +3951,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Inneren Sicherheit zu?
       "name": "Page 40",
       "label": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Rentensystems zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Rentensystems zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -4064,8 +3959,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Rentensystems zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Rentensystems zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -4084,8 +3978,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Rentensystems zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Rentensystems zu?",
           "var_key": "CE41025",
           "images_from_key": "CE41025.png CE41025_1.png",
           "item_image_url": "CE41025.png CE41025_1.png",
@@ -4147,8 +4040,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
       "name": "Page 41",
       "label": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich des Rentensystems zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich des Rentensystems zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -4156,8 +4048,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich des Rentensystems zu?
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich des Rentensystems zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich des Rentensystems zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -4176,8 +4067,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich des Rentensystems zu?
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich des Rentensystems zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich des Rentensystems zu?",
           "var_key": "CE41045",
           "images_from_key": "CE41045.png CE41045_1.png",
           "item_image_url": "CE41045.png CE41045_1.png",
@@ -4512,8 +4402,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
       "name": "Page 45",
       "label": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich Umwelt und Klimaschutz zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich Umwelt und Klimaschutz zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -4521,8 +4410,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich Umwelt und Klimaschutz zu?
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich Umwelt und Klimaschutz zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich Umwelt und Klimaschutz zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -4541,8 +4429,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich Umwelt und Klimaschutz zu?
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich Umwelt und Klimaschutz zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich Umwelt und Klimaschutz zu?",
           "var_key": "CE41048",
           "images_from_key": "CE41048.png CE41048_1.png",
           "item_image_url": "CE41048.png CE41048_1.png",
@@ -4604,8 +4491,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich Umwelt und Klimaschutz zu?
       "name": "Page 46",
       "label": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Verteidigung zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Verteidigung zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -4613,8 +4499,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Verteidigung zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Verteidigung zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -4633,8 +4518,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Verteidigung zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Verteidigung zu?",
           "var_key": "CE41030",
           "images_from_key": "CE41030.png CE41030_1.png",
           "item_image_url": "CE41030.png CE41030_1.png",
@@ -4696,8 +4580,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
       "name": "Page 47",
       "label": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Verteidigung zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Verteidigung zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -4705,8 +4588,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Verteidigung zu?
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Verteidigung zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Verteidigung zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -4725,8 +4607,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Verteidigung zu?
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Verteidigung zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Verteidigung zu?",
           "var_key": "CE41050",
           "images_from_key": "CE41050.png CE41050_1.png",
           "item_image_url": "CE41050.png CE41050_1.png",
@@ -4788,8 +4669,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Verteidigung zu?
       "name": "Page 48",
       "label": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Wirtschaft zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Wirtschaft zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -4797,8 +4677,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Wirtschaft zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Wirtschaft zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -4817,8 +4696,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Wirtschaft zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Wirtschaft zu?",
           "var_key": "CE41032",
           "images_from_key": "CE41032.png CE41032_1.png",
           "item_image_url": "CE41032.png CE41032_1.png",
@@ -4880,8 +4758,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
       "name": "Page 49",
       "label": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Wirtschaft zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Wirtschaft zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -4889,8 +4766,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Wirtschaft zu?
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Wirtschaft zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Wirtschaft zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -4909,8 +4785,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Wirtschaft zu?
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Wirtschaft zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Wirtschaft zu?",
           "var_key": "CE41052",
           "images_from_key": "CE41052.png CE41052_1.png",
           "item_image_url": "CE41052.png CE41052_1.png",
@@ -4972,8 +4847,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Wirtschaft zu?
       "name": "Page 50",
       "label": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Zuwanderung und Immigration zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Zuwanderung und Immigration zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -4981,8 +4855,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Zuwanderung und Immigration zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Zuwanderung und Immigration zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -5001,8 +4874,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Zuwanderung und Immigration zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Zuwanderung und Immigration zu?",
           "var_key": "CE41033",
           "images_from_key": "CE41033.png CE41033_1.png",
           "item_image_url": "CE41033.png CE41033_1.png",
@@ -5064,8 +4936,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
       "name": "Page 51",
       "label": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Zuwanderung und Immigration zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Zuwanderung und Immigration zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -5073,8 +4944,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Zuwanderung und Immigration 
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Zuwanderung und Immigration zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Zuwanderung und Immigration zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -5093,8 +4963,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Zuwanderung und Immigration 
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Zuwanderung und Immigration zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Zuwanderung und Immigration zu?",
           "var_key": "CE41053",
           "images_from_key": "CE41053.png CE41053_1.png",
           "item_image_url": "CE41053.png CE41053_1.png",
@@ -5156,8 +5025,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Zuwanderung und Immigration 
       "name": "Page 52",
       "label": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Gesundheitssystems zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Gesundheitssystems zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -5165,8 +5033,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Gesundheitssystems zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Gesundheitssystems zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -5185,8 +5052,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Gesundheitssystems zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Gesundheitssystems zu?",
           "var_key": "CE41021",
           "images_from_key": "CE41021.png CE41021_1.png",
           "item_image_url": "CE41021.png CE41021_1.png",
@@ -5248,8 +5114,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
       "name": "Page 53",
       "label": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich des Gesundheitssystems?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich des Gesundheitssystems?",
       "items": [
         {
           "instrument_name": "W41",
@@ -5257,8 +5122,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich des Gesundheitssystems?
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich des Gesundheitssystems?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich des Gesundheitssystems?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -5277,8 +5141,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich des Gesundheitssystems?
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich des Gesundheitssystems?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich des Gesundheitssystems?",
           "var_key": "CE41041",
           "images_from_key": "CE41041.png CE41041_1.png",
           "item_image_url": "CE41041.png CE41041_1.png",
@@ -5340,8 +5203,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich des Gesundheitssystems?
       "name": "Page 54",
       "label": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich Bildung und Forschung zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich Bildung und Forschung zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -5349,8 +5211,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich Bildung und Forschung zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich Bildung und Forschung zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -5369,8 +5230,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich Bildung und Forschung zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich Bildung und Forschung zu?",
           "var_key": "CE41016",
           "images_from_key": "CE41016.png CE41016_1.png",
           "item_image_url": "CE41016.png CE41016_1.png",
@@ -5432,8 +5292,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
       "name": "Page 55",
       "label": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich Bildung und Forschung zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich Bildung und Forschung zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -5441,8 +5300,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich Bildung und Forschung zu?
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich Bildung und Forschung zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich Bildung und Forschung zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -5461,8 +5319,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich Bildung und Forschung zu?
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich Bildung und Forschung zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich Bildung und Forschung zu?",
           "var_key": "CE41036",
           "images_from_key": "CE41036.png CE41036_1.png",
           "item_image_url": "CE41036.png CE41036_1.png",
@@ -5524,8 +5381,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich Bildung und Forschung zu?
       "name": "Page 56",
       "label": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Familie zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Familie zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -5533,8 +5389,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Familie zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Familie zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -5553,8 +5408,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Familie zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Familie zu?",
           "var_key": "CE41020",
           "images_from_key": "CE41020.png CE41020_1.png",
           "item_image_url": "CE41020.png CE41020_1.png",
@@ -5616,8 +5470,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
       "name": "Page 57",
       "label": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Familie zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Familie zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -5625,8 +5478,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Familie zu?
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Familie zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Familie zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -5645,8 +5497,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Familie zu?
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Familie zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Familie zu?",
           "var_key": "CE41040",
           "images_from_key": "CE41040.png CE41040_1.png",
           "item_image_url": "CE41040.png CE41040_1.png",
@@ -5708,8 +5559,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Familie zu?
       "name": "Page 58",
       "label": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Verkehrs zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Verkehrs zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -5717,8 +5567,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Verkehrs zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Verkehrs zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -5737,8 +5586,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Verkehrs zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich des Verkehrs zu?",
           "var_key": "CE41029",
           "images_from_key": "CE41029.png CE41029_1.png",
           "item_image_url": "CE41029.png CE41029_1.png",
@@ -5800,8 +5648,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
       "name": "Page 59",
       "label": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich des Verkehrs zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich des Verkehrs zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -5809,8 +5656,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich des Verkehrs zu?
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich des Verkehrs zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich des Verkehrs zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -5829,8 +5675,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich des Verkehrs zu?
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich des Verkehrs zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich des Verkehrs zu?",
           "var_key": "CE41049",
           "images_from_key": "CE41049.png CE41049_1.png",
           "item_image_url": "CE41049.png CE41049_1.png",
@@ -5892,8 +5737,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich des Verkehrs zu?
       "name": "Page 60",
       "label": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Persönlichkeitsrechte zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Persönlichkeitsrechte zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -5901,8 +5745,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Persönlichkeitsrechte zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Persönlichkeitsrechte zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -5921,8 +5764,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Persönlichkeitsrechte zu?
-",
+Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereich der Persönlichkeitsrechte zu?",
           "var_key": "CE41024",
           "images_from_key": "CE41024.png CE41024_2.png",
           "item_image_url": "CE41024.png CE41024_2.png",
@@ -5984,8 +5826,7 @@ Welche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit dem Bereic
       "name": "Page 61",
       "label": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Persönlichkeitsrechte zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Persönlichkeitsrechte zu?",
       "items": [
         {
           "instrument_name": "W41",
@@ -5993,8 +5834,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Persönlichkeitsrechte zu?
           "item_name": "0",
           "text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Persönlichkeitsrechte zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Persönlichkeitsrechte zu?",
           "scale": "cat",
           "answer_list_name": "1-5-niedrig-hoch",
           "dataset_name": "GIP_W41_V1",
@@ -6013,8 +5853,7 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Persönlichkeitsrechte zu?
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "gip_question_text": "[wenn erstes Themenfeld: "Auch Wähler messen verschiedenen Bereichen unterschiedliche Bedeutung zu."; sonst: ""]
 
-Welche Bedeutung messen Sie derzeit dem Bereich der Persönlichkeitsrechte zu?
-",
+Welche Bedeutung messen Sie derzeit dem Bereich der Persönlichkeitsrechte zu?",
           "var_key": "CE41044",
           "images_from_key": "CE41044.png CE41044_2.png",
           "item_image_url": "CE41044.png CE41044_2.png",
@@ -6074,19 +5913,14 @@ Welche Bedeutung messen Sie derzeit dem Bereich der Persönlichkeitsrechte zu?
     "Page 62": {
       "question": "Page 62",
       "name": "Page 62",
-      "label": "Seit mehreren Monaten demonstrieren in Deutschland freitags Schülerinnen und Schüler unter dem Motto „Fridays for Future“ während der Schulzeit für mehr Klimaschutz. Manche stehen diesen Demonstrationen kritische gegenüber, andere finden es gut, dass die Jugendlichen protestieren.
-
-Haben Sie Verständnis für die Freitagsdemonstrationen der Schülerinnen und Schüler gegen den Klimawandel?
-",
+      "label": "Haben Sie Verständnis für die Freitagsdemonstrationen der Schülerinnen und Schüler gegen den Klimawandel?",
       "items": [
         {
           "instrument_name": "W41",
           "question_name": "Page 62",
           "item_name": "0",
-          "text": "Seit mehreren Monaten demonstrieren in Deutschland freitags Schülerinnen und Schüler unter dem Motto „Fridays for Future“ während der Schulzeit für mehr Klimaschutz. Manche stehen diesen Demonstrationen kritische gegenüber, andere finden es gut, dass die Jugendlichen protestieren.
-
-Haben Sie Verständnis für die Freitagsdemonstrationen der Schülerinnen und Schüler gegen den Klimawandel?
-",
+          "gip_info_text": "Seit mehreren Monaten demonstrieren in Deutschland freitags Schülerinnen und Schüler unter dem Motto „Fridays for Future“ während der Schulzeit für mehr Klimaschutz. Manche stehen diesen Demonstrationen kritische gegenüber, andere finden es gut, dass die Jugendlichen protestieren.",
+          "text": "Haben Sie Verständnis für die Freitagsdemonstrationen der Schülerinnen und Schüler gegen den Klimawandel?",
           "scale": "cat",
           "answer_list_name": "1-5-verstaendnis",
           "dataset_name": "GIP_W41_V1",
@@ -6099,10 +5933,7 @@ Haben Sie Verständnis für die Freitagsdemonstrationen der Schülerinnen und Sc
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-5-verstaendnis",
-          "gip_question_text": "Seit mehreren Monaten demonstrieren in Deutschland freitags Schülerinnen und Schüler unter dem Motto „Fridays for Future“ während der Schulzeit für mehr Klimaschutz. Manche stehen diesen Demonstrationen kritische gegenüber, andere finden es gut, dass die Jugendlichen protestieren.
-
-Haben Sie Verständnis für die Freitagsdemonstrationen der Schülerinnen und Schüler gegen den Klimawandel?
-",
+          "gip_question_text": "Haben Sie Verständnis für die Freitagsdemonstrationen der Schülerinnen und Schüler gegen den Klimawandel?",
           "var_key": "ZJ41037",
           "images_from_key": "ZJ41037.png",
           "item_image_url": "ZJ41037.png",
@@ -6155,16 +5986,15 @@ Haben Sie Verständnis für die Freitagsdemonstrationen der Schülerinnen und Sc
     "Page 63": {
       "question": "Page 63",
       "name": "Page 63",
-      "label": "Neben Schülerinnen und Schülern nehmen mittlerweile auch andere Menschen an den Demonstrationen teil.
-Haben Sie selbst in den vergangenen sechs Monaten an einer der Demonstrationen gegen den Klimawandel teilgenommen?
+      "label": "Haben Sie selbst in den vergangenen sechs Monaten an einer der Demonstrationen gegen den Klimawandel teilgenommen?
 ",
       "items": [
         {
           "instrument_name": "W41",
           "question_name": "Page 63",
           "item_name": "0",
-          "text": "Neben Schülerinnen und Schülern nehmen mittlerweile auch andere Menschen an den Demonstrationen teil.
-Haben Sie selbst in den vergangenen sechs Monaten an einer der Demonstrationen gegen den Klimawandel teilgenommen?
+          "gip_info_text": "Neben Schülerinnen und Schülern nehmen mittlerweile auch andere Menschen an den Demonstrationen teil.",
+          "text": "Haben Sie selbst in den vergangenen sechs Monaten an einer der Demonstrationen gegen den Klimawandel teilgenommen?
 ",
           "scale": "cat",
           "answer_list_name": "0-1-ja-nein",
@@ -6178,8 +6008,7 @@ Haben Sie selbst in den vergangenen sechs Monaten an einer der Demonstrationen g
           "study_name": "gip",
           "item": "0",
           "answer_list": "0-1-ja-nein",
-          "gip_question_text": "Neben Schülerinnen und Schülern nehmen mittlerweile auch andere Menschen an den Demonstrationen teil.
-Haben Sie selbst in den vergangenen sechs Monaten an einer der Demonstrationen gegen den Klimawandel teilgenommen?
+          "gip_question_text": "Haben Sie selbst in den vergangenen sechs Monaten an einer der Demonstrationen gegen den Klimawandel teilgenommen?
 ",
           "var_key": "ZJ41038",
           "images_from_key": "ZJ41038.png",
@@ -6270,13 +6099,13 @@ Haben Sie selbst in den vergangenen sechs Monaten an einer der Demonstrationen g
     "Page 65": {
       "question": "Page 65",
       "name": "Page 65",
-      "label": "Inwiefern sehen Sie den Klimawandel als Bedrohung [¡distance]?",
+      "label": "Inwiefern sehen Sie den Klimawandel als Bedrohung [distance]?",
       "items": [
         {
           "instrument_name": "W41",
           "question_name": "Page 65",
           "item_name": "0",
-          "text": "Inwiefern sehen Sie den Klimawandel als Bedrohung [¡distance]?",
+          "text": "Inwiefern sehen Sie den Klimawandel als Bedrohung [distance]?",
           "scale": "cat",
           "answer_list_name": "0-10-bedrohung",
           "dataset_name": "GIP_W41_V1",
@@ -6286,13 +6115,12 @@ Haben Sie selbst in den vergangenen sechs Monaten an einer der Demonstrationen g
           "gip_response_format": "close-ended",
           "gip_answer_alignment": "vertical",
           "gip_experimental_split": "Befragte zufällig auf fünf Gruppen aufteilen.
-- bei 1/5 der Befragten [¡distance] durch „“ ersetzen (Gruppe 1)
-- bei 1/5 der Befragten [¡distance] durch „für Sie persönlich“ ersetzen (Gruppe 2)
-- bei 1/5 der Befragten [¡distance] durch „für Deutschland“ ersetzen Gruppe 3)
-- bei 1/5 der Befragten [¡distance] durch „für Europa“ ersetzen (Gruppe 4)
-- bei 1/5 der Befragten [¡distance] durch „für die Welt“ ersetzen (Gruppe 5)
-Zuteilung zu den Experimentalgruppen in separater Variable expZH41052 speichern.
-",
+- bei 1/5 der Befragten [distance] durch „“ ersetzen (Gruppe 1)
+- bei 1/5 der Befragten [distance] durch „für Sie persönlich“ ersetzen (Gruppe 2)
+- bei 1/5 der Befragten [distance] durch „für Deutschland“ ersetzen Gruppe 3)
+- bei 1/5 der Befragten [distance] durch „für Europa“ ersetzen (Gruppe 4)
+- bei 1/5 der Befragten [distance] durch „für die Welt“ ersetzen (Gruppe 5)
+Zuteilung zu den Experimentalgruppen in separater Variable expZH41052 speichern.",
           "gip_programming_instructions": "Fragetext abhängig von expZH41052",
           "gip_variable_label": "climate change threat",
           "gip_error_messages": "dReminderKaN1",
@@ -6300,13 +6128,13 @@ Zuteilung zu den Experimentalgruppen in separater Variable expZH41052 speichern.
           "item": "0",
           "answer_list": "0-10-bedrohung",
           "description": "Befragte zufällig auf fünf Gruppen aufteilen.
-- bei 1/5 der Befragten [¡distance] durch „“ ersetzen (Gruppe 1)
-- bei 1/5 der Befragten [¡distance] durch „für Sie persönlich“ ersetzen (Gruppe 2)
-- bei 1/5 der Befragten [¡distance] durch „für Deutschland“ ersetzen Gruppe 3)
-- bei 1/5 der Befragten [¡distance] durch „für Europa“ ersetzen (Gruppe 4)
-- bei 1/5 der Befragten [¡distance] durch „für die Welt“ ersetzen (Gruppe 5)
+- bei 1/5 der Befragten [distance] durch „“ ersetzen (Gruppe 1)
+- bei 1/5 der Befragten [distance] durch „für Sie persönlich“ ersetzen (Gruppe 2)
+- bei 1/5 der Befragten [distance] durch „für Deutschland“ ersetzen Gruppe 3)
+- bei 1/5 der Befragten [distance] durch „für Europa“ ersetzen (Gruppe 4)
+- bei 1/5 der Befragten [distance] durch „für die Welt“ ersetzen (Gruppe 5)
 Zuteilung zu den Experimentalgruppen in separater Variable expZH41052 speichern.",
-          "gip_question_text": "Inwiefern sehen Sie den Klimawandel als Bedrohung [¡distance]?",
+          "gip_question_text": "Inwiefern sehen Sie den Klimawandel als Bedrohung [distance]?",
           "var_key": "ZH41052",
           "images_from_key": "ZH41052_1.png ZH41052_2.png ZH41052_3.png ZH41052_4.png ZH41052_5.png",
           "item_image_url": "ZH41052_1.png ZH41052_2.png ZH41052_3.png ZH41052_4.png ZH41052_5.png",
@@ -6383,23 +6211,16 @@ Zuteilung zu den Experimentalgruppen in separater Variable expZH41052 speichern.
     "Page 66": {
       "question": "Page 66",
       "name": "Page 66",
-      "label": "Die Schülerinnen und Schüler der „Fridays for Future“-Bewegung haben einen Katalog mit Forderungen an die Politik ausgearbeitet. Die Forderungen zielen auf die Einhaltung des Pariser Klimaschutzabkommens, welches die Erderwärmung auf 1,5 Grad Celsius begrenzen will.
-
-Unter anderem wird gefordert, eine Steuer auf CO2-Emission einzuführen. Dies würde viele Lebensmittel und Alltagsgüter, aber vor allem Reisen und Autofahren deutlich teurer machen. 
-
-Lehnen Sie die Einführung einer CO2-Steuer ab oder stimmen Sie dieser zu?
-",
+      "label": "Lehnen Sie die Einführung einer CO2-Steuer ab oder stimmen Sie dieser zu?",
       "items": [
         {
           "instrument_name": "W41",
           "question_name": "Page 66",
           "item_name": "0",
-          "text": "Die Schülerinnen und Schüler der „Fridays for Future“-Bewegung haben einen Katalog mit Forderungen an die Politik ausgearbeitet. Die Forderungen zielen auf die Einhaltung des Pariser Klimaschutzabkommens, welches die Erderwärmung auf 1,5 Grad Celsius begrenzen will.
+          "gip_info_text": "Die Schülerinnen und Schüler der „Fridays for Future“-Bewegung haben einen Katalog mit Forderungen an die Politik ausgearbeitet. Die Forderungen zielen auf die Einhaltung des Pariser Klimaschutzabkommens, welches die Erderwärmung auf 1,5 Grad Celsius begrenzen will.
 
-Unter anderem wird gefordert, eine Steuer auf CO2-Emission einzuführen. Dies würde viele Lebensmittel und Alltagsgüter, aber vor allem Reisen und Autofahren deutlich teurer machen. 
-
-Lehnen Sie die Einführung einer CO2-Steuer ab oder stimmen Sie dieser zu?
-",
+Unter anderem wird gefordert, eine Steuer auf CO2-Emission einzuführen. Dies würde viele Lebensmittel und Alltagsgüter, aber vor allem Reisen und Autofahren deutlich teurer machen.",
+          "text": "Lehnen Sie die Einführung einer CO2-Steuer ab oder stimmen Sie dieser zu?",
           "scale": "cat",
           "answer_list_name": "1-5-zustimmung_2",
           "dataset_name": "GIP_W41_V1",
@@ -6412,12 +6233,7 @@ Lehnen Sie die Einführung einer CO2-Steuer ab oder stimmen Sie dieser zu?
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-5-zustimmung_2",
-          "gip_question_text": "Die Schülerinnen und Schüler der „Fridays for Future“-Bewegung haben einen Katalog mit Forderungen an die Politik ausgearbeitet. Die Forderungen zielen auf die Einhaltung des Pariser Klimaschutzabkommens, welches die Erderwärmung auf 1,5 Grad Celsius begrenzen will.
-
-Unter anderem wird gefordert, eine Steuer auf CO2-Emission einzuführen. Dies würde viele Lebensmittel und Alltagsgüter, aber vor allem Reisen und Autofahren deutlich teurer machen. 
-
-Lehnen Sie die Einführung einer CO2-Steuer ab oder stimmen Sie dieser zu?
-",
+          "gip_question_text": "Lehnen Sie die Einführung einer CO2-Steuer ab oder stimmen Sie dieser zu?",
           "var_key": "ZJ41040",
           "images_from_key": "ZJ41040.png",
           "item_image_url": "ZJ41040.png",
@@ -6470,19 +6286,14 @@ Lehnen Sie die Einführung einer CO2-Steuer ab oder stimmen Sie dieser zu?
     "Page 67": {
       "question": "Page 67",
       "name": "Page 67",
-      "label": "Um dem Klimawandel entgegenzuwirken halten viele es für erforderlich, dass wir unseren Lebensstil ändern. Das heiß beispielsweise auf Flugreisen zu verzichten, weniger Auto zu fahren oder weniger Fleisch zu essen.
-
-Haben Sie in den letzten 6 Monaten Ihren Lebensstil verändert, um das Klima zu schützen?
-",
+      "label": "Haben Sie in den letzten 6 Monaten Ihren Lebensstil verändert, um das Klima zu schützen?",
       "items": [
         {
           "instrument_name": "W41",
           "question_name": "Page 67",
           "item_name": "0",
-          "text": "Um dem Klimawandel entgegenzuwirken halten viele es für erforderlich, dass wir unseren Lebensstil ändern. Das heiß beispielsweise auf Flugreisen zu verzichten, weniger Auto zu fahren oder weniger Fleisch zu essen.
-
-Haben Sie in den letzten 6 Monaten Ihren Lebensstil verändert, um das Klima zu schützen?
-",
+          "gip_info_text": "Um dem Klimawandel entgegenzuwirken halten viele es für erforderlich, dass wir unseren Lebensstil ändern. Das heiß beispielsweise auf Flugreisen zu verzichten, weniger Auto zu fahren oder weniger Fleisch zu essen.",
+          "text": "Haben Sie in den letzten 6 Monaten Ihren Lebensstil verändert, um das Klima zu schützen?",
           "scale": "cat",
           "answer_list_name": "1-5-viel-wenig",
           "dataset_name": "GIP_W41_V1",
@@ -6495,10 +6306,7 @@ Haben Sie in den letzten 6 Monaten Ihren Lebensstil verändert, um das Klima zu 
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-5-viel-wenig",
-          "gip_question_text": "Um dem Klimawandel entgegenzuwirken halten viele es für erforderlich, dass wir unseren Lebensstil ändern. Das heiß beispielsweise auf Flugreisen zu verzichten, weniger Auto zu fahren oder weniger Fleisch zu essen.
-
-Haben Sie in den letzten 6 Monaten Ihren Lebensstil verändert, um das Klima zu schützen?
-",
+          "gip_question_text": "Haben Sie in den letzten 6 Monaten Ihren Lebensstil verändert, um das Klima zu schützen?",
           "var_key": "ZJ41041",
           "images_from_key": "ZJ41041.png",
           "item_image_url": "ZJ41041.png",
@@ -6551,20 +6359,17 @@ Haben Sie in den letzten 6 Monaten Ihren Lebensstil verändert, um das Klima zu 
     "Page 68": {
       "question": "Page 68",
       "name": "Page 68",
-      "label": "Bewertung dieser Umfrage
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
-
-Fanden Sie den Fragebogen ...?
+      "label": "Fanden Sie den Fragebogen ...?
 interessant",
       "items": [
         {
           "instrument_name": "W41",
           "question_name": "Page 68",
           "item_name": "0",
-          "text": "Bewertung dieser Umfrage
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+          "gip_info_text": "Bewertung dieser Umfrage
 
-Fanden Sie den Fragebogen ...?
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.",
+          "text": "Fanden Sie den Fragebogen ...?
 interessant",
           "scale": "cat",
           "answer_list_name": "1-4-bewertung",
@@ -6579,10 +6384,7 @@ interessant",
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-4-bewertung",
-          "gip_question_text": "Bewertung dieser Umfrage
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
-
-Fanden Sie den Fragebogen ...?
+          "gip_question_text": "Fanden Sie den Fragebogen ...?
 interessant",
           "var_key": "QE41001",
           "images_from_key": "QE41001.png",
@@ -7050,7 +6852,10 @@ zu persönlich",
       "label": "Haben Sie noch weitere Anmerkungen?
 
 Hier können Sie Lob oder Kritik zum Fragebogen äußern.
-",
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",
       "items": [
         {
           "instrument_name": "W41",
@@ -7059,7 +6864,10 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.
           "text": "Haben Sie noch weitere Anmerkungen?
 
 Hier können Sie Lob oder Kritik zum Fragebogen äußern.
-",
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",
           "scale": "str",
           "dataset_name": "GIP_W41_V1",
           "variable_name": "QE41008_TXT",
@@ -7069,18 +6877,15 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.
           "gip_answer_alignment": "[answer field]",
           "gip_programming_instructions": "Codierung der Variablen QE32008_TXT_na: 0 Item not answered, 1 Item answered",
           "gip_variable_label": "weitere Anmerkungen_text",
-          "gip_help_text": "Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
-Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-E-Mail: info@gesellschaft-im-wandel.de",
           "study_name": "gip",
           "item": "0",
-          "description": "Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
-Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-E-Mail: info@gesellschaft-im-wandel.de",
           "gip_question_text": "Haben Sie noch weitere Anmerkungen?
 
 Hier können Sie Lob oder Kritik zum Fragebogen äußern.
-",
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",
           "var_key": "QE41008_TXT",
           "images_from_key": "QE41008_TXT.png",
           "item_image_url": "QE41008_TXT.png",
@@ -7096,21 +6901,12 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.
     "Page 76 Outro": {
       "question": "Page 76 Outro",
       "name": "Page 76 Outro",
-      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
-
-Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
-
-Bitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.
-
-
-Ihr Forschungsteam von der Universität Mannheim
-",
       "items": [
         {
           "instrument_name": "W41",
           "question_name": "Page 76 Outro",
           "item_name": "0",
-          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
+          "gip_info_text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
 
 Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
 
@@ -7127,15 +6923,6 @@ Ihr Forschungsteam von der Universität Mannheim
           "gip_image_extra": "W41_P76.png",
           "study_name": "gip",
           "item": "0",
-          "gip_question_text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
-
-Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
-
-Bitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.
-
-
-Ihr Forschungsteam von der Universität Mannheim
-",
           "item_image_url": "W41_P76.png",
           "image_url": "https://github.com/paneldata/gip/raw/master/screenshots/W41/W41_P76.png",
           "sn": 0,

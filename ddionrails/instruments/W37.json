@@ -3,6 +3,7 @@
   "label": "GIP Wave 37",
   "period": "2018/09",
   "analysis_unit": "p",
+  "dataset_name": "GIP_W37_V2",
   "study": "gip",
   "questionnaire": "W37",
   "instrument": "W37",
@@ -10,29 +11,12 @@
     "Page 1 Introduction": {
       "question": "Page 1 Introduction",
       "name": "Page 1 Introduction",
-      "label": "Herzlich Willkommen zu dieser Umfrage!
-
-Wie bereits der Titel unserer Studie „Gesellschaft im Wandel“ sagt, möchten wir auch erforschen, welche Veränderungen und Entwicklungen sich bei den Studienteilnehmerinnen und Studienteilnehmern im Laufe der Zeit ergeben.
-
-[Wenn sample = 1,2: Daher bitten wir Sie diesen Monat, einige Fragen aus dem vergangenen Jahr erneut zu beantworten.]
-
-[Wenn sample = 3: Daher stellen wir Ihnen diesen Monat einige Fragen, die in unserer Studie jährlich wiederholt werden.]
-
-Die Teilnahme dauert insgesamt ungefähr 10 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.
-
-Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:
-info@gesellschaft-im-wandel.de
-0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz).
-
-Wir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!
-
-Ihr Forschungsteam der Universität Mannheim",
       "items": [
         {
           "instrument_name": "W37",
           "question_name": "Page 1 Introduction",
           "item_name": "0",
-          "text": "Herzlich Willkommen zu dieser Umfrage!
+          "gip_info_text": "Herzlich Willkommen zu dieser Umfrage!
 
 Wie bereits der Titel unserer Studie „Gesellschaft im Wandel“ sagt, möchten wir auch erforschen, welche Veränderungen und Entwicklungen sich bei den Studienteilnehmerinnen und Studienteilnehmern im Laufe der Zeit ergeben.
 
@@ -59,23 +43,6 @@ Ihr Forschungsteam der Universität Mannheim",
           "gip_image_extra": "W37_P1_1.png W37_P1_2.png",
           "study_name": "gip",
           "item": "0",
-          "gip_question_text": "Herzlich Willkommen zu dieser Umfrage!
-
-Wie bereits der Titel unserer Studie „Gesellschaft im Wandel“ sagt, möchten wir auch erforschen, welche Veränderungen und Entwicklungen sich bei den Studienteilnehmerinnen und Studienteilnehmern im Laufe der Zeit ergeben.
-
-[Wenn sample = 1,2: Daher bitten wir Sie diesen Monat, einige Fragen aus dem vergangenen Jahr erneut zu beantworten.]
-
-[Wenn sample = 3: Daher stellen wir Ihnen diesen Monat einige Fragen, die in unserer Studie jährlich wiederholt werden.]
-
-Die Teilnahme dauert insgesamt ungefähr 10 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.
-
-Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:
-info@gesellschaft-im-wandel.de
-0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz).
-
-Wir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!
-
-Ihr Forschungsteam der Universität Mannheim",
           "item_image_url": "W37_P1_1.png W37_P1_2.png",
           "image_url": "https://github.com/paneldata/gip/raw/master/screenshots/W37/W37_P1_1.png https://github.com/paneldata/gip/raw/master/screenshots/W37/W37_P1_2.png",
           "sn": 0,
@@ -299,10 +266,9 @@ Codierung der Variablen als AA37405_NA, AA37406_NA, AA37408_NA, AA07400_TXT_NA: 
           "instrument_name": "W37",
           "question_name": "Page 3",
           "item_name": "1",
-          "text": "Vorname: bisherige Angabe
-[Vorname]
-korrigierte Angabe
+          "text": "Vorname: bisherige Angabe [Vorname]
 ",
+          "gip_pre_field": "korrigierte Angabe",
           "scale": "str",
           "dataset_name": "GIP_W37_V2",
           "variable_name": "AA37405",
@@ -310,9 +276,7 @@ korrigierte Angabe
           "gip_variable_label": "correction first name",
           "study_name": "gip",
           "item": "1",
-          "gip_question_text": "Vorname: bisherige Angabe
-[Vorname]
-korrigierte Angabe
+          "gip_question_text": "Vorname: bisherige Angabe [Vorname]
 ",
           "var_key": "AA37405",
           "sn": 1,
@@ -322,10 +286,8 @@ korrigierte Angabe
           "instrument_name": "W37",
           "question_name": "Page 3",
           "item_name": "2",
-          "text": "Nachname: bisherige Angabe 
-[Nachname]
-korrigierte Angabe
-",
+          "text": "Nachname: bisherige Angabe [Nachname]",
+          "gip_pre_field": "korrigierte Angabe",
           "scale": "str",
           "dataset_name": "GIP_W37_V2",
           "variable_name": "AA37406",
@@ -333,10 +295,7 @@ korrigierte Angabe
           "gip_variable_label": "correction last name",
           "study_name": "gip",
           "item": "2",
-          "gip_question_text": "Nachname: bisherige Angabe 
-[Nachname]
-korrigierte Angabe
-",
+          "gip_question_text": "Nachname: bisherige Angabe [Nachname]",
           "var_key": "AA37406",
           "sn": 2,
           "number": ""
@@ -345,10 +304,8 @@ korrigierte Angabe
           "instrument_name": "W37",
           "question_name": "Page 3",
           "item_name": "3",
-          "text": "Geschlecht: bisherige Angabe
-[Geschlecht]
-korrigierte Angabe
-",
+          "text": "Geschlecht: bisherige Angabe [Geschlecht]
+korrigierte Angabe",
           "scale": "cat",
           "answer_list_name": "1-2-geschlecht",
           "dataset_name": "GIP_W37_V2",
@@ -358,10 +315,8 @@ korrigierte Angabe
           "study_name": "gip",
           "item": "3",
           "answer_list": "1-2-geschlecht",
-          "gip_question_text": "Geschlecht: bisherige Angabe
-[Geschlecht]
-korrigierte Angabe
-",
+          "gip_question_text": "Geschlecht: bisherige Angabe [Geschlecht]
+korrigierte Angabe",
           "var_key": "AA37407",
           "answers": [
             {
@@ -393,10 +348,8 @@ korrigierte Angabe
           "instrument_name": "W37",
           "question_name": "Page 3",
           "item_name": "4",
-          "text": "Geburtsjahr: bisherige Angabe
-[Geburtsjahr]
-korrigierte Angabe
-",
+          "text": "Geburtsjahr: bisherige Angabe [Geburtsjahr]",
+          "gip_pre_field": "korrigierte Angabe",
           "scale": "str",
           "dataset_name": "GIP_W37_V2",
           "variable_name": "AA37408",
@@ -404,10 +357,7 @@ korrigierte Angabe
           "gip_variable_label": "correction year of birth",
           "study_name": "gip",
           "item": "4",
-          "gip_question_text": "Geburtsjahr: bisherige Angabe
-[Geburtsjahr]
-korrigierte Angabe
-",
+          "gip_question_text": "Geburtsjahr: bisherige Angabe [Geburtsjahr]",
           "var_key": "AA37408",
           "sn": 4,
           "number": ""
@@ -420,6 +370,7 @@ korrigierte Angabe
           "scale": "str",
           "dataset_name": "GIP_W37_V2",
           "variable_name": "AA37400_TXT",
+          "gip_field_condition": "answer field",
           "gip_programming_instructions": "Codierung der Variablen AA37409_TXT_NA: 0 Item not answered, 1 Item answered",
           "gip_variable_label": "correction_text",
           "study_name": "gip",
@@ -497,8 +448,7 @@ Mobilfunknummer: [Mobilfunknummer]",
       "label": "Bitte korrigieren Sie die folgende Mobilfunknummer.
 
 Mobilfunknummer: bisherige Mobilfunknummer
-[Mobilfunknummer]
-korrigierte Mobilfunknummer",
+[Mobilfunknummer]",
       "items": [
         {
           "instrument_name": "W37",
@@ -507,8 +457,8 @@ korrigierte Mobilfunknummer",
           "text": "Bitte korrigieren Sie die folgende Mobilfunknummer.
 
 Mobilfunknummer: bisherige Mobilfunknummer
-[Mobilfunknummer]
-korrigierte Mobilfunknummer",
+[Mobilfunknummer]",
+          "gip_pre_field": "korrigierte Mobilfunknummer",
           "scale": "str",
           "filter": "wenn AA37409 = 2 (wenn Mobilfunknummer nicht korrekt)",
           "dataset_name": "GIP_W37_V2",
@@ -517,6 +467,7 @@ korrigierte Mobilfunknummer",
           "gip_question_type": "Open Question",
           "gip_response_format": "text",
           "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "answer field",
           "gip_programming_instructions": "Feld „bisherige Mobilfunknummer“: Bitte Mobilfunknummer aus Datenbank einspielen (Einblendung: fett). Korrektur nicht möglich
 Feld „korrigierte Mobilfunknummer“: Bitte Mobilfunknummer aus Datenbank einspielen (Einblendung: fett). Korrektur möglich, Einblendung als Default-Angabe.
 
@@ -528,8 +479,7 @@ Codierung der Variable als AA37410_NA: 0 Item not answered, 1 Item answered.
           "gip_question_text": "Bitte korrigieren Sie die folgende Mobilfunknummer.
 
 Mobilfunknummer: bisherige Mobilfunknummer
-[Mobilfunknummer]
-korrigierte Mobilfunknummer",
+[Mobilfunknummer]",
           "var_key": "AA37410",
           "images_from_key": "AA37410.png",
           "item_image_url": "AA37410.png",
@@ -672,7 +622,7 @@ Telefonnummer: [Telefonnummer]",
       "label": "Bitte korrigieren Sie die folgende Telefonnummer. 
 Telefonnummer: bisherige Telefonnummer
 [Telefonnummer]
-korrigierte Telefonnummer
+
 ",
       "items": [
         {
@@ -682,8 +632,9 @@ korrigierte Telefonnummer
           "text": "Bitte korrigieren Sie die folgende Telefonnummer. 
 Telefonnummer: bisherige Telefonnummer
 [Telefonnummer]
-korrigierte Telefonnummer
+
 ",
+          "gip_pre_field": "korrigierte Telefonnummer",
           "scale": "str",
           "filter": "wenn AA37411 = 2 (wenn Telefonnummer nicht korrekt)",
           "dataset_name": "GIP_W37_V2",
@@ -692,6 +643,7 @@ korrigierte Telefonnummer
           "gip_question_type": "Open Question",
           "gip_response_format": "text",
           "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "answer field",
           "gip_programming_instructions": "Feld „bisherige Telefonnummer“: Bitte Telefonnummer aus Datenbank einspielen (Einblendung: fett). Korrektur nicht möglich
 Feld „korrigierte Telefonnummer“: Bitte Telefonnummer aus Datenbank einspielen (Einblendung: fett). Korrektur möglich, Einblendung als Default-Angabe.
 
@@ -703,7 +655,7 @@ Codierung der Variable als AA37412_NA: 0 Item not answered, 1 Item answered.
           "gip_question_text": "Bitte korrigieren Sie die folgende Telefonnummer. 
 Telefonnummer: bisherige Telefonnummer
 [Telefonnummer]
-korrigierte Telefonnummer
+
 ",
           "var_key": "AA37412",
           "images_from_key": "AA37412.png",
@@ -860,7 +812,7 @@ korrigierte Telefonnummer
           "filter": "wenn AA37307 != 1, -90 (wenn Befragte/-r nicht (nur) die deutsche Staatsangehörigkeit hat oder item nonrespone zur Frage der deutschen Staatsangehörigkeit) oder sample!=3 (nicht 2018 rekrutiert)
 ",
           "dataset_name": "GIP_W37_V2",
-          "variable_name": "AA37308",
+          "variable_name": "AA37308_a, AA37308_b, AA37308_c, AA37308_d, AA37308_e, AA37308_f, AA37308_g, AA37308_h, AA37308_i, AA37308_j, AA37308_k, AA37308_l, AA37308_m",
           "gip_sources": "Replikation der Fragen RQB1008 und RQB1008_TXT aus dem Begrüßungsfragebogen 2 von 2012; Item „Keine, bin staatenlos“ kann wie in der Originalfrage mit anderen Items kombiniert werden, Fehlermeldungen teilweise geändert, Länder angepasst",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "half-open",
@@ -1087,6 +1039,7 @@ korrigierte Telefonnummer
           "variable_name": "AA37308_l",
           "gip_response_format": "numerical",
           "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "answer field",
           "gip_variable_label": "citizenship other country",
           "study_name": "gip",
           "item": "l",
@@ -1242,7 +1195,7 @@ Denken Sie dabei bitte auch an alle im Haushalt lebenden Kinder.
 Zu Ihrem Haushalt zählen alle Personen, die hier gemeinsam wohnen und wirtschaften.
 Denken Sie dabei bitte auch an alle im Haushalt lebenden Kinder.
 ",
-          "scale": "str",
+          "scale": "int",
           "filter": "wenn sample != 3 (nicht 2018 rekrutiert)",
           "dataset_name": "GIP_W37_V2",
           "variable_name": "AA37057",
@@ -1250,6 +1203,7 @@ Denken Sie dabei bitte auch an alle im Haushalt lebenden Kinder.
           "gip_question_type": "Open Question",
           "gip_response_format": "numerical",
           "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "1-100",
           "gip_variable_label": "number of household members",
           "gip_help_text": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
           "gip_error_messages": "dReminderKaO1 dErrRange1100",
@@ -6895,20 +6849,18 @@ beim erstmalen Aufruf der Frage sollen jeweils die Antwortkategorien -91 „--- 
     "Page 36": {
       "question": "Page 36",
       "name": "Page 36",
-      "label": "Im Folgenden sehen Sie eine Liste mit (beruflichen) Tätigkeiten. Bitte geben Sie alle an, die
-      aktuell auf Sie zutreffen.
+      "label": "Im Folgenden sehen Sie eine Liste mit (beruflichen) Tätigkeiten. Bitte geben Sie alle an, die aktuell auf Sie zutreffen.
 ",
       "items": [
         {
           "instrument_name": "W37",
           "question_name": "Page 36",
           "item_name": "0",
-          "text": "Im Folgenden sehen Sie eine Liste mit (beruflichen) Tätigkeiten. Bitte geben Sie alle an, die
-      aktuell auf Sie zutreffen.
+          "text": "Im Folgenden sehen Sie eine Liste mit (beruflichen) Tätigkeiten. Bitte geben Sie alle an, die aktuell auf Sie zutreffen.
 ",
           "scale": "txt",
           "dataset_name": "GIP_W37_V2",
-          "variable_name": "AA37450",
+          "variable_name": "AA37450_a, AA37450_b, AA37450_c, AA37450_d, AA37450_e, AA37450_f, AA37450_g, AA37450_h, AA37450_i, AA37450_j, AA37450_k, AA37450_l, AA37450_m, AA37450_n, AA37450_o, AA37450_p, AA37450_q",
           "gip_sources": "Replikation der Fragen AA25450_a bis AA25450_q aus Welle 25 (Core 2016)",
           "gip_question_type": "Multiple-Choice",
           "gip_response_format": "close-ended",
@@ -6919,8 +6871,7 @@ beim erstmalen Aufruf der Frage sollen jeweils die Antwortkategorien -91 „--- 
           "study_name": "gip",
           "item": "0",
           "description": "Bei dieser Frage können Sie mehrere Antworten geben.",
-          "gip_question_text": "Im Folgenden sehen Sie eine Liste mit (beruflichen) Tätigkeiten. Bitte geben Sie alle an, die
-      aktuell auf Sie zutreffen.
+          "gip_question_text": "Im Folgenden sehen Sie eine Liste mit (beruflichen) Tätigkeiten. Bitte geben Sie alle an, die aktuell auf Sie zutreffen.
 ",
           "var_key": "AA37450",
           "images_from_key": "AA37450.png",
@@ -11418,15 +11369,12 @@ Ich bin eher zurückhaltend, reserviert.
     "Page 85": {
       "question": "Page 85",
       "name": "Page 85",
-      "label": "[wenn AA37057 = 1, -90 (wenn Anzahl der Haushaltsmitglieder gleich 1 oder Befragte/-r diese Frage nicht beantwortet hat): Nun eine Frage zu Ihrer finanziellen Situation.]
-[wenn AA37057 > 1 (wenn Anzahl der Haushaltsmitglieder größer 1): Nun einige Fragen zu Ihrer finanziellen Situation.]
-",
       "items": [
         {
           "instrument_name": "W37",
           "question_name": "Page 85",
           "item_name": "0",
-          "text": "[wenn AA37057 = 1, -90 (wenn Anzahl der Haushaltsmitglieder gleich 1 oder Befragte/-r diese Frage nicht beantwortet hat): Nun eine Frage zu Ihrer finanziellen Situation.]
+          "gip_info_text": "[wenn AA37057 = 1, -90 (wenn Anzahl der Haushaltsmitglieder gleich 1 oder Befragte/-r diese Frage nicht beantwortet hat): Nun eine Frage zu Ihrer finanziellen Situation.]
 [wenn AA37057 > 1 (wenn Anzahl der Haushaltsmitglieder größer 1): Nun einige Fragen zu Ihrer finanziellen Situation.]
 ",
           "scale": "txt",
@@ -11437,9 +11385,6 @@ Ich bin eher zurückhaltend, reserviert.
           "gip_image_extra": "W37_P85_1.png W37_P85_2.png",
           "study_name": "gip",
           "item": "0",
-          "gip_question_text": "[wenn AA37057 = 1, -90 (wenn Anzahl der Haushaltsmitglieder gleich 1 oder Befragte/-r diese Frage nicht beantwortet hat): Nun eine Frage zu Ihrer finanziellen Situation.]
-[wenn AA37057 > 1 (wenn Anzahl der Haushaltsmitglieder größer 1): Nun einige Fragen zu Ihrer finanziellen Situation.]
-",
           "item_image_url": "W37_P85_1.png W37_P85_2.png",
           "image_url": "https://github.com/paneldata/gip/raw/master/screenshots/W37/W37_P85_1.png https://github.com/paneldata/gip/raw/master/screenshots/W37/W37_P85_2.png",
           "sn": 0,
@@ -11635,7 +11580,7 @@ Denken Sie nicht nur an Arbeitseinkommen, sondern auch an Renten, Pensionen, Sti
 
 Denken Sie nicht nur an Arbeitseinkommen, sondern auch an Renten, Pensionen, Stipendien und andere Einkommen.
 ",
-          "scale": "str",
+          "scale": "int",
           "filter": "wenn AA37057 oder RQD3021 > 1 (Anzahl der Haushaltsmitglieder größer 1)",
           "dataset_name": "GIP_W37_V2",
           "variable_name": "AA37055",
@@ -11643,6 +11588,7 @@ Denken Sie nicht nur an Arbeitseinkommen, sondern auch an Renten, Pensionen, Sti
           "gip_question_type": "Open Question",
           "gip_response_format": "numerical",
           "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "1-99",
           "gip_error_messages": "dReminderAA37055 dErrRangeAA37055",
           "study_name": "gip",
           "item": "0",
@@ -11720,8 +11666,7 @@ Denken Sie nicht nur an Arbeitseinkommen, sondern auch an Renten, Pensionen, Sti
       "label": "Und Ihr Einkommen mit eingerechnet, wie hoch ist das durchschnittliche monatliche Netto-Einkommen Ihres Haushalts insgesamt? 
 
 Unter durchschnittlichem monatlichem Nettoeinkommen Ihres Haushalts ist die Summe zu verstehen, die sich aus Lohn, Gehalt, Einkommen aus selbstständiger Tätigkeit, Rente oder Pension ergibt. Rechnen Sie bitte auch die Einkünfte aus öffentlichen Beihilfen, Einkommen aus Vermietung und Verpachtung, Vermögen, Wohngeld, Kindergeld und sonstige Einkünfte hinzu und ziehen Sie dann Steuern und Sozialversicherungsbeiträge ab.
-Bei Selbstständigen geht es um die durchschnittlichen Nettobezüge, d. h. abzüglich der Betriebsausgaben und der Steuern.
-",
+Bei Selbstständigen geht es um die durchschnittlichen Nettobezüge, d. h. abzüglich der Betriebsausgaben und der Steuern.",
       "items": [
         {
           "instrument_name": "W37",
@@ -11730,8 +11675,7 @@ Bei Selbstständigen geht es um die durchschnittlichen Nettobezüge, d. h. abzü
           "text": "Und Ihr Einkommen mit eingerechnet, wie hoch ist das durchschnittliche monatliche Netto-Einkommen Ihres Haushalts insgesamt? 
 
 Unter durchschnittlichem monatlichem Nettoeinkommen Ihres Haushalts ist die Summe zu verstehen, die sich aus Lohn, Gehalt, Einkommen aus selbstständiger Tätigkeit, Rente oder Pension ergibt. Rechnen Sie bitte auch die Einkünfte aus öffentlichen Beihilfen, Einkommen aus Vermietung und Verpachtung, Vermögen, Wohngeld, Kindergeld und sonstige Einkünfte hinzu und ziehen Sie dann Steuern und Sozialversicherungsbeiträge ab.
-Bei Selbstständigen geht es um die durchschnittlichen Nettobezüge, d. h. abzüglich der Betriebsausgaben und der Steuern.
-",
+Bei Selbstständigen geht es um die durchschnittlichen Nettobezüge, d. h. abzüglich der Betriebsausgaben und der Steuern.",
           "scale": "cat",
           "filter": "wenn AA37465 = 2 (wenn befragte Person nicht die Person ist, die zum Haushaltseinkommen beiträgt ) oder wenn AA37055 > 1 (mehr als eine Person trägt zum Haushaltseinkommen bei)",
           "answer_list_name": "1-15-Einkommen",
@@ -11749,8 +11693,7 @@ Bei Selbstständigen geht es um die durchschnittlichen Nettobezüge, d. h. abzü
           "gip_question_text": "Und Ihr Einkommen mit eingerechnet, wie hoch ist das durchschnittliche monatliche Netto-Einkommen Ihres Haushalts insgesamt? 
 
 Unter durchschnittlichem monatlichem Nettoeinkommen Ihres Haushalts ist die Summe zu verstehen, die sich aus Lohn, Gehalt, Einkommen aus selbstständiger Tätigkeit, Rente oder Pension ergibt. Rechnen Sie bitte auch die Einkünfte aus öffentlichen Beihilfen, Einkommen aus Vermietung und Verpachtung, Vermögen, Wohngeld, Kindergeld und sonstige Einkünfte hinzu und ziehen Sie dann Steuern und Sozialversicherungsbeiträge ab.
-Bei Selbstständigen geht es um die durchschnittlichen Nettobezüge, d. h. abzüglich der Betriebsausgaben und der Steuern.
-",
+Bei Selbstständigen geht es um die durchschnittlichen Nettobezüge, d. h. abzüglich der Betriebsausgaben und der Steuern.",
           "var_key": "AA37056",
           "images_from_key": "AA37056.png",
           "item_image_url": "AA37056.png",
@@ -12027,20 +11970,17 @@ Die Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.
     "Page 91": {
       "question": "Page 91",
       "name": "Page 91",
-      "label": "Bewertung dieser Umfrage
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
-
-Fanden Sie den Fragebogen ...?
+      "label": "Fanden Sie den Fragebogen ...?
 interessant",
       "items": [
         {
           "instrument_name": "W37",
           "question_name": "Page 91",
           "item_name": "0",
-          "text": "Bewertung dieser Umfrage
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+          "gip_info_text": "Bewertung dieser Umfrage
 
-Fanden Sie den Fragebogen ...?
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.",
+          "text": "Fanden Sie den Fragebogen ...?
 interessant",
           "scale": "cat",
           "answer_list_name": "1-4-bewertung",
@@ -12055,10 +11995,7 @@ interessant",
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-4-bewertung",
-          "gip_question_text": "Bewertung dieser Umfrage
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
-
-Fanden Sie den Fragebogen ...?
+          "gip_question_text": "Fanden Sie den Fragebogen ...?
 interessant",
           "var_key": "QE37001",
           "images_from_key": "QE37001.png",
@@ -12525,7 +12462,11 @@ zu persönlich",
       "name": "Page 98",
       "label": "Haben Sie noch weitere Anmerkungen?
 
-Hier können Sie Lob oder Kritik zum Fragebogen äußern.",
+Hier können Sie Lob oder Kritik zum Fragebogen äußern.
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",
       "items": [
         {
           "instrument_name": "W37",
@@ -12533,7 +12474,11 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.",
           "item_name": "0",
           "text": "Haben Sie noch weitere Anmerkungen?
 
-Hier können Sie Lob oder Kritik zum Fragebogen äußern.",
+Hier können Sie Lob oder Kritik zum Fragebogen äußern.
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",
           "scale": "str",
           "dataset_name": "GIP_W37_V2",
           "variable_name": "QE37008_TXT",
@@ -12541,19 +12486,18 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.",
           "gip_question_type": "Text only/ Open Question",
           "gip_response_format": "text",
           "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "long answer field",
           "gip_programming_instructions": "Codierung der Variablen QE32008_TXT_na: 0 Item not answered, 1 Item answered",
           "gip_variable_label": "weitere Anmerkungen_text",
-          "gip_help_text": "Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
-Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-E-Mail: info@gesellschaft-im-wandel.de",
           "study_name": "gip",
           "item": "0",
-          "description": "Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
-Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-E-Mail: info@gesellschaft-im-wandel.de",
           "gip_question_text": "Haben Sie noch weitere Anmerkungen?
 
-Hier können Sie Lob oder Kritik zum Fragebogen äußern.",
+Hier können Sie Lob oder Kritik zum Fragebogen äußern.
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",
           "var_key": "QE37008_TXT",
           "images_from_key": "QE37008_TXT.png",
           "item_image_url": "QE37008_TXT.png",
@@ -12569,26 +12513,16 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.",
     "Page 99 Outro": {
       "question": "Page 99 Outro",
       "name": "Page 99 Outro",
-      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
-
-Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
-
-Bitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.
-
-
-Ihr Forschungsteam von der Universität Mannheim
-",
       "items": [
         {
           "instrument_name": "W37",
           "question_name": "Page 99 Outro",
           "item_name": "0",
-          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
+          "gip_info_text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
 
 Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
 
 Bitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.
-
 
 Ihr Forschungsteam von der Universität Mannheim
 ",
@@ -12600,15 +12534,6 @@ Ihr Forschungsteam von der Universität Mannheim
           "gip_image_extra": "W37_P99.png",
           "study_name": "gip",
           "item": "0",
-          "gip_question_text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
-
-Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
-
-Bitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.
-
-
-Ihr Forschungsteam von der Universität Mannheim
-",
           "item_image_url": "W37_P99.png",
           "image_url": "https://github.com/paneldata/gip/raw/master/screenshots/W37/W37_P99.png",
           "sn": 0,

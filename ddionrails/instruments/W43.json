@@ -3,6 +3,7 @@
   "label": "GIP Wave 43",
   "period": "2019/09",
   "analysis_unit": "p",
+  "dataset_name": "GIP_W43_V1",
   "study": "gip",
   "questionnaire": "W43",
   "instrument": "W43",
@@ -10,29 +11,12 @@
     "Page 1 Introduction": {
       "question": "Page 1 Introduction",
       "name": "Page 1 Introduction",
-      "label": "Herzlich Willkommen zu dieser Umfrage!
-
-Wie bereits der Titel unserer Studie „Gesellschaft im Wandel“ sagt, möchten wir auch erforschen, welche Veränderungen und Entwicklungen sich bei den Studienteilnehmerinnen und Studienteilnehmern im Laufe der Zeit ergeben.
-
-Daher bitten wir Sie diesen Monat, einige Fragen aus dem vergangenen Jahr erneut zu beantworten.
-
-Die Teilnahme dauert insgesamt ungefähr 10 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.
-
-Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:
-
-info@gesellschaft-im-wandel.de
-0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz).
-
-Wir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!
-
-
-Ihr Forschungsteam der Universität Mannheim",
       "items": [
         {
           "instrument_name": "W43",
           "question_name": "Page 1 Introduction",
           "item_name": "0",
-          "text": "Herzlich Willkommen zu dieser Umfrage!
+          "gip_info_text": "Herzlich Willkommen zu dieser Umfrage!
 
 Wie bereits der Titel unserer Studie „Gesellschaft im Wandel“ sagt, möchten wir auch erforschen, welche Veränderungen und Entwicklungen sich bei den Studienteilnehmerinnen und Studienteilnehmern im Laufe der Zeit ergeben.
 
@@ -57,23 +41,6 @@ Ihr Forschungsteam der Universität Mannheim",
           "gip_image_extra": "W43_P1.png",
           "study_name": "gip",
           "item": "0",
-          "gip_question_text": "Herzlich Willkommen zu dieser Umfrage!
-
-Wie bereits der Titel unserer Studie „Gesellschaft im Wandel“ sagt, möchten wir auch erforschen, welche Veränderungen und Entwicklungen sich bei den Studienteilnehmerinnen und Studienteilnehmern im Laufe der Zeit ergeben.
-
-Daher bitten wir Sie diesen Monat, einige Fragen aus dem vergangenen Jahr erneut zu beantworten.
-
-Die Teilnahme dauert insgesamt ungefähr 10 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.
-
-Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:
-
-info@gesellschaft-im-wandel.de
-0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz).
-
-Wir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!
-
-
-Ihr Forschungsteam der Universität Mannheim",
           "item_image_url": "W43_P1.png",
           "image_url": "https://github.com/paneldata/gip/raw/master/screenshots/W43/W43_P1.png",
           "sn": 0,
@@ -298,19 +265,16 @@ Codierung der Items AA43405 bis AA43400_TXT: AA43405_NA, AA43406_NA, AA43407_NA,
           "instrument_name": "W43",
           "question_name": "Page 3",
           "item_name": "1",
-          "text": "Vorname: bisherige Angabe
-[Vorname]
-korrigierte Angabe
+          "text": "Vorname: bisherige Angabe [Vorname]
 ",
+          "gip_pre_field": "korrigierte Angabe",
           "scale": "str",
           "dataset_name": "GIP_W43_V1",
           "variable_name": "AA43405",
           "gip_variable_label": "correction first name",
           "study_name": "gip",
           "item": "1",
-          "gip_question_text": "Vorname: bisherige Angabe
-[Vorname]
-korrigierte Angabe
+          "gip_question_text": "Vorname: bisherige Angabe [Vorname]
 ",
           "var_key": "AA43405",
           "sn": 1,
@@ -320,20 +284,15 @@ korrigierte Angabe
           "instrument_name": "W43",
           "question_name": "Page 3",
           "item_name": "2",
-          "text": "Nachname: bisherige Angabe 
-[Nachname]
-korrigierte Angabe
-",
+          "text": "Nachname: bisherige Angabe [Nachname]",
+          "gip_pre_field": "korrigierte Angabe",
           "scale": "str",
           "dataset_name": "GIP_W43_V1",
           "variable_name": "AA43406",
           "gip_variable_label": "correction last name",
           "study_name": "gip",
           "item": "2",
-          "gip_question_text": "Nachname: bisherige Angabe 
-[Nachname]
-korrigierte Angabe
-",
+          "gip_question_text": "Nachname: bisherige Angabe [Nachname]",
           "var_key": "AA43406",
           "images_from_key": "AA43406.png",
           "item_image_url": "AA43406.png",
@@ -344,10 +303,8 @@ korrigierte Angabe
           "instrument_name": "W43",
           "question_name": "Page 3",
           "item_name": "3",
-          "text": "Geschlecht: bisherige Angabe
-[Geschlecht]
-korrigierte Angabe
-",
+          "text": "Geschlecht: bisherige Angabe [Geschlecht]
+korrigierte Angabe",
           "scale": "cat",
           "answer_list_name": "1-2-geschlecht_1",
           "dataset_name": "GIP_W43_V1",
@@ -356,10 +313,8 @@ korrigierte Angabe
           "study_name": "gip",
           "item": "3",
           "answer_list": "1-2-geschlecht_1",
-          "gip_question_text": "Geschlecht: bisherige Angabe
-[Geschlecht]
-korrigierte Angabe
-",
+          "gip_question_text": "Geschlecht: bisherige Angabe [Geschlecht]
+korrigierte Angabe",
           "var_key": "AA43407",
           "images_from_key": "AA43407.png",
           "item_image_url": "AA43407.png",
@@ -381,7 +336,7 @@ korrigierte Angabe
             {
               "instrument_name": "W43",
               "answer_list_name": "1-2-geschlecht_1",
-              "value": -90,
+              "value": -91,
               "label": "Bitte auswählen",
               "gip_label": "Bitte auswählen"
             }
@@ -393,18 +348,15 @@ korrigierte Angabe
           "instrument_name": "W43",
           "question_name": "Page 3",
           "item_name": "4",
-          "text": "Geburtsjahr: bisherige Angabe
-[Geburtsjahr]
-korrigierte Angabe",
-          "scale": "str",
+          "text": "Geburtsjahr: bisherige Angabe [Geburtsjahr]",
+          "gip_pre_field": "korrigierte Angabe",
+          "scale": "int",
           "dataset_name": "GIP_W43_V1",
           "variable_name": "AA43408",
           "gip_variable_label": "correction year of birth",
           "study_name": "gip",
           "item": "4",
-          "gip_question_text": "Geburtsjahr: bisherige Angabe
-[Geburtsjahr]
-korrigierte Angabe",
+          "gip_question_text": "Geburtsjahr: bisherige Angabe [Geburtsjahr]",
           "var_key": "AA43408",
           "images_from_key": "AA43408.png",
           "item_image_url": "AA43408.png",
@@ -419,6 +371,9 @@ korrigierte Angabe",
           "scale": "str",
           "dataset_name": "GIP_W43_V1",
           "variable_name": "AA43400_TXT",
+          "gip_response_format": "text",
+          "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "long answer field",
           "gip_variable_label": "correction_text",
           "study_name": "gip",
           "item": "5",
@@ -493,19 +448,16 @@ Mobilfunknummer: [Mobilfunknummer]",
       "question": "Page 5",
       "name": "Page 5",
       "label": "Bitte korrigieren Sie die folgende Mobilfunknummer.
-bisherige Mobilfunknummer
-[Mobilfunknummer]
-korrigierte Mobilfunknummer",
+bisherige Mobilfunknummer",
       "items": [
         {
           "instrument_name": "W43",
           "question_name": "Page 5",
           "item_name": "0",
           "text": "Bitte korrigieren Sie die folgende Mobilfunknummer.
-bisherige Mobilfunknummer
-[Mobilfunknummer]
-korrigierte Mobilfunknummer",
-          "scale": "str",
+bisherige Mobilfunknummer",
+          "gip_pre_field": "korrigierte Mobilfunknummer",
+          "scale": "int",
           "filter": "AA43409 = 2 (Mobilfunknummer nicht korrekt)",
           "dataset_name": "GIP_W43_V1",
           "variable_name": "AA43410",
@@ -521,9 +473,7 @@ Codierung des Items AA43410_NA: 0 item not answered, 1 item answered
           "study_name": "gip",
           "item": "0",
           "gip_question_text": "Bitte korrigieren Sie die folgende Mobilfunknummer.
-bisherige Mobilfunknummer
-[Mobilfunknummer]
-korrigierte Mobilfunknummer",
+bisherige Mobilfunknummer",
           "var_key": "AA43410",
           "images_from_key": "AA43410.png",
           "item_image_url": "AA43410.png",
@@ -673,8 +623,7 @@ Telefonnummer: [Telefonnummer]
       "name": "Page 8",
       "label": "Bitte korrigieren Sie die folgende Telefonnummer.
 bisherige Telefonnummer
-[Telefonnummer]
-korrigierte Telefonnummer",
+",
       "items": [
         {
           "instrument_name": "W43",
@@ -682,9 +631,9 @@ korrigierte Telefonnummer",
           "item_name": "0",
           "text": "Bitte korrigieren Sie die folgende Telefonnummer.
 bisherige Telefonnummer
-[Telefonnummer]
-korrigierte Telefonnummer",
-          "scale": "str",
+",
+          "gip_pre_field": "korrigierte Telefonnummer",
+          "scale": "int",
           "filter": "AA43411 = 2 (Telefonnummer nicht korrekt)",
           "dataset_name": "GIP_W43_V1",
           "variable_name": "AA43412",
@@ -700,8 +649,7 @@ Codierung des Items AA43412_NA: 0 item not answered, 1 item answered",
           "item": "0",
           "gip_question_text": "Bitte korrigieren Sie die folgende Telefonnummer.
 bisherige Telefonnummer
-[Telefonnummer]
-korrigierte Telefonnummer",
+",
           "var_key": "AA43412",
           "images_from_key": "AA43412.png",
           "item_image_url": "AA43412.png",
@@ -855,7 +803,7 @@ korrigierte Telefonnummer",
           "scale": "txt",
           "filter": "AA43307 != 1, -90 (hat nicht (nur) die deutsche Staatsangehörigkeit)",
           "dataset_name": "GIP_W43_V1",
-          "variable_name": "AA43308",
+          "variable_name": "AA43308_a, AA43308_b, AA43308_c, AA43308_d, AA43308_e, AA43308_f, AA43308_g, AA43308_h, AA43308_i, AA43308_j, AA43308_k, AA43308_l, AA43308_m",
           "gip_sources": "Replikation der Fragen RQB1008 und RQB1008_TXT aus dem Begrüßungsfragebogen 2 von 2012; Item „Keine, bin staatenlos“ kann wie in der Originalfrage mit anderen Items kombiniert werden, Fehlermeldungen teilweise geändert, Länder angepasst",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "half-open",
@@ -1234,14 +1182,15 @@ Denken Sie dabei bitte auch an alle im Haushalt lebenden Kinder.
 Zu Ihrem Haushalt zählen alle Personen, die hier gemeinsam wohnen und wirtschaften.
 Denken Sie dabei bitte auch an alle im Haushalt lebenden Kinder.
 ",
-          "scale": "str",
+          "gip_post_field": "Personen",
+          "scale": "int",
           "dataset_name": "GIP_W43_V1",
           "variable_name": "AA43057",
           "gip_sources": "Replikation der Frage AA01057 aus Welle 01 (Core 2012); Fehlermeldungen geändert",
           "gip_question_type": "Open Question",
           "gip_response_format": "numerical",
           "gip_answer_alignment": "[answer field] Personen",
-          "gip_programming_instructions": "Range: 1 – 100",
+          "gip_field_condition": "1 – 100",
           "gip_variable_label": "number of household members",
           "gip_help_text": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
           "gip_error_messages": "dReminderKaO1, dErrRange1100_1",
@@ -7029,7 +6978,7 @@ beim erstmalen Aufruf der Frage sollen jeweils die Antwortkategorien -91 „--- 
 ",
           "scale": "txt",
           "dataset_name": "GIP_W43_V1",
-          "variable_name": "AA43450",
+          "variable_name": "AA43450_a, AA43450_b, AA43450_c, AA43450_d, AA43450_e, AA43450_f, AA43450_g, AA43450_h, AA43450_i, AA43450_j, AA43450_k, AA43450_l, AA43450_m, AA43450_n, AA43450_o, AA43450_p, AA43450_q",
           "gip_sources": "Replikation der Fragen AA25450_a bis AA25450_q aus Welle 25 (Core 2016)",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "close-ended",
@@ -9039,8 +8988,7 @@ meiner Arbeit",
     "Page 55": {
       "question": "Page 55",
       "name": "Page 55",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Sport-, Musik- oder Kulturverein, sonstige Hobbyvereinigung",
       "items": [
@@ -9048,8 +8996,7 @@ Sport-, Musik- oder Kulturverein, sonstige Hobbyvereinigung",
           "instrument_name": "W43",
           "question_name": "Page 55",
           "item_name": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Sport-, Musik- oder Kulturverein, sonstige Hobbyvereinigung",
           "scale": "cat",
@@ -9070,8 +9017,7 @@ vertikale Antwortkategorien von 1 „Ich bin kein Mitglied.“ bis 3 „Ich bin 
           "item": "0",
           "answer_list": "1-3-mitglied",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Sport-, Musik- oder Kulturverein, sonstige Hobbyvereinigung",
           "var_key": "AA43027",
@@ -9112,8 +9058,7 @@ Sport-, Musik- oder Kulturverein, sonstige Hobbyvereinigung",
     "Page 56": {
       "question": "Page 56",
       "name": "Page 56",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Menschenrechts-, Umwelt- oder Tierschutzverein",
       "items": [
@@ -9121,8 +9066,7 @@ Menschenrechts-, Umwelt- oder Tierschutzverein",
           "instrument_name": "W43",
           "question_name": "Page 56",
           "item_name": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Menschenrechts-, Umwelt- oder Tierschutzverein",
           "scale": "cat",
@@ -9141,8 +9085,7 @@ Menschenrechts-, Umwelt- oder Tierschutzverein",
           "item": "0",
           "answer_list": "1-3-mitglied",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Menschenrechts-, Umwelt- oder Tierschutzverein",
           "var_key": "AA43028",
@@ -9183,8 +9126,7 @@ Menschenrechts-, Umwelt- oder Tierschutzverein",
     "Page 57": {
       "question": "Page 57",
       "name": "Page 57",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Wohltätigkeitsverein oder Hilfsorganisation",
       "items": [
@@ -9192,8 +9134,7 @@ Wohltätigkeitsverein oder Hilfsorganisation",
           "instrument_name": "W43",
           "question_name": "Page 57",
           "item_name": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Wohltätigkeitsverein oder Hilfsorganisation",
           "scale": "cat",
@@ -9212,8 +9153,7 @@ Wohltätigkeitsverein oder Hilfsorganisation",
           "item": "0",
           "answer_list": "1-3-mitglied",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Wohltätigkeitsverein oder Hilfsorganisation",
           "var_key": "AA43029",
@@ -9254,8 +9194,7 @@ Wohltätigkeitsverein oder Hilfsorganisation",
     "Page 58": {
       "question": "Page 58",
       "name": "Page 58",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Religiöse oder kirchliche Organisation",
       "items": [
@@ -9263,8 +9202,7 @@ Religiöse oder kirchliche Organisation",
           "instrument_name": "W43",
           "question_name": "Page 58",
           "item_name": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Religiöse oder kirchliche Organisation",
           "scale": "cat",
@@ -9283,8 +9221,7 @@ Religiöse oder kirchliche Organisation",
           "item": "0",
           "answer_list": "1-3-mitglied",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Religiöse oder kirchliche Organisation",
           "var_key": "AA43030",
@@ -9325,8 +9262,7 @@ Religiöse oder kirchliche Organisation",
     "Page 59": {
       "question": "Page 59",
       "name": "Page 59",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Jugend-, Eltern- oder Seniorenvereinigung",
       "items": [
@@ -9334,8 +9270,7 @@ Jugend-, Eltern- oder Seniorenvereinigung",
           "instrument_name": "W43",
           "question_name": "Page 59",
           "item_name": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Jugend-, Eltern- oder Seniorenvereinigung",
           "scale": "cat",
@@ -9354,8 +9289,7 @@ Jugend-, Eltern- oder Seniorenvereinigung",
           "item": "0",
           "answer_list": "1-3-mitglied",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Jugend-, Eltern- oder Seniorenvereinigung",
           "var_key": "AA43031",
@@ -9396,8 +9330,7 @@ Jugend-, Eltern- oder Seniorenvereinigung",
     "Page 60": {
       "question": "Page 60",
       "name": "Page 60",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Bürgerinitiative",
       "items": [
@@ -9405,8 +9338,7 @@ Bürgerinitiative",
           "instrument_name": "W43",
           "question_name": "Page 60",
           "item_name": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Bürgerinitiative",
           "scale": "cat",
@@ -9425,8 +9357,7 @@ Bürgerinitiative",
           "item": "0",
           "answer_list": "1-3-mitglied",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Bürgerinitiative",
           "var_key": "AA43032",
@@ -9467,8 +9398,7 @@ Bürgerinitiative",
     "Page 61": {
       "question": "Page 61",
       "name": "Page 61",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Berufsverband",
       "items": [
@@ -9476,8 +9406,7 @@ Berufsverband",
           "instrument_name": "W43",
           "question_name": "Page 61",
           "item_name": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Berufsverband",
           "scale": "cat",
@@ -9496,8 +9425,7 @@ Berufsverband",
           "item": "0",
           "answer_list": "1-3-mitglied",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Berufsverband",
           "var_key": "AA43033",
@@ -9538,8 +9466,7 @@ Berufsverband",
     "Page 62": {
       "question": "Page 62",
       "name": "Page 62",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Gewerkschaft",
       "items": [
@@ -9547,8 +9474,7 @@ Gewerkschaft",
           "instrument_name": "W43",
           "question_name": "Page 62",
           "item_name": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Gewerkschaft",
           "scale": "cat",
@@ -9567,8 +9493,7 @@ Gewerkschaft",
           "item": "0",
           "answer_list": "1-3-mitglied",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese
-bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
+          "gip_question_text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.
 
 Gewerkschaft",
           "var_key": "AA43034",
@@ -9680,16 +9605,14 @@ Politische Partei",
     "Page 64": {
       "question": "Page 64",
       "name": "Page 64",
-      "label": "In der Politik reden die Leute häufig von „links“ und „rechts“. Wenn Sie diese Skala hier
-benutzen, wo würden Sie sich selbst einordnen, wenn 1 „links“ und 11 „rechts“ ist?
+      "label": "In der Politik reden die Leute häufig von „links“ und „rechts“. Wenn Sie diese Skala hier benutzen, wo würden Sie sich selbst einordnen, wenn 1 „links“ und 11 „rechts“ ist?
 ",
       "items": [
         {
           "instrument_name": "W43",
           "question_name": "Page 64",
           "item_name": "0",
-          "text": "In der Politik reden die Leute häufig von „links“ und „rechts“. Wenn Sie diese Skala hier
-benutzen, wo würden Sie sich selbst einordnen, wenn 1 „links“ und 11 „rechts“ ist?
+          "text": "In der Politik reden die Leute häufig von „links“ und „rechts“. Wenn Sie diese Skala hier benutzen, wo würden Sie sich selbst einordnen, wenn 1 „links“ und 11 „rechts“ ist?
 ",
           "scale": "cat",
           "answer_list_name": "1-11-links-rechts",
@@ -9707,8 +9630,7 @@ benutzen, wo würden Sie sich selbst einordnen, wenn 1 „links“ und 11 „rec
           "item": "0",
           "answer_list": "1-11-links-rechts",
           "description": "Bitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
-          "gip_question_text": "In der Politik reden die Leute häufig von „links“ und „rechts“. Wenn Sie diese Skala hier
-benutzen, wo würden Sie sich selbst einordnen, wenn 1 „links“ und 11 „rechts“ ist?
+          "gip_question_text": "In der Politik reden die Leute häufig von „links“ und „rechts“. Wenn Sie diese Skala hier benutzen, wo würden Sie sich selbst einordnen, wenn 1 „links“ und 11 „rechts“ ist?
 ",
           "var_key": "AA43040",
           "images_from_key": "AA43040a.png",
@@ -10962,7 +10884,7 @@ Denken Sie nicht nur an Arbeitseinkommen, sondern auch an Renten, Pensionen, Sti
 
 Denken Sie nicht nur an Arbeitseinkommen, sondern auch an Renten, Pensionen, Stipendien und andere Einkommen.
 ",
-          "scale": "str",
+          "scale": "int",
           "filter": "AA43057 > 1 (Anzahl der Haushaltsmitglieder größer 1)",
           "dataset_name": "GIP_W43_V1",
           "variable_name": "AA43055",
@@ -10970,7 +10892,7 @@ Denken Sie nicht nur an Arbeitseinkommen, sondern auch an Renten, Pensionen, Sti
           "gip_question_type": "Open Question",
           "gip_response_format": "numerical",
           "gip_answer_alignment": "[answer field]",
-          "gip_programming_instructions": "Range: 1 – 100",
+          "gip_field_condition": "1 – 100",
           "gip_variable_label": "income contributing persons",
           "gip_error_messages": "dReminderAA43055, dErrRange1100_2",
           "study_name": "gip",
@@ -11356,20 +11278,16 @@ Die Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.
     "Page 79": {
       "question": "Page 79",
       "name": "Page 79",
-      "label": "Bewertung dieser Umfrage
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
-
-Fanden Sie den Fragebogen ...?
+      "label": "Fanden Sie den Fragebogen ...?
 interessant",
       "items": [
         {
           "instrument_name": "W43",
           "question_name": "Page 79",
           "item_name": "0",
-          "text": "Bewertung dieser Umfrage
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
-
-Fanden Sie den Fragebogen ...?
+          "gip_info_text": "Bewertung dieser Umfrage
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.",
+          "text": "Fanden Sie den Fragebogen ...?
 interessant",
           "scale": "cat",
           "answer_list_name": "1-4-bewertung",
@@ -11384,10 +11302,7 @@ interessant",
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-4-bewertung",
-          "gip_question_text": "Bewertung dieser Umfrage
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
-
-Fanden Sie den Fragebogen ...?
+          "gip_question_text": "Fanden Sie den Fragebogen ...?
 interessant",
           "var_key": "QE43001",
           "images_from_key": "QE43001.png",
@@ -11855,6 +11770,10 @@ zu persönlich",
       "label": "Haben Sie noch weitere Anmerkungen?
 
 Hier können Sie Lob oder Kritik zum Fragebogen äußern.
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de
 ",
       "items": [
         {
@@ -11864,6 +11783,10 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.
           "text": "Haben Sie noch weitere Anmerkungen?
 
 Hier können Sie Lob oder Kritik zum Fragebogen äußern.
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de
 ",
           "scale": "str",
           "dataset_name": "GIP_W43_V1",
@@ -11872,20 +11795,19 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.
           "gip_question_type": "Open Question/Text only",
           "gip_response_format": "text",
           "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "long answer field",
           "gip_programming_instructions": "Codierung der Variablen QE32008_TXT_na: 0 Item not answered, 1 Item answered",
           "gip_variable_label": "weitere Anmerkungen_text",
-          "gip_help_text": "Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
-Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-E-Mail: info@gesellschaft-im-wandel.de",
           "gip_image_extra": "W43_P86.png",
           "study_name": "gip",
           "item": "0",
-          "description": "Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
-Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-E-Mail: info@gesellschaft-im-wandel.de",
           "gip_question_text": "Haben Sie noch weitere Anmerkungen?
 
 Hier können Sie Lob oder Kritik zum Fragebogen äußern.
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de
 ",
           "var_key": "QE43008_TXT",
           "images_from_key": "QE43008_TXT.png",
@@ -11902,21 +11824,12 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.
     "Page 87 Outro": {
       "question": "Page 87 Outro",
       "name": "Page 87 Outro",
-      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
-
-Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
-
-Bitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.
-
-
-Ihr Forschungsteam von der Universität Mannheim
-",
       "items": [
         {
           "instrument_name": "W43",
           "question_name": "Page 87 Outro",
           "item_name": "0",
-          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
+          "gip_info_text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
 
 Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
 
@@ -11933,15 +11846,6 @@ Ihr Forschungsteam von der Universität Mannheim
           "gip_image_extra": "W43_P87.png",
           "study_name": "gip",
           "item": "0",
-          "gip_question_text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
-
-Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
-
-Bitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.
-
-
-Ihr Forschungsteam von der Universität Mannheim
-",
           "item_image_url": "W43_P87.png",
           "image_url": "https://github.com/paneldata/gip/raw/master/screenshots/W43/W43_P87.png",
           "sn": 0,

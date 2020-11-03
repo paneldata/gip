@@ -3,6 +3,7 @@
   "label": "GIP Wave 35",
   "period": "2018/05",
   "analysis_unit": "p",
+  "dataset_name": "GIP_W35_V1",
   "study": "gip",
   "questionnaire": "W35",
   "instrument": "W35",
@@ -10,27 +11,12 @@
     "Page 1 Introduction": {
       "question": "Page 1 Introduction",
       "name": "Page 1 Introduction",
-      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
-
-wir freuen uns, dass Sie unseren Fragebogen gestartet haben.
-      
-Die Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.
-      
-Sie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. 
-
-Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:
-info@gesellschaft-im-wandel.de
-0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-
-Wir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!
-
-Ihr Forschungsteam der Universität Mannheim",
       "items": [
         {
           "instrument_name": "W35",
           "question_name": "Page 1 Introduction",
           "item_name": "0",
-          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
+          "gip_info_text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
 
 wir freuen uns, dass Sie unseren Fragebogen gestartet haben.
       
@@ -52,21 +38,6 @@ Ihr Forschungsteam der Universität Mannheim",
           "gip_image_extra": "W35_P1.png",
           "study_name": "gip",
           "item": "0",
-          "gip_question_text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
-
-wir freuen uns, dass Sie unseren Fragebogen gestartet haben.
-      
-Die Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.
-      
-Sie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. 
-
-Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:
-info@gesellschaft-im-wandel.de
-0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-
-Wir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!
-
-Ihr Forschungsteam der Universität Mannheim",
           "item_image_url": "W35_P1.png",
           "image_url": "https://github.com/paneldata/gip/raw/master/screenshots/W35/W35_P1.png",
           "sn": 0,
@@ -97,12 +68,14 @@ Ihr Forschungsteam der Universität Mannheim",
           "gip_answer_alignment": "vertical",
           "gip_programming_instructions": "vertikale Antwortskala von „0 gar nicht verändern“ bis „10 vollständig verändern“, separater “weiß nicht”-Button",
           "gip_variable_label": "reforms health care",
-          "gip_help_text": "Bitte antworten Sie anhand der Skala.",
+          "gip_help_text": "Bitte antworten Sie anhand der Skala.
+Die Bundesregierung sollte das Gesundheitssystem…",
           "gip_error_messages": "dReminderBasic",
           "study_name": "gip",
           "item": "0",
           "answer_list": "0-10-veraendern",
-          "description": "Bitte antworten Sie anhand der Skala.",
+          "description": "Bitte antworten Sie anhand der Skala.
+Die Bundesregierung sollte das Gesundheitssystem…",
           "gip_question_text": "Was ist Ihre persönliche Meinung zum Gesundheitssystem in Deutschland? Inwieweit sollte die Bundesregierung das Gesundheitssystem verändern?",
           "var_key": "RM35001",
           "images_from_key": "RM35001.png",
@@ -205,36 +178,32 @@ Ihr Forschungsteam der Universität Mannheim",
     "Page 3": {
       "question": "Page 3",
       "name": "Page 3",
-      "label": "Die Ausgaben für das Gesundheitssystem sind in den letzten Jahren gestiegen. Um Einnahmen und Ausgaben im Gleichgewicht zu halten, gibt es unterschiedliche Maßnahmen, die im Folgenden aufgeführt sind.
-
-Welche dieser Maßnahmen befürworten Sie?
+      "label": "Welche dieser Maßnahmen befürworten Sie?
 ",
       "items": [
         {
           "instrument_name": "W35",
           "question_name": "Page 3",
           "item_name": "0",
-          "text": "Die Ausgaben für das Gesundheitssystem sind in den letzten Jahren gestiegen. Um Einnahmen und Ausgaben im Gleichgewicht zu halten, gibt es unterschiedliche Maßnahmen, die im Folgenden aufgeführt sind.
-
-Welche dieser Maßnahmen befürworten Sie?
+          "gip_info_text": "Die Ausgaben für das Gesundheitssystem sind in den letzten Jahren gestiegen. Um Einnahmen und Ausgaben im Gleichgewicht zu halten, gibt es unterschiedliche Maßnahmen, die im Folgenden aufgeführt sind.",
+          "text": "Welche dieser Maßnahmen befürworten Sie?
 ",
           "scale": "txt",
           "dataset_name": "GIP_W35_V1",
-          "variable_name": "RM35002",
+          "variable_name": "RM35002_a, RM35002_b, RM35002_c, RM35002_d , RM35002_e , RM35002_f, RM35002_g, RM35002_h",
           "gip_sources": "Replikation 1:1 der Fragen RM17002_a bis RM17002_h aus Welle 17 (Mai 2014)",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "half-open",
           "gip_answer_alignment": "vertical",
           "gip_programming_instructions": "Antwortkategorie 8 „Ich befürworte keine dieser Maßnahmen“ soll nicht in Kombination mit anderen Antwortkategorien möglich sein.
 Codierung der Variablen RM35002_a bis RM35002_h: 0 Item not checked, 1 Item checked",
+          "gip_variable_label": "funding health care_a, funding health care_b, funding health care_c, funding health care_d, funding health care_e, funding health care_f, funding health care_g, funding health care_h",
           "gip_help_text": "Bitte geben Sie alles Zutreffende an.",
           "gip_error_messages": "dReminderBasic dErrMulti_1 dErrOpen_1",
           "study_name": "gip",
           "item": "0",
           "description": "Bitte geben Sie alles Zutreffende an.",
-          "gip_question_text": "Die Ausgaben für das Gesundheitssystem sind in den letzten Jahren gestiegen. Um Einnahmen und Ausgaben im Gleichgewicht zu halten, gibt es unterschiedliche Maßnahmen, die im Folgenden aufgeführt sind.
-
-Welche dieser Maßnahmen befürworten Sie?
+          "gip_question_text": "Welche dieser Maßnahmen befürworten Sie?
 ",
           "var_key": "RM35002",
           "images_from_key": "RM35002.png",
@@ -323,7 +292,7 @@ Welche dieser Maßnahmen befürworten Sie?
           "scale": "bin",
           "dataset_name": "GIP_W35_V1",
           "variable_name": "RM35002_e ",
-          "gip_variable_label": "funding health care_d",
+          "gip_variable_label": "funding health care_e",
           "study_name": "gip",
           "item": "e",
           "gip_question_text": "Die Vergütung von Apotheken und der Pharmaindustrie sollten gekürzt werden.",
@@ -341,7 +310,7 @@ Welche dieser Maßnahmen befürworten Sie?
           "scale": "bin",
           "dataset_name": "GIP_W35_V1",
           "variable_name": "RM35002_f",
-          "gip_variable_label": "funding health care_d",
+          "gip_variable_label": "funding health care_f",
           "study_name": "gip",
           "item": "f",
           "gip_question_text": "Die medizinischen Leistungen, die von der Krankenversicherung bezahlt werden, sollten beschränkt werden.",
@@ -355,14 +324,14 @@ Welche dieser Maßnahmen befürworten Sie?
           "instrument_name": "W35",
           "question_name": "Page 3",
           "item_name": "g",
-          "text": "Sonstiges, und zwar: [answer field]",
-          "scale": "bin",
+          "text": "Sonstiges, und zwar:",
+          "scale": "str",
           "dataset_name": "GIP_W35_V1",
           "variable_name": "RM35002_g ",
-          "gip_variable_label": "funding health care_d",
+          "gip_variable_label": "funding health care_g",
           "study_name": "gip",
           "item": "g",
-          "gip_question_text": "Sonstiges, und zwar: [answer field]",
+          "gip_question_text": "Sonstiges, und zwar:",
           "var_key": "RM35002",
           "images_from_key": "RM35002.png",
           "item_image_url": "RM35002.png",
@@ -377,7 +346,7 @@ Welche dieser Maßnahmen befürworten Sie?
           "scale": "bin",
           "dataset_name": "GIP_W35_V1",
           "variable_name": "RM35002_h",
-          "gip_variable_label": "funding health care_d",
+          "gip_variable_label": "funding health care_h",
           "study_name": "gip",
           "item": "h",
           "gip_question_text": "Ich befürworte keine dieser Maßnahmen.",
@@ -395,22 +364,17 @@ Welche dieser Maßnahmen befürworten Sie?
     "Page 4": {
       "question": "Page 4",
       "name": "Page 4",
-      "label": " Ein Hausarztmodell verpflichtet jeden Patienten bei gesundheitlichen Problemen zuerst zu seinem Hausarzt zu gehen. Dieser entscheidet dann, ob Patienten zu einem Facharzt überwiesen werden. In Notfällen ist keine Überweisung erforderlich.
-      
-Bei der freien Arztwahl kann der Patient bei gesundheitlichen Problemen selbst entscheiden, ob er zum Hausarzt oder gleich zu einem Facharzt geht.
-      
-Was finden Sie besser?
+      "label": "Was finden Sie besser?
 ",
       "items": [
         {
           "instrument_name": "W35",
           "question_name": "Page 4",
           "item_name": "0",
-          "text": " Ein Hausarztmodell verpflichtet jeden Patienten bei gesundheitlichen Problemen zuerst zu seinem Hausarzt zu gehen. Dieser entscheidet dann, ob Patienten zu einem Facharzt überwiesen werden. In Notfällen ist keine Überweisung erforderlich.
+          "gip_info_text": "Ein Hausarztmodell verpflichtet jeden Patienten bei gesundheitlichen Problemen zuerst zu seinem Hausarzt zu gehen. Dieser entscheidet dann, ob Patienten zu einem Facharzt überwiesen werden. In Notfällen ist keine Überweisung erforderlich.
       
-Bei der freien Arztwahl kann der Patient bei gesundheitlichen Problemen selbst entscheiden, ob er zum Hausarzt oder gleich zu einem Facharzt geht.
-      
-Was finden Sie besser?
+Bei der freien Arztwahl kann der Patient bei gesundheitlichen Problemen selbst entscheiden, ob er zum Hausarzt oder gleich zu einem Facharzt geht.",
+          "text": "Was finden Sie besser?
 ",
           "scale": "cat",
           "answer_list_name": "1-2-arzt",
@@ -427,11 +391,7 @@ Was finden Sie besser?
           "item": "0",
           "answer_list": "1-2-arzt",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": " Ein Hausarztmodell verpflichtet jeden Patienten bei gesundheitlichen Problemen zuerst zu seinem Hausarzt zu gehen. Dieser entscheidet dann, ob Patienten zu einem Facharzt überwiesen werden. In Notfällen ist keine Überweisung erforderlich.
-      
-Bei der freien Arztwahl kann der Patient bei gesundheitlichen Problemen selbst entscheiden, ob er zum Hausarzt oder gleich zu einem Facharzt geht.
-      
-Was finden Sie besser?
+          "gip_question_text": "Was finden Sie besser?
 ",
           "var_key": "RM35003",
           "images_from_key": "RM35003.png",
@@ -481,12 +441,14 @@ Was finden Sie besser?
           "gip_answer_alignment": "vertical",
           "gip_programming_instructions": "vertikale Antwortskala von „0 gar nicht verändern“ bis „10 vollständig verändern“, separater “weiß nicht”-Button",
           "gip_variable_label": "reforms security of unemployed",
-          "gip_help_text": "Bitte antworten Sie anhand der Skala.                                                         Die Bundesregierung sollte die soziale Sicherung von Arbeitslosen …",
+          "gip_help_text": "Bitte antworten Sie anhand der Skala.
+Die Bundesregierung sollte die soziale Sicherung von Arbeitslosen …",
           "gip_error_messages": "dReminderBasic",
           "study_name": "gip",
           "item": "0",
           "answer_list": "0-10-veraendern",
-          "description": "Bitte antworten Sie anhand der Skala.                                                         Die Bundesregierung sollte die soziale Sicherung von Arbeitslosen …",
+          "description": "Bitte antworten Sie anhand der Skala.
+Die Bundesregierung sollte die soziale Sicherung von Arbeitslosen …",
           "gip_question_text": "Was ist Ihre persönliche Meinung zur sozialen Sicherung von Arbeitslosen in Deutschland? Inwieweit sollte die Bundesregierung die soziale Sicherung von Arbeitslosen verändern?",
           "var_key": "RM35004",
           "images_from_key": "RM35004.png",
@@ -598,7 +560,7 @@ Was finden Sie besser?
           "text": "Wie ist Ihre Meinung: Welche der folgenden Bedingungen sollten Menschen, die länger als ein Jahr arbeitslos sind, erfüllen, damit sie Arbeitslosengeld II („Hartz IV“) erhalten?",
           "scale": "txt",
           "dataset_name": "GIP_W35_V1",
-          "variable_name": "RM35005",
+          "variable_name": "RM35005_a, RM35005_b, RM35005_c, RM35005_d, RM35005_e, RM35005_f, RM35005_g, RM35005_h, RM35005_i, RM35005_j",
           "gip_sources": "Replikation 1:1 der Fragen RM17005_a bis RM17005_j aus Welle 17 (Mai 2015)",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "half-open",
@@ -606,11 +568,14 @@ Was finden Sie besser?
           "gip_programming_instructions": "Items RM35005_a „ohne weitere Bedingungen Arbeitslosengeld II erhalten.“, RM35005_i „Das Arbeitslosengeld II sollte ersatzlos abgeschafft werden.“ und RM35005_j „Das Arbeitslosengeld II sollte abgeschafft und durch etwas anderes ersetzt werden.“ sollen jeweils nicht in Kombination mit anderen Items möglich sein.
 Codierung der Variablen RM35005_a bis RM35005_j: 0 Item not checked, 1 Item checked
 ",
-          "gip_help_text": "Bitte antworten Sie anhand der Skala.                                                         Die Bundesregierung sollte die soziale Sicherung von Arbeitslosen …",
+          "gip_variable_label": "conditions Hartz IV_a, conditions Hartz IV_b, conditions Hartz IV_c, conditions Hartz IV_d, conditions Hartz IV_e, conditions Hartz IV_f, conditions Hartz IV_g, conditions Hartz IV_h, conditions Hartz IV_i, conditions Hartz IV_j",
+          "gip_help_text": "Bitte antworten Sie anhand der Skala.
+Sie sollten …",
           "gip_error_messages": "dReminderBasic dErrMulti_2 dErrOpen_2",
           "study_name": "gip",
           "item": "0",
-          "description": "Bitte antworten Sie anhand der Skala.                                                         Die Bundesregierung sollte die soziale Sicherung von Arbeitslosen …",
+          "description": "Bitte antworten Sie anhand der Skala.
+Sie sollten …",
           "gip_question_text": "Wie ist Ihre Meinung: Welche der folgenden Bedingungen sollten Menschen, die länger als ein Jahr arbeitslos sind, erfüllen, damit sie Arbeitslosengeld II („Hartz IV“) erhalten?",
           "var_key": "RM35005",
           "images_from_key": "RM35005.png",
@@ -749,14 +714,14 @@ Codierung der Variablen RM35005_a bis RM35005_j: 0 Item not checked, 1 Item chec
           "instrument_name": "W35",
           "question_name": "Page 6",
           "item_name": "h",
-          "text": "sonstige Bedingungen erfüllen, und zwar: [answer field]",
-          "scale": "bin",
+          "text": "sonstige Bedingungen erfüllen, und zwar: ",
+          "scale": "str",
           "dataset_name": "GIP_W35_V1",
           "variable_name": "RM35005_h",
           "gip_variable_label": "conditions Hartz IV_h",
           "study_name": "gip",
           "item": "h",
-          "gip_question_text": "sonstige Bedingungen erfüllen, und zwar: [answer field]",
+          "gip_question_text": "sonstige Bedingungen erfüllen, und zwar: ",
           "var_key": "RM35005",
           "images_from_key": "RM35005.png",
           "item_image_url": "RM35005.png",
@@ -807,15 +772,14 @@ Codierung der Variablen RM35005_a bis RM35005_j: 0 Item not checked, 1 Item chec
     "Page 7": {
       "question": "Page 7",
       "name": "Page 7",
-      "label": "Der Arbeitsmarkt in Deutschland wird durch mehrere Gesetze, beispielsweise zum Mindestlohn oder zum Kündigungsschutz, reguliert.
-Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?",
+      "label": "Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?",
       "items": [
         {
           "instrument_name": "W35",
           "question_name": "Page 7",
           "item_name": "0",
-          "text": "Der Arbeitsmarkt in Deutschland wird durch mehrere Gesetze, beispielsweise zum Mindestlohn oder zum Kündigungsschutz, reguliert.
-Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?",
+          "gip_info_text": "Der Arbeitsmarkt in Deutschland wird durch mehrere Gesetze, beispielsweise zum Mindestlohn oder zum Kündigungsschutz, reguliert.",
+          "text": "Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?",
           "scale": "cat",
           "answer_list_name": "1-5-regeln",
           "dataset_name": "GIP_W35_V1",
@@ -831,8 +795,7 @@ Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsma
           "item": "0",
           "answer_list": "1-5-regeln",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Der Arbeitsmarkt in Deutschland wird durch mehrere Gesetze, beispielsweise zum Mindestlohn oder zum Kündigungsschutz, reguliert.
-Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?",
+          "gip_question_text": "Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?",
           "var_key": "RM35006",
           "images_from_key": "RM35006.png",
           "item_image_url": "RM35006.png",
@@ -902,12 +865,14 @@ Sollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsma
           "gip_answer_alignment": "vertical",
           "gip_programming_instructions": "vertikale Antwortskala von „0 gar nicht verändern“ bis „10 vollständig verändern“, separater “weiß nicht”-Button",
           "gip_variable_label": "reforms pension scheme",
-          "gip_help_text": "Bitte antworten Sie anhand der Skala.                                                                                                                                                                                                                                                                         Die Bundesregierung sollte das Rentensystem …",
+          "gip_help_text": "Bitte antworten Sie anhand der Skala.
+Die Bundesregierung sollte das Rentensystem …",
           "gip_error_messages": "dReminderBasic",
           "study_name": "gip",
           "item": "0",
           "answer_list": "0-10-veraendern",
-          "description": "Bitte antworten Sie anhand der Skala.                                                                                                                                                                                                                                                                         Die Bundesregierung sollte das Rentensystem …",
+          "description": "Bitte antworten Sie anhand der Skala.
+Die Bundesregierung sollte das Rentensystem …",
           "gip_question_text": " Was ist Ihre persönliche Meinung zum Rentensystem in Deutschland? Inwieweit sollte die Bundesregierung das Rentensystem verändern?",
           "var_key": "RM35007",
           "images_from_key": "RM35007.png",
@@ -1211,12 +1176,14 @@ Welchen der folgenden Vorschläge zur Finanzierung der gesetzlichen Renten würd
           "gip_answer_alignment": "vertical",
           "gip_programming_instructions": "vertikale Antwortskala von „0 gar nicht verändern“ bis „10 vollständig verändern“, separater “weiß nicht”-Button",
           "gip_variable_label": "reforms education system",
-          "gip_help_text": "Bitte antworten Sie anhand der Skala.                                                                       Die Bundesregierung sollte das Bildungssystem …",
+          "gip_help_text": "Bitte antworten Sie anhand der Skala.
+Die Bundesregierung sollte das Bildungssystem …",
           "gip_error_messages": "dReminderBasic",
           "study_name": "gip",
           "item": "0",
           "answer_list": "0-10-veraendern",
-          "description": "Bitte antworten Sie anhand der Skala.                                                                       Die Bundesregierung sollte das Bildungssystem …",
+          "description": "Bitte antworten Sie anhand der Skala.
+Die Bundesregierung sollte das Bildungssystem …",
           "gip_question_text": "Was ist Ihre persönliche Meinung zum Bildungssystem in Deutschland? Inwieweit sollte die Bundesregierung das Bildungssystem verändern?",
           "var_key": "RM35010",
           "images_from_key": "RM35010.png",
@@ -2161,12 +2128,13 @@ Sollte die Europäische Union  mehr oder weniger über Reformen in den Mitglieds
           "scale": "txt",
           "filter": "wenn RM35019 = 1, 2 (wenn Europäische Union mehr über Reformen entscheiden sollte)",
           "dataset_name": "GIP_W35_V1",
-          "variable_name": "RM35020",
+          "variable_name": "RM35020_a, RM35020_b, RM35020_c, RM35020_d, RM35020_e, RM35020_f, RM35020_g, RM35020_h, RM35020_i, RM35020_j",
           "gip_sources": "Replikation 1:1 der Fragen RM17020_a bis RM17020_TXT aus Welle 17 (Mai 2015)",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "half-open",
           "gip_answer_alignment": "vertical",
           "gip_programming_instructions": "Codierung der Variablen RM35020_a bis RM35020_j: 0 Item not checked, 1 Item checked",
+          "gip_variable_label": "EU more_foreignpolicy, EU more_economy, EU more_justice, EU more_labor, EU more_competition_policy, EU more_traffic, EU more_agriculture, EU more_environment, EU more_education, EU more_other",
           "gip_help_text": "Bitte geben Sie alles Zutreffende an.",
           "gip_error_messages": "dReminderBasic dErrOpen_4",
           "study_name": "gip",
@@ -2346,14 +2314,14 @@ Sollte die Europäische Union  mehr oder weniger über Reformen in den Mitglieds
           "instrument_name": "W35",
           "question_name": "Page 21",
           "item_name": "j",
-          "text": "Sonstiges, und zwar: [answer field]",
-          "scale": "bin",
+          "text": "Sonstiges, und zwar:",
+          "scale": "str",
           "dataset_name": "GIP_W35_V1",
           "variable_name": "RM35020_j",
           "gip_variable_label": "EU more_other",
           "study_name": "gip",
           "item": "j",
-          "gip_question_text": "Sonstiges, und zwar: [answer field]",
+          "gip_question_text": "Sonstiges, und zwar:",
           "var_key": "RM35020",
           "images_from_key": "RM35020.png",
           "item_image_url": "RM35020.png",
@@ -2378,12 +2346,13 @@ Sollte die Europäische Union  mehr oder weniger über Reformen in den Mitglieds
           "scale": "txt",
           "filter": "wenn RM35019 = 4, 5 (wenn Europäische Union weniger über Reformen entscheiden sollte)",
           "dataset_name": "GIP_W35_V1",
-          "variable_name": "RM35021",
+          "variable_name": "RM35021_a, RM35021_b, RM35021_c, RM35021_d, RM35021_e, RM35021_f, RM35021_g, RM35021_h, RM35021_i, RM35021_j",
           "gip_sources": "Replikation 1:1 der Fragen RM17021_a bis RM17021_TXT aus Welle 17 (Mai 2015)",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "half-open",
           "gip_answer_alignment": "vertical",
           "gip_programming_instructions": "Codierung der Variablen RM35021_a bis RM35021_j: 0 Item not checked, 1 Item checked",
+          "gip_variable_label": "EU less_foreignpolicy, EU less_economy, EU less_justice, EU less_labor, EU less_competition_policy, EU less_traffic, EU less_agriculture, EU less_environment, EU less_education, EU less_other",
           "gip_help_text": "Bitte geben Sie alles Zutreffende an.",
           "gip_error_messages": "dReminderBasic dErrOpen_5",
           "study_name": "gip",
@@ -2563,14 +2532,14 @@ Sollte die Europäische Union  mehr oder weniger über Reformen in den Mitglieds
           "instrument_name": "W35",
           "question_name": "Page 22",
           "item_name": "j",
-          "text": "Sonstiges, und zwar: [answer field]",
-          "scale": "bin",
+          "text": "Sonstiges, und zwar:",
+          "scale": "str",
           "dataset_name": "GIP_W35_V1",
           "variable_name": "RM35021_j",
           "gip_variable_label": "EU less_other",
           "study_name": "gip",
           "item": "j",
-          "gip_question_text": "Sonstiges, und zwar: [answer field]",
+          "gip_question_text": "Sonstiges, und zwar:",
           "var_key": "RM35021",
           "images_from_key": "RM35021.png",
           "item_image_url": "RM35021.png",
@@ -2595,13 +2564,14 @@ Sollte die Europäische Union  mehr oder weniger über Reformen in den Mitglieds
           "scale": "txt",
           "filter": "wenn RM35019 = 3 (wenn Europäische Union genau so viel über Reformen entscheiden sollte)",
           "dataset_name": "GIP_W35_V1",
-          "variable_name": "RM35022",
+          "variable_name": "RM35022_a, RM35022_b, RM35022_c, RM35022_d, RM35022_e, RM35022_f, RM35022_g, RM35022_h, RM35022_i, RM35022_j, RM35022_k",
           "gip_sources": "Replikation 1:1 der Fragen RM17022_a bis RM17022_k aus Welle 17 (Mai 2015)",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "half-open",
           "gip_answer_alignment": "vertical",
           "gip_programming_instructions": "Item RM35022_k soll nicht in Kombination mit anderen Items möglich sein
 Codierung der Variablen RM35022_a bis RM35022_k: 0 Item not checked, 1 Item checked",
+          "gip_variable_label": "EU more_foreignpolicy, EU more_economy, EU more_justice, EU more_labor, EU more_competition_policy, EU more_traffic, EU more_agriculture, EU more_environment, EU more_education, EU more_other, EU more_none",
           "gip_help_text": "Bitte geben Sie alles Zutreffende an.",
           "gip_error_messages": "dReminderBasic dErrMulti_3 dErrOpen_6",
           "study_name": "gip",
@@ -2781,14 +2751,14 @@ Codierung der Variablen RM35022_a bis RM35022_k: 0 Item not checked, 1 Item chec
           "instrument_name": "W35",
           "question_name": "Page 23",
           "item_name": "j",
-          "text": "Sonstiges, und zwar: [answer field]",
-          "scale": "bin",
+          "text": "Sonstiges, und zwar:",
+          "scale": "str",
           "dataset_name": "GIP_W35_V1",
           "variable_name": "RM35022_j",
           "gip_variable_label": "EU more_other",
           "study_name": "gip",
           "item": "j",
-          "gip_question_text": "Sonstiges, und zwar: [answer field]",
+          "gip_question_text": "Sonstiges, und zwar:",
           "var_key": "RM35022",
           "images_from_key": "RM35022.png",
           "item_image_url": "RM35022.png",
@@ -3009,14 +2979,15 @@ In welchem Bereich sollte der Staat am ehesten Leistungen ausbauen?
     "Page 26": {
       "question": "Page 26",
       "name": "Page 26",
-      "label": "Innerhalb einer Bundesregierung werden manchmal verschiedene Standpunkte vertreten.
+      "label": "
 Nehmen Sie die Bundesregierung als zerstritten oder als geschlossen wahr?",
       "items": [
         {
           "instrument_name": "W35",
           "question_name": "Page 26",
           "item_name": "0",
-          "text": "Innerhalb einer Bundesregierung werden manchmal verschiedene Standpunkte vertreten.
+          "gip_info_text": "Innerhalb einer Bundesregierung werden manchmal verschiedene Standpunkte vertreten.",
+          "text": "
 Nehmen Sie die Bundesregierung als zerstritten oder als geschlossen wahr?",
           "scale": "cat",
           "answer_list_name": "1-11-zerstritten",
@@ -3032,7 +3003,7 @@ Nehmen Sie die Bundesregierung als zerstritten oder als geschlossen wahr?",
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-11-zerstritten",
-          "gip_question_text": "Innerhalb einer Bundesregierung werden manchmal verschiedene Standpunkte vertreten.
+          "gip_question_text": "
 Nehmen Sie die Bundesregierung als zerstritten oder als geschlossen wahr?",
           "var_key": "CE35304",
           "images_from_key": "CE35304.png",
@@ -3135,14 +3106,15 @@ Nehmen Sie die Bundesregierung als zerstritten oder als geschlossen wahr?",
     "Page 27": {
       "question": "Page 27",
       "name": "Page 27",
-      "label": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+      "label": "
 Nehmen Sie die Partei CDU (Christlich Demokratische Union Deutschlands) als zerstritten oder als geschlossen wahr?",
       "items": [
         {
           "instrument_name": "W35",
           "question_name": "Page 27",
           "item_name": "0",
-          "text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+          "gip_info_text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.",
+          "text": "
 Nehmen Sie die Partei CDU (Christlich Demokratische Union Deutschlands) als zerstritten oder als geschlossen wahr?",
           "scale": "cat",
           "answer_list_name": "1-11-zerstritten",
@@ -3160,7 +3132,7 @@ vertikale Antwortskala von „1 sehr zerstritten“ bis „11 sehr geschlossen�
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-11-zerstritten",
-          "gip_question_text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+          "gip_question_text": "
 Nehmen Sie die Partei CDU (Christlich Demokratische Union Deutschlands) als zerstritten oder als geschlossen wahr?",
           "var_key": "CE35250",
           "images_from_key": "CE35250.png",
@@ -3263,14 +3235,15 @@ Nehmen Sie die Partei CDU (Christlich Demokratische Union Deutschlands) als zers
     "Page 28": {
       "question": "Page 28",
       "name": "Page 28",
-      "label": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+      "label": "
 Nehmen Sie die Partei CSU (Christlich-Soziale Union) als zerstritten oder als geschlossen wahr?",
       "items": [
         {
           "instrument_name": "W35",
           "question_name": "Page 28",
           "item_name": "0",
-          "text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+          "gip_info_text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.",
+          "text": "
 Nehmen Sie die Partei CSU (Christlich-Soziale Union) als zerstritten oder als geschlossen wahr?",
           "scale": "cat",
           "answer_list_name": "1-11-zerstritten",
@@ -3287,7 +3260,7 @@ Vertikale Antwortskala von „1 sehr zerstritten“ bis „11 sehr geschlossen�
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-11-zerstritten",
-          "gip_question_text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+          "gip_question_text": "
 Nehmen Sie die Partei CSU (Christlich-Soziale Union) als zerstritten oder als geschlossen wahr?",
           "var_key": "CE35252",
           "images_from_key": "CE35252.png",
@@ -3390,14 +3363,15 @@ Nehmen Sie die Partei CSU (Christlich-Soziale Union) als zerstritten oder als ge
     "Page 29": {
       "question": "Page 29",
       "name": "Page 29",
-      "label": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+      "label": "
 Nehmen Sie die Partei SPD (Sozialdemokratische Partei Deutschlands) als zerstritten oder als geschlossen wahr?",
       "items": [
         {
           "instrument_name": "W35",
           "question_name": "Page 29",
           "item_name": "0",
-          "text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+          "gip_info_text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.",
+          "text": "
 Nehmen Sie die Partei SPD (Sozialdemokratische Partei Deutschlands) als zerstritten oder als geschlossen wahr?",
           "scale": "cat",
           "answer_list_name": "1-11-zerstritten",
@@ -3414,7 +3388,7 @@ Vertikale Antwortskala von „1 sehr zerstritten“ bis „11 sehr geschlossen�
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-11-zerstritten",
-          "gip_question_text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+          "gip_question_text": "
 Nehmen Sie die Partei SPD (Sozialdemokratische Partei Deutschlands) als zerstritten oder als geschlossen wahr?",
           "var_key": "CE35254",
           "images_from_key": "CE35254.png",
@@ -3517,14 +3491,15 @@ Nehmen Sie die Partei SPD (Sozialdemokratische Partei Deutschlands) als zerstrit
     "Page 30": {
       "question": "Page 30",
       "name": "Page 30",
-      "label": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+      "label": "
 Nehmen Sie die Partei FDP (Freie Demokratische Partei) als zerstritten oder als geschlossen wahr?",
       "items": [
         {
           "instrument_name": "W35",
           "question_name": "Page 30",
           "item_name": "0",
-          "text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+          "gip_info_text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.",
+          "text": "
 Nehmen Sie die Partei FDP (Freie Demokratische Partei) als zerstritten oder als geschlossen wahr?",
           "scale": "cat",
           "answer_list_name": "1-11-zerstritten",
@@ -3541,7 +3516,7 @@ Vertikale Antwortskala von „1 sehr zerstritten“ bis „11 sehr geschlossen�
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-11-zerstritten",
-          "gip_question_text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+          "gip_question_text": "
 Nehmen Sie die Partei FDP (Freie Demokratische Partei) als zerstritten oder als geschlossen wahr?",
           "var_key": "CE35256",
           "images_from_key": "CE35256.png",
@@ -3644,14 +3619,15 @@ Nehmen Sie die Partei FDP (Freie Demokratische Partei) als zerstritten oder als 
     "Page 31": {
       "question": "Page 31",
       "name": "Page 31",
-      "label": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+      "label": "
 Nehmen Sie die Partei Bündnis 90/Die Grünen als zerstritten oder als geschlossen wahr?",
       "items": [
         {
           "instrument_name": "W35",
           "question_name": "Page 31",
           "item_name": "0",
-          "text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+          "gip_info_text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.",
+          "text": "
 Nehmen Sie die Partei Bündnis 90/Die Grünen als zerstritten oder als geschlossen wahr?",
           "scale": "cat",
           "answer_list_name": "1-11-zerstritten",
@@ -3668,7 +3644,7 @@ Vertikale Antwortskala von „1 sehr zerstritten“ bis „11 sehr geschlossen�
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-11-zerstritten",
-          "gip_question_text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+          "gip_question_text": "
 Nehmen Sie die Partei Bündnis 90/Die Grünen als zerstritten oder als geschlossen wahr?",
           "var_key": "CE35258",
           "images_from_key": "CE35258.png",
@@ -3771,14 +3747,15 @@ Nehmen Sie die Partei Bündnis 90/Die Grünen als zerstritten oder als geschloss
     "Page 32": {
       "question": "Page 32",
       "name": "Page 32",
-      "label": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+      "label": "
 Nehmen Sie die Partei Die Linke als zerstritten oder als geschlossen wahr?",
       "items": [
         {
           "instrument_name": "W35",
           "question_name": "Page 32",
           "item_name": "0",
-          "text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+          "gip_info_text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.",
+          "text": "
 Nehmen Sie die Partei Die Linke als zerstritten oder als geschlossen wahr?",
           "scale": "cat",
           "answer_list_name": "1-11-zerstritten",
@@ -3795,7 +3772,7 @@ Vertikale Antwortskala von „1 sehr zerstritten“ bis „11 sehr geschlossen�
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-11-zerstritten",
-          "gip_question_text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+          "gip_question_text": "
 Nehmen Sie die Partei Die Linke als zerstritten oder als geschlossen wahr?",
           "var_key": "CE35260",
           "images_from_key": "CE35260.png",
@@ -3898,14 +3875,15 @@ Nehmen Sie die Partei Die Linke als zerstritten oder als geschlossen wahr?",
     "Page 33": {
       "question": "Page 33",
       "name": "Page 33",
-      "label": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+      "label": "
 Nehmen Sie die Partei AfD (Alternative für Deutschland) als zerstritten oder als geschlossen wahr?*   ",
       "items": [
         {
           "instrument_name": "W35",
           "question_name": "Page 33",
           "item_name": "0",
-          "text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+          "gip_info_text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.",
+          "text": "
 Nehmen Sie die Partei AfD (Alternative für Deutschland) als zerstritten oder als geschlossen wahr?*   ",
           "scale": "cat",
           "answer_list_name": "1-11-zerstritten",
@@ -3922,7 +3900,7 @@ Vertikale Antwortskala von „1 sehr zerstritten“ bis „11 sehr geschlossen�
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-11-zerstritten",
-          "gip_question_text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.
+          "gip_question_text": "
 Nehmen Sie die Partei AfD (Alternative für Deutschland) als zerstritten oder als geschlossen wahr?*   ",
           "var_key": "CE35262",
           "images_from_key": "CE35262.png",
@@ -4223,20 +4201,17 @@ Welche der folgenden Rollen übernimmt  sie Ihrer Meinung nach am ehesten als Pa
     "Page 36": {
       "question": "Page 36",
       "name": "Page 36",
-      "label": "Bewertung dieser Umfrage
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
-
-Fanden Sie den Fragebogen ...?
+      "label": "Fanden Sie den Fragebogen ...?
 interessant",
       "items": [
         {
           "instrument_name": "W35",
           "question_name": "Page 36",
           "item_name": "0",
-          "text": "Bewertung dieser Umfrage
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+          "gip_info_text": "Bewertung dieser Umfrage
 
-Fanden Sie den Fragebogen ...?
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.",
+          "text": "Fanden Sie den Fragebogen ...?
 interessant",
           "scale": "cat",
           "answer_list_name": "1-4-bewertung",
@@ -4251,10 +4226,7 @@ interessant",
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-4-bewertung",
-          "gip_question_text": "Bewertung dieser Umfrage
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
-
-Fanden Sie den Fragebogen ...?
+          "gip_question_text": "Fanden Sie den Fragebogen ...?
 interessant",
           "var_key": "QE35001",
           "images_from_key": "QE35001.png",
@@ -4722,7 +4694,10 @@ zu persönlich",
       "label": "Haben Sie noch weitere Anmerkungen?
 
 Hier können Sie Lob oder Kritik zum Fragebogen äußern.
-",
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",
       "items": [
         {
           "instrument_name": "W35",
@@ -4731,7 +4706,10 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.
           "text": "Haben Sie noch weitere Anmerkungen?
 
 Hier können Sie Lob oder Kritik zum Fragebogen äußern.
-",
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",
           "scale": "str",
           "dataset_name": "GIP_W35_V1",
           "variable_name": "QE35008_TXT",
@@ -4739,20 +4717,18 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.
           "gip_question_type": "Open Question/ Text only",
           "gip_response_format": "text",
           "gip_answer_alignment": "[answer field]",
+          "gip_field_condition": "long answer field",
           "gip_programming_instructions": "Codierung der Variablen QE32008_TXT_na: 0 Item not answered, 1 Item answered",
           "gip_variable_label": "weitere Anmerkungen_text",
-          "gip_help_text": "Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
-Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-E-Mail: info@gesellschaft-im-wandel.de",
           "study_name": "gip",
           "item": "0",
-          "description": "Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
-Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-E-Mail: info@gesellschaft-im-wandel.de",
           "gip_question_text": "Haben Sie noch weitere Anmerkungen?
 
 Hier können Sie Lob oder Kritik zum Fragebogen äußern.
-",
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",
           "var_key": "QE35008_TXT",
           "images_from_key": "QE35008_TXT.png",
           "item_image_url": "QE35008_TXT.png",
@@ -4768,29 +4744,18 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.
     "Page 44 0utro": {
       "question": "Page 44 0utro",
       "name": "Page 44 0utro",
-      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
-
-Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
-
-Bitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.
-
-
-Ihr Forschungsteam von der Universität Mannheim
-",
       "items": [
         {
           "instrument_name": "W35",
           "question_name": "Page 44 0utro",
           "item_name": "0",
-          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
+          "gip_info_text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
 
 Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
 
 Bitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.
 
-
-Ihr Forschungsteam von der Universität Mannheim
-",
+Ihr Forschungsteam von der Universität Mannheim",
           "scale": "txt",
           "dataset_name": "GIP_W35_V1",
           "gip_sources": "Replikation 1:1 der Frageseite 68.00 aus Welle 26 (November 2016)",
@@ -4799,15 +4764,6 @@ Ihr Forschungsteam von der Universität Mannheim
           "gip_image_extra": "W35_P44.png",
           "study_name": "gip",
           "item": "0",
-          "gip_question_text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
-
-Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
-
-Bitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.
-
-
-Ihr Forschungsteam von der Universität Mannheim
-",
           "item_image_url": "W35_P44.png",
           "image_url": "https://github.com/paneldata/gip/raw/master/screenshots/W35/W35_P44.png",
           "sn": 0,

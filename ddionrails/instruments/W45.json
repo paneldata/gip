@@ -3,6 +3,7 @@
   "label": "GIP Wave 45",
   "period": "2020/01",
   "analysis_unit": "p",
+  "dataset_name": "GIP_W45_V1",
   "study": "gip",
   "questionnaire": "W45",
   "instrument": "W45",
@@ -10,29 +11,12 @@
     "Page 1 Introduction": {
       "question": "Page 1 Introduction",
       "name": "Page 1 Introduction",
-      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
-
-wir freuen uns, dass Sie unseren Fragebogen gestartet haben.
-      
-Die Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.
-      
-Sie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. 
-
-Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:
-
-info@gesellschaft-im-wandel.de
-0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-
-Wir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!
-
-Ihr Forschungsteam der Universität Mannheim
-",
       "items": [
         {
           "instrument_name": "W45",
           "question_name": "Page 1 Introduction",
           "item_name": "0",
-          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
+          "gip_info_text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
 
 wir freuen uns, dass Sie unseren Fragebogen gestartet haben.
       
@@ -56,23 +40,6 @@ Ihr Forschungsteam der Universität Mannheim
           "gip_image_extra": "W45_P1.png",
           "study_name": "gip",
           "item": "0",
-          "gip_question_text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
-
-wir freuen uns, dass Sie unseren Fragebogen gestartet haben.
-      
-Die Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.
-      
-Sie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. 
-
-Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:
-
-info@gesellschaft-im-wandel.de
-0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-
-Wir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!
-
-Ihr Forschungsteam der Universität Mannheim
-",
           "item_image_url": "W45_P1.png",
           "image_url": "https://github.com/paneldata/gip/raw/master/screenshots/W45/W45_P1.png",
           "sn": 0,
@@ -322,14 +289,12 @@ Ihr Forschungsteam der Universität Mannheim
     "Page 4": {
       "question": "Page 4",
       "name": "Page 4",
-      "label": "Im folgenden Teil der Befragung geht es um den deutschen Sozialstaat. Wie soll die Gesundheitsversorgung organisiert werden? Wovon sollen Menschen im Alter leben? Sollen Arbeitslose oder Familien durch den Staat unterstützt werden?
-Einige der Fragen erkennen Sie vielleicht aus den letzten Jahren wieder. Wir wiederholen diese Fragen, da uns interessiert, ob sich Ihre Meinung zu diesem Thema verändert hat. Es gibt auf diese Fragen also weder richtige noch falsche Antworten, es zählt einzig Ihre persönliche Meinung.",
       "items": [
         {
           "instrument_name": "W45",
           "question_name": "Page 4",
           "item_name": "0",
-          "text": "Im folgenden Teil der Befragung geht es um den deutschen Sozialstaat. Wie soll die Gesundheitsversorgung organisiert werden? Wovon sollen Menschen im Alter leben? Sollen Arbeitslose oder Familien durch den Staat unterstützt werden?
+          "gip_info_text": "Im folgenden Teil der Befragung geht es um den deutschen Sozialstaat. Wie soll die Gesundheitsversorgung organisiert werden? Wovon sollen Menschen im Alter leben? Sollen Arbeitslose oder Familien durch den Staat unterstützt werden?
 Einige der Fragen erkennen Sie vielleicht aus den letzten Jahren wieder. Wir wiederholen diese Fragen, da uns interessiert, ob sich Ihre Meinung zu diesem Thema verändert hat. Es gibt auf diese Fragen also weder richtige noch falsche Antworten, es zählt einzig Ihre persönliche Meinung.",
           "scale": "txt",
           "dataset_name": "GIP_W45_V1",
@@ -338,8 +303,6 @@ Einige der Fragen erkennen Sie vielleicht aus den letzten Jahren wieder. Wir wie
           "gip_image_extra": "W45_P4.png",
           "study_name": "gip",
           "item": "0",
-          "gip_question_text": "Im folgenden Teil der Befragung geht es um den deutschen Sozialstaat. Wie soll die Gesundheitsversorgung organisiert werden? Wovon sollen Menschen im Alter leben? Sollen Arbeitslose oder Familien durch den Staat unterstützt werden?
-Einige der Fragen erkennen Sie vielleicht aus den letzten Jahren wieder. Wir wiederholen diese Fragen, da uns interessiert, ob sich Ihre Meinung zu diesem Thema verändert hat. Es gibt auf diese Fragen also weder richtige noch falsche Antworten, es zählt einzig Ihre persönliche Meinung.",
           "item_image_url": "W45_P4.png",
           "image_url": "https://github.com/paneldata/gip/raw/master/screenshots/W45/W45_P4.png",
           "sn": 0,
@@ -1110,14 +1073,14 @@ Einige der Fragen erkennen Sie vielleicht aus den letzten Jahren wieder. Wir wie
           "question_name": "Page 13",
           "item_name": "0",
           "text": "Wie hoch sollte Ihrer Meinung nach das gesetzliche Rentenalter in Deutschland sein?",
-          "scale": "str",
+          "scale": "int",
           "dataset_name": "GIP_W45_V1",
           "variable_name": "AC45088",
           "gip_sources": "Replikation 1:1 der Frage AC39088 aus Welle 39",
           "gip_question_type": "Open Question",
           "gip_response_format": "numerical",
           "gip_answer_alignment": "[answer field]",
-          "gip_programming_instructions": "Range: 20-99",
+          "gip_field_condition": "20-99",
           "gip_variable_label": "retirement age law",
           "gip_help_text": "Mit gesetzlichem Rentenalter meinen wir das Alter, in dem man ohne Abschläge bei der Rente in den Ruhestand gehen kann.",
           "gip_error_messages": "dReminderKaO1, dErrRange2099",
@@ -1140,27 +1103,13 @@ Einige der Fragen erkennen Sie vielleicht aus den letzten Jahren wieder. Wir wie
     "Page 14": {
       "question": "Page 14",
       "name": "Page 14",
-      "label": "Einige ältere Menschen, deren eigene Rente nicht ausreicht, haben Anspruch auf Grundsicherung im Alter. Diese Sozialleistung deckt Unterkunftskosten und einen Regelbedarf ab, jedoch werden die gesetzliche Rente und das Vermögen im Haushalt (inkl. des Partners) angerechnet. Es gibt Forderungen nach einer zusätzlichen Leistung.
-
-[wenn expAC45216=1 Gruppe 1:]
-
-[wenn expAC45216=2 Gruppe 2:]
-
-[wenn expAC45216=3 Gruppe 3:
-Einige schlagen eine Grundrente nach 35 Jahren vor, die die Lebensleistung respektieren soll. Es sei eine Frage der Gerechtigkeit, dass Arbeit sich auch in der Rente lohnt. 
-Andere befürworten eine Grundrente nach 35 Jahren, die jedoch bedarfsgeprüft sein soll. Dies soll vermeiden, dass vermögende Haushalte diese erhalten, da dies sozial ungerecht sei.]
-
-[wenn expAC45216=4 Gruppe 4:
-Die SPD schlägt eine Grundrente nach 35 Jahren vor, die die Lebensleistung respektieren soll. Es sei eine Frage der Gerechtigkeit, dass Arbeit sich auch in der Rente lohnt.
-Die Union befürwortet eine Grundrente nach 35 Jahren, die jedoch bedarfsgeprüft sein soll. Dies soll vermeiden, dass vermögende Haushalte diese erhalten, da dies sozial ungerecht sei.]
-
-Welchen der folgenden Vorschläge würden Sie bevorzugen?",
+      "label": "Welchen der folgenden Vorschläge würden Sie bevorzugen?",
       "items": [
         {
           "instrument_name": "W45",
           "question_name": "Page 14",
           "item_name": "0",
-          "text": "Einige ältere Menschen, deren eigene Rente nicht ausreicht, haben Anspruch auf Grundsicherung im Alter. Diese Sozialleistung deckt Unterkunftskosten und einen Regelbedarf ab, jedoch werden die gesetzliche Rente und das Vermögen im Haushalt (inkl. des Partners) angerechnet. Es gibt Forderungen nach einer zusätzlichen Leistung.
+          "gip_info_text": "Einige ältere Menschen, deren eigene Rente nicht ausreicht, haben Anspruch auf Grundsicherung im Alter. Diese Sozialleistung deckt Unterkunftskosten und einen Regelbedarf ab, jedoch werden die gesetzliche Rente und das Vermögen im Haushalt (inkl. des Partners) angerechnet. Es gibt Forderungen nach einer zusätzlichen Leistung.
 
 [wenn expAC45216=1 Gruppe 1:]
 
@@ -1172,9 +1121,8 @@ Andere befürworten eine Grundrente nach 35 Jahren, die jedoch bedarfsgeprüft s
 
 [wenn expAC45216=4 Gruppe 4:
 Die SPD schlägt eine Grundrente nach 35 Jahren vor, die die Lebensleistung respektieren soll. Es sei eine Frage der Gerechtigkeit, dass Arbeit sich auch in der Rente lohnt.
-Die Union befürwortet eine Grundrente nach 35 Jahren, die jedoch bedarfsgeprüft sein soll. Dies soll vermeiden, dass vermögende Haushalte diese erhalten, da dies sozial ungerecht sei.]
-
-Welchen der folgenden Vorschläge würden Sie bevorzugen?",
+Die Union befürwortet eine Grundrente nach 35 Jahren, die jedoch bedarfsgeprüft sein soll. Dies soll vermeiden, dass vermögende Haushalte diese erhalten, da dies sozial ungerecht sei.]",
+          "text": "Welchen der folgenden Vorschläge würden Sie bevorzugen?",
           "scale": "cat",
           "answer_list_name": "1-6-Vorschläge",
           "dataset_name": "GIP_W45_V1",
@@ -1192,21 +1140,7 @@ Welchen der folgenden Vorschläge würden Sie bevorzugen?",
           "answer_list": "1-6-Vorschläge",
           "description": "Befragte zufällig in 4 Gruppen aufteilen, Gruppenzugehörigkeit in separater Variable expAC45216 experiment page 14.00 speichern.
 Bei dieser Frage können Sie nur eine Antwort geben.",
-          "gip_question_text": "Einige ältere Menschen, deren eigene Rente nicht ausreicht, haben Anspruch auf Grundsicherung im Alter. Diese Sozialleistung deckt Unterkunftskosten und einen Regelbedarf ab, jedoch werden die gesetzliche Rente und das Vermögen im Haushalt (inkl. des Partners) angerechnet. Es gibt Forderungen nach einer zusätzlichen Leistung.
-
-[wenn expAC45216=1 Gruppe 1:]
-
-[wenn expAC45216=2 Gruppe 2:]
-
-[wenn expAC45216=3 Gruppe 3:
-Einige schlagen eine Grundrente nach 35 Jahren vor, die die Lebensleistung respektieren soll. Es sei eine Frage der Gerechtigkeit, dass Arbeit sich auch in der Rente lohnt. 
-Andere befürworten eine Grundrente nach 35 Jahren, die jedoch bedarfsgeprüft sein soll. Dies soll vermeiden, dass vermögende Haushalte diese erhalten, da dies sozial ungerecht sei.]
-
-[wenn expAC45216=4 Gruppe 4:
-Die SPD schlägt eine Grundrente nach 35 Jahren vor, die die Lebensleistung respektieren soll. Es sei eine Frage der Gerechtigkeit, dass Arbeit sich auch in der Rente lohnt.
-Die Union befürwortet eine Grundrente nach 35 Jahren, die jedoch bedarfsgeprüft sein soll. Dies soll vermeiden, dass vermögende Haushalte diese erhalten, da dies sozial ungerecht sei.]
-
-Welchen der folgenden Vorschläge würden Sie bevorzugen?",
+          "gip_question_text": "Welchen der folgenden Vorschläge würden Sie bevorzugen?",
           "var_key": "AC45216",
           "images_from_key": "AC45216_1.png AC45216_2.png AC45216_3.png AC45216_4.png",
           "item_image_url": "AC45216_1.png AC45216_2.png AC45216_3.png AC45216_4.png",
@@ -1276,7 +1210,7 @@ Welchen der folgenden Vorschläge würden Sie bevorzugen?",
           "scale": "txt",
           "filter": "AA45005 = 3, 14 (in Altersteilzeit oder in Rente, Pension oder im Vorruhestand)",
           "dataset_name": "GIP_W45_V1",
-          "variable_name": "AC45180",
+          "variable_name": "AC45180_a, AC45180_b, AC45180_c, AC45180_d, AC45180_e, AC45180_f, AC45180_g, AC45180_h, AC45180_i",
           "gip_sources": "ähnlich	 den Fragen AC33180_a bis AC33180_i aus Welle 33, Jahr im Fragentext angepasst",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "close-ended",
@@ -1476,7 +1410,7 @@ Codierung der Variablen AC45180_a bis AC45180_i: 0 Item not checked, 1 Item chec
           "scale": "txt",
           "filter": "AA45005 = 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17 (vollzeiterwerbstätig oder teilzeiterwerbstätig oder geringfügig erwerbstätig, 450-Euro-Job, Minijob bis Student/-in oder arbeitslos bis Hausfrau/Hausmann)",
           "dataset_name": "GIP_W45_V1",
-          "variable_name": "AC45094",
+          "variable_name": "AC45094_a, AC45094_b, AC45094_c, AC45094_d, AC45094_e, AC45094_f, AC45094_g",
           "gip_sources": "Replikation der Fragen AC39094_a bis AC39094_f aus Welle 39",
           "gip_question_type": "Multiple Choice",
           "gip_response_format": "half-open",
@@ -1880,24 +1814,13 @@ Codierung der Variablen AC45094_a bis AC45094_g: 0 Item not checked, 1 Item chec
     "Page 20": {
       "question": "Page 20",
       "name": "Page 20",
-      "label": "In einigen Ländern wird momentan über die Einführung eines Grundeinkommens diskutiert. Uns interessiert, ob Sie gegen oder für ein solches Grundeinkommen sind.
-
-Zuerst aber ein paar Einzelheiten dazu. Unten sehen Sie die wichtigsten Eigenschaften, wie ein Grundeinkommen gestaltet sein könnte.
-
-Wie hoch ist das Grundeinkommen? Wert a1
-Wer erhält das Grundeinkommen? Wert a2
-Gibt es weitere Bedingungen, um das Grundeinkommen zu erhalten? Wert a3
-Was passiert mit bestehenden Sozialleistungen? Wert a4
-Was ist sonst noch wichtig? Das Grundeinkommen wird über Steuern finanziert.
-Auch wenn man zusätzliches Einkommen aus bezahlter Arbeit hat, bekommt man den vollen Betrag des Grundeinkommens. 
-
-Wären Sie für oder gegen ein solches Grundeinkommen in Deutschland?",
+      "label": "Wären Sie für oder gegen ein solches Grundeinkommen in Deutschland?",
       "items": [
         {
           "instrument_name": "W45",
           "question_name": "Page 20",
           "item_name": "0",
-          "text": "In einigen Ländern wird momentan über die Einführung eines Grundeinkommens diskutiert. Uns interessiert, ob Sie gegen oder für ein solches Grundeinkommen sind.
+          "gip_info_text": "In einigen Ländern wird momentan über die Einführung eines Grundeinkommens diskutiert. Uns interessiert, ob Sie gegen oder für ein solches Grundeinkommen sind.
 
 Zuerst aber ein paar Einzelheiten dazu. Unten sehen Sie die wichtigsten Eigenschaften, wie ein Grundeinkommen gestaltet sein könnte.
 
@@ -1906,9 +1829,8 @@ Wer erhält das Grundeinkommen? Wert a2
 Gibt es weitere Bedingungen, um das Grundeinkommen zu erhalten? Wert a3
 Was passiert mit bestehenden Sozialleistungen? Wert a4
 Was ist sonst noch wichtig? Das Grundeinkommen wird über Steuern finanziert.
-Auch wenn man zusätzliches Einkommen aus bezahlter Arbeit hat, bekommt man den vollen Betrag des Grundeinkommens. 
-
-Wären Sie für oder gegen ein solches Grundeinkommen in Deutschland?",
+Auch wenn man zusätzliches Einkommen aus bezahlter Arbeit hat, bekommt man den vollen Betrag des Grundeinkommens. ",
+          "text": "Wären Sie für oder gegen ein solches Grundeinkommen in Deutschland?",
           "scale": "cat",
           "answer_list_name": "0-3-dafür",
           "dataset_name": "GIP_W45_V1",
@@ -1948,18 +1870,7 @@ Alle bestehenden Sozialleistungen bleiben erhalten und können bei Bedarf in Ans
           "study_name": "gip",
           "item": "0",
           "answer_list": "0-3-dafür",
-          "gip_question_text": "In einigen Ländern wird momentan über die Einführung eines Grundeinkommens diskutiert. Uns interessiert, ob Sie gegen oder für ein solches Grundeinkommen sind.
-
-Zuerst aber ein paar Einzelheiten dazu. Unten sehen Sie die wichtigsten Eigenschaften, wie ein Grundeinkommen gestaltet sein könnte.
-
-Wie hoch ist das Grundeinkommen? Wert a1
-Wer erhält das Grundeinkommen? Wert a2
-Gibt es weitere Bedingungen, um das Grundeinkommen zu erhalten? Wert a3
-Was passiert mit bestehenden Sozialleistungen? Wert a4
-Was ist sonst noch wichtig? Das Grundeinkommen wird über Steuern finanziert.
-Auch wenn man zusätzliches Einkommen aus bezahlter Arbeit hat, bekommt man den vollen Betrag des Grundeinkommens. 
-
-Wären Sie für oder gegen ein solches Grundeinkommen in Deutschland?",
+          "gip_question_text": "Wären Sie für oder gegen ein solches Grundeinkommen in Deutschland?",
           "var_key": "AC45217",
           "images_from_key": "AC45217.png",
           "item_image_url": "AC45217.png",
@@ -2012,25 +1923,14 @@ Wären Sie für oder gegen ein solches Grundeinkommen in Deutschland?",
     "Page 21": {
       "question": "Page 21",
       "name": "Page 21",
-      "label": "In einigen Ländern wird momentan über die Einführung eines Grundeinkommens diskutiert. Uns interessiert, ob Sie gegen oder für ein solches Grundeinkommen sind.
-
-Zuerst aber ein paar Einzelheiten dazu. Unten sehen Sie die wichtigsten Eigenschaften, wie ein Grundeinkommen gestaltet sein könnte.
-
-Wie hoch ist das Grundeinkommen? Wert a1
-Wer erhält das Grundeinkommen? Wert a2
-Gibt es weitere Bedingungen, um das Grundeinkommen zu erhalten? Wert a3
-Was passiert mit bestehenden Sozialleistungen? Wert a4
-Was ist sonst noch wichtig? Das Grundeinkommen wird über Steuern finanziert.
-Auch wenn man zusätzliches Einkommen aus bezahlter Arbeit hat, bekommt man den vollen Betrag des Grundeinkommens. 
-
-Wären Sie für oder gegen ein solches Grundeinkommen in Deutschland?
+      "label": "Wären Sie für oder gegen ein solches Grundeinkommen in Deutschland?
 ",
       "items": [
         {
           "instrument_name": "W45",
           "question_name": "Page 21",
           "item_name": "0",
-          "text": "In einigen Ländern wird momentan über die Einführung eines Grundeinkommens diskutiert. Uns interessiert, ob Sie gegen oder für ein solches Grundeinkommen sind.
+          "gip_info_text": "In einigen Ländern wird momentan über die Einführung eines Grundeinkommens diskutiert. Uns interessiert, ob Sie gegen oder für ein solches Grundeinkommen sind.
 
 Zuerst aber ein paar Einzelheiten dazu. Unten sehen Sie die wichtigsten Eigenschaften, wie ein Grundeinkommen gestaltet sein könnte.
 
@@ -2039,9 +1939,8 @@ Wer erhält das Grundeinkommen? Wert a2
 Gibt es weitere Bedingungen, um das Grundeinkommen zu erhalten? Wert a3
 Was passiert mit bestehenden Sozialleistungen? Wert a4
 Was ist sonst noch wichtig? Das Grundeinkommen wird über Steuern finanziert.
-Auch wenn man zusätzliches Einkommen aus bezahlter Arbeit hat, bekommt man den vollen Betrag des Grundeinkommens. 
-
-Wären Sie für oder gegen ein solches Grundeinkommen in Deutschland?
+Auch wenn man zusätzliches Einkommen aus bezahlter Arbeit hat, bekommt man den vollen Betrag des Grundeinkommens. ",
+          "text": "Wären Sie für oder gegen ein solches Grundeinkommen in Deutschland?
 ",
           "scale": "cat",
           "answer_list_name": "0-3-dafür",
@@ -2077,18 +1976,7 @@ Alle bestehenden Sozialleistungen bleiben erhalten und können bei Bedarf in Ans
           "study_name": "gip",
           "item": "0",
           "answer_list": "0-3-dafür",
-          "gip_question_text": "In einigen Ländern wird momentan über die Einführung eines Grundeinkommens diskutiert. Uns interessiert, ob Sie gegen oder für ein solches Grundeinkommen sind.
-
-Zuerst aber ein paar Einzelheiten dazu. Unten sehen Sie die wichtigsten Eigenschaften, wie ein Grundeinkommen gestaltet sein könnte.
-
-Wie hoch ist das Grundeinkommen? Wert a1
-Wer erhält das Grundeinkommen? Wert a2
-Gibt es weitere Bedingungen, um das Grundeinkommen zu erhalten? Wert a3
-Was passiert mit bestehenden Sozialleistungen? Wert a4
-Was ist sonst noch wichtig? Das Grundeinkommen wird über Steuern finanziert.
-Auch wenn man zusätzliches Einkommen aus bezahlter Arbeit hat, bekommt man den vollen Betrag des Grundeinkommens. 
-
-Wären Sie für oder gegen ein solches Grundeinkommen in Deutschland?
+          "gip_question_text": "Wären Sie für oder gegen ein solches Grundeinkommen in Deutschland?
 ",
           "var_key": "AC45218",
           "images_from_key": "AC45218.png",
@@ -2645,17 +2533,14 @@ Mit welcher dieser beiden Maßnahmen sollte der Staat in Zukunft Familien mit Ki
     "Page 27": {
       "question": "Page 27",
       "name": "Page 27",
-      "label": "Im Folgenden interessiert uns Ihre Meinung über eine gesetzliche Regelung zum Home Office (Arbeiten von zu Hause). Für einige Tätigkeiten ist Home Office zwar grundsätzlich nicht möglich, z. B. in der Altenpflege, im Einzelhandel oder in der Bauarbeit. Für sehr viele Tätigkeiten wäre es hingegen denkbar, dass die Beschäftigten an einem oder mehreren Tagen in der Woche zu Hause arbeiten.
-
-Wie stehen Sie zu einem Gesetz, das Beschäftigten ein Recht auf Arbeiten von zu Hause einräumen würde, insofern ihre Tätigkeit dies grundsätzlich zulässt?",
+      "label": "Wie stehen Sie zu einem Gesetz, das Beschäftigten ein Recht auf Arbeiten von zu Hause einräumen würde, insofern ihre Tätigkeit dies grundsätzlich zulässt?",
       "items": [
         {
           "instrument_name": "W45",
           "question_name": "Page 27",
           "item_name": "0",
-          "text": "Im Folgenden interessiert uns Ihre Meinung über eine gesetzliche Regelung zum Home Office (Arbeiten von zu Hause). Für einige Tätigkeiten ist Home Office zwar grundsätzlich nicht möglich, z. B. in der Altenpflege, im Einzelhandel oder in der Bauarbeit. Für sehr viele Tätigkeiten wäre es hingegen denkbar, dass die Beschäftigten an einem oder mehreren Tagen in der Woche zu Hause arbeiten.
-
-Wie stehen Sie zu einem Gesetz, das Beschäftigten ein Recht auf Arbeiten von zu Hause einräumen würde, insofern ihre Tätigkeit dies grundsätzlich zulässt?",
+          "gip_info_text": "Im Folgenden interessiert uns Ihre Meinung über eine gesetzliche Regelung zum Home Office (Arbeiten von zu Hause). Für einige Tätigkeiten ist Home Office zwar grundsätzlich nicht möglich, z. B. in der Altenpflege, im Einzelhandel oder in der Bauarbeit. Für sehr viele Tätigkeiten wäre es hingegen denkbar, dass die Beschäftigten an einem oder mehreren Tagen in der Woche zu Hause arbeiten.",
+          "text": "Wie stehen Sie zu einem Gesetz, das Beschäftigten ein Recht auf Arbeiten von zu Hause einräumen würde, insofern ihre Tätigkeit dies grundsätzlich zulässt?",
           "scale": "cat",
           "answer_list_name": "1-4-dafür",
           "dataset_name": "GIP_W45_V1",
@@ -2668,9 +2553,7 @@ Wie stehen Sie zu einem Gesetz, das Beschäftigten ein Recht auf Arbeiten von zu
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-4-dafür",
-          "gip_question_text": "Im Folgenden interessiert uns Ihre Meinung über eine gesetzliche Regelung zum Home Office (Arbeiten von zu Hause). Für einige Tätigkeiten ist Home Office zwar grundsätzlich nicht möglich, z. B. in der Altenpflege, im Einzelhandel oder in der Bauarbeit. Für sehr viele Tätigkeiten wäre es hingegen denkbar, dass die Beschäftigten an einem oder mehreren Tagen in der Woche zu Hause arbeiten.
-
-Wie stehen Sie zu einem Gesetz, das Beschäftigten ein Recht auf Arbeiten von zu Hause einräumen würde, insofern ihre Tätigkeit dies grundsätzlich zulässt?",
+          "gip_question_text": "Wie stehen Sie zu einem Gesetz, das Beschäftigten ein Recht auf Arbeiten von zu Hause einräumen würde, insofern ihre Tätigkeit dies grundsätzlich zulässt?",
           "var_key": "AC45220",
           "images_from_key": "AC45220.png",
           "item_image_url": "AC45220.png",
@@ -3607,24 +3490,19 @@ Wie stehen Sie zu einem Gesetz, das Beschäftigten ein Recht auf Arbeiten von zu
     "Page 38": {
       "question": "Page 38",
       "name": "Page 38",
-      "label": "Bitte stellen Sie sich folgende Situation vor.
-
-Ein [EDV: Alter Kind] altes Kind wird [EDV: Betreuung] betreut. [EDV: Arbeitszeit]
-
-Wir bitten Sie im Folgenden um Ihre Einschätzung, wie sich die Betreuungssituation auf das Wohlergehen des Kindes auswirkt.
-
+      "label": "
 Wie beurteilen Sie die Betreuungssituation für das Wohl des Kindes?",
       "items": [
         {
           "instrument_name": "W45",
           "question_name": "Page 38",
           "item_name": "0",
-          "text": "Bitte stellen Sie sich folgende Situation vor.
+          "gip_info_text": "Bitte stellen Sie sich folgende Situation vor.
 
-Ein [EDV: Alter Kind] altes Kind wird [EDV: Betreuung] betreut. [EDV: Arbeitszeit]
+Ein [Alter Kind] altes Kind wird [Betreuung] betreut. [Arbeitszeit]
 
-Wir bitten Sie im Folgenden um Ihre Einschätzung, wie sich die Betreuungssituation auf das Wohlergehen des Kindes auswirkt.
-
+Wir bitten Sie im Folgenden um Ihre Einschätzung, wie sich die Betreuungssituation auf das Wohlergehen des Kindes auswirkt.",
+          "text": "
 Wie beurteilen Sie die Betreuungssituation für das Wohl des Kindes?",
           "scale": "cat",
           "answer_list_name": "0-10-schlecht",
@@ -3669,12 +3547,7 @@ expAC45231c=5 (“halbtags in einer Kindertagesstätte”) nur mit expAC45231d=4
           "study_name": "gip",
           "item": "0",
           "answer_list": "0-10-schlecht",
-          "gip_question_text": "Bitte stellen Sie sich folgende Situation vor.
-
-Ein [EDV: Alter Kind] altes Kind wird [EDV: Betreuung] betreut. [EDV: Arbeitszeit]
-
-Wir bitten Sie im Folgenden um Ihre Einschätzung, wie sich die Betreuungssituation auf das Wohlergehen des Kindes auswirkt.
-
+          "gip_question_text": "
 Wie beurteilen Sie die Betreuungssituation für das Wohl des Kindes?",
           "var_key": "AC45231",
           "images_from_key": "AC45231.png",
@@ -5243,21 +5116,16 @@ Asylbewerber, die etwa nach einem Verkehrsunfall Schmerzensgeld erhalten, müsse
     "Page 54": {
       "question": "Page 54",
       "name": "Page 54",
-      "label": "[Wenn CD45139 als Erstes gezeigt wird: 
-[Wenn expCD45136=1: Und nun kommen wir zu etwas anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]
-[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]
-
-Wenn das Bundesverfassungsgericht anfangen würde, eine Vielzahl von Entscheidungen zu treffen, denen die meisten Menschen nicht zustimmen, wäre es vielleicht besser, das Bundesverfassungsgericht ganz abzuschaffen.  ",
+      "label": "Wenn das Bundesverfassungsgericht anfangen würde, eine Vielzahl von Entscheidungen zu treffen, denen die meisten Menschen nicht zustimmen, wäre es vielleicht besser, das Bundesverfassungsgericht ganz abzuschaffen.  ",
       "items": [
         {
           "instrument_name": "W45",
           "question_name": "Page 54",
           "item_name": "0",
-          "text": "[Wenn CD45139 als Erstes gezeigt wird: 
+          "gip_info_text": "[[Wenn CD45139 als Erstes gezeigt wird: 
 [Wenn expCD45136=1: Und nun kommen wir zu etwas anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]
-[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]
-
-Wenn das Bundesverfassungsgericht anfangen würde, eine Vielzahl von Entscheidungen zu treffen, denen die meisten Menschen nicht zustimmen, wäre es vielleicht besser, das Bundesverfassungsgericht ganz abzuschaffen.  ",
+[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]",
+          "text": "Wenn das Bundesverfassungsgericht anfangen würde, eine Vielzahl von Entscheidungen zu treffen, denen die meisten Menschen nicht zustimmen, wäre es vielleicht besser, das Bundesverfassungsgericht ganz abzuschaffen.  ",
           "scale": "cat",
           "answer_list_name": "1-5-zustimmen",
           "dataset_name": "GIP_W45_V1",
@@ -5274,11 +5142,7 @@ Wenn das Bundesverfassungsgericht anfangen würde, eine Vielzahl von Entscheidun
           "item": "0",
           "answer_list": "1-5-zustimmen",
           "description": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
-          "gip_question_text": "[Wenn CD45139 als Erstes gezeigt wird: 
-[Wenn expCD45136=1: Und nun kommen wir zu etwas anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]
-[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]
-
-Wenn das Bundesverfassungsgericht anfangen würde, eine Vielzahl von Entscheidungen zu treffen, denen die meisten Menschen nicht zustimmen, wäre es vielleicht besser, das Bundesverfassungsgericht ganz abzuschaffen.  ",
+          "gip_question_text": "Wenn das Bundesverfassungsgericht anfangen würde, eine Vielzahl von Entscheidungen zu treffen, denen die meisten Menschen nicht zustimmen, wäre es vielleicht besser, das Bundesverfassungsgericht ganz abzuschaffen.  ",
           "var_key": "CD45139",
           "images_from_key": "CD45139_1.png CD45139_2.png CD45139_3.png",
           "item_image_url": "CD45139_1.png CD45139_2.png CD45139_3.png",
@@ -5331,21 +5195,16 @@ Wenn das Bundesverfassungsgericht anfangen würde, eine Vielzahl von Entscheidun
     "Page 55": {
       "question": "Page 55",
       "name": "Page 55",
-      "label": "[Wenn CD45139 als Erstes gezeigt wird: 
-[Wenn expCD45136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]
-[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]
-
-Das Bundesverfassungsgericht ist zu politisch.",
+      "label": "Das Bundesverfassungsgericht ist zu politisch.",
       "items": [
         {
           "instrument_name": "W45",
           "question_name": "Page 55",
           "item_name": "0",
-          "text": "[Wenn CD45139 als Erstes gezeigt wird: 
+          "gip_info_text": "[[Wenn CD45139 als Erstes gezeigt wird: 
 [Wenn expCD45136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]
-[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]
-
-Das Bundesverfassungsgericht ist zu politisch.",
+[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]",
+          "text": "Das Bundesverfassungsgericht ist zu politisch.",
           "scale": "cat",
           "answer_list_name": "1-5-zustimmen",
           "dataset_name": "GIP_W45_V1",
@@ -5361,11 +5220,7 @@ Das Bundesverfassungsgericht ist zu politisch.",
           "item": "0",
           "answer_list": "1-5-zustimmen",
           "description": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
-          "gip_question_text": "[Wenn CD45139 als Erstes gezeigt wird: 
-[Wenn expCD45136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]
-[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]
-
-Das Bundesverfassungsgericht ist zu politisch.",
+          "gip_question_text": "Das Bundesverfassungsgericht ist zu politisch.",
           "var_key": "CD45140",
           "images_from_key": "CD45140_1.png CD45140_2.png CD45140_3.png",
           "item_image_url": "CD45140_1.png CD45140_2.png CD45140_3.png",
@@ -5418,21 +5273,16 @@ Das Bundesverfassungsgericht ist zu politisch.",
     "Page 56": {
       "question": "Page 56",
       "name": "Page 56",
-      "label": "[Wenn CD45139 als Erstes gezeigt wird: 
-[Wenn expCD45136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]
-[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]
-
-In seinen Entscheidungen bevorzugt das Bundesverfassungsgericht einige Gruppen mehr als andere.",
+      "label": "In seinen Entscheidungen bevorzugt das Bundesverfassungsgericht einige Gruppen mehr als andere.",
       "items": [
         {
           "instrument_name": "W45",
           "question_name": "Page 56",
           "item_name": "0",
-          "text": "[Wenn CD45139 als Erstes gezeigt wird: 
+          "gip_info_text": "[[Wenn CD45139 als Erstes gezeigt wird: 
 [Wenn expCD45136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]
-[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]
-
-In seinen Entscheidungen bevorzugt das Bundesverfassungsgericht einige Gruppen mehr als andere.",
+[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]",
+          "text": "In seinen Entscheidungen bevorzugt das Bundesverfassungsgericht einige Gruppen mehr als andere.",
           "scale": "cat",
           "answer_list_name": "1-5-zustimmen",
           "dataset_name": "GIP_W45_V1",
@@ -5448,11 +5298,7 @@ In seinen Entscheidungen bevorzugt das Bundesverfassungsgericht einige Gruppen m
           "item": "0",
           "answer_list": "1-5-zustimmen",
           "description": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
-          "gip_question_text": "[Wenn CD45139 als Erstes gezeigt wird: 
-[Wenn expCD45136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]
-[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]
-
-In seinen Entscheidungen bevorzugt das Bundesverfassungsgericht einige Gruppen mehr als andere.",
+          "gip_question_text": "In seinen Entscheidungen bevorzugt das Bundesverfassungsgericht einige Gruppen mehr als andere.",
           "var_key": "CD45141",
           "images_from_key": "CD45141_1.png CD45141_2.png CD45141_3.png",
           "item_image_url": "CD45141_1.png CD45141_2.png CD45141_3.png",
@@ -5505,21 +5351,16 @@ In seinen Entscheidungen bevorzugt das Bundesverfassungsgericht einige Gruppen m
     "Page 57": {
       "question": "Page 57",
       "name": "Page 57",
-      "label": "[Wenn AK45034 als Erstes gezeigt wird: Im Folgenden finden Sie nun eine Reihe von öffentlichen Einrichtungen und Organisationen. 
-
-Geben Sie bitte bei jeder Einrichtung oder Organisation an, wie groß das Vertrauen ist, das Sie ihr entgegenbringen. Benutzen Sie dazu bitte diese Skala: 1 bedeutet, dass Sie ihr überhaupt kein Vertrauen entgegenbringen; 7 bedeutet, dass Sie ihr sehr großes Vertrauen entgegenbringen. Mit den Zahlen dazwischen können Sie Ihre Meinung wiederum abstufen.]
-
-Wie ist das mit der Bundesregierung?",
+      "label": "Wie ist das mit der Bundesregierung?",
       "items": [
         {
           "instrument_name": "W45",
           "question_name": "Page 57",
           "item_name": "0",
-          "text": "[Wenn AK45034 als Erstes gezeigt wird: Im Folgenden finden Sie nun eine Reihe von öffentlichen Einrichtungen und Organisationen. 
+          "gip_info_text": "[Wenn AK45034 als Erstes gezeigt wird: Im Folgenden finden Sie nun eine Reihe von öffentlichen Einrichtungen und Organisationen. 
 
-Geben Sie bitte bei jeder Einrichtung oder Organisation an, wie groß das Vertrauen ist, das Sie ihr entgegenbringen. Benutzen Sie dazu bitte diese Skala: 1 bedeutet, dass Sie ihr überhaupt kein Vertrauen entgegenbringen; 7 bedeutet, dass Sie ihr sehr großes Vertrauen entgegenbringen. Mit den Zahlen dazwischen können Sie Ihre Meinung wiederum abstufen.]
-
-Wie ist das mit der Bundesregierung?",
+Geben Sie bitte bei jeder Einrichtung oder Organisation an, wie groß das Vertrauen ist, das Sie ihr entgegenbringen. Benutzen Sie dazu bitte diese Skala: 1 bedeutet, dass Sie ihr überhaupt kein Vertrauen entgegenbringen; 7 bedeutet, dass Sie ihr sehr großes Vertrauen entgegenbringen. Mit den Zahlen dazwischen können Sie Ihre Meinung wiederum abstufen.]",
+          "text": "Wie ist das mit der Bundesregierung?",
           "scale": "cat",
           "answer_list_name": "1-7-Vertrauen",
           "dataset_name": "GIP_W45_V1",
@@ -5534,11 +5375,7 @@ Wie ist das mit der Bundesregierung?",
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-7-Vertrauen",
-          "gip_question_text": "[Wenn AK45034 als Erstes gezeigt wird: Im Folgenden finden Sie nun eine Reihe von öffentlichen Einrichtungen und Organisationen. 
-
-Geben Sie bitte bei jeder Einrichtung oder Organisation an, wie groß das Vertrauen ist, das Sie ihr entgegenbringen. Benutzen Sie dazu bitte diese Skala: 1 bedeutet, dass Sie ihr überhaupt kein Vertrauen entgegenbringen; 7 bedeutet, dass Sie ihr sehr großes Vertrauen entgegenbringen. Mit den Zahlen dazwischen können Sie Ihre Meinung wiederum abstufen.]
-
-Wie ist das mit der Bundesregierung?",
+          "gip_question_text": "Wie ist das mit der Bundesregierung?",
           "var_key": "AK45034",
           "images_from_key": "AK45034_1.png AK45034_2.png",
           "item_image_url": "AK45034_1.png AK45034_2.png",
@@ -5612,21 +5449,16 @@ Wie ist das mit der Bundesregierung?",
     "Page 58": {
       "question": "Page 58",
       "name": "Page 58",
-      "label": "[Wenn AK45031 als Erstes gezeigt wird: Im Folgenden finden Sie nun eine Reihe von öffentlichen Einrichtungen und Organisationen. 
-
-Geben Sie bitte bei jeder Einrichtung oder Organisation an, wie groß das Vertrauen ist, das Sie ihr entgegenbringen. Benutzen Sie dazu bitte diese Skala: 1 bedeutet, dass Sie ihr überhaupt kein Vertrauen entgegenbringen; 7 bedeutet, dass Sie ihr sehr großes Vertrauen entgegenbringen. Mit den Zahlen dazwischen können Sie Ihre Meinung wiederum abstufen.]
-
-Wie ist das mit dem Bundesverfassungsgericht?",
+      "label": "Wie ist das mit dem Bundesverfassungsgericht?",
       "items": [
         {
           "instrument_name": "W45",
           "question_name": "Page 58",
           "item_name": "0",
-          "text": "[Wenn AK45031 als Erstes gezeigt wird: Im Folgenden finden Sie nun eine Reihe von öffentlichen Einrichtungen und Organisationen. 
+          "gip_info_text": "[Wenn AK45031 als Erstes gezeigt wird: Im Folgenden finden Sie nun eine Reihe von öffentlichen Einrichtungen und Organisationen. 
 
-Geben Sie bitte bei jeder Einrichtung oder Organisation an, wie groß das Vertrauen ist, das Sie ihr entgegenbringen. Benutzen Sie dazu bitte diese Skala: 1 bedeutet, dass Sie ihr überhaupt kein Vertrauen entgegenbringen; 7 bedeutet, dass Sie ihr sehr großes Vertrauen entgegenbringen. Mit den Zahlen dazwischen können Sie Ihre Meinung wiederum abstufen.]
-
-Wie ist das mit dem Bundesverfassungsgericht?",
+Geben Sie bitte bei jeder Einrichtung oder Organisation an, wie groß das Vertrauen ist, das Sie ihr entgegenbringen. Benutzen Sie dazu bitte diese Skala: 1 bedeutet, dass Sie ihr überhaupt kein Vertrauen entgegenbringen; 7 bedeutet, dass Sie ihr sehr großes Vertrauen entgegenbringen. Mit den Zahlen dazwischen können Sie Ihre Meinung wiederum abstufen.]",
+          "text": "Wie ist das mit dem Bundesverfassungsgericht?",
           "scale": "cat",
           "answer_list_name": "1-7-Vertrauen",
           "dataset_name": "GIP_W45_V1",
@@ -5640,11 +5472,7 @@ Wie ist das mit dem Bundesverfassungsgericht?",
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-7-Vertrauen",
-          "gip_question_text": "[Wenn AK45031 als Erstes gezeigt wird: Im Folgenden finden Sie nun eine Reihe von öffentlichen Einrichtungen und Organisationen. 
-
-Geben Sie bitte bei jeder Einrichtung oder Organisation an, wie groß das Vertrauen ist, das Sie ihr entgegenbringen. Benutzen Sie dazu bitte diese Skala: 1 bedeutet, dass Sie ihr überhaupt kein Vertrauen entgegenbringen; 7 bedeutet, dass Sie ihr sehr großes Vertrauen entgegenbringen. Mit den Zahlen dazwischen können Sie Ihre Meinung wiederum abstufen.]
-
-Wie ist das mit dem Bundesverfassungsgericht?",
+          "gip_question_text": "Wie ist das mit dem Bundesverfassungsgericht?",
           "var_key": "AK45031",
           "images_from_key": "AK45031_1.png AK45031_2.png",
           "item_image_url": "AK45031_1.png AK45031_2.png",
@@ -5718,11 +5546,7 @@ Wie ist das mit dem Bundesverfassungsgericht?",
     "Page 59": {
       "question": "Page 59",
       "name": "Page 59",
-      "label": "Bewertung dieser Umfrage
-
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
-
-Fanden Sie den Fragebogen ...?
+      "label": "Fanden Sie den Fragebogen ...?
 
 interessant",
       "items": [
@@ -5730,11 +5554,10 @@ interessant",
           "instrument_name": "W45",
           "question_name": "Page 59",
           "item_name": "0",
-          "text": "Bewertung dieser Umfrage
+          "gip_info_text": "Bewertung dieser Umfrage
 
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
-
-Fanden Sie den Fragebogen ...?
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.",
+          "text": "Fanden Sie den Fragebogen ...?
 
 interessant",
           "scale": "cat",
@@ -5750,11 +5573,7 @@ interessant",
           "study_name": "gip",
           "item": "0",
           "answer_list": "1-4-sehr",
-          "gip_question_text": "Bewertung dieser Umfrage
-
-Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
-
-Fanden Sie den Fragebogen ...?
+          "gip_question_text": "Fanden Sie den Fragebogen ...?
 
 interessant",
           "var_key": "QE45001",
@@ -6237,7 +6056,11 @@ zu persönlich",
       "name": "Page 66",
       "label": "Haben Sie noch weitere Anmerkungen?
 
-Hier können Sie Lob oder Kritik zum Fragebogen äußern.",
+Hier können Sie Lob oder Kritik zum Fragebogen äußern.
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de“>info@gesellschaft-im-wandel.de",
       "items": [
         {
           "instrument_name": "W45",
@@ -6245,7 +6068,11 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.",
           "item_name": "0",
           "text": "Haben Sie noch weitere Anmerkungen?
 
-Hier können Sie Lob oder Kritik zum Fragebogen äußern.",
+Hier können Sie Lob oder Kritik zum Fragebogen äußern.
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de“>info@gesellschaft-im-wandel.de",
           "scale": "str",
           "dataset_name": "GIP_W45_V1",
           "variable_name": "QE45008_TXT",
@@ -6253,19 +6080,18 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.",
           "gip_question_type": "Open Question/Text only",
           "gip_response_format": "text",
           "gip_answer_alignment": "[answered]",
+          "gip_field_condition": "long answer field",
           "gip_programming_instructions": "Codierung der Variablen QE42008_TXT_na: 0 Item not answered, 1 Item answered",
           "gip_variable_label": "weitere Anmerkungen_text",
-          "gip_help_text": "Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
-Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-E-Mail: info@gesellschaft-im-wandel.de“>info@gesellschaft-im-wandel.de",
           "study_name": "gip",
           "item": "0",
-          "description": "Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
-Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
-E-Mail: info@gesellschaft-im-wandel.de“>info@gesellschaft-im-wandel.de",
           "gip_question_text": "Haben Sie noch weitere Anmerkungen?
 
-Hier können Sie Lob oder Kritik zum Fragebogen äußern.",
+Hier können Sie Lob oder Kritik zum Fragebogen äußern.
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de“>info@gesellschaft-im-wandel.de",
           "var_key": "QE45008_TXT",
           "images_from_key": "QE45008_TXT.png",
           "item_image_url": "QE45008_TXT.png",
@@ -6281,20 +6107,12 @@ Hier können Sie Lob oder Kritik zum Fragebogen äußern.",
     "Page 67 Outro": {
       "question": "Page 67 Outro",
       "name": "Page 67 Outro",
-      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
-
-Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
-
-Bitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.
-
-
-Ihr Forschungsteam von der Universität Mannheim",
       "items": [
         {
           "instrument_name": "W45",
           "question_name": "Page 67 Outro",
           "item_name": "0",
-          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
+          "gip_info_text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
 
 Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
 
@@ -6310,14 +6128,6 @@ Ihr Forschungsteam von der Universität Mannheim",
           "gip_image_extra": "W45_P67.png",
           "study_name": "gip",
           "item": "0",
-          "gip_question_text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
-
-Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
-
-Bitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.
-
-
-Ihr Forschungsteam von der Universität Mannheim",
           "item_image_url": "W45_P67.png",
           "image_url": "https://github.com/paneldata/gip/raw/master/screenshots/W45/W45_P67.png",
           "sn": 0,
