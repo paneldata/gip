@@ -2,6 +2,12 @@ import os, sys
 import codecs
 import pandas as pd
 
+print("[INFO] Initial working directory:", os.getcwd())
+file_path = os.path.dirname(os.path.abspath(__file__))
+print("[INFO] Path of fill_ddionrails:", file_path)
+os.chdir(os.path.join(file_path, ".."))
+print("[INFO] New working directory:", os.getcwd())
+
 sys.path.append(os.path.expanduser("../ddi.py/"))
 
 from ddi.onrails.repos import merge_instruments, dor1, copy, extract_variables, convert_r2ddi
