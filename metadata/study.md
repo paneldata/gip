@@ -17,7 +17,7 @@ config:
     - Each wave has its own DOI and reference that can be found at the website of the GESIS data archive [here](https://dbk.gesis.org/dbksearch/GDesc2.asp?no=0109&tab=&ll=10&notabs=1&db=E).
     - Blom, A. G., Gathmann, C., and Krieger, U. (2015). Setting Up an Online Panel Representative of the General Population: The German Internet Panel. Field Methods, 27(4), 391-408. DOI: 10.1177/1525822X15574494
 -  **DOI:** (see each wave, respectively)
--  **URL:** [German Internet Panel](https://reforms.uni-mannheim.de/internet_panel/Internet_Panel/)
+-  **URL:** [German Internet Panel](https://www.uni-mannheim.de/gip/)
 
 ## Study Info
 
@@ -45,14 +45,14 @@ To order the scientific use files please proceed as described [here](https://dbk
 
 - Recruitment method: The 2012 and 2014 samples were recruited with face-to-face interviews during which respondents were invited to the online panel. Sampled persons without access to the internet were provided with the necessary equipment, internet, and support. The 2018 sample was recruited via postal invitations.
 
-- Sample sizes and response rates: An overview of all sample sizes and response rates can be found [here](https://reforms.uni-mannheim.de/ionas/sowi/reforms/internet_panel/Response_rates/).
+- Sample sizes and response rates: An overview of all sample sizes and response rates can be found [here](https://www.uni-mannheim.de/media/Einrichtungen/gip/Response_Rates/German_Internet_Panel_Response_Rates.pdf).
 
 - Incentives: For their participation GIP panel members receive 4€ per completed questionnaire as well as a bonus of 5€ for completing five or 10€ for all six waves within a year. Incentives are paid out twice a year and panel members can choose whether to receive their incentives via bank transfer, as an online voucher or whether to donate it to charity. In addition, several SFB-projects incentivize panel members in various different ways.
 
 Further information on the GIP methodology is available at the following sources:
 
 - General information:
-    - [Website](https://reforms.uni-mannheim.de/internet_panel/Internet_Panel/)
+    - [Website](https://www.uni-mannheim.de/gip/)
     - Blom, A. G., Gathmann, C., and Krieger, U. (2015). Setting Up an Online Panel Representative of the General Population: The German Internet Panel. Field Methods, 27(4), 391-408. DOI: 10.1177/1525822X15574494
 
 - Information on the inclusion of the offline population:
