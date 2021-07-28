@@ -15,6 +15,7 @@
         {
           "item": "0",
           "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“,  \n \nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\n\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\n\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren.  \n\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen: \ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\n\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung! \n\nIhr Forschungsteam der Universität Mannheim",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         }
@@ -33,6 +34,7 @@
           "item": "0",
           "text": "Welche (berufliche) Tätigkeit üben Sie derzeit hauptsächlich aus?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -120,6 +122,7 @@
         {
           "item": "0",
           "text": "Für wie wahrscheinlich halten Sie es, dass Sie in den nächsten 12 Monaten arbeitslos werden?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -159,6 +162,7 @@
         {
           "item": "0",
           "text": "Im folgenden Teil der Befragung geht es um den deutschen Sozialstaat. Wie soll die Gesundheitsversorgung organisiert werden? Wovon sollen Menschen im Alter leben? Sollen Arbeitslose oder Familien durch den Staat unterstützt werden?\nEs gibt auf diese Fragen also weder richtige noch falsche Antworten, es zählt einzig Ihre persönliche Meinung.",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         }
@@ -176,6 +180,7 @@
         {
           "item": "0",
           "text": "Sollte der Staat Ihrer Meinung nach dafür verantwortlich sein, eine ausreichende gesundheitliche Versorgung für Kranke sicherzustellen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -239,6 +244,7 @@
         {
           "item": "0",
           "text": "Sollten der Staat und die gesetzliche Krankenkasse für das Gesundheitssystem mehr oder weniger Geld ausgeben als momentan?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -282,6 +288,7 @@
         {
           "item": "0",
           "text": "Alles in allem betrachtet, würden Sie sagen, Ihre Gesundheit ist …",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -326,6 +333,7 @@
           "item": "0",
           "text": "Bitte geben Sie die Art Ihrer Krankenversicherung an.",
           "instruction": "Private Zusatzversicherungen für zusätzliche Leistungen sind nicht gemeint.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -369,6 +377,7 @@
         {
           "item": "0",
           "text": "Sollte der Staat Ihrer Meinung nach dafür verantwortlich sein, einen angemessenen Lebensstandard im Alter sicherzustellen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -432,6 +441,7 @@
         {
           "item": "0",
           "text": "Sollten der Staat und die gesetzliche Rentenversicherung für Renten mehr oder weniger Geld ausgeben als momentan?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -476,6 +486,7 @@
           "item": "0",
           "text": "Wie hoch sollte Ihrer Meinung nach das gesetzliche Rentenalter in Deutschland sein?",
           "instruction": "Mit gesetzlichem Rentenalter meinen wir das Alter, in dem man ohne Abschläge bei der Rente in den Ruhestand gehen kann.",
+          "scale": "int",
           "sn": 0,
           "number": ""
         }
@@ -493,60 +504,70 @@
         {
           "item": "0",
           "text": "Haben Sie im Jahr 2018 Zahlungen aus einer der folgenden Quellen bekommen?",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "gesetzliche Altersrente oder Beamtenpension",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "2",
           "text": "gesetzliche Frührente oder Vorruhestandsbezüge",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "3",
           "text": "Betriebsrente",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "4",
           "text": "private Rente (zum Beispiel aus Riester-Verträgen, Investmentfonds, Banksparplänen oder Lebensversicherungen)",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "5",
           "text": "Erwerbsminderungsrente beziehungsweise Beamtenpension wegen Dienstunfähigkeit",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "6",
           "text": "Hinterbliebenenrente",
+          "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "7",
           "text": "Leistung für Kriegsopfer",
+          "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "8",
           "text": "Leistungen der Pflegeversicherung",
+          "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "9",
           "text": "Ich habe im Jahr 2018 keine dieser Zahlungen bekommen.",
+          "scale": "bin",
           "sn": 9,
           "number": ""
         }
@@ -564,48 +585,56 @@
         {
           "item": "0",
           "text": "Haben Sie im vergangenen Jahr Beiträge zu einer der folgenden Arten der Altersvorsorge geleistet?",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "gesetzliche Altersrente",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "2",
           "text": "Betriebsrente",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "3",
           "text": "private Altersvorsorge (zum Beispiel Riester-Verträge, Anteile an Investmentfonds, Banksparpläne)",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "4",
           "text": "private Berufsunfähigkeitsversicherung",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "5",
           "text": "Lebensversicherung",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "6",
           "text": "andere Altersvorsorge, und zwar:",
+          "scale": "str",
           "sn": 6,
           "number": ""
         },
         {
           "item": "7",
           "text": "Nein, ich habe im vergangenen Jahr keine Beiträge zu irgendeiner Art der Altersvorsorge geleistet.",
+          "scale": "bin",
           "sn": 7,
           "number": ""
         }
@@ -624,6 +653,7 @@
           "item": "0",
           "text": "Die Alterssicherung in Deutschland besteht aus fünf Säulen, die zur Finanzierung der Alterssicherung der Bevölkerung beitragen. \n[wenn expAC39196a =1: In der folgenden Übersicht sehen Sie in welchem Umfang jede Säule aktuell zur Finanzierung beiträgt (Vorschlag 1 – Status quo).\nEs gibt Diskussionen darüber, ob diese Verteilung auf die einzelnen Säulen sinnvoll ist. Daher sehen Sie in der Tabelle einen zweiten Vorschlag, wie man die Finanzierung der Renten verändern könnte.]\n[wenn expAC39196a =2: Es gibt Diskussionen darüber, welche Verteilung auf die einzelnen Säulen am sinnvollsten ist. In der folgenden Übersicht sehen Sie zwei Vorschläge in welchem Umfang jede Säule zur Finanzierung der Renten beitragen sollte.]\n\nWelchen der beiden Vorschläge würden Sie auswählen?\n\nVorschlag 1 [wenn expAC39196a = 1: (Status quo)]; Vorschlag 2\n- Staatliche Leistungen für Grundsicherung im Alter: 10%; X%\n- Pensionen für Beamten/innen aus Staatshaushalt: 10%; X%\n- Gesetzliche Rentenversicherung: 60%; X%\n- Arbeitgeber und Arbeitnehmer durch Betriebsrenten: 10%; X%\n- Jeder Einzelne (durch eigene private Altersvorsorge): 10%; X%",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -655,6 +685,7 @@
         {
           "item": "0",
           "text": "In letzter Zeit wird viel über das deutsche Rentensystem diskutiert. Mit welchem Alter sollte man in den Ruhestand gehen dürfen? Wie hoch sollte die Rente sein, damit sie zum Leben ausreicht? Welchen Beitrag muss jeder Einzelne bezahlen um diese Rentenhöhe sicherzustellen? Sollten Mütter für Erziehungszeiten einen Zuschuss zu ihrer Rente bekommen? Und nach wie vielen Berufsjahren darf man auch ohne Abschläge vor dem offiziellen Renteneintrittsalter in den Ruhestand gehen?\n      \nWir werden Ihnen im Folgenden jeweils zwei Alternativen präsentieren, wie diese Rentenregeln aussehen könnten. Wir möchten Sie bitten zu entscheiden, welchen der beiden Vorschläge Sie besser finden.\n\nDabei gibt es keine richtige oder falsche Antwort, es geht ausschließlich um Ihre persönliche Wahl.",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         }
@@ -673,6 +704,7 @@
           "item": "0",
           "text": "Welchen der beiden Vorschläge würden Sie auswählen?\nVorschlag 1; Vorschlag 2\n- Rentenalter (Das volle Rentenniveau wird erreicht, wenn man bis zu diesem Rentenalter arbeitet. Möchte man früher in Rente gehen, dann wird die Rente um 3,6% pro Jahr gekürzt.)  \n- Rentenniveau (bei Erreichen der Regelaltersgrenze)\n- Abschlagsfreier Renteneintritt vor Erreichen des Rentenalters  \n- Beitragssatz (Anteil des Bruttolohns, wird bei Angestellten jeweils zur Hälfte von Arbeitnehmern und Arbeitgebern gezahlt)  \n- Rentenbonus für Erziehungszeiten",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -705,6 +737,7 @@
           "item": "0",
           "text": "Welchen der beiden Vorschläge würden Sie auswählen?\nVorschlag 1; Vorschlag 2\n- Rentenalter (Das volle Rentenniveau wird erreicht, wenn man bis zu diesem Rentenalter arbeitet. Möchte man früher in Rente gehen, dann wird die Rente um 3,6% pro Jahr gekürzt.)  \n- Rentenniveau (bei Erreichen der Regelaltersgrenze)  \n- Abschlagsfreier Renteneintritt vor Erreichen des Rentenalters  \n- Beitragssatz (Anteil des Bruttolohns, wird bei Angestellten jeweils zur Hälfte von Arbeitnehmern und Arbeitgebern gezahlt)  \n- Rentenbonus für Erziehungszeiten",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -736,6 +769,7 @@
         {
           "item": "0",
           "text": "Sollte der Staat Ihrer Meinung nach dafür verantwortlich sein, einen angemessenen Lebensstandard für Arbeitslose sicherzustellen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -799,6 +833,7 @@
         {
           "item": "0",
           "text": "Sollte der Staat für die Unterstützung von Arbeitslosen mehr oder weniger Geld ausgeben als momentan?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -842,6 +877,7 @@
         {
           "item": "0",
           "text": "Seit Anfang 2015 gilt ein bundesweiter gesetzlicher Mindestlohn, der seit Anfang 2019 9,19 Euro pro Stunde beträgt. \n  \n Was denken Sie, welche Auswirkungen der Mindestlohn auf die Arbeitslosigkeit in Deutschland hatte?\n\n Die Arbeitslosigkeit ist durch den Mindestlohn…",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -881,6 +917,7 @@
         {
           "item": "0",
           "text": "Und was denken Sie, welche Auswirkungen der Mindestlohn auf die Armut in Deutschland hatte?\n\n Die Armut in Deutschland ist durch den Mindestlohn…",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -921,6 +958,7 @@
           "item": "0",
           "text": "Wie hoch sollte Ihrer Meinung nach der gesetzliche Mindestlohn in Deutschland sein?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -948,6 +986,7 @@
         {
           "item": "0",
           "text": "Sollte der Staat Ihrer Meinung nach dafür verantwortlich sein, einen angemessenen Lebensstandard für Familien mit Kindern sicherzustellen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -1011,6 +1050,7 @@
         {
           "item": "0",
           "text": "Sollte der Staat für die Unterstützung von Familien mit Kindern mehr oder weniger Geld ausgeben als momentan?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1054,6 +1094,7 @@
         {
           "item": "0",
           "text": "Der Staat unterstützt Familien mit Kindern in Deutschland einerseits durch Geldleistungen (Kindergeld) oder Steuervergünstigungen (Kinderfreibetrag). Andererseits werden Familien durch Kinderbetreuung in Kindergärten oder Kitas unterstützt.\n\nMit welcher dieser beiden Maßnahmen sollte der Staat in Zukunft Familien mit Kindern vor allem unterstützen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1085,6 +1126,7 @@
         {
           "item": "0",
           "text": "Sollte der Staat Ihrer Meinung nach dafür verantwortlich sein, [expAC39203 = 1 bis 4: ] [expAC39203 = 5 bis 8: kostenfreie] Kinderbetreuung für [expAC39203 = 1, 5: Kinder aller Eltern] [expAC39203 = 2, 6: Kinder von berufstätigen Eltern] [expAC39203 = 3, 7: Kinder von alleinerziehenden Eltern] [expAC39203 = 4, 8: Kinder von Migranten] bereitzustellen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -1148,6 +1190,7 @@
         {
           "item": "0",
           "text": "Sollte der Staat Ihrer Meinung nach dafür verantwortlich sein, die Chancengleichheit von Männern und Frauen im Berufsleben sicherzustellen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -1215,6 +1258,7 @@
         {
           "item": "0",
           "text": "In Deutschland gilt seit Januar 2016 eine gesetzliche Frauenquote für Aufsichtsräte von großen, börsennotierten Unternehmen, dies betrifft in Deutschland gut 100 Unternehmen. [expAC39163 = 1: ] [expAC39163 = 2: Hier ist der Frauenanteil bis Ende des Jahres 2017 auf durchschnittlich gut 30 Prozent gestiegen.] [expAC39163 = 3: Hier ist der Frauenanteil bis Ende des Jahres 2017 auf durchschnittlich gut 30 Prozent gestiegen. In Unternehmensvorständen, für die es in Deutschland bislang keine Quotenregelung gibt, liegt der Anteil bei etwas mehr als 8 Prozent.]\n\nWie ist vor diesem Hintergrund Ihre Meinung zu einer Ausweitung der bestehenden gesetzlichen Frauenquote für Führungsgremien von Unternehmen in Deutschland?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1258,6 +1302,7 @@
         {
           "item": "0",
           "text": "Im Folgenden sehen Sie nun eine Reihe von Aussagen über die Rolle von Männern und Frauen in der Familie. Bitte geben Sie an, wie sehr Sie jeder der folgenden Aussagen zustimmen oder wie sehr Sie diese ablehnen. \n\nEine Frau sollte dazu bereit sein, ihre Erwerbstätigkeit zu Gunsten ihrer Familie zu verringern.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1301,6 +1346,7 @@
         {
           "item": "0",
           "text": "Es ist besser für die Familie, wenn der Mann ein höheres Einkommen als die Frau hat.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1344,6 +1390,7 @@
         {
           "item": "0",
           "text": "[expAC39205 = 1: Ein Kind, das noch nicht zur Schule geht, wird darunter leiden, wenn seine Mutter berufstätig ist.] [expAC39205 = 2: Ein Kind unter 3 Jahren wird darunter leiden, wenn seine Mutter berufstätig ist.]",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1387,6 +1434,7 @@
         {
           "item": "0",
           "text": "Wenn Eltern sich scheiden lassen, ist es das Beste für das Kind/die Kinder, wenn es/sie bei der Mutter bleiben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1430,6 +1478,7 @@
         {
           "item": "0",
           "text": "Wie stehen Sie dazu, dass Bundesländer CDs mit gestohlenen Steuerinformationen über Bankkunden aufkaufen, um Steuerhinterzieher aufzuspüren?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1477,6 +1526,7 @@
         {
           "item": "0",
           "text": "Hat Ihr Bundesland in der Vergangenheit solche CDs aufgekauft?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1512,6 +1562,7 @@
         {
           "item": "0",
           "text": "Spenden Sie für gemeinnützige Organisationen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1551,6 +1602,7 @@
         {
           "item": "0",
           "text": "Machen Sie die Spende in Ihrer Steuererklärung geltend?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1594,6 +1646,7 @@
         {
           "item": "0",
           "text": "Wenn andere Menschen Steuerhinterziehung begehen, finde ich das...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1645,6 +1698,7 @@
         {
           "item": "0",
           "text": "Fänden Sie es gut oder schlecht, wenn Steuerzahler mehr Einfluss hätten, wofür der Staat ihre Steuerzahlungen verwendet? \n\nIch fände das...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1692,6 +1746,7 @@
         {
           "item": "0",
           "text": "[wenn expCM39001=1: Stellen Sie sich die Gesellschaft als Leiter vor, die den Status der Bürger beschreibt. Sehen Sie dazu auch die Grafik, welche auf der rechten Seite eingeblendet wird. Die Reichsten und Einflussreichsten in unserer Gesellschaft befinden sich ganz oben auf dieser Leiter: sie haben die höchsten Vermögen und Einkommen, und die am meisten respektierten Berufe in unserer Gesellschaft. Darunter folgen die weniger wohlhabenden und einflussreichen Bürger.\n\nDie meisten von uns stehen weiter unten auf dieser Leiter, und wir haben bestimmte Vorstellungen über diese uns vielleicht recht unbekannte Gruppe der Reichen. Über diese Vorstellungen der weniger gut situierten über die Reichen und Einflussreichen wollen wir uns einen Überblick verschaffen. Bitte beurteilen Sie dazu die folgende Aussage über die Reichen in unserem Land: \n\nDie Reichen haben keine Sorgen.]\n\n[wenn expCM39001=2: Stellen Sie sich die Gesellschaft als Leiter vor, die den Status der Bürger beschreibt. Sehen Sie dazu auch die Grafik, welche auf der rechten Seite eingeblendet wird. Die Ärmsten und am wenigsten Einflussreichen in unserer Gesellschaft befinden sich ganz unten auf dieser Leiter: sie haben das geringste Vermögen und Einkommen, und die am wenigsten respektierten Berufe in unserer Gesellschaft. Darüber folgen die wohlhabenderen und einflussreicheren Bürger.\n\nDie meisten von uns stehen weiter oben auf dieser Leiter, und wir haben bestimmte Vorstellungen über diese uns vielleicht recht unbekannte Gruppe der Armen.  Über diese Vorstellungen der besser situierten über die Armen und Einflusslosen wollen wir uns einen Überblick verschaffen.  Bitte beurteilen Sie dazu die folgende Aussage über die Armen in unserem Land:\n\nDie Armen haben viele Sorgen.]",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1727,6 +1782,7 @@
         {
           "item": "0",
           "text": "[wenn expCM39001=1: Bitte beurteilen Sie die folgende Aussage über die Reichen in unserem Land:\n      \nDie Reichen führen ein abwechslungsreiches Leben.]\n\n[wenn expCM39001=2: Bitte beurteilen Sie die folgende Aussage über die Armen in unserem Land:\n      \nDie Armen führen ein trostloses Leben.]",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1762,6 +1818,7 @@
         {
           "item": "0",
           "text": "[wenn expCM39001=1: Bitte beurteilen Sie die folgende Aussage über die Reichen in unserem Land:\n      \nDie Reichen sind glücklich.]\n\n[wenn expCM39001=2: Bitte beurteilen Sie die folgende Aussage über die Armen in unserem Land:\n      \nDie Armen sind unglücklich.]",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1797,6 +1854,7 @@
         {
           "item": "0",
           "text": "[wenn expCM39001=1: Bitte beurteilen Sie die folgende Aussage über die Reichen in unserem Land:\n      \nReiche Menschen sind erfolgreich.]\n\n[wenn expCM39001=2: Bitte beurteilen Sie die folgende Aussage über die Armen in unserem Land:\n      \nArme Menschen sind nicht erfolgreich.]",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1832,6 +1890,7 @@
         {
           "item": "0",
           "text": "[wenn expCM39001=1: Bitte beurteilen Sie die folgende Aussage über die Reichen in unserem Land:\n      \nReiche Menschen haben großen Einfluss auf politische Entscheidungen.]\n\n[wenn expCM39001=2: Bitte beurteilen Sie die folgende Aussage über die Armen in unserem Land:\n      \nArme Menschen haben keinen Einfluss auf politische Entscheidungen.]",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1867,6 +1926,7 @@
         {
           "item": "0",
           "text": "[wenn expCM39001=1: Bitte beurteilen Sie die folgende Aussage über die Reichen in unserem Land:\n      \nReiche haben eine hohe Bildung und sehr gute Bildungschancen.]\n\n[wenn expCM39001=2: Bitte beurteilen Sie die folgende Aussage über die Armen in unserem Land:\n      \nArme haben eine geringe Bildung und nur kleine Bildungschancen.]",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1902,6 +1962,7 @@
         {
           "item": "0",
           "text": "[wenn expCM39001=1: Bitte beurteilen Sie die folgende Aussage über die Reichen in unserem Land:\n      \nDie Reichen haben finanzielle Sicherheit.]\n\n[wenn expCM39001=2: Bitte beurteilen Sie die folgende Aussage über die Armen in unserem Land:\n\nDie Armen haben keine finanzielle Sicherheit.]",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1937,6 +1998,7 @@
         {
           "item": "0",
           "text": "[wenn expCM39001=1: Bitte beurteilen Sie die folgende Aussage über die Reichen in unserem Land:\n      \nDie Reichen gehören zur Elite des Landes.]\n\n[wenn expCM39001=2: Bitte beurteilen Sie die folgende Aussage über die Armen in unserem Land:\n      \nArme Leute gehören niemals zur Elite eines Landes.]",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1972,6 +2034,7 @@
         {
           "item": "0",
           "text": "[wenn expCM39001=1: Bitte beurteilen Sie die folgende Aussage über die Reichen in unserem Land:\n      \nDie Reichen fahren teure Autos.]\n\n[wenn expCM39001=2: Bitte beurteilen Sie die folgende Aussage über die Armen in unserem Land:\n      \nArme Leute benutzen häufig öffentliche Verkehrsmittel.]",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2007,6 +2070,7 @@
         {
           "item": "0",
           "text": "Diese Leiter stellt dar, an welcher Stelle Menschen in Deutschland stehen. An der Spitze der Leiter (mit der Aufschrift \"10\") stehen jene Menschen, denen es am besten geht, diejenigen, die das meiste Geld haben, die beste Ausbildung haben und am meisten respektiert sind. Ganz unten auf der Leiter (mit der Aufschrift \"1\") stehen jene Menschen, denen es am schlechtesten geht, diejenigen, die das wenigste Geld haben, die schlechteste Ausbildung haben und am wenigsten respektiert sind.\n\nWo würden Sie sich auf dieser Leiter relativ zu den Leuten ganz oben und ganz unten einordnen? Bitte markieren Sie die Box neben der Sprosse, auf der Sie denken selbst zu stehen!",
+          "scale": "cat",
           "answers": [
             {
               "value": 10,
@@ -2067,6 +2131,7 @@
           "item": "0",
           "text": "Sie werden nun am Buchstaben-Glücksrad teilnehmen. Sie können dabei mit etwas Glück eine beträchtliche Summe Geld gewinnen. Das Glücksrad zeigt die ersten 11 Buchstaben des Alphabets, von A bis K. Das Glücksrad funktioniert wie folgt: Sie müssen zuerst einen Buchstaben zwischen A und K wählen und sich merken. Dann wird das virtuelle Glücksrad gestartet und der Computer wählt einen dieser Buchstaben (von A bis K) mit gleicher Wahrscheinlichkeit aus. Nachdem Sie das Ergebnis des virtuellen Glücksrades sehen, müssen Sie den ursprünglich erdachten Buchstaben am Bildschirm eintragen.\n\nIhre Auszahlung wird dann wie folgt berechnet: Wenn der von Ihnen gewählte Buchstabe dem zufällig gewählten Buchstaben am Glücksrad entspricht, beträgt die Auszahlung für Sie 20 Euro. Andernfalls werden die Anzahl der Schritte im Uhrzeigersinn (siehe Glücksrad Abbildung) gezählt, die Sie ausführen müssen, um den vom Glücksrad getroffenen Buchstaben von dem von Ihnen gewählten Buchstaben zu erreichen. Für jeden Schritt ziehen wir 2Euro von den 20Euro ab. Hier ein Beispiel: Ihr gewählter Buchstabe ist K, das Glücksrad trifft den Buchstaben C, was drei Schritte ergibt. Die Auszahlung beträgt dann 20Euro - 3 Schritte à je 2Euro = 14Euro. \n\nZusammenfassend besteht diese Aufgabe also aus den folgenden drei Schritten:\n\n1. Stellen  Sie sich zuerst in Gedanken einen Buchstaben von A bis K vor und merken Sie sich diesen genau. \n2. Dann wird das virtuelle Glücksrad gedreht. Ihr Buchstabe ist zu diesem Zeitpunkt natürlich nur Ihnen bekannt und noch nicht im Computer registriert.\n3. Tragen Sie nun in einem entsprechenden Feld ein, welchen Buchstaben Sie in Schritt 1 im Kopf gewählt haben. Ihre Auszahlung wird dann von Computer, als Distanz zwischen dem vom Computer zufällig ausgewählten und dem von Ihnen eingetragenen Buchstaben, berechnet.\n\nSpäter wird unter allen Teilnehmern die an diesem Spiel teilgenommen haben, genau 300 Teilnehmer zufällig ausgewählt und diesen echtes Geld ausgezahlt, gegeben dem Ausgang des Buchstaben-Glücksrad. Die Geldbeträge werden den Teilnehmern jeweils auf dem Studienkonto gutgeschrieben. Kein Teilnehmer kann mehr als einmal ausgewählt werden. Wir erwarten ungefähr 5000 Teilnehmer an dieser Umfrage. \n\nBitte wählen Sie in ihrem Kopf einen Buchstaben zwischen A und K. \n\nKlicken Sie auf „Glücksrad starten“ wenn Sie einen Buchstaben ausgewählt haben.",
           "instruction": "[Button „Glücksrad starten“]",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         }
@@ -2084,16 +2149,19 @@
         {
           "item": "0",
           "text": "Hier finden Sie nun das Ergebnis des Glückrads. Bitte füllen Sie nun aus welchen Buchstaben Sie, wie zuvor besprochen, im Kopf gewählt haben. Ihre mögliche Auszahlung wird dann vom Computer automatisch und anonym berechnet.\n\nBuchstabe Glücksrad: [CM39011]",
+          "scale": "str",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
+          "scale": "str",
           "sn": 1,
           "number": ""
         },
         {
           "item": "2",
+          "scale": "int",
           "sn": 2,
           "number": ""
         }
@@ -2112,6 +2180,7 @@
           "item": "0",
           "text": "Wie zufrieden oder unzufrieden sind Sie - alles in allem - mit der Demokratie, so wie sie in Deutschland besteht?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2160,6 +2229,7 @@
           "item": "0",
           "text": "Was glauben Sie, wie wird Ihre eigene wirtschaftliche Lage in einem Jahr sein?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2208,102 +2278,119 @@
           "item": "0",
           "text": "Was bedeutet die Europäische Union für Sie persönlich?",
           "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Frieden",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "2",
           "text": "wirtschaftlicher Wohlstand",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "3",
           "text": "Demokratie",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "4",
           "text": "soziale Sicherheit",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "5",
           "text": "Die Freiheit in alle EU-Länder zu reisen, dort zu studieren und zu arbeiten",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "6",
           "text": "kulturelle Vielfalt",
+          "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "7",
           "text": "Mehr Einfluss in der Welt",
+          "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "8",
           "text": "der Euro",
+          "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "9",
           "text": "Arbeitslosigkeit",
+          "scale": "bin",
           "sn": 9,
           "number": ""
         },
         {
           "item": "10",
           "text": "Bürokratie",
+          "scale": "bin",
           "sn": 10,
           "number": ""
         },
         {
           "item": "11",
           "text": "Geldverschwendung",
+          "scale": "bin",
           "sn": 11,
           "number": ""
         },
         {
           "item": "12",
           "text": "Verlust unserer kulturellen Identität",
+          "scale": "bin",
           "sn": 12,
           "number": ""
         },
         {
           "item": "13",
           "text": "mehr Kriminalität",
+          "scale": "bin",
           "sn": 13,
           "number": ""
         },
         {
           "item": "14",
           "text": "Nicht genug Kontrolle über die Außengrenze der EU",
+          "scale": "bin",
           "sn": 14,
           "number": ""
         },
         {
           "item": "15",
           "text": "Etwas andres und zwar: Bitte tragen Sie hier ein, was die EU für Sie persönlich bedeutet",
+          "scale": "str",
           "sn": 15,
           "number": ""
         },
         {
           "item": "16",
           "text": "weiß nicht",
+          "scale": "bin",
           "sn": 16,
           "number": ""
         }
@@ -2322,6 +2409,7 @@
           "item": "0",
           "text": "Für wie wahrscheinlich oder unwahrscheinlich halten Sie es, dass sich innerhalb der nächsten fünf Jahre mindestens ein Land außer dem Vereinigten Königreich dazu entscheidet, die Europäische Union zu verlassen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2370,6 +2458,7 @@
           "item": "0",
           "text": "Nehmen Sie an, eine Abstimmung über die Mitgliedschaft Deutschlands in der Europäischen Union würde am kommenden Sonntag stattfinden. Wie würden Sie abstimmen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2413,6 +2502,7 @@
         {
           "item": "0",
           "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?\n\ninteressant",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2448,6 +2538,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?\n\nabwechslungsreich",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2483,6 +2574,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?\n\nrelevant",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2518,6 +2610,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?\n\nlang",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2553,6 +2646,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?\n\nschwierig",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2588,6 +2682,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?\n\nzu persönlich",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2623,6 +2718,7 @@
         {
           "item": "0",
           "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2662,6 +2758,7 @@
         {
           "item": "0",
           "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+          "scale": "str",
           "sn": 0,
           "number": ""
         }
@@ -2679,6 +2776,7 @@
         {
           "item": "0",
           "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\n\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\n\nBitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.\n\nIhr Forschungsteam von der Universität Mannheim",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         }

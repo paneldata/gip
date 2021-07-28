@@ -15,6 +15,7 @@
         {
           "item": "0",
           "text": "Herzlich Willkommen zu dieser Umfrage!\n\nWie bereits der Titel unserer Studie „Gesellschaft im Wandel“ sagt, möchten wir auch erforschen, welche Veränderungen und Entwicklungen sich bei den Studienteilnehmerinnen und Studienteilnehmern im Laufe der Zeit ergeben.\n\n[Wenn sample = 1,2: Daher bitten wir Sie diesen Monat, einige Fragen aus dem vergangenen Jahr erneut zu beantworten.]\n\n[Wenn sample = 3: Daher stellen wir Ihnen diesen Monat einige Fragen, die in unserer Studie jährlich wiederholt werden.]\n\nDie Teilnahme dauert insgesamt ungefähr 10 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\n\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz).\n\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\n\nIhr Forschungsteam der Universität Mannheim",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         }
@@ -32,12 +33,14 @@
         {
           "item": "0",
           "text": "Bitte überprüfen Sie, ob folgende Angaben korrekt sind.",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Vorname:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -54,6 +57,7 @@
         {
           "item": "2",
           "text": "Nachname:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -70,6 +74,7 @@
         {
           "item": "3",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -86,6 +91,7 @@
         {
           "item": "4",
           "text": "Geburtsjahr:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -113,24 +119,28 @@
         {
           "item": "0",
           "text": "Bitte korrigieren Sie folgende Angaben.",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Vorname: bisherige Angabe [Vorname]",
+          "scale": "str",
           "sn": 1,
           "number": ""
         },
         {
           "item": "2",
           "text": "Nachname: bisherige Angabe [Nachname]",
+          "scale": "str",
           "sn": 2,
           "number": ""
         },
         {
           "item": "3",
           "text": "Geschlecht: bisherige Angabe [Geschlecht]\nkorrigierte Angabe",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -151,12 +161,14 @@
         {
           "item": "4",
           "text": "Geburtsjahr: bisherige Angabe [Geburtsjahr]",
+          "scale": "int",
           "sn": 4,
           "number": ""
         },
         {
           "item": "5",
           "text": "Falls Sie Anmerkungen haben, tragen Sie diese bitte hier ein:",
+          "scale": "str",
           "sn": 5,
           "number": ""
         }
@@ -174,6 +186,7 @@
         {
           "item": "0",
           "text": "Bitte überprüfen Sie, ob die angegebene Mobilfunknummer (Handy) korrekt ist.\nMobilfunknummer: [Mobilfunknummer]",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -201,6 +214,7 @@
         {
           "item": "0",
           "text": "Bitte korrigieren Sie die folgende Mobilfunknummer.\n\nMobilfunknummer: bisherige Mobilfunknummer\n[Mobilfunknummer]",
+          "scale": "int",
           "sn": 0,
           "number": ""
         }
@@ -218,6 +232,7 @@
         {
           "item": "0",
           "text": "Nennen Sie uns bitte eine Mobilfunknummer (Handy), unter der wir Sie im Rahmen der Studie erreichen können, z. B. wenn Ihr E-Mail-Konto einmal voll sein sollte oder aus anderen Gründen nicht erreichbar ist.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -253,6 +268,7 @@
         {
           "item": "0",
           "text": "Bitte überprüfen Sie, ob die angegebene Telefonnummer korrekt ist.\nTelefonnummer: [Telefonnummer]",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -280,6 +296,7 @@
         {
           "item": "0",
           "text": "Bitte korrigieren Sie die folgende Telefonnummer. \nTelefonnummer: bisherige Telefonnummer\n[Telefonnummer]",
+          "scale": "int",
           "sn": 0,
           "number": ""
         }
@@ -298,6 +315,7 @@
           "item": "0",
           "text": "Falls Sie auch eine Telefonnummer im Festnetz haben, tragen Sie diese bitte hier ein (mit Vorwahl).",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -333,6 +351,7 @@
         {
           "item": "0",
           "text": "Haben Sie die deutsche Staatsangehörigkeit?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -364,84 +383,98 @@
         {
           "item": "0",
           "text": "Welche ausländische/-n Staatsangehörigkeit/-en besitzen Sie?",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Türkei",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "2",
           "text": "Polen",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "3",
           "text": "Syrien",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "4",
           "text": "Italien",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "5",
           "text": "Rumänien",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "6",
           "text": "Kroatien",
+          "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "7",
           "text": "Griechenland",
+          "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "8",
           "text": "Bulgarien",
+          "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "9",
           "text": "Afghanistan",
+          "scale": "bin",
           "sn": 9,
           "number": ""
         },
         {
           "item": "10",
           "text": "Russische Föderation",
+          "scale": "bin",
           "sn": 10,
           "number": ""
         },
         {
           "item": "11",
           "text": "Irak",
+          "scale": "bin",
           "sn": 11,
           "number": ""
         },
         {
           "item": "12",
           "text": "Anderes Land, und zwar:",
+          "scale": "str",
           "sn": 12,
           "number": ""
         },
         {
           "item": "13",
           "text": "Keine, bin staatenlos",
+          "scale": "bin",
           "sn": 13,
           "number": ""
         }
@@ -460,6 +493,7 @@
           "item": "0",
           "text": "Welchen Familienstand haben Sie?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -516,6 +550,7 @@
           "item": "0",
           "text": "Wie viele Personen leben ständig in Ihrem Haushalt, Sie selbst eingeschlossen?\n      \nZu Ihrem Haushalt zählen alle Personen, die hier gemeinsam wohnen und wirtschaften.\nDenken Sie dabei bitte auch an alle im Haushalt lebenden Kinder.",
           "instruction": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "scale": "int",
           "sn": 0,
           "number": ""
         }
@@ -533,12 +568,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n1. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -587,6 +624,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -607,6 +645,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -674,12 +713,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n2. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -728,6 +769,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -748,6 +790,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -815,12 +858,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n3. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -869,6 +914,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -889,6 +935,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -956,12 +1003,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n4. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1010,6 +1059,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1030,6 +1080,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1097,12 +1148,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n5. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1151,6 +1204,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1171,6 +1225,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1238,12 +1293,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n6. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1292,6 +1349,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1312,6 +1370,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1379,12 +1438,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n7. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1433,6 +1494,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1453,6 +1515,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1520,12 +1583,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n8. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1574,6 +1639,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1594,6 +1660,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1661,12 +1728,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n9. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1715,6 +1784,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1735,6 +1805,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1802,12 +1873,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n10. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1856,6 +1929,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1876,6 +1950,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1943,12 +2018,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n11. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1997,6 +2074,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2017,6 +2095,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2084,12 +2163,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n12. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2138,6 +2219,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2158,6 +2240,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2225,12 +2308,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n13. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2279,6 +2364,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2299,6 +2385,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2366,12 +2453,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n14. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2420,6 +2509,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2440,6 +2530,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2507,12 +2598,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n15. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2561,6 +2654,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2581,6 +2675,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2648,12 +2743,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n16. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2702,6 +2799,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2722,6 +2820,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2789,12 +2888,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n17. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2843,6 +2944,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2863,6 +2965,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2930,12 +3033,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n18. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2984,6 +3089,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3004,6 +3110,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3071,12 +3178,14 @@
         {
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n19. Person",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Alter:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3125,6 +3234,7 @@
         {
           "item": "2",
           "text": "Geschlecht:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3145,6 +3255,7 @@
         {
           "item": "3",
           "text": "Diese Person ist mein(e)/ein(e)...",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3213,6 +3324,7 @@
           "item": "0",
           "text": "In welchem Bundesland haben Sie Ihren Hauptwohnsitz?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3297,6 +3409,7 @@
           "item": "0",
           "text": "Welches ist Ihr höchster allgemeinbildender Schulabschluss?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3345,6 +3458,7 @@
           "item": "0",
           "text": "Welchen höchsten beruflichen Ausbildungs- oder (Fach-)Hochschulabschluss haben Sie?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3412,108 +3526,126 @@
         {
           "item": "0",
           "text": "Im Folgenden sehen Sie eine Liste mit (beruflichen) Tätigkeiten. Bitte geben Sie alle an, die aktuell auf Sie zutreffen.",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Vollzeiterwerbstätig",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "2",
           "text": "Teilzeiterwerbstätig",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "3",
           "text": "Altersteilzeit (unabhängig davon, ob in der Arbeits- oder Freistellungsphase befindlich)",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "4",
           "text": "Geringfügig erwerbstätig, 450-Euro-Job, Minijob",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "5",
           "text": "„Ein-Euro-Job“ (bei Bezug von Arbeitslosengeld II)",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "6",
           "text": "Gelegentlich oder unregelmäßig beschäftigt",
+          "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "7",
           "text": "In einer beruflichen Ausbildung/Lehre",
+          "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "8",
           "text": "In Umschulung",
+          "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "9",
           "text": "Freiwilliger Wehrdienst, Bundesfreiwilligendienst",
+          "scale": "bin",
           "sn": 9,
           "number": ""
         },
         {
           "item": "10",
           "text": "Freiwilliges Soziales/Ökologisches/Kulturelles Jahr",
+          "scale": "bin",
           "sn": 10,
           "number": ""
         },
         {
           "item": "11",
           "text": "Mutterschafts-, Erziehungsurlaub, Elternzeit oder sonstige Beurlaubung (Altersteilzeit oben angegeben)",
+          "scale": "bin",
           "sn": 11,
           "number": ""
         },
         {
           "item": "12",
           "text": "Schüler/-in an einer allgemeinbildenden Schule",
+          "scale": "bin",
           "sn": 12,
           "number": ""
         },
         {
           "item": "13",
           "text": "Student/-in",
+          "scale": "bin",
           "sn": 13,
           "number": ""
         },
         {
           "item": "14",
           "text": "Rentner/-in, Pensionär/-in, im Vorruhestand",
+          "scale": "bin",
           "sn": 14,
           "number": ""
         },
         {
           "item": "15",
           "text": "Arbeitslos",
+          "scale": "bin",
           "sn": 15,
           "number": ""
         },
         {
           "item": "16",
           "text": "Dauerhaft erwerbsunfähig",
+          "scale": "bin",
           "sn": 16,
           "number": ""
         },
         {
           "item": "17",
           "text": "Hausfrau/Hausmann",
+          "scale": "bin",
           "sn": 17,
           "number": ""
         }
@@ -3532,6 +3664,7 @@
           "item": "0",
           "text": "Und welche der Beschreibungen trifft am besten auf Ihre aktuelle berufliche Situation zu? Was\nwürden Sie als Ihre Haupttätigkeit bezeichnen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3619,6 +3752,7 @@
         {
           "item": "0",
           "text": "Waren Sie früher einmal vollzeit- oder teilzeiterwerbstätig?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3646,6 +3780,7 @@
         {
           "item": "0",
           "text": "Sind Sie in Ihrer bezahlten Tätigkeit … ?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3677,6 +3812,7 @@
         {
           "item": "0",
           "text": "Ist der Arbeitsvertrag Ihres Beschäftigungsverhältnisses … ?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3704,6 +3840,7 @@
         {
           "item": "0",
           "text": "Sind Sie im öffentlichen Dienst beschäftigt?\n      \nZum öffentlichen Dienst gehören: Behörden und Einrichtungen von Gemeinden, Ländern und Bund, zum Beispiel öffentliche Schulen und Universitäten, städtische Krankenhäuser, die Bundesagentur für Arbeit, Sozialversicherungsträger, Polizei oder Bundeswehr.\n      \nNicht zum öffentlichen Dienst gehören Beschäftigte und Beamte in Nachfolgeunternehmen der Deutschen Post, der Bundes- und Reichsbahn sowie Beschäftigte der Kirchen.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3731,6 +3868,7 @@
         {
           "item": "0",
           "text": "Waren Sie in Ihrer letzten bezahlten Tätigkeit … ?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3762,6 +3900,7 @@
         {
           "item": "0",
           "text": "War der Arbeitsvertrag Ihres letzten Beschäftigungsverhältnisses … ?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3789,6 +3928,7 @@
         {
           "item": "0",
           "text": "Waren Sie in Ihrem letzten Beschäftigungsverhältnis im öffentlichen Dienst beschäftigt?\n      \nZum öffentlichen Dienst gehören: Behörden und Einrichtungen von Gemeinden, Ländern und Bund, zum Beispiel öffentliche Schulen und Universitäten, städtische Krankenhäuser, die Bundesagentur für Arbeit, Sozialversicherungsträger, Polizei oder Bundeswehr.\n      \nNicht zum öffentlichen Dienst gehören Beschäftigte und Beamte in Nachfolgeunternehmen der Deutschen Post, der Bundes- und Reichsbahn sowie Beschäftigte der Kirchen.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3816,6 +3956,7 @@
         {
           "item": "0",
           "text": "Können Sie Ihre (letzte) berufliche Tätigkeit einem der folgenden Wirtschaftsbereiche zuordnen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3912,6 +4053,7 @@
           "item": "0",
           "text": "Zu welcher der folgenden Religionen, Glaubensrichtungen oder Weltanschauungen bekennen Sie sich?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3980,6 +4122,7 @@
           "item": "0",
           "text": "Würden Sie von sich sagen, dass Sie eher religiös oder eher nicht religiös sind?\nSie sehen hier eine Skala, die von „nicht religiös“ zu „religiös“ geht. Wo würden Sie Ihre eigenen Ansichten auf dieser Skala einstufen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4032,6 +4175,7 @@
           "item": "0",
           "text": "Nutzen Sie außerhalb der Studie „Gesellschaft im Wandel“ Computer, z. B. bei der Arbeit oder in der Freizeit?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4072,6 +4216,7 @@
           "item": "0",
           "text": "Wie oft nutzen Sie das Internet, das World Wide Web oder E-Mail für private Zwecke,  egal ob zu Hause oder am Arbeitsplatz?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 2,
@@ -4124,6 +4269,7 @@
           "item": "0",
           "text": "Und wie oft am Tag nutzen Sie das Internet, das World Wide Web oder E-Mail für private Zwecke?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4156,6 +4302,7 @@
           "item": "0",
           "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ... \nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.\nmeinem Familienleben",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -4211,6 +4358,7 @@
           "item": "0",
           "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.\nmeiner Freizeit",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -4266,6 +4414,7 @@
           "item": "0",
           "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.\nmeiner finanziellen Situation",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -4321,6 +4470,7 @@
           "item": "0",
           "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.\nmeiner Arbeit",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -4376,6 +4526,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\nSport-, Musik- oder Kulturverein, sonstige Hobbyvereinigung",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4408,6 +4559,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\nMenschenrechts-, Umwelt- oder Tierschutzverein",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4440,6 +4592,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\nWohltätigkeitsverein oder Hilfsorganisation",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4472,6 +4625,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\nReligiöse oder kirchliche Organisation",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4504,6 +4658,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\nJugend-, Eltern- oder Seniorenvereinigung",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4536,6 +4691,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\nBürgerinitiative",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4568,6 +4724,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\nBerufsverband",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4600,6 +4757,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\nGewerkschaft",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4632,6 +4790,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\nPolitische Partei",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4664,6 +4823,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\nSonstige/-r, und zwar: [answer field]",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4696,6 +4856,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\nSonstige/-r, und zwar: [answer field]",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4728,6 +4889,7 @@
           "item": "0",
           "text": "In der Politik reden die Leute häufig von „links“ und „rechts“. Wenn Sie diese Skala hier\nbenutzen, wo würden Sie sich selbst einordnen, wenn 1 „links“ und 11 „rechts“ ist?",
           "instruction": "Bitte geben Sie den Wert an, der auf Sie persönlich zutrifft. ",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4796,6 +4958,7 @@
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen? \nUnion (CDU / CSU)",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4864,6 +5027,7 @@
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?\nSPD",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4932,6 +5096,7 @@
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?\nFDP",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5000,6 +5165,7 @@
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?\nBündnis 90 / Die Grünen",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5068,6 +5234,7 @@
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?\nDie Linke",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5136,6 +5303,7 @@
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5203,6 +5371,7 @@
         {
           "item": "0",
           "text": "Viele Leute in der Bundesrepublik neigen längere Zeit einer bestimmten politischen Partei zu, obwohl sie auch ab und zu mal eine andere Partei wählen. Wie ist das bei Ihnen: Neigen Sie - ganz allgemein gesprochen - einer bestimmten Partei zu?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5230,6 +5399,7 @@
         {
           "item": "0",
           "text": "Bitte geben Sie an, welche Partei das ist.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5285,6 +5455,7 @@
         {
           "item": "0",
           "text": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich mehr oder weniger zutreffen. \n\nBitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch bin eher zurückhaltend, reserviert.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5324,6 +5495,7 @@
         {
           "item": "0",
           "text": "Ich schenke anderen leicht Vertrauen, glaube an das Gute im Menschen.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5363,6 +5535,7 @@
         {
           "item": "0",
           "text": "Ich bin bequem, neige zur Faulheit.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5402,6 +5575,7 @@
         {
           "item": "0",
           "text": "Ich bin entspannt, lasse mich durch Stress nicht aus der Ruhe bringen.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5441,6 +5615,7 @@
         {
           "item": "0",
           "text": "Ich habe nur wenig künstlerisches Interesse.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5480,6 +5655,7 @@
         {
           "item": "0",
           "text": "Ich gehe aus mir heraus, bin gesellig.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5519,6 +5695,7 @@
         {
           "item": "0",
           "text": "Ich neige dazu, andere zu kritisieren.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5558,6 +5735,7 @@
         {
           "item": "0",
           "text": "Ich erledige Aufgaben gründlich.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5597,6 +5775,7 @@
         {
           "item": "0",
           "text": "Ich werde leicht nervös und unsicher.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5636,6 +5815,7 @@
         {
           "item": "0",
           "text": "Ich habe eine aktive Vorstellungskraft, bin fantasievoll.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5675,6 +5855,7 @@
         {
           "item": "0",
           "text": "[wenn AA37057 = 1, -90 (wenn Anzahl der Haushaltsmitglieder gleich 1 oder Befragte/-r diese Frage nicht beantwortet hat): Nun eine Frage zu Ihrer finanziellen Situation.]\n[wenn AA37057 > 1 (wenn Anzahl der Haushaltsmitglieder größer 1): Nun einige Fragen zu Ihrer finanziellen Situation.]",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         }
@@ -5692,6 +5873,7 @@
         {
           "item": "0",
           "text": "Wie hoch ist Ihr eigenes monatliches Netto-Einkommen? \n\nUnter durchschnittlichem monatlichem Nettoeinkommen ist die Summe zu verstehen, die sich aus Lohn, Gehalt, Einkommen aus selbstständiger Tätigkeit, Rente oder Pension ergibt. Rechnen Sie bitte auch die Einkünfte aus öffentlichen Beihilfen, Einkommen aus Vermietung und Verpachtung, Vermögen, Wohngeld, Kindergeld und sonstige Einkünfte hinzu und ziehen Sie dann Steuern und Sozialversicherungsbeiträge ab.\nBei Selbstständigen geht es um die durchschnittlichen Nettobezüge, d. h. abzüglich der Betriebsausgaben und der Steuern.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5779,6 +5961,7 @@
         {
           "item": "0",
           "text": "Wie viele Personen tragen insgesamt zum Einkommen Ihres Haushalts bei?\n\nDenken Sie nicht nur an Arbeitseinkommen, sondern auch an Renten, Pensionen, Stipendien und andere Einkommen.",
+          "scale": "int",
           "sn": 0,
           "number": ""
         }
@@ -5796,6 +5979,7 @@
         {
           "item": "0",
           "text": "Sind Sie die Person, die zum Haushaltseinkommen beiträgt?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5823,6 +6007,7 @@
         {
           "item": "0",
           "text": "Und Ihr Einkommen mit eingerechnet, wie hoch ist das durchschnittliche monatliche Netto-Einkommen Ihres Haushalts insgesamt? \n\nUnter durchschnittlichem monatlichem Nettoeinkommen Ihres Haushalts ist die Summe zu verstehen, die sich aus Lohn, Gehalt, Einkommen aus selbstständiger Tätigkeit, Rente oder Pension ergibt. Rechnen Sie bitte auch die Einkünfte aus öffentlichen Beihilfen, Einkommen aus Vermietung und Verpachtung, Vermögen, Wohngeld, Kindergeld und sonstige Einkünfte hinzu und ziehen Sie dann Steuern und Sozialversicherungsbeiträge ab.\nBei Selbstständigen geht es um die durchschnittlichen Nettobezüge, d. h. abzüglich der Betriebsausgaben und der Steuern.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5911,6 +6096,7 @@
           "item": "0",
           "text": "Falls Sie bei der letzten Bundestagswahl am 24. September 2017 gewählt haben, für welche Partei haben Sie mit Ihrer Zweitstimme gestimmt?\n\nDie Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5982,6 +6168,7 @@
         {
           "item": "0",
           "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?\ninteressant",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6017,6 +6204,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?\nabwechslungsreich",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6052,6 +6240,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?\nrelevant",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6087,6 +6276,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?\nlang",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6122,6 +6312,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?\nschwierig",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6157,6 +6348,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?\nzu persönlich",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6192,6 +6384,7 @@
         {
           "item": "0",
           "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6231,6 +6424,7 @@
         {
           "item": "0",
           "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+          "scale": "str",
           "sn": 0,
           "number": ""
         }
@@ -6248,6 +6442,7 @@
         {
           "item": "0",
           "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\n\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\n\nBitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.\n\nIhr Forschungsteam von der Universität Mannheim",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         }

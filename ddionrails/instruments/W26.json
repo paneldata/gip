@@ -15,6 +15,7 @@
         {
           "item": "0",
           "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \n\nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\n\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\n\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \n\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\n\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\n\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\n\n\nIhr Forschungsteam der Universität Mannheim",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         }
@@ -32,6 +33,7 @@
         {
           "item": "0",
           "text": "Der folgende Teil des Fragebogens befasst sich mit dem Arbeitslosengeld II (ALG II).\n\nAls Beispiel dient eine alleinstehende, in Westdeutschland lebende Person, die seit 3 Jahren\narbeitslos ist (Stand 2013).\n\nEine Person erhält 391 Euro pro Monat als Arbeitslosengeld II (ALG II) plus weitere Leistungen für die Miete. Im Rahmen einer geringfügigen Beschäftigung kann die Person etwas zum ALG II hinzuverdienen. Allerdings kann sie dann nur einen Teil des Hinzuverdienten für sich behalten.\n\nNach der aktuellen Regelung werden zum Beispiel von einem Hinzuverdienst von 600 Euro 400 Euro abgezogen, so dass dann 200 Euro übrig bleiben.\n\nEs wird nun überlegt, diese Regelung zu ändern: Das ALG II würde um [wenn expAB26039 = 1: 117] [wenn expAB26039 = 2: 391] Euro auf [wenn expAB26039 = 1: 274] [wenn expAB26039 = 2: 0] Euro gesenkt. Zugleich können von einem monatlichen Hinzuverdienst von 600 Euro nun [wenn expAB26039 = 1: 240] [wenn expAB26039 = 2: 510] Euro statt bisher 200 Euro behalten werden.\n      \nDie geänderte Regelung bedeutet konkret dies:\n– Wer weniger als [wenn expAB26039=1: 355] [wenn expAB26039=2: 389] Euro hinzuverdient, erhält insgesamt weniger als das bisherige ALG II.\n– Wer genau [wenn expAB26039=1: 355] [wenn expAB26039=2: 389] Euro im Monat hinzuverdient, erhält insgesamt den gleichen Betrag wie aktuell ohne Hinzuverdienst.\n– Wer [wenn expAB26039=1: mehr als 866] [wenn expAB26039=2: genau 1203] Euro hinzuverdient, bekommt insgesamt genauso viel, wie wenn er unter der jetzigen Regelung [wenn expAB26039=1: mehr als 866] [wenn expAB26039=2: genau 1203] Euro hinzuverdient.\n[wenn expAB26039=1: entfällt] [wenn expAB26039=2: – Wer mehr als 1203 Euro hinzuverdient, bekommt insgesamt mehr unter der jetzigen Regelung] – Wer mehr als 1203 Euro hinzuverdient, bekommt insgesamt mehr als unter der jetzigen Regelung.]\nDer Staat soll nach der geänderten Regelung zugleich sicherstellen, dass jeder ALG-II-Empfänger die Möglichkeit erhält, [wenn expAB26039=1: 355] [wenn expAB26039=2: 389] Euro im Monat hinzuverdienen zu können.\n\nWelche der beiden Regelungen finden Sie besser?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -75,6 +77,7 @@
         {
           "item": "0",
           "text": "Glauben Sie, dass die Umsetzung der in der vorigen Frage beschriebenen geänderten Regelung dazu führen würde, dass mehr oder weniger ALG-II-Empfänger einen Arbeitsplatz suchen würden?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -118,12 +121,14 @@
         {
           "item": "0",
           "text": "Welchen Einfluss hätte die geänderte Regelung Ihrer Meinung nach auf die finanzielle Situation von arbeitslosen Personen und Beschäftigten mit niedrigem oder hohem Einkommen?\n\nWürde die finanzielle Situation für die einzelnen Gruppen [wenn rndAB26067 = 1: besser oder schlechter] [wenn rndAB26067 = 2: schlechter oder besser] werden?",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "arbeitslose Personen",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -156,6 +161,7 @@
         {
           "item": "2",
           "text": "Beschäftigte mit niedrigem Einkommen",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -188,6 +194,7 @@
         {
           "item": "3",
           "text": "Beschäftigte mit hohem Einkommen",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -231,6 +238,7 @@
         {
           "item": "0",
           "text": "Glauben Sie, dass diese geänderte Regelung Ihr eigenes Einkommen beeinflussen würde, weil mehr ALG-II-Empfänger einen Arbeitsplatz suchen und deshalb mit Ihnen um einen Arbeitsplatz konkurrieren?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -275,6 +283,7 @@
           "item": "0",
           "text": "Stellen Sie sich vor, Arbeitgeber und Gewerkschaften einigten sich, alle Löhne in Deutschland um 3 Prozent zu senken.\n\nWas schätzen Sie? Würde sich die Nachfrage nach Arbeitskräften verändern, wenn die Löhne um 3 Prozent gesenkt werden, und wenn ja, um wie viel?",
           "instruction": "Tragen Sie eine Zahl größer als 0 ein, wenn Sie denken, die Nachfrage würde steigen und eine Zahl kleiner als 0, wenn Sie denken, die Nachfrage würde sich verringern.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -311,6 +320,7 @@
           "item": "0",
           "text": "Unter Umständen könnte eine geänderte Regelung Ihren Lebensstandard beeinflussen.\n\nWelche monatliche Zahlung wäre gerade ausreichend, um Ihren Lebensstandard bei Durchführung der geänderten Regelung aufrecht zu erhalten?",
           "instruction": "Unten können Sie jede beliebige ganze Zahl eintragen. Tragen Sie eine positive Zahl ein, wenn Ihr Lebensstandard sinken würde und Sie somit eine positive Ausgleichszahlung bräuchten. Tragen Sie eine negative Zahl ein, wenn Ihr Lebensstandard steigen würde und Sie somit also bereit wären, selbst eine Ausgleichszahlung zu leisten.",
+          "scale": "int",
           "sn": 0,
           "number": ""
         }
@@ -329,6 +339,7 @@
           "item": "0",
           "text": "In diesem Fragebogenteil möchten wir gerne Ihre Meinung zu aktuellen politischen Fragen wissen: \n\nWie unzufrieden oder zufrieden sind Sie mit den Leistungen der Bundesregierung?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -397,6 +408,7 @@
           "item": "0",
           "text": "In diesem Fragebogenteil möchten wir gerne Ihre Meinung zu aktuellen politischen Fragen wissen: \n\nWie unzufrieden oder zufrieden sind Sie mit den Leistungen der Bundesregierung?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -464,12 +476,14 @@
         {
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der Parteien im Bundestag?",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "CDU/CSU (Christlich Demokratische Union Deutschlands/Christlich-Soziale Union)",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -526,6 +540,7 @@
         {
           "item": "2",
           "text": "SPD (Sozialdemokratische Partei Deutschlands)",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -582,6 +597,7 @@
         {
           "item": "3",
           "text": "Bündnis 90/Die Grünen",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -638,6 +654,7 @@
         {
           "item": "4",
           "text": "Die Linke",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -706,6 +723,7 @@
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der Parteien im Bundestag? \n\nCDU/CSU (Christlich Demokratische Union Deutschlands/Christlich-Soziale Union)",
           "instruction": "Bitte wählen Sie eine Antwort für jede Partei aus:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -774,6 +792,7 @@
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der Parteien im Bundestag? \n\nSPD (Sozialdemokratische Partei Deutschlands)",
           "instruction": "Bitte wählen Sie eine Antwort für jede Partei aus:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -842,6 +861,7 @@
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der Parteien im Bundestag? \n\nBündnis 90/Die Grünen",
           "instruction": "Bitte wählen Sie eine Antwort für jede Partei aus:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -910,6 +930,7 @@
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der Parteien im Bundestag? \n\nDie Linke",
           "instruction": "Bitte wählen Sie eine Antwort für jede Partei aus:",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -977,6 +998,7 @@
         {
           "item": "0",
           "text": "Innerhalb einer Bundesregierung werden manchmal verschiedene Standpunkte vertreten. \n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie die Bundesregierung als zerstritten oder als geschlossen wahr?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1044,6 +1066,7 @@
         {
           "item": "0",
           "text": "Innerhalb einer Bundesregierung werden manchmal verschiedene Standpunkte vertreten. \n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie die Bundesregierung als zerstritten oder als geschlossen wahr?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1111,6 +1134,7 @@
         {
           "item": "0",
           "text": "Innerhalb einer Bundesregierung werden manchmal verschiedene Standpunkte vertreten. \n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie die Partei CDU (Christlich Demokratische Union Deutschlands) als zerstritten oder als geschlossen wahr?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1178,6 +1202,7 @@
         {
           "item": "0",
           "text": "Innerhalb einer Bundesregierung werden manchmal verschiedene Standpunkte vertreten. \n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie die Partei CDU (Christlich Demokratische Union Deutschlands) als zerstritten oder als geschlossen wahr?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1245,6 +1270,7 @@
         {
           "item": "0",
           "text": "Wie stark interessieren Sie sich im Allgemeinen für Politik?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1312,6 +1338,7 @@
         {
           "item": "0",
           "text": "Wie stark interessieren Sie sich im Allgemeinen für Politik?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1379,6 +1406,7 @@
         {
           "item": "0",
           "text": "Wie viel Einfluss hat, Ihrer Meinung nach, Bundeskanzlerin Angela Merkel auf den Gesetzgebungsprozess im aktuellen Deutschen Bundestag?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1446,6 +1474,7 @@
         {
           "item": "0",
           "text": "Wie viel Einfluss hat, Ihrer Meinung nach, Bundeskanzlerin Angela Merkel auf den Gesetzgebungsprozess im aktuellen Deutschen Bundestag?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1513,6 +1542,7 @@
         {
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit der Leistung von Angela Merkel als Bundeskanzlerin?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1580,6 +1610,7 @@
         {
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit der Leistung von Angela Merkel als Bundeskanzlerin?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1647,6 +1678,7 @@
         {
           "item": "0",
           "text": "Für wie kompetent halten Sie Bundeskanzlerin Angela Merkel, die in Deutschland anstehenden Probleme zu lösen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1714,6 +1746,7 @@
         {
           "item": "0",
           "text": "Für wie kompetent halten Sie Bundeskanzlerin Angela Merkel, die in Deutschland anstehenden Probleme zu lösen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1782,6 +1815,7 @@
           "item": "0",
           "text": "In diesem Fragebogenteil möchten wir gerne Ihre Meinung zu aktuellen politischen Fragen [preCE26235_1] wissen, da Sie in einem früheren Fragebogen angegeben haben, dort Ihren Hauptwohnsitz zu haben. Wenn am nächsten Sonntag [preCE26235_2]?",
           "instruction": "[wenn preCE26235 = 1, 5, 6, 12:]\n[wenn preCE26235 = 2, 3, 4, 8, 9, 10, 14, 15: Die Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.]\n[wenn preCE26235 = 7: Die Zweitstimme ist die Stimme, mit der Sie eine Partei wählen. Sie wird bei Landtagswahlen in Hessen auch Landesstimme genannt.]\n[wenn preCE26235 = 11: Die Zweitstimme ist die Stimme, mit der Sie eine Partei wählen. Sie wird bei Landtagswahlen in Rheinland-Pfalz auch Landesstimme genannt.]\n[wenn preCE26235 = 13: Die Zweitstimme ist die Stimme, mit der Sie eine Partei wählen. Sie wird bei Landtagswahlen in Sachsen auch Listenstimme genannt.]\n[wenn preCE26235 = 16: Die Zweitstimme ist die Stimme, mit der Sie eine Partei wählen. Sie wird bei Landtagswahlen in Thüringen auch Landesstimme genannt.]\n",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -1881,6 +1915,7 @@
         {
           "item": "0",
           "text": "Innerhalb einer Landesregierung werden manchmal verschiedene Standpunkte vertreten. [preCE26236_1]\n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie [preCE26236_2] als zerstritten oder als geschlossen wahr?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1948,6 +1983,7 @@
         {
           "item": "0",
           "text": "Innerhalb einer Landesregierung werden manchmal verschiedene Standpunkte vertreten. [preCE26236_1]\n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie [preCE26236_2] als zerstritten oder als geschlossen wahr?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2015,6 +2051,7 @@
         {
           "item": "0",
           "text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.\n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie die Partei [preCE26237] als zerstritten oder geschlossen wahr?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2082,6 +2119,7 @@
         {
           "item": "0",
           "text": "Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.\n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie die Partei [preCE26237] als zerstritten oder geschlossen wahr?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2149,6 +2187,7 @@
         {
           "item": "0",
           "text": "Wie viel Einfluss hat, Ihrer Meinung nach, [preCE26238]?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2216,6 +2255,7 @@
         {
           "item": "0",
           "text": "Wie viel Einfluss hat, Ihrer Meinung nach, [preCE26238]?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2283,6 +2323,7 @@
         {
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit der Leistung von [preCE26239]?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2350,6 +2391,7 @@
         {
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit der Leistung von [preCE26239]?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2417,6 +2459,7 @@
         {
           "item": "0",
           "text": "Für wie kompetent halten Sie [preCE26240] anstehenden Probleme zu lösen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2484,6 +2527,7 @@
         {
           "item": "0",
           "text": "Für wie kompetent halten Sie [preCE26240] anstehenden Probleme zu lösen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2551,6 +2595,7 @@
         {
           "item": "0",
           "text": "Nun zu einem anderen Thema.\n\nIn den vergangenen Jahren gab es eine Reihe von Amokläufen im In- und Ausland. \nStellen Sie sich folgende Situation vor: \nDie Politik erlässt ein Schulsicherheitsgesetz. Schulen müssen nun private Sicherheitsunternehmen anstellen. Die Sicherheitskräfte dürfen Schusswaffen offen tragen. Die Sicherheitskräfte dürfen regelmäßig und ohne Verdacht die Schultaschen von Schülerinnen und Schülern durchsuchen. Das Gesetz soll einerseits zur Sicherheit an Schulen beitragen, beschränkt aber andererseits die Freiheit der Schülerinnen und Schüler.\n[wenn expAK26001_1 = 1: ]\n[wenn expAK26001_1 = 2: Dem Bundesverfassungsgericht liegt das Gesetz vor. Die Richterinnen und Richter befürworten das Gesetz.]\n[wenn expAK26001_1 = 3: Dem Bundesverfassungsgericht liegt das Gesetz vor. Die Richterinnen und Richter lehnen das Gesetz ab.]\n[wenn expAK26001_1 = 4: Der Kultusministerkonferenz liegt das Gesetz vor. Sie befürwortet das Gesetz.]\n[wenn expAK26001_1 = 5: Der Kultusministerkonferenz liegt das Gesetz vor. Sie lehnt das Gesetz ab.]\n\nWürden Sie ein solches Schulsicherheitsgesetz eher ablehnen oder eher befürworten?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2594,6 +2639,7 @@
         {
           "item": "0",
           "text": "Nun zu einem anderen Thema.\n\nIn den vergangenen Jahren gab es eine Reihe von Amokläufen im In- und Ausland. \nStellen Sie sich folgende Situation vor: \nDie Politik erlässt ein Schulsicherheitsgesetz. Schulen müssen nun private Sicherheitsunternehmen anstellen. Die Sicherheitskräfte dürfen Schusswaffen offen tragen. Die Sicherheitskräfte dürfen regelmäßig und ohne Verdacht die Schultaschen von Schülerinnen und Schülern durchsuchen. Das Gesetz soll einerseits zur Sicherheit an Schulen beitragen, beschränkt aber andererseits die Freiheit der Schülerinnen und Schüler.\n[wenn expAK26001_1 = 1: ]\n[wenn expAK26001_1 = 2: Dem Bundesverfassungsgericht liegt das Gesetz vor. Die Richterinnen und Richter befürworten das Gesetz.]\n[wenn expAK26001_1 = 3: Dem Bundesverfassungsgericht liegt das Gesetz vor. Die Richterinnen und Richter lehnen das Gesetz ab.]\n[wenn expAK26001_1 = 4: Der Kultusministerkonferenz liegt das Gesetz vor. Sie befürwortet das Gesetz.]\n[wenn expAK26001_1 = 5: Der Kultusministerkonferenz liegt das Gesetz vor. Sie lehnt das Gesetz ab.]\n\nWürden Sie ein solches Schulsicherheitsgesetz eher ablehnen oder eher befürworten?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2637,6 +2683,7 @@
         {
           "item": "0",
           "text": "Das Bundesverfassungsgericht ist das einzige Gericht in Deutschland, das beschlossene Gesetze prüfen und nachträglich ablehnen kann. Die vom Verfassungsgericht abgelehnten Gesetze dürfen dann nicht mehr angewendet werden.\n\nAngenommen, für das Amt eines/-r Bundesverfassungsrichters/-in gibt es die beiden folgenden Kandidat/-innen. Bitte lesen Sie die Beschreibung der möglichen Kandidaten/-innen für das Richteramt gewissenhaft durch. Anschließend geben Sie bitte an, welche/-n der beiden Kandidaten/-innen Sie persönlich als Bundesverfassungsrichter/-in bevorzugen. Dabei gibt es keine falsche Antwort, es geht ausschließlich um Ihre persönliche Wahl.\n\nKandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S1_beruf1; S1_beruf2\nNähe zu einer Partei: S1_partei1; S1_partei2\nAusgewählt durch: S1_wahl1; S1_wahl2\nAlter: S1_age1; S1_age2\nHerkunft: S1_herkunft1; S1_herkunft2\nGeschlecht: S1_gender1; S1_gender2\nFamilienstand: S1_fam1; S1_fam2\n\nWenn Sie zwischen Kandidat/-in 1 und Kandidat/-in 2 wählen müssten, welche/-n der beiden würden Sie eher bevorzugen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2664,12 +2711,14 @@
         {
           "item": "0",
           "text": "Kandidat/-in; 1 Kandidat/-in 2\nDerzeitiger Beruf: S*_beruf1; S*_beruf2\nNähe zu einer Partei: S*_partei1; S*_partei2\nAusgewählt durch: S*_wahl1; S*_wahl2\nAlter: S*_age1; S*_age2\nHerkunft: S*_herkunft1; S*_herkunft2\nGeschlecht: S*_gender1; S*_gender2\nFamilienstand: S*_fam1; S*_fam2",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 1 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -2722,6 +2771,7 @@
         {
           "item": "2",
           "text": "Und wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 2 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -2785,12 +2835,14 @@
         {
           "item": "0",
           "text": "Kandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S1_beruf1; S1_beruf2\nNähe zu einer Partei: S1_partei1; S1_partei2\nAusgewählt durch: S1_wahl1; S1_wahl2\nAlter: S1_age1; S1_age2\nHerkunft: S1_herkunft1; S1_herkunft2\nGeschlecht: S1_gender1; S1_gender2\nFamilienstand: S1_fam1; S1_fam2",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 1 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -2843,6 +2895,7 @@
         {
           "item": "2",
           "text": "Und wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 2 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -2906,6 +2959,7 @@
         {
           "item": "0",
           "text": "Angenommen, für das Amt eines/-r Bundesverfassungsrichters/-in gibt es die beiden folgenden Kandidat/-innen. Bitte lesen Sie die Beschreibung der möglichen Kandidaten/-innen für das Richteramt gewissenhaft durch. Anschließend geben Sie bitte an, welche/-n der beiden Kandidaten/-innen Sie persönlich als Bundesverfassungsrichter/-in bevorzugen. Dabei gibt es keine falsche Antwort, es geht ausschließlich um Ihre persönliche Wahl.\n\nKandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S2_beruf1; S2_beruf2\nNähe zu einer Partei: S2_partei1; S2_partei2\nAusgewählt durch: S2_wahl1; S2_wahl2\nAlter: S2_age1; S2_age2\nHerkunft: S2_herkunft1; S2_herkunft2\nGeschlecht: S2_gender1; S2_gender2\nFamilienstand: S2_fam1; S2_fam2\n \nWenn Sie zwischen Kandidat/-in 1 und Kandidat/-in 2 wählen müssten, welche/-n der beiden würden Sie eher bevorzugen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2933,12 +2987,14 @@
         {
           "item": "0",
           "text": "Kandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S2_beruf1; S2_beruf2\nNähe zu einer Partei: S2_partei1; S2_partei2\nAusgewählt durch: S2_wahl1; S2_wahl2\nAlter: S2_age1; S2_age2\nHerkunft: S2_herkunft1; S2_herkunft2\nGeschlecht: S2_gender1; S2_gender2\nFamilienstand: S2_fam1; S2_fam2",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 1 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -2991,6 +3047,7 @@
         {
           "item": "2",
           "text": "Und wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 2 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3054,12 +3111,14 @@
         {
           "item": "0",
           "text": "Kandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S2_beruf1; S2_beruf2\nNähe zu einer Partei: S2_partei1; S2_partei2\nAusgewählt durch: S2_wahl1; S2_wahl2\nAlter: S2_age1; S2_age2\nHerkunft: S2_herkunft1; S2_herkunft2\nGeschlecht: S2_gender1; S2_gender2\nFamilienstand: S2_fam1; S2_fam2",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 1 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3112,6 +3171,7 @@
         {
           "item": "2",
           "text": "Und wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 2 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3175,6 +3235,7 @@
         {
           "item": "0",
           "text": "Angenommen, für das Amt eines/-r Bundesverfassungsrichters/-in gibt es die beiden folgenden Kandidat/-innen. Bitte lesen Sie die Beschreibung der möglichen Kandidaten/-innen für das Richteramt gewissenhaft durch. Anschließend geben Sie bitte an, welche/-n der beiden Kandidaten/-innen Sie persönlich als Bundesverfassungsrichter/-in bevorzugen. Dabei gibt es keine falsche Antwort, es geht ausschließlich um Ihre persönliche Wahl.\n\nKandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S3_beruf1; S3_beruf2\nNähe zu einer Partei: S3_partei1; S3_partei2\nAusgewählt durch: S3_wahl1; S3_wahl2\nAlter: S3_age1; S3_age2\nHerkunft: S3_herkunft1; S3_herkunft2\nGeschlecht: S3_gender1; S3_gender2\nFamilienstand: S3_fam1; S3_fam2\n\nWenn Sie zwischen Kandidat/-in 1 und Kandidat/-in 2 wählen müssten, welche/-n der beiden würden Sie eher bevorzugen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3202,12 +3263,14 @@
         {
           "item": "0",
           "text": "Kandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S3_beruf1; S3_beruf2\nNähe zu einer Partei: S3_partei1; S3_partei2\nAusgewählt durch: S3_wahl1; S3_wahl2\nAlter: S3_age1; S3_age2\nHerkunft: S3_herkunft1; S3_herkunft2\nGeschlecht: S3_gender1; S3_gender2\nFamilienstand: S3_fam1; S3_fam2",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 1 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3260,6 +3323,7 @@
         {
           "item": "2",
           "text": "Und wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 2 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3323,12 +3387,14 @@
         {
           "item": "0",
           "text": "Kandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S3_beruf1; S3_beruf2\nNähe zu einer Partei: S3_partei1; S3_partei2\nAusgewählt durch: S3_wahl1; S3_wahl2\nAlter: S3_age1; S3_age2\nHerkunft: S3_herkunft1; S3_herkunft2\nGeschlecht: S3_gender1; S3_gender2\nFamilienstand: S3_fam1; S3_fam2",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 1 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3381,6 +3447,7 @@
         {
           "item": "2",
           "text": "Und wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 2 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3444,6 +3511,7 @@
         {
           "item": "0",
           "text": "Angenommen, für das Amt eines/-r Bundesverfassungsrichters/-in gibt es die beiden folgenden Kandidat/-innen. Bitte lesen Sie die Beschreibung der möglichen Kandidaten/-innen für das Richteramt gewissenhaft durch. Anschließend geben Sie bitte an, welche/-n der beiden Kandidaten/-innen Sie persönlich als Bundesverfassungsrichter/-in bevorzugen. Dabei gibt es keine falsche Antwort, es geht ausschließlich um Ihre persönliche Wahl.\n\nKandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S4_beruf1; S4_beruf2\nNähe zu einer Partei: S4_partei1; S4_partei2\nAusgewählt durch: S4_wahl1; S4_wahl2\nAlter: S4_age1; S4_age2\nHerkunft: S4_herkunft1; S4_herkunft2\nGeschlecht: S4_gender1; S4_gender2\nFamilienstand: S4_fam1; S4_fam2\n \nWenn Sie zwischen Kandidat/-in 1 und Kandidat/-in 2 wählen müssten, welche/-n der beiden würden Sie eher bevorzugen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3471,12 +3539,14 @@
         {
           "item": "0",
           "text": "Kandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S4_beruf1; S4_beruf2\nNähe zu einer Partei: S4_partei1; S4_partei2\nAusgewählt durch: S4_wahl1; S4_wahl2\nAlter: S4_age1; S4_age2\nHerkunft: S4_herkunft1; S4_herkunft2\nGeschlecht: S4_gender1; S4_gender2\nFamilienstand: S4_fam1; S4_fam2",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 1 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3529,6 +3599,7 @@
         {
           "item": "2",
           "text": "Und wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 2 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3592,12 +3663,14 @@
         {
           "item": "0",
           "text": "Kandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S4_beruf1; S4_beruf2\nNähe zu einer Partei: S4_partei1; S4_partei2\nAusgewählt durch: S4_wahl1; S4_wahl2\nAlter: S4_age1; S4_age2\nHerkunft: S4_herkunft1; S4_herkunft2\nGeschlecht: S4_gender1; S4_gender2\nFamilienstand: S4_fam1; S4_fam2",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 1 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3650,6 +3723,7 @@
         {
           "item": "2",
           "text": "Und wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 2 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3713,6 +3787,7 @@
         {
           "item": "0",
           "text": "Angenommen, für das Amt eines/-r Bundesverfassungsrichters/-in gibt es die beiden folgenden Kandidat/-innen. Bitte lesen Sie die Beschreibung der möglichen Kandidaten/-innen für das Richteramt gewissenhaft durch. Anschließend geben Sie bitte an, welche/-n der beiden Kandidaten/-innen Sie persönlich als Bundesverfassungsrichter/-in bevorzugen. Dabei gibt es keine falsche Antwort, es geht ausschließlich um Ihre persönliche Wahl.\n\nKandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S5_beruf1; S5_beruf2\nNähe zu einer Partei: S5_partei1; S5_partei2\nAusgewählt durch: S5_wahl1; S5_wahl2\nAlter: S5_age1; S5_age2\nHerkunft: S5_herkunft1; S5_herkunft2\nGeschlecht: S5_gender1; S5_gender2\nFamilienstand: S5_fam1; S5_fam2\n\nWenn Sie zwischen Kandidat/-in 1 und Kandidat/-in 2 wählen müssten, welche/-n der beiden würden Sie eher bevorzugen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3740,12 +3815,14 @@
         {
           "item": "0",
           "text": "Kandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S5_beruf1; S5_beruf2\nNähe zu einer Partei: S5_partei1; S5_partei2\nAusgewählt durch: S5_wahl1; S5_wahl2\nAlter: S5_age1; S5_age2\nHerkunft: S5_herkunft1; S5_herkunft2\nGeschlecht: S5_gender1; S5_gender2\nFamilienstand: S5_fam1; S5_fam2",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 1 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3798,6 +3875,7 @@
         {
           "item": "2",
           "text": "Und wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 2 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3861,12 +3939,14 @@
         {
           "item": "0",
           "text": "Kandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S5_beruf1; S5_beruf2\nNähe zu einer Partei: S5_partei1; S5_partei2\nAusgewählt durch: S5_wahl1; S5_wahl2\nAlter: S5_age1; S5_age2\nHerkunft: S5_herkunft1; S5_herkunft2\nGeschlecht: S5_gender1; S5_gender2\nFamilienstand: S5_fam1; S5_fam2",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 1 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3919,6 +3999,7 @@
         {
           "item": "2",
           "text": "Und wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 2 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -3982,6 +4063,7 @@
         {
           "item": "0",
           "text": "Angenommen, für das Amt eines/-r Bundesverfassungsrichters/-in gibt es die beiden folgenden Kandidat/-innen. Bitte lesen Sie die Beschreibung der möglichen Kandidaten/-innen für das Richteramt gewissenhaft durch. Anschließend geben Sie bitte an, welche/-n der beiden Kandidaten/-innen Sie persönlich als Bundesverfassungsrichter/-in bevorzugen. Dabei gibt es keine falsche Antwort, es geht ausschließlich um Ihre persönliche Wahl.\n\nKandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S6_beruf1; S6_beruf2\nNähe zu einer Partei: S6_partei1; S6_partei2\nAusgewählt durch: S6_wahl1; S6_wahl2\nAlter: S6_age1; S6_age2\nHerkunft: S6_herkunft1; S6_herkunft2\nGeschlecht: S6_gender1; S6_gender2\nFamilienstand: S6_fam1; S6_fam2\n\nWenn Sie zwischen Kandidat/-in 1 und Kandidat/-in 2 wählen müssten, welche/-n der beiden würden Sie eher bevorzugen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4009,12 +4091,14 @@
         {
           "item": "0",
           "text": "Kandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S6_beruf1; S6_beruf2\nNähe zu einer Partei: S6_partei1; S6_partei2\nAusgewählt durch: S6_wahl1; S6_wahl2\nAlter: S6_age1; S6_age2\nHerkunft: S6_herkunft1; S6_herkunft2\nGeschlecht: S6_gender1; S6_gender2\nFamilienstand: S6_fam1; S6_fam2",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 1 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -4067,6 +4151,7 @@
         {
           "item": "2",
           "text": "Und wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 2 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -4130,12 +4215,14 @@
         {
           "item": "0",
           "text": "Kandidat/-in 1; Kandidat/-in 2\nDerzeitiger Beruf: S6_beruf1; S6_beruf2\nNähe zu einer Partei: S6_partei1; S6_partei2\nAusgewählt durch: S6_wahl1; S6_wahl2\nAlter: S6_age1; S6_age2\nHerkunft: S6_herkunft1; S6_herkunft2\nGeschlecht: S6_gender1; S6_gender2\nFamilienstand: S6_fam1; S6_fam2",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
           "text": "Wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 1 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -4188,6 +4275,7 @@
         {
           "item": "2",
           "text": "Und wie unzufrieden oder zufrieden wären Sie, wenn Kandidat/-in 2 als Bundesverfassungsrichter/-in gewählt würde?",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -4251,6 +4339,7 @@
         {
           "item": "0",
           "text": "Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.\n\nWo ordnen Sie die derzeitige Bundesregierung ein?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4318,6 +4407,7 @@
         {
           "item": "0",
           "text": "Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.\n\nWo ordnen Sie die derzeitige Bundesregierung ein?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4385,6 +4475,7 @@
         {
           "item": "0",
           "text": "Und wo ordnen Sie das Bundesverfassungsgericht ein?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4452,6 +4543,7 @@
         {
           "item": "0",
           "text": "Und wo ordnen Sie das Bundesverfassungsgericht ein?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4519,6 +4611,7 @@
         {
           "item": "0",
           "text": "Und wo würden Sie sich selbst einordnen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4586,6 +4679,7 @@
         {
           "item": "0",
           "text": "Und wo würden Sie sich selbst einordnen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4653,6 +4747,7 @@
         {
           "item": "0",
           "text": "Jetzt haben wir verschiedene Fragen zum Bundesverfassungsgericht. Einige dieser Fragen sind sehr schwer und manche Teilnehmer werden nicht alle diese Fragen beantworten können. Versuchen Sie bitte trotzdem, die Fragen so schnell wie möglich zu beantworten. Falls Sie die korrekte Antwort nicht wissen, klicken Sie auf „weiß nicht“.",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         }
@@ -4670,6 +4765,7 @@
         {
           "item": "0",
           "text": "Wie heißt der derzeit amtierende Präsident des Bundesverfassungsgerichts?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4709,6 +4805,7 @@
         {
           "item": "0",
           "text": "Welche der folgenden Personen ist Richter/-in am Bundesverfassungsgericht?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4748,6 +4845,7 @@
         {
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen? \n\nBitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.\n\nCDU",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4815,6 +4913,7 @@
         {
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen? \n\nBitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.\n\nCSU",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4882,6 +4981,7 @@
         {
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen? \n\nBitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.\n\nSPD",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4949,6 +5049,7 @@
         {
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen? \n\nBitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.\n\nFDP",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5016,6 +5117,7 @@
         {
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen? \n\nBitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.\n\nBündnis 90 / Die Grünen",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5083,6 +5185,7 @@
         {
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen? \n\nBitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.\n\nDie Linke",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5150,6 +5253,7 @@
         {
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen? \n\nBitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.\n\nAlternative für Deutschland",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5218,6 +5322,7 @@
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?",
           "instruction": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
@@ -5225,6 +5330,7 @@
           "item": "1",
           "text": "interessant",
           "instruction": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5250,6 +5356,7 @@
           "item": "2",
           "text": "abwechslungsreich",
           "instruction": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5275,6 +5382,7 @@
           "item": "3",
           "text": "relevant",
           "instruction": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5300,6 +5408,7 @@
           "item": "4",
           "text": "lang",
           "instruction": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5325,6 +5434,7 @@
           "item": "5",
           "text": "schwierig",
           "instruction": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5350,6 +5460,7 @@
           "item": "6",
           "text": "zu persönlich",
           "instruction": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5374,6 +5485,7 @@
         {
           "item": "7",
           "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5402,6 +5514,7 @@
         {
           "item": "8",
           "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+          "scale": "str",
           "sn": 8,
           "number": ""
         }
@@ -5419,6 +5532,7 @@
         {
           "item": "0",
           "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\n\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\n\nBitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.\n\n\nIhr Forschungsteam von der Universität Mannheim",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         }
