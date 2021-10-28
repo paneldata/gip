@@ -333,6 +333,13 @@
           "item": "0",
           "text": "Bitte geben Sie die Art Ihrer Krankenversicherung an.",
           "instruction": "Private Zusatzversicherungen für zusätzliche Leistungen sind nicht gemeint.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "... in einer gesetzlichen Krankenversicherung",
           "scale": "cat",
           "answers": [
             {
@@ -346,7 +353,16 @@
             {
               "value": 3,
               "label": "als Familienangehörige/-r versichert"
-            },
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "… in einer privaten Krankenversicherung",
+          "scale": "cat",
+          "answers": [
             {
               "value": 4,
               "label": "selbst versichert"
@@ -360,7 +376,7 @@
               "label": "nicht krankenversichert"
             }
           ],
-          "sn": 0,
+          "sn": 2,
           "number": ""
         }
       ],
@@ -504,6 +520,7 @@
         {
           "item": "0",
           "text": "Haben Sie im Jahr 2018 Zahlungen aus einer der folgenden Quellen bekommen?",
+          "instruction": "Bitte geben Sie alle zutreffenden Quellen an.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -585,6 +602,7 @@
         {
           "item": "0",
           "text": "Haben Sie im vergangenen Jahr Beiträge zu einer der folgenden Arten der Altersvorsorge geleistet?",
+          "instruction": "Bitte geben Sie alles Zutreffende an.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -871,12 +889,12 @@
     "Page 20": {
       "question": "Page 20",
       "name": "Page 20",
-      "label": "Seit Anfang 2015 gilt ein bundesweiter gesetzlicher Mindestlohn, der seit Anfang 2019 9,19 Euro pro Stunde beträgt. \n  \n Was denken Sie, welche Auswirkungen der Mindestlohn auf die Arbeitslosigkeit in Deutschland hatte?\n\n Die Arbeitslosigkeit ist durch den Mindestlohn…",
+      "label": "Seit Anfang 2015 gilt ein bundesweiter gesetzlicher Mindestlohn, der seit Anfang 2019 9,19 Euro pro Stunde beträgt. \n\nWas denken Sie, welche Auswirkungen der Mindestlohn auf die Arbeitslosigkeit in Deutschland hatte?\n\n Die Arbeitslosigkeit ist durch den Mindestlohn…",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Seit Anfang 2015 gilt ein bundesweiter gesetzlicher Mindestlohn, der seit Anfang 2019 9,19 Euro pro Stunde beträgt. \n  \n Was denken Sie, welche Auswirkungen der Mindestlohn auf die Arbeitslosigkeit in Deutschland hatte?\n\n Die Arbeitslosigkeit ist durch den Mindestlohn…",
+          "text": "Seit Anfang 2015 gilt ein bundesweiter gesetzlicher Mindestlohn, der seit Anfang 2019 9,19 Euro pro Stunde beträgt. \n\nWas denken Sie, welche Auswirkungen der Mindestlohn auf die Arbeitslosigkeit in Deutschland hatte?\n\n Die Arbeitslosigkeit ist durch den Mindestlohn…",
           "scale": "cat",
           "answers": [
             {
@@ -2149,7 +2167,7 @@
         {
           "item": "0",
           "text": "Hier finden Sie nun das Ergebnis des Glückrads. Bitte füllen Sie nun aus welchen Buchstaben Sie, wie zuvor besprochen, im Kopf gewählt haben. Ihre mögliche Auszahlung wird dann vom Computer automatisch und anonym berechnet.\n\nBuchstabe Glücksrad: [CM39011]",
-          "scale": "str",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
@@ -2496,12 +2514,19 @@
     "Page 56": {
       "question": "Page 56",
       "name": "Page 56",
-      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?\n\ninteressant",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat. \n\nFanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?\n\ninteressant",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat. \n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Interessant",
           "scale": "cat",
           "answers": [
             {
@@ -2521,7 +2546,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2532,12 +2557,19 @@
     "Page 57": {
       "question": "Page 57",
       "name": "Page 57",
-      "label": "Fanden Sie den Fragebogen ...?\n\nabwechslungsreich",
+      "label": "Fanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\n\nabwechslungsreich",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "abwechslungsreich",
           "scale": "cat",
           "answers": [
             {
@@ -2557,7 +2589,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2568,12 +2600,19 @@
     "Page 58": {
       "question": "Page 58",
       "name": "Page 58",
-      "label": "Fanden Sie den Fragebogen ...?\n\nrelevant",
+      "label": "Fanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\n\nrelevant",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "relevant",
           "scale": "cat",
           "answers": [
             {
@@ -2593,7 +2632,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2604,12 +2643,19 @@
     "Page 59": {
       "question": "Page 59",
       "name": "Page 59",
-      "label": "Fanden Sie den Fragebogen ...?\n\nlang",
+      "label": "Fanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\n\nlang",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "lang",
           "scale": "cat",
           "answers": [
             {
@@ -2629,7 +2675,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2640,12 +2686,19 @@
     "Page 60": {
       "question": "Page 60",
       "name": "Page 60",
-      "label": "Fanden Sie den Fragebogen ...?\n\nschwierig",
+      "label": "Fanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\n\nschwierig",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "schwierig",
           "scale": "cat",
           "answers": [
             {
@@ -2665,7 +2718,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2676,12 +2729,19 @@
     "Page 61": {
       "question": "Page 61",
       "name": "Page 61",
-      "label": "Fanden Sie den Fragebogen ...?\n\nzu persönlich",
+      "label": "Fanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\n\nzu persönlich",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "zu persönlich",
           "scale": "cat",
           "answers": [
             {
@@ -2701,7 +2761,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],

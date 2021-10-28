@@ -333,6 +333,13 @@
           "item": "0",
           "text": "Bitte geben Sie die Art Ihrer Krankenversicherung an.",
           "instruction": "Private Zusatzversicherungen für zusätzliche Leistungen sind nicht gemeint.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "... in einer gesetzlichen Krankenversicherung",
           "scale": "cat",
           "answers": [
             {
@@ -346,7 +353,16 @@
             {
               "value": 3,
               "label": "als Familienangehörige/-r versichert"
-            },
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "... in einer privaten Krankenversicherung",
+          "scale": "cat",
+          "answers": [
             {
               "value": 4,
               "label": "selbst versichert"
@@ -360,7 +376,7 @@
               "label": "nicht krankenversichert"
             }
           ],
-          "sn": 0,
+          "sn": 2,
           "number": ""
         }
       ],
@@ -657,6 +673,7 @@
         {
           "item": "0",
           "text": "Haben Sie im Jahr 2019 Zahlungen aus einer der folgenden Quellen bekommen?",
+          "instruction": "Bitte geben Sie alle zutreffenden Quellen an.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -738,6 +755,7 @@
         {
           "item": "0",
           "text": "Haben Sie im vergangenen Jahr Beiträge zu einer der folgenden Arten der Altersvorsorge geleistet?",
+          "instruction": "Bitte geben Sie alles Zutreffende an.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -976,12 +994,12 @@
     "Page 21": {
       "question": "Page 21",
       "name": "Page 21",
-      "label": "In einigen Ländern wird momentan über die Einführung eines Grundeinkommens diskutiert. Uns interessiert, ob Sie gegen oder für ein solches Grundeinkommen sind.\n\nZuerst aber ein paar Einzelheiten dazu. Unten sehen Sie die wichtigsten Eigenschaften, wie ein Grundeinkommen gestaltet sein könnte.\n\nWie hoch ist das Grundeinkommen? Wert a1\nWer erhält das Grundeinkommen? Wert a2\nGibt es weitere Bedingungen, um das Grundeinkommen zu erhalten? Wert a3\nWas passiert mit bestehenden Sozialleistungen? Wert a4\nWas ist sonst noch wichtig? Das Grundeinkommen wird über Steuern finanziert.\nAuch wenn man zusätzliches Einkommen aus bezahlter Arbeit hat, bekommt man den vollen Betrag des Grundeinkommens. \n\nWären Sie für oder gegen ein solches Grundeinkommen in Deutschland?",
+      "label": "In einigen Ländern wird momentan über die Einführung eines Grundeinkommens diskutiert. Uns interessiert, ob Sie gegen oder für ein solches Grundeinkommen sind.\n\nZuerst aber ein paar Einzelheiten dazu. Unten sehen Sie die wichtigsten Eigenschaften, wie ein Grundeinkommen gestaltet sein könnte.\n\nWie hoch ist das Grundeinkommen? Wert a1\nWer erhält das Grundeinkommen? Wert a2\nGibt es weitere Bedingungen, um das Grundeinkommen zu erhalten? Wert a3\nWas passiert mit bestehenden Sozialleistungen? Wert a4\nWas ist sonst noch wichtig? Das Grundeinkommen wird über Steuern finanziert. Auch wenn man zusätzliches Einkommen aus bezahlter Arbeit hat, bekommt man den vollen Betrag des Grundeinkommens. \n\nWären Sie für oder gegen ein solches Grundeinkommen in Deutschland?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "In einigen Ländern wird momentan über die Einführung eines Grundeinkommens diskutiert. Uns interessiert, ob Sie gegen oder für ein solches Grundeinkommen sind.\n\nZuerst aber ein paar Einzelheiten dazu. Unten sehen Sie die wichtigsten Eigenschaften, wie ein Grundeinkommen gestaltet sein könnte.\n\nWie hoch ist das Grundeinkommen? Wert a1\nWer erhält das Grundeinkommen? Wert a2\nGibt es weitere Bedingungen, um das Grundeinkommen zu erhalten? Wert a3\nWas passiert mit bestehenden Sozialleistungen? Wert a4\nWas ist sonst noch wichtig? Das Grundeinkommen wird über Steuern finanziert.\nAuch wenn man zusätzliches Einkommen aus bezahlter Arbeit hat, bekommt man den vollen Betrag des Grundeinkommens. \n\nWären Sie für oder gegen ein solches Grundeinkommen in Deutschland?",
+          "text": "In einigen Ländern wird momentan über die Einführung eines Grundeinkommens diskutiert. Uns interessiert, ob Sie gegen oder für ein solches Grundeinkommen sind.\n\nZuerst aber ein paar Einzelheiten dazu. Unten sehen Sie die wichtigsten Eigenschaften, wie ein Grundeinkommen gestaltet sein könnte.\n\nWie hoch ist das Grundeinkommen? Wert a1\nWer erhält das Grundeinkommen? Wert a2\nGibt es weitere Bedingungen, um das Grundeinkommen zu erhalten? Wert a3\nWas passiert mit bestehenden Sozialleistungen? Wert a4\nWas ist sonst noch wichtig? Das Grundeinkommen wird über Steuern finanziert. Auch wenn man zusätzliches Einkommen aus bezahlter Arbeit hat, bekommt man den vollen Betrag des Grundeinkommens. \n\nWären Sie für oder gegen ein solches Grundeinkommen in Deutschland?",
           "scale": "cat",
           "answers": [
             {
@@ -1879,12 +1897,12 @@
     "Page 39": {
       "question": "Page 39",
       "name": "Page 39",
-      "label": "In Deutschland erhalten Väter maximal drei Tage Sonderurlaub bei vollem Lohnausgleich nach Geburt eines Kindes. Anschließend haben sie die Möglichkeit über einen längeren Zeitraum Elterngeld zu beziehen, das etwa 67 Prozent des Netto-Gehaltes vor Geburt des Kindes ersetzt. \n\nWie ist Ihre Meinung zum Thema Vaterschaftsurlaub?",
+      "label": "In Deutschland erhalten Väter maximal drei Tage Sonderurlaub bei vollem Lohnausgleich nach Geburt eines Kindes. Anschließend haben sie die Möglichkeit über einen längeren Zeitraum Elterngeld zu beziehen, das etwa 67 Prozent des Netto-Gehaltes vor Geburt des Kindes ersetzt.\n\nWie ist Ihre Meinung zum Thema Vaterschaftsurlaub?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "In Deutschland erhalten Väter maximal drei Tage Sonderurlaub bei vollem Lohnausgleich nach Geburt eines Kindes. Anschließend haben sie die Möglichkeit über einen längeren Zeitraum Elterngeld zu beziehen, das etwa 67 Prozent des Netto-Gehaltes vor Geburt des Kindes ersetzt. \n\nWie ist Ihre Meinung zum Thema Vaterschaftsurlaub?",
+          "text": "In Deutschland erhalten Väter maximal drei Tage Sonderurlaub bei vollem Lohnausgleich nach Geburt eines Kindes. Anschließend haben sie die Möglichkeit über einen längeren Zeitraum Elterngeld zu beziehen, das etwa 67 Prozent des Netto-Gehaltes vor Geburt des Kindes ersetzt.\n\nWie ist Ihre Meinung zum Thema Vaterschaftsurlaub?",
           "scale": "cat",
           "answers": [
             {
@@ -2001,13 +2019,20 @@
     "Page 42": {
       "question": "Page 42",
       "name": "Page 42",
-      "label": "[Wenn AA45041a10 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\n[Wenn AA45041a10 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]\nCDU/CSU",
+      "label": "[Wenn AA45041a10 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.] [Wenn AA45041a10 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[Wenn AA45041a10 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\n[Wenn AA45041a10 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]\nCDU/CSU",
+          "text": "[Wenn AA45041a10 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.] [Wenn AA45041a10 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]",
           "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "CDU/CSU",
           "scale": "cat",
           "answers": [
             {
@@ -2050,7 +2075,7 @@
               "label": "Weiß nicht"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2061,13 +2086,20 @@
     "Page 43": {
       "question": "Page 43",
       "name": "Page 43",
-      "label": "[Wenn AA45041a3 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\n[Wenn AA45041a3 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]\nSPD",
+      "label": "[Wenn AA45041a3 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.] [Wenn AA45041a3 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[Wenn AA45041a3 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\n[Wenn AA45041a3 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]\nSPD",
+          "text": "[Wenn AA45041a3 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.] [Wenn AA45041a3 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]",
           "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "SPD",
           "scale": "cat",
           "answers": [
             {
@@ -2110,7 +2142,7 @@
               "label": "Weiß nicht"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2121,13 +2153,20 @@
     "Page 44": {
       "question": "Page 44",
       "name": "Page 44",
-      "label": "[Wenn AA45041a4 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\n[Wenn AA45041a4 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]\nFDP",
+      "label": "[Wenn AA45041a4 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.] [Wenn AA45041a4 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[Wenn AA45041a4 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\n[Wenn AA45041a4 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]\nFDP",
+          "text": "[Wenn AA45041a4 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.] [Wenn AA45041a4 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]",
           "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "FDP",
           "scale": "cat",
           "answers": [
             {
@@ -2170,7 +2209,7 @@
               "label": "Weiß nicht"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2181,13 +2220,20 @@
     "Page 45": {
       "question": "Page 45",
       "name": "Page 45",
-      "label": "[Wenn AA45041a5 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\n[Wenn AA45041a5 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]\nBündnis 90/Die Grünen",
+      "label": "[Wenn AA45041a5 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.] [Wenn AA45041a5 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[Wenn AA45041a5 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\n[Wenn AA45041a5 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]\nBündnis 90/Die Grünen",
+          "text": "[Wenn AA45041a5 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.] [Wenn AA45041a5 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]",
           "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Bündnis 90/Die Grünen",
           "scale": "cat",
           "answers": [
             {
@@ -2230,7 +2276,7 @@
               "label": "Weiß nicht"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2241,13 +2287,20 @@
     "Page 46": {
       "question": "Page 46",
       "name": "Page 46",
-      "label": "[Wenn AA45041a6 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\n[Wenn AA45041a6 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]\nDie Linke",
+      "label": "[Wenn AA45041a6 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.] [Wenn AA45041a6 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[Wenn AA45041a6 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\n[Wenn AA45041a6 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]\nDie Linke",
+          "text": "[Wenn AA45041a6 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.] [Wenn AA45041a6 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]",
           "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Die Linke",
           "scale": "cat",
           "answers": [
             {
@@ -2290,7 +2343,7 @@
               "label": "Weiß nicht"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2301,13 +2354,20 @@
     "Page 47": {
       "question": "Page 47",
       "name": "Page 47",
-      "label": "[Wenn AA45041a9 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\n[Wenn AA45041a9 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]\nAfD",
+      "label": "[Wenn AA45041a9 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.] [Wenn AA45041a9 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[Wenn AA45041a9 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\n[Wenn AA45041a9 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]\nAfD",
+          "text": "[Wenn AA45041a9 als Erstes gezeigt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.] [Wenn AA45041a9 nicht als Erstes gezeigt wird: Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?]",
           "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "AfD",
           "scale": "cat",
           "answers": [
             {
@@ -2350,7 +2410,7 @@
               "label": "Weiß nicht"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2481,12 +2541,12 @@
     "Page 50": {
       "question": "Page 50",
       "name": "Page 50",
-      "label": "[wenn expCD45135 = 1: Wo würden Sie die folgende Meinung auf einer Skala von 1 bis 11 einordnen, wenn 1 links und 11 rechts ist?]\n[wenn expCD45135 = 2: Wo würden Sie die folgende Meinung einer Vertreterin der Bundesregierung auf einer Skala von 1 bis 11 einordnen, wenn 1 links und 11 rechts ist?]\n[wenn expCD45135 = 3: Wo würden Sie die folgende Meinung aus einer Entscheidung des Bundesverfassungsgerichts auf einer Skala von 1 bis 11 einordnen, wenn 1 links und 11 rechts ist?]\n\nDeutschland soll sich am Kaufprogramm von Staatsanleihen durch die Europäischen Zentralbank beteiligen. Durch den Kauf von Staatsanleihen leiht die Zentralbank einem verschuldeten Europäischen Mitgliedsland Geld für Investitionen.",
+      "label": "[wenn expCD45135 = 1: Wo würden Sie die folgende Meinung auf einer Skala von 1 bis 11 einordnen, wenn 1 links und 11 rechts ist?] [wenn expCD45135 = 2: Wo würden Sie die folgende Meinung einer Vertreterin der Bundesregierung auf einer Skala von 1 bis 11 einordnen, wenn 1 links und 11 rechts ist?] [wenn expCD45135 = 3: Wo würden Sie die folgende Meinung aus einer Entscheidung des Bundesverfassungsgerichts auf einer Skala von 1 bis 11 einordnen, wenn 1 links und 11 rechts ist?]\n\nDeutschland soll sich am Kaufprogramm von Staatsanleihen durch die Europäischen Zentralbank beteiligen. Durch den Kauf von Staatsanleihen leiht die Zentralbank einem verschuldeten Europäischen Mitgliedsland Geld für Investitionen.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[wenn expCD45135 = 1: Wo würden Sie die folgende Meinung auf einer Skala von 1 bis 11 einordnen, wenn 1 links und 11 rechts ist?]\n[wenn expCD45135 = 2: Wo würden Sie die folgende Meinung einer Vertreterin der Bundesregierung auf einer Skala von 1 bis 11 einordnen, wenn 1 links und 11 rechts ist?]\n[wenn expCD45135 = 3: Wo würden Sie die folgende Meinung aus einer Entscheidung des Bundesverfassungsgerichts auf einer Skala von 1 bis 11 einordnen, wenn 1 links und 11 rechts ist?]\n\nDeutschland soll sich am Kaufprogramm von Staatsanleihen durch die Europäischen Zentralbank beteiligen. Durch den Kauf von Staatsanleihen leiht die Zentralbank einem verschuldeten Europäischen Mitgliedsland Geld für Investitionen.",
+          "text": "[wenn expCD45135 = 1: Wo würden Sie die folgende Meinung auf einer Skala von 1 bis 11 einordnen, wenn 1 links und 11 rechts ist?] [wenn expCD45135 = 2: Wo würden Sie die folgende Meinung einer Vertreterin der Bundesregierung auf einer Skala von 1 bis 11 einordnen, wenn 1 links und 11 rechts ist?] [wenn expCD45135 = 3: Wo würden Sie die folgende Meinung aus einer Entscheidung des Bundesverfassungsgerichts auf einer Skala von 1 bis 11 einordnen, wenn 1 links und 11 rechts ist?]\n\nDeutschland soll sich am Kaufprogramm von Staatsanleihen durch die Europäischen Zentralbank beteiligen. Durch den Kauf von Staatsanleihen leiht die Zentralbank einem verschuldeten Europäischen Mitgliedsland Geld für Investitionen.",
           "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
           "scale": "cat",
           "answers": [
@@ -2541,12 +2601,12 @@
     "Page 51": {
       "question": "Page 51",
       "name": "Page 51",
-      "label": "[wenn expCD45136 = 1: ]\n[wenn expCD45136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu oder lehnen Sie diese ab?\n\nEin heimlich eingeholter Test, mit dem ein Vater die Vaterschaft über sein Kind prüfen möchte, darf nicht vor Gericht verwendet werden.",
+      "label": "[wenn expCD45136 = 1: ] [wenn expCD45136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu oder lehnen Sie diese ab?\n\nEin heimlich eingeholter Test, mit dem ein Vater die Vaterschaft über sein Kind prüfen möchte, darf nicht vor Gericht verwendet werden.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[wenn expCD45136 = 1: ]\n[wenn expCD45136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu oder lehnen Sie diese ab?\n\nEin heimlich eingeholter Test, mit dem ein Vater die Vaterschaft über sein Kind prüfen möchte, darf nicht vor Gericht verwendet werden.",
+          "text": "[wenn expCD45136 = 1: ] [wenn expCD45136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu oder lehnen Sie diese ab?\n\nEin heimlich eingeholter Test, mit dem ein Vater die Vaterschaft über sein Kind prüfen möchte, darf nicht vor Gericht verwendet werden.",
           "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
           "scale": "cat",
           "answers": [
@@ -2570,12 +2630,12 @@
     "Page 52": {
       "question": "Page 52",
       "name": "Page 52",
-      "label": "[wenn expCD45136 = 1: ]\n[wenn expCD45136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu oder lehnen Sie diese ab?\n\nDer Abschuss eines Flugzeuges zur Verhinderung eines Terroranschlags ist nicht gerechtfertigt, wenn dadurch unbeteiligte Passagiere an Bord des Flugzeuges getötet würden. Die unbeteiligten Passagiere haben ein Recht auf Leben.",
+      "label": "[wenn expCD45136 = 1: ] [wenn expCD45136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu oder lehnen Sie diese ab?\n\nDer Abschuss eines Flugzeuges zur Verhinderung eines Terroranschlags ist nicht gerechtfertigt, wenn dadurch unbeteiligte Passagiere an Bord des Flugzeuges getötet würden. Die unbeteiligten Passagiere haben ein Recht auf Leben.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[wenn expCD45136 = 1: ]\n[wenn expCD45136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu oder lehnen Sie diese ab?\n\nDer Abschuss eines Flugzeuges zur Verhinderung eines Terroranschlags ist nicht gerechtfertigt, wenn dadurch unbeteiligte Passagiere an Bord des Flugzeuges getötet würden. Die unbeteiligten Passagiere haben ein Recht auf Leben.",
+          "text": "[wenn expCD45136 = 1: ] [wenn expCD45136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu oder lehnen Sie diese ab?\n\nDer Abschuss eines Flugzeuges zur Verhinderung eines Terroranschlags ist nicht gerechtfertigt, wenn dadurch unbeteiligte Passagiere an Bord des Flugzeuges getötet würden. Die unbeteiligten Passagiere haben ein Recht auf Leben.",
           "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
           "scale": "cat",
           "answers": [
@@ -2599,12 +2659,12 @@
     "Page 53": {
       "question": "Page 53",
       "name": "Page 53",
-      "label": "[wenn expCD45136 = 1: ]\n[wenn expCD45136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu oder lehnen Sie diese ab?\n\nAsylbewerber, die etwa nach einem Verkehrsunfall Schmerzensgeld erhalten, müssen dieses Schmerzensgeld verwenden, bevor sie Geld vom deutschen Staat beziehen.",
+      "label": "[wenn expCD45136 = 1: ] [wenn expCD45136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu oder lehnen Sie diese ab?\n\nAsylbewerber, die etwa nach einem Verkehrsunfall Schmerzensgeld erhalten, müssen dieses Schmerzensgeld verwenden, bevor sie Geld vom deutschen Staat beziehen.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[wenn expCD45136 = 1: ]\n[wenn expCD45136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu oder lehnen Sie diese ab?\n\nAsylbewerber, die etwa nach einem Verkehrsunfall Schmerzensgeld erhalten, müssen dieses Schmerzensgeld verwenden, bevor sie Geld vom deutschen Staat beziehen.",
+          "text": "[wenn expCD45136 = 1: ] [wenn expCD45136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu oder lehnen Sie diese ab?\n\nAsylbewerber, die etwa nach einem Verkehrsunfall Schmerzensgeld erhalten, müssen dieses Schmerzensgeld verwenden, bevor sie Geld vom deutschen Staat beziehen.",
           "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
           "scale": "cat",
           "answers": [
@@ -2628,12 +2688,12 @@
     "Page 54": {
       "question": "Page 54",
       "name": "Page 54",
-      "label": "[[Wenn CD45139 als Erstes gezeigt wird: \n[Wenn expCD45136=1: Und nun kommen wir zu etwas anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]\n\nWenn das Bundesverfassungsgericht anfangen würde, eine Vielzahl von Entscheidungen zu treffen, denen die meisten Menschen nicht zustimmen, wäre es vielleicht besser, das Bundesverfassungsgericht ganz abzuschaffen.",
+      "label": "[[Wenn CD45139 als Erstes gezeigt wird:  [Wenn expCD45136=1: Und nun kommen wir zu etwas anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.] [Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]\n\nWenn das Bundesverfassungsgericht anfangen würde, eine Vielzahl von Entscheidungen zu treffen, denen die meisten Menschen nicht zustimmen, wäre es vielleicht besser, das Bundesverfassungsgericht ganz abzuschaffen.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[[Wenn CD45139 als Erstes gezeigt wird: \n[Wenn expCD45136=1: Und nun kommen wir zu etwas anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]\n\nWenn das Bundesverfassungsgericht anfangen würde, eine Vielzahl von Entscheidungen zu treffen, denen die meisten Menschen nicht zustimmen, wäre es vielleicht besser, das Bundesverfassungsgericht ganz abzuschaffen.",
+          "text": "[[Wenn CD45139 als Erstes gezeigt wird:  [Wenn expCD45136=1: Und nun kommen wir zu etwas anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.] [Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]\n\nWenn das Bundesverfassungsgericht anfangen würde, eine Vielzahl von Entscheidungen zu treffen, denen die meisten Menschen nicht zustimmen, wäre es vielleicht besser, das Bundesverfassungsgericht ganz abzuschaffen.",
           "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
           "scale": "cat",
           "answers": [
@@ -2669,12 +2729,12 @@
     "Page 55": {
       "question": "Page 55",
       "name": "Page 55",
-      "label": "[[Wenn CD45139 als Erstes gezeigt wird: \n[Wenn expCD45136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]\n\nDas Bundesverfassungsgericht ist zu politisch.",
+      "label": "[[Wenn CD45139 als Erstes gezeigt wird:  [Wenn expCD45136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.] [Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]\n\nDas Bundesverfassungsgericht ist zu politisch.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[[Wenn CD45139 als Erstes gezeigt wird: \n[Wenn expCD45136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]\n\nDas Bundesverfassungsgericht ist zu politisch.",
+          "text": "[[Wenn CD45139 als Erstes gezeigt wird:  [Wenn expCD45136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.] [Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]\n\nDas Bundesverfassungsgericht ist zu politisch.",
           "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
           "scale": "cat",
           "answers": [
@@ -2710,12 +2770,12 @@
     "Page 56": {
       "question": "Page 56",
       "name": "Page 56",
-      "label": "[[Wenn CD45139 als Erstes gezeigt wird: \n[Wenn expCD45136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]\n\nIn seinen Entscheidungen bevorzugt das Bundesverfassungsgericht einige Gruppen mehr als andere.",
+      "label": "[[Wenn CD45139 als Erstes gezeigt wird:  [Wenn expCD45136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.] [Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]\n\nIn seinen Entscheidungen bevorzugt das Bundesverfassungsgericht einige Gruppen mehr als andere.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[[Wenn CD45139 als Erstes gezeigt wird: \n[Wenn expCD45136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n[Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]\n\nIn seinen Entscheidungen bevorzugt das Bundesverfassungsgericht einige Gruppen mehr als andere.",
+          "text": "[[Wenn CD45139 als Erstes gezeigt wird:  [Wenn expCD45136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.] [Wenn expCD45136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]]\n\nIn seinen Entscheidungen bevorzugt das Bundesverfassungsgericht einige Gruppen mehr als andere.",
           "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
           "scale": "cat",
           "answers": [
@@ -2855,12 +2915,19 @@
     "Page 59": {
       "question": "Page 59",
       "name": "Page 59",
-      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?\n\ninteressant",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?\n\ninteressant",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "interessant",
           "scale": "cat",
           "answers": [
             {
@@ -2880,7 +2947,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2891,12 +2958,19 @@
     "Page 60": {
       "question": "Page 60",
       "name": "Page 60",
-      "label": "Fanden Sie den Fragebogen ...?\n\nabwechslungsreich",
+      "label": "Fanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\n\nabwechslungsreich",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "abwechslungsreich",
           "scale": "cat",
           "answers": [
             {
@@ -2916,7 +2990,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2927,12 +3001,19 @@
     "Page 61": {
       "question": "Page 61",
       "name": "Page 61",
-      "label": "Fanden Sie den Fragebogen ...?\n\nrelevant",
+      "label": "Fanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\n\nrelevant",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "relevant",
           "scale": "cat",
           "answers": [
             {
@@ -2952,7 +3033,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2963,12 +3044,19 @@
     "Page 62": {
       "question": "Page 62",
       "name": "Page 62",
-      "label": "Fanden Sie den Fragebogen ...?\n\nlang",
+      "label": "Fanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\n\nlang",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "lang",
           "scale": "cat",
           "answers": [
             {
@@ -2988,7 +3076,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2999,12 +3087,19 @@
     "Page 63": {
       "question": "Page 63",
       "name": "Page 63",
-      "label": "Fanden Sie den Fragebogen ...?\n\nschwierig",
+      "label": "Fanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\n\nschwierig",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "schwierig",
           "scale": "cat",
           "answers": [
             {
@@ -3024,7 +3119,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -3035,12 +3130,19 @@
     "Page 64": {
       "question": "Page 64",
       "name": "Page 64",
-      "label": "Fanden Sie den Fragebogen ...?\n\nzu persönlich",
+      "label": "Fanden Sie den Fragebogen …?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\n\nzu persönlich",
+          "text": "Fanden Sie den Fragebogen …?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "zu persönlich",
           "scale": "cat",
           "answers": [
             {
@@ -3060,7 +3162,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],

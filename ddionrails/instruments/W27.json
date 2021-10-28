@@ -953,6 +953,13 @@
           "item": "0",
           "text": "Bitte geben Sie die Art Ihrer Krankenversicherung an",
           "instruction": "Private Zusatzversicherungen für zusätzliche Leistungen sind nicht gemeint.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "... in einer gesetzlichen Krankenversicherung",
           "scale": "cat",
           "answers": [
             {
@@ -966,7 +973,16 @@
             {
               "value": 3,
               "label": "als Familienangehörige/-r versichert"
-            },
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "…in einer privaten Krankenversicherung",
+          "scale": "cat",
+          "answers": [
             {
               "value": 4,
               "label": "selbst versichert"
@@ -980,7 +996,7 @@
               "label": "nicht krankenversichert"
             }
           ],
-          "sn": 0,
+          "sn": 2,
           "number": ""
         }
       ],
@@ -1297,12 +1313,12 @@
     "Page 33": {
       "question": "Page 33",
       "name": "Page 33",
-      "label": "Welche der folgenden Aussagen beschreibt am besten Ihre Einkommenssituation im Ruhestand?\n[wenn expAC27152 = 1: Mein gesetzlicher Rentenanspruch führt zu…]\n[wenn expAC27152 = 2: Mein gesetzlicher Rentenanspruch und meine private Altersvorsorge führen zu…]",
+      "label": "Welche der folgenden Aussagen beschreibt am besten Ihre Einkommenssituation im Ruhestand?\n       [wenn expAC27152 = 1: Mein gesetzlicher Rentenanspruch führt zu…]\n[wenn expAC27152 = 2: Mein gesetzlicher Rentenanspruch und meine private Altersvorsorge führen zu…]",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welche der folgenden Aussagen beschreibt am besten Ihre Einkommenssituation im Ruhestand?\n[wenn expAC27152 = 1: Mein gesetzlicher Rentenanspruch führt zu…]\n[wenn expAC27152 = 2: Mein gesetzlicher Rentenanspruch und meine private Altersvorsorge führen zu…]",
+          "text": "Welche der folgenden Aussagen beschreibt am besten Ihre Einkommenssituation im Ruhestand?\n       [wenn expAC27152 = 1: Mein gesetzlicher Rentenanspruch führt zu…]\n[wenn expAC27152 = 2: Mein gesetzlicher Rentenanspruch und meine private Altersvorsorge führen zu…]",
           "scale": "cat",
           "answers": [
             {
@@ -2373,13 +2389,20 @@
     "Page 56.10": {
       "question": "Page 56.10",
       "name": "Page 56.10",
-      "label": "Nun zu einem anderen Thema: Es gibt verschiedene Vorstellungen davon, welche Rolle eine Parteivorsitzende oder ein Parteivorsitzender in ihrer oder seiner Partei übernehmen sollte.\n\nWelche der folgenden Rollen sollte Ihrer Meinung nach eine Parteivorsitzende oder ein Parteivorsitzender übernehmen? \n\nEine Parteivorsitzende oder ein Parteivorsitzender sollte eine Rolle übernehmen, in der sie oder er …",
+      "label": "Nun zu einem anderen Thema: Es gibt verschiedene Vorstellungen davon, welche Rolle eine Parteivorsitzende oder ein Parteivorsitzender in ihrer oder seiner Partei übernehmen sollte.\n\nWelche der folgenden Rollen sollte Ihrer Meinung nach eine Parteivorsitzende oder ein Parteivorsitzender übernehmen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Nun zu einem anderen Thema: Es gibt verschiedene Vorstellungen davon, welche Rolle eine Parteivorsitzende oder ein Parteivorsitzender in ihrer oder seiner Partei übernehmen sollte.\n\nWelche der folgenden Rollen sollte Ihrer Meinung nach eine Parteivorsitzende oder ein Parteivorsitzender übernehmen? \n\nEine Parteivorsitzende oder ein Parteivorsitzender sollte eine Rolle übernehmen, in der sie oder er …",
+          "text": "Nun zu einem anderen Thema: Es gibt verschiedene Vorstellungen davon, welche Rolle eine Parteivorsitzende oder ein Parteivorsitzender in ihrer oder seiner Partei übernehmen sollte.\n\nWelche der folgenden Rollen sollte Ihrer Meinung nach eine Parteivorsitzende oder ein Parteivorsitzender übernehmen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Eine Parteivorsitzende oder ein Parteivorsitzender sollte eine Rolle übernehmen, in der sie oder er …",
           "scale": "cat",
           "answers": [
             {
@@ -2399,7 +2422,7 @@
               "label": "weiß nicht"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -2604,12 +2627,12 @@
     "Page 57": {
       "question": "Page 57",
       "name": "Page 57",
-      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen…?",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen…?",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.",
           "instruction": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
           "scale": "txt",
           "sn": 0,
@@ -2617,32 +2640,14 @@
         },
         {
           "item": "1",
-          "text": "interessant",
-          "scale": "cat",
-          "answers": [
-            {
-              "value": 1,
-              "label": "1 überhaupt nicht"
-            },
-            {
-              "value": 2,
-              "label": "2"
-            },
-            {
-              "value": 3,
-              "label": "3"
-            },
-            {
-              "value": 4,
-              "label": "4 sehr"
-            }
-          ],
+          "text": "Fanden Sie den Fragebogen…?",
+          "scale": "txt",
           "sn": 1,
           "number": ""
         },
         {
           "item": "2",
-          "text": "abwechslungsreich",
+          "text": "interessant",
           "scale": "cat",
           "answers": [
             {
@@ -2667,7 +2672,7 @@
         },
         {
           "item": "3",
-          "text": "relevant",
+          "text": "abwechslungsreich",
           "scale": "cat",
           "answers": [
             {
@@ -2692,7 +2697,7 @@
         },
         {
           "item": "4",
-          "text": "lang",
+          "text": "relevant",
           "scale": "cat",
           "answers": [
             {
@@ -2717,7 +2722,7 @@
         },
         {
           "item": "5",
-          "text": "schwierig",
+          "text": "lang",
           "scale": "cat",
           "answers": [
             {
@@ -2742,7 +2747,7 @@
         },
         {
           "item": "6",
-          "text": "zu persönlich",
+          "text": "schwierig",
           "scale": "cat",
           "answers": [
             {
@@ -2767,6 +2772,31 @@
         },
         {
           "item": "7",
+          "text": "zu persönlich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
           "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
           "scale": "cat",
           "answers": [
@@ -2791,14 +2821,14 @@
               "label": "sehr gut"
             }
           ],
-          "sn": 7,
+          "sn": 8,
           "number": ""
         },
         {
-          "item": "8",
+          "item": "9",
           "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
           "scale": "str",
-          "sn": 8,
+          "sn": 9,
           "number": ""
         }
       ],

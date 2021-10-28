@@ -39,7 +39,7 @@
         },
         {
           "item": "1",
-          "text": "Vorname:",
+          "text": "Vorname: [Vorname]",
           "scale": "cat",
           "answers": [
             {
@@ -56,7 +56,7 @@
         },
         {
           "item": "2",
-          "text": "Nachname:",
+          "text": "Nachname: [Nachname]",
           "scale": "cat",
           "answers": [
             {
@@ -73,7 +73,7 @@
         },
         {
           "item": "3",
-          "text": "Geschlecht:",
+          "text": "Geschlecht: [Geschlecht]",
           "scale": "cat",
           "answers": [
             {
@@ -90,7 +90,7 @@
         },
         {
           "item": "4",
-          "text": "Geburtsjahr:",
+          "text": "Geburtsjahr: [Geburtsjahr]",
           "scale": "cat",
           "answers": [
             {
@@ -126,23 +126,27 @@
         },
         {
           "item": "1",
-          "text": "Vorname: bisherige Angabe [Vorname]",
+          "text": "Vorname: \nbisherige Angabe \n[Vorname]",
           "scale": "str",
           "sn": 1,
           "number": ""
         },
         {
           "item": "2",
-          "text": "Nachname: bisherige Angabe [Nachname]",
+          "text": "Nachname: \nbisherige Angabe \n[Nachname]",
           "scale": "str",
           "sn": 2,
           "number": ""
         },
         {
           "item": "3",
-          "text": "Geschlecht: bisherige Angabe [Geschlecht]\nkorrigierte Angabe",
+          "text": "Geschlecht: \nbisherige Angabe \n[Geschlecht]\nkorrigierte Angabe",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Männlich"
@@ -150,10 +154,6 @@
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             }
           ],
           "sn": 3,
@@ -161,7 +161,7 @@
         },
         {
           "item": "4",
-          "text": "Geburtsjahr: bisherige Angabe [Geburtsjahr]",
+          "text": "Geburtsjahr: \nbisherige Angabe \n[Geburtsjahr]",
           "scale": "int",
           "sn": 4,
           "number": ""
@@ -209,12 +209,12 @@
     "Page 5": {
       "question": "Page 5",
       "name": "Page 5",
-      "label": "Bitte korrigieren Sie die folgende Mobilfunknummer.\nbisherige Mobilfunknummer",
+      "label": "Bitte korrigieren Sie die folgende Mobilfunknummer.\nMobilfunknummer:\nbisherige Mobilfunknummer\n[Mobilfunknummer]\nkorrigierte Mobilfunknummer",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Bitte korrigieren Sie die folgende Mobilfunknummer.\nbisherige Mobilfunknummer",
+          "text": "Bitte korrigieren Sie die folgende Mobilfunknummer.\nMobilfunknummer:\nbisherige Mobilfunknummer\n[Mobilfunknummer]\nkorrigierte Mobilfunknummer",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -292,12 +292,12 @@
     "Page 8": {
       "question": "Page 8",
       "name": "Page 8",
-      "label": "Bitte korrigieren Sie die folgende Telefonnummer.\nbisherige Telefonnummer",
+      "label": "Bitte korrigieren Sie die folgende Telefonnummer.\nTelefonnummer:\nbisherige Telefonnummer\n[Telefonnummer]\nkorrigierte Telefonnummer",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Bitte korrigieren Sie die folgende Telefonnummer.\nbisherige Telefonnummer",
+          "text": "Bitte korrigieren Sie die folgende Telefonnummer.\nTelefonnummer:\nbisherige Telefonnummer\n[Telefonnummer]\nkorrigierte Telefonnummer",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -517,7 +517,16 @@
             {
               "value": 5,
               "label": "Ledig"
-            },
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Nur für gleichgeschlechtliche, amtlich eingetragene Lebenspartnerschaften:",
+          "scale": "cat",
+          "answers": [
             {
               "value": 6,
               "label": "Eingetragene Lebenspartnerschaft, zusammenlebend"
@@ -535,7 +544,7 @@
               "label": "Eingetragene Lebenspartnerschaft aufgehoben"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -546,13 +555,12 @@
     "Page 13": {
       "question": "Page 13",
       "name": "Page 13",
-      "label": "Wie viele Personen leben ständig in Ihrem Haushalt, Sie selbst eingeschlossen?\n      \nZu Ihrem Haushalt zählen alle Personen, die hier gemeinsam wohnen und wirtschaften.\nDenken Sie dabei bitte auch an alle im Haushalt lebenden Kinder.",
+      "label": "Wie viele Personen leben ständig in Ihrem Haushalt, Sie selbst eingeschlossen?\n      \nZu Ihrem Haushalt zählen alle Personen, die hier gemeinsam wohnen und wirtschaften. Denken Sie dabei bitte auch an alle im Haushalt lebenden Kinder.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Wie viele Personen leben ständig in Ihrem Haushalt, Sie selbst eingeschlossen?\n      \nZu Ihrem Haushalt zählen alle Personen, die hier gemeinsam wohnen und wirtschaften.\nDenken Sie dabei bitte auch an alle im Haushalt lebenden Kinder.",
-          "instruction": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "text": "Wie viele Personen leben ständig in Ihrem Haushalt, Sie selbst eingeschlossen?\n      \nZu Ihrem Haushalt zählen alle Personen, die hier gemeinsam wohnen und wirtschaften. Denken Sie dabei bitte auch an alle im Haushalt lebenden Kinder.",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -565,12 +573,12 @@
     "Page 14": {
       "question": "Page 14",
       "name": "Page 14",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n1. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n1. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.\n",
           "scale": "txt",
           "sn": 0,
@@ -578,9 +586,13 @@
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "1. Person\nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -614,10 +626,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -631,16 +639,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -655,6 +663,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -694,10 +706,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -715,12 +723,12 @@
     "Page 15": {
       "question": "Page 15",
       "name": "Page 15",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n2. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n2. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.\n",
           "scale": "txt",
           "sn": 0,
@@ -728,9 +736,13 @@
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "2. Person\nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -764,10 +776,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -781,16 +789,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -805,6 +813,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -844,10 +856,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -865,12 +873,12 @@
     "Page 16": {
       "question": "Page 16",
       "name": "Page 16",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n3. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n3. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.\n",
           "scale": "txt",
           "sn": 0,
@@ -878,9 +886,13 @@
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "3. Person\nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -914,10 +926,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -931,16 +939,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -955,6 +963,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -994,10 +1006,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -1015,12 +1023,12 @@
     "Page 17": {
       "question": "Page 17",
       "name": "Page 17",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n4. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n4. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.\n",
           "scale": "txt",
           "sn": 0,
@@ -1028,9 +1036,13 @@
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "4. Person\nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -1064,10 +1076,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -1081,16 +1089,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -1105,6 +1113,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -1144,10 +1156,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -1165,12 +1173,12 @@
     "Page 18": {
       "question": "Page 18",
       "name": "Page 18",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n5. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n5. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.\n",
           "scale": "txt",
           "sn": 0,
@@ -1178,9 +1186,13 @@
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "5. Person\nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -1214,10 +1226,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -1231,16 +1239,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -1255,6 +1263,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -1294,10 +1306,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -1315,12 +1323,12 @@
     "Page 19": {
       "question": "Page 19",
       "name": "Page 19",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n6. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n6. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.\n",
           "scale": "txt",
           "sn": 0,
@@ -1328,9 +1336,13 @@
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "6. Person \nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -1364,10 +1376,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -1381,16 +1389,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -1405,6 +1413,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -1444,10 +1456,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -1465,12 +1473,12 @@
     "Page 20": {
       "question": "Page 20",
       "name": "Page 20",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n7. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n7. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
           "scale": "txt",
           "sn": 0,
@@ -1478,9 +1486,13 @@
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "7. Person\nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -1514,10 +1526,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -1531,16 +1539,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -1555,6 +1563,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -1594,10 +1606,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -1615,12 +1623,12 @@
     "Page 21": {
       "question": "Page 21",
       "name": "Page 21",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n8. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n8. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
           "scale": "txt",
           "sn": 0,
@@ -1628,9 +1636,13 @@
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "8. Person \nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -1664,10 +1676,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -1681,16 +1689,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -1705,6 +1713,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -1744,10 +1756,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -1765,12 +1773,12 @@
     "Page 22": {
       "question": "Page 22",
       "name": "Page 22",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n9. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n9. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
           "scale": "txt",
           "sn": 0,
@@ -1778,9 +1786,13 @@
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "9. Person\nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -1814,10 +1826,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -1831,16 +1839,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -1855,6 +1863,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -1894,10 +1906,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -1915,12 +1923,12 @@
     "Page 23": {
       "question": "Page 23",
       "name": "Page 23",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n10. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n10. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
           "scale": "txt",
           "sn": 0,
@@ -1928,9 +1936,13 @@
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "10. Person \nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -1964,10 +1976,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -1981,16 +1989,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -2005,6 +2013,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -2044,10 +2056,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -2065,12 +2073,12 @@
     "Page 24": {
       "question": "Page 24",
       "name": "Page 24",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n11. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n11. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
           "scale": "txt",
           "sn": 0,
@@ -2078,9 +2086,13 @@
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "11. Person \nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -2114,10 +2126,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -2131,16 +2139,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -2155,6 +2163,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -2194,10 +2206,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -2215,12 +2223,12 @@
     "Page 25": {
       "question": "Page 25",
       "name": "Page 25",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n12. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n12. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
           "scale": "txt",
           "sn": 0,
@@ -2228,9 +2236,13 @@
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "12. Person\nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -2264,10 +2276,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -2281,16 +2289,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -2305,6 +2313,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -2344,10 +2356,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -2365,12 +2373,12 @@
     "Page 26": {
       "question": "Page 26",
       "name": "Page 26",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n13. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n13. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
           "scale": "txt",
           "sn": 0,
@@ -2378,9 +2386,13 @@
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "13. Person\nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -2414,10 +2426,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -2431,16 +2439,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -2455,6 +2463,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -2494,10 +2506,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -2515,21 +2523,26 @@
     "Page 27": {
       "question": "Page 27",
       "name": "Page 27",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n14. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n14. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
+          "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "14. Person\nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -2563,10 +2576,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -2580,16 +2589,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -2604,6 +2613,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -2643,10 +2656,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -2664,21 +2673,26 @@
     "Page 28": {
       "question": "Page 28",
       "name": "Page 28",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n15. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n15. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
+          "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "15. Person\nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -2712,10 +2726,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -2729,16 +2739,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -2753,6 +2763,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -2792,10 +2806,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -2813,21 +2823,26 @@
     "Page 29": {
       "question": "Page 29",
       "name": "Page 29",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n16. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n16. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
+          "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "16. Person\nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -2861,10 +2876,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -2878,16 +2889,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -2902,6 +2913,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -2941,10 +2956,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -2962,21 +2973,26 @@
     "Page 30": {
       "question": "Page 30",
       "name": "Page 30",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n17. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n17. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
+          "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "17. Person \nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -3010,10 +3026,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -3027,16 +3039,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -3051,6 +3063,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -3090,10 +3106,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -3111,21 +3123,26 @@
     "Page 31": {
       "question": "Page 31",
       "name": "Page 31",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n18. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n18. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
+          "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "18. Person \nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -3159,10 +3176,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -3176,16 +3189,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -3200,6 +3213,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -3239,10 +3256,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -3260,21 +3273,26 @@
     "Page 32": {
       "question": "Page 32",
       "name": "Page 32",
-      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n19. Person",
+      "label": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?\n19. Person",
+          "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
+          "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
-          "text": "Alter:",
+          "text": "19. Person \nAlter:",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "jünger als 16 Jahre"
@@ -3308,10 +3326,6 @@
               "label": "älter als 75 Jahre"
             },
             {
-              "value": -91,
-              "label": "Bitte auswählen"
-            },
-            {
               "value": -98,
               "label": "Keine Angabe"
             }
@@ -3325,16 +3339,16 @@
           "scale": "cat",
           "answers": [
             {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
+            {
               "value": 1,
               "label": "Männlich"
             },
             {
               "value": 2,
               "label": "Weiblich"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -3349,6 +3363,10 @@
           "text": "Diese Person ist mein(e)/ein(e)…",
           "scale": "cat",
           "answers": [
+            {
+              "value": -91,
+              "label": "Bitte auswählen"
+            },
             {
               "value": 1,
               "label": "Ehegatte/Ehegattin"
@@ -3388,10 +3406,6 @@
             {
               "value": 10,
               "label": "Andere, nicht verwandte Person"
-            },
-            {
-              "value": -91,
-              "label": "Bitte auswählen"
             },
             {
               "value": -98,
@@ -3618,6 +3632,7 @@
         {
           "item": "0",
           "text": "Im Folgenden sehen Sie eine Liste mit (beruflichen) Tätigkeiten. Bitte geben Sie alle an, die aktuell auf Sie zutreffen.",
+          "instruction": "Bei dieser Frage können Sie mehrere Antworten geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -3749,12 +3764,12 @@
     "Page 37": {
       "question": "Page 37",
       "name": "Page 37",
-      "label": "Und welche der Beschreibungen trifft am besten auf Ihre aktuelle berufliche Situation zu? Was\nwürden Sie als Ihre Haupttätigkeit bezeichnen?",
+      "label": "Und welche der Beschreibungen trifft am besten auf Ihre aktuelle berufliche Situation zu? Was würden Sie als Ihre Haupttätigkeit bezeichnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Und welche der Beschreibungen trifft am besten auf Ihre aktuelle berufliche Situation zu? Was\nwürden Sie als Ihre Haupttätigkeit bezeichnen?",
+          "text": "Und welche der Beschreibungen trifft am besten auf Ihre aktuelle berufliche Situation zu? Was würden Sie als Ihre Haupttätigkeit bezeichnen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
@@ -4042,12 +4057,12 @@
     "Page 45": {
       "question": "Page 45",
       "name": "Page 45",
-      "label": "Können Sie Ihre (letzte) berufliche Tätigkeit einem der folgenden Wirtschaftsbereiche\nzuordnen?",
+      "label": "Können Sie Ihre (letzte) berufliche Tätigkeit einem der folgenden Wirtschaftsbereiche zuordnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Können Sie Ihre (letzte) berufliche Tätigkeit einem der folgenden Wirtschaftsbereiche\nzuordnen?",
+          "text": "Können Sie Ihre (letzte) berufliche Tätigkeit einem der folgenden Wirtschaftsbereiche zuordnen?",
           "scale": "cat",
           "answers": [
             {
@@ -4138,12 +4153,12 @@
     "Page 46": {
       "question": "Page 46",
       "name": "Page 46",
-      "label": "Zu welcher der folgenden Religionen, Glaubensrichtungen oder Weltanschauungen bekennen\nSie sich?",
+      "label": "Zu welcher der folgenden Religionen, Glaubensrichtungen oder Weltanschauungen bekennen Sie sich?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Zu welcher der folgenden Religionen, Glaubensrichtungen oder Weltanschauungen bekennen\nSie sich?",
+          "text": "Zu welcher der folgenden Religionen, Glaubensrichtungen oder Weltanschauungen bekennen Sie sich?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
@@ -4260,12 +4275,12 @@
     "Page 48": {
       "question": "Page 48",
       "name": "Page 48",
-      "label": "Nutzen Sie außerhalb der Studie „Gesellschaft im Wandel“ Computer, z. B. bei der Arbeit oder\nin der Freizeit?",
+      "label": "Nutzen Sie außerhalb der Studie „Gesellschaft im Wandel“ Computer, z. B. bei der Arbeit oder in der Freizeit?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Nutzen Sie außerhalb der Studie „Gesellschaft im Wandel“ Computer, z. B. bei der Arbeit oder\nin der Freizeit?",
+          "text": "Nutzen Sie außerhalb der Studie „Gesellschaft im Wandel“ Computer, z. B. bei der Arbeit oder in der Freizeit?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
@@ -4301,12 +4316,12 @@
     "Page 49": {
       "question": "Page 49",
       "name": "Page 49",
-      "label": "Wie oft nutzen Sie das Internet, das World Wide Web oder E-Mail für private Zwecke, \negal ob zu Hause oder am Arbeitsplatz?",
+      "label": "Wie oft nutzen Sie das Internet, das World Wide Web oder E-Mail für private Zwecke,  egal ob zu Hause oder am Arbeitsplatz?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Wie oft nutzen Sie das Internet, das World Wide Web oder E-Mail für private Zwecke, \negal ob zu Hause oder am Arbeitsplatz?",
+          "text": "Wie oft nutzen Sie das Internet, das World Wide Web oder E-Mail für private Zwecke,  egal ob zu Hause oder am Arbeitsplatz?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
@@ -4354,12 +4369,12 @@
     "Page 50": {
       "question": "Page 50",
       "name": "Page 50",
-      "label": "Und wie oft am Tag nutzen Sie das Internet, das World Wide Web oder E-Mail für private\nZwecke?",
+      "label": "Und wie oft am Tag nutzen Sie das Internet, das World Wide Web oder E-Mail für private Zwecke?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Und wie oft am Tag nutzen Sie das Internet, das World Wide Web oder E-Mail für private\nZwecke?",
+          "text": "Und wie oft am Tag nutzen Sie das Internet, das World Wide Web oder E-Mail für private Zwecke?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
@@ -4387,13 +4402,20 @@
     "Page 51": {
       "question": "Page 51",
       "name": "Page 51",
-      "label": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.\nmeinem Familienleben",
+      "label": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.\nmeinem Familienleben",
+          "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "meinem Familienleben",
           "scale": "cat",
           "answers": [
             {
@@ -4432,7 +4454,7 @@
               "label": "ganz und gar zufrieden"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -4443,13 +4465,20 @@
     "Page 52": {
       "question": "Page 52",
       "name": "Page 52",
-      "label": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.\nmeiner Freizeit",
+      "label": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.\nmeiner Freizeit",
+          "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "meiner Freizeit",
           "scale": "cat",
           "answers": [
             {
@@ -4488,7 +4517,7 @@
               "label": "ganz und gar zufrieden"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -4499,13 +4528,20 @@
     "Page 53": {
       "question": "Page 53",
       "name": "Page 53",
-      "label": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.\nmeiner finanziellen Situation",
+      "label": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.\nmeiner finanziellen Situation",
+          "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "meiner finanziellen Situation",
           "scale": "cat",
           "answers": [
             {
@@ -4544,7 +4580,7 @@
               "label": "ganz und gar zufrieden"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -4555,13 +4591,20 @@
     "Page 54": {
       "question": "Page 54",
       "name": "Page 54",
-      "label": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.\nmeiner Arbeit",
+      "label": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.\nmeiner Arbeit",
+          "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\n\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "meiner Arbeit",
           "scale": "cat",
           "answers": [
             {
@@ -4600,7 +4643,7 @@
               "label": "ganz und gar zufrieden"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -4611,13 +4654,20 @@
     "Page 55": {
       "question": "Page 55",
       "name": "Page 55",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nSport-, Musik- oder Kulturverein, sonstige Hobbyvereinigung",
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nSport-, Musik- oder Kulturverein, sonstige Hobbyvereinigung",
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Sport-, Musik- oder Kulturverein, sonstige Hobbyvereinigung",
           "scale": "cat",
           "answers": [
             {
@@ -4633,7 +4683,7 @@
               "label": "Ich bin aktives Mitglied."
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -4644,13 +4694,20 @@
     "Page 56": {
       "question": "Page 56",
       "name": "Page 56",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nMenschenrechts-, Umwelt- oder Tierschutzverein",
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nMenschenrechts-, Umwelt- oder Tierschutzverein",
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Menschenrechts-, Umwelt- oder Tierschutzverein",
           "scale": "cat",
           "answers": [
             {
@@ -4666,7 +4723,7 @@
               "label": "Ich bin aktives Mitglied."
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -4677,13 +4734,20 @@
     "Page 57": {
       "question": "Page 57",
       "name": "Page 57",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nWohltätigkeitsverein oder Hilfsorganisation",
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nWohltätigkeitsverein oder Hilfsorganisation",
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Wohltätigkeitsverein oder Hilfsorganisation",
           "scale": "cat",
           "answers": [
             {
@@ -4699,7 +4763,7 @@
               "label": "Ich bin aktives Mitglied."
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -4710,13 +4774,20 @@
     "Page 58": {
       "question": "Page 58",
       "name": "Page 58",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nReligiöse oder kirchliche Organisation",
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nReligiöse oder kirchliche Organisation",
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Religiöse oder kirchliche Organisation",
           "scale": "cat",
           "answers": [
             {
@@ -4732,7 +4803,7 @@
               "label": "Ich bin aktives Mitglied."
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -4743,13 +4814,20 @@
     "Page 59": {
       "question": "Page 59",
       "name": "Page 59",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nJugend-, Eltern- oder Seniorenvereinigung",
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nJugend-, Eltern- oder Seniorenvereinigung",
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Jugend-, Eltern- oder Seniorenvereinigung",
           "scale": "cat",
           "answers": [
             {
@@ -4765,7 +4843,7 @@
               "label": "Ich bin aktives Mitglied."
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -4776,13 +4854,20 @@
     "Page 60": {
       "question": "Page 60",
       "name": "Page 60",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nBürgerinitiative",
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nBürgerinitiative",
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Bürgerinitiative",
           "scale": "cat",
           "answers": [
             {
@@ -4798,7 +4883,7 @@
               "label": "Ich bin aktives Mitglied."
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -4809,13 +4894,20 @@
     "Page 61": {
       "question": "Page 61",
       "name": "Page 61",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nBerufsverband",
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nBerufsverband",
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Berufsverband",
           "scale": "cat",
           "answers": [
             {
@@ -4831,7 +4923,7 @@
               "label": "Ich bin aktives Mitglied."
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -4842,13 +4934,20 @@
     "Page 62": {
       "question": "Page 62",
       "name": "Page 62",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nGewerkschaft",
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nGewerkschaft",
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Gewerkschaft",
           "scale": "cat",
           "answers": [
             {
@@ -4864,7 +4963,7 @@
               "label": "Ich bin aktives Mitglied."
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -4875,13 +4974,20 @@
     "Page 63": {
       "question": "Page 63",
       "name": "Page 63",
-      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese\nbitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nPolitische Partei",
+      "label": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese\nbitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\nPolitische Partei",
+          "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Politische Partei",
           "scale": "cat",
           "answers": [
             {
@@ -4897,7 +5003,7 @@
               "label": "Ich bin aktives Mitglied."
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -4977,13 +5083,20 @@
     "Page 65": {
       "question": "Page 65",
       "name": "Page 65",
-      "label": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?   \n\nUnion (CDU / CSU)",
+      "label": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?   \n\nUnion (CDU / CSU)",
+          "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Union (CDU / CSU)",
           "scale": "cat",
           "answers": [
             {
@@ -5035,7 +5148,7 @@
               "label": "weiß ich nicht"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -5046,13 +5159,20 @@
     "Page 66": {
       "question": "Page 66",
       "name": "Page 66",
-      "label": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen? \n\nSPD",
+      "label": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen? \n\nSPD",
+          "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "SPD",
           "scale": "cat",
           "answers": [
             {
@@ -5104,7 +5224,7 @@
               "label": "weiß ich nicht"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -5115,13 +5235,20 @@
     "Page 67": {
       "question": "Page 67",
       "name": "Page 67",
-      "label": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen? \n\nFDP",
+      "label": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen? \n\nFDP",
+          "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "FDP",
           "scale": "cat",
           "answers": [
             {
@@ -5173,7 +5300,7 @@
               "label": "weiß ich nicht"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -5184,13 +5311,20 @@
     "Page 68": {
       "question": "Page 68",
       "name": "Page 68",
-      "label": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?   \n\nBündnis 90 / Die Grünen",
+      "label": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?   \n\nBündnis 90 / Die Grünen",
+          "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Bündnis 90 / Die Grünen",
           "scale": "cat",
           "answers": [
             {
@@ -5242,7 +5376,7 @@
               "label": "weiß ich nicht"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -5253,13 +5387,20 @@
     "Page 69": {
       "question": "Page 69",
       "name": "Page 69",
-      "label": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?\n\nDie Linke",
+      "label": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?\n\nDie Linke",
+          "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Die Linke",
           "scale": "cat",
           "answers": [
             {
@@ -5311,7 +5452,7 @@
               "label": "weiß ich nicht"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -5322,13 +5463,20 @@
     "Page 70": {
       "question": "Page 70",
       "name": "Page 70",
-      "label": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen? \n\nAlternative für Deutschland (AfD)",
+      "label": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen? \n\nAlternative für Deutschland (AfD)",
+          "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Alternative für Deutschland (AfD)",
           "scale": "cat",
           "answers": [
             {
@@ -5380,7 +5528,7 @@
               "label": "weiß ich nicht"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -5788,12 +5936,19 @@
     "Page 79": {
       "question": "Page 79",
       "name": "Page 79",
-      "label": "Bewertung dieser Umfrage\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?\ninteressant",
+      "label": "Bewertung dieser Umfrage\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Bewertung dieser Umfrage\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?\ninteressant",
+          "text": "Bewertung dieser Umfrage\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "interessant",
           "scale": "cat",
           "answers": [
             {
@@ -5813,7 +5968,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -5824,12 +5979,19 @@
     "Page 80": {
       "question": "Page 80",
       "name": "Page 80",
-      "label": "Fanden Sie den Fragebogen ...?\nabwechslungsreich",
+      "label": "Fanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\nabwechslungsreich",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "abwechslungsreich",
           "scale": "cat",
           "answers": [
             {
@@ -5849,7 +6011,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -5860,12 +6022,19 @@
     "Page 81": {
       "question": "Page 81",
       "name": "Page 81",
-      "label": "Fanden Sie den Fragebogen ...?\nrelevant",
+      "label": "Fanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\nrelevant",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "relevant",
           "scale": "cat",
           "answers": [
             {
@@ -5885,7 +6054,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -5896,12 +6065,19 @@
     "Page 82": {
       "question": "Page 82",
       "name": "Page 82",
-      "label": "Fanden Sie den Fragebogen ...?\nlang",
+      "label": "Fanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\nlang",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "lang",
           "scale": "cat",
           "answers": [
             {
@@ -5921,7 +6097,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -5932,12 +6108,19 @@
     "Page 83": {
       "question": "Page 83",
       "name": "Page 83",
-      "label": "Fanden Sie den Fragebogen ...?\nschwierig",
+      "label": "Fanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\nschwierig",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "schwierig",
           "scale": "cat",
           "answers": [
             {
@@ -5957,7 +6140,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -5968,12 +6151,19 @@
     "Page 84": {
       "question": "Page 84",
       "name": "Page 84",
-      "label": "Fanden Sie den Fragebogen ...?\nzu persönlich",
+      "label": "Fanden Sie den Fragebogen ...?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Fanden Sie den Fragebogen ...?\nzu persönlich",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "zu persönlich",
           "scale": "cat",
           "answers": [
             {
@@ -5993,7 +6183,7 @@
               "label": "4 sehr"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
