@@ -15,16 +15,16 @@ def recode_datasets(in_enc="windows-1252", out_enc="utf-8"):
             f.write(content)
 
 def main():
-    copy.study()
-    copy.f("instruments.csv")
-    copy.f("questions_variables.csv")
-    copy.f("questions_images.csv")
-    copy.f("attachments.csv")
+    # copy.study()
+    # copy.f("instruments.csv")
+    # copy.f("questions_variables.csv")
+    # copy.f("questions_images.csv")
+    # copy.f("attachments.csv")
     convert_r2ddi.Parser("gip").write_json()
     recode_datasets()
     extract_variables.XmlParser("r2ddi/v1/en", "gip").run()
-    copy.f("datasets.csv")
-    merge_instruments.main()
+    # copy.f("datasets.csv")
+    # merge_instruments.main()
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,5537 @@
+<codebook>
+  <dataDscr>
+    <var ID="id_g" intrvl="numeric" files="GIP_W32_V1">
+      <labl>Unique ID, GIP</labl>
+      <sumStat type="Min.">10005901</sumStat>
+      <sumStat type="1st Qu.">28227526</sumStat>
+      <sumStat type="Median">30340901.5</sumStat>
+      <sumStat type="Mean">27689138.6688066</sumStat>
+      <sumStat type="3rd Qu.">30803201</sumStat>
+      <sumStat type="Max.">31223802</sumStat>
+      <sumStat type="valid">2648</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="hhid_g" intrvl="numeric" files="GIP_W32_V1">
+      <labl>Household Identifyer, GIP</labl>
+      <sumStat type="Min.">100059</sumStat>
+      <sumStat type="1st Qu.">282275.25</sumStat>
+      <sumStat type="Median">303409</sumStat>
+      <sumStat type="Mean">276891.371601208</sumStat>
+      <sumStat type="3rd Qu.">308032</sumStat>
+      <sumStat type="Max.">312238</sumStat>
+      <sumStat type="valid">2648</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="pid" intrvl="numeric" files="GIP_W32_V1">
+      <labl>Person identifyer (wthin HH)</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">1</sumStat>
+      <sumStat type="Median">1</sumStat>
+      <sumStat type="Mean">1.50868580060423</sumStat>
+      <sumStat type="3rd Qu.">2</sumStat>
+      <sumStat type="Max.">6</sumStat>
+      <sumStat type="valid">2648</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="gender_17" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>gender</labl>
+      <sumStat type="valid">2647</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. männlich</labl>
+        <catStat type="freq">1370</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. weiblich</labl>
+        <catStat type="freq">1277</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">   1</catStat>
+      </catgry>
+    </var>
+    <var ID="year_of_birth_cat_17" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>year of birth categories</labl>
+      <sumStat type="valid">2646</sumStat>
+      <sumStat type="invalid">2</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  1</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1935-1939</labl>
+        <catStat type="freq"> 43</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 1980-1984</labl>
+        <catStat type="freq">215</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 1985-1989</labl>
+        <catStat type="freq">198</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>12</catValu>
+        <labl>12. 1990-1994</labl>
+        <catStat type="freq">168</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>13</catValu>
+        <labl>13. 1995-1999</labl>
+        <catStat type="freq"> 76</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 1940-1944</labl>
+        <catStat type="freq">148</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 1945-1949</labl>
+        <catStat type="freq">188</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 1950-1954</labl>
+        <catStat type="freq">261</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 1955-1959</labl>
+        <catStat type="freq">288</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 1960-1964</labl>
+        <catStat type="freq">327</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 1965-1969</labl>
+        <catStat type="freq">323</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 1970-1974</labl>
+        <catStat type="freq">219</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 1975-1979</labl>
+        <catStat type="freq">192</catStat>
+      </catgry>
+    </var>
+    <var ID="educ_school_17" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>highest educational degree</labl>
+      <sumStat type="valid">2648</sumStat>
+      <sumStat type="invalid">0</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. Noch Schüler/-in</labl>
+        <catStat type="freq">  5</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. Schule beendet ohne Abschluss</labl>
+        <catStat type="freq"> 30</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. Volks-/Hauptschulabschluss bzw. Polytechnische Oberschule mit Abschluss 8. oder 9. Klasse</labl>
+        <catStat type="freq">426</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. Mittlere Reife, Realschulabschluss bzw. Polytechnische Oberschule mit Abschluss 10. Klasse</labl>
+        <catStat type="freq">818</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. Fachhochschulreife (Abschluss einer Fachoberschule etc.)</labl>
+        <catStat type="freq">321</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. Abitur bzw. Erweiterte Oberschule mit Abschluss 12. Klasse (Hochschulreife)</labl>
+        <catStat type="freq">995</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. Anderen Schulabschluss: Bitte tragen Sie Ihren Schulabschluss ein: __________________</labl>
+        <catStat type="freq"> 53</catStat>
+      </catgry>
+    </var>
+    <var ID="educ_job_17" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>highest professional qualification</labl>
+      <sumStat type="valid">2647</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. Noch in beruflicher Ausbildung (Berufsvorbereitungsjahr, Auszubildende/-r, Praktikant/-in, Student/-in)</labl>
+        <catStat type="freq">110</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. Universitätsabschluss (z. B. Diplom, Magister, Staatsexamen, Master)</labl>
+        <catStat type="freq">394</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. Promotion</labl>
+        <catStat type="freq"> 66</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>12</catValu>
+        <labl>12. Ein anderer beruflicher Abschluss, und zwar (bitte eintragen): _____________________</labl>
+        <catStat type="freq"> 61</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. Schüler/-in und besuche eine berufsorientierte Aufbau-, Fachschule o. ä.</labl>
+        <catStat type="freq">  4</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. Keinen beruflichen Abschluss und bin nicht in beruflicher Ausbildung</labl>
+        <catStat type="freq"> 88</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. Beruflich-betriebliche Berufsausbildung (Lehre) abgeschlossen</labl>
+        <catStat type="freq">949</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. Beruflich-schulische Ausbildung (Berufsfachschule, Handelsschule, Vorbereitungsdienst für den mittleren Dienst in der öffentlichen Verwaltung) abgeschlossen</labl>
+        <catStat type="freq">224</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. Ausbildung an einer Fachschule der DDR abgeschlossen</labl>
+        <catStat type="freq"> 63</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. Ausbildung an einer Fach-, Meister-, Technikerschule, Berufs- oder Fachakademie abgeschlossen</labl>
+        <catStat type="freq">325</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. Bachelor an (Fach-)Hochschule abgeschlossen</labl>
+        <catStat type="freq">100</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. Fachhochschulabschluss (z. B. Diplom, Master)</labl>
+        <catStat type="freq">263</catStat>
+      </catgry>
+    </var>
+    <var ID="marital_status_17" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>marital status</labl>
+      <sumStat type="valid">2648</sumStat>
+      <sumStat type="invalid">0</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. Verheiratet und leben mit Ihrem/Ihrer Ehepartner/-in zusammen</labl>
+        <catStat type="freq">1565</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. Verheiratet und leben getrennt</labl>
+        <catStat type="freq">  52</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. Verwitwet</labl>
+        <catStat type="freq">  67</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. Geschieden</labl>
+        <catStat type="freq"> 248</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. Ledig</labl>
+        <catStat type="freq"> 691</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. Eingetragene Lebenspartnerschaft, zusammenlebend</labl>
+        <catStat type="freq">  19</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. Eingetragene Lebenspartnerschaft, getrennt lebend</labl>
+        <catStat type="freq">   4</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. Eingetragene/-r Lebenspartner/-in verstorben</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. Eingetragene Lebenspartnerschaft aufgehoben</labl>
+        <catStat type="freq">   2</catStat>
+      </catgry>
+    </var>
+    <var ID="number_hh_members_17" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>number of household members</labl>
+      <sumStat type="valid">2647</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1</labl>
+        <catStat type="freq"> 454</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">1200</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">   1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq"> 478</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq"> 370</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5 und mehr</labl>
+        <catStat type="freq"> 145</catStat>
+      </catgry>
+    </var>
+    <var ID="occupation_17" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>employment status</labl>
+      <sumStat type="valid">2647</sumStat>
+      <sumStat type="invalid">1</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. Vollzeiterwerbstätig</labl>
+        <catStat type="freq">1238</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. Freiwilliges Soziales/Ökologisches/Kulturelles Jahr</labl>
+        <catStat type="freq">   5</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. Mutterschafts-, Erziehungsurlaub, Elternzeit oder sonstige Beurlaubung (Altersteilzeit oben angeben)</labl>
+        <catStat type="freq">  38</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>12</catValu>
+        <labl>12. Schüler/-in an einer allgemeinbildenden Schule</labl>
+        <catStat type="freq">   6</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>13</catValu>
+        <labl>13. Student/-in</labl>
+        <catStat type="freq">  96</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>14</catValu>
+        <labl>14. Rentner/-in, Pensionär/-in, im Vorruhestand</labl>
+        <catStat type="freq"> 572</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>15</catValu>
+        <labl>15. Arbeitslos</labl>
+        <catStat type="freq">  44</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>16</catValu>
+        <labl>16. Dauerhaft erwerbsunfähig</labl>
+        <catStat type="freq">  29</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>17</catValu>
+        <labl>17. Hausfrau/Hausmann</labl>
+        <catStat type="freq"> 117</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. Teilzeiterwerbstätig</labl>
+        <catStat type="freq"> 369</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">   1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. Altersteilzeit (unabhängig davon, ob in der Arbeits- oder Freistellungsphase befindlich)</labl>
+        <catStat type="freq">  12</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. Geringfügig erwerbstätig, 400-Euro-Job, Minijob</labl>
+        <catStat type="freq">  69</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. „Ein-Euro-Job“ (bei Bezug von Arbeitslosengeld II)</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. Gelegentlich oder unregelmäßig beschäftigt</labl>
+        <catStat type="freq">  13</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. In einer beruflichen Ausbildung/Lehre</labl>
+        <catStat type="freq">  34</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. In Umschulung</labl>
+        <catStat type="freq">   3</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. Freiwilliger Wehrdienst, Bundesfreiwilligendienst</labl>
+        <catStat type="freq">   2</catStat>
+      </catgry>
+    </var>
+    <var ID="german_citizenship_17" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>german citizenship</labl>
+      <sumStat type="valid">2648</sumStat>
+      <sumStat type="invalid">0</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. Ja, nur die deutsche Staatsangehörig</labl>
+        <catStat type="freq">2531</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. Ja, die deutsche Staatsangehörigkeit</labl>
+        <catStat type="freq">  49</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. Nein, habe eine andere Staatsangehörigkeit</labl>
+        <catStat type="freq">  68</catStat>
+      </catgry>
+    </var>
+    <var ID="internet_usage_17" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl> private internet usage</labl>
+      <sumStat type="valid">2631</sumStat>
+      <sumStat type="invalid">17</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. Weiß nicht</labl>
+        <catStat type="freq">  10</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. Nutze ich nie</labl>
+        <catStat type="freq">  53</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">   7</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. Weniger als einmal im Monat</labl>
+        <catStat type="freq">  57</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. Einmal im Monat</labl>
+        <catStat type="freq">  37</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. Mehrmals im Monat</labl>
+        <catStat type="freq"> 119</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. Einmal in der Woche</labl>
+        <catStat type="freq">  69</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. Mehrmals in der Woche</labl>
+        <catStat type="freq"> 395</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. Täglich</labl>
+        <catStat type="freq">1901</catStat>
+      </catgry>
+    </var>
+    <var ID="state_17" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>residence state</labl>
+      <sumStat type="valid">2648</sumStat>
+      <sumStat type="invalid">0</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. Schleswig-Holstein/Hamburg</labl>
+        <catStat type="freq">131</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. Niedersachsen/Bremen</labl>
+        <catStat type="freq">241</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. Nordrhein-Westfalen</labl>
+        <catStat type="freq">536</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. Hessen</labl>
+        <catStat type="freq">206</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. Rheinland-Pfalz/Saarland</labl>
+        <catStat type="freq">148</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. Baden-Württemberg</labl>
+        <catStat type="freq">366</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. Bayern</labl>
+        <catStat type="freq">465</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. Berlin/Brandenburg</labl>
+        <catStat type="freq">189</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>13</catValu>
+        <labl>13. Mecklenburg-Vorpommern</labl>
+        <catStat type="freq"> 61</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>14</catValu>
+        <labl>14. Sachsen</labl>
+        <catStat type="freq">167</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>15</catValu>
+        <labl>15. Sachsen-Anhalt</labl>
+        <catStat type="freq"> 60</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>16</catValu>
+        <labl>16. Thüringen</labl>
+        <catStat type="freq"> 78</catStat>
+      </catgry>
+    </var>
+    <var ID="sample" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>year of recruitment</labl>
+      <sumStat type="valid">2648</sumStat>
+      <sumStat type="invalid">0</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. recruited 2012</labl>
+        <catStat type="freq"> 748</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. recruited 2014</labl>
+        <catStat type="freq">1900</catStat>
+      </catgry>
+    </var>
+    <var ID="dDatum" intrvl="numeric" files="GIP_W32_V1">
+      <labl>Interview-Datum</labl>
+      <sumStat type="Min.">21124</sumStat>
+      <sumStat type="1st Qu.">21125</sumStat>
+      <sumStat type="Median">21131</sumStat>
+      <sumStat type="Mean">21133.9003021148</sumStat>
+      <sumStat type="3rd Qu.">21141</sumStat>
+      <sumStat type="Max.">21153</sumStat>
+      <sumStat type="valid">2648</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="online_status_wave" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>current online status</labl>
+      <sumStat type="valid">2648</sumStat>
+      <sumStat type="invalid">0</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. not equipped with pc/internet</labl>
+        <catStat type="freq">2485</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. equipped with internet</labl>
+        <catStat type="freq">  94</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. equipped with Ben PC and internet</labl>
+        <catStat type="freq">  16</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. equipped with tablet and internet</labl>
+        <catStat type="freq">  53</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32152" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>satisfaction_gov_v2</labl>
+      <sumStat type="valid">2550</sumStat>
+      <sumStat type="invalid">98</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  1</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq"> 87</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 völlig unzufrieden</labl>
+        <catStat type="freq">132</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 13</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 völlig zufrieden</labl>
+        <catStat type="freq"> 19</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">109</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 10</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">318</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">416</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">424</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">427</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">329</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">282</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq"> 81</catStat>
+      </catgry>
+    </var>
+    <var ID="rndCE32300" intrvl="string" files="GIP_W32_V1">
+      <labl>randomization page 3.00 ff</labl>
+      <sumStat type="valid">2648</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="CE32300" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>satisfaction_party_cducsu_v3</labl>
+      <sumStat type="valid">2484</sumStat>
+      <sumStat type="invalid">164</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  3</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">147</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 völlig unzufrieden</labl>
+        <catStat type="freq">183</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 34</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 völlig zufrieden</labl>
+        <catStat type="freq"> 16</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">178</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 14</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">349</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">362</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">345</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">330</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">311</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">241</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq">135</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32301" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>satisfaction_party_spd_v3</labl>
+      <sumStat type="valid">2456</sumStat>
+      <sumStat type="invalid">192</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  2</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">178</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 völlig unzufrieden</labl>
+        <catStat type="freq">167</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 32</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 völlig zufrieden</labl>
+        <catStat type="freq"> 17</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">160</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 12</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">301</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">428</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">410</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">377</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">280</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">216</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq"> 68</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32302" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>satisfaction_party_gruene_v3</labl>
+      <sumStat type="valid">2355</sumStat>
+      <sumStat type="invalid">293</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  3</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">278</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 völlig unzufrieden</labl>
+        <catStat type="freq">256</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 15</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 völlig zufrieden</labl>
+        <catStat type="freq">  9</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">214</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 12</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">301</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">399</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">375</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">316</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">250</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">154</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq"> 66</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32303" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>satisfaction_party_linke_v3</labl>
+      <sumStat type="valid">2167</sumStat>
+      <sumStat type="invalid">481</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  2</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">466</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 völlig unzufrieden</labl>
+        <catStat type="freq">299</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 21</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 völlig zufrieden</labl>
+        <catStat type="freq"> 16</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">273</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 13</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">335</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">327</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">283</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">286</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">156</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">102</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq"> 69</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32304" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>unity_gov_v2</labl>
+      <sumStat type="valid">2535</sumStat>
+      <sumStat type="invalid">113</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  1</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq"> 96</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 sehr zerstritten</labl>
+        <catStat type="freq">164</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 12</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr geschlossen</labl>
+        <catStat type="freq">  8</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">198</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 16</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">423</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">553</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">435</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">307</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">220</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">170</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq"> 45</catStat>
+      </catgry>
+    </var>
+    <var ID="rndCE32250" intrvl="string" files="GIP_W32_V1">
+      <labl>randomization page 8.00 ff</labl>
+      <sumStat type="valid">2648</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="CE32250" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>unity_party_cdu_v4</labl>
+      <sumStat type="valid">2475</sumStat>
+      <sumStat type="invalid">173</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">157</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 sehr zerstritten</labl>
+        <catStat type="freq"> 66</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 66</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr geschlossen</labl>
+        <catStat type="freq"> 24</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq"> 80</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 16</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">218</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">355</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">432</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">346</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">361</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">368</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq">159</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32252" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>unity_party_csu_v4</labl>
+      <sumStat type="valid">2417</sumStat>
+      <sumStat type="invalid">231</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">215</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 sehr zerstritten</labl>
+        <catStat type="freq">160</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 40</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr geschlossen</labl>
+        <catStat type="freq"> 18</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">222</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 16</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">378</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">471</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">377</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">283</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">218</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">160</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq"> 90</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32254" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>unity_party_spd_v4</labl>
+      <sumStat type="valid">2445</sumStat>
+      <sumStat type="invalid">203</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  2</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">185</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 sehr zerstritten</labl>
+        <catStat type="freq"> 48</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 48</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr geschlossen</labl>
+        <catStat type="freq"> 13</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq"> 80</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 16</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">198</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">397</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">443</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">444</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">379</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">277</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq">118</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32256" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>unity_party_fdp_v4</labl>
+      <sumStat type="valid">2318</sumStat>
+      <sumStat type="invalid">330</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">314</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 sehr zerstritten</labl>
+        <catStat type="freq"> 26</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq">195</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr geschlossen</labl>
+        <catStat type="freq"> 91</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq"> 32</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 16</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq"> 88</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">137</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">229</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">309</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">370</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">482</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq">359</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32258" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>unity_party_gruene_v4</labl>
+      <sumStat type="valid">2363</sumStat>
+      <sumStat type="invalid">285</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  1</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">268</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 sehr zerstritten</labl>
+        <catStat type="freq"> 46</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 63</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr geschlossen</labl>
+        <catStat type="freq"> 26</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq"> 66</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 16</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">171</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">294</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">393</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">388</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">399</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">358</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq">159</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32260" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>unity_party_linke_v4</labl>
+      <sumStat type="valid">2246</sumStat>
+      <sumStat type="invalid">402</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  1</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">385</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 sehr zerstritten</labl>
+        <catStat type="freq">122</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 42</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr geschlossen</labl>
+        <catStat type="freq"> 14</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">159</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 16</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">342</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">349</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">357</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">300</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">232</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">220</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq">109</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32262" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>unity_party_afd_v4</labl>
+      <sumStat type="valid">2419</sumStat>
+      <sumStat type="invalid">229</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  1</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">212</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 sehr zerstritten</labl>
+        <catStat type="freq">632</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 15</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr geschlossen</labl>
+        <catStat type="freq"> 18</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">523</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 16</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">518</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">294</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">148</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">106</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq"> 67</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq"> 54</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq"> 44</catStat>
+      </catgry>
+    </var>
+    <var ID="rndZJ32030" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>randomization page 15.00</labl>
+      <sumStat type="valid">2632</sumStat>
+      <sumStat type="invalid">16</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1-2-3</labl>
+        <catStat type="freq">1316</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 3-2-1</labl>
+        <catStat type="freq">1316</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  16</catStat>
+      </catgry>
+    </var>
+    <var ID="ZJ32030" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>role_party_leader_SPD_Schulz</labl>
+      <sumStat type="valid">2048</sumStat>
+      <sumStat type="invalid">600</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   2</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq"> 579</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. selbstständig über wichtige Angelegenheiten der Partei entscheidet und die Par</labl>
+        <catStat type="freq"> 285</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. Vorschläge über wichtige Angelegenheiten der Partei anhand seiner eigenen Inte</labl>
+        <catStat type="freq">1053</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  19</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. innerparteiliche Diskussionen über wichtige Angelegenheiten der Partei leitet u</labl>
+        <catStat type="freq"> 710</catStat>
+      </catgry>
+    </var>
+    <var ID="ZJ32031" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>competence_chair_SPD_Schulz</labl>
+      <sumStat type="valid">2452</sumStat>
+      <sumStat type="invalid">196</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">177</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 überhaupt nicht kompetent</labl>
+        <catStat type="freq">204</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 87</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr kompetent</labl>
+        <catStat type="freq"> 42</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">131</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 19</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">299</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">338</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">254</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">291</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">282</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">318</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq">206</catStat>
+      </catgry>
+    </var>
+    <var ID="rndCE32280" intrvl="string" files="GIP_W32_V1">
+      <labl>randomization page 17.00 ff</labl>
+      <sumStat type="valid">2648</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="CE32280" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>vagueness CDU/CSU</labl>
+      <sumStat type="valid">2442</sumStat>
+      <sumStat type="invalid">206</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">187</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 sehr vage</labl>
+        <catStat type="freq">121</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 27</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr genau</labl>
+        <catStat type="freq">  6</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">124</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 19</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">247</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">366</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">386</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">451</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">350</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">269</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq"> 95</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32281" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>vagueness SPD</labl>
+      <sumStat type="valid">2433</sumStat>
+      <sumStat type="invalid">215</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  1</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">195</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 sehr vage</labl>
+        <catStat type="freq">103</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 19</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr genau</labl>
+        <catStat type="freq"> 11</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">110</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 19</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">292</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">379</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">454</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">394</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">343</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">240</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq"> 88</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32282" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>vagueness FDP</labl>
+      <sumStat type="valid">2355</sumStat>
+      <sumStat type="invalid">293</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">274</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 sehr vage</labl>
+        <catStat type="freq"> 99</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 57</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr genau</labl>
+        <catStat type="freq"> 22</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq"> 75</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 19</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">228</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">270</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">374</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">372</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">375</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">320</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq">163</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32283" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>vagueness Bündnis 90/Die Grünen</labl>
+      <sumStat type="valid">2398</sumStat>
+      <sumStat type="invalid">250</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">231</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 sehr vage</labl>
+        <catStat type="freq">114</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 35</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr genau</labl>
+        <catStat type="freq"> 15</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">104</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 19</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">259</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">338</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">382</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">404</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">313</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">302</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq">132</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32284" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>vagueness Die Linke</labl>
+      <sumStat type="valid">2268</sumStat>
+      <sumStat type="invalid">380</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  1</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">360</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 sehr vage</labl>
+        <catStat type="freq">173</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 46</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr genau</labl>
+        <catStat type="freq"> 13</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">157</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 19</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">334</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">371</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">315</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">309</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">238</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">205</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq">107</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32291" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>vagueness AfD</labl>
+      <sumStat type="valid">2376</sumStat>
+      <sumStat type="invalid">272</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  1</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">252</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 sehr vage</labl>
+        <catStat type="freq">746</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10</labl>
+        <catStat type="freq"> 45</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. 11 sehr genau</labl>
+        <catStat type="freq"> 25</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">400</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 19</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">357</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">213</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">155</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">128</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">101</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">131</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq"> 75</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32305_a" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>active_football_club_last10y</labl>
+      <sumStat type="valid">2629</sumStat>
+      <sumStat type="invalid">19</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2417</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 212</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  19</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32305_b" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>active_local_society_last10y</labl>
+      <sumStat type="valid">2629</sumStat>
+      <sumStat type="invalid">19</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2366</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 263</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  19</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32305_c" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>vac_USA_Canada_AUS_NZ_last10y</labl>
+      <sumStat type="valid">2629</sumStat>
+      <sumStat type="invalid">19</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2149</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 480</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  19</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32305_d" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>activites_CE32305_none_last10y</labl>
+      <sumStat type="valid">2629</sumStat>
+      <sumStat type="invalid">19</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq"> 850</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">1779</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  19</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32306_a" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>vac_city_break_last10y</labl>
+      <sumStat type="valid">2629</sumStat>
+      <sumStat type="invalid">19</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1177</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">1452</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  19</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32306_b" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>vac_D_AUT_CH_last10y</labl>
+      <sumStat type="valid">2629</sumStat>
+      <sumStat type="invalid">19</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq"> 635</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">1994</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  19</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32306_c" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>vac_Africa_Asia_S-America_last10y</labl>
+      <sumStat type="valid">2629</sumStat>
+      <sumStat type="invalid">19</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2076</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 553</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  19</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32306_d" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>vac_USA_Canada_last10y</labl>
+      <sumStat type="valid">2629</sumStat>
+      <sumStat type="invalid">19</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2189</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 440</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  19</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32306_e" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>restaurant_Japanese_last10y</labl>
+      <sumStat type="valid">2629</sumStat>
+      <sumStat type="invalid">19</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1932</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 697</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  19</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32306_f" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>restaurant_Indian_last10y</labl>
+      <sumStat type="valid">2629</sumStat>
+      <sumStat type="invalid">19</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1726</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 903</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  19</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32306_g" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>activites_CE32306_none_last10y</labl>
+      <sumStat type="valid">2629</sumStat>
+      <sumStat type="invalid">19</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2344</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 285</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  19</catStat>
+      </catgry>
+    </var>
+    <var ID="rndCE32307" intrvl="string" files="GIP_W32_V1">
+      <labl>randomization page 25.00 ff</labl>
+      <sumStat type="valid">2648</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="CE32307" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>skalometer_Merkel</labl>
+      <sumStat type="valid">1036</sumStat>
+      <sumStat type="invalid">1612</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">  15</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. -5 überhaupt nichts</labl>
+        <catStat type="freq">  92</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. +4</labl>
+        <catStat type="freq"> 133</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. +5 sehr viel</labl>
+        <catStat type="freq">  88</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. -4</labl>
+        <catStat type="freq">  37</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">1597</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. -3</labl>
+        <catStat type="freq">  74</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. -2</labl>
+        <catStat type="freq">  67</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. -1</labl>
+        <catStat type="freq">  36</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 0</labl>
+        <catStat type="freq">  91</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. +1</labl>
+        <catStat type="freq">  69</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. +2</labl>
+        <catStat type="freq"> 167</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. +3</labl>
+        <catStat type="freq"> 182</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32308" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>skalometer_Gauland</labl>
+      <sumStat type="valid">867</sumStat>
+      <sumStat type="invalid">1781</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq"> 184</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. -5 überhaupt nichts</labl>
+        <catStat type="freq"> 525</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. +4</labl>
+        <catStat type="freq">  10</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. +5 sehr viel</labl>
+        <catStat type="freq">   6</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. -4</labl>
+        <catStat type="freq">  72</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">1597</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. -3</labl>
+        <catStat type="freq">  58</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. -2</labl>
+        <catStat type="freq">  41</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. -1</labl>
+        <catStat type="freq">  21</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 0</labl>
+        <catStat type="freq">  77</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. +1</labl>
+        <catStat type="freq">  23</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. +2</labl>
+        <catStat type="freq">  23</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. +3</labl>
+        <catStat type="freq">  11</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32309" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>skalometer_Schulz</labl>
+      <sumStat type="valid">1005</sumStat>
+      <sumStat type="invalid">1643</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">  48</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. -5 überhaupt nichts</labl>
+        <catStat type="freq"> 137</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. +4</labl>
+        <catStat type="freq">  46</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. +5 sehr viel</labl>
+        <catStat type="freq">  15</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. -4</labl>
+        <catStat type="freq">  77</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">1595</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. -3</labl>
+        <catStat type="freq">  94</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. -2</labl>
+        <catStat type="freq">  93</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. -1</labl>
+        <catStat type="freq">  62</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 0</labl>
+        <catStat type="freq"> 149</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. +1</labl>
+        <catStat type="freq"> 105</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. +2</labl>
+        <catStat type="freq"> 127</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. +3</labl>
+        <catStat type="freq"> 100</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32310" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>skalometer_Özdemir</labl>
+      <sumStat type="valid">964</sumStat>
+      <sumStat type="invalid">1684</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">  86</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. -5 überhaupt nichts</labl>
+        <catStat type="freq"> 106</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. +4</labl>
+        <catStat type="freq">  64</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. +5 sehr viel</labl>
+        <catStat type="freq">  36</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. -4</labl>
+        <catStat type="freq">  36</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">1598</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. -3</labl>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. -2</labl>
+        <catStat type="freq">  48</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. -1</labl>
+        <catStat type="freq">  44</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 0</labl>
+        <catStat type="freq"> 130</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. +1</labl>
+        <catStat type="freq"> 110</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. +2</labl>
+        <catStat type="freq"> 185</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. +3</labl>
+        <catStat type="freq"> 154</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32311" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>skalometer_Seehofer</labl>
+      <sumStat type="valid">973</sumStat>
+      <sumStat type="invalid">1675</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">  78</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. -5 überhaupt nichts</labl>
+        <catStat type="freq"> 194</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. +4</labl>
+        <catStat type="freq">  20</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. +5 sehr viel</labl>
+        <catStat type="freq">  21</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. -4</labl>
+        <catStat type="freq"> 107</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">1597</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. -3</labl>
+        <catStat type="freq"> 122</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. -2</labl>
+        <catStat type="freq">  96</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. -1</labl>
+        <catStat type="freq">  54</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 0</labl>
+        <catStat type="freq"> 121</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. +1</labl>
+        <catStat type="freq">  76</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. +2</labl>
+        <catStat type="freq">  83</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. +3</labl>
+        <catStat type="freq">  79</catStat>
+      </catgry>
+    </var>
+    <var ID="CE32055" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>futuresituation_ger_economy</labl>
+      <sumStat type="valid">2467</sumStat>
+      <sumStat type="invalid">181</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq"> 161</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. deutliche Verschlechterung</labl>
+        <catStat type="freq"> 164</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. leichte Verschlechterung</labl>
+        <catStat type="freq"> 538</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  20</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. weder Verschlechterung noch Verbesserung</labl>
+        <catStat type="freq">1212</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. leichte Verbesserung</labl>
+        <catStat type="freq"> 528</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. deutliche Verbesserung</labl>
+        <catStat type="freq">  25</catStat>
+      </catgry>
+    </var>
+    <var ID="AA32038" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>vote at last election</labl>
+      <sumStat type="valid">2199</sumStat>
+      <sumStat type="invalid">449</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-98</catValu>
+        <labl>-98. Möchte ich nicht sagen</labl>
+        <catStat type="freq">366</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. Weiß ich nicht mehr</labl>
+        <catStat type="freq"> 63</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. Habe nicht gewählt</labl>
+        <catStat type="freq">102</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. Andere Partei, und zwar (bitte eintragen):</labl>
+        <catStat type="freq"> 49</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11. AfD</labl>
+        <catStat type="freq">190</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. Nicht wahlberechtigt (nicht volljährig/keine deutsche Staatsbürgerschaft)</labl>
+        <catStat type="freq"> 44</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 20</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. CDU / CSU</labl>
+        <catStat type="freq">575</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. SPD</labl>
+        <catStat type="freq">442</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. FDP</labl>
+        <catStat type="freq">288</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. Bündnis 90 / Die Grünen</labl>
+        <catStat type="freq">272</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. Die Linke</labl>
+        <catStat type="freq">221</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. NPD</labl>
+        <catStat type="freq">  5</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. Piratenpartei</labl>
+        <catStat type="freq"> 11</catStat>
+      </catgry>
+    </var>
+    <var ID="AJ32030" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>Own_Mobilephone_v2</labl>
+      <sumStat type="valid">2627</sumStat>
+      <sumStat type="invalid">21</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   1</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. ja, besitze ich</labl>
+        <catStat type="freq">2504</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. nein, besitze ich nicht</labl>
+        <catStat type="freq"> 123</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  20</catStat>
+      </catgry>
+    </var>
+    <var ID="AJ32004" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>Mobilephone_is_Smartphone</labl>
+      <sumStat type="valid">2494</sumStat>
+      <sumStat type="invalid">154</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   1</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. bin nicht sicher/weiß nicht</labl>
+        <catStat type="freq">   8</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. ja, ein Smartphone</labl>
+        <catStat type="freq">2186</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. nein, kein Smartphone</labl>
+        <catStat type="freq"> 308</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 145</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32001" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>smartphone_freq</labl>
+      <sumStat type="valid">2185</sumStat>
+      <sumStat type="invalid">463</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   1</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. mehrmals täglich</labl>
+        <catStat type="freq">1513</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. täglich</labl>
+        <catStat type="freq"> 314</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. mehrmals in der Woche</labl>
+        <catStat type="freq"> 188</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. mehrmals im Monat</labl>
+        <catStat type="freq">  80</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. einmal im Monat oder seltener</labl>
+        <catStat type="freq">  90</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32002_a" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>act_smartphone_website</labl>
+      <sumStat type="valid">2186</sumStat>
+      <sumStat type="invalid">462</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq"> 510</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">1676</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32002_b" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>act_smartphone_email</labl>
+      <sumStat type="valid">2186</sumStat>
+      <sumStat type="invalid">462</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq"> 521</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">1665</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32002_c" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>act_smartphone_photo</labl>
+      <sumStat type="valid">2186</sumStat>
+      <sumStat type="invalid">462</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq"> 217</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">1969</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32002_d" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>act_smartphone_visitSM</labl>
+      <sumStat type="valid">2186</sumStat>
+      <sumStat type="invalid">462</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1163</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">1023</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32002_e" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>act_smartphone_postSM</labl>
+      <sumStat type="valid">2186</sumStat>
+      <sumStat type="invalid">462</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1614</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 572</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32002_f" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>act_smartphone_shop</labl>
+      <sumStat type="valid">2186</sumStat>
+      <sumStat type="invalid">462</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1463</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 723</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32002_g" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>act_smartphone_banking</labl>
+      <sumStat type="valid">2186</sumStat>
+      <sumStat type="invalid">462</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1632</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 554</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32002_h" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>act_smartphone_apps</labl>
+      <sumStat type="valid">2186</sumStat>
+      <sumStat type="invalid">462</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1262</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 924</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32002_i" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>act_smartphone_GPS</labl>
+      <sumStat type="valid">2186</sumStat>
+      <sumStat type="invalid">462</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq"> 908</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">1278</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32002_j" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>act_smartphone_bluetooth</labl>
+      <sumStat type="valid">2186</sumStat>
+      <sumStat type="invalid">462</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1455</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 731</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32002_k" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>act_smartphone_game</labl>
+      <sumStat type="valid">2186</sumStat>
+      <sumStat type="invalid">462</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1543</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 643</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32002_l" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>act_smartphone_music</labl>
+      <sumStat type="valid">2186</sumStat>
+      <sumStat type="invalid">462</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1333</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 853</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32002_m" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>act_smartphone_none</labl>
+      <sumStat type="valid">2186</sumStat>
+      <sumStat type="invalid">462</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2141</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">  45</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32003" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>smartphone_skills</labl>
+      <sumStat type="valid">2185</sumStat>
+      <sumStat type="invalid">463</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 Anfänger/-in</labl>
+        <catStat type="freq">111</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">271</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">463</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">658</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">624</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5 Fortgeschrittene/-r</labl>
+        <catStat type="freq">521</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32004" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>concern_privacy</labl>
+      <sumStat type="valid">2626</sumStat>
+      <sumStat type="invalid">22</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. überhaupt nicht besorgt</labl>
+        <catStat type="freq"> 152</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. wenig besorgt</labl>
+        <catStat type="freq"> 819</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  22</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. etwas besorgt</labl>
+        <catStat type="freq">1209</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. sehr besorgt</labl>
+        <catStat type="freq"> 446</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32005" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>concern_websurvey</labl>
+      <sumStat type="valid">2183</sumStat>
+      <sumStat type="invalid">465</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  2</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. überhaupt nicht besorgt</labl>
+        <catStat type="freq">174</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. wenig besorgt</labl>
+        <catStat type="freq">633</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">463</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. etwas besorgt</labl>
+        <catStat type="freq">934</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. sehr besorgt</labl>
+        <catStat type="freq">442</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32006" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>concern_app</labl>
+      <sumStat type="valid">2182</sumStat>
+      <sumStat type="invalid">466</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  3</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. überhaupt nicht besorgt</labl>
+        <catStat type="freq"> 64</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. wenig besorgt</labl>
+        <catStat type="freq">298</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">463</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. etwas besorgt</labl>
+        <catStat type="freq">912</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. sehr besorgt</labl>
+        <catStat type="freq">908</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32007" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>concern_photo</labl>
+      <sumStat type="valid">2184</sumStat>
+      <sumStat type="invalid">464</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  1</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. überhaupt nicht besorgt</labl>
+        <catStat type="freq">200</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. wenig besorgt</labl>
+        <catStat type="freq">722</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">463</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. etwas besorgt</labl>
+        <catStat type="freq">829</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. sehr besorgt</labl>
+        <catStat type="freq">433</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32008" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>concern_sensor</labl>
+      <sumStat type="valid">2181</sumStat>
+      <sumStat type="invalid">467</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  4</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. überhaupt nicht besorgt</labl>
+        <catStat type="freq">282</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. wenig besorgt</labl>
+        <catStat type="freq">768</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">463</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. etwas besorgt</labl>
+        <catStat type="freq">616</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. sehr besorgt</labl>
+        <catStat type="freq">515</catStat>
+      </catgry>
+    </var>
+    <var ID="AM32009" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>concern_GPS</labl>
+      <sumStat type="valid">2182</sumStat>
+      <sumStat type="invalid">466</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  3</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. überhaupt nicht besorgt</labl>
+        <catStat type="freq">125</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. wenig besorgt</labl>
+        <catStat type="freq">446</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">463</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. etwas besorgt</labl>
+        <catStat type="freq">752</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. sehr besorgt</labl>
+        <catStat type="freq">859</catStat>
+      </catgry>
+    </var>
+    <var ID="AE32090" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>relationship status</labl>
+      <sumStat type="valid">2551</sumStat>
+      <sumStat type="invalid">97</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   1</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-98</catValu>
+        <labl>-98. das möchte ich nicht beantworten</labl>
+        <catStat type="freq">  74</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. nein</labl>
+        <catStat type="freq"> 456</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. ja</labl>
+        <catStat type="freq">2095</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  22</catStat>
+      </catgry>
+    </var>
+    <var ID="AE32091" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>satisfaction with relationship</labl>
+      <sumStat type="valid">2018</sumStat>
+      <sumStat type="invalid">630</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-98</catValu>
+        <labl>-98. das möchte ich nicht beantworten</labl>
+        <catStat type="freq"> 76</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">  1</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. völlig unzufrieden</labl>
+        <catStat type="freq"> 73</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. sehr unzufrieden</labl>
+        <catStat type="freq">105</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">553</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. ziemlich unzufrieden</labl>
+        <catStat type="freq"> 84</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. weder unzufrieden noch zufrieden</labl>
+        <catStat type="freq">112</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. ziemlich zufrieden</labl>
+        <catStat type="freq">390</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. sehr zufrieden</labl>
+        <catStat type="freq">668</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. völlig zufrieden</labl>
+        <catStat type="freq">586</catStat>
+      </catgry>
+    </var>
+    <var ID="AE32092" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>self-assessment attractiveness</labl>
+      <sumStat type="valid">2287</sumStat>
+      <sumStat type="invalid">361</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   4</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-98</catValu>
+        <labl>-98. das möchte ich nicht beantworten</labl>
+        <catStat type="freq"> 205</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq"> 130</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. Ich finde mich sehr unattraktiv.</labl>
+        <catStat type="freq">  24</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. Ich finde mich recht unattraktiv.</labl>
+        <catStat type="freq"> 131</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  22</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. Ich finde mich weder unattraktiv noch attraktiv.</labl>
+        <catStat type="freq">1123</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. Ich finde mich recht attraktiv.</labl>
+        <catStat type="freq"> 941</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. Ich finde mich sehr attraktiv.</labl>
+        <catStat type="freq">  68</catStat>
+      </catgry>
+    </var>
+    <var ID="AE32093" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>sex frequency</labl>
+      <sumStat type="valid">1431</sumStat>
+      <sumStat type="invalid">1217</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  10</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-98</catValu>
+        <labl>-98. das möchte ich nicht beantworten</labl>
+        <catStat type="freq">1148</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq">  35</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. Ich hatte noch nie Geschlechtsverkehr.</labl>
+        <catStat type="freq">  31</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10.  </labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>11</catValu>
+        <labl>11.  </labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>12</catValu>
+        <labl>12.  </labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. nicht in den letzten 3 Monaten</labl>
+        <catStat type="freq"> 333</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  24</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. einmal im Monat oder weniger</labl>
+        <catStat type="freq"> 200</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. zwei- oder dreimal im Monat</labl>
+        <catStat type="freq"> 298</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. einmal in der Woche</labl>
+        <catStat type="freq"> 302</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. zwei- bis dreimal in der Woche</labl>
+        <catStat type="freq"> 180</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. mehr als dreimal in der Woche</labl>
+        <catStat type="freq">  70</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. täglich</labl>
+        <catStat type="freq">  17</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9.  </labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+    </var>
+    <var ID="AE32094" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>satisfaction sex life</labl>
+      <sumStat type="valid">1710</sumStat>
+      <sumStat type="invalid">938</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  7</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-98</catValu>
+        <labl>-98. das möchte ich nicht beantworten</labl>
+        <catStat type="freq">878</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq"> 29</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>0</catValu>
+        <labl>0. 0 sehr unzufrieden</labl>
+        <catStat type="freq"> 84</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1</labl>
+        <catStat type="freq"> 52</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>10</catValu>
+        <labl>10. 10 sehr zufrieden</labl>
+        <catStat type="freq">180</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq">120</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 24</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">137</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4</labl>
+        <catStat type="freq">125</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. 5</labl>
+        <catStat type="freq">228</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>6</catValu>
+        <labl>6. 6</labl>
+        <catStat type="freq">164</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>7</catValu>
+        <labl>7. 7</labl>
+        <catStat type="freq">222</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>8</catValu>
+        <labl>8. 8</labl>
+        <catStat type="freq">275</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>9</catValu>
+        <labl>9. 9</labl>
+        <catStat type="freq">123</catStat>
+      </catgry>
+    </var>
+    <var ID="AE32095" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>change satisfaction sex life</labl>
+      <sumStat type="valid">1672</sumStat>
+      <sumStat type="invalid">976</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  7</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-98</catValu>
+        <labl>-98. das möchte ich nicht beantworten</labl>
+        <catStat type="freq">872</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-99</catValu>
+        <labl>-99. weiß nicht</labl>
+        <catStat type="freq"> 73</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. viel unzufriedener als früher</labl>
+        <catStat type="freq">223</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. etwas unzufriedener als früher</labl>
+        <catStat type="freq">476</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 24</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. ebenso zufrieden wie früher</labl>
+        <catStat type="freq">507</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. etwas zufriedener als früher</labl>
+        <catStat type="freq">209</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. viel zufriedener als früher</labl>
+        <catStat type="freq">257</catStat>
+      </catgry>
+    </var>
+    <var ID="QE32001" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>Fragebogen: interessant</labl>
+      <sumStat type="valid">2622</sumStat>
+      <sumStat type="invalid">26</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   2</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 überhaupt nicht</labl>
+        <catStat type="freq"> 149</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq"> 773</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  24</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">1325</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4 sehr</labl>
+        <catStat type="freq"> 375</catStat>
+      </catgry>
+    </var>
+    <var ID="QE32002" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>Fragebogen: abwechslungsreich</labl>
+      <sumStat type="valid">2620</sumStat>
+      <sumStat type="invalid">28</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   4</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 überhaupt nicht</labl>
+        <catStat type="freq">  88</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq"> 526</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  24</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">1302</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4 sehr</labl>
+        <catStat type="freq"> 704</catStat>
+      </catgry>
+    </var>
+    <var ID="QE32003" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>Fragebogen: relevant</labl>
+      <sumStat type="valid">2620</sumStat>
+      <sumStat type="invalid">28</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   4</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 überhaupt nicht</labl>
+        <catStat type="freq"> 150</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq"> 930</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  24</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq">1253</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4 sehr</labl>
+        <catStat type="freq"> 287</catStat>
+      </catgry>
+    </var>
+    <var ID="QE32004" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>Fragebogen: lang</labl>
+      <sumStat type="valid">2622</sumStat>
+      <sumStat type="invalid">26</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   2</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 überhaupt nicht</labl>
+        <catStat type="freq">1384</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq"> 988</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  24</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq"> 217</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4 sehr</labl>
+        <catStat type="freq">  33</catStat>
+      </catgry>
+    </var>
+    <var ID="QE32005" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>Fragebogen: schwierig</labl>
+      <sumStat type="valid">2620</sumStat>
+      <sumStat type="invalid">28</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   4</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 überhaupt nicht</labl>
+        <catStat type="freq">1395</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq"> 893</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  24</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq"> 301</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4 sehr</labl>
+        <catStat type="freq">  31</catStat>
+      </catgry>
+    </var>
+    <var ID="QE32006" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>Fragebogen: zu persönlich</labl>
+      <sumStat type="valid">2622</sumStat>
+      <sumStat type="invalid">26</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   2</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. 1 überhaupt nicht</labl>
+        <catStat type="freq"> 178</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. 2</labl>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  24</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. 3</labl>
+        <catStat type="freq"> 974</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. 4 sehr</labl>
+        <catStat type="freq">1008</catStat>
+      </catgry>
+    </var>
+    <var ID="QE32007" intrvl="labeled_numeric" files="GIP_W32_V1">
+      <labl>Wie hat Ihnen die Befragung insgesamt gefallen?</labl>
+      <sumStat type="valid">2622</sumStat>
+      <sumStat type="invalid">26</sumStat>
+      <catgry missing="TRUE">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   2</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>1. überhaupt nicht</labl>
+        <catStat type="freq">  68</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>2. nicht so gut</labl>
+        <catStat type="freq"> 320</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq">  24</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>3</catValu>
+        <labl>3. mittelmäßig</labl>
+        <catStat type="freq"> 934</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>4</catValu>
+        <labl>4. gut</labl>
+        <catStat type="freq">1142</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>5. sehr gut</labl>
+        <catStat type="freq"> 158</catStat>
+      </catgry>
+    </var>
+  </dataDscr>
+  <fileDscr ID="GIP_W32_V1"/>
+</codebook>
