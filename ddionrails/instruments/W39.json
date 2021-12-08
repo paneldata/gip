@@ -34,6 +34,7 @@
           "item": "0",
           "text": "Welche (berufliche) Tätigkeit üben Sie derzeit hauptsächlich aus?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -122,6 +123,7 @@
         {
           "item": "0",
           "text": "Für wie wahrscheinlich halten Sie es, dass Sie in den nächsten 12 Monaten arbeitslos werden?",
+          "filter": "AA39005 = 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13 (vollzeiterwerbstätig oder teilzeiterwerbstätig oder geringfügig erwerbstätig, 450-Euro-Job, Minijob oder gelegentlich oder unregelmäßig beschäftigt bis Student/-in)",
           "scale": "cat",
           "answers": [
             {
@@ -333,6 +335,7 @@
           "item": "0",
           "text": "Bitte geben Sie die Art Ihrer Krankenversicherung an.",
           "instruction": "Private Zusatzversicherungen für zusätzliche Leistungen sind nicht gemeint.",
+          "description": "Private Zusatzversicherungen für zusätzliche Leistungen sind nicht gemeint.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -502,6 +505,7 @@
           "item": "0",
           "text": "Wie hoch sollte Ihrer Meinung nach das gesetzliche Rentenalter in Deutschland sein?",
           "instruction": "Mit gesetzlichem Rentenalter meinen wir das Alter, in dem man ohne Abschläge bei der Rente in den Ruhestand gehen kann.",
+          "description": "Mit gesetzlichem Rentenalter meinen wir das Alter, in dem man ohne Abschläge bei der Rente in den Ruhestand gehen kann.",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -521,6 +525,8 @@
           "item": "0",
           "text": "Haben Sie im Jahr 2018 Zahlungen aus einer der folgenden Quellen bekommen?",
           "instruction": "Bitte geben Sie alle zutreffenden Quellen an.",
+          "description": "Bitte geben Sie alle zutreffenden Quellen an.",
+          "filter": "AA39005 = 3, 14 (Altersteilzeit oder in Rente, Pension oder im Vorruhestand)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -603,6 +609,8 @@
           "item": "0",
           "text": "Haben Sie im vergangenen Jahr Beiträge zu einer der folgenden Arten der Altersvorsorge geleistet?",
           "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "filter": "AA39005 = 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16 (vollzeiterwerbstätig oder teilzeiterwerbstätig oder geringfügig erwerbstätig, 450-Euro-Job, Minijob bis Student/-in oder arbeitslos bis Hausfrau/Hausmann)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -645,7 +653,7 @@
         {
           "item": "6",
           "text": "andere Altersvorsorge, und zwar:",
-          "scale": "str",
+          "scale": "chr",
           "sn": 6,
           "number": ""
         },
@@ -671,6 +679,7 @@
           "item": "0",
           "text": "Die Alterssicherung in Deutschland besteht aus fünf Säulen, die zur Finanzierung der Alterssicherung der Bevölkerung beitragen. \n[wenn expAC39196a =1: In der folgenden Übersicht sehen Sie in welchem Umfang jede Säule aktuell zur Finanzierung beiträgt (Vorschlag 1 – Status quo).\nEs gibt Diskussionen darüber, ob diese Verteilung auf die einzelnen Säulen sinnvoll ist. Daher sehen Sie in der Tabelle einen zweiten Vorschlag, wie man die Finanzierung der Renten verändern könnte.]\n[wenn expAC39196a =2: Es gibt Diskussionen darüber, welche Verteilung auf die einzelnen Säulen am sinnvollsten ist. In der folgenden Übersicht sehen Sie zwei Vorschläge in welchem Umfang jede Säule zur Finanzierung der Renten beitragen sollte.]\n\nWelchen der beiden Vorschläge würden Sie auswählen?\n\nVorschlag 1 [wenn expAC39196a = 1: (Status quo)]; Vorschlag 2\n- Staatliche Leistungen für Grundsicherung im Alter: 10%; X%\n- Pensionen für Beamten/innen aus Staatshaushalt: 10%; X%\n- Gesetzliche Rentenversicherung: 60%; X%\n- Arbeitgeber und Arbeitnehmer durch Betriebsrenten: 10%; X%\n- Jeder Einzelne (durch eigene private Altersvorsorge): 10%; X%",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Experiment: In der Frage sollen die Befragten sich jeweils zwischen zwei Alternativen entscheiden. Die erste Alternative bleibt dabei immer gleich, lediglich deren Bezeichnung (als Status Quo oder Vorschlag 1) soll variiert werden.\n=> 2 Gruppen mit unterschiedlichem Fragetext.\n\nFür den Alternativvorschlag (Vorschlag 2) gibt es sechs Varianten.\nBei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -703,6 +712,7 @@
         {
           "item": "0",
           "text": "In letzter Zeit wird viel über das deutsche Rentensystem diskutiert. Mit welchem Alter sollte man in den Ruhestand gehen dürfen? Wie hoch sollte die Rente sein, damit sie zum Leben ausreicht? Welchen Beitrag muss jeder Einzelne bezahlen um diese Rentenhöhe sicherzustellen? Sollten Mütter für Erziehungszeiten einen Zuschuss zu ihrer Rente bekommen? Und nach wie vielen Berufsjahren darf man auch ohne Abschläge vor dem offiziellen Renteneintrittsalter in den Ruhestand gehen?\n      \nWir werden Ihnen im Folgenden jeweils zwei Alternativen präsentieren, wie diese Rentenregeln aussehen könnten. Wir möchten Sie bitten zu entscheiden, welchen der beiden Vorschläge Sie besser finden.\n\nDabei gibt es keine richtige oder falsche Antwort, es geht ausschließlich um Ihre persönliche Wahl.",
+          "description": "Conjoint Experiment: In den folgenden Fragen sollen die Befragten sich jeweils zwischen zwei Alternativen entscheiden. Jedem Befragten werden im Voraus randomisiert Kombinationen von Werten verschiedener Attribute zugewiesen.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -722,6 +732,7 @@
           "item": "0",
           "text": "Welchen der beiden Vorschläge würden Sie auswählen?\nVorschlag 1; Vorschlag 2\n- Rentenalter (Das volle Rentenniveau wird erreicht, wenn man bis zu diesem Rentenalter arbeitet. Möchte man früher in Rente gehen, dann wird die Rente um 3,6% pro Jahr gekürzt.)  \n- Rentenniveau (bei Erreichen der Regelaltersgrenze)\n- Abschlagsfreier Renteneintritt vor Erreichen des Rentenalters  \n- Beitragssatz (Anteil des Bruttolohns, wird bei Angestellten jeweils zur Hälfte von Arbeitnehmern und Arbeitgebern gezahlt)  \n- Rentenbonus für Erziehungszeiten",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -755,6 +766,7 @@
           "item": "0",
           "text": "Welchen der beiden Vorschläge würden Sie auswählen?\nVorschlag 1; Vorschlag 2\n- Rentenalter (Das volle Rentenniveau wird erreicht, wenn man bis zu diesem Rentenalter arbeitet. Möchte man früher in Rente gehen, dann wird die Rente um 3,6% pro Jahr gekürzt.)  \n- Rentenniveau (bei Erreichen der Regelaltersgrenze)  \n- Abschlagsfreier Renteneintritt vor Erreichen des Rentenalters  \n- Beitragssatz (Anteil des Bruttolohns, wird bei Angestellten jeweils zur Hälfte von Arbeitnehmern und Arbeitgebern gezahlt)  \n- Rentenbonus für Erziehungszeiten",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -976,6 +988,7 @@
           "item": "0",
           "text": "Wie hoch sollte Ihrer Meinung nach der gesetzliche Mindestlohn in Deutschland sein?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -1144,6 +1157,7 @@
         {
           "item": "0",
           "text": "Sollte der Staat Ihrer Meinung nach dafür verantwortlich sein, [expAC39203 = 1 bis 4: ] [expAC39203 = 5 bis 8: kostenfreie] Kinderbetreuung für [expAC39203 = 1, 5: Kinder aller Eltern] [expAC39203 = 2, 6: Kinder von berufstätigen Eltern] [expAC39203 = 3, 7: Kinder von alleinerziehenden Eltern] [expAC39203 = 4, 8: Kinder von Migranten] bereitzustellen?",
+          "description": "8 Gruppen mit jeweils unterschiedlichem Fragetext, Zuteilung zu den Experimentalgruppen in Variable expAC39203 speichern.",
           "scale": "cat",
           "answers": [
             {
@@ -1276,6 +1290,7 @@
         {
           "item": "0",
           "text": "In Deutschland gilt seit Januar 2016 eine gesetzliche Frauenquote für Aufsichtsräte von großen, börsennotierten Unternehmen, dies betrifft in Deutschland gut 100 Unternehmen. [expAC39163 = 1: ] [expAC39163 = 2: Hier ist der Frauenanteil bis Ende des Jahres 2017 auf durchschnittlich gut 30 Prozent gestiegen.] [expAC39163 = 3: Hier ist der Frauenanteil bis Ende des Jahres 2017 auf durchschnittlich gut 30 Prozent gestiegen. In Unternehmensvorständen, für die es in Deutschland bislang keine Quotenregelung gibt, liegt der Anteil bei etwas mehr als 8 Prozent.]\n\nWie ist vor diesem Hintergrund Ihre Meinung zu einer Ausweitung der bestehenden gesetzlichen Frauenquote für Führungsgremien von Unternehmen in Deutschland?",
+          "description": "3 Gruppen mit unterschiedlichem Fragetext. Zuteilung zu den Experimentalgruppen in Variable expAC39163 speichern",
           "scale": "cat",
           "answers": [
             {
@@ -1408,6 +1423,7 @@
         {
           "item": "0",
           "text": "[expAC39205 = 1: Ein Kind, das noch nicht zur Schule geht, wird darunter leiden, wenn seine Mutter berufstätig ist.] [expAC39205 = 2: Ein Kind unter 3 Jahren wird darunter leiden, wenn seine Mutter berufstätig ist.]",
+          "description": "2 Gruppen mit unterschiedlichem Fragetext. Zuteilung zu den Experimentalgruppen in Variable expAC39205  speichern.",
           "scale": "cat",
           "answers": [
             {
@@ -1620,6 +1636,7 @@
         {
           "item": "0",
           "text": "Machen Sie die Spende in Ihrer Steuererklärung geltend?",
+          "filter": "AE39098 = 1,2 (Person spendet)\n\n",
           "scale": "cat",
           "answers": [
             {
@@ -1764,6 +1781,7 @@
         {
           "item": "0",
           "text": "[wenn expCM39001=1: Stellen Sie sich die Gesellschaft als Leiter vor, die den Status der Bürger beschreibt. Sehen Sie dazu auch die Grafik, welche auf der rechten Seite eingeblendet wird. Die Reichsten und Einflussreichsten in unserer Gesellschaft befinden sich ganz oben auf dieser Leiter: sie haben die höchsten Vermögen und Einkommen, und die am meisten respektierten Berufe in unserer Gesellschaft. Darunter folgen die weniger wohlhabenden und einflussreichen Bürger.\n\nDie meisten von uns stehen weiter unten auf dieser Leiter, und wir haben bestimmte Vorstellungen über diese uns vielleicht recht unbekannte Gruppe der Reichen. Über diese Vorstellungen der weniger gut situierten über die Reichen und Einflussreichen wollen wir uns einen Überblick verschaffen. Bitte beurteilen Sie dazu die folgende Aussage über die Reichen in unserem Land: \n\nDie Reichen haben keine Sorgen.]\n\n[wenn expCM39001=2: Stellen Sie sich die Gesellschaft als Leiter vor, die den Status der Bürger beschreibt. Sehen Sie dazu auch die Grafik, welche auf der rechten Seite eingeblendet wird. Die Ärmsten und am wenigsten Einflussreichen in unserer Gesellschaft befinden sich ganz unten auf dieser Leiter: sie haben das geringste Vermögen und Einkommen, und die am wenigsten respektierten Berufe in unserer Gesellschaft. Darüber folgen die wohlhabenderen und einflussreicheren Bürger.\n\nDie meisten von uns stehen weiter oben auf dieser Leiter, und wir haben bestimmte Vorstellungen über diese uns vielleicht recht unbekannte Gruppe der Armen.  Über diese Vorstellungen der besser situierten über die Armen und Einflusslosen wollen wir uns einen Überblick verschaffen.  Bitte beurteilen Sie dazu die folgende Aussage über die Armen in unserem Land:\n\nDie Armen haben viele Sorgen.]",
+          "description": "50 % jeder Einkommensklasse der Frage AA37054 in Wave 37 erhält Treatment 1 (poor).\n50 % jeder Einkommensklasse der Frage AA37054 in Wave 37 erhält Treatment 2 (rich).\nAlle Teilnehmer, die ein missing oder keine Angabe zu Frage AA37054 gemacht haben, sollen ebenfalls zu 50% in Treatment 1 (poor) und zu 50% in Treatment 2 (rich) zugeteilt werden.\nZuteilung zu den Experimentalgruppen in separater Variable expCM39001 speichern, wobei 1=Treatment 1 und 2=Treatment 2.",
           "scale": "cat",
           "answers": [
             {
@@ -2149,6 +2167,8 @@
           "item": "0",
           "text": "Sie werden nun am Buchstaben-Glücksrad teilnehmen. Sie können dabei mit etwas Glück eine beträchtliche Summe Geld gewinnen. Das Glücksrad zeigt die ersten 11 Buchstaben des Alphabets, von A bis K. Das Glücksrad funktioniert wie folgt: Sie müssen zuerst einen Buchstaben zwischen A und K wählen und sich merken. Dann wird das virtuelle Glücksrad gestartet und der Computer wählt einen dieser Buchstaben (von A bis K) mit gleicher Wahrscheinlichkeit aus. Nachdem Sie das Ergebnis des virtuellen Glücksrades sehen, müssen Sie den ursprünglich erdachten Buchstaben am Bildschirm eintragen.\n\nIhre Auszahlung wird dann wie folgt berechnet: Wenn der von Ihnen gewählte Buchstabe dem zufällig gewählten Buchstaben am Glücksrad entspricht, beträgt die Auszahlung für Sie 20 Euro. Andernfalls werden die Anzahl der Schritte im Uhrzeigersinn (siehe Glücksrad Abbildung) gezählt, die Sie ausführen müssen, um den vom Glücksrad getroffenen Buchstaben von dem von Ihnen gewählten Buchstaben zu erreichen. Für jeden Schritt ziehen wir 2Euro von den 20Euro ab. Hier ein Beispiel: Ihr gewählter Buchstabe ist K, das Glücksrad trifft den Buchstaben C, was drei Schritte ergibt. Die Auszahlung beträgt dann 20Euro - 3 Schritte à je 2Euro = 14Euro. \n\nZusammenfassend besteht diese Aufgabe also aus den folgenden drei Schritten:\n\n1. Stellen  Sie sich zuerst in Gedanken einen Buchstaben von A bis K vor und merken Sie sich diesen genau. \n2. Dann wird das virtuelle Glücksrad gedreht. Ihr Buchstabe ist zu diesem Zeitpunkt natürlich nur Ihnen bekannt und noch nicht im Computer registriert.\n3. Tragen Sie nun in einem entsprechenden Feld ein, welchen Buchstaben Sie in Schritt 1 im Kopf gewählt haben. Ihre Auszahlung wird dann von Computer, als Distanz zwischen dem vom Computer zufällig ausgewählten und dem von Ihnen eingetragenen Buchstaben, berechnet.\n\nSpäter wird unter allen Teilnehmern die an diesem Spiel teilgenommen haben, genau 300 Teilnehmer zufällig ausgewählt und diesen echtes Geld ausgezahlt, gegeben dem Ausgang des Buchstaben-Glücksrad. Die Geldbeträge werden den Teilnehmern jeweils auf dem Studienkonto gutgeschrieben. Kein Teilnehmer kann mehr als einmal ausgewählt werden. Wir erwarten ungefähr 5000 Teilnehmer an dieser Umfrage. \n\nBitte wählen Sie in ihrem Kopf einen Buchstaben zwischen A und K. \n\nKlicken Sie auf „Glücksrad starten“ wenn Sie einen Buchstaben ausgewählt haben.",
           "instruction": "[Button „Glücksrad starten“]",
+          "description": "[Button „Glücksrad starten“]",
+          "filter": "wenn javascript aktiv, sonst weiter zu DZ39001. Information, ob javascript aktiv ist in neuer Variable CM39012_js ablegen.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2173,7 +2193,7 @@
         },
         {
           "item": "1",
-          "scale": "str",
+          "scale": "chr",
           "sn": 1,
           "number": ""
         },
@@ -2198,6 +2218,7 @@
           "item": "0",
           "text": "Wie zufrieden oder unzufrieden sind Sie - alles in allem - mit der Demokratie, so wie sie in Deutschland besteht?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben",
           "scale": "cat",
           "answers": [
             {
@@ -2247,6 +2268,7 @@
           "item": "0",
           "text": "Was glauben Sie, wie wird Ihre eigene wirtschaftliche Lage in einem Jahr sein?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben",
           "scale": "cat",
           "answers": [
             {
@@ -2296,6 +2318,7 @@
           "item": "0",
           "text": "Was bedeutet die Europäische Union für Sie persönlich?",
           "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2401,7 +2424,7 @@
         {
           "item": "15",
           "text": "Etwas andres und zwar: Bitte tragen Sie hier ein, was die EU für Sie persönlich bedeutet",
-          "scale": "str",
+          "scale": "chr",
           "sn": 15,
           "number": ""
         },
@@ -2427,6 +2450,7 @@
           "item": "0",
           "text": "Für wie wahrscheinlich oder unwahrscheinlich halten Sie es, dass sich innerhalb der nächsten fünf Jahre mindestens ein Land außer dem Vereinigten Königreich dazu entscheidet, die Europäische Union zu verlassen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2476,6 +2500,7 @@
           "item": "0",
           "text": "Nehmen Sie an, eine Abstimmung über die Mitgliedschaft Deutschlands in der Europäischen Union würde am kommenden Sonntag stattfinden. Wie würden Sie abstimmen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2818,7 +2843,7 @@
         {
           "item": "0",
           "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
-          "scale": "str",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }

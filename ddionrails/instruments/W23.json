@@ -34,6 +34,8 @@
           "item": "0",
           "text": "Was ist Ihre persönliche Meinung zum Gesundheitssystem in Deutschland? Inwieweit sollte die Bundesregierung das Gesundheitssystem verändern?",
           "instruction": "Bitte antworten Sie anhand der Skala.",
+          "description": "Befragte zufällig auf 2 Gruppen aufteilen.\n- 1/2 der Befragten bekommen Fragen RM23001, RM23004, RM23007, RM23010, RM23015 und RM23018  mit horizontaler Antwortskala wie in Welle 17 (Gruppe 1)\n- 1/2 der Befragten bekommen Fragen RM23001, RM23004, RM23007, RM23010, RM23015 und RM23018 mit vertikaler Antwortskala (Gruppe 2)\nZuteilung zu den Experimentalgruppen in separater Variable expRM23001 speichern.\nBitte antworten Sie anhand der Skala.",
+          "filter": "expRM23001 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -110,6 +112,8 @@
           "item": "0",
           "text": "Was ist Ihre persönliche Meinung zum Gesundheitssystem in Deutschland? Inwieweit sollte die Bundesregierung das Gesundheitssystem verändern?",
           "instruction": "Bitte antworten Sie anhand der Skala.",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "filter": "expRM23001 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -186,6 +190,7 @@
           "item": "0",
           "text": "Die Ausgaben für das Gesundheitssystem sind in den letzten Jahren gestiegen. Um Einnahmen und Ausgaben im Gleichgewicht zu halten, gibt es unterschiedliche Maßnahmen, die im Folgenden aufgeführt sind.\n\nWelche dieser Maßnahmen befürworten Sie?",
           "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -235,7 +240,7 @@
         {
           "item": "7",
           "text": "Sonstiges, und zwar:",
-          "scale": "str",
+          "scale": "chr",
           "sn": 7,
           "number": ""
         },
@@ -261,6 +266,7 @@
           "item": "0",
           "text": "Ein Hausarztmodell verpflichtet jeden Patienten bei gesundheitlichen Problemen zuerst zu seinem Hausarzt zu gehen. Dieser entscheidet dann, ob Patienten zu einem Facharzt überwiesen werden. In Notfällen ist keine Überweisung erforderlich.\n\nBei der freien Arztwahl kann der Patient bei gesundheitlichen Problemen selbst entscheiden, ob er zum Hausarzt oder gleich zu einem Facharzt geht.\n\nWas finden Sie besser?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -290,6 +296,8 @@
           "item": "0",
           "text": "Was ist Ihre persönliche Meinung zur sozialen Sicherung von Arbeitslosen in Deutschland? Inwieweit sollte die Bundesregierung die soziale Sicherung von Arbeitslosen verändern?",
           "instruction": "Bitte antworten Sie anhand der Skala.",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "filter": "expRM23001 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -366,6 +374,8 @@
           "item": "0",
           "text": "Was ist Ihre persönliche Meinung zur sozialen Sicherung von Arbeitslosen in Deutschland? Inwieweit sollte die Bundesregierung die soziale Sicherung von Arbeitslosen verändern?",
           "instruction": "Bitte antworten Sie anhand der Skala.",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "filter": "expRM23001 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -442,6 +452,7 @@
           "item": "0",
           "text": "Wie ist Ihre Meinung: Welche der folgenden Bedingungen sollten Menschen, die länger als ein Jahr arbeitslos sind, erfüllen, damit sie Arbeitslosengeld II („Hartz IV“) erhalten?",
           "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -505,7 +516,7 @@
         {
           "item": "9",
           "text": "sonstige Bedingungen erfüllen, und zwar:",
-          "scale": "str",
+          "scale": "chr",
           "sn": 9,
           "number": ""
         },
@@ -538,6 +549,7 @@
           "item": "0",
           "text": "Der Arbeitsmarkt in Deutschland wird durch mehrere Gesetze, beispielsweise zum Mindestlohn oder zum Kündigungsschutz, reguliert.\n\nSollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -579,6 +591,8 @@
           "item": "0",
           "text": "Was ist Ihre persönliche Meinung zum Rentensystem in Deutschland? Inwieweit sollte die Bundesregierung das Rentensystem verändern?",
           "instruction": "Bitte antworten Sie anhand der Skala.",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "filter": "expRM23001 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -655,6 +669,8 @@
           "item": "0",
           "text": "Was ist Ihre persönliche Meinung zum Rentensystem in Deutschland? Inwieweit sollte die Bundesregierung das Rentensystem verändern?",
           "instruction": "Bitte antworten Sie anhand der Skala.",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "filter": "expRM23001 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -731,6 +747,7 @@
           "item": "0",
           "text": "[wenn expRM23008 = 1: Die Alterung der Gesellschaft gefährdet die Finanzierung der gesetzlichen Renten in ihrer jetzigen Höhe.\n\nWelchen der folgenden Vorschläge zur Finanzierung der gesetzlichen Renten würden Sie am meisten befürworten?]\n\n[wenn expRM23008 = 2: Und welchen der folgenden Vorschläge zur Finanzierung der gesetzlichen Renten würden Sie am meisten befürworten?]",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Die Reihenfolge der beiden folgenden Fragen RM23008 und RM23009 soll randomisiert werden.\nBefragte zufällig auf zwei Gruppen aufteilen:\n- 50% der Befragten bekommen zuerst Frage RM23008, danach Frage RM23009 (Gruppe 1)\n- 50% der Befragten bekommen zuerst Frage RM23009, danach Frage RM23008 (Gruppe 2)\nZuteilung zu den Experimentalgruppen in separater Variable expRM23008 speichern.\nBei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -772,6 +789,7 @@
           "item": "0",
           "text": "[wenn expRM23008 = 1: Und welchen der folgenden Vorschläge zur Finanzierung der gesetzlichen Renten würden Sie am wenigsten befürworten?]\n \n[wenn expRM23008 = 2: Die Alterung der Gesellschaft gefährdet die Finanzierung der gesetzlichen Renten in ihrer jetzigen Höhe.\n\nWelchen der folgenden Vorschläge zur Finanzierung der gesetzlichen Renten würden Sie am wenigsten befürworten?]",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -813,6 +831,8 @@
           "item": "0",
           "text": "Was ist Ihre persönliche Meinung zum Bildungssystem in Deutschland? Inwieweit sollte die Bundesregierung das Bildungssystem verändern?",
           "instruction": "Bitte antworten Sie anhand der Skala. ",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "filter": "expRM23001 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -889,6 +909,8 @@
           "item": "0",
           "text": "Was ist Ihre persönliche Meinung zum Bildungssystem in Deutschland? Inwieweit sollte die Bundesregierung das Bildungssystem verändern?",
           "instruction": "Bitte antworten Sie anhand der Skala. ",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "filter": "expRM23001 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -965,6 +987,7 @@
           "item": "0",
           "text": "Sollte die Bundesregierung für das Bildungssystem mehr oder weniger Geld ausgeben als momentan? \n\nBedenken Sie dabei, dass höhere Ausgaben unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt, finanziert werden müssen.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -1006,6 +1029,8 @@
           "item": "0",
           "text": "Und welches ist Ihrer Meinung nach der wichtigste Bereich des Bildungssystems, für den die Bundesregierung mehr Geld ausgeben sollte?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "RM23011 = 1, 2 (Bundesregierung soll mehr Geld für das Bildungssystem ausgegeben) ",
           "scale": "cat",
           "answers": [
             {
@@ -1051,6 +1076,8 @@
           "item": "0",
           "text": "Und welches ist Ihrer Meinung nach der Bereich des Bildungssystems, für den die Bundesregierung insbesondere weniger Geld ausgeben sollte?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "RM23011 = 4, 5 (Bundesregierung soll weniger Geld für das Bildungssystem ausgegeben) ",
           "scale": "cat",
           "answers": [
             {
@@ -1096,6 +1123,8 @@
           "item": "0",
           "text": "Gibt es einen Bereich des Bildungssystems, für den die Bundesregierung mehr Geld ausgeben sollte?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "RM23011 = 3 (Bundesregierung soll gleich viel Geld für das Bildungssystem ausgegeben wie momentan) ",
           "scale": "cat",
           "answers": [
             {
@@ -1145,6 +1174,8 @@
           "item": "0",
           "text": "Mit Steuern, wie beispielsweise der Einkommenssteuer oder der Mehrwertsteuer, erzielt der Staat seine Einnahmen und muss dabei auch auf die damit verbundenen Folgen achten. Beispielsweise können hohe Einkommenssteuersätze Unternehmer davon abhalten, neue Arbeitsplätze zu schaffen. \n\nWas ist vor diesem Hintergrund Ihre persönliche Meinung zum Steuersystem in Deutschland? Inwieweit sollte die Bundesregierung das Steuersystem verändern?",
           "instruction": "Bitte antworten Sie anhand der Skala. ",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "filter": "expRM23001 = 1 ",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1221,6 +1252,8 @@
           "item": "0",
           "text": "Mit Steuern, wie beispielsweise der Einkommenssteuer oder der Mehrwertsteuer, erzielt der Staat seine Einnahmen und muss dabei auch auf die damit verbundenen Folgen achten. Beispielsweise können hohe Einkommenssteuersätze Unternehmer davon abhalten, neue Arbeitsplätze zu schaffen.\n\nWas ist vor diesem Hintergrund Ihre persönliche Meinung zum Steuersystem in Deutschland? Inwieweit sollte die Bundesregierung das Steuersystem verändern?",
           "instruction": "Bitte antworten Sie anhand der Skala. ",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "filter": "expRM23001 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1297,6 +1330,7 @@
           "item": "0",
           "text": "Bitte geben Sie an, inwieweit Sie folgender Aussage zustimmen: \n\nDer Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern. \n\nBedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt, finanziert werden müssen.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -1338,6 +1372,7 @@
           "item": "0",
           "text": "Sollten Menschen, die mehr arbeiten als andere, und deswegen auch mehr verdienen, mehr oder weniger Steuern zahlen als momentan?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -1379,6 +1414,8 @@
           "item": "0",
           "text": "Ein Vorschlag, die Stabilität des Euro zu gewährleisten, ist, dass alle Mitgliedstaaten der Euro-Zone Reformen ihrer Arbeitsmarkt- und Sozialsysteme durchführen. Solche Reformen können jedoch Nachteile für einzelne Bevölkerungsgruppen bedeuten (zum Beispiel längere Arbeitszeiten).\n\nWie ist Ihre persönliche Meinung zu diesen Reformen? Inwieweit sollen die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone verändert werden?",
           "instruction": "Bitte antworten Sie anhand der Skala.",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "filter": "expRM23001 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1455,6 +1492,8 @@
           "item": "0",
           "text": "Ein Vorschlag, die Stabilität des Euro zu gewährleisten, ist, dass alle Mitgliedstaaten der Euro-Zone Reformen ihrer Arbeitsmarkt- und Sozialsysteme durchführen. Solche Reformen können jedoch Nachteile für einzelne Bevölkerungsgruppen bedeuten (zum Beispiel längere Arbeitszeiten).\n\nWie ist Ihre persönliche Meinung zu diesen Reformen? Inwieweit sollen die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone verändert werden?",
           "instruction": "Bitte antworten Sie anhand der Skala. ",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "filter": "expRM23001 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1531,6 +1570,7 @@
           "item": "0",
           "text": "Diese Reformen können entweder von einem Mitgliedsstaat einzeln oder gemeinsam auf europäischer Ebene beschlossen werden. Für die Reformen auf der europäischen Ebene müsste die Europäische Union jedoch mehr Entscheidungsrechte erhalten. \n\nSollte die Europäische Union  mehr oder weniger über Reformen in den Mitgliedsstaaten entscheiden als momentan?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1579,6 +1619,8 @@
           "item": "0",
           "text": "Und in welchen Politikbereichen sollte die Europäische Union mehr entscheiden als momentan?",
           "instruction": "Bitte geben Sie alles Zutreffende an. ",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "filter": "RM23019 = 1, 2 (Europäische Union soll mehr über Reformen entscheiden) ",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1649,7 +1691,7 @@
         {
           "item": "10",
           "text": "Sonstiges, und zwar:",
-          "scale": "str",
+          "scale": "chr",
           "sn": 10,
           "number": ""
         }
@@ -1668,6 +1710,8 @@
           "item": "0",
           "text": "Und in welchen Politikbereichen sollte die Europäische Union weniger entscheiden als momentan?",
           "instruction": "Bitte geben Sie alles Zutreffende an. ",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "filter": "RM23019 = 4, 5 (Europäische Union soll weniger über Reformen entscheiden) ",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1757,6 +1801,8 @@
           "item": "0",
           "text": "Gibt es einzelne Politikbereiche, in denen die Europäische Union mehr entscheiden sollte als momentan?",
           "instruction": "Bitte geben Sie alles Zutreffende an. ",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "filter": "RM23019 = 3 (Europäische Union soll genau so viel über Reformen entscheiden wie momentan) ",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1853,6 +1899,7 @@
           "item": "0",
           "text": "Abschließend geht es um einen Vergleich der Politikbereiche, zu denen Sie bisher Fragen beantwortet haben. \n\nIn welchem Bereich sollte der Staat am ehesten Leistungen ausbauen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -1902,6 +1949,7 @@
           "item": "0",
           "text": "Und in welchem Bereich sollte der Staat am ehesten Leistungen abbauen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2025,6 +2073,7 @@
         {
           "item": "0",
           "text": "Bei den folgenden Fragen bitten wir Sie um Ihre Einschätzung der zu erwartenden Preisentwicklung in Deutschland in den kommenden 12 Monaten. Bevor wir mit den Fragen anfangen, zeigen wir Ihnen zwei Tabellen mit verschiedenen Informationen zur Preisentwicklung im letzten Jahr.\n\nTabelle 1 zeigt Inflationsindikatoren, die von [wenn expCD23121 = 1, 2: der Bundesbank] [wenn expCD23121 = 3, 4: einer großen Geschäftsbank] benutzt worden sind, um die jährliche Inflationsrate zu messen, das heißt, um zu messen, wie stark sich Preise geändert haben. Es handelt sich um die durchschnittlichen Veränderungsraten in Deutschland in den letzten 12 Monaten (April 2015 bis April 2016).\n\n[wenn expCD23121_1 = 1: Tabelle 1: Inflationsindikatoren \nApril 2015 bis April 2016\nVerbraucherpreise*: +0,3%\nBruttoinlandsprodukts-Deflator**: +0,4%\nPreisindex für Im- und Exporte: +0,6%\n* Der Verbraucherpreis berechnet die Kosten für eine detaillierte Liste von Waren und Dienstleistungen in Euro.\n** Der Bruttoinlandsprodukts-Deflator ist ein Preisindex, der ein Quotient aus nominalem (in jeweiligen Preisen) und realem (preisbereinigt) Bruttoinlandsprodukts-Deflator errechnet wird. Diese Rate ist eine Preisveränderungsrate.]\n\n[wenn expCD23121_1 = 2: Tabelle 1: Inflationsindikatoren \nApril 2015 bis April 2016\nVerbraucherpreise*: +0,3%\nPreisindex für Im- und Exporte: +0,6%\nBruttoinlandsprodukts-Deflator**: +0,4%\n* Der Verbraucherpreis berechnet die Kosten für eine detaillierte Liste von Waren und Dienstleistungen in Euro.\n** Der Bruttoinlandsprodukts-Deflator ist ein Preisindex, der ein Quotient aus nominalem (in jeweiligen Preisen) und realem (preisbereinigt) Bruttoinlandsprodukts-Deflator errechnet wird. Diese Rate ist eine Preisveränderungsrate.]\n\n[wenn expCD23121_1 = 3: Tabelle 1: Inflationsindikatoren\nApril 2015 bis April 2016 \nPreisindex für Im- und Exporte: + 0,6%\nBruttoinlandsprodukts-Deflator*: +0,4%\nVerbraucherpreise**: +0,3%\n* Der Bruttoinlandsprodukts-Deflator ist ein Preisindex, der ein Quotient aus nominalem (in jeweiligen Preisen) und realem (preisbereinigt) Bruttoinlandsprodukts-Deflator errechnet wird. Diese Rate ist eine Preisveränderungsrate.\n** Der Verbraucherpreis berechnet die Kosten für eine detaillierte Liste von Waren und Dienstleistungen in Euro.]\n\n[wenn expCD23121_1 = 4: Tabelle 1: Inflationsindikatoren\nApril 2015 bis April 2016 \nPreisindex für Im- und Exporte: +0,6%\nVerbraucherpreise*: +0,3%\nBruttoinlandsprodukts-Deflator**: +0,4%\n* Der Verbraucherpreis berechnet die Kosten für eine detaillierte Liste von Waren und Dienstleistungen in Euro.\n** Der Bruttoinlandsprodukts-Deflator ist ein Preisindex, der ein Quotient aus nominalem (in jeweiligen Preisen) und realem (preisbereinigt) Bruttoinlandsprodukts-Deflator errechnet wird. Diese Rate ist eine Preisveränderungsrate.]\n\n[wenn expCD23121_1 = 5: Tabelle 1: Inflationsindikatoren \nApril 2015 bis April 2016\nBruttoinlandsprodukts-Deflator*: +0,4%\nPreisindex für Im- und Exporte: +0,6%\nVerbraucherpreise**: +0,3%\n* Der Bruttoinlandsprodukts-Deflator ist ein Preisindex, der ein Quotient aus nominalem (in jeweiligen Preisen) und realem (preisbereinigt) Bruttoinlandsprodukts-Deflator errechnet wird. Diese Rate ist eine Preisveränderungsrate.\n** Der Verbraucherpreis berechnet die Kosten für eine detaillierte Liste von Waren und Dienstleistungen in Euro.] \n\n[wenn expCD23121_1 = 6: Tabelle 1: Inflationsindikatoren\nApril 2015 bis April 2016 \nBruttoinlandsprodukts-Deflator*: +0,4%\nVerbraucherpreise**: +0,3%\nPreisindex für Im- und Exporte: +0,6%\n* Der Bruttoinlandsprodukts-Deflator ist ein Preisindex, der ein Quotient aus nominalem (in jeweiligen Preisen) und realem (preisbereinigt) Bruttoinlandsprodukts-Deflator errechnet wird. Diese Rate ist eine Preisveränderungsrate.\n** Der Verbraucherpreis berechnet die Kosten für eine detaillierte Liste von Waren und Dienstleistungen in Euro.",
+          "description": "Befragte zufällig auf vier Gruppen aufteilen.\n- 1/4 der Befragten bekommen in den folgenden Fragen „der Bundesbank“, „vom Statistischen Bundesamt“ und „staatliche“ eingeblendet (Gruppe 1).\n- 1/4 der Befragten bekommen in den folgenden Fragen „der Bundesbank“, „von einem großen Supermarkt“ und „ privatwirtschaftliche“ eingeblendet (Gruppe 2).\n- 1/4 der Befragten bekommen in den folgenden Fragen „einer großen Geschäftsbank“, „vom Statistischen Bundesamt“ und „staatliche“ eingeblendet (Gruppe 3).\n- 1/4 der Befragten bekommen in den folgenden Fragen „einer großen Geschäftsbank“, „von einem großen Supermarkt“ und „privatwirtschaftliche“ eingeblendet (Gruppe 4).\nZuteilung zu den Experimentalgruppen in separater Variable expCD23121 speichern.\n\nBefragte zufällig auf sechs Gruppen aufteilen. - 1/6 der Befragten bekommen erste Version der Tabelle 1 eingeblendet (Gruppe 1).\n- 1/6 der Befragten bekommen zweite Version der Tabelle 1 eingeblendet (Gruppe 2).\n- 1/6 der Befragten bekommen dritte Version der Tabelle 1 eingeblendet (Gruppe 3).\n- 1/6 der Befragten bekommen vierte Version der Tabelle 1 eingeblendet (Gruppe 4).\n- 1/6 der Befragten bekommen fünfte Version der Tabelle 1 eingeblendet (Gruppe 5).\n- 1/6 der Befragten bekommen sechste Version der Tabelle 1 eingeblendet (Gruppe 6).\nZuordnung zu den Experimentalgruppen in separater Variable expCD23121_1 speichern.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2043,6 +2092,7 @@
         {
           "item": "0",
           "text": "Tabelle 2 zeigt für sechs Produkte die durchschnittlichen Preisveränderungen in Deutschland in den letzten 12 Monaten (April 2015 bis April 2016). Die Produktpreise stammen [wenn expCD23121 = 1, 3: vom Statistischen Bundesamt] [wenn expCD23121 = 2, 4: von einem großen Supermarkt]. Die hier aufgeführten sechs Produkte sind zufällig aus einer umfangreichen Liste gängiger Produkte des täglichen Gebrauchs ausgewählt worden.\n\n[wenn expCD23121_2 = 1: Tabelle 2: Produktpreise (in Euro)\nProdukt: April 2015: April 2016: Preisänderung\nSäuglingsfertignahrung: 18,69: 18,69: 0,0% \nKuchen: 3,59: 3,59: 0,0% \nHonig: 2,79: 2,80: +0,4% \nColorwaschmittel: 5,29: 4,99: -5,7% \nOrangensaft: 1,79: 1,67: -6,7% \nDeodorant: 3,49: 3,49: 0,0% \nDURCHSCHNITTLICHE ÄNDERUNG: -2,0%]\n\n[wenn expCD23121_2 = 2: Tabelle 2: Produktpreise (in Euro)\nProdukt: April 2015: April 2016: Preisänderung\nSäuglingsfertignahrung: 18,48: 18,19: +1,6% \nKuchen: 3,89: 3,99: +2,6% \nHonig: 2,79: 2,59: -7,2% \nColorwaschmittel: 5,49: 5,49: 0,0% \nOrangensaft: 1,79: 1,79: 0,0% \nDeodorant: 3,49: 3,49: 0,0% \nDURCHSCHNITTLICHE ÄNDERUNG: -1,0%]\n\n[wenn expCD23121_2 = 3: Tabelle 2: Produktpreise (in Euro)\nProdukt: April 2015: April 2016: Preisänderung\nSäuglingsfertignahrung: 18,48: 18,19: +1,6% \nKuchen: 3,89: 3,99: +2,6% \nHonig: 1,99: 1,99: 0,0% \nColorwaschmittel: 5,19: 5,49: +5,8% \nOrangensaft: 1,79: 1,79: 0,0% \nDeodorant: 3,79: 3,49: -8,6% \nDURCHSCHNITTLICHE ÄNDERUNG: 0,0%]\n\n[wenn expCD23121_2 = 4: Tabelle 2: Produktpreise (in Euro)\nProdukt: April 2015: April 2016: Preisänderung\nSäuglingsfertignahrung: 7,29:  7,59: +4,1% \nKuchen: 3,59: 3,59: 0,0% \nHonig: 1,99: 1,99 :0,0% \nColorwaschmittel: 5,39 :5,19: -3,7% \nOrangensaft: 1,89: 1,99: +5,3% \nDeodorant: 3,49: 3,49: 0,0% \nDURCHSCHNITTLICHE ÄNDERUNG +1,0%]\n\n[wenn expCD23121_2 = 5: Tabelle 2: Produktpreise (in Euro)\nProdukt: April 2015: April 2016: Preisänderung\nSäuglingsfertignahrung: 7,29:  7,59: +4,1% \nKuchen: 3,00: 2,99: -0,3% \nHonig: 1,99: 1,99: 0,0% \nColorwaschmittel: 4,99: 5,39: +8,0% \nOrangensaft: 1,79: 1,79: 0,0% \nDeodorant: 3,49: 3,49: 0,0% \nDURCHSCHNITTLICHE ÄNDERUNG + 2,0 %]\n\n[wenn expCD23121_2 = 6: Tabelle 2: Produktpreise (in Euro)\nProdukt: April 2015: April 2016: Preisänderung\nSäuglingsfertignahrung: 7,29: 7,59: +4,1% \nKuchen: 3,59: 3,59: 0,0% \nHonig: 1,99: 1,99: 0,0% \nColorwaschmittel: 5,49: 5,49: 0,0% \nOrangensaft: 1,89: 1,99: +5,3% \nDeodorant: 3,49: 3,49: 0,0%\nDURCHSCHNITTLICHE ÄNDERUNG: +3,0%]\n\n[wenn expCD23121_2 = 7: Tabelle 2: Produktpreise (in Euro)\nProdukt: April 2015: April 2016: Preisänderung\nSäuglingsfertignahrung: 7,29: 7,59: +4,1% \nKuchen: 3,59: 3,59: 0,0 %\nHonig: 1,99: 1,99: 0,0% \nColorwaschmittel: 5,49: 5,79: +5,5% \nOrangensaft: 1,79: 1,89: +5,6%\nDeodorant: 3,49: 3,79: +8,6% \nDURCHSCHNITTLICHE ÄNDERUNG: +4,0%]\n\n[wenn expCD23121_2 = 8: Tabelle 2: Produktpreise (in Euro)\nProdukt: April 2015: April 2016: Preisänderung\nSäuglingsfertignahrung: 18,69: 18,69: 0,0% \nKuchen: 3,59 :3,59 :0,0 %\nHonig: 1,99 :2,19 :+10,1 % \nColorwaschmittel: 5,49: 5,79: +5,5% \nOrangensaft: 1,79: 1,89: +5,6% \nDeodorant: 3,49: 3,79: +8,6 % \nDURCHSCHNITTLICHE ÄNDERUNG: +5,0%]\n\n[wenn expCD23121_2 = 9: Tabelle 2: Produktpreise (in Euro)\nProdukt: April 2015: April 2016: Preisänderung\nSäuglingsfertignahrung: 18,69: 18,69: 0,0% \nKuchen: 3,29: 3,69: +12,2% \nHonig: 1,99: 1,99: 0,0% \nColorwaschmittel: 4,99: 5,49: +8,0% \nOrangensaft: 1,79: 1,89: +5,6%\nDeodorant: 3,99: 4,39: +10,0% \nDURCHSCHNITTLICHE ÄNDERUNG: +6,0%]\n\n[wenn expCD23121_2 = 10: Tabelle 2: Produktpreise (in Euro)\nProdukt: April 2015: April 2016: Preisänderung\nSäuglingsfertignahrung: 7,19: 7,99: +11,1% \nKuchen: 3,29: 3,69: +12,2% \nHonig: 1,99: 2,19: +10,1%\nColorwaschmittel: 5,49: 5,49: 0,0% \nOrangensaft: 1,79: 1,79: 0,0% \nDeodorant: 3,49: 3,79: +8,6% \nDURCHSCHNITTLICHE ÄNDERUNG: + 7,0%]",
+          "description": "Befragte zufällig auf zehn Gruppen aufteilen.\n- 1/10 der Befragten bekommen erste Version der Tabelle 2 eingeblendet (Gruppe 1).\n- 1/10 der Befragten bekommen zweite Version der Tabelle 2 eingeblendet (Gruppe 2).\n- 1/10 der Befragten bekommen dritte Version der Tabelle 2 eingeblendet (Gruppe 3).\n- 1/10 der Befragten bekommen vierte Version der Tabelle 2 eingeblendet (Gruppe 4).\n- 1/10 der Befragten bekommen fünfte Version der Tabelle 2 eingeblendet (Gruppe 5).\n- 1/10 der Befragten bekommen sechste Version der Tabelle 2 eingeblendet (Gruppe 6).\n- 1/10 der Befragten bekommen siebte Version der Tabelle 2 eingeblendet (Gruppe 7).\n- 1/10 der Befragten bekommen achte Version der Tabelle 2 eingeblendet (Gruppe 8).\n- 1/10 der Befragten bekommen neunte Version der Tabelle 2 eingeblendet (Gruppe 9).\n- 1/10 der Befragten bekommen zehnte Version der Tabelle 2 eingeblendet (Gruppe 10).\nZuordnung zu den Experimentalgruppen in separater Variable expCD23121_2 speichern.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2307,6 +2357,7 @@
         {
           "item": "0",
           "text": "An welchen Produktpreis erinnern Sie sich am besten?",
+          "filter": "CD23125 = 1 (bisherige Fragen auf Produktpreise bezogen) ",
           "scale": "cat",
           "answers": [
             {
@@ -2351,6 +2402,7 @@
         {
           "item": "0",
           "text": "An welchen Inflationsindikator erinnern Sie sich am besten?",
+          "filter": "CD23125 = 2 (bisherige Fragen auf Inflationsindikatoren bezogen) ",
           "scale": "cat",
           "answers": [
             {
@@ -2416,6 +2468,7 @@
           "item": "0",
           "text": "Nun zu einem ganz anderen Thema. \n\nInnerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten. \n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie die folgenden Parteien als zerstritten oder als geschlossen wahr?",
           "instruction": "Bitte wählen Sie eine Antwort für jede Partei aus. ",
+          "description": "Bitte wählen Sie eine Antwort für jede Partei aus.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2834,6 +2887,7 @@
           "item": "0",
           "text": "Politische Parteien in Deutschland verfügen über eine unterschiedliche Anzahl an Sitzen im Deutschen Bundestag. Was schätzen Sie: Über wie viel Prozent der Sitze im aktuellen Deutschen Bundestag verfügen die folgenden Parteien? \n\nFalls Sie sich unsicher sind, schätzen Sie bitte. Wenn Sie denken, dass eine Partei über keine Sitze im Bundestag verfügt, tragen Sie bitte 0 in das Feld ein. Wenn Sie denken, dass eine Partei über alle Sitze im Bundestag verfügt, tragen Sie bitte 100 in das Feld ein. Die Summe aller Zahlen soll 100 ergeben.",
           "instruction": "Bitte tragen Sie jeweils eine ganze Zahl zwischen 0 und 100 ein.",
+          "description": "Bitte tragen Sie jeweils eine ganze Zahl zwischen 0 und 100 ein.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2958,6 +3012,7 @@
           "item": "0",
           "text": "Parteien können aus einer oder mehreren ideologischen Gruppierungen bestehen. Diese ideologischen Gruppierungen vertreten unterschiedliche Interessen und wollen die Partei in eine von ihnen bevorzugte Richtung lenken.\n\n[wenn expCE23224 = 1: Wie viele solcher ideologischer Gruppierungen existieren Ihrer Meinung nach momentan in der Partei CDU (Christlich Demokratische Union Deutschlands)?]\n\n[wenn expCE23224 = 2: Wie viele solcher ideologischer Gruppierungen existieren Ihrer Meinung nach momentan in der Partei CSU (Christlich-Soziale Union)?]\n\n[wenn expCE23224 = 3: Wie viele solcher ideologischer Gruppierungen existieren Ihrer Meinung nach momentan in der Partei SPD (Sozialdemokratische Partei Deutschlands)?]\n\n[wenn expCE23224 = 4: Wie viele solcher ideologischer Gruppierungen existieren Ihrer Meinung nach momentan in der Partei FDP (Freie Demokratische Partei)?]\n\n[wenn expCE23224 = 5: Wie viele solcher ideologischer Gruppierungen existieren Ihrer Meinung nach momentan in der Partei Bündnis 90/Die Grünen?]\n\n[wenn expCE23224 = 6: Wie viele solcher ideologischer Gruppierungen existieren Ihrer Meinung nach momentan in der Partei Die Linke?]\n\n[wenn expCE23224 = 7: Wie viele solcher ideologischer Gruppierungen existieren Ihrer Meinung nach momentan in der Partei AfD (Alternative für Deutschland)?]",
           "instruction": "Bitte tragen Sie eine ganze Zahl größer als 0 ein.",
+          "description": "Befragte zufällig auf 7 Gruppen aufteilen.\n- 1/7 der Befragten bekommen in den nachfolgenden Fragen die Partei CDU (Gruppe 1)\n- 1/7 der Befragten bekommen in den nachfolgenden Fragen die Partei CSU (Gruppe 2)\n- 1/7 der Befragten bekommen in den nachfolgenden Fragen die Partei SPD (Gruppe 3)\n- 1/7 der Befragten bekommen in den nachfolgenden Fragen die Partei FDP (Gruppe 4)\n- 1/7 der Befragten bekommen in den nachfolgenden Fragen die Partei Bündnis 90/Die Grünen (Gruppe 5)\n- 1/7 der Befragten bekommen in den nachfolgenden Fragen die Partei DIE LINKE (Gruppe 6)\n- 1/7 der Befragten bekommen in den nachfolgenden Fragen die Partei AfD (Gruppe 7)\nZuteilung zu den Experimentalgruppen in separater Variable expCE23224 speichern.\nBitte tragen Sie eine ganze Zahl größer als 0 ein.",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -3052,6 +3107,7 @@
           "item": "0",
           "text": "Es gibt verschiedene Vorstellungen davon, welche Rolle eine Parteivorsitzende oder ein Parteivorsitzender in ihrer oder seiner Partei übernehmen sollte.\n\nWelche der folgenden Rollen sollte Ihrer Meinung nach eine Parteivorsitzende oder ein Parteivorsitzender übernehmen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -3610,6 +3666,7 @@
           "item": "0",
           "text": "Bewertung dieser Umfrage\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.",
           "instruction": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "description": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -3803,7 +3860,7 @@
         {
           "item": "10",
           "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
-          "scale": "str",
+          "scale": "chr",
           "sn": 9,
           "number": ""
         }

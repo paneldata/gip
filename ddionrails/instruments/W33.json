@@ -204,6 +204,7 @@
           "item": "0",
           "text": "Bitte geben Sie die Art Ihrer Krankenversicherung an.",
           "instruction": "Private Zusatzversicherungen für zusätzliche Leistungen sind nicht gemeint.",
+          "description": "Private Zusatzversicherungen für zusätzliche Leistungen sind nicht gemeint.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -265,6 +266,7 @@
           "item": "0",
           "text": "Welche (berufliche) Tätigkeit üben Sie derzeit hauptsächlich aus?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -354,6 +356,8 @@
           "item": "0",
           "text": "In welchem Jahr sind Sie arbeitslos geworden?",
           "instruction": "Bitte tragen Sie die vierstellige Jahreszahl ein.",
+          "description": "Bitte tragen Sie die vierstellige Jahreszahl ein.",
+          "filter": "AA33005 = 5, 15 (Ein-Euro-Job oder arbeitslos)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -373,6 +377,8 @@
           "item": "0",
           "text": "Waren Sie jemals länger als 3 Monate am Stück arbeitslos?",
           "instruction": "Unterbrechungen der Berufstätigkeit aufgrund von Erziehungsurlaub, Elternzeit oder Kindererziehung, wegen Ausbildung oder Studium zählen nicht als Arbeitslosigkeit.",
+          "description": "Unterbrechungen der Berufstätigkeit aufgrund von Erziehungsurlaub, Elternzeit oder Kindererziehung, wegen Ausbildung oder Studium zählen nicht als Arbeitslosigkeit.",
+          "filter": "AA33005 = 3, 14 (in Altersteilzeit oder in Rente, Pension oder im Vorruhestand)",
           "scale": "cat",
           "answers": [
             {
@@ -402,6 +408,8 @@
           "item": "0",
           "text": "Waren Sie in den letzten 5 Jahren mindestens ein Mal für mehr als 3 Monate am Stück arbeitslos?",
           "instruction": "Unterbrechungen der Berufstätigkeit aufgrund von Erziehungsurlaub, Elternzeit oder Kindererziehung, wegen Ausbildung oder Studium zählen nicht als Arbeitslosigkeit.",
+          "description": "Unterbrechungen der Berufstätigkeit aufgrund von Erziehungsurlaub, Elternzeit oder Kindererziehung, wegen Ausbildung oder Studium zählen nicht als Arbeitslosigkeit.",
+          "filter": "AA33005 = 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17 (vollzeiterwerbstätig oder teilzeiterwerbstätig oder geringfügig erwerbstätig, 450-Euro-Job, Minijob oder gelegentlich oder unregelmäßig beschäftigt bis Student/-in oder dauerhaft erwerbsunfähig oder Hausfrau/Hausmann)",
           "scale": "cat",
           "answers": [
             {
@@ -430,6 +438,7 @@
         {
           "item": "0",
           "text": "Für wie wahrscheinlich halten Sie es, dass Sie in den nächsten 12 Monaten arbeitslos werden?",
+          "filter": "AA33005 = 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13 (vollzeiterwerbstätig oder teilzeiterwerbstätig oder geringfügig erwerbstätig, 450-Euro-Job, Minijob oder gelegentlich oder unregelmäßig beschäftigt bis Student/-in)",
           "scale": "cat",
           "answers": [
             {
@@ -471,6 +480,8 @@
           "item": "0",
           "text": "Was würden Sie sagen: Wie viele von 100 Personen im erwerbsfähigen Alter in Deutschland sind arbeitslos und suchen eine Arbeit?",
           "instruction": "Wenn Sie sich nicht sicher sind, schätzen Sie bitte.",
+          "description": "Wenn Sie sich nicht sicher sind, schätzen Sie bitte.",
+          "filter": "AA33005 = 3, 5, 14, 15, 16, 17 (in Altersteilzeit oder Ein-Euro-Job oder Rentner/-in, Pensionär/-in, im Vorruhestand bis Hausfrau/Hausmann)",
           "scale": "cat",
           "answers": [
             {
@@ -624,6 +635,7 @@
           "item": "0",
           "text": "Wie hoch sollte Ihrer Meinung nach das gesetzliche Rentenalter in Deutschland sein?",
           "instruction": "Mit gesetzlichem Rentenalter meinen wir das Alter, in dem man ohne Abschläge bei der Rente in den Ruhestand gehen kann.",
+          "description": "Mit gesetzlichem Rentenalter meinen wir das Alter, in dem man ohne Abschläge bei der Rente in den Ruhestand gehen kann.",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -642,6 +654,7 @@
         {
           "item": "0",
           "text": "In welchem Alter sind Sie in Ruhestand gegangen?",
+          "filter": "AA33005 = 3, 14 (in Altersteilzeit oder in Rente, Pension oder im Vorruhestand)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -660,6 +673,7 @@
         {
           "item": "0",
           "text": "Was erwarten Sie, in welchem Alter werden Sie voraussichtlich in den Ruhestand gehen?",
+          "filter": "AA33005 = 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16 (vollzeiterwerbstätig oder teilzeiterwerbstätig oder geringfügig erwerbstätig, 450-Euro-Job, Minijob bis Student/-in oder arbeitslos oder dauerhaft erwerbsunfähig)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -678,6 +692,7 @@
         {
           "item": "0",
           "text": "Und in welchem Alter wären Sie gerne in den Ruhestand gegangen?",
+          "filter": "AA33005 = 3, 14 (in Altersteilzeit oder in Rente, Pension oder im Vorruhestand)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -696,6 +711,7 @@
         {
           "item": "0",
           "text": "Und in welchem Alter würden Sie gerne in den Ruhestand gehen?",
+          "filter": "AA33005 = 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16 (vollzeiterwerbstätig oder teilzeiterwerbstätig oder geringfügig erwerbstätig, 450-Euro-Job, Minijob bis Student/-in oder arbeitslos oder dauerhaft erwerbsunfähig)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -714,6 +730,7 @@
         {
           "item": "0",
           "text": "Haben Sie im Jahr 2017 Zahlungen aus einer der folgenden Quellen bekommen?",
+          "filter": "AA33005 = 3, 14 (in Altersteilzeit oder in Rente, Pension oder im Vorruhestand)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -795,6 +812,7 @@
         {
           "item": "0",
           "text": "Haben Sie im vergangenen Jahr Beiträge zu einer der folgenden Arten der Altersvorsorge geleistet?",
+          "filter": "AA33005 = 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16 (vollzeiterwerbstätig oder teilzeiterwerbstätig oder geringfügig erwerbstätig, 450-Euro-Job, Minijob bis Student/-in oder arbeitslos oder dauerhaft erwerbsunfähig)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -837,7 +855,7 @@
         {
           "item": "6",
           "text": "andere Altersvorsorge, und zwar:",
-          "scale": "str",
+          "scale": "chr",
           "sn": 6,
           "number": ""
         },
@@ -863,6 +881,7 @@
           "item": "0",
           "text": "Wer sollte Ihrer Meinung nach hauptsächlich zur Finanzierung der Renten beitragen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -1271,6 +1290,8 @@
         {
           "item": "0",
           "text": "Jetzt wollen wir mehr darüber erfahren, was Sie über Flüchtlinge in Deutschland denken.\n\nEs gibt Menschen, die nach Deutschland kommen und Asyl beantragen, weil in ihrem Land Bürgerkrieg herrscht und sie Angst vor Verfolgung haben.",
+          "description": "Befragte zufällig auf 3 Gruppen aufteilen.\n- 1/3 der Befragten keine weiteren Informationen (Gruppe 1).\n- 1/3 der Befragten bekommt Informationen dazu, dass Gerichte die Entscheidungen der Bundesregierung bestätigen (Gruppe 2).\n- 1/3 der Befragten bekommt Informationen dazu, dass Gerichte den Entscheidungen der Bundesregierung widersprechen (Gruppe 3).\nZuteilung zu den Experimentalgruppen in separater Variable expAM33010 speichern.",
+          "filter": "expAM33010 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1289,6 +1310,7 @@
         {
           "item": "0",
           "text": "Jetzt wollen wir mehr darüber erfahren, was Sie über Flüchtlinge in Deutschland denken.\n            \nEs gibt Menschen, die nach Deutschland kommen und Asyl beantragen, weil in ihrem Land Bürgerkrieg herrscht und sie Angst vor Verfolgung haben.\n            \nDas zuständige Bundesamt gewährt diesen Flüchtlingen aktuell in der Regel Schutz, aber ohne Recht auf Familiennachzug. Viele Flüchtlinge klagen gegen diese Entscheidung vor Gericht. In letzter Zeit haben die zuständigen Gerichte dazu tendiert, die Entscheidungen des Bundesamts zu bestätigen und kein Recht auf Familiennachzug zu gewähren. Die zuständigen Gerichte geben diesen Flüchtlingen somit genauso viel Schutz wie das Bundesamt.",
+          "filter": "expAM33010 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1307,6 +1329,7 @@
         {
           "item": "0",
           "text": "Jetzt wollen wir mehr darüber erfahren, was Sie über Flüchtlinge in Deutschland denken.\n                  \nEs gibt Menschen, die nach Deutschland kommen und Asyl beantragen, weil in ihrem Land Bürgerkrieg herrscht und sie Angst vor Verfolgung haben.\n\nDas zuständige Bundesamt gewährt diesen Flüchtlingen aktuell in der Regel Schutz, aber ohne Recht auf Familiennachzug. Viele Flüchtlinge klagen gegen diese Entscheidung vor Gericht. In letzter Zeit haben die zuständigen Gerichte dazu tendiert, die Entscheidungen des Bundesamts aufzuheben und das Recht auf Familiennachzug zu gewähren. Die zuständigen Gerichte geben diesen Flüchtlingen somit mehr Schutz als das Bundesamt.",
+          "filter": "expAM33010 = 3",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1477,6 +1500,8 @@
         {
           "item": "0",
           "text": "Im Folgenden geht es um die Europäische Union (EU). Bitte lesen Sie die folgende Aussage sorgfältig durch.\n\n[wenn expCG33090 = 1: Die EU sollte den Wünschen der Leute besser nachkommen, auch wenn sie dadurch manchmal weniger verantwortlich und wirkungsvoll regiert. Zum Beispiel sollte die EU ihren Mitgliedsstaaten keine Maßnahmen vorschreiben, ohne den Menschen Gehör geschenkt zu haben – auch wenn diese Maßnahmen notwendig sind, um einen ökonomischen Zusammenbruch zu vermeiden oder die Erderwärmung zu begrenzen.]\n\n[wenn expCG33090 = 2: Die EU sollte verantwortlicher und wirkungsvoller regieren, auch wenn sie manchmal nicht den Wünschen der Leute nachkommt. Zum Beispiel sollte die EU ihren Mitgliedsstaaten angemessene Maßnahmen verordnen, um einen ökonomischen Zusammenbruch zu vermeiden oder die Erderwärmung zu begrenzen – statt sich zu sehr dem Willen der Menschen zu beugen.]\n \n[wenn expCG33090 = 3: Kürzlich haben Experten darauf hingewiesen, dass die EU den Wünschen der Leute besser nachkommen sollte, auch wenn sie dadurch manchmal weniger verantwortlich und wirkungsvoll regiert. Den Experten zufolge habe die EU den Menschen kein Gehör geschenkt. Deshalb habe sie ihren Mitgliedsstaaten zu strenge Maßnahmen gegen einen wirtschaftlichen Zusammenbruch oder die Erderwärmung vorgeschrieben. Eine aktuelle Studie führender Politikwissenschaftler belegt dies mittels fortgeschrittener statistischer Methoden. Diese Forschungsarbeit schätzt die sogenannte „Responsivität“ der EU gegenüber dem Willen der Bürger als deutlich geringer ein, als viele gedacht haben.]\n \n[wenn expCG33090 = 4: Kürzlich haben Experten darauf hingewiesen, dass die EU verantwortlicher und wirkungsvoller regieren sollte, auch wenn sie dadurch manchmal weniger den Wünschen der Leute nachkommt. Den Experten zufolge habe sich die EU zu sehr dem Willen der Menschen gebeugt. Deshalb habe sie ihren Mitgliedsstaaten unüberlegte Maßnahmen gegen einen wirtschaftlichen Zusammenbruch oder die Erderwärmung verordnet. Eine aktuelle Studie führender Politikwissenschaftler belegt dies mittels fortgeschrittener statistischer Methoden. Diese Forschungsarbeit schätzt die sogenannte „Verantwortlichkeit“ der EU als deutlich geringer ein, als viele gedacht haben.]",
+          "description": "Befragte zufällig auf fünf Gruppen aufteilen.\n- 1/8 der Befragten bekommt Treatment 1 (Gruppe 1).\n- 1/8 der Befragten bekommt Treatment 2 (Gruppe 2).\n- 1/4 der Befragten bekommt Treatment 3 (Gruppe 3).\n- 1/4 der Befragten bekommt Treatment 4 (Gruppe 4).\n- 1/4 der Befragten bekommt KEIN Treatment (Gruppe 5).\nZuteilung zu den Experimentalgruppen in separater Variable expCG33090 speichern.",
+          "filter": "expCG33090 = 1, 2, 3, 4",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1495,6 +1520,7 @@
         {
           "item": "0",
           "text": "Wie sehr stimmen Sie dieser Aussage zu?",
+          "filter": "expCG33090 = 1, 2, 3, 4",
           "scale": "cat",
           "answers": [
             {
@@ -1879,6 +1905,8 @@
         {
           "item": "0",
           "text": "Nun zu einem anderen Thema.\n\nIn vor Kurzem veröffentlichten wissenschaftlichen Studien sind Forscher der Frage nachgegangen, welcher Zusammenhang zwischen dem Einkommen der Eltern und dem Einkommen ihrer Kinder, wenn diese erwachsen sind, besteht.",
+          "description": "Befragte zufällig auf zwei Gruppen aufteilen.\n- 50% der Befragten bekommen Informationen zum familiären Hintergrund eines Kindes und dessen Vermögenssituation im Erwachsenenalter (Gruppe 1).\n- 50% der Befragten bekommen keine Informationen zum familiären Hintergrund eines Kindes und dessen Vermögenssituation im Erwachsenenalter (Gruppe 2).\nZuteilung zu den Experimentalgruppen in separater Variable expAN33002 speichern.",
+          "filter": "expAN33002 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1897,6 +1925,7 @@
         {
           "item": "0",
           "text": "Dabei geht es hauptsächlich um zwei Fragen. Zum einen wie hoch die Wahrscheinlichkeit ist, dass ein Kind aus einem reichen Haushalt im Erwachsenenalter einem armen Haushalt angehört. Zum anderen wie hoch die Wahrscheinlichkeit eines Kindes aus einem armen Haushalt ist, im Erwachsenenalter einem reichen Haushalt anzugehören. Was bedeutet hier arm und reich? Wenn wir alle Haushalte in Deutschland vom niedrigsten bis zum höchsten Einkommen aneinanderreihen würden, dann wäre ein Haushalt arm, wenn er zu den 25 Prozent der Haushalte mit dem niedrigsten Einkommen gehört. Umgekehrt wäre ein Haushalt reich, wenn er zu den 25 Prozent der Haushalte mit dem höchsten Einkommen gehört.",
+          "filter": "expAN33002 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1915,6 +1944,7 @@
         {
           "item": "0",
           "text": "Für die Studien wurden beispielsweise die aktuellsten Daten einer unabhängigen, wissenschaftlichen Umfrage von über 12.000 Privathaushalten in Deutschland, die seit 1984 jährlich mit den gleichen Personen und Familien durchgeführt wird, herangezogen.\n   \nDie Daten zeigen, dass die erwartete Wahrscheinlichkeit, mit der ein Kind aus einem armen Haushalt als Erwachsene/-r reich ist, sehr gering ist. Hingegen ist die Wahrscheinlichkeit für ein Kind aus einem armen Haushalt, auch als Erwachsene/-r arm zu sein, sehr groß. Die folgende Grafik veranschaulicht diese Zusammenhänge.",
+          "filter": "expAN33002 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1933,6 +1963,7 @@
         {
           "item": "0",
           "text": "[Die hier abgebildete Grafik ist dem Screenshot zu entnehmen]",
+          "filter": "expAN33002 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1951,6 +1982,7 @@
         {
           "item": "0",
           "text": "Umgekehrt ist die erwartete Wahrscheinlichkeit, mit der ein Kind aus einem reichen Haushalt als Erwachsene/-r arm ist, sehr gering. Hingegen ist die Wahrscheinlichkeit für ein Kind aus einem reichen Haushalt, auch als Erwachsene/-r reich zu sein, sehr groß. Die folgende Grafik veranschaulicht diese Zusammenhänge.",
+          "filter": "expAN33002 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1969,6 +2001,7 @@
         {
           "item": "0",
           "text": "[Die hier abgebildete Grafik ist dem Screenshot zu entnehmen]",
+          "filter": "expAN33002 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2047,6 +2080,7 @@
         {
           "item": "0",
           "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel”,\n\nin den folgenden Fragen möchten wir Sie bitten, zu entscheiden, wie Geld zwischen Ihnen und einem anderen, anonymen Teilnehmer an „Gesellschaft im Wandel“ verteilt werden soll. [wenn expAE33040 = 1: Der andere Teilnehmer wird aus der Gruppe von Teilnehmern ausgewählt, deren Einkommen zu den 10 Prozent der höchsten Einkommen aller Teilnehmer zählt.] [wenn expAE33040 = 2: Der andere Teilnehmer wird aus der Gruppe von Teilnehmern ausgewählt, deren Einkommen zu den 10 Prozent der niedrigsten Einkommen aller Teilnehmer zählt.] Wir bezeichnen den Ihnen zufällig aus dieser Gruppe zugeteilten anderen Teilnehmer im Folgenden als Ihren Mitspieler. Es geht in den Entscheidungen um reale Geldbeträge, einige zufällig ausgewählte Entscheidungen werden später tatsächlich ausgezahlt.",
+          "description": "wenn expAN33002 = 1 (wenn Befragte/-r in Experimentalgruppe expAN33002 1):\nBefragte zufällig auf drei Gruppen aufteilen.\n- 25% der Befragten bekommen Information über vermögenden Mitspieler (Gruppe 1).\n- 25% der Befragten bekommen Information über armen Mitspieler (Gruppe 2).\n- 50% der Befragten bekommen keine Informationen über ihren Mitspieler (Gruppe 3)\nwenn expAN33002 = 2 (wenn Befragte/-r in Experimentalgruppe expAN33002 2):\nBefragte zufällig auf drei Gruppen aufteilen.\n- 25% der Befragten bekommen Information über vermögenden Mitspieler (Gruppe 1).\n- 25% der Befragten bekommen Information über armen Mitspieler (Gruppe 2).\n- 50% der Befragten bekommen keine Informationen über ihren Mitspieler (Gruppe 3)\nZuteilung zu den Experimentalgruppen in separater Variable expAE33040 speichern.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2586,6 +2620,7 @@
           "item": "0",
           "text": "Umverteilung der Einkommen bedeutet, dass der Staat durch Steuern und Transferleistungen die Einkommensunterschiede zwischen den Bürgern und Bürgerinnen verringert.\n\nWie viel Umverteilung der Einkommen befürworten Sie zwischen den Bürgern und Bürgerinnen in Deutschland?",
           "instruction": "Keine Umverteilung bedeutet, dass der Staat nicht in die Verteilung der Einkommen eingreift. Vollständige Umverteilung bedeutet, dass jeder nach der Umverteilung das gleiche Einkommen verdient.",
+          "description": "Keine Umverteilung bedeutet, dass der Staat nicht in die Verteilung der Einkommen eingreift. Vollständige Umverteilung bedeutet, dass jeder nach der Umverteilung das gleiche Einkommen verdient.",
           "scale": "cat",
           "answers": [
             {
@@ -2647,6 +2682,7 @@
           "item": "0",
           "text": "Sollte die Bundesregierung für das Bildungssystem mehr oder weniger Geld ausgeben als momentan?\n\nBedenken Sie dabei, dass höhere Ausgaben unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt, finanziert werden müssen.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2687,6 +2723,7 @@
         {
           "item": "0",
           "text": "In der Vergangenheit haben Sie uns Auskunft über Ihren Bildungsweg gegeben. Hierzu würden wir Sie gerne weiter befragen.\n\nStudieren Sie an einer Fachhochschule oder einer Universität?",
+          "filter": "BF17035 = 1 (Welle 17 in Hauptgruppe 1)",
           "scale": "cat",
           "answers": [
             {
@@ -2715,6 +2752,7 @@
         {
           "item": "0",
           "text": "In der Vergangenheit haben Sie uns Auskunft über den Bildungsweg Ihres Kindes, geboren [BF17031], gegeben. Hierzu würden wir Sie gerne weiter befragen. Falls mehrere Kinder im gleichen Jahr geboren wurden, bitten wir Sie, sich auf das älteste Kind zu beziehen, welches das Abitur anstrebt oder bereits erlangt hat.\n\nStudiert Ihr Kind, geboren [BF17031], an einer Fachhochschule oder einer Universität?",
+          "filter": "BF17035 = 2 und BF17031 != -90 (Welle 17 in Hauptgruppe 2 und year of birth child ungleich -90 item nonresponse)",
           "scale": "cat",
           "answers": [
             {
@@ -2748,6 +2786,8 @@
           "item": "0",
           "text": "Für welchen Studiengang sind Sie an einer Fachhochschule oder einer Universität eingeschrieben?",
           "instruction": "Wenn Sie mehr als ein Fach belegen, wählen Sie das Hauptfach aus beziehungsweise tragen Sie die Fächerkombination unter „Ein anderes Studienfach“ ein.",
+          "description": "Wenn Sie mehr als ein Fach belegen, wählen Sie das Hauptfach aus beziehungsweise tragen Sie die Fächerkombination unter „Ein anderes Studienfach“ ein.",
+          "filter": "BF33120 = 1 (studiert)",
           "scale": "cat",
           "answers": [
             {
@@ -2885,6 +2925,8 @@
           "item": "0",
           "text": "Für welchen Studiengang ist Ihr Kind, geboren [BF17031], an einer Fachhochschule oder einer Universität eingeschrieben?",
           "instruction": "Wenn Ihr Kind mehr als ein Fach belegt, wählen Sie das Hauptfach aus beziehungsweise tragen Sie die Fächerkombination unter „Ein anderes Studienfach“ ein.",
+          "description": "Wenn Ihr Kind mehr als ein Fach belegt, wählen Sie das Hauptfach aus beziehungsweise tragen Sie die Fächerkombination unter „Ein anderes Studienfach“ ein.",
+          "filter": "BF33121 = 1 (das Kind studiert)",
           "scale": "cat",
           "answers": [
             {
@@ -3025,6 +3067,7 @@
         {
           "item": "0",
           "text": "Beziehen Sie BAföG oder haben Sie BAföG beantragt?",
+          "filter": "BF17035 = 1 (Welle 17 in Hauptgruppe 1)",
           "scale": "cat",
           "answers": [
             {
@@ -3053,6 +3096,7 @@
         {
           "item": "0",
           "text": "Bezieht Ihr Kind, geboren [BF17031], BAföG oder hat Ihr Kind BAföG beantragt?",
+          "filter": "BF17035 = 2 und BF17031 != -90 (Welle 17 in Hauptgruppe 2 und year of birth child ungleich -90 item nonresponse)",
           "scale": "cat",
           "answers": [
             {
@@ -3383,7 +3427,7 @@
         {
           "item": "0",
           "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
-          "scale": "str",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }

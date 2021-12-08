@@ -34,6 +34,7 @@
           "item": "0",
           "text": "In diesem Fragebogenteil möchten wir gerne Ihre Meinung zu aktuellen politischen Fragen wissen: \n\nWie unzufrieden oder zufrieden sind Sie mit den Leistungen der Bundesregierung?",
           "instruction": "Bitte beachten Sie, dass nach der Bundestagswahl 2017 die bisherige Bundesregierung aus Union (CDU/ CSU) und SPD im Amt bleibt, bis eine neue Regierung gebildet wird.",
+          "description": "Bitte beachten Sie, dass nach der Bundestagswahl 2017 die bisherige Bundesregierung aus Union (CDU/ CSU) und SPD im Amt bleibt, bis eine neue Regierung gebildet wird.",
           "scale": "cat",
           "answers": [
             {
@@ -375,6 +376,7 @@
           "item": "0",
           "text": "Innerhalb einer Bundesregierung werden manchmal verschiedene Standpunkte vertreten.\n\nNehmen Sie die Bundesregierung als zerstritten oder als geschlossen wahr?",
           "instruction": "Bitte beachten Sie, dass nach der Bundestagswahl 2017 die bisherige Bundesregierung aus Union (CDU/ CSU) und SPD im Amt bleibt, bis eine neue Regierung gebildet wird.",
+          "description": "Bitte beachten Sie, dass nach der Bundestagswahl 2017 die bisherige Bundesregierung aus Union (CDU/ CSU) und SPD im Amt bleibt, bis eine neue Regierung gebildet wird.",
           "scale": "cat",
           "answers": [
             {
@@ -920,6 +922,7 @@
           "item": "0",
           "text": "Martin Schulz ist Vorsitzender der Sozialdemokratischen Partei Deutschlands (SPD). \n\nWelche der folgenden Rollen übernimmt er Ihrer Meinung nach am ehesten als Parteivorsitzender?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1440,6 +1443,7 @@
           "item": "0",
           "text": "Wir würden gerne wissen, welche Aktivitäten Sie in Ihrer Freizeit unternehmen. Welche der folgenden Aussagen trifft auf Sie zu? \n\nIn den letzten zehn Jahren war ich zumindest zeitweise …",
           "instruction": "Bitte wählen Sie alles Zutreffende aus.",
+          "description": "Bitte wählen Sie alles Zutreffende aus.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1487,6 +1491,7 @@
           "item": "0",
           "text": "Welche der folgenden Aussagen trifft auf Sie zu? \n\nIn den letzten zehn Jahren war ich …",
           "instruction": "Bitte wählen Sie alles Zutreffende aus.",
+          "description": "Bitte wählen Sie alles Zutreffende aus.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1939,6 +1944,7 @@
           "item": "0",
           "text": "Falls Sie bei der letzten Bundestagswahl am 24. September 2017 gewählt haben, für welche Partei haben Sie mit Ihrer Zweitstimme gestimmt?\n\nDie Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2039,6 +2045,7 @@
         {
           "item": "0",
           "text": "Manche Mobiltelefone werden aufgrund ihrer Merkmale (zum Beispiel Touchscreen, Internetzugang, Verfügbarkeit von Apps) „Smartphones“ genannt. Ist Ihr Mobiltelefon ein solches Smartphone oder nicht?",
+          "filter": "AJ32030 = 1 (besitzt Mobiltelefon)",
           "scale": "cat",
           "answers": [
             {
@@ -2071,6 +2078,7 @@
         {
           "item": "0",
           "text": "Wie oft verwenden Sie Ihr Smartphone für andere Aktivitäten außer telefonieren oder SMS versenden?",
+          "filter": "AJ32004 = 1 (besitzt Smartphone)",
           "scale": "cat",
           "answers": [
             {
@@ -2112,6 +2120,8 @@
           "item": "0",
           "text": "Für welche der folgenden Aktivitäten verwenden Sie Ihr Smartphone?",
           "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "filter": "AJ32004 = 1 (besitzt Smartphone)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2221,6 +2231,7 @@
         {
           "item": "0",
           "text": "Wie schätzen Sie allgemein Ihre Fähigkeiten ein, mit Ihrem Smartphone umzugehen?",
+          "filter": "AJ32004 = 1 (besitzt Smartphone)",
           "scale": "cat",
           "answers": [
             {
@@ -2297,6 +2308,7 @@
         {
           "item": "0",
           "text": "Mit Smartphones können eine Vielzahl an Daten gesammelt werden, die Forschern Informationen über das tägliche Leben der Nutzer liefern.\n\nWir beschreiben Ihnen nun einige Aktivitäten, die Sie mit Ihrem Smartphone machen können. Bitte geben Sie an, wie besorgt Sie bei jeder dieser Aktivitäten über die Sicherheit Ihrer Daten wären, wenn Sie diese Aktivität im Rahmen einer Forschungsstudie machen sollten.\n\nWie besorgt wären Sie über die Sicherheit Ihrer Daten beim Ausfüllen eines Online-Fragebogens auf Ihrem Smartphone?",
+          "filter": "AJ32004 = 1 (besitzt Smartphone)",
           "scale": "cat",
           "answers": [
             {
@@ -2333,6 +2345,7 @@
         {
           "item": "0",
           "text": "Wir beschreiben Ihnen nun einige Aktivitäten, die Sie mit Ihrem Smartphone machen können. Bitte geben Sie an, wie besorgt Sie bei jeder dieser Aktivitäten über die Sicherheit Ihrer Daten wären, wenn Sie diese Aktivität im Rahmen einer Forschungsstudie machen sollten.\n\nWie besorgt wären Sie über die Sicherheit Ihrer Daten, wenn Sie eine App herunterladen würden, die Daten über die Verwendung Ihres Smartphones sammelt?",
+          "filter": "AJ32004 = 1 (besitzt Smartphone)",
           "scale": "cat",
           "answers": [
             {
@@ -2369,6 +2382,7 @@
         {
           "item": "0",
           "text": "Wir beschreiben Ihnen nun einige Aktivitäten, die Sie mit Ihrem Smartphone machen können. Bitte geben Sie an, wie besorgt Sie bei jeder dieser Aktivitäten über die Sicherheit Ihrer Daten wären, wenn Sie diese Aktivität im Rahmen einer Forschungsstudie machen sollten. \n\nWie besorgt wären Sie über die Sicherheit Ihrer Daten, wenn Sie mit der Kamera Ihres Smartphones Barcodes fotografieren oder scannen würden (zum Beispiel Fotos von Quittungen, Barcodes von gekauften Produkten)?",
+          "filter": "AJ32004 = 1 (besitzt Smartphone)",
           "scale": "cat",
           "answers": [
             {
@@ -2405,6 +2419,7 @@
         {
           "item": "0",
           "text": "Wir beschreiben Ihnen nun einige Aktivitäten, die Sie mit Ihrem Smartphone machen können. Bitte geben Sie an, wie besorgt Sie bei jeder dieser Aktivitäten über die Sicherheit Ihrer Daten wären, wenn Sie diese Aktivität im Rahmen einer Forschungsstudie machen sollten.\n\nWie besorgt wären Sie über die Sicherheit Ihrer Daten, wenn Sie den in Ihrem Smartphone eingebauten Sensoren erlauben würden, die Frequenz und Geschwindigkeit beim Gehen, Laufen und Radfahren zu messen?",
+          "filter": "AJ32004 = 1 (besitzt Smartphone)",
           "scale": "cat",
           "answers": [
             {
@@ -2441,6 +2456,7 @@
         {
           "item": "0",
           "text": "Wir beschreiben Ihnen nun einige Aktivitäten, die Sie mit Ihrem Smartphone machen können. Bitte geben Sie an, wie besorgt Sie bei jeder dieser Aktivitäten über die Sicherheit Ihrer Daten wären, wenn Sie diese Aktivität im Rahmen einer Forschungsstudie machen sollten. \n\nWie besorgt wären Sie über die Sicherheit Ihrer Daten, wenn Sie die GPS-Position Ihres Smartphones freigeben würden (zum Beispiel, um die Zeit in der Stadt und im Grünen zu messen)?",
+          "filter": "AJ32004 = 1 (besitzt Smartphone)",
           "scale": "cat",
           "answers": [
             {
@@ -2509,6 +2525,7 @@
         {
           "item": "0",
           "text": "Wie zufrieden sind Sie mit Ihrer Beziehung?",
+          "filter": "AE32090 = 2 (in Beziehung)",
           "scale": "cat",
           "answers": [
             {
@@ -3091,7 +3108,7 @@
         {
           "item": "0",
           "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
-          "scale": "str",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }
