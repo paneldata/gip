@@ -33,6 +33,8 @@
         {
           "item": "0",
           "text": "Im Folgenden geht es um die Europäische Union (EU). Bitte lesen Sie die folgende Aussage sorgfältig durch.\n\n[wenn expCG36098 = 1: Der EU wird häufig vorgeworfen, dass sie  zu keiner Einigung kommt, was zu anhaltenden Konflikten und Untätigkeit in wichtigen Fragen führt. Beispielsweise gehen die Ansichten und Interessen der Mitgliedstaaten und der verschiedenen EU Institutionen oft auseinander. Deshalb ging die EU die europäische Flüchtlingskrise im Jahr 2015 nicht umgehend an, obwohl rasches Handeln notwendig gewesen wäre, um sichere Grenzen und faire Verfahren zu garantieren.]\n\n[wenn expCG36098 = 2: Der EU wird häufig vorgeworfen, dass sie zu schnell zu einem Kompromiss kommt, anstatt bei wichtigen Themen verschiedene Ansichten und Interessen zu vertreten. Beispielsweise hat die EU oft die unterschiedlichen Ansichten der Mitgliedstaaten und der verschiedenen Institutionen vernachlässigt. Deshalb kam die EU zu gedankenlosen Übereinkünften, obwohl überlegtes Handeln notwendig gewesen wäre, um sichere Grenzen und faire Verfahren zu garantieren.]\n \n[wenn expCG36098 = 3: Kürzlich haben viele Experten darauf hingewiesen, dass die EU zu keiner Einigung kommt, was zu anhaltenden Konflikten und Untätigkeit in wichtigen Fragen führt. Beispielsweise gehen die Ansichten und Interessen der Mitgliedstaaten und der verschiedenen EU Institutionen oft auseinander. Deshalb ging die EU die europäische Flüchtlingskrise im Jahr 2015 nicht umgehend an, obwohl rasches Handeln notwendig gewesen wäre, um sichere Grenzen und faire Verfahren zu garantieren. Kürzlich fand eine Studie führender Wissenschaftler Belege für diese Ansicht auf Grundlage fortgeschrittener statistischer Methoden. Dieser Forschungsarbeit zufolge ist der sogenannte „Stillstand” der EU deutlich größer einzuschätzen als viele dachten.]\n \n[wenn expCG36098 = 4: Kürzlich haben viele Experten darauf hingewiesen, dass die EU zu schnell zu einem Kompromiss kommt, anstatt bei wichtigen Themen verschiedene Ansichten und Interessen zu vertreten. Beispielsweise hat die EU oft die unterschiedlichen Ansichten der Mitgliedstaaten und der verschiedenen Institutionen vernachlässigt. Deshalb kam die EU zu gedankenlosen Übereinkünften, obwohl überlegtes Handeln notwendig gewesen wäre, um sichere Grenzen und faire Verfahren zu garantieren. Kürzlich fand eine Studie führender Wissenschaftler Belege für diese Ansicht auf Grundlage fortgeschrittener statistischer Methoden. Dieser Forschungsarbeit zufolge ist der sogenannte „Kompromiss” der EU deutlich größer einzuschätzen als viele dachten.]",
+          "description": "Befragte zufällig auf 5 Gruppen aufteilen.\n- 1/8 der Befragten bekommt Treatment 1 (Gruppe 1).\n- 1/8 der Befragten bekommt Treatment 2 (Gruppe 2).\n- 1/4 der Befragten bekommt Treatment 3 (Gruppe 3).\n- 1/4 der Befragten bekommt Treatment 4 (Gruppe 4).\n- 1/4 der Befragten bekommt KEIN Treatment (Gruppe 5).\n\nZuteilung zu den Experimentalgruppen in separater Variable expCG36098 speichern",
+          "filter": "expCG36098 = 1, 2, 3, 4",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -51,6 +53,7 @@
         {
           "item": "0",
           "text": "Wie sehr stimmen Sie dieser Aussage zu?",
+          "filter": "expCG36098 = 1, 2",
           "scale": "cat",
           "answers": [
             {
@@ -1155,6 +1158,7 @@
         {
           "item": "0",
           "text": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\n[wenn expCG36095 = 1: Wenn die EU viele Entscheidungen träfe, denen die meisten Menschen nicht zustimmen, wäre es besser, die  EU ganz abzuschaffen.]\n[wenn expCG36095 = 2: Wenn die Europäische Kommission viele Entscheidungen träfe, die den Menschen nicht passen, wäre es besser, sie ganz abzuschaffen.]\n[wenn expCG36095 = 3: Wenn der Rat der Europäischen Union viele Entscheidungen träfe, die den Menschen nicht passen, wäre es besser, ihn ganz abzuschaffen.]\n[wenn expCG36095 = 4: Wenn das Europäische Parlament viele Entscheidungen träfe, die den Menschen nicht passen, wäre es besser, es ganz abzuschaffen.]\n[wenn expCG36095 = 5: Wenn der Gerichtshof der Europäischen Union viele Entscheidungen träfe, die den Menschen nicht passen, wäre es besser, ihn ganz abzuschaffen.]",
+          "description": "Befragte zufällig auf fünf Gruppen aufteilen.\n- 1/5 der Befragten bekommt Treatment 1 (Gruppe 1).\n- 1/5 der Befragten bekommt Treatment 2 (Gruppe 2).\n- 1/5 der Befragten bekommt Treatment 3 (Gruppe 3).\n- 1/5 der Befragten bekommt Treatment 4 (Gruppe 4).\n- 1/5 der Befragten bekommt Treatment 5 (Gruppe 5).\nZuteilung zu den Experimentalgruppen in separater Variable expCG36095 speichern.",
           "scale": "cat",
           "answers": [
             {
@@ -1203,6 +1207,7 @@
         {
           "item": "0",
           "text": "[wenn expCG36096 = 1: Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der EU?]\n[wenn expCG36096 = 2: Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der Europäischen Kommission?]\n[wenn expCG36096 = 3: Wie unzufrieden oder zufrieden sind Sie mit den Leistungen des Rats der Europäischen Union?]\n[wenn expCG36096 = 4: Wie unzufrieden oder zufrieden sind Sie mit den Leistungen des Europäischen Parlaments?]\n[wenn expCG36096 = 5: Wie unzufrieden oder zufrieden sind Sie mit den Leistungen des Gerichtshofs der Europäischen Union?]",
+          "description": "Befragte zufällig auf fünf Gruppen aufteilen.\n- 1/5 der Befragten bekommt Treatment 1 (Gruppe 1).\n- 1/5 der Befragten bekommt Treatment 2 (Gruppe 2).\n- 1/5 der Befragten bekommt Treatment 3 (Gruppe 3).\n- 1/5 der Befragten bekommt Treatment 4 (Gruppe 4).\n- 1/5 der Befragten bekommt Treatment 5 (Gruppe 5).\nZuteilung zu den Experimentalgruppen in separater Variable expCG36096 speichern.",
           "scale": "cat",
           "answers": [
             {
@@ -1252,7 +1257,9 @@
           "item": "0",
           "text": "Welches Thema ist Ihrer Meinung nach das wichtigste für BÜNDNIS 90/DIE GRÜNEN?",
           "instruction": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
-          "scale": "str",
+          "description": "Befragte zufällig auf zwei Gruppen aufteilen.\n- 50% der Befragten bekommen Fragen zu wichtigstem Thema von BÜNDNIS 90/DIE GRÜNEN (Gruppe 1)\n- 50% der Befragten bekommen Fragen zu wichtigstem Thema von CDU/CSU (Gruppe 2)\n Zuteilung zu den Experimentalgruppen in separater Variable expCD36129  speichern.\nBitte tragen Sie Ihre Antwort in das Feld ein.",
+          "filter": "expCD36129 = 1 (Experimentalgruppe Grüne) ",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }
@@ -1270,6 +1277,8 @@
         {
           "item": "0",
           "text": "Im Folgenden sehen Sie einen Teil des Inhaltsverzeichnisses des Wahlprogramms, das BÜNDNIS 90/DIE GRÜNEN zur Bundestagswahl 2017 veröffentlich haben. Bitte schauen Sie sich das Inhaltsverzeichnis aufmerksam an.",
+          "description": "Wenn expCD36129 = 1 (Befragte, die Fragen zum wichtigesten Thema von BÜNDNIS 90/DIE GRÜNEN bekommen), in drei Gruppen aufteilen:\n - Ein Drittel bekommen Treatment 1 (Gruppe 1)\n - Ein Drittel bekommen Treatment 2 (Gruppe 2)\n - Ein Drittel bekommen kein Treatment und gehen direkt weiter zu Frage CD36131. \nZuteilung zu den Exprimentalgruppen in separater Variable expCD36130 speichern.",
+          "filter": "expCD36129 = 1 (Experimentalgruppe Grüne); expCD36130 = 1  oder expCD36130 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1288,6 +1297,7 @@
         {
           "item": "0",
           "text": "A. Umwelt im Kopf\n1. Wir erhalten unsere Natur\n2. Wir sorgen für gesunde Lebensmittel und beenden Tierleid\n3. Wir retten das Klima\n4. Wir begrünen unsere Wirtschaft für Umweltschutz, Lebensqualität und Arbeitsplätze\n5. Wir steigen um – komplett auf grüne Energien\n6. Wir sorgen für saubere, bezahlbare und bequeme Mobilität\n\nB. Gerechtigkeit im Sinn\n1. Wir investieren in Kindertagesstätten, Schulen und Hochschulen\n2. Wir kämpfen für bezahlbare Wohnungen und lebenswerte Kommunen\n3. Wir teilen den Wohlstand gerechter\n4. Wir machen den Sozialstaat sicher und zukunftsfest\n5. Wir holen Kinder aus der Armut und fördern Familien\n6. Wir kämpfen für gute Arbeit und bessere Vereinbarkeit\n7. Wir gestalten Digitalisierung",
+          "filter": "expCD36129 = 1 (Experimentalgruppe Grüne); expCD36130 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1306,6 +1316,7 @@
         {
           "item": "0",
           "text": "A. Gerechtigkeit im Sinn\n1. Wir gestalten Digitalisierung\n2. Wir kämpfen für gute Arbeit und bessere Vereinbarkeit\n3. Wir holen Kinder aus der Armut und fördern Familien\n4. Wir machen den Sozialstaat sicher und zukunftsfest\n5. Wir teilen den Wohlstand gerechter\n6. Wir kämpfen für bezahlbare Wohnungen und lebenswerte Kommunen\n7. Wir investieren in Kindertagesstätten, Schulen und Hochschulen\n\nB. Umwelt im Kopf\n1. Wir sorgen für saubere, bezahlbare und bequeme Mobilität\n2. Wir steigen um – komplett auf grüne Energien\n3. Wir begrünen unsere Wirtschaft für Umweltschutz, Lebensqualität und Arbeitsplätze\n4. Wir retten das Klima\n5. Wir sorgen für gesunde Lebensmittel und beenden Tierleid\n6. Wir erhalten unsere Natur",
+          "filter": "expCD36129 = 1 (Experimentalgruppe Grüne); expCD36130 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1325,7 +1336,9 @@
           "item": "0",
           "text": "Welches Thema war Ihrer Meinung nach das wichtigste für BÜNDNIS 90/DIE GRÜNEN im vergangenen Wahlkampf?",
           "instruction": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
-          "scale": "str",
+          "description": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "filter": "expCD36129 = 1 (Experimentalgruppe Grüne)",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }
@@ -1344,7 +1357,9 @@
           "item": "0",
           "text": "Welches Thema ist Ihrer Meinung nach das wichtigste für die CDU/CSU?",
           "instruction": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
-          "scale": "str",
+          "description": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "filter": "expCD36129 = 2 (Experimentalgruppe CDU/CSU) ",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }
@@ -1362,6 +1377,8 @@
         {
           "item": "0",
           "text": "Im Folgenden sehen Sie einen Teil des Inhaltsverzeichnisses des Wahlprogramms, das CDU/CSU zur Bundestagswahl 2017 veröffentlich haben. Bitte schauen Sie sich das Inhaltsverzeichnis aufmerksam an.",
+          "description": "Wenn expCD36129 = 1 (Befragte, die Fragen zum wichtigsten Thema von CDU/CSU bekommen), in drei Gruppen aufteilen: - Ein Drittel bekommen Treatment 1 (Gruppe 1)\n - Ein Drittel bekommen Treatment 2 (Gruppe 2)\n - Ein Drittel bekommen kein Treatment und gehen direkt weiter zu Frage CD36134 (Gruppe 3)\nZuteilung zu den Experimentalgruppen in separater Variable expCD36133 speichern.",
+          "filter": "expCD36129 = 2 ( Experimentalgruppe CDU/CSU); expCD36133 = 1 oder expCD36133 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1380,6 +1397,7 @@
         {
           "item": "0",
           "text": "Gute Arbeit auch für morgen – Vollbeschäftigung für Deutschland\n Arbeitsplätze sichern\n Neue Arbeitsplätze schaffen\n Langzeitarbeitslosen helfen\n Qualität von Arbeit ist uns wichtig\n Selbstständigkeit und Mittelstand stärken\n Tarifpartnerschaft stärken\n Landwirtschaft hat Zukunft\n Mehr Freiraum, weniger Bürokratie\n Verkehrsinfrastruktur erneuern und ausbauen\n Energiewende zum Erfolg führen\n Forschung und neue Technologien fördern\n Globalisierung für Deutschlands Zukunft nutzen\n\nWas unser Land zusammenhält\n Gemeinschaft und Zusammenhalt\n Ehrenamt und Sport\n Christliche Kirchen und Religionsgemeinschaften\n Religionsfreiheit in Deutschland\n Damit Integration gelingt",
+          "filter": "expCD36129 = 2 (Experimentalgruppe CDU/CSU); expCD36133 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1398,6 +1416,7 @@
         {
           "item": "0",
           "text": "Was unser Land zusammenhält\n Damit Integration gelingt\n Religionsfreiheit in Deutschland\n Christliche Kirchen und Religionsgemeinschaften\n Ehrenamt und Sport\n Gemeinschaft und Zusammenhalt\n\nGute Arbeit auch für morgen – Vollbeschäftigung in Deutschland\n Globalisierung für Deutschlands Zukunft nutzen\n Forschung und neue Technologien fördern\n Energiewende zum Erfolg führen\n Verkehrsinfrastruktur erneuern und ausbauen\n Mehr Freiraum, weniger Bürokratie\n Landwirtschaft hat Zukunft\n Tarifpartnerschaft stärken\n Selbstständigkeit und Mittelstand stärken\n Qualität von Arbeit ist uns wichtig\n Langzeitarbeitslosen helfen\n Neue Arbeitsplätze schaffen\n Arbeitsplätze sichern",
+          "filter": "expCD36129 = 2 (Experimentalgruppe CDU/CSU); expCD36133 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1417,7 +1436,9 @@
           "item": "0",
           "text": "Welches Thema war Ihrer Meinung nach das wichtigste für die CDU/CSU im vergangenen Wahlkampf?",
           "instruction": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
-          "scale": "str",
+          "description": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "filter": "expCD36129 = 2 (Experimentalgruppe CDU/CSU)",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }
@@ -1664,6 +1685,7 @@
           "item": "0",
           "text": "Wie sieht gegenwärtig Ihr normaler Alltag aus?\n\nWie viele Stunden pro Tag entfallen bei Ihnen an einem durchschnittlichen Werktag auf Berufstätigkeit, Lehre, Studium (Zeiten einschließlich Pendelwege, auch nebenberufliche Tätigkeit)?",
           "instruction": "Bitte tragen Sie volle Stunden (0 bis 24) ein.",
+          "description": "Bitte tragen Sie volle Stunden (0 bis 24) ein.",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -1683,6 +1705,7 @@
           "item": "0",
           "text": "Wie sieht gegenwärtig Ihr normaler Alltag aus?\n\n\nWie viele Stunden pro Tag entfallen bei Ihnen an einem durchschnittlichen Werktag auf Kinderbetreuung/Versorgung, Betreuung von pflegebedürftigen Personen und Hausarbeit?",
           "instruction": "Bitte tragen Sie einen Wert zwischen 0 und 24 ein.",
+          "description": "Bitte tragen Sie einen Wert zwischen 0 und 24 ein.",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -1786,6 +1809,8 @@
           "item": "0",
           "text": "Die Möglichkeit meine Arbeitszeit zu reduzieren würde ich in Anspruch nehmen, denn…",
           "instruction": "Bitte nennen Sie uns den wichtigsten Grund.",
+          "description": "Bitte nennen Sie uns den wichtigsten Grund.",
+          "filter": "AC36190  = 1 (ja, Arbeitszeit reduzieren)",
           "scale": "cat",
           "answers": [
             {
@@ -1835,6 +1860,8 @@
           "item": "0",
           "text": "Die Möglichkeit meine Arbeitszeit zu reduzieren würde ich nicht in Anspruch nehmen, denn…",
           "instruction": "Bitte nennen Sie uns den wichtigsten Grund.",
+          "description": "Bitte nennen Sie uns den wichtigsten Grund.",
+          "filter": "AC36190 = 2 (nein, Arbeitszeit nicht reduzieren)",
           "scale": "cat",
           "answers": [
             {
@@ -1976,6 +2003,7 @@
           "item": "0",
           "text": "Welche (berufliche) Tätigkeit üben Sie derzeit hauptsächlich aus?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2064,6 +2092,7 @@
         {
           "item": "0",
           "text": "[wenn expAC36058 =1 :] \n[wenn expAC36058 =2 und AC33058 !=-99 (ungleich \"weiß nicht\"-Angabe in Welle 33): Im Januar 2018 haben wir Ihnen diese Frage schon ein Mal gestellt. Uns interessiert nun insbesondere, ob sich Ihre Meinung zu diesem Thema geändert hat. \nDamals waren Sie der Meinung, dass der Staat und die gesetzliche Rentenversicherung \"ausgabenpräferenz_renten\" sollte. Was denken Sie darüber heute:]\n[wenn expAC36058=2 und AC33058 = -99 (\"weiß nicht\"-Angabe in Welle 33): Im Januar 2018 haben wir Ihnen diese Frage schon ein Mal gestellt. Uns interessiert nun insbesondere, ob sich Ihre Meinung zu diesem Thema geändert hat. \nDamals haben sie „weiß nicht“ geantwortet. Was denken Sie darüber heute:]\n\nSollten der Staat und die gesetzliche Rentenversicherung für Renten mehr oder weniger Geld ausgeben als momentan?",
+          "description": "Befragte mit missing in AC33058 kommen in Gruppe 3 (expAC36058=3)\nAlle anderen Befragte zufällig auf zwei Gruppen aufteilen.\n- 50% der Befragten bekommen in Frage AC36058 keinen Hinweis zu ihrer Antwort im Januar 2018 (Gruppe 1).\n- 50% der Befragten bekommen in Frage AC36058 einen Hinweis was sie in 2018 geantwortet haben. (Gruppe 2).\n Zuteilung zu den Experimentalgruppen in separater Variable expAC36058 speichern.",
           "scale": "cat",
           "answers": [
             {
@@ -2108,7 +2137,8 @@
         {
           "item": "0",
           "text": "[wenn expAC36058 =1: Im Januar 2018 haben wir Ihnen diese Frage schon ein Mal gestellt. Damals haben Sie \"ausgabenpräferenz_renten\" geantwortet. \nIhre Meinung hat sich im Vergleich zum Januar 2018 verändert. Können Sie uns sagen, weshalb sich Ihre Meinung geändert hat?] \n[wenn expAC36058 =2: Ihre Meinung zu mehr oder weniger Ausgaben für Renten hat sich im Vergleich zum Januar 2018 verändert. Können Sie uns sagen, weshalb sich Ihre Meinung geändert hat?]",
-          "scale": "str",
+          "filter": "AC36058 !=AC33058 (Antwort in Welle 33 ungleich Antwort in Welle 36) und expAC36058!=3",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }
@@ -2126,6 +2156,7 @@
         {
           "item": "0",
           "text": "[wenn expAC36067 =1:]\n[wenn expAC36067 =2 & AC33067!=-99 (weiß nicht) :Im Januar 2018 haben wir Ihnen diese Frage schon ein Mal gestellt. Uns interessiert nun insbesondere, ob sich Ihre Meinung zu diesem Thema geändert hat.\nDamals waren Sie der Meinung, dass der Staat und die gesetzliche Rentenversicherung ausgabenpräferenz_arbeitslose sollte. Was denken Sie darüber heute:]\n[wenn expAC36067=2 & AC33067 = -99 (weiß nicht): Im Januar 2018 haben wir Ihnen diese Frage schon ein Mal gestellt. Uns interessiert nun insbesondere, ob sich Ihre Meinung zu diesem Thema geändert hat.\nDamals haben sie „weiß nicht“ geantwortet. Was denken Sie darüber heute:]\n[wenn expAC36067 =3:]\n\nSollte der Staat für die Unterstützung von Arbeitslosen mehr oder weniger Geld ausgeben als momentan?",
+          "description": "Befragte mit missing in AC33067 kommen in Gruppe 3 (expAC36067=3)\nAlle anderen Befragte zufällig auf zwei Gruppen aufteilen.\n- 50% der Befragten bekommen in Frage AC36067 keinen Hinweis zu ihrer Antwort im Januar 2018 (Gruppe 1).\n- 50% der Befragten bekommen in Frage AC36067 einen Hinweis was sie in 2018 geantwortet haben. (Gruppe 2).\nZuteilung zu den Experimentalgruppen in separater Variable expAC36067 speichern.",
           "scale": "cat",
           "answers": [
             {
@@ -2170,6 +2201,7 @@
         {
           "item": "0",
           "text": "[wenn expAC36067 =1: Im Januar 2018 haben wir Ihnen diese Frage schon ein Mal gestellt. Damals haben Sie \"ausgabenpräferenz_arbeitslose\" geantwortet. \nIhre Meinung hat sich im Vergleich zum Januar 2018 verändert. Können Sie uns sagen, weshalb sich Ihre Meinung geändert hat?] \n[wenn expAC36058 =2: Ihre Meinung zur Unterstützung von Arbeitslosen hat sich im Vergleich zum Januar 2018 verändert. Können Sie uns sagen, weshalb sich Ihre Meinung geändert hat?]",
+          "filter": "expAC36067 =2 und AC33067!=-99 (\"weiß nicht\"-Angabe in Welle 33) ",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2207,6 +2239,7 @@
           "item": "0",
           "text": "Als wie schwer empfinden Sie es, Ihre Steuererklärung auszufüllen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2259,6 +2292,7 @@
         {
           "item": "0",
           "text": "In Deutschland wird immer wieder diskutiert, ob das Einkommensteuersystem wegen vielfacher Abzugsmöglichkeiten und Freibeträgen zu kompliziert ist.\n[wenn expCF36077 = 1: Andererseits wird auch argumentiert, dass ein Steuersystem mit vielen Abzugsmöglichkeiten und Freibeträgen eine sozial- und verteilungspolitische Ausgleichsfunktion hat. Zum Beispiel können Steuerabzugsmöglichkeiten eingesetzt werden, um Steuerzahler, die aus unverschuldeten Gründen benachteiligt sind, steuerlich besser zu stellen.]\n[wenn expCF36077 = 2: Dabei wird unter anderem argumentiert, dass ein Steuersystem mit vielen Abzugsmöglichkeiten und Freibeträgen mehr Raum für Steuerumgehungen und -anpassungen bietet. Zum Beispiel können Steuerabzugsmöglichkeiten genutzt werden, um die eigene Steuerzahlung, aufgrund besserer Kenntnis des Steuersystems oder aufgrund ungerechtfertigter Angaben in der Steuererklärung, zu reduzieren.]\n[wenn expCF36077 = 3:]",
+          "description": "Befragte zufällig auf drei Gruppen aufteilen.\n- 1/3 der Befragten bekommt Treatment 1 (Gruppe 1).\n- 1/3 der Befragten bekommt Treatment 2 (Gruppe 2).\n- 1/3 der Befragten bekommt KEIN Treatment (Gruppe 3).\nZuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expCF36077 speichern.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2278,6 +2312,7 @@
           "item": "0",
           "text": "Sind Sie generell der Ansicht, dass das Einkommensteuersystem in Deutschland vereinfacht werden sollte?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2327,6 +2362,7 @@
           "item": "0",
           "text": "Sind Sie generell der Ansicht, dass das Einkommensteuersystem in Deutschland reformbedürftig ist?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2376,6 +2412,7 @@
           "item": "0",
           "text": "Sind Sie eher der Ansicht, dass zahlreiche Abzugsmöglichkeiten und Freibeträge zu einer gerechteren Einkommensverteilung beitragen oder sind Sie eher der Ansicht, dass einkommensstarke Bürgerinnen und Bürger stärker von diesen Abzugsmöglichkeiten und Freibeträgen profitieren?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2425,6 +2462,7 @@
           "item": "0",
           "text": "Welche der folgenden Maßnahmen zur Vereinfachung der Einkommensteuer würde Ihnen am meisten zusagen? Nehmen Sie jeweils an, dass das Steueraufkommen bei Durchführung dieser Maßnahmen unverändert bleibt.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2474,6 +2512,7 @@
           "item": "0",
           "text": "Stellen Sie sich zwei Personen A und B vor. Welche Person sollte Ihrer Ansicht nach in der folgenden Situation mehr Steuern zahlen? Person A hat eine hilfsbedürftige und mittellose Mutter und muss einen erheblichen Teil des Einkommens für die Pflege der Mutter aufbringen. Person B hat keine Ausgaben für die Pflege von Angehörigen. Beide Personen verfügen über das gleiche Bruttoarbeitseinkommen und sind sich auch sonst sehr ähnlich.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2507,6 +2546,7 @@
           "item": "0",
           "text": "Stellen Sie sich zwei Personen A und B vor. Welche Person sollte Ihrer Ansicht nach in der folgenden Situation mehr Steuern zahlen? Person A spendet einen erheblichen Teil des Einkommens für gemeinnützige Zwecke. Person B spendet nichts. Beide Personen verfügen über das gleiche Bruttoarbeitseinkommen und sind sich auch sonst sehr ähnlich.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2540,6 +2580,7 @@
           "item": "0",
           "text": "Stellen Sie sich zwei Personen A und B vor. Welche Person sollte Ihrer Ansicht nach in der folgenden Situation mehr Steuern zahlen? Person A hat einen sehr langen Weg zur Arbeit. Person B's Arbeitsplatz ist sehr nah gelegen am Wohnort. Beide Personen verfügen über das gleiche Bruttoarbeitseinkommen und sind sich auch sonst sehr ähnlich.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2572,6 +2613,7 @@
         {
           "item": "0",
           "text": "Wir würden gerne erneut die Diskussion ansprechen, ob das deutsche Einkommensteuersystem wegen vielfacher Abzugsfähigkeiten und Freibeträgen zu kompliziert ist.\n\n[wenn expCF36085 = 1: Ein bisher noch nicht behandeltes Argument, das oft gegen Steuervereinfachung angebracht wird, ist, dass ein Steuersystem mit vielen Abzugsmöglichkeiten und Freibeträgen bessere Möglichkeiten bietet, entsprechend der persönlichen Leistungsfähigkeit zu besteuern und dadurch ökonomisch effizienter ist.]\n[wenn expCF36085 = 2: Ein bisher noch nicht behandeltes Argument, das oft für eine Steuervereinfachung angebracht wird, ist, dass ein  Steuersystem mit vielen Abzugsmöglichkeiten und Freibeträgen Interessensgruppen mehr Spielraum bietet, Ausnahmen für die eigene Klientel auszuhandeln.]\n[wenn expCF36077 = 3:]",
+          "description": "Befragte zufällig auf drei Gruppen aufteilen.\n- 1/3 der Befragten bekommt Treatment 1 (Gruppe 1).\n- 1/3 der Befragten bekommt Treatment 2 (Gruppe 2).\n- 1/3 der Befragten bekommt KEIN Treatment (Gruppe 3).\nZuteilung zu den Experimentalgruppen in separater Variable expCF36085 speichern.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2591,6 +2633,7 @@
           "item": "0",
           "text": "Nachdem wir uns hier in dieser Umfrage ausführlich mit verschiedenen Aspekten des deutschen Steuersystems beschäftigt haben, möchten wir Sie an dieser Stelle noch einmal fragen, ob Sie generell der Ansicht sind, dass die Einkommensteuer in Deutschland vereinfacht werden sollte?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2640,6 +2683,8 @@
           "item": "0",
           "text": "Welche der folgenden Abzugsmöglichkeiten und/oder Freibeträge nehmen Sie im Rahmen der Einkommensteuer für gewöhnlich in Anspruch?",
           "instruction": "Bitte geben Sie alle zutreffenden Abzugsmöglichkeiten oder Freibeträge an.",
+          "description": "Bitte geben Sie alle zutreffenden Abzugsmöglichkeiten oder Freibeträge an.",
+          "filter": "CF36076 !=-99 (ungleich \"weiß nicht\", Ausfüllen Schwierigkeit Steuererklärung)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2743,6 +2788,7 @@
           "item": "0",
           "text": "Nun zu einem anderen Thema: In Deutschland sollen Bund und Länder in Zukunft keine neuen Schulden mehr machen. Dies könnte allerdings bedeuten, dass staatliche Leistungen gekürzt und/oder die Steuerbelastung der Menschen erhöht werden müssen.\n\nAb welchem Jahr sollten Bund und Länder Ihrer Meinung nach ganz ohne neue Schulden auskommen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2788,6 +2834,7 @@
           "item": "0",
           "text": "Die sogenannte Schuldenbremse verbietet es der Bundesregierung ab 2016 fast vollständig, neue Schulden zu machen. Die Bundesländer dürfen gemäß der Schuldenbremse ab 2020 überhaupt keine neuen Schulden mehr machen. \n\nWie finden Sie die Schuldenbremse?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2837,6 +2884,7 @@
           "item": "0",
           "text": "Ein Bundesland kommt ohne neue Schulden aus, wenn es alle seine Ausgaben mit Einnahmen aus Steuern und Abgaben bezahlen kann.\n\nFür wie wahrscheinlich halten Sie es, dass das Bundesland, in dem Sie Ihren Hauptwohnsitz haben, ab 2020 ohne neue Schulden auskommt?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2886,6 +2934,7 @@
           "item": "0",
           "text": "Niemand kann heute mit Sicherheit sagen, ob es allen 16 Bundesländern gelingen wird, ab 2020 keine neuen Schulden zu machen. \n\n[EDV: wenn expCF36004 = Gruppe 1: Angenommen, ein anderes Bundesland hält sich nicht an die Schuldenbremse und macht neue Schulden.] \n[EDV: wenn expCF36004 = Gruppe 2: Angenommen, drei andere Bundesländer halten sich nicht an die Schuldenbremse und machen neue Schulden.] \n[EDV: wenn expCF36004 = Gruppe 3: Angenommen, fünf andere Bundesländer halten sich nicht an die Schuldenbremse und machen neue Schulden.] \n[EDV: wenn expCF36004 = Gruppe 4: Angenommen, acht andere Bundesländer halten sich nicht an die Schuldenbremse und machen neue Schulden.] \n[EDV: wenn expCF36004 = Gruppe 5: Angenommen, elf andere Bundesländer halten sich nicht an die Schuldenbremse und machen neue Schulden.] \n[EDV: wenn expCF36004 = Gruppe 6: Angenommen, alle anderen Bundesländer halten sich an die Schuldenbremse und machen keine neuen Schulden.]\n\nWie würden Sie es finden, wenn sich das Bundesland, in dem Sie Ihren Hauptwohnsitz haben, unter diesen Umständen an die Schuldenbremse hält?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Befragte zufällig auf sechs Gruppen aufteilen. \n- 1/6 der Befragten bekommen Treatment 1 (Gruppe 1). \n- 1/6 der Befragten bekommen Treatment 2 (Gruppe 2). \n- 1/6 der Befragten bekommen Treatment 3 (Gruppe 3). \n- 1/6 der Befragten bekommen Treatment 4 (Gruppe 4). \n- 1/6 der Befragten bekommen Treatment 5 (Gruppe 5). \n- 1/6 der Befragten bekommen Treatment 6 (Gruppe 6). \nZuteilung zu den Experimentalgruppen in separater Variable expCF36004 speichern.\nBei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2935,6 +2984,7 @@
           "item": "0",
           "text": "Bekommt das Bundesland, in dem Sie Ihren Hauptwohnsitz haben, im Länderfinanzausgleich Geld oder muss es Geld bezahlen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2968,6 +3018,7 @@
           "item": "0",
           "text": "In diesem Fragebogenteil möchten wir gerne Ihre Meinung zu politischen Fragen wissen:\n\nWie zufrieden sind Sie mit der Art und Weise, wie die Demokratie in der Bundesrepublik Deutschland funktioniert?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -3009,6 +3060,7 @@
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der Bundesregierung?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -3579,7 +3631,7 @@
         {
           "item": "0",
           "text": "Haben Sie noch weitere Anmerkungen?\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
-          "scale": "str",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }

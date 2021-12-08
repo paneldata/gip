@@ -85,6 +85,7 @@
         {
           "item": "0",
           "text": "In welchem Jahr wurden Sie geboren?",
+          "description": "wenn AA47404 = 2 (Geburtsjahr nicht korrekt)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -103,6 +104,7 @@
         {
           "item": "0",
           "text": "Wo sind Sie geboren?",
+          "filter": "LC47001 = 2 (Geburtsort nicht korrekt) oder Geburtsort missing und LC47002 <= 1945 oder AA47404 = 1 und Geburtsjahr <= 1945",
           "scale": "cat",
           "answers": [
             {
@@ -135,6 +137,7 @@
         {
           "item": "0",
           "text": "Wo sind Sie geboren?",
+          "filter": "LC47001 = 2 (Geburtsort nicht korrekt) oder Geburtsort missing und LC47002 > 1945 oder AA47404 = 1 und Geburtsjahr <= 1945",
           "scale": "cat",
           "answers": [
             {
@@ -168,6 +171,8 @@
           "item": "0",
           "text": "In welchem Jahr sind Sie nach Deutschland gezogen?",
           "instruction": "Falls Sie mehrmals nach Deutschland zugezogen sind, beziehen Sie sich bitte auf den ersten Zuzug nach Deutschland.",
+          "description": "Falls Sie mehrmals nach Deutschland zugezogen sind, beziehen Sie sich bitte auf den ersten Zuzug nach Deutschland.",
+          "filter": "LC47001 = 1 und Geburtsort = 2,3 (Geburtsort korrekt und nicht in Deutschland) oder LC47003 = 2,3 oder LC47004 = 2,3 (korrigierter Geburtsort nicht in Deutschland)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -186,6 +191,7 @@
         {
           "item": "0",
           "text": "Wo haben Sie vor dem Mauerfall, also vor 1989, gewohnt?",
+          "filter": "AA47404 = 1 und Geburtsjahr < 1989 oder LC47002 < 1989 (wenn die Person vor 1989 geboren ist)",
           "scale": "cat",
           "answers": [
             {
@@ -237,6 +243,7 @@
           "item": "0",
           "text": "Wie viele Zimmer belegte Ihr Haushalt in der Wohnung, in der Sie mit 15 Jahren gewohnt haben?",
           "instruction": "Einschließlich Schlafzimmer, jedoch ohne Küche, Badezimmer und Diele bzw. Flur. Auch Keller, Speicher, Abstellraum usw. bitte nicht mitzählen.",
+          "description": "Einschließlich Schlafzimmer, jedoch ohne Küche, Badezimmer und Diele bzw. Flur. Auch Keller, Speicher, Abstellraum usw. bitte nicht mitzählen.",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -256,6 +263,7 @@
           "item": "0",
           "text": "Wie viele Bücher befanden sich in dem Haushalt, in dem Sie gelebt haben, als Sie 15 Jahre alt waren?",
           "instruction": "Zählen Sie Zeitschriften, Zeitungen und Ihre Schulbücher bitte nicht mit",
+          "description": "Zählen Sie Zeitschriften, Zeitungen und Ihre Schulbücher bitte nicht mit",
           "scale": "cat",
           "answers": [
             {
@@ -371,6 +379,8 @@
           "item": "0",
           "text": "Ist Ihr Vater in Deutschland geboren?",
           "instruction": "Wenn nicht in Deutschland, bitte das Geburtsland angeben.",
+          "description": "Wenn nicht in Deutschland, bitte das Geburtsland angeben.",
+          "filter": "LC47011_2 != 1 (wenn Vater nicht unbekannt)",
           "scale": "cat",
           "answers": [
             {
@@ -403,6 +413,7 @@
         {
           "item": "0",
           "text": "Welchen Schulabschluss hat Ihr Vater erworben?",
+          "filter": "LC47011_2 != 1 (wenn Vater nicht unbekannt)",
           "scale": "cat",
           "answers": [
             {
@@ -452,6 +463,8 @@
           "item": "0",
           "text": "Hat Ihr Vater eine berufliche Ausbildung oder ein Studium abgeschlossen?",
           "instruction": "Bei dieser Frage können Sie mehrere Antworten geben.",
+          "description": "Bei dieser Frage können Sie mehrere Antworten geben.",
+          "filter": "LC47011_2 != 1 (wenn Vater nicht unbekannt)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -537,6 +550,8 @@
           "item": "0",
           "text": "Ist Ihre Mutter in Deutschland geboren?",
           "instruction": "Wenn nicht in Deutschland, bitte das Geburtsland angeben.",
+          "description": "Wenn nicht in Deutschland, bitte das Geburtsland angeben.",
+          "filter": "LC47015_2 != 1 (wenn Mutter nicht unbekannt)",
           "scale": "cat",
           "answers": [
             {
@@ -569,6 +584,7 @@
         {
           "item": "0",
           "text": "Welchen Schulabschluss hat Ihre Mutter erworben?",
+          "filter": "LC47015_2 != 1 (wenn Mutter nicht unbekannt)",
           "scale": "cat",
           "answers": [
             {
@@ -618,6 +634,8 @@
           "item": "0",
           "text": "Hat Ihre Mutter eine berufliche Ausbildung oder ein Studium abgeschlossen?",
           "instruction": "Bei dieser Frage können Sie mehrere Antworten geben.",
+          "description": "Bei dieser Frage können Sie mehrere Antworten geben.",
+          "filter": "LC47015_2 != 1 (wenn Mutter nicht unbekannt)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -665,6 +683,7 @@
           "item": "0",
           "text": "Haben oder hatten Sie Geschwister?",
           "instruction": "Gemeint sind leibliche, Halb-, Stief- und Adoptivgeschwister.",
+          "description": "Gemeint sind leibliche, Halb-, Stief- und Adoptivgeschwister.",
           "scale": "cat",
           "answers": [
             {
@@ -693,7 +712,8 @@
         {
           "item": "0",
           "text": "Wie viele Geschwister haben oder hatten Sie?",
-          "scale": "str",
+          "filter": "LC47019 = 1 (wenn Befragte/-r Geschwister hat)",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }
@@ -712,6 +732,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Geschwister angeben, in welchem Jahr er oder sie geboren wurde, ob es eine Schwester oder ein Bruder ist und welche Art von Geschwister sie sind?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "description": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "filter": "LC47019 = 1  (wenn Befragte/-r Geschwister hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -803,6 +825,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Geschwister angeben, in welchem Jahr er oder sie geboren wurde, ob es eine Schwester oder ein Bruder ist und welche Art von Geschwister sie sind?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "description": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "filter": "LC47019 = 1 und LC47020 > 1 (wenn Befragte/-r > 1 Geschwister hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -894,6 +918,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Geschwister angeben, in welchem Jahr er oder sie geboren wurde, ob es eine Schwester oder ein Bruder ist und welche Art von Geschwister sie sind?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "description": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "filter": "LC47019 = 1 und LC47020 > 2 (wenn Befragte/-r > 2 Geschwister hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -985,6 +1011,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Geschwister angeben, in welchem Jahr er oder sie geboren wurde, ob es eine Schwester oder ein Bruder ist und welche Art von Geschwister sie sind?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "description": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "filter": "LC47019 = 1 und LC47020 > 3 (wenn Befragte/-r > 3 Geschwister hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1076,6 +1104,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Geschwister angeben, in welchem Jahr er oder sie geboren wurde, ob es eine Schwester oder ein Bruder ist und welche Art von Geschwister sie sind?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "description": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "filter": "LC47019 = 1 und LC47020 > 4 (wenn Befragte/-r > 4 Geschwister hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1167,6 +1197,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Geschwister angeben, in welchem Jahr er oder sie geboren wurde, ob es eine Schwester oder ein Bruder ist und welche Art von Geschwister sie sind?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "description": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "filter": "LC47019 = 1 und LC47020 > 5 (wenn Befragte/-r > 5 Geschwister hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1258,6 +1290,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Geschwister angeben, in welchem Jahr er oder sie geboren wurde, ob es eine Schwester oder ein Bruder ist und welche Art von Geschwister sie sind?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "description": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "filter": "LC47019 = 1 und LC47020 > 6 (wenn Befragte/-r > 6 Geschwister hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1349,6 +1383,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Geschwister angeben, in welchem Jahr er oder sie geboren wurde, ob es eine Schwester oder ein Bruder ist und welche Art von Geschwister sie sind?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "description": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "filter": "LC47019 = 1 und LC47020 > 7 (wenn Befragte/-r > 7 Geschwister hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1440,6 +1476,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Geschwister angeben, in welchem Jahr er oder sie geboren wurde, ob es eine Schwester oder ein Bruder ist und welche Art von Geschwister sie sind?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "description": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "filter": "LC47019 = 1 und LC47020 > 8 (wenn Befragte/-r > 8 Geschwister hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1531,6 +1569,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Geschwister angeben, in welchem Jahr er oder sie geboren wurde, ob es eine Schwester oder ein Bruder ist und welche Art von Geschwister sie sind?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "description": "Bitte beginnen Sie mit dem ältesten Geschwister.",
+          "filter": "LC47019 = 1 und LC47020 > 9 (wenn Befragte/-r > 9 Geschwister hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1622,6 +1662,7 @@
           "item": "0",
           "text": "Haben oder hatten Sie Kinder?",
           "instruction": "Gemeint sind leibliche oder adoptierte Kinder, nicht Pflege- oder Stiefkinder",
+          "description": "Gemeint sind leibliche oder adoptierte Kinder, nicht Pflege- oder Stiefkinder",
           "scale": "cat",
           "answers": [
             {
@@ -1650,7 +1691,8 @@
         {
           "item": "0",
           "text": "Wie viele Kinder haben oder hatten Sie?",
-          "scale": "str",
+          "filter": "LC47031 = 1 (wenn Befragte/-r Kinder hat)",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }
@@ -1669,6 +1711,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Kinder angeben, in welchem Jahr es geboren wurde, ob es ein Mädchen oder Junge war und wo er oder sie jetzt lebt?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "description": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "filter": "LC47031 = 1 (wenn Befragte/-r Kinder hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1764,6 +1808,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Kinder angeben, in welchem Jahr es geboren wurde, ob es ein Mädchen oder Junge war und wo er oder sie jetzt lebt?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "description": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "filter": "LC47031 = 1 und LC47032 > 1 (wenn Befragter mehr als ein Kind hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1859,6 +1905,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Kinder angeben, in welchem Jahr es geboren wurde, ob es ein Mädchen oder Junge war und wo er oder sie jetzt lebt?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "description": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "filter": "LC47031 = 1 und LC47032 > 2 (wenn Befragter mehr als 2 Kinder hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1954,6 +2002,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Kinder angeben, in welchem Jahr es geboren wurde, ob es ein Mädchen oder Junge war und wo er oder sie jetzt lebt?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "description": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "filter": "LC47031 = 1 und LC47032 > 3 (wenn Befragter mehr als 3 Kinder hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2049,6 +2099,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Kinder angeben, in welchem Jahr es geboren wurde, ob es ein Mädchen oder Junge war und wo er oder sie jetzt lebt?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "description": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "filter": "LC47031 = 1 und LC47032 > 4 (wenn Befragter mehr als 4 Kinder hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2144,6 +2196,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Kinder angeben, in welchem Jahr es geboren wurde, ob es ein Mädchen oder Junge war und wo er oder sie jetzt lebt?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "description": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "filter": "LC47031 = 1 und LC47032 > 5 (wenn Befragter mehr als 5 Kinder hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2239,6 +2293,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Kinder angeben, in welchem Jahr es geboren wurde, ob es ein Mädchen oder Junge war und wo er oder sie jetzt lebt?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "description": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "filter": "LC47031 = 1 und LC47032 > 6 (wenn Befragter mehr als 6 Kinder hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2334,6 +2390,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Kinder angeben, in welchem Jahr es geboren wurde, ob es ein Mädchen oder Junge war und wo er oder sie jetzt lebt?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "description": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "filter": "LC47031 = 1 und LC47032 > 7 (wenn Befragter mehr als 7 Kinder hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2429,6 +2487,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Kinder angeben, in welchem Jahr es geboren wurde, ob es ein Mädchen oder Junge war und wo er oder sie jetzt lebt?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "description": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "filter": "LC47031 = 1 und LC47032 > 8 (wenn Befragter mehr als 8 Kinder hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2524,6 +2584,8 @@
           "item": "0",
           "text": "Würden Sie uns für jedes Ihrer Kinder angeben, in welchem Jahr es geboren wurde, ob es ein Mädchen oder Junge war und wo er oder sie jetzt lebt?",
           "instruction": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "description": "Bitte beginnen Sie mit dem ältesten Kind.",
+          "filter": "LC47031 = 1 und LC47032 > 9 (wenn Befragter mehr als 9 Kinder hat)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2637,6 +2699,7 @@
           "item": "0",
           "text": "Haben Sie derzeit eine feste Beziehung?",
           "instruction": "Unter einer festen Beziehung verstehen wir Beziehungen, bei denen Sie mit Ihrem Partner zusammenleben, unabhängig davon, ob Sie in dieser Beziehung verheiratet sind oder nicht.",
+          "description": "Unter einer festen Beziehung verstehen wir Beziehungen, bei denen Sie mit Ihrem Partner zusammenleben, unabhängig davon, ob Sie in dieser Beziehung verheiratet sind oder nicht.",
           "scale": "cat",
           "answers": [
             {
@@ -2665,6 +2728,7 @@
         {
           "item": "0",
           "text": "In welchem Jahr hat diese Beziehung begonnen?",
+          "filter": "LC47043 = 1 (wenn Befragte/-r eine aktuelle Beziehung hat)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -2684,6 +2748,8 @@
           "item": "0",
           "text": "Sind Sie in dieser Beziehung verheiratet?",
           "instruction": "Wenn wir von Heirat oder Ehe sprechen, dann ist damit immer auch eine eingetragene Partnerschaft gemeint.",
+          "description": "Wenn wir von Heirat oder Ehe sprechen, dann ist damit immer auch eine eingetragene Partnerschaft gemeint.",
+          "filter": "LC47043 = 1 (wenn Befragte/-r eine aktuelle Beziehung hat)",
           "scale": "cat",
           "answers": [
             {
@@ -2712,6 +2778,7 @@
         {
           "item": "0",
           "text": "In welchem Jahr haben Sie geheiratet?",
+          "filter": "LC47045 = 1 (wenn Befragte/-r in der aktuellen Beziehung verheiratet)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -2731,6 +2798,7 @@
           "item": "0",
           "text": "Hatten Sie [wenn LC47043 = 2: zuvor jemals eine feste Beziehung?] [wenn LC47043 = 1: davor noch eine andere feste Beziehung?]",
           "instruction": "Unter einer festen Beziehung verstehen wir Beziehungen, bei denen Sie mit Ihrem Partner zusammenleben, unabhängig davon, ob Sie in dieser Beziehung verheiratet sind oder nicht.",
+          "description": "Unter einer festen Beziehung verstehen wir Beziehungen, bei denen Sie mit Ihrem Partner zusammenleben, unabhängig davon, ob Sie in dieser Beziehung verheiratet sind oder nicht.",
           "scale": "cat",
           "answers": [
             {
@@ -2759,6 +2827,7 @@
         {
           "item": "0",
           "text": "In welchem Jahr hat diese Beziehung begonnen?",
+          "filter": "LC47047=1 (Befragter eine vorherige Beziehung hatte)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -2778,6 +2847,8 @@
           "item": "0",
           "text": "Waren Sie in dieser Beziehung verheiratet?",
           "instruction": "Wenn wir von Heirat oder Ehe sprechen, dann ist damit immer auch eine eingetragene Partnerschaft gemeint.",
+          "description": "Wenn wir von Heirat oder Ehe sprechen, dann ist damit immer auch eine eingetragene Partnerschaft gemeint.",
+          "filter": "LC47047 =1 (Befragter eine vorherige Beziehung hatte)",
           "scale": "cat",
           "answers": [
             {
@@ -2806,6 +2877,7 @@
         {
           "item": "0",
           "text": "In welchem Jahr haben Sie geheiratet?",
+          "filter": "LC47049 = 1 (wenn Befragte/-r in der vorherigen Beziehung1 verheiratet)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -2824,6 +2896,7 @@
         {
           "item": "0",
           "text": "In welchem Jahr endete diese Beziehung?",
+          "filter": "LC47047 = 1 (wenn Befragte/-r vorherige Beziehung hatte)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -2842,6 +2915,7 @@
         {
           "item": "0",
           "text": "Wie endete diese Beziehung?",
+          "filter": "LC47047 = 1 (wenn Befragte/-r vorherige Beziehung hatte)",
           "scale": "cat",
           "answers": [
             {
@@ -2871,6 +2945,8 @@
           "item": "0",
           "text": "Hatten Sie davor eine feste Beziehung?",
           "instruction": "Unter einer festen Beziehung verstehen wir Beziehungen, bei denen Sie mit Ihrem Partner zusammenleben, unabhängig davon, ob Sie in dieser Beziehung verheiratet sind oder nicht.",
+          "description": "Unter einer festen Beziehung verstehen wir Beziehungen, bei denen Sie mit Ihrem Partner zusammenleben, unabhängig davon, ob Sie in dieser Beziehung verheiratet sind oder nicht.",
+          "filter": "LC47047 = 1 (wenn Befragte/-r vorherige Beziehung hatte)",
           "scale": "cat",
           "answers": [
             {
@@ -2899,6 +2975,7 @@
         {
           "item": "0",
           "text": "In welchem Jahr hat diese Beziehung begonnen?",
+          "filter": "LC47053 =1 (Befragter eine vorherige Beziehung2 hatte)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -2918,6 +2995,8 @@
           "item": "0",
           "text": "Waren Sie in dieser Beziehung verheiratet?",
           "instruction": "Wenn wir von Heirat oder Ehe sprechen, dann ist damit immer auch eine eingetragene Partnerschaft gemeint.",
+          "description": "Wenn wir von Heirat oder Ehe sprechen, dann ist damit immer auch eine eingetragene Partnerschaft gemeint.",
+          "filter": "LC47053 =1 (Befragter eine vorherige Beziehung2 hatte)",
           "scale": "cat",
           "answers": [
             {
@@ -2946,6 +3025,7 @@
         {
           "item": "0",
           "text": "In welchem Jahr haben Sie geheiratet?",
+          "filter": "LC47055 = 1 (wenn Befragte/-r in der vorherigen Beziehung2 verheiratet)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -2964,6 +3044,7 @@
         {
           "item": "0",
           "text": "In welchem Jahr endete diese Beziehung?",
+          "filter": "LC47053 = 1 (wenn Befragte/-r vorherige Beziehung2 hatte)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -2982,6 +3063,7 @@
         {
           "item": "0",
           "text": "Wie endete diese Beziehung?",
+          "filter": "LC47053 = 1 (wenn Befragte/-r vorherige Beziehung2 hatte)",
           "scale": "cat",
           "answers": [
             {
@@ -3011,6 +3093,8 @@
           "item": "0",
           "text": "Hatten Sie davor noch eine oder mehrere feste Beziehungen?",
           "instruction": "Unter einer festen Beziehung verstehen wir Beziehungen, bei denen Sie mit Ihrem Partner zusammenleben, unabhängig davon, ob Sie in dieser Beziehung verheiratet sind oder nicht.",
+          "description": "Unter einer festen Beziehung verstehen wir Beziehungen, bei denen Sie mit Ihrem Partner zusammenleben, unabhängig davon, ob Sie in dieser Beziehung verheiratet sind oder nicht.",
+          "filter": "LC47053 =1 (Befragter eine vorherige Beziehung2 hatte)",
           "scale": "cat",
           "answers": [
             {
@@ -3039,6 +3123,7 @@
         {
           "item": "0",
           "text": "Denken Sie nun bitte an Ihre erste Beziehung, in der Sie mit jemandem zusammengelebt haben. In welchem Jahr hat Ihre erste Beziehung begonnen?",
+          "filter": "LC47059 = 1 (Befragter eine vorherige Beziehung3 hatte)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -3058,6 +3143,8 @@
           "item": "0",
           "text": "Waren Sie in Ihrer ersten Beziehung verheiratet?",
           "instruction": "Wenn wir von Heirat oder Ehe sprechen, dann ist damit immer auch eine eingetragene Partnerschaft gemeint.",
+          "description": "Wenn wir von Heirat oder Ehe sprechen, dann ist damit immer auch eine eingetragene Partnerschaft gemeint.",
+          "filter": "LC47059 = 1 (Befragter eine vorherige Beziehung3 hatte)",
           "scale": "cat",
           "answers": [
             {
@@ -3086,6 +3173,7 @@
         {
           "item": "0",
           "text": "In welchem Jahr haben Sie in Ihrer ersten Beziehung geheiratet?",
+          "filter": "LC47061 = 1 (wenn Befragte/-r in der ersten Beziehung verheiratet)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -3104,6 +3192,7 @@
         {
           "item": "0",
           "text": "In welchem Jahr endete Ihre erste Beziehung?",
+          "filter": "LC47059 = 1 (Befragter eine vorherige Beziehung3 hatte)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -3122,6 +3211,7 @@
         {
           "item": "0",
           "text": "Wie endete Ihre erste Beziehung?",
+          "filter": "LC47059 = 1 (Befragter eine vorherige Beziehung3 hatte)",
           "scale": "cat",
           "answers": [
             {
@@ -3810,6 +3900,8 @@
           "item": "0",
           "text": "Innerhalb einer Bundesregierung werden manchmal verschiedene Standpunkte vertreten. \n\nWenn Sie an den wirtschaftlichen Bereich denken: Nehmen Sie die Bundesregierung als zerstritten oder als geschlossen in diesem Bereich wahr?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Befragte gleichmäßig auf fünf Gruppen verteilen und Aufteilung in separater Variable expCE47383 ablegen.\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "expCE47383 = 2",
           "scale": "cat",
           "answers": [
             {
@@ -3879,6 +3971,8 @@
           "item": "0",
           "text": "Innerhalb einer Bundesregierung werden manchmal verschiedene Standpunkte vertreten. \n\nWenn Sie an den Bereich Arbeitsmarkt und Soziales denken: Nehmen Sie die Bundesregierung als zerstritten oder als geschlossen in diesem Bereich wahr?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "expCE47383 = 3",
           "scale": "cat",
           "answers": [
             {
@@ -3948,6 +4042,8 @@
           "item": "0",
           "text": "Innerhalb einer Bundesregierung werden manchmal verschiedene Standpunkte vertreten. \n\nWenn Sie an den gesundheitlichen Bereich denken: Nehmen Sie die Bundesregierung als zerstritten oder als geschlossen in diesem Bereich wahr?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "expCE47383 = 4",
           "scale": "cat",
           "answers": [
             {
@@ -4017,6 +4113,8 @@
           "item": "0",
           "text": "Innerhalb einer Bundesregierung werden manchmal verschiedene Standpunkte vertreten. \n\nWenn Sie an den Bereich Umwelt und Klimaschutz denken: Nehmen Sie die Bundesregierung als zerstritten oder als geschlossen in diesem Bereich wahr?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "expCE47383 = 5",
           "scale": "cat",
           "answers": [
             {
@@ -4086,6 +4184,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Regierung darin ist, die wichtigsten Probleme eines Landes zu lösen. \n\nWie kompetent ist die Bundesregierung Ihrer Meinung nach darin, Deutschlands anstehende Probleme zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 1",
           "scale": "cat",
           "answers": [
             {
@@ -4155,6 +4255,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Regierung darin ist, die wichtigsten Probleme eines Landes zu lösen. \n\nWie kompetent ist die Bundesregierung Ihrer Meinung nach darin, Deutschlands anstehende Probleme im wirtschaftlichen Bereich zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 2",
           "scale": "cat",
           "answers": [
             {
@@ -4224,6 +4326,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Regierung darin ist, die wichtigsten Probleme eines Landes zu lösen. \n\nWie kompetent ist die Bundesregierung Ihrer Meinung nach darin, Deutschlands anstehende Probleme in dem Bereich Arbeitsmarkt und Soziales zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 3",
           "scale": "cat",
           "answers": [
             {
@@ -4293,6 +4397,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Regierung darin ist, die wichtigsten Probleme eines Landes zu lösen.\n\nWie kompetent ist die Bundesregierung Ihrer Meinung nach darin, Deutschlands anstehende Probleme im gesundheitlichen Bereich zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 4",
           "scale": "cat",
           "answers": [
             {
@@ -4362,6 +4468,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Regierung darin ist, die wichtigsten Probleme eines Landes zu lösen.\n\nWie kompetent ist die Bundesregierung Ihrer Meinung nach darin, Deutschlands anstehende Probleme in dem Bereich Umwelt und Klimaschutz zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 5",
           "scale": "cat",
           "answers": [
             {
@@ -4431,6 +4539,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Partei darin ist, die wichtigsten Probleme eines Landes zu lösen.\n\nWie kompetent ist die CDU/CSU (Christlich Demokratische Union Deutschlands und Christlich-Soziale Union) Ihrer Meinung nach darin, Deutschlands anstehende Probleme zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 1",
           "scale": "cat",
           "answers": [
             {
@@ -4500,6 +4610,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Partei darin ist, die wichtigsten Probleme eines Landes zu lösen.\n\nWie kompetent ist die CDU/CSU (Christlich Demokratische Union Deutschlands und Christlich-Soziale Union) Ihrer Meinung nach darin, Deutschlands anstehende Probleme im wirtschaftlichen Bereich zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 2",
           "scale": "cat",
           "answers": [
             {
@@ -4569,6 +4681,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Partei darin ist, die wichtigsten Probleme eines Landes zu lösen.\n\nWie kompetent ist die CDU/CSU (Christlich Demokratische Union Deutschlands und Christlich-Soziale Union) Ihrer Meinung nach darin, Deutschlands anstehende Probleme in dem Bereich Arbeitsmarkt und Soziales zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 3",
           "scale": "cat",
           "answers": [
             {
@@ -4638,6 +4752,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Partei darin ist, die wichtigsten Probleme eines Landes zu lösen.\n\nWie kompetent ist die CDU/CSU (Christlich Demokratische Union Deutschlands und Christlich-Soziale Union) Ihrer Meinung nach darin, Deutschlands anstehende Probleme im gesundheitlichen Bereich zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 4",
           "scale": "cat",
           "answers": [
             {
@@ -4707,6 +4823,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Partei darin ist, die wichtigsten Probleme eines Landes zu lösen.\n\nWie kompetent ist die CDU/CSU (Christlich Demokratische Union Deutschlands und Christlich-Soziale Union) Ihrer Meinung nach darin, Deutschlands anstehende Probleme in dem Bereich Umwelt und Klimaschutz zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 5",
           "scale": "cat",
           "answers": [
             {
@@ -4776,6 +4894,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Partei darin ist, die wichtigsten Probleme eines Landes zu lösen.\n\nWie kompetent ist die SPD (Sozialdemokratische Partei Deutschlands) Ihrer Meinung nach darin, Deutschlands anstehende Probleme zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 1",
           "scale": "cat",
           "answers": [
             {
@@ -4845,6 +4965,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Partei darin ist, die wichtigsten Probleme eines Landes zu lösen.\n\nWie kompetent ist die SPD (Sozialdemokratische Partei Deutschlands) Ihrer Meinung nach darin, Deutschlands anstehende Probleme im wirtschaftlichen Bereich zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 2",
           "scale": "cat",
           "answers": [
             {
@@ -4914,6 +5036,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Partei darin ist, die wichtigsten Probleme eines Landes zu lösen.\n\nWie kompetent ist die SPD (Sozialdemokratische Partei Deutschlands) Ihrer Meinung nach darin, Deutschlands anstehende Probleme in dem Bereich Arbeitsmarkt und Soziales zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 3",
           "scale": "cat",
           "answers": [
             {
@@ -4983,6 +5107,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Partei darin ist, die wichtigsten Probleme eines Landes zu lösen.\n\nWie kompetent ist die SPD (Sozialdemokratische Partei Deutschlands) Ihrer Meinung nach darin, Deutschlands anstehende Probleme im gesundheitlichten Bereich zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 4",
           "scale": "cat",
           "answers": [
             {
@@ -5052,6 +5178,8 @@
           "item": "0",
           "text": "Oft gibt es verschiedene Ansichten darüber, wie kompetent eine Partei darin ist, die wichtigsten Probleme eines Landes zu lösen.\n\nWie kompetent ist die SPD (Sozialdemokratische Partei Deutschlands) Ihrer Meinung nach darin, Deutschlands anstehende Probleme in dem Bereich Umwelt und Klimaschutz zu lösen?",
           "instruction": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "description": "Bitte geben Sie Ihre Meinung mit Hilfe einer Skala von 1 (sehr inkompetent) bis 11 (sehr kompetent) an.",
+          "filter": "expCE47383 = 5",
           "scale": "cat",
           "answers": [
             {
@@ -5121,6 +5249,8 @@
           "item": "0",
           "text": "Der Politik in Deutschland wird häufig vorgeworfen, dass wichtige politische Fragen ungelöst bleiben.\n\nWenn Sie an die Zeit seit der letzten Bundestagswahl im September 2017 zurückdenken: Wer ist Ihrer Meinung nach am meisten dafür verantwortlich, dass wichtige politische Fragen ungelöst bleiben?",
           "instruction": "Bei dieser Frage können Sie eine oder mehrere Antworten geben",
+          "description": "Bei dieser Frage können Sie eine oder mehrere Antworten geben",
+          "filter": "expCE47383 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5213,7 +5343,7 @@
         {
           "item": "13",
           "text": "Andere, und zwar:",
-          "scale": "str",
+          "scale": "chr",
           "sn": 13,
           "number": ""
         },
@@ -5239,6 +5369,8 @@
           "item": "0",
           "text": "Der Politik in Deutschland wird häufig vorgeworfen, dass wichtige politische Fragen ungelöst bleiben.\n\nWenn Sie an die Zeit seit der letzten Bundestagswahl im September 2017 zurückdenken: Wer ist Ihrer Meinung nach am meisten dafür verantwortlich, dass wichtige politische Fragen aus dem wirtschaftlichen Bereich ungelöst bleiben?",
           "instruction": "Bei dieser Frage können Sie eine oder mehrere Antworten geben",
+          "description": "Bei dieser Frage können Sie eine oder mehrere Antworten geben",
+          "filter": "expCE47383 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5330,7 +5462,7 @@
         {
           "item": "13",
           "text": "Andere, und zwar:",
-          "scale": "str",
+          "scale": "chr",
           "sn": 13,
           "number": ""
         },
@@ -5356,6 +5488,8 @@
           "item": "0",
           "text": "Der Politik in Deutschland wird häufig vorgeworfen, dass wichtige politische Fragen ungelöst bleiben.\n\nWenn Sie an die Zeit seit der letzten Bundestagswahl im September 2017 zurückdenken: Wer ist Ihrer Meinung nach am meisten dafür verantwortlich, dass wichtige politische Fragen aus dem Bereich Arbeitsmarkt und Soziales ungelöst bleiben?",
           "instruction": "Bei dieser Frage können Sie eine oder mehrere Antworten geben",
+          "description": "Bei dieser Frage können Sie eine oder mehrere Antworten geben",
+          "filter": "expCE47383 = 3",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5447,7 +5581,7 @@
         {
           "item": "13",
           "text": "Andere, und zwar",
-          "scale": "str",
+          "scale": "chr",
           "sn": 13,
           "number": ""
         },
@@ -5473,6 +5607,8 @@
           "item": "0",
           "text": "Der Politik in Deutschland wird häufig vorgeworfen, dass wichtige politische Fragen ungelöst bleiben.\n\nWenn Sie an die Zeit seit der letzten Bundestagswahl im September 2017 zurückdenken: Wer ist Ihrer Meinung nach am meisten dafür verantwortlich, dass wichtige politische Fragen aus dem gesundheitlichen Bereich ungelöst bleiben?",
           "instruction": "Bei dieser Frage können Sie eine oder mehrere Antworten geben",
+          "description": "Bei dieser Frage können Sie eine oder mehrere Antworten geben",
+          "filter": "expCE47383 = 4",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5564,7 +5700,7 @@
         {
           "item": "13",
           "text": "Andere, und zwar:",
-          "scale": "str",
+          "scale": "chr",
           "sn": 13,
           "number": ""
         },
@@ -5590,6 +5726,8 @@
           "item": "0",
           "text": "Der Politik in Deutschland wird häufig vorgeworfen, dass wichtige politische Fragen ungelöst bleiben.\n\nWenn Sie einmal an die Zeit seit der letzten Bundestagswahl im September 2017 zurückdenken: Wer ist Ihrer Meinung nach am meisten dafür verantwortlich, dass wichtige politische Fragen aus dem Bereich Umwelt und Klimaschutz ungelöst bleiben?",
           "instruction": "Bei dieser Frage können Sie eine oder mehrere Antworten geben",
+          "description": "Bei dieser Frage können Sie eine oder mehrere Antworten geben",
+          "filter": "expCE47383 = 5",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5681,7 +5819,7 @@
         {
           "item": "13",
           "text": "Andere, und zwar:",
-          "scale": "str",
+          "scale": "chr",
           "sn": 13,
           "number": ""
         },
@@ -5707,6 +5845,8 @@
           "item": "0",
           "text": "Ist die allgemeine Lage in Deutschland in der Zeit seit der letzten Bundestagswahl im September 2017 Ihrer Meinung nach viel besser geworden, etwas besser geworden, mehr oder weniger gleich geblieben, etwas schlechter geworden oder viel schlechter geworden?",
           "instruction": "Bitte wählen Sie eine Antwort aus.",
+          "description": "Bitte wählen Sie eine Antwort aus.",
+          "filter": "expCE47383 = 1",
           "scale": "cat",
           "answers": [
             {
@@ -5752,6 +5892,8 @@
           "item": "0",
           "text": "Ist die wirtschaftliche Lage in Deutschland in der Zeit seit der letzten Bundestagswahl im September 2017 Ihrer Meinung nach viel besser geworden, etwas besser geworden, mehr oder weniger gleich geblieben, etwas schlechter geworden oder viel schlechter geworden?",
           "instruction": "Bitte wählen Sie eine Antwort aus.",
+          "description": "Bitte wählen Sie eine Antwort aus.",
+          "filter": "expCE47383 = 2",
           "scale": "cat",
           "answers": [
             {
@@ -5797,6 +5939,8 @@
           "item": "0",
           "text": "Ist die Lage in dem Bereich Arbeitsmarkt und Soziales in Deutschland in der Zeit seit der letzten Bundestagswahl im September 2017 Ihrer Meinung nach viel besser geworden, etwas besser geworden, mehr oder weniger gleich geblieben, etwas schlechter geworden oder viel schlechter geworden?",
           "instruction": "Bitte wählen Sie eine Antwort aus.",
+          "description": "Bitte wählen Sie eine Antwort aus.",
+          "filter": "expCE47383 = 3",
           "scale": "cat",
           "answers": [
             {
@@ -5842,6 +5986,8 @@
           "item": "0",
           "text": "Ist die Lage im gesundheitlichen Bereich in Deutschland in der Zeit seit der letzten Bundestagswahl im September 2017 Ihrer Meinung nach viel besser geworden, etwas besser geworden, mehr oder weniger gleich geblieben, etwas schlechter geworden oder viel schlechter geworden?",
           "instruction": "Bitte wählen Sie eine Antwort aus.",
+          "description": "Bitte wählen Sie eine Antwort aus.",
+          "filter": "expCE47383 = 4",
           "scale": "cat",
           "answers": [
             {
@@ -5887,6 +6033,8 @@
           "item": "0",
           "text": "Ist die Lage in dem Bereich Umwelt und Klimaschutz in Deutschland in der Zeit seit der letzten Bundestagswahl im September 2017 Ihrer Meinung nach viel besser geworden, etwas besser geworden, mehr oder weniger gleich geblieben, etwas schlechter geworden oder viel schlechter geworden?",
           "instruction": "Bitte wählen Sie eine Antwort aus.",
+          "description": "Bitte wählen Sie eine Antwort aus.",
+          "filter": "expCE47383 = 5",
           "scale": "cat",
           "answers": [
             {
@@ -6068,6 +6216,7 @@
           "item": "0",
           "text": "Wenn am nächsten Sonntag Bundestagswahl wäre, welche Partei würden Sie dann mit Ihrer Zweitstimme wählen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -6434,7 +6583,7 @@
         {
           "item": "0",
           "text": "Haben Sie noch weitere Anmerkungen?\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
-          "scale": "str",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }

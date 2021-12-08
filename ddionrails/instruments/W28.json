@@ -117,6 +117,7 @@
         {
           "item": "0",
           "text": "Manche Mobiltelefone werden aufgrund ihrer Merkmale (zum Beispiel Touchscreen, Internetzugang, Verfügbarkeit von Apps) \"Smartphones\" genannt. Ist Ihr Mobiltelefon ein solches Smartphone oder nicht?",
+          "filter": "AJ28030 = 1 (besitzt Mobiltelefon)",
           "scale": "cat",
           "answers": [
             {
@@ -150,6 +151,8 @@
           "item": "0",
           "text": "Welches der folgenden Typen beschreibt am besten Ihr Smartphone?",
           "instruction": "Wenn Sie mehrere Smartphones besitzen, dann denken Sie bitte an das Smartphone, das Sie am häufigsten benutzen.\n",
+          "description": "Wenn Sie mehrere Smartphones besitzen, dann denken Sie bitte an das Smartphone, das Sie am häufigsten benutzen.",
+          "filter": "AJ28004 = 1 (besitzt Smartphone)",
           "scale": "cat",
           "answers": [
             {
@@ -194,6 +197,7 @@
         {
           "item": "0",
           "text": "Nutzen Sie Ihr Mobiltelefon zumindest gelegentlich für den Zugang zum Internet?",
+          "filter": "AJ28030 = 1 und (AJ28004 = 2 oder AJ28004 = -99) (besitzt Mobiltelefon, das kein Smartphone ist)",
           "scale": "cat",
           "answers": [
             {
@@ -222,6 +226,7 @@
         {
           "item": "0",
           "text": "Nutzen Sie Ihr Smartphone zumindest gelegentlich für den Zugang zum Internet?",
+          "filter": "AJ28004 = 1 (besitzt Smartphone)",
           "scale": "cat",
           "answers": [
             {
@@ -250,6 +255,7 @@
         {
           "item": "0",
           "text": "Nutzen Sie Ihren Computer oder Laptop zumindest gelegentlich für den Zugang zum Internet?",
+          "filter": "AJ28031 = 1 (besitzt Computer oder Laptop)",
           "scale": "cat",
           "answers": [
             {
@@ -278,6 +284,7 @@
         {
           "item": "0",
           "text": "Nutzen Sie Ihren Tablet Computer zumindest gelegentlich für den Zugang zum Internet?",
+          "filter": "AJ28032 = 1 (besitzt Tablet Computer)",
           "scale": "cat",
           "answers": [
             {
@@ -507,6 +514,7 @@
           "item": "0",
           "text": "Wer ergreift beim Zustandekommen einer EU-Richtlinie die Initiative?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -736,6 +744,8 @@
           "item": "0",
           "text": "In Deutschland gilt seit Januar 2016 eine gesetzliche Frauenquote für Aufsichtsräte von großen börsennotierten Unternehmen.\n\nBitte schätzen Sie zunächst, wie hoch der Anteil von Frauen in Aufsichtsräten von großen börsennotierten Unternehmen aktuell in Deutschland ist.",
           "instruction": "Bitte klicken Sie auf die Linie, um den gewünschten Wert festzulegen. Sie können den Wert verändern, indem Sie auf eine andere Stelle auf der Linie klicken oder den Strich verschieben.",
+          "description": "Bitte klicken Sie auf die Linie, um den gewünschten Wert festzulegen. Sie können den Wert verändern, indem Sie auf eine andere Stelle auf der Linie klicken oder den Strich verschieben.",
+          "filter": "AC28162_js = 1 (JavaScript an dieser Stelle im Fragebogen aktiviert)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -755,6 +765,8 @@
           "item": "0",
           "text": "In Deutschland gilt seit Januar 2016 eine gesetzliche Frauenquote für Aufsichtsräte von großen börsennotierten Unternehmen.\n\nBitte schätzen Sie zunächst, wie hoch der Anteil von Frauen in Aufsichtsräten von großen börsennotierten Unternehmen aktuell in Deutschland ist.",
           "instruction": "Bitte tragen Sie einen Wert zwischen 0% und 100% ein.",
+          "description": "Bitte tragen Sie einen Wert zwischen 0% und 100% ein.",
+          "filter": "AC28162_js = 2 (JavaScript an dieser Stelle im Fragebogen nicht aktiviert)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -818,6 +830,8 @@
           "item": "0",
           "text": "Was ist für Sie der wichtigste Grund, die Frauenquote zu unterstützen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "AC28163 = 1, 2 (Frauenquote wird  „voll und ganz“ oder „eher“ unterstützt)",
           "scale": "cat",
           "answers": [
             {
@@ -859,6 +873,8 @@
           "item": "0",
           "text": "Was ist für Sie der wichtigste Grund, die Frauenquote nicht zu unterstützen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "AC28163 = 4, 5 (Frauenquote wird „eher“ oder „voll und ganz“ abgelehnt)",
           "scale": "cat",
           "answers": [
             {
@@ -900,6 +916,7 @@
           "item": "0",
           "text": "Im Folgenden stellen wir Ihnen einige Fragen zu Ihrer bezahlten bzw. beruflichen Tätigkeit. Denken Sie dabei an Ihre derzeitige Tätigkeit. Wenn Sie aktuell keine bezahlte bzw. berufliche Tätigkeit ausüben, denken Sie bitte an Ihre letzte Tätigkeit.\n\nWie viele Beschäftigte hat das Unternehmen, in dem Sie arbeiten?",
           "instruction": "Beziehen Sie die Zahl auf das Gesamtunternehmen.",
+          "description": "Beziehen Sie die Zahl auf das Gesamtunternehmen.",
           "scale": "cat",
           "answers": [
             {
@@ -961,6 +978,8 @@
           "item": "0",
           "text": "Haben Sie in Ihrem Unternehmen eine Führungsposition inne? Wenn ja, welche Art von Führungsposition haben Sie?",
           "instruction": "Führungsposition bedeutet, dass Sie anderen bei der Arbeit leitend vorgesetzt sind, das heißt dass Personen nach Ihren Anweisungen arbeiten.",
+          "description": "Führungsposition bedeutet, dass Sie anderen bei der Arbeit leitend vorgesetzt sind, das heißt dass Personen nach Ihren Anweisungen arbeiten.",
+          "filter": "AC28166 = 1-7 (Unternehmen bis 2.000 und mehr Beschäftigte)",
           "scale": "cat",
           "answers": [
             {
@@ -1005,6 +1024,7 @@
         {
           "item": "0",
           "text": "Inwieweit stimmen Sie folgender Aussage zu?\nWenn ich an meinen Einsatz und all die erbrachten Leistungen bei meiner beruflichen Tätigkeit denke, halte ich meine derzeitige berufliche Position für angemessen.",
+          "filter": "AC28166 = 1-7 (Unternehmen bis 2.000 und mehr Beschäftigte)",
           "scale": "cat",
           "answers": [
             {
@@ -1049,6 +1069,7 @@
         {
           "item": "0",
           "text": "Wenn Sie an Ihre Kollegen denken, mit denen Sie direkt zusammenarbeiten, was trifft auf Ihre Situation am ehesten zu?",
+          "filter": "AC28166 = 1-7 (Unternehmen bis 2.000 und mehr Beschäftigte)",
           "scale": "cat",
           "answers": [
             {
@@ -1089,6 +1110,7 @@
         {
           "item": "0",
           "text": "Wenn Sie an Ihre Vorgesetzen denken, was trifft auf Ihre Situation am ehesten zu?",
+          "filter": "AC28166 = 1-7 (Unternehmen bis 2.000 und mehr Beschäftigte)",
           "scale": "cat",
           "answers": [
             {
@@ -1129,6 +1151,7 @@
         {
           "item": "0",
           "text": "Wenn Sie an die Beschäftigten im gesamten Unternehmen denken, was trifft auf Ihre Situation am ehesten zu?",
+          "filter": "AC28166 = 1-7 (Unternehmen bis 2.000 und mehr Beschäftigte)",
           "scale": "cat",
           "answers": [
             {
@@ -1278,7 +1301,7 @@
         {
           "item": "15",
           "text": "Etwas anderes und zwar: (bitte tragen Sie hier ein, was die EU für Sie persönlich bedeutet)",
-          "scale": "str",
+          "scale": "chr",
           "sn": 15,
           "number": ""
         },
@@ -1304,6 +1327,7 @@
           "item": "0",
           "text": "[wenn expZJ28020 = 1: In der Europäischen Union (EU) treffen EU-Mitgliedsstaaten und das Europäische Parlament wichtige politische Entscheidungen in verschiedenen Politikbereichen wie zum Beispiel Handel, Wettbewerb, Landwirtschaft, Gesundheit, Migration, Umwelt und Justiz. Diese Entscheidungen haben einen direkten Einfluss auf das Leben der EU-Bürger. Eine Mitgliedschaft in der EU ermöglicht es Deutschland, politische Entscheidungen in der EU mitzugestalten und somit deutsche Interessen einzubringen.]\n[wenn expZJ28020 = 2: In der Europäischen Union (EU) treffen EU-Mitgliedsstaaten und das Europäische Parlament wichtige politische Entscheidungen in verschiedenen Politikbereichen wie zum Beispiel Handel, Wettbewerb, Landwirtschaft, Gesundheit, Migration, Umwelt und Justiz. Diese Entscheidungen haben einen direkten Einfluss auf das Leben der EU-Bürger. Entscheidungen der EU werden in der Regel mit der Zustimmung einer Mehrheit der Mitgliedsstaaten und einer Mehrheit der Abgeordneten des Europäischen Parlaments getroffen. Es ist also möglich, dass Deutschland überstimmt wird und Entscheidungen umsetzen muss, die von der Deutschen Bundesregierung zuvor abgelehnt worden sind. Würde Deutschland die EU verlassen, würde es die Freiheit zurückgewinnen, eigenständig Entscheidungen zu treffen, die ausschließlich deutschen Interessen entsprechen.]\n[wenn expZJ28020 = 3: Eines der Grundprinzipien der Europäischen Union (EU) ist die sogenannte Freizügigkeit. Dieses Prinzip ist in der Charta der Grundrechte der Europäischen Union verankert. Eine Mitgliedschaft Deutschlands in der EU ermöglicht es deutschen Bürgern, ohne Einschränkung in andere EU-Länder zu reisen, dort zu studieren, zu arbeiten und zu leben.]\n[wenn expZJ28020 = 4: Eines der Grundprinzipien der Europäischen Union (EU) ist die sogenannte Freizügigkeit. Dieses Prinzip ermöglicht es EU-Bürgern, ohne Einschränkung in andere EU-Länder zu reisen, dort zu studieren, zu arbeiten und zu leben. Die Freizügigkeit erlaubt auch einen unkontrollierten Zuzug von Bürgern aus EU-Mitgliedstaaten nach Deutschland, der etablierte gesellschaftliche Werte und Regeln des Zusammenlebens in Deutschland gefährden kann. Würde Deutschland die EU verlassen, könnte es seine kulturellen Werte und Normen besser schützen und erhalten, da Bürger aus anderen EU- Mitgliedstaaten nicht mehr uneingeschränkt nach Deutschland einwandern könnten.]\n[wenn expZJ28020 = 5: Ein Ziel der Europäischen Union (EU) ist die Förderung des wirtschaftlichen Wachstums und des Wohlstands der EU-Mitgliedsstaaten. Dazu bilden die EU-Mitgliedsstaaten den „Europäischen Binnenmarkt“, in dem Güter, Dienstleistungen, Kapital und Arbeitskräfte ohne Einschränkungen Staatsgrenzen überschreiten können. Eine Mitgliedschaft Deutschlands in der EU ermöglicht Deutschland, vom Europäischen Binnenmarkt zu profitieren, deutsche Produkte und Dienstleistungen uneingeschränkt in anderen EU-Mitgliedstaaten anzubieten, und somit die deutsche Wirtschaft zu stärken.]\n[wenn expZJ28020 = 6: Ein Ziel der Europäischen Union (EU) ist die Förderung des wirtschaftlichen Wachstums und des Wohlstands der EU-Mitgliedsstaaten. Deshalb zahlen die wirtschaftlich stärkeren EU-Mitgliedsstaaten finanzielle Beiträge, um wirtschaftlich schwächere Mitgliedstaaten zu unterstützen. Deutschland ist der größte Beitragszahler. Würde Deutschland die EU verlassen, könnte Deutschland bedürftige Menschen und Regionen in Deutschland statt bedürftiger Menschen und Regionen in anderen EU-Mitgliedsstaaten unterstützen.]\n[wenn expZJ28020 = 7: Ein wesentlicher Grund für die Gründung der  Europäischen Union (EU) war die Erhaltung des Friedens und der Sicherheit in Europa. Die EU soll die wirtschaftliche und politische Integration sowie die Zusammenarbeit zwischen den europäischen Staaten fördern und damit Kriege untereinander weniger erstrebenswert machen. Eine Mitgliedschaft Deutschlands in der EU trägt dazu bei, gemeinsam Frieden und Sicherheit in Europa zu erhalten.]\n[wenn expZJ28020 = 8: Ein wesentlicher Grund für die Gründung der  Europäischen Union (EU) war die Erhaltung des Friedens und der Sicherheit in Europa. Allerdings führen offene Grenzen innerhalb der EU dazu, dass Menschen unkontrolliert und illegal nach Deutschland einreisen können. Würde Deutschland die EU verlassen, könnte Deutschland seine Grenzen besser schützen und besser verhindern, dass Kriminelle einreisen.]\n[wenn expZJ28020 = 9: ]\n\nAm 23. Juni 2016 stimmte die Bevölkerung im Vereinigten Königreich über die Mitgliedschaft ihres Landes in der Europäischen Union ab. Nehmen Sie an, eine Abstimmung über die Mitgliedschaft Deutschlands in der Europäischen Union würde am kommenden Sonntag stattfinden. Wie würden Sie abstimmen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Befragte zufällig auf neun Gruppen aufteilen.- 1/9 der Befragten bekommen in Frage ZJ24020 Treatment „Pro EU – Political“ (Gruppe 1).\n- 1/9 der Befragten bekommen in Frage ZJ24020 Treatment „Contra EU - Political“ (Gruppe 2).\n- 1/9 der Befragten bekommen in Frage ZJ24020 Treatment „Pro EU – Cultural“ (Gruppe 3).\n- 1/9 der Befragten bekommen in Frage ZJ24020 Treatment „Contra EU - Cultural“ (Gruppe 4).\n- 1/9 der Befragten bekommen in Frage ZJ24020 Treatment „Pro EU – Economic“ (Gruppe 5).\n- 1/9 der Befragten bekommen in Frage ZJ24020 Treatment „Contra EU - Economic“ (Gruppe 6).\n- 1/9 der Befragten bekommen in Frage ZJ24020 Treatment „Pro EU – Peace and Security“ (Gruppe 7).\n- 1/9 der Befragten bekommen in Frage ZJ24020 Treatment „Contra EU – Peace and Security“ (Gruppe 8).\n- 1/9 der Befragten bekommen in Frage ZJ24020 kein Treatment (Gruppe 9).\nZuteilung zu den Experimentalgruppen in separater Variable expZJ28020 speichern.\n\nBei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -1397,6 +1421,8 @@
           "item": "0",
           "text": "[wenn preelection = 10: Wir stellen Ihnen nun einige Fragen zur Politik im Bundesland Nordrhein-Westfalen.\nAm 14. Mai 2017 finden Landtagswahlen in Nordrhein-Westfalen statt. Was denken Sie: Über wie viel Prozent der Sitze im Landtag von Nordrhein-Westfalen werden die folgenden Parteien nach den Wahlen verfügen?]\n\n[wenn preelection = 12: Wir stellen Ihnen nun einige Fragen zur Politik im Bundesland Saarland.\nAm 26. März 2017 finden Landtagswahlen im Saarland statt. Was denken Sie: Über wie viel Prozent der Sitze im Landtag des Saarlandes werden die folgenden Parteien nach den Wahlen verfügen?]\n\n[wenn preelection = 15: Wir stellen Ihnen nun einige Fragen zur Politik im Bundesland Schleswig-Holstein.\nAm 7. Mai 2017 finden Landtagswahlen in Schleswig-Holstein statt. Was denken Sie: Über wie viel Prozent der Sitze im Landtag von Schleswig-Holstein werden die folgenden Parteien nach den Wahlen verfügen?]\n \nFalls Sie sich unsicher sind, schätzen Sie bitte. Wenn Sie denken, dass eine Partei über keine Sitze im Landtag verfügen wird, tragen Sie bitte 0 in das Feld ein. Wenn Sie denken, dass eine Partei über alle Sitze im Landtag verfügen wird, tragen Sie bitte 100 in das Feld ein. Die Summe aller Zahlen soll 100 ergeben.",
           "instruction": "Bitte tragen Sie jeweils eine ganze Zahl zwischen 0 und 100 ein.",
+          "description": "Bitte tragen Sie jeweils eine ganze Zahl zwischen 0 und 100 ein.",
+          "filter": "preelection = 10, 12, 15 (Preloadvariable preelection  besitzt einen gültigen Wert)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1488,6 +1514,7 @@
         {
           "item": "13",
           "text": "SSW (Südschleswigscher Wählerverband):",
+          "filter": "preelection = 15",
           "scale": "int",
           "sn": 13,
           "number": ""
@@ -1495,6 +1522,7 @@
         {
           "item": "14",
           "text": "weiß nicht",
+          "filter": "preelection = 15",
           "scale": "bin",
           "sn": 14,
           "number": ""
@@ -1514,6 +1542,8 @@
           "item": "0",
           "text": "[wenn preelection = 10: Was denken Sie: Welche Partei oder Parteien werden nach den bevorstehenden Landtagswahlen die Landesregierung von Nordrhein-Westfalen bilden?]\n[wenn preelection = 12: Was denken Sie: Welche Partei oder Parteien werden nach den bevorstehenden Landtagswahlen die Landesregierung des Saarlandes bilden?]\n[wenn preelection = 15: Was denken Sie: Welche Partei oder Parteien werden nach den bevorstehenden Landtagswahlen die Landesregierung von Schleswig-Holstein bilden?]",
           "instruction": " Bitte geben Sie alles Zutreffende an. Sie können dabei nur aus den Parteien auswählen, von denen Sie in der letzten Frage angegeben haben, dass sie im neuen Landtag vertreten sein werden.",
+          "description": "Bitte geben Sie alles Zutreffende an. Sie können dabei nur aus den Parteien auswählen, von denen Sie in der letzten Frage angegeben haben, dass sie im neuen Landtag vertreten sein werden.",
+          "filter": "preelection = 10, 12, 15 und für zwei Itempaare CI28001 bis CE28007 und CI28001_DK bis CE28007_DK gilt: CI2800* > 0 oder CI2800*_DK = 1 (Preloadvariable preelection besitzt einen gültigen Wert und für mindestens zwei Parteien auf Frageseite 37.00 eine Zahl eingetragen oder „weiß nicht“ angeklickt)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1521,6 +1551,7 @@
         {
           "item": "1",
           "text": "[wenn CI28001 = 1-100 or CI28001_DK = 1:] CDU (Christlich Demokratische Union Deutschlands)",
+          "filter": "CI28001 = 1-100 or CI28001_DK = 1",
           "scale": "bin",
           "sn": 1,
           "number": ""
@@ -1528,6 +1559,7 @@
         {
           "item": "2",
           "text": "[wenn CI28002 = 1-100 or CI28002_DK = 1:] SPD (Sozialdemokratische Partei Deutschlands)",
+          "filter": "CI28002 = 1-100 or CI28002_DK = 1",
           "scale": "bin",
           "sn": 2,
           "number": ""
@@ -1535,6 +1567,7 @@
         {
           "item": "3",
           "text": "[wenn CI28003 = 1-100 or CI28003_DK = 1:] Bündnis 90/Die Grünen",
+          "filter": "CI28003 = 1-100 or CI28003_DK = 1",
           "scale": "bin",
           "sn": 3,
           "number": ""
@@ -1542,6 +1575,7 @@
         {
           "item": "4",
           "text": "[wenn CI28004 = 1-100 or CI28004_DK = 1:] Die Linke",
+          "filter": "CI28004 = 1-100 or CI28004_DK = 1",
           "scale": "bin",
           "sn": 4,
           "number": ""
@@ -1549,6 +1583,7 @@
         {
           "item": "5",
           "text": "[wenn CI28005 = 1-100 or CI28005_DK = 1:] FDP (Freie Demokratische Partei)",
+          "filter": "CI28005 = 1-100 or CI28005_DK = 1",
           "scale": "bin",
           "sn": 5,
           "number": ""
@@ -1556,6 +1591,7 @@
         {
           "item": "6",
           "text": "[wenn CI28006 = 1-100 or CI28006_DK = 1:] AfD (Alternative für Deutschland)",
+          "filter": "CI28006 = 1-100 or CI28006_DK = 1",
           "scale": "bin",
           "sn": 6,
           "number": ""
@@ -1563,6 +1599,7 @@
         {
           "item": "7",
           "text": "[wenn CI28007 = 1-100 or CI28007_DK = 1:] SSW (Südschleswigscher Wählerverband)",
+          "filter": "CI28007 = 1-100 or CI28007_DK = 1",
           "scale": "bin",
           "sn": 7,
           "number": ""
@@ -1582,6 +1619,8 @@
           "item": "0",
           "text": "[wenn preelection = 10: Sie haben angegeben, dass Sie erwarten, dass die unten angegebenen Parteien nach der kommenden Landtagswahl in Nordrhein-Westfalen gemeinsam eine Landesregierung bilden werden.]\n[wenn preelection = 12: Sie haben angegeben, dass Sie erwarten, dass die unten angegebenen Parteien nach der kommenden Landtagswahl im Saarland gemeinsam eine Landesregierung bilden werden.]\n[wenn preelection = 15: Sie haben angegeben, dass Sie erwarten, dass die unten angegebenen Parteien nach der kommenden Landtagswahl in Schleswig-Holstein gemeinsam eine Landesregierung bilden werden.]\n\nWelche dieser Parteien wird, Ihrer Meinung nach, den Ministerpräsidenten oder die Ministerpräsidentin der Landesregierung stellen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "preelection = 10 oder 12 und mindestens zwei der Items CI28008_a bis CI28008_f = 1 oder preelection = 15 und mindestens zwei der Items CI28008_a bis CI28008_g = 1 (mehr als eine Partei für die Landesregierung ausgewählt)\n",
           "scale": "cat",
           "answers": [
             {
@@ -1631,6 +1670,8 @@
           "item": "0",
           "text": "[wenn preelection = 10: Sie haben angegeben, dass Sie erwarten, dass die unten angegebenen Parteien nach der kommenden Landtagswahl in Nordrhein-Westfalen gemeinsam eine Landesregierung bilden werden.]\n[wenn preelection = 12: Sie haben angegeben, dass Sie erwarten, dass die unten angegebenen Parteien nach der kommenden Landtagswahl im Saarland gemeinsam eine Landesregierung bilden werden.]\n[wenn preelection = 15: Sie haben angegeben, dass Sie erwarten, dass die unten angegebenen Parteien nach der kommenden Landtagswahl in Schleswig-Holstein gemeinsam eine Landesregierung bilden werden.]\n\nWelche dieser Parteien wird, Ihrer Meinung nach, den Finanzminister oder die Finanzministerin der Landesregierung stellen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "preelection = 10 oder 12 und mindestens zwei der Items CI28008_a bis CI28008_f = 1 oder preelection = 15 und mindestens zwei der Items CI28008_a bis CI28008_g = 1 (mehr als eine Partei für die Landesregierung ausgewählt)\n",
           "scale": "cat",
           "answers": [
             {
@@ -1680,6 +1721,8 @@
           "item": "0",
           "text": "[wenn preelection = 10: Sie haben angegeben, dass Sie erwarten, dass die unten angegebenen Parteien nach der kommenden Landtagswahl in Nordrhein-Westfalen gemeinsam eine Landesregierung bilden werden.]\n[wenn preelection = 12: Sie haben angegeben, dass Sie erwarten, dass die unten angegebenen Parteien nach der kommenden Landtagswahl im Saarland gemeinsam eine Landesregierung bilden werden.]\n[wenn preelection = 15: Sie haben angegeben, dass Sie erwarten, dass die unten angegebenen Parteien nach der kommenden Landtagswahl in Schleswig-Holstein gemeinsam eine Landesregierung bilden werden.]\n\nWelche dieser Parteien wird, Ihrer Meinung nach, den Innenminister oder die Innenministerin der Landesregierung stellen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "preelection = 10 oder 12 und mindestens zwei der Items CI28008_a bis CI28008_f = 1 oder preelection = 15 und mindestens zwei der Items CI28008_a bis CI28008_g = 1 (mehr als eine Partei für die Landesregierung ausgewählt)\n",
           "scale": "cat",
           "answers": [
             {
@@ -1729,6 +1772,8 @@
           "item": "0",
           "text": "[wenn preelection = 10: Sie haben angegeben, dass Sie erwarten, dass die unten angegebenen Parteien nach der kommenden Landtagswahl in Nordrhein-Westfalen gemeinsam eine Landesregierung bilden werden.]\n[wenn preelection = 12: Sie haben angegeben, dass Sie erwarten, dass die unten angegebenen Parteien nach der kommenden Landtagswahl im Saarland gemeinsam eine Landesregierung bilden werden.]\n[wenn preelection = 15: Sie haben angegeben, dass Sie erwarten, dass die unten angegebenen Parteien nach der kommenden Landtagswahl in Schleswig-Holstein gemeinsam eine Landesregierung bilden werden.]\n\nWelche dieser Parteien wird, Ihrer Meinung nach, den Bildungsminister oder die Bildungsministerin der Landesregierung stellen? Bitte gehen Sie davon aus, dass der/die Bildungsminister/-in nicht für Hochschulbildung zuständig ist.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "preelection = 10 oder 12 und mindestens zwei der Items CI28008_a bis CI28008_f = 1 oder preelection = 15 und mindestens zwei der Items CI28008_a bis CI28008_g = 1 (mehr als eine Partei für die Landesregierung ausgewählt)\n",
           "scale": "cat",
           "answers": [
             {
@@ -1778,6 +1823,8 @@
           "item": "0",
           "text": "Manchmal setzen Parteien ihre Vorstellungen in einer gemeinsamen Landesregierung unterschiedlich stark durch. \n\n[wenn preelection = 10: Was denken Sie: Wenn sich die von Ihnen erwartete Landesregierung in Nordrhein-Westfalen bildet, welche Partei wird sich am stärksten durchsetzen?]\n[wenn preelection = 12: Was denken Sie: Wenn sich die von Ihnen erwartete Landesregierung im Saarland bildet, welche Partei wird sich am stärksten durchsetzen?]",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "preelection = 10 oder 12 und mindestens zwei der Items CI28008_a bis CI28008_f = 1 (mehr als eine Partei für die Landesregierung ausgewählt)",
           "scale": "cat",
           "answers": [
             {
@@ -1833,7 +1880,7 @@
         {
           "item": "1",
           "text": "Name der Stadt oder der Gemeinde:",
-          "scale": "str",
+          "scale": "chr",
           "sn": 1,
           "number": ""
         },
@@ -1997,6 +2044,7 @@
         {
           "item": "0",
           "text": "Wir würden außerdem gerne automatisch erfassen, an welchem Ort Sie die heutige Befragung durchführen. Diese Information ist für methodische Fragestellungen von großem Wert und hilft, zukünftige Befragungen einfacher und besser zu gestalten.\nDazu würden wir einmalig die IP-Adresse Ihrer Internetverbindung erfassen. Zusätzlich würden wir je nach technischer Verfügbarkeit  anhand Ihrer Internetverbindung (zum Beispiel WLAN/Handynetz) oder mittels GPS  weitere Informationen zu Ihrem Standort erfassen, speichern und daraus ableiten, wo Sie sich gerade befinden. \nAuch diese Information wird selbstverständlich ausschließlich zu wissenschaftlichen Forschungszwecken erhoben. Ihre Zustimmung gilt ausschließlich für die heutige Befragung.  Das Bundesdatenschutzgesetz sowie die einschlägigen Landesdatenschutzgesetze werden weiterhin streng eingehalten. Die Speicherung erfolgt nicht personenbezogen für einen Zeitraum von 12 Monaten. Im Anschluss an diesen Zeitraum werden die Daten unwiderruflich gelöscht.\nIhre Zustimmung können Sie jederzeit, auch nach dieser Befragung, widerrufen. Dazu genügt ein Anruf unter 0800-589-2604 oder eine E-Mail an info@gesellschaft-im-wandel.de. In diesem Fall werden die Daten Ihres Aufenthaltsortes unverzüglich und unwiderruflich gelöscht.\n\nDürfen wir Ihren jetzigen Aufenthaltsort erfassen?\nWenn Sie unten auf „ja“ klicken, erscheint in den meisten Internetbrowsern ein Hinweisfenster, in dem Sie das Auslesen der oben genannten Daten zusätzlich bestätigen müssen.",
+          "description": "Befragte zufällig auf 2 Gruppen aufteilen.\n- 1/2 der Befragten bekommen nur Frage ZF28050 (Gruppe 1).\n- 1/2 der Befragten bekommen Frage ZF28050 und, wenn sie der Erfassung zustimmen, Frage ZF28051, in der sie dem Speichern der Informationen nochmals zustimmen müssen (Gruppe 2).\nZuteilung zu den Experimentalgruppen in separater Variable expZF28050 speichern.",
           "scale": "cat",
           "answers": [
             {
@@ -2025,6 +2073,7 @@
         {
           "item": "0",
           "text": "Wir konnten die folgenden Informationen über Ihren Aufenthaltsort erheben.\n[Informationen einfügen]\n\nDürfen wir diese Informationen über Ihren Aufenthaltsort speichern?",
+          "filter": "expZF28050 = 2 und ZF28050 = 1 (Erfassen der Geodaten in der vorherigen Frage wurde zugestimmt) ",
           "scale": "cat",
           "answers": [
             {
@@ -2054,6 +2103,8 @@
           "item": "0",
           "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen…?",
           "instruction": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "description": "Befragte zufällig auf zwei Gruppen aufteilen.\n- 50% der Befragten bekommen Fragen im bisherigen Design, also QE28001 bis QE28008_TXT auf einer Frageseite, Fragen QE28001 bis QE28006 als Matrix und Frage QE28007 mit horizontaler Antwortskala (Gruppe 1).\n- 50% der Befragten bekommen Fragen QE28001 bis QE28008_TXT im mobiloptimierten Design, also Fragen QE28001 bis QE28008_TXT als Einzelfragen und Fragen QE28001 bis QE28007 mit vertikaler Skala (Gruppe 2).\nZuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expQE28001 speichern.\nBitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "filter": "expQE28001 = 1",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2240,7 +2291,7 @@
         {
           "item": "8",
           "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
-          "scale": "str",
+          "scale": "chr",
           "sn": 8,
           "number": ""
         }
@@ -2258,6 +2309,7 @@
         {
           "item": "0",
           "text": "Bewertung dieser Umfrage      \n      \n Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "filter": "expQE28001 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2301,6 +2353,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?",
+          "filter": "expQE28001 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2344,6 +2397,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?",
+          "filter": "expQE28001 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2387,6 +2441,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?",
+          "filter": "expQE28001 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2430,6 +2485,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?",
+          "filter": "expQE28001 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2473,6 +2529,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?",
+          "filter": "expQE28001 = 2",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2516,6 +2573,7 @@
         {
           "item": "0",
           "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "filter": "expQE28001 = 2",
           "scale": "cat",
           "answers": [
             {
@@ -2556,7 +2614,8 @@
         {
           "item": "0",
           "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
-          "scale": "str",
+          "filter": "expQE28001 = 2",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }
