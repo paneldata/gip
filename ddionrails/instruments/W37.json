@@ -120,6 +120,8 @@
           "item": "0",
           "text": "Bitte korrigieren Sie folgende Angaben.",
           "instruction": "Bitte tragen Sie Ihre Angaben vollständig ein.",
+          "description": "Bitte tragen Sie Ihre Angaben vollständig ein.",
+          "filter": "AA37401 = 2 oder AA37402 = 2 oder AA37403 = 2 oder AA37404 = 2 (wenn Vorname, Name, Geschlecht oder Geburtsjahr nicht korrekt)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -127,14 +129,14 @@
         {
           "item": "1",
           "text": "Vorname: bisherige Angabe \n[Vorname]\nkorrigierte Angabe",
-          "scale": "str",
+          "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "2",
           "text": "Nachname: bisherige Angabe \n[Nachname]\nkorrigierte Angabe",
-          "scale": "str",
+          "scale": "chr",
           "sn": 2,
           "number": ""
         },
@@ -169,7 +171,7 @@
         {
           "item": "5",
           "text": "Falls Sie Anmerkungen haben, tragen Sie diese bitte hier ein:",
-          "scale": "str",
+          "scale": "chr",
           "sn": 5,
           "number": ""
         }
@@ -187,6 +189,7 @@
         {
           "item": "0",
           "text": "Bitte überprüfen Sie, ob die angegebene Mobilfunknummer (Handy) korrekt ist.",
+          "filter": "wenn Mobilfunknummer in Datenbank vorhanden",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -222,6 +225,7 @@
         {
           "item": "0",
           "text": "Bitte korrigieren Sie die folgende Mobilfunknummer.",
+          "filter": "AA37409 = 2 (wenn Mobilfunknummer nicht korrekt)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -248,6 +252,8 @@
           "item": "0",
           "text": "Nennen Sie uns bitte eine Mobilfunknummer (Handy), unter der wir Sie im Rahmen der Studie erreichen können, z. B. wenn Ihr E-Mail-Konto einmal voll sein sollte oder aus anderen Gründen nicht erreichbar ist.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "wenn keine Mobilfunknummer in Datenbank vorhanden",
           "scale": "cat",
           "answers": [
             {
@@ -284,6 +290,7 @@
         {
           "item": "0",
           "text": "Bitte überprüfen Sie, ob die angegebene Telefonnummer korrekt ist.",
+          "filter": "wenn Telefonnummer in Datenbank vorhanden",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -319,6 +326,7 @@
         {
           "item": "0",
           "text": "Bitte korrigieren Sie die folgende Telefonnummer.",
+          "filter": "AA37411 = 2 (wenn Telefonnummer nicht korrekt)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -345,6 +353,8 @@
           "item": "0",
           "text": "Falls Sie auch eine Telefonnummer im Festnetz haben, tragen Sie diese bitte hier ein (mit Vorwahl).",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "wenn keine Telefonnummer in Datenbank vorhanden",
           "scale": "cat",
           "answers": [
             {
@@ -381,6 +391,7 @@
         {
           "item": "0",
           "text": "Haben Sie die deutsche Staatsangehörigkeit?",
+          "filter": "sample !=3 (nicht 2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -414,6 +425,8 @@
           "item": "0",
           "text": "Welche ausländische/-n Staatsangehörigkeit/-en besitzen Sie?",
           "instruction": "Bitte geben Sie alle zutreffenden an.",
+          "description": "Bitte geben Sie alle zutreffenden an.",
+          "filter": "AA37307 != 1, -90 (wenn Befragte/-r nicht (nur) die deutsche Staatsangehörigkeit hat oder item nonrespone zur Frage der deutschen Staatsangehörigkeit) oder sample!=3 (nicht 2018 rekrutiert)\n",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -498,7 +511,7 @@
         {
           "item": "12",
           "text": "Anderes Land, und zwar:",
-          "scale": "str",
+          "scale": "chr",
           "sn": 12,
           "number": ""
         },
@@ -524,6 +537,8 @@
           "item": "0",
           "text": "Welchen Familienstand haben Sie?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "sample != 3 (nicht 2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -590,6 +605,8 @@
           "item": "0",
           "text": "Wie viele Personen leben ständig in Ihrem Haushalt, Sie selbst eingeschlossen?\nZu Ihrem Haushalt zählen alle Personen, die hier gemeinsam wohnen und wirtschaften.\nDenken Sie dabei bitte auch an alle im Haushalt lebenden Kinder.",
           "instruction": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "description": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "filter": "sample != 3 (nicht 2018 rekrutiert)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -609,6 +626,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 1 (wenn mehr als eine Person im Haushalt lebt)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -759,6 +778,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 2 (wenn mehr als eine Person im Haushalt lebt)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -909,6 +930,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 3 (wenn mehr als drei Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1059,6 +1082,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 4 (wenn mehr als vier Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1209,6 +1234,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 5 (wenn mehr als fünf Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1359,6 +1386,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 6 (wenn mehr als sechs Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1509,6 +1538,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 7 (wenn mehr als sieben Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1659,6 +1690,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 8 (wenn mehr als acht Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1809,6 +1842,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 9 (wenn mehr als neun Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1959,6 +1994,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 10 (wenn mehr als zehn Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2109,6 +2146,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 11 (wenn mehr als elf Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2259,6 +2298,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 12 (wenn mehr als zwölf Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2409,6 +2450,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 13 (wenn mehr als 13 Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2559,6 +2602,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 14 (wenn mehr als 14 Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2709,6 +2754,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 15 (wenn mehr als 15 Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2859,6 +2906,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 16 (wenn mehr als 16 Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -3009,6 +3058,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 17 (wenn mehr als 17 Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -3159,6 +3210,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 18 (wenn mehr als 18 Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -3309,6 +3362,8 @@
           "item": "0",
           "text": "Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?",
           "instruction": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "description": "Bitte machen Sie zu jeder Person alle Angaben.",
+          "filter": "AA37057 oder RQD3021 > 19 (wenn mehr als 19 Personen im Haushalt leben)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -3459,6 +3514,7 @@
           "item": "0",
           "text": "In welchem Bundesland haben Sie Ihren Hauptwohnsitz?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -3544,6 +3600,8 @@
           "item": "0",
           "text": "Welches ist Ihr höchster allgemeinbildender Schulabschluss?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "sample != 3 (nicht 2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -3593,6 +3651,8 @@
           "item": "0",
           "text": "Welchen höchsten beruflichen Ausbildungs- oder (Fach-)Hochschulabschluss haben Sie?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "sample !=3 (nicht 2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -3662,6 +3722,7 @@
           "item": "0",
           "text": "Im Folgenden sehen Sie eine Liste mit (beruflichen) Tätigkeiten. Bitte geben Sie alle an, die aktuell auf Sie zutreffen.",
           "instruction": "Bei dieser Frage können Sie mehrere Antworten geben.",
+          "description": "Bei dieser Frage können Sie mehrere Antworten geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -3800,6 +3861,8 @@
           "item": "0",
           "text": "Und welche der Beschreibungen trifft am besten auf Ihre aktuelle berufliche Situation zu? Was würden Sie als Ihre Haupttätigkeit bezeichnen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "wenn mindestens zwei der Items AA37450_a bis AA37450_q = 1 (mehr als eine berufliche Tätigkeit ausgewählt)",
           "scale": "cat",
           "answers": [
             {
@@ -3888,6 +3951,7 @@
         {
           "item": "0",
           "text": "Waren Sie früher einmal vollzeit- oder teilzeiterwerbstätig?",
+          "filter": "AA37451 = 8, 9, 10, 11, 13, 14, 15, 16, 17 (wenn Haupterwerbsstatus der/des Befragten in Umschulung, Freiwilliger Wehrdienst, Bundesfreiwilligendienst, Freiwilliges Soziales/Ökologisches/Kulturelles Jahr, Mutterschafts-, Erziehungsurlaub, Elternzeit oder sonstige Beurlaubung, Student/-in, Rentner/-in, Pensionär/-in, im Vorruhestand, arbeitslos, dauerhaft erwerbsunfähig oder Hausfrau/Hausmann), oder wenn AA37450_h = 1 oder AA37450_i = 1 oder  AA37450_j = 1 oder  AA37450_k = 1 oder AA37450_m = 1 oder AA37450_n = 1 oder AA37450_o = 1 oder AA37450_p = 1 oder AA37450_q = 1 und AA37451 =  item nonresponse (wenn berufliche Tätigkeit(en) in Umschulung, Freiwilliger Wehrdienst, Bundesfreiwilligendienst, Freiwilliges Soziales/Ökologisches/Kulturelles Jahr, Mutterschafts-, Erziehungsurlaub, Elternzeit oder sonstige Beurlaubung, Student/-in, Rentner/-in, Pensionär/-in, im Vorruhestand, arbeitslos, dauerhaft erwerbsunfähig oder Hausfrau/Hausmann gewählt wurde und keine Angabe zum Haupterwerbsstatus gegeben wurde)",
           "scale": "cat",
           "answers": [
             {
@@ -3916,6 +3980,7 @@
         {
           "item": "0",
           "text": "Sind Sie in Ihrer bezahlten Tätigkeit … ?",
+          "filter": "AA37451 = 1, 2, 3, 4, 5, 6, 7 (Haupterwerbsstatus vollzeiterwerbstätig bis in einer beruflichen Ausbildung/Lehre), oder wenn AA37450_a = 1 oder AA37450_b = 1 oder AA37450_c = 1 oder AA37450_d = 1 oder AA37450_e = 1 oder AA37450_f = 1 oder AA37450_g = 1 und AA37451 = item nonresponse (wenn berufliche Tätigkeit(en)  vollzeiterwerbstätig bis in einer beruflichen Ausbildung/Lehre gewählt wurde und keine Angabe zum Haupterwerbsstatus gegeben wurde)",
           "scale": "cat",
           "answers": [
             {
@@ -3948,6 +4013,7 @@
         {
           "item": "0",
           "text": "Ist der Arbeitsvertrag Ihres Beschäftigungsverhältnisses … ?",
+          "filter": "AA37452 = 1 (abhängig beschäftigt)",
           "scale": "cat",
           "answers": [
             {
@@ -3976,6 +4042,7 @@
         {
           "item": "0",
           "text": "Sind Sie im öffentlichen Dienst beschäftigt?\n      \nZum öffentlichen Dienst gehören: Behörden und Einrichtungen von Gemeinden, Ländern und Bund, zum Beispiel öffentliche Schulen und Universitäten, städtische Krankenhäuser, die Bundesagentur für Arbeit, Sozialversicherungsträger, Polizei oder Bundeswehr.\n      \nNicht zum öffentlichen Dienst gehören Beschäftigte und Beamte in Nachfolgeunternehmen der Deutschen Post, der Bundes- und Reichsbahn sowie Beschäftigte der Kirchen.",
+          "filter": "AA37452 = 1 (abhängig beschäftigt)",
           "scale": "cat",
           "answers": [
             {
@@ -4004,6 +4071,7 @@
         {
           "item": "0",
           "text": "Waren Sie in Ihrer letzten bezahlten Tätigkeit … ?",
+          "filter": "AA37006 = 1 (früher vollzeit- oder teilzeiterwerbstätig)",
           "scale": "cat",
           "answers": [
             {
@@ -4036,6 +4104,7 @@
         {
           "item": "0",
           "text": "War der Arbeitsvertrag Ihres letzten Beschäftigungsverhältnisses … ?",
+          "filter": "AA37455 = 1 (früher abhängig beschäftigt)",
           "scale": "cat",
           "answers": [
             {
@@ -4064,6 +4133,7 @@
         {
           "item": "0",
           "text": "Waren Sie in Ihrem letzten Beschäftigungsverhältnis im öffentlichen Dienst beschäftigt?\n      \nZum öffentlichen Dienst gehören: Behörden und Einrichtungen von Gemeinden, Ländern und Bund, zum Beispiel öffentliche Schulen und Universitäten, städtische Krankenhäuser, die Bundesagentur für Arbeit, Sozialversicherungsträger, Polizei oder Bundeswehr.\n      \nNicht zum öffentlichen Dienst gehören Beschäftigte und Beamte in Nachfolgeunternehmen der Deutschen Post, der Bundes- und Reichsbahn sowie Beschäftigte der Kirchen.",
+          "filter": "AA37455 = 1 (früher abhängig beschäftigt)",
           "scale": "cat",
           "answers": [
             {
@@ -4092,6 +4162,7 @@
         {
           "item": "0",
           "text": "Können Sie Ihre (letzte) berufliche Tätigkeit einem der folgenden Wirtschaftsbereiche zuordnen?",
+          "filter": "AA37451 = 1, 2, 3, 4, 5, 6, 7 (Haupterwerbsstatus vollzeiterwerbstätig bis in einer beruflichen Ausbildung/Lehre),\noder wenn AA37450_a = 1 oder AA37450_b = 1 oder AA37450_c = 1 oder AA37450_d = 1 oder AA37450_e = 1 oder AA37450_f = 1 oder AA37450_g = 1 und AA37451 =  item nonresponse (wenn berufliche Tätigkeit(en) in vollzeiterwerbstätig bis in einer beruflichen Ausbildung/Lehre und keine Angabe zum Haupterwerbsstatus), oder wenn AA37006 = 1 (früher einmal vollzeit- oder teilzeiterwerbstätig)",
           "scale": "cat",
           "answers": [
             {
@@ -4189,6 +4260,7 @@
           "item": "0",
           "text": "Zu welcher der folgenden Religionen, Glaubensrichtungen oder Weltanschauungen bekennen Sie sich?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -4258,6 +4330,7 @@
           "item": "0",
           "text": "Würden Sie von sich sagen, dass Sie eher religiös oder eher nicht religiös sind?\nSie sehen hier eine Skala, die von „nicht religiös“ zu „religiös“ geht. Wo würden Sie Ihre eigenen Ansichten auf dieser Skala einstufen?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -4311,6 +4384,7 @@
           "item": "0",
           "text": "Nutzen Sie außerhalb der Studie „Gesellschaft im Wandel“ Computer, z. B. bei der Arbeit oder in der Freizeit?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -4352,6 +4426,8 @@
           "item": "0",
           "text": "Wie oft nutzen Sie das Internet, das World Wide Web oder E-Mail für private Zwecke,  egal ob zu Hause oder am Arbeitsplatz?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "sample != 3 (nicht 2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -4405,6 +4481,8 @@
           "item": "0",
           "text": "Und wie oft am Tag nutzen Sie das Internet, das World Wide Web oder E-Mail für private Zwecke?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "AA37309 = 8 (nutzt Internet täglich)",
           "scale": "cat",
           "answers": [
             {
@@ -4438,6 +4516,7 @@
           "item": "0",
           "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ... \nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4501,6 +4580,7 @@
           "item": "0",
           "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4564,6 +4644,7 @@
           "item": "0",
           "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4627,6 +4708,8 @@
           "item": "0",
           "text": "Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?\nIch bin mit ...\nBitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "AA37450_a = 1 und/oder AA37450_b = 1 und/oder AA37450_c = 1 und/oder AA37450_d = 1 und/oder AA37450_e = 1 und/oder AA37450_f = 1 und/oder AA37450_g = 1 und/oder AA37450_i = 1 und/oder AA37450_j = 1 und/oder AA37450_k = 1 (wenn Befragte/-r vollzeiterwerbstätig bis in einer beruflichen Ausbildung/Lehre ist oder Freiwilliger Wehrdienst, Bundesfreiwilligendienst bis Mutterschafts-, Erziehungsurlaub, Elternzeit oder sonstige Beurlaubung macht)",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4690,6 +4773,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4730,6 +4814,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4770,6 +4855,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4810,6 +4896,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4850,6 +4937,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4890,6 +4978,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4930,6 +5019,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4970,6 +5060,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5010,6 +5101,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5050,6 +5142,7 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5090,6 +5183,8 @@
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\nSonstige/-r, und zwar: [answer field]",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "AA37036 != 1 (ungleich kein Mitglied in sonstiger/-m Organisation/Verein)",
           "scale": "cat",
           "answers": [
             {
@@ -5123,6 +5218,7 @@
           "item": "0",
           "text": "In der Politik reden die Leute häufig von „links“ und „rechts“. Wenn Sie diese Skala hier benutzen, wo würden Sie sich selbst einordnen, wenn 1 „links“ und 11 „rechts“ ist?",
           "instruction": "Bitte geben Sie den Wert an, der auf Sie persönlich zutrifft. ",
+          "description": "Bitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
           "scale": "cat",
           "answers": [
             {
@@ -5192,6 +5288,7 @@
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "description": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5268,6 +5365,7 @@
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "description": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5344,6 +5442,7 @@
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "description": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5420,6 +5519,7 @@
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "description": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5496,6 +5596,7 @@
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "description": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5572,6 +5673,7 @@
           "item": "0",
           "text": "Und wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
           "instruction": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
+          "description": "Bitte geben Sie für die Partei den Wert an, der Ihrer Meinung nach zutrifft.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5675,6 +5777,7 @@
         {
           "item": "0",
           "text": "Bitte geben Sie an, welche Partei das ist.",
+          "filter": "AA37042 = 1 (einer Partei zuneigt)",
           "scale": "cat",
           "answers": [
             {
@@ -5731,6 +5834,7 @@
         {
           "item": "0",
           "text": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich mehr oder weniger zutreffen. \n\nBitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch bin eher zurückhaltend, reserviert.",
+          "filter": "sample = 3 (2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -5771,6 +5875,7 @@
         {
           "item": "0",
           "text": "Ich schenke anderen leicht Vertrauen, glaube an das Gute im Menschen.",
+          "filter": "sample = 3 (2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -5811,6 +5916,7 @@
         {
           "item": "0",
           "text": "Ich bin bequem, neige zur Faulheit.",
+          "filter": "sample = 3 (2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -5851,6 +5957,7 @@
         {
           "item": "0",
           "text": "Ich bin entspannt, lasse mich durch Stress nicht aus der Ruhe bringen.",
+          "filter": "sample = 3 (2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -5891,6 +5998,7 @@
         {
           "item": "0",
           "text": "Ich habe nur wenig künstlerisches Interesse.",
+          "filter": "sample = 3 (2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -5931,6 +6039,7 @@
         {
           "item": "0",
           "text": "Ich gehe aus mir heraus, bin gesellig.",
+          "filter": "sample = 3 (2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -5971,6 +6080,7 @@
         {
           "item": "0",
           "text": "Ich neige dazu, andere zu kritisieren.",
+          "filter": "sample = 3 (2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -6011,6 +6121,7 @@
         {
           "item": "0",
           "text": "Ich erledige Aufgaben gründlich.",
+          "filter": "sample = 3 (2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -6051,6 +6162,7 @@
         {
           "item": "0",
           "text": "Ich werde leicht nervös und unsicher.",
+          "filter": "sample = 3 (2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -6091,6 +6203,7 @@
         {
           "item": "0",
           "text": "Ich habe eine aktive Vorstellungskraft, bin fantasievoll.",
+          "filter": "sample = 3 (2018 rekrutiert)",
           "scale": "cat",
           "answers": [
             {
@@ -6237,6 +6350,7 @@
         {
           "item": "0",
           "text": "Wie viele Personen tragen insgesamt zum Einkommen Ihres Haushalts bei?\n\nDenken Sie nicht nur an Arbeitseinkommen, sondern auch an Renten, Pensionen, Stipendien und andere Einkommen.",
+          "filter": "AA37057 oder RQD3021 > 1 (Anzahl der Haushaltsmitglieder größer 1)",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -6255,6 +6369,7 @@
         {
           "item": "0",
           "text": "Sind Sie die Person, die zum Haushaltseinkommen beiträgt?",
+          "filter": "AA37057 oder RQD3021 > 1 (Anzahl der Haushaltsmitglieder größer 1) und AA37055=1 (1 Person trägt zum Haushaltseinkommen bei)",
           "scale": "cat",
           "answers": [
             {
@@ -6283,6 +6398,7 @@
         {
           "item": "0",
           "text": "Und Ihr Einkommen mit eingerechnet, wie hoch ist das durchschnittliche monatliche Netto-Einkommen Ihres Haushalts insgesamt? \n\nUnter durchschnittlichem monatlichem Nettoeinkommen Ihres Haushalts ist die Summe zu verstehen, die sich aus Lohn, Gehalt, Einkommen aus selbstständiger Tätigkeit, Rente oder Pension ergibt. Rechnen Sie bitte auch die Einkünfte aus öffentlichen Beihilfen, Einkommen aus Vermietung und Verpachtung, Vermögen, Wohngeld, Kindergeld und sonstige Einkünfte hinzu und ziehen Sie dann Steuern und Sozialversicherungsbeiträge ab.\nBei Selbstständigen geht es um die durchschnittlichen Nettobezüge, d. h. abzüglich der Betriebsausgaben und der Steuern.",
+          "filter": "AA37465 = 2 (wenn befragte Person nicht die Person ist, die zum Haushaltseinkommen beiträgt ) oder wenn AA37055 > 1 (mehr als eine Person trägt zum Haushaltseinkommen bei)",
           "scale": "cat",
           "answers": [
             {
@@ -6372,6 +6488,7 @@
           "item": "0",
           "text": "Falls Sie bei der letzten Bundestagswahl am 24. September 2017 gewählt haben, für welche Partei haben Sie mit Ihrer Zweitstimme gestimmt?\n\nDie Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -6444,6 +6561,7 @@
         {
           "item": "0",
           "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
@@ -6486,6 +6604,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
@@ -6528,6 +6647,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
@@ -6570,6 +6690,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
@@ -6612,6 +6733,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
@@ -6654,6 +6776,7 @@
         {
           "item": "0",
           "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
@@ -6736,7 +6859,7 @@
         {
           "item": "0",
           "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
-          "scale": "str",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }

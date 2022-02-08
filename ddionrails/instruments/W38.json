@@ -33,6 +33,8 @@
         {
           "item": "0",
           "text": "Inwieweit fänden Sie es für sich persönlich akzeptabel, für umweltfreundliche Produkte höhere Preise zu bezahlen?",
+          "description": "Befragte in 12 gleiche Gruppen aufteilen:\n- 1/12 bekommt erst ZF38092, dann ZF38093 + Nachfragen (Gruppe 1)\n- 1/12 bekommt erst ZF38093, dann ZF38092 + Nachfragen (Gruppe 2)\n- 1/12 bekommt erst ZF38092, dann ZF38093 (Gruppe 3)\n- 1/12 bekommt erst ZF38093, dann ZF38092 (Gruppe 4)\n- 1/12 bekommt erst ZF38094, dann ZF38095 + Nachfragen (Gruppe 5\n- 1/12 bekommt erst ZF38095, dann ZF38094 + Nachfragen (Gruppe 6)\n- 1/12 bekommt erst ZF38094, dann ZF38095 (Gruppe 7) - 1/12 bekommt erst ZF38095, dann ZF38094 (Gruppe 8)\n- 1/12 bekommt erst ZF38096, dann ZF38097 + Nachfragen (Gruppe 9)\n- 1/12 bekommt erst ZF38097, dann ZF38096 + Nachfragen (Gruppe 10)\n- 1/12 bekommt erst ZF38096, dann ZF38097 (Gruppe 11)\n- 1/12 bekommt erst ZF38097, dann ZF38096 (Gruppe 12)\nSodass die samples (1=rekruitert 2012, 2=2014 und 3=2018) gleichmäßig auf die Gruppen verteilt sind.\nRandomisierung auf Haushaltsebene, sodass Befragte aus einem Haushalt in der gleichen Gruppe sind.\nGruppenzugehörigkeit in separater Variable expZF38092 speichern.",
+          "filter": "expZF38092 = 1,2,3,4",
           "scale": "cat",
           "answers": [
             {
@@ -97,6 +99,7 @@
         {
           "item": "0",
           "text": "Inwieweit fänden Sie es für sich persönlich akzeptabel, Ihren Energieverbrauch einzuschränken, um den Klimawandel aufzuhalten?",
+          "filter": "expZF38092 = 1,2,3,4",
           "scale": "cat",
           "answers": [
             {
@@ -161,6 +164,7 @@
         {
           "item": "0",
           "text": "Wie häufig achten Sie beim Kauf von Produkten darauf, dass diese Produkte umweltfreundlich sind?",
+          "filter": "expZF38092 = 5,6,7,8",
           "scale": "cat",
           "answers": [
             {
@@ -225,6 +229,7 @@
         {
           "item": "0",
           "text": "Wie häufig tun Sie etwas im Alltag, um Ihren Energieverbrauch zu reduzieren?",
+          "filter": "expZF38092 = 5,6,7,8",
           "scale": "cat",
           "answers": [
             {
@@ -289,6 +294,7 @@
         {
           "item": "0",
           "text": "Wie wahrscheinlich ist es Ihrer Meinung nach, dass Sie mit dem Kauf umweltfreundlicher Produkte etwas zum Schutz der Umwelt beitragen können?",
+          "filter": "expZF38092 = 9,10,11,12",
           "scale": "cat",
           "answers": [
             {
@@ -353,6 +359,7 @@
         {
           "item": "0",
           "text": "Wie wahrscheinlich ist es Ihrer Meinung nach, dass Einschränkungen bei Ihrem Energieverbrauch helfen könnten, den Klimawandel zu reduzieren?",
+          "filter": "expZF38092 = 9,10,11,12",
           "scale": "cat",
           "answers": [
             {
@@ -436,6 +443,7 @@
           "item": "0",
           "text": "Inwieweit beeinflusst Lobbyismus Ihrer Meinung nach die Politik der Europäischen Union?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -481,6 +489,7 @@
           "item": "0",
           "text": "Im Vergleich zum Einfluss von Lobbyismus auf die Politik der Europäischen Union, inwieweit beeinflusst Lobbyismus Ihrer Meinung nach die deutsche Politik?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -526,6 +535,8 @@
           "item": "0",
           "text": "Wie bewerten Sie den Einfluss von Lobbyismus auf die Politik der Europäischen Union?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "BG38001 != 0 (wenn Einfluss  Lobbyismus auf Politik EU ungleich \"überhaupt nicht\") ",
           "scale": "cat",
           "answers": [
             {
@@ -571,6 +582,8 @@
           "item": "0",
           "text": "Kann Lobbyismus aus Ihrer Sicht prinzipiell einen positiven Einfluss auf die Politik der Europäischen Union haben?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "BG38003  !=  0,1  (wenn Bewertung Einfluss Lobbyismus auf Politik EU  ungleich \"positiv\" oder \"eher positiv\") ",
           "scale": "cat",
           "answers": [
             {
@@ -604,6 +617,8 @@
           "item": "0",
           "text": "Kann Lobbyismus aus Ihrer Sicht prinzipiell einen negativen Einfluss auf die Politik der   Europäischen Union haben?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "BG38003  != 3, 4 (wenn Bewertung Einfluss Lobbyismus auf Politik EU  ungleich \"eher negativ\" oder \"negativ\") ",
           "scale": "cat",
           "answers": [
             {
@@ -637,6 +652,7 @@
           "item": "0",
           "text": "Welche der folgenden Akteure profitieren Ihrer Meinung nach am stärksten vom Lobbyismus auf EU-Ebene?",
           "instruction": "Bitte geben Sie alles Zutreffende an. Auswahl mehrerer Antworten möglich",
+          "description": "Bitte geben Sie alles Zutreffende an. Auswahl mehrerer Antworten möglich",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -672,7 +688,7 @@
         {
           "item": "5",
           "text": "Sonstiges, und zwar:",
-          "scale": "str",
+          "scale": "chr",
           "sn": 5,
           "number": ""
         },
@@ -716,6 +732,7 @@
           "item": "0",
           "text": "Inwieweit beeinflusst Lobbyismus Ihrer Meinung nach die Klimapolitik der Europäischen Union?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -761,6 +778,8 @@
           "item": "0",
           "text": "Wie bewerten Sie den Einfluss von Lobbyismus auf die Klimapolitik der Europäischen Union?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "BG38007 !=  0 (wenn Einfluss Lobbyismus auf Klimapolitik der EU  ungleich \"überhaupt nicht\") ",
           "scale": "cat",
           "answers": [
             {
@@ -806,6 +825,7 @@
           "item": "0",
           "text": "Inwieweit beeinflusst Lobbyismus das Maß an Klimaschutz der Europäischen Union?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -851,6 +871,7 @@
           "item": "0",
           "text": "Inwieweit stehen den Bürgern der EU Ihrer Meinung nach ausreichend Informationen zur Verfügung, um die Vorgänge im Zusammenhang mit Lobbyismus auf EU-Ebene nachvollziehen zu können?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -896,6 +917,8 @@
           "item": "0",
           "text": "Inwieweit würde sich Ihrer Meinung nach der Einfluss von Lobbyismus auf die Politik der Europäischen Union verändern, wenn der Öffentlichkeit vollständige Informationen zu allen Vorgängen im Zusammenhang mit Lobbyismus bereitgestellt würden?  Der Einfluss von Lobbyismus auf die Politik der Europäischen Union wäre…",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "BG38010 !=  4 (wenn EU Bürgern genug Information zur Verfügung stehen, um Lobbyismus nachvollziehen zu können ungleich \"völlig ausreichend\")",
           "scale": "cat",
           "answers": [
             {
@@ -940,6 +963,8 @@
         {
           "item": "0",
           "text": "[Wenn expZF38116 = 1: Es ist nicht immer leicht, die ganze Zeit konzentriert zu bleiben. Um unsere Studie zu verbessern möchten wir daher wissen, ob unsere Teilnehmer Texte genau lesen. Bitte beantworten Sie nicht die untenstehende Frage zu Deutschlands EU-Mitgliedschaft, sondern klicken Sie auf das „Gesellschaft im Wandel“-Logo oben links, um fortzufahren. Damit zeigen Sie uns, dass Sie diesen Text gelesen haben.]\n[Wenn expZF38116 = 2: Ein wesentlicher Grund für die Gründung der Europäischen Union (EU) war die Erhaltung des Friedens und der Sicherheit in Europa. Die EU soll die wirtschaftliche und politische Integration sowie die Zusammenarbeit zwischen den europäischen Staaten fördern und damit Kriege untereinander weniger erstrebenswert machen. Es ist nicht immer leicht, die ganze Zeit konzentriert zu bleiben. Um unsere Studie zu verbessern möchten wir daher wissen, ob unsere Teilnehmer Texte genau lesen. Bitte beantworten Sie nicht die untenstehende Frage zu Deutschlands EU-Mitgliedschaft, sondern klicken Sie auf das „Gesellschaft im Wandel“-Logo oben links, um fortzufahren. Damit zeigen Sie uns, dass Sie diesen Text gelesen haben. Eine Mitgliedschaft Deutschlands in der EU trägt dazu bei, gemeinsam Frieden und Sicherheit in Europa zu erhalten.]\n[Wenn expZF38116 = 3: Ein wesentlicher Grund für die Gründung der Europäischen Union (EU) war die Erhaltung des Friedens und der Sicherheit in Europa. Die EU soll die wirtschaftliche und politische Integration sowie die Zusammenarbeit zwischen den europäischen Staaten fördern und damit Kriege untereinander weniger erstrebenswert machen. Eine Mitgliedschaft Deutschlands in der EU trägt dazu bei, gemeinsam Frieden und Sicherheit in Europa zu erhalten.\nEin Ziel der EU ist die Förderung des wirtschaftlichen Wachstums und des Wohlstands der EU-Mitgliedsstaaten. Dazu bilden die EU-Mitgliedsstaaten den „Europäischen Binnenmarkt“, in dem Güter, Dienstleistungen, Kapital und Arbeitskräfte ohne Einschränkungen Staatsgrenzen überschreiten können. Es ist nicht immer leicht, die ganze Zeit konzentriert zu bleiben. Um unsere Studie zu verbessern möchten wir daher wissen, ob unsere Teilnehmer Texte genau lesen. Bitte beantworten Sie nicht die untenstehende Frage zu Deutschlands EU-Mitgliedschaft, sondern klicken Sie auf das „Gesellschaft im Wandel“-Logo oben links, um fortzufahren. Damit zeigen Sie uns, dass Sie diesen Text gelesen haben. Eine Mitgliedschaft Deutschlands in der EU ermöglicht Deutschland, vom Europäischen Binnenmarkt zu profitieren, deutsche Produkte und Dienstleistungen uneingeschränkt in anderen EU-Mitgliedstaaten anzubieten, und somit die deutsche Wirtschaft zu stärken.]\n[Wenn expZF38116 = 4: Ein wesentlicher Grund für die Gründung der Europäischen Union (EU) war die Erhaltung des Friedens und der Sicherheit in Europa. Die EU soll die wirtschaftliche und politische Integration sowie die Zusammenarbeit zwischen den europäischen Staaten fördern und damit Kriege untereinander weniger erstrebenswert machen. Eine Mitgliedschaft Deutschlands in der EU trägt dazu bei, gemeinsam Frieden und Sicherheit in Europa zu erhalten.\nEin Ziel der EU ist die Förderung des wirtschaftlichen Wachstums und des Wohlstands der EU-Mitgliedsstaaten. Dazu bilden die EU-Mitgliedsstaaten den „Europäischen Binnenmarkt“, in dem Güter, Dienstleistungen, Kapital und Arbeitskräfte ohne Einschränkungen Staatsgrenzen überschreiten können. Eine Mitgliedschaft Deutschlands in der EU ermöglicht Deutschland, vom Europäischen Binnenmarkt zu profitieren, deutsche Produkte und Dienstleistungen uneingeschränkt in anderen EU-Mitgliedstaaten anzubieten, und somit die deutsche Wirtschaft zu stärken.\nIn der Europäischen Union treffen EU-Mitgliedsstaaten und das Europäische Parlament wichtige politische Entscheidungen in verschiedenen Politikbereichen wie zum Beispiel Handel, Wettbewerb, Landwirtschaft, Gesundheit, Migration, Umwelt und Justiz. Diese Entscheidungen haben einen direkten Einfluss auf das Leben der EU-Bürger. Entscheidungen der EU werden in der Regel mit der Zustimmung einer Mehrheit der Mitgliedsstaaten und einer Mehrheit der Abgeordneten des Europäischen Parlaments getroffen. Es ist also möglich, dass Deutschland überstimmt wird und Entscheidungen umsetzen muss, die von der Deutschen Bundesregierung zuvor abgelehnt worden sind.\nEines der Grundprinzipien der Europäischen Union ist die sogenannte Freizügigkeit. Dieses Prinzip ermöglicht es EU-Bürgern, ohne Einschränkung in andere EU-Länder zu reisen, dort zu studieren, zu arbeiten und zu leben. Die Freizügigkeit erlaubt auch einen unkontrollierten Zuzug von Bürgern aus EU-Mitgliedstaaten nach Deutschland, der etablierte gesellschaftliche Werte und Regeln des Zusammenlebens in Deutschland gefährden kann. Es ist nicht immer leicht, die ganze Zeit konzentriert zu bleiben. Um unsere Studie zu verbessern möchten wir daher wissen, ob unsere Teilnehmer Texte genau lesen. Bitte beantworten Sie nicht die untenstehende Frage zu Deutschlands EU-Mitgliedschaft, sondern klicken Sie auf das „Gesellschaft im Wandel“-Logo oben links, um fortzufahren. Damit zeigen Sie uns, dass Sie diesen Text gelesen haben. Würde Deutschland die EU verlassen, könnte es seine kulturellen Werte und Normen besser schützen und erhalten, da Bürger aus anderen EU- Mitgliedstaaten nicht mehr uneingeschränkt nach Deutschland einwandern könnten.]\n\nAngenommen, eine Abstimmung über die Mitgliedschaft Deutschlands in der Europäischen Union würde am kommenden Sonntag stattfinden: Wie würden Sie abstimmen?",
+          "description": "Befragte zufällig in 4 Gruppen aufteilen:      \n - 1/4 bekommt nur die Instruktion (Gruppe 1)       \n- 1/4 bekommt die Instruktion in kurzem Text (Gruppe 2)       \n- 1/4 bekommt die Instruktion in mittlerem Text (Gruppe 3)       \n- 1/4 bekommt die Instruktion in langem Text (Gruppe 4)       \nSodass jedes sample (1=rekruitert 2012, 2=2014 und 3=2018) gleichmäßig auf die Gruppen verteilt ist.\nZuteilung zu den Experimentalgruppen in separater Variable expZF38116 experiment speichern.",
+          "filter": "Javascript aktiv ",
           "scale": "cat",
           "answers": [
             {
@@ -985,6 +1010,7 @@
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der CDU/CSU (Christlich Demokratische Union Deutschlands/Christlich-Soziale Union) im Bundestag?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -1054,6 +1080,7 @@
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der SPD (Sozialdemokratische Partei Deutschlands) im Bundestag?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -1123,6 +1150,7 @@
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der Partei Bündnis 90/Die Grünen im Bundestag?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -1192,6 +1220,7 @@
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der Partei Die Linke im Bundestag?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -1261,6 +1290,7 @@
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der AfD (Alternative für Deutschland) im Bundestag?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -1330,6 +1360,7 @@
           "item": "0",
           "text": "Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der FDP (Freie Demokratische Partei) im Bundestag?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -1399,6 +1430,7 @@
           "item": "0",
           "text": "Innerhalb einer Bundesregierung werden manchmal verschiedene Standpunkte vertreten.\n\nNehmen Sie die Bundesregierung als zerstritten oder als geschlossen wahr?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
           "answers": [
             {
@@ -2351,6 +2383,8 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.\n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "description": "Befragte zufällig auf 15 Gruppen aufteilen. \n- 1/15 der Befragten bekommt Frage CE38314 (Gruppe 1 - Kontrollgruppe). \n- 1/15 der Befragten bekommt Frage CE38315 (Gruppe 2 – CDU Unterstützung ). \n- 1/15 der Befragten bekommt Frage CE38316 (Gruppe 3 – CSU Unterstützung). \n- 1/15 der Befragten bekommt Frage CE38317 (Gruppe 4 – SPD Unterstützung) \n- 1/15 der Befragten bekommt Frage CE38318 (Gruppe 5 – FDP Unterstützung). \n- 1/15 der Befragten bekommt Frage CE38319 (Gruppe 6 – Bündnis90 / Die Grünen). \n- 1/15 der Befragten bekommt Frage CE38320 (Gruppe 7 – Linke Unterstützung ). \n- 1/15 der Befragten bekommt Frage CE38321 (Gruppe 8 – AfD Unterstützung). \n- 1/15 der Befragten bekommt Frage CE38322 (Gruppe 9 – CDU + Angela Merkel Unterstützung ). \n- 1/15 der Befragten bekommt Frage CE38323 (Gruppe 10 – CSU + Horst Seehofer Unterstützung ). \n- 1/15 der Befragten bekommt Frage CE38324 (Gruppe 11 – SPD + Sigmar Gabriel Unterstützung) \n- 1/15 der Befragten bekommt Frage CE38325 (Gruppe 12 – FDP + Christian Lindner Unterstützung). \n- 1/15 der Befragten bekommt Frage CE38326 (Gruppe 13 – Bündnis90 / Die Grünen + Cem Özdemir Unterstützung). \n- 1/15 der Befragten bekommt Frage CE38327 (Gruppe 14 – Linke + Katja Kipping Unterstützung ). \n- 1/15 der Befragten bekommt Frage CE38328 (Gruppe 15 – AfD + Frauke Petry Unterstützung). \n \nZuteilung zu den Experimentalgruppen in separater Variable expCE38314 speichern.",
+          "filter": "expCE38314=1",
           "scale": "cat",
           "answers": [
             {
@@ -2419,6 +2453,7 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag unterstützt von der Partei CDU (Christlich Demokratische Union Deutschlands) diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.\n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38314=2",
           "scale": "cat",
           "answers": [
             {
@@ -2487,6 +2522,7 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag unterstützt von der Partei CSU (ChristlichSoziale Union) diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.\n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38314=3",
           "scale": "cat",
           "answers": [
             {
@@ -2555,6 +2591,7 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag unterstützt von der Partei SPD (Sozialdemokratische Partei Deutschlands) diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.  \n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38314=4",
           "scale": "cat",
           "answers": [
             {
@@ -2623,6 +2660,7 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag unterstützt von der Partei FDP (Freie Demokratische Partei) diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.\n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38314=5",
           "scale": "cat",
           "answers": [
             {
@@ -2691,6 +2729,7 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag unterstützt von der Partei Bündnis 90/Die Grünen diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.\n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38314=6",
           "scale": "cat",
           "answers": [
             {
@@ -2759,6 +2798,7 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag unterstützt von der Partei Die Linke diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.\n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38314=7",
           "scale": "cat",
           "answers": [
             {
@@ -2827,6 +2867,7 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag unterstützt von der Partei AfD (Alternative für Deutschland) diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.\n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38314=8",
           "scale": "cat",
           "answers": [
             {
@@ -2895,6 +2936,7 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag unterstützt von der Partei CDU (Christlich Demokratische Union Deutschlands) unter Angela Merkel diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.  \n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38314=9",
           "scale": "cat",
           "answers": [
             {
@@ -2963,6 +3005,7 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag unterstützt von der Partei CSU (Christlich-Soziale Union) unter Horst Seehofer diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.  \n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38314=10",
           "scale": "cat",
           "answers": [
             {
@@ -3031,6 +3074,7 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag unterstützt von der Partei SPD (Sozialdemokratische Partei Deutschlands) unter Sigmar Gabriel diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.\n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38314=11",
           "scale": "cat",
           "answers": [
             {
@@ -3099,6 +3143,7 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag unterstützt von der Partei FDP (Freie Demokratische Partei) unter Christian Lindner diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.\n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38314=12",
           "scale": "cat",
           "answers": [
             {
@@ -3167,6 +3212,7 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag unterstützt von der Partei Bündnis 90/Die Grünen unter Cem Özdemir diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.\n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38314=13",
           "scale": "cat",
           "answers": [
             {
@@ -3235,6 +3281,7 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag unterstützt von der Partei Die Linke unter Katja Kipping diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.\n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38314=14",
           "scale": "cat",
           "answers": [
             {
@@ -3303,6 +3350,7 @@
         {
           "item": "0",
           "text": "Wie Sie vielleicht wissen, wurde die Türkei in letzter Zeit sehr für Menschenrechtsverletzungen kritisiert. In diesem Zusammenhang wurde in der Öffentlichkeit 2016 ein Vorschlag unterstützt von der Partei AfD (Alternative für Deutschland) unter Frauke Petry diskutiert, der die Beitrittsverhandlungen der Türkei mit der EU in Frage stellte.\n\nInwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38314=15",
           "scale": "cat",
           "answers": [
             {
@@ -3423,6 +3471,8 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und innovationen führen. In diesem Zusammenhang gab es die Kritik, dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden. \n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "description": "Befragte zufällig auf 16 Gruppen aufteilen. \n- 1/16 der Befragten bekommt Frage CE38330 (Gruppe 1 - Kontrollgruppe). \n- 1/16 der Befragten bekommt Frage CE38331 (Gruppe 2 – CDU Unterstützung ). \n- 1/16 der Befragten bekommt Frage CE38332 (Gruppe 3 – CSU Unterstützung). \n- 1/16 der Befragten bekommt Frage CE38333 (Gruppe 4 – SPD Unterstützung) \n- 1/16 der Befragten bekommt Frage CE38334 (Gruppe 5 – FDP Unterstützung). \n- 1/16 der Befragten bekommt Frage CE38335 (Gruppe 6 – Bündnis90 / Die Grünen). \n- 1/16 der Befragten bekommt Frage CE38336 (Gruppe 7 – Linke Unterstützung ). \n- 1/16 der Befragten bekommt Frage CE38337 (Gruppe 8 – AfD Unterstützung). \n- 1/16 der Befragten bekommt Frage CE38338 (Gruppe 9 – CDU Unterstützung + EU ). \n- 1/16 der Befragten bekommt Frage CE38339 (Gruppe 10 – CSU Unterstützung+ EU). \n- 1/16 der Befragten bekommt Frage CE38340 (Gruppe 11 – SPD Unterstützung+ EU) \n- 1/16 der Befragten bekommt Frage CE38341 (Gruppe 12 – FDP Unterstützung+ EU). \n- 1/16 der Befragten bekommt Frage CE38342 (Gruppe 13 – Bündnis90 / Die Grünen+ EU). \n- 1/16 der Befragten bekommt Frage CE38343 (Gruppe 14 – Linke Unterstützung+ EU ). \n- 1/16 der Befragten bekommt Frage CE38344 (Gruppe 15 – AfD Unterstützung+ EU). \n- 1/16 der Befragten bekommt Frage CE38345 (Gruppe 16 –EU). \n \n Zuteilung zu den Experimentalgruppen in separater Variable  expCE38330 speichern.",
+          "filter": "expCE38330=1",
           "scale": "cat",
           "answers": [
             {
@@ -3491,6 +3541,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und innovationen führen. In diesem Zusammenhang gab es Kritik von Seiten der Partei CDU (Christlich Demokratische Union Deutschlands), dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden. \n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=2",
           "scale": "cat",
           "answers": [
             {
@@ -3559,6 +3610,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und innovationen führen. In diesem Zusammenhang gab es Kritik von Seiten der Partei CSU (ChristlichSoziale Union), dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden.\n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=3",
           "scale": "cat",
           "answers": [
             {
@@ -3627,6 +3679,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und innovationen führen. Zusammenhang gab es Kritik von Seiten der Partei SPD (Sozialdemokratische Partei Deutschlands), dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden.\n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=4",
           "scale": "cat",
           "answers": [
             {
@@ -3695,6 +3748,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und innovationen führen. In diesem Zusammenhang gab es Kritik von Seiten der Partei FDP (Freie Demokratische Partei), dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden. \n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=5",
           "scale": "cat",
           "answers": [
             {
@@ -3763,6 +3817,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und innovationen führen. In diesem Zusammenhang gab es Kritik von Seiten der Partei Bündnis 90/Die Grünen, dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden.  \n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=6",
           "scale": "cat",
           "answers": [
             {
@@ -3831,6 +3886,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und innovationen führen. In diesem Zusammenhang gab es Kritik von Seiten der Partei Die Linke, dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden.  \n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=7",
           "scale": "cat",
           "answers": [
             {
@@ -3899,6 +3955,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und innovationen führen. In diesem Zusammenhang gab es Kritik von Seiten der Partei AfD (Alternative für Deutschland), dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden.  \n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=8",
           "scale": "cat",
           "answers": [
             {
@@ -3967,6 +4024,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag über eine EU Verordnung zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und -innovationen führen. In diesem Zusammenhang gab es Kritik von Seiten der Partei CDU (Christlich Demokratische Union Deutschlands), dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden.  \n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=9",
           "scale": "cat",
           "answers": [
             {
@@ -4035,6 +4093,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag über eine EU Verordnung zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und -innovationen führen. In diesem Zusammenhang gab es Kritik von Seiten der Partei CSU (Christlich-Soziale Union), dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden.  \n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=10",
           "scale": "cat",
           "answers": [
             {
@@ -4103,6 +4162,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag über eine EU Verordnung zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und -innovationen führen. In diesem Zusammenhang gab es Kritik von Seiten der Partei SPD (Sozialdemokratische Partei Deutschlands), dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden.  \n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=11",
           "scale": "cat",
           "answers": [
             {
@@ -4171,6 +4231,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag über eine EU Verordnung zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und -innovationen führen. In diesem Zusammenhang gab es Kritik von Seiten der Partei FDP (Freie Demokratische Partei), dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden.  \n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=12",
           "scale": "cat",
           "answers": [
             {
@@ -4239,6 +4300,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag über eine EU Verordnung zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und -innovationen führen. In diesem Zusammenhang gab es Kritik von Seiten der Partei Bündnis 90/Die Grünen, dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden.  \n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=13",
           "scale": "cat",
           "answers": [
             {
@@ -4307,6 +4369,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag über eine EU Verordnung zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und -innovationen führen. In diesem Zusammenhang gab es Kritik von Seiten der Partei Die Linke, dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden.  \n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=14",
           "scale": "cat",
           "answers": [
             {
@@ -4375,6 +4438,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag über eine EU Verordnung zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und -innovationen führen. In diesem Zusammenhang gab es Kritik von Seiten der Partei AfD (Alternative für Deutschland), dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden.  \n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=15",
           "scale": "cat",
           "answers": [
             {
@@ -4443,6 +4507,7 @@
         {
           "item": "0",
           "text": "Im Bundestag wurde 2018 ein Vorschlag über eine EU Verordnung zur Bewertung von Gesundheitstechnologien diskutiert. Dieser Vorschlag sollte zur stärkeren Förderung von Gesundheitstechnologien und -innovationen führen. In diesem Zusammenhang gab es die Kritik, dass durch diesen Vorschlag die Standards für die Bewertung von Gesundheitstechnologien in Deutschland gesenkt werden. \n\nWie stehen Sie dazu? Inwiefern stimmen Sie diesem Vorschlag zu oder lehnen ihn ab?",
+          "filter": "expCE38330=16",
           "scale": "cat",
           "answers": [
             {
@@ -4995,6 +5060,7 @@
         {
           "item": "0",
           "text": "[(expZF38092 = 1 oder 2) und ZF38093 = missing: Vorhin haben wir Ihnen die folgende Frage gestellt:]\n[expZF38092 = 2 und ZF38093 != missing: Außerdem haben wir Ihnen noch folgende Frage gestellt:] \n \nInwieweit fänden Sie es für sich persönlich akzeptabel, für umweltfreundliche Produkte höhere Preise zu bezahlen? \n \nKönnen Sie sich noch an Ihre genaue Antwort darauf erinnern?",
+          "filter": "expZF38092 = 1,2; ZF38092 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5023,6 +5089,7 @@
         {
           "item": "0",
           "text": "[Wenn ZF38098 = 1: Bitte geben Sie an, was Ihre Antwort war.] \n[Wenn ZF38098 = 0: Auch wenn Sie sich nicht mehr genau erinnern können: Bitte schätzen Sie, was Ihre Antwort war.]",
+          "filter": "expZF38092 = 1,2; ZF38092, ZF38098 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5087,6 +5154,7 @@
         {
           "item": "0",
           "text": "Wie sicher sind Sie sich mit Ihrer Einschätzung?",
+          "filter": "expZF38092 = 1,2; ZF38092, ZF38098, ZF38099 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5151,6 +5219,7 @@
         {
           "item": "0",
           "text": "[(expZF38092 = 2 oder 1) und ZF38092 = missing: Vorhin haben wir Ihnen die folgende Frage gestellt:]       \n[expZF38092 = 1 und ZF38092 != missing: Außerdem haben wir Ihnen noch folgende Frage gestellt:] \n \nInwieweit fänden Sie es für sich persönlich akzeptabel, Ihren Energieverbrauch einzuschränken, um den Klimawandel aufzuhalten? \n \nKönnen Sie sich noch an Ihre genaue Antwort darauf erinnern?",
+          "filter": "expZF38092 = 1,2; ZF38093 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5179,6 +5248,7 @@
         {
           "item": "0",
           "text": "[Wenn ZF38101 = 1: Bitte geben Sie an, was Ihre Antwort war.] \n[Wenn ZF38101 = 0: Auch wenn Sie sich nicht mehr genau erinnern können: Bitte schätzen Sie, was Ihre Antwort war.]",
+          "filter": "expZF38092 = 1,2; ZF38093, ZF38101 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5243,6 +5313,7 @@
         {
           "item": "0",
           "text": "Wie sicher sind Sie sich mit Ihrer Einschätzung?",
+          "filter": "expZF38092 = 1,2; ZF38093, ZF38101, ZF38102 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5307,6 +5378,7 @@
         {
           "item": "0",
           "text": "[expZF38092 = 5 oder 6) und ZF38095 = missing: Vorhin haben wir Ihnen die folgende Frage gestellt:]  \n[expZF38092 = 6 und ZF38095 !=  missing: Außerdem haben wir Ihnen noch folgende Frage gestellt:] \n \nWie häufig achten Sie beim Kauf von Produkten darauf, dass diese Produkte umweltfreundlich sind? \n \nKönnen Sie sich noch an Ihre genaue Antwort darauf erinnern?",
+          "filter": "expZF38092 = 5,6; ZF38094 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5335,6 +5407,7 @@
         {
           "item": "0",
           "text": "[Wenn ZF38104 = 1: Bitte geben Sie an, was Ihre Antwort war.] \n[Wenn ZF38104 = 0: Auch wenn Sie sich nicht mehr genau erinnern können: Bitte schätzen Sie, was Ihre Antwort war.]",
+          "filter": "expZF38092 = 5,6; ZF38094, ZF38104 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5399,6 +5472,7 @@
         {
           "item": "0",
           "text": "Wie sicher sind Sie sich mit Ihrer Einschätzung?",
+          "filter": "expZF38092 = 5,6; ZF38094, ZF38104, ZF38105 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5463,6 +5537,7 @@
         {
           "item": "0",
           "text": "[(expZF38092 = 6 oder 5) und ZF38094 = misssing: Vorhin haben wir Ihnen die folgende Frage gestellt:]       \n[expZF38092 = 5 und ZF38094 !=  missing: Außerdem haben wir Ihnen noch folgende Frage gestellt:] \n \nWie häufig tun Sie etwas im Alltag, um Ihren Energieverbrauch zu reduzieren? \n \nKönnen Sie sich noch an Ihre genaue Antwort darauf erinnern?",
+          "filter": "expZF38092 = 5,6; ZF38095 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5491,6 +5566,7 @@
         {
           "item": "0",
           "text": "[Wenn ZF38107 = 1: Bitte geben Sie an, was Ihre Antwort war.] \n[Wenn ZF38107 = 0: Auch wenn Sie sich nicht mehr genau erinnern können: Bitte schätzen Sie, was Ihre Antwort war.]",
+          "filter": "expZF38092 = 5,6; ZF38095, ZF38107 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5555,6 +5631,7 @@
         {
           "item": "0",
           "text": "Wie sicher sind Sie sich mit Ihrer Einschätzung?",
+          "filter": "expZF38092 = 5,6; ZF38095, ZF38107, ZF38108 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5619,6 +5696,7 @@
         {
           "item": "0",
           "text": "[(expZF38092 = 9 oder 10) und ZF38097 = missing: Vorhin haben wir Ihnen die folgende Frage gestellt:]  \n[expZF38092 = 10 und ZF38097 !=  missing: Außerdem haben wir Ihnen noch folgende Frage gestellt:] \n \nWie wahrscheinlich ist es Ihrer Meinung nach, dass Sie mit dem Kauf umweltfreundlicher Produkte etwas zum Schutz der Umwelt beitragen können? \n \nKönnen Sie sich noch an Ihre genaue Antwort darauf erinnern?",
+          "filter": "expZF38092 = 9,10; ZF38096 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5647,6 +5725,7 @@
         {
           "item": "0",
           "text": "[Wenn ZF38110 = 1: Bitte geben Sie an, was Ihre Antwort war.] \n[Wenn ZF38110 = 0: Auch wenn Sie sich nicht mehr genau erinnern können: Bitte schätzen Sie, was Ihre Antwort war.]",
+          "filter": "expZF38092 = 9,10; ZF38096, ZF38110 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5711,6 +5790,7 @@
         {
           "item": "0",
           "text": "Wie sicher sind Sie sich mit Ihrer Einschätzung?",
+          "filter": "expZF38092 = 9,10; ZF38096, ZF38110, ZF38111 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5775,6 +5855,7 @@
         {
           "item": "0",
           "text": "[(expZF38092 = 10 oder 9) und ZF38096 = missing: Vorhin haben wir Ihnen die folgende Frage gestellt:]  \n[expZF38092 = 9 und ZF38096 !=  missing: Außerdem haben wir Ihnen noch folgende Frage gestellt:] \n \nWie wahrscheinlich ist es Ihrer Meinung nach, dass Einschränkungen bei Ihrem Energieverbrauch helfen könnten, den Klimawandel zu reduzieren? \n \nKönnen Sie sich noch an Ihre genaue Antwort darauf erinnern?",
+          "filter": "expZF38092 = 9,10; ZF38097 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5803,6 +5884,7 @@
         {
           "item": "0",
           "text": "[Wenn ZF38113 = 1: Bitte geben Sie an, was Ihre Antwort war.] \n[Wenn ZF38113 = 0: Auch wenn Sie sich nicht mehr genau erinnern können: Bitte schätzen Sie, was Ihre Antwort war.]",
+          "filter": "expZF38092 = 9,10; ZF38097, ZF38113 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -5867,6 +5949,7 @@
         {
           "item": "0",
           "text": "Wie sicher sind Sie sich mit Ihrer Einschätzung?",
+          "filter": "expZF38092 = 9,10; ZF38097, ZF38113, ZF38114 !=  missing",
           "scale": "cat",
           "answers": [
             {
@@ -6229,7 +6312,7 @@
         {
           "item": "0",
           "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
-          "scale": "str",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }
