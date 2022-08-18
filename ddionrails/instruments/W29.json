@@ -2,6 +2,7 @@
   "study": "gip",
   "name": "W29",
   "label": "GIP Wave 29",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 29 enthält folgende zugespielte Variablen:\n• [i[id_g]i] - Unique ID, GIP\n• [i[hhid_g]i] - Household identifyer, GIP\n• [i[pid]i] - Person identifyer (within HH)\n• [i[gender_16]i] - gender\n• [i[year_of_birth_cat_16]i] - year of birth categories\n• [i[educ_school_16]i] - highest educational degree\n• [i[educ_job_16]i] - highest professional qualification\n• [i[marital_status_16]i] - marital status\n• [i[number_hh_members_16]i] - number of household members\n• [i[occupation_16]i] - employment status\n• [i[sample]i] - year of recruitment\n• [i[state_16]i] - residence state\n• [i[german_citizenship_16]i] - german citizenship\n• [i[internet_usage_16]i] - private internet usage\n• [i[dDatum]i] - Interview-Datum\n• [i[online_status_wave]i] - current online status",
   "analysis_unit": "p",
   "period": "2017/05",
   "instrument": "W29",
@@ -1650,12 +1651,12 @@
     "Page 28": {
       "question": "Page 28",
       "name": "Page 28",
-      "label": "[wenn Frage CE29250 als erste Frage des Blocks CE29250, CE29252, CE29254, CE29256, CE29258,\nCE29260 und CE29262 gestellt wird: Kommen wir nun zu einem anderen Thema. Im Folgenden\nmöchten wir Ihnen einige Fragen zu politischen Parteien in Deutschland stellen.]\n\nInnerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.\n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie die Partei CSU (Christlich-Soziale Union) als zerstritten oder als geschlossen wahr?",
+      "label": "[wenn Frage CE29250 als erste Frage des Blocks CE29250, CE29252, CE29254, CE29256, CE29258, CE29260 und CE29262 gestellt wird: Kommen wir nun zu einem anderen Thema. Im Folgenden\nmöchten wir Ihnen einige Fragen zu politischen Parteien in Deutschland stellen.]\n\nInnerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.\n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie die Partei CSU (Christlich-Soziale Union) als zerstritten oder als geschlossen wahr?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[wenn Frage CE29250 als erste Frage des Blocks CE29250, CE29252, CE29254, CE29256, CE29258,\nCE29260 und CE29262 gestellt wird: Kommen wir nun zu einem anderen Thema. Im Folgenden\nmöchten wir Ihnen einige Fragen zu politischen Parteien in Deutschland stellen.]\n\nInnerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.\n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie die Partei CSU (Christlich-Soziale Union) als zerstritten oder als geschlossen wahr?",
+          "text": "[wenn Frage CE29250 als erste Frage des Blocks CE29250, CE29252, CE29254, CE29256, CE29258, CE29260 und CE29262 gestellt wird: Kommen wir nun zu einem anderen Thema. Im Folgenden\nmöchten wir Ihnen einige Fragen zu politischen Parteien in Deutschland stellen.]\n\nInnerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.\n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie die Partei CSU (Christlich-Soziale Union) als zerstritten oder als geschlossen wahr?",
           "filter": "expCE29230 = 1",
           "scale": "cat",
           "answers": [
@@ -2484,7 +2485,8 @@
         {
           "item": "0",
           "text": "Stellen Sie sich vor, dass nach einer Bundestagswahl die Parteien [Partei A], [Partei B] und [Partei C] beschlossen haben, gemeinsam eine Regierungskoalition zu bilden. Wir möchten nun von Ihnen wissen, wie Sie das Größenverhältnis dieser Parteien innerhalb dieser Koalition einschätzen.\n\nWenn man die Bundestagsabgeordneten der Parteien [Partei A], [Partei B] und [Partei C] zusammenzählt, wie viel Prozent dieser Abgeordneten stellen dann jeweils die Parteien [Partei A] und [Partei B]? Die Anteile der Parteien [Partei A] und [Partei B] sollen zusammen mit dem Anteil der Partei [Partei C] 100 ergeben.",
-          "description": "Befragte zufällig auf 6 Gruppen aufteilen.\n- 1/6 der Befragten bekommen Partei A = CDU, Partei B = CSU, Partei C = SPD (Gruppe 1).\n- 1/6 der Befragten bekommen Partei A = CDU, Partei B = CSU, Partei C = Bündnis 90/Die Grünen (Gruppe 2).\n- 1/6 der Befragten bekommen Partei A = CDU, Partei B = CSU, Partei C = FDP (Gruppe 3).\n- 1/6 der Befragten bekommen Partei A = SPD, Partei B = CSU, Partei C = AfD (Gruppe 4).\n- 1/6 der Befragten bekommen Partei A = SPD, Partei B = Bündnis 90/Die Grünen,  Partei C = Die Linke (Gruppe 5).\n- 1/6 der Befragten bekommen Partei A = SPD, Partei B = Bündnis 90/Die Grünen, Partei C = FDP (Gruppe 6).\nZuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expCE29263 experiment page 40.00 ff speichern.",
+          "instruction": "Bitte tragen Sie eine ganze Zahl zwischen 1 und 98 für jede Partei ein.",
+          "description": "Befragte zufällig auf 6 Gruppen aufteilen.\n- 1/6 der Befragten bekommen Partei A = CDU, Partei B = CSU, Partei C = SPD (Gruppe 1).\n- 1/6 der Befragten bekommen Partei A = CDU, Partei B = CSU, Partei C = Bündnis 90/Die Grünen (Gruppe 2).\n- 1/6 der Befragten bekommen Partei A = CDU, Partei B = CSU, Partei C = FDP (Gruppe 3).\n- 1/6 der Befragten bekommen Partei A = SPD, Partei B = CSU, Partei C = AfD (Gruppe 4).\n- 1/6 der Befragten bekommen Partei A = SPD, Partei B = Bündnis 90/Die Grünen,  Partei C = Die Linke (Gruppe 5).\n- 1/6 der Befragten bekommen Partei A = SPD, Partei B = Bündnis 90/Die Grünen, Partei C = FDP (Gruppe 6).\nZuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expCE29263 experiment page 40.00 ff speichern.\nBitte tragen Sie eine ganze Zahl zwischen 1 und 98 für jede Partei ein.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2531,6 +2533,8 @@
         {
           "item": "0",
           "text": "Stellen Sie sich bitte weiterhin vor, dass nach einer Bundestagswahl die Parteien [Partei A], [Partei B] und [Partei C] beschlossen haben, gemeinsam eine Regierung zu bilden. Wir interessieren uns nun für Ihre Erwartungen darüber, wie viele Minister diese Parteien in der Regierung stellen werden.\n\nWenn man die Minister der Parteien [Partei A], [Partei B] und [Partei C] zusammenzählt, wie viel Prozent dieser Minister stellen dann jeweils die Parteien [Partei A] und [Partei B]? Die Anteile der Parteien [Partei A] und [Partei B] sollen zusammen mit dem Anteil der Partei [Partei C] 100 ergeben.",
+          "instruction": "Bitte tragen Sie eine ganze Zahl zwischen 1 und 98 für jede Partei ein.",
+          "description": "Bitte tragen Sie eine ganze Zahl zwischen 1 und 98 für jede Partei ein.",
           "scale": "txt",
           "sn": 0,
           "number": ""

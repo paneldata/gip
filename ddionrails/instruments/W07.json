@@ -2,6 +2,7 @@
   "study": "gip",
   "name": "W07",
   "label": "GIP Wave 07",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 07 enthält folgende zugespielte Variablen:\n• [i[id_g]i] - Unique ID, GIP\n• [i[hhid_g]i] - Household identifyer, GIP\n• [i[pid]i] - Person identifyer (within HH)\n• [i[gender_13]i] - gender\n• [i[year_of_birth_cat]i] - year of birth categories\n• [i[educ_school_13]i] - highest educational degree\n• [i[educ_job_13]i] - highest professional qualification\n• [i[marital_status_13]i] - marital status\n• [i[number_hh_members_13]i] - number of household members\n• [i[occupation_13]i] - employment status\n• [i[state]i] - residence state\n• [i[german_citizenship_13]i] - german citizenship\n• [i[internet_usage_13]i] - private internet usage\n• [i[dDatum]i] - Interview-Datum",
   "analysis_unit": "p",
   "period": "2013/09",
   "instrument": "W07",
@@ -119,8 +120,8 @@
         {
           "item": "0",
           "text": "Bitte korrigieren Sie folgende Angaben.",
-          "instruction": "Bitte tragen Sie Ihre Angaben vollständig ein.\n\nAA07405 Vorname: [EDV: <Vorname> ] [EDV: <Vorname> ]\nAA07406 Nachname: [EDV: <Nachname> ] [EDV: <Nachname> ]\nAA07407 Geschlecht: [EDV: <Geschlecht> ] Bitte auswählen\nAA07408 Geburtsjahr: [EDV: <Geburtsjahr> ] [EDV: <Geburtsjahr> ]\nAA07400_TXT Falls Sie Anmerkungen haben, tragen Sie diese bitte hier ein: [answer field]",
-          "description": "Bitte tragen Sie Ihre Angaben vollständig ein.\n\nAA07405 Vorname: [EDV: <Vorname> ] [EDV: <Vorname> ]\nAA07406 Nachname: [EDV: <Nachname> ] [EDV: <Nachname> ]\nAA07407 Geschlecht: [EDV: <Geschlecht> ] Bitte auswählen\nAA07408 Geburtsjahr: [EDV: <Geburtsjahr> ] [EDV: <Geburtsjahr> ]\nAA07400_TXT Falls Sie Anmerkungen haben, tragen Sie diese bitte hier ein: [answer field]",
+          "instruction": "Bitte tragen Sie Ihre Angaben vollständig ein.",
+          "description": "Bitte tragen Sie Ihre Angaben vollständig ein.",
           "filter": "AA07401= 2 oder AA07402= 2 oder AA07403= 2 oder AA07404= 2 (Vorname oder Nachname oder Geburtsjahr oder Geschlecht nicht korrekt)",
           "scale": "txt",
           "sn": 0,
@@ -212,15 +213,22 @@
     "Page 7": {
       "question": "Page 7",
       "name": "Page 7",
-      "label": "Bitte korrigieren Sie die folgende Mobilfunknummer.\n\nbisherige Mobilfunknummer korrigierte Mobilfunknummer\nMobilfunknummer: [EDV:  ]  [EDV:  ]",
+      "label": "Bitte korrigieren Sie die folgende Mobilfunknummer.\n\n\nMobilfunknummer: [EDV:  ]  [EDV:  ]",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Bitte korrigieren Sie die folgende Mobilfunknummer.\n\nbisherige Mobilfunknummer korrigierte Mobilfunknummer\nMobilfunknummer: [EDV:  ]  [EDV:  ]",
+          "text": "Bitte korrigieren Sie die folgende Mobilfunknummer.\n\n\nMobilfunknummer: [EDV:  ]  [EDV:  ]",
           "filter": "AA07409 = 2 (Mobilfunknummer nicht korrekt)",
-          "scale": "int",
+          "scale": "txt",
           "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Mobilfunknummer: \n[bisherige Mobilfunknummer]\nkorrigierte Mobilfunknummer:",
+          "scale": "int",
+          "sn": 1,
           "number": ""
         }
       ],
@@ -270,12 +278,12 @@
     "Page 9": {
       "question": "Page 9",
       "name": "Page 9",
-      "label": "Bitte überprüfen Sie, ob die angegebene Telefonnummer korrekt ist.\n\n[EDV: Telefonnummer:  ]",
+      "label": "Bitte überprüfen Sie, ob die angegebene Telefonnummer korrekt ist.\n\nTelefonnummer: [Telefonnummer]",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Bitte überprüfen Sie, ob die angegebene Telefonnummer korrekt ist.\n\n[EDV: Telefonnummer:  ]",
+          "text": "Bitte überprüfen Sie, ob die angegebene Telefonnummer korrekt ist.\n\nTelefonnummer: [Telefonnummer]",
           "filter": "Telefonnummer in Datenbank vorhanden",
           "scale": "cat",
           "answers": [
@@ -306,8 +314,15 @@
           "item": "0",
           "text": "Bitte korrigieren Sie die folgende Telefonnummer.\n\n bisherige Telefonnummer korrigierte Telefonnummer\nTelefonnummer: [EDV:  ]  [EDV:  ]",
           "filter": "AA07411 = 2 (Telefonnummer nicht korrekt)",
-          "scale": "int",
+          "scale": "txt",
           "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Telefonnummer: \n[bisherige Telefonnummer]\nkorrigierte Telefonnummer:",
+          "scale": "int",
+          "sn": 1,
           "number": ""
         }
       ],
@@ -357,12 +372,12 @@
     "Page 12": {
       "question": "Page 12",
       "name": "Page 12",
-      "label": "aben Sie die deutsche Staatsangehörigkeit?",
+      "label": "Haben Sie die deutsche Staatsangehörigkeit?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "aben Sie die deutsche Staatsangehörigkeit?",
+          "text": "Haben Sie die deutsche Staatsangehörigkeit?",
           "scale": "cat",
           "answers": [
             {
@@ -536,7 +551,16 @@
             {
               "value": 5,
               "label": "Ledig"
-            },
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Nur für gleichgeschlechtliche, amtlich eingetragene Lebenspartnerschaften",
+          "scale": "cat",
+          "answers": [
             {
               "value": 6,
               "label": "Eingetragene Lebenspartnerschaft, zusammenlebend"
@@ -554,7 +578,7 @@
               "label": "Eingetragene Lebenspartnerschaft aufgehoben"
             }
           ],
-          "sn": 0,
+          "sn": 1,
           "number": ""
         }
       ],
@@ -1811,6 +1835,13 @@
           "scale": "chr",
           "sn": 0,
           "number": ""
+        },
+        {
+          "item": "1",
+          "text": "[wenn BenPC User: erst seit ich an der Studie teilnehme]",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
         }
       ],
       "sn": 38,
@@ -1991,12 +2022,12 @@
     "Page 44": {
       "question": "Page 44",
       "name": "Page 44",
-      "label": "[EDV: wenn AA07419 = 1: Bitte beantworten Sie diese Frage in Bezug auf die E-Mail-Adresse, auf der Sie unsere Einladungen zu den Fragebögen von „Gesellschaft im Wandel“ erhalten. ]\n\nWie oft rufen Sie innerhalb einer Woche in der Regel Ihre E-Mails ab?",
+      "label": "[wenn AA07419 = 1: Bitte beantworten Sie diese Frage in Bezug auf die E-Mail-Adresse, auf der Sie unsere Einladungen zu den Fragebögen von „Gesellschaft im Wandel“ erhalten. ]\n\nWie oft rufen Sie innerhalb einer Woche in der Regel Ihre E-Mails ab?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[EDV: wenn AA07419 = 1: Bitte beantworten Sie diese Frage in Bezug auf die E-Mail-Adresse, auf der Sie unsere Einladungen zu den Fragebögen von „Gesellschaft im Wandel“ erhalten. ]\n\nWie oft rufen Sie innerhalb einer Woche in der Regel Ihre E-Mails ab?",
+          "text": "[wenn AA07419 = 1: Bitte beantworten Sie diese Frage in Bezug auf die E-Mail-Adresse, auf der Sie unsere Einladungen zu den Fragebögen von „Gesellschaft im Wandel“ erhalten. ]\n\nWie oft rufen Sie innerhalb einer Woche in der Regel Ihre E-Mails ab?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "scale": "cat",
@@ -2033,12 +2064,12 @@
     "Page 45": {
       "question": "Page 45",
       "name": "Page 45",
-      "label": "[EDV: wenn AA07419 = 1: Bitte beantworten Sie diese Frage in Bezug auf die E-Mail-Adresse, auf der Sie unsere Einladungen zu den Fragebögen von „Gesellschaft im Wandel“ erhalten. ]\n\nZu welcher Uhrzeit rufen Sie Ihre E-Mails in der Regel ab?",
+      "label": "[wenn AA07419 = 1: Bitte beantworten Sie diese Frage in Bezug auf die E-Mail-Adresse, auf der Sie unsere Einladungen zu den Fragebögen von „Gesellschaft im Wandel“ erhalten. ]\n\nZu welcher Uhrzeit rufen Sie Ihre E-Mails in der Regel ab?",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "[EDV: wenn AA07419 = 1: Bitte beantworten Sie diese Frage in Bezug auf die E-Mail-Adresse, auf der Sie unsere Einladungen zu den Fragebögen von „Gesellschaft im Wandel“ erhalten. ]\n\nZu welcher Uhrzeit rufen Sie Ihre E-Mails in der Regel ab?",
+          "text": "[wenn AA07419 = 1: Bitte beantworten Sie diese Frage in Bezug auf die E-Mail-Adresse, auf der Sie unsere Einladungen zu den Fragebögen von „Gesellschaft im Wandel“ erhalten. ]\n\nZu welcher Uhrzeit rufen Sie Ihre E-Mails in der Regel ab?",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben",
           "description": "Bei dieser Frage können Sie nur eine Antwort geben",
           "filter": "AA07420 = 2, 3, 4, 5 (Befragte/-r wird nicht automatisch benachrichtig, sobald neue E-Mails eintreffen)",
@@ -2305,8 +2336,8 @@
         {
           "item": "0",
           "text": "Im Folgenden werden verschiedene Organisationen und Vereine aufgelistet. Gehen Sie diese Liste bitte durch und geben Sie an, was zurzeit auf Sie zutrifft.\n\n[Help Text]",
-          "instruction": "Bitte geben Sie für jede Zeile eine Antwort.  \n\nAA07027 Sport-, Musik- oder Kulturverein, sonstige Hobbyvereinigung\nAA07028 Menschenrechts-, Umwelt- oder Tierschutzverein\nAA07029 Wohltätigkeitsverein oder Hilfsorganisation\nAA07030 Religiöse oder kirchliche Organisation\nAA07031 Jugend-, Eltern- oder Seniorenvereinigung\nAA07032 Bürgerinitiative\nAA07033 Berufsverband\nAA07034 Gewerkschaft \nAA07035 Politische Partei\nAA07036 Sonstige/r, und zwar: [answer field]\nAA07037 Sonstige/r, und zwar: [answer field]",
-          "description": "Bitte geben Sie für jede Zeile eine Antwort.  \n\nAA07027 Sport-, Musik- oder Kulturverein, sonstige Hobbyvereinigung\nAA07028 Menschenrechts-, Umwelt- oder Tierschutzverein\nAA07029 Wohltätigkeitsverein oder Hilfsorganisation\nAA07030 Religiöse oder kirchliche Organisation\nAA07031 Jugend-, Eltern- oder Seniorenvereinigung\nAA07032 Bürgerinitiative\nAA07033 Berufsverband\nAA07034 Gewerkschaft \nAA07035 Politische Partei\nAA07036 Sonstige/r, und zwar: [answer field]\nAA07037 Sonstige/r, und zwar: [answer field]",
+          "instruction": "Bitte geben Sie für jede Zeile eine Antwort.",
+          "description": "Bitte geben Sie für jede Zeile eine Antwort.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -3156,8 +3187,6 @@
         {
           "item": "0",
           "text": "In der Politik reden die Leute häufig von \"links\" und \"rechts\".  Wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgenden Parteien einordnen? \n\nBitte geben Sie für jede Partei den Wert an, der Ihrer Meinung nach zutrifft.",
-          "instruction": "AA07041b1 CDU\nAA07041b2 CSU\nAA07041b3 SPD\nAA07041b4 FDP\nAA07041b5 Bündnis 90 / Die Grünen\nAA07041b6 Die Linke\nAA07041b7 NPD\nAA07041b8 Piratenpartei\nAA07041b9 Alternative für Deutschland",
-          "description": "AA07041b1 CDU\nAA07041b2 CSU\nAA07041b3 SPD\nAA07041b4 FDP\nAA07041b5 Bündnis 90 / Die Grünen\nAA07041b6 Die Linke\nAA07041b7 NPD\nAA07041b8 Piratenpartei\nAA07041b9 Alternative für Deutschland",
           "scale": "txt",
           "sn": 0,
           "number": ""

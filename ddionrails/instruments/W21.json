@@ -2,6 +2,7 @@
   "study": "gip",
   "name": "W21",
   "label": "GIP Wave 21",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 21 enthält folgende zugespielte Variablen:\n• [i[id_g]i] - Unique ID, GIP\n• [i[hhid_g]i] - Household identifyer, GIP\n• [i[pid]i] - Person identifyer (within HH)\n• [i[gender_15]i] - gender\n• [i[year_of_birth_cat]i] - year of birth categories\n• [i[educ_school_15]i] - highest educational degree\n• [i[educ_job_15]i] - highest professional qualification\n• [i[marital_status_15]i] - marital status\n• [i[number_hh_members_15]i] - number of household members\n• [i[occupation_15]i] - employment status\n• [i[sample]i] - year of recruitment\n• [i[state]i] - residence state\n• [i[german_citizenship_15]i] - german citizenship\n• [i[internet_usage_15]i] - private internet usage\n• [i[dDatum]i] - Interview-Datum\n• [i[hOnline]i] - Online-Ausstattung\nPreload-Variablen aus der Datenbank/vorherigen GIP-Wellen:\n- aus der Datenbank:\n• [i[hGIP2]i] (ursprüngliche Stichprobe: 1, Auffrischungsstichprobe: 2)\n- aus Welle 20 (November 2015):\n• [i[BE20077]i] influenza vaccination",
   "analysis_unit": "p",
   "period": "2016/01",
   "instrument": "W21",
@@ -2405,6 +2406,13 @@
           "description": "[wenn AC21102_js = 0: Bitte geben Sie einen Wert zwischen 0% und 100% an, wobei 0% keine Kürzung und 100% volle Kürzung bedeutet.]\n[wenn AC21102_js = 1: Bitte klicken Sie auf die Linie, um den gewünschten Wert festzulegen. Sie können den Wert verändern, indem Sie auf eine andere Stelle auf der Linie klicken oder das Viereck verschieben.]",
           "scale": "int",
           "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "keine Kürzung 0 Prozent [Slider] 100 Prozent volle Kürzung",
+          "scale": "txt",
+          "sn": 1,
           "number": ""
         }
       ],

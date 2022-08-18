@@ -2,6 +2,7 @@
   "study": "gip",
   "name": "W23",
   "label": "GIP Wave 23",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 23 enthält folgende zugespielte Variablen:\n• [i[id_g]i] - Unique ID, GIP\n• [i[hhid_g]i] - Household identifyer, GIP\n• [i[pid]i] - Person identifyer (within HH)\n• [i[gender_15]i] - gender\n• [i[year_of_birth_cat]i] - year of birth categories\n• [i[educ_school_15]i] - highest educational degree\n• [i[educ_job_15]i] - highest professional qualification\n• [i[marital_status_15]i] - marital status\n• [i[number_hh_members_15]i] - number of household members\n• [i[occupation_15]i] - employment status\n• [i[sample]i] - year of recruitment\n• [i[state]i] - residence state\n• [i[german_citizenship_15]i] - german citizenship\n• [i[internet_usage_15]i] - private internet usage\n• [i[dDatum]i] - Interview-Datum\nPreload-Variablen aus der Datenbank:\n• [i[hOnline]i] - Online-Ausstattung\n• [i[hGIP2]i] - Stichprobe GIP",
   "analysis_unit": "p",
   "period": "2016/05",
   "instrument": "W23",
@@ -2894,107 +2895,100 @@
         },
         {
           "item": "1",
-          "text": "Prozent der Sitze im Deutschen Bundestag",
-          "scale": "txt",
+          "text": "CDU (Christlich Demokratische Union Deutschlands):",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "2",
-          "text": "CDU (Christlich Demokratische Union Deutschlands):",
-          "scale": "int",
+          "text": "weiß nicht",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "3",
-          "text": "weiß nicht",
-          "scale": "bin",
+          "text": "CSU (Christlich-Soziale Union):",
+          "scale": "int",
           "sn": 3,
           "number": ""
         },
         {
           "item": "4",
-          "text": "CSU (Christlich-Soziale Union):",
-          "scale": "int",
+          "text": "weiß nicht",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "5",
-          "text": "weiß nicht",
-          "scale": "bin",
+          "text": "SPD (Sozialdemokratische Partei Deutschlands):",
+          "scale": "int",
           "sn": 5,
           "number": ""
         },
         {
           "item": "6",
-          "text": "SPD (Sozialdemokratische Partei Deutschlands):",
-          "scale": "int",
+          "text": "weiß nicht",
+          "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "7",
-          "text": "weiß nicht",
-          "scale": "bin",
+          "text": "FDP (Freie Demokratische Partei):",
+          "scale": "int",
           "sn": 7,
           "number": ""
         },
         {
           "item": "8",
-          "text": "FDP (Freie Demokratische Partei):",
-          "scale": "int",
+          "text": "weiß nicht",
+          "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "9",
-          "text": "weiß nicht",
-          "scale": "bin",
+          "text": "Bündnis 90/Die Grünen:",
+          "scale": "int",
           "sn": 9,
           "number": ""
         },
         {
           "item": "10",
-          "text": "Bündnis 90/Die Grünen:",
-          "scale": "int",
+          "text": "weiß nicht",
+          "scale": "bin",
           "sn": 10,
           "number": ""
         },
         {
           "item": "11",
-          "text": "weiß nicht",
-          "scale": "bin",
+          "text": "Die Linke:",
+          "scale": "int",
           "sn": 11,
           "number": ""
         },
         {
           "item": "12",
-          "text": "Die Linke:",
-          "scale": "int",
+          "text": "weiß nicht",
+          "scale": "bin",
           "sn": 12,
           "number": ""
         },
         {
           "item": "13",
-          "text": "weiß nicht",
-          "scale": "bin",
+          "text": "AfD (Alternative für Deutschland):",
+          "scale": "int",
           "sn": 13,
           "number": ""
         },
         {
           "item": "14",
-          "text": "AfD (Alternative für Deutschland):",
-          "scale": "int",
-          "sn": 14,
-          "number": ""
-        },
-        {
-          "item": "15",
           "text": "weiß nicht",
           "scale": "bin",
-          "sn": 15,
+          "sn": 14,
           "number": ""
         }
       ],
@@ -3154,8 +3148,12 @@
           "scale": "cat",
           "answers": [
             {
+              "value": 0,
+              "label": "0 völlig unzufrieden"
+            },
+            {
               "value": 1,
-              "label": "0 völlig unzufrieden\n"
+              "label": "1"
             },
             {
               "value": 2,
@@ -3191,11 +3189,7 @@
             },
             {
               "value": 10,
-              "label": "10"
-            },
-            {
-              "value": 11,
-              "label": "11 völlig zufrieden"
+              "label": "10 völlig zufrieden"
             },
             {
               "value": -99,

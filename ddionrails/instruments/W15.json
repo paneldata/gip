@@ -2,6 +2,7 @@
   "study": "gip",
   "name": "W15",
   "label": "GIP Wave 15",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 15 enthält folgende zugespielte Variablen:\n• [i[id_g]i] - Unique ID, GIP\n• [i[hhid_g]i] - Household identifyer, GIP\n• [i[pid]i] - Person identifyer (within HH)\n• [i[gender_14]i] - gender\n• [i[year_of_birth_cat]i] - year of birth categories\n• [i[educ_school_14]i] - highest educational degree\n• [i[educ_job_14]i] - highest professional qualification\n• [i[marital_status_14]i] - marital status\n• [i[number_hh_members_14]i] - number of household members\n• [i[occupation_14]i] - employment status\n• [i[sample]i] - year of recruitment\n• [i[state]i] - residence state\n• [i[german_citizenship_14]i] - german citizenship\n• [i[internet_usage_14]i] - private internet usage\n• [i[dDatum]i] - Interview-Datum\nPreload-Variablen aus der Datenbank/vorherigen GIP-Wellen:\n• [i[hGIP2]i]\n• [i[RQB2018]i]\n• [i[RQB1002_Jahr]i]",
   "analysis_unit": "p",
   "period": "2015/01",
   "instrument": "W15",
@@ -191,12 +192,12 @@
     "Page 5": {
       "question": "Page 5",
       "name": "Page 5",
-      "label": "Kommen wir nun zu einem anderen Thema. Bitte geben Sie an, inwieweit Sie folgender Aussage zustimmen:\n\nDer Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern. Bedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt, finanziert werden müssen.",
+      "label": "Kommen wir nun zu einem anderen Thema. Bitte geben Sie an, inwieweit Sie folgender Aussage zustimmen:\n\nDer Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern. \nBedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt, finanziert werden müssen.",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Kommen wir nun zu einem anderen Thema. Bitte geben Sie an, inwieweit Sie folgender Aussage zustimmen:\n\nDer Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern. Bedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt, finanziert werden müssen.",
+          "text": "Kommen wir nun zu einem anderen Thema. Bitte geben Sie an, inwieweit Sie folgender Aussage zustimmen:\n\nDer Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern. \nBedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt, finanziert werden müssen.",
           "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
           "description": "Befragte zufällig auf zwei Gruppen aufteilen.\n- 50% der Befragten bekommen Fragen 5.00 bis 8.00 zur Validierung vor Discrete Choice-Experiment (Gruppe 1).\n- 50% der Befragten bekommen Fragen 32.00 bis 35.00 zur Validierung nach Discrete Choice-Experiment (Gruppe 2).\nZuteilung zu den Experimentalgruppen in separater Variable expAH15001 speichern\nBei dieser Frage können Sie nur eine Antwort geben.",
           "filter": "expAH15001 = 1",

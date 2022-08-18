@@ -2,6 +2,7 @@
   "study": "gip",
   "name": "W33",
   "label": "GIP Wave 33",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 33 enthält folgende zugespielte Variablen:\n• [i[id_g]i] - Unique ID, GIP\n• [i[hhid_g]i] - Household identifyer, GIP\n• [i[pid]i] - Person identifyer (within HH)\n• [i[gender_17]i] - gender\n• [i[year_of_birth_cat_17]i] - year of birth categories\n• [i[educ_school_17]i] - highest educational degree\n• [i[educ_job_17]i] - highest professional qualification\n• [i[marital_status_17]i] - marital status\n• [i[number_hh_members_17]i] - number of household members\n• [i[occupation_17]i] - employment status\n• [i[german_citizenship_17]i] - german citizenship\n• [i[internet_usage_17]i] - private internet usage\n• [i[state_17]i] - residence state\n• [i[sample]i] - year of recruitment\n• [i[dDatum]i] - Interview-Datum\n• [i[online_status_wave]i] - current online status\nPreload-Variablen aus vorherigen GIP-Wellen:\n- aus Welle 17 (Mai 2015):\n• [i[BF17035]i] main group BF17\n• [i[BF17031]i] year of birth child",
   "analysis_unit": "p",
   "period": "2018/01",
   "instrument": "W33",
@@ -730,6 +731,8 @@
         {
           "item": "0",
           "text": "Haben Sie im Jahr 2017 Zahlungen aus einer der folgenden Quellen bekommen?",
+          "instruction": "Bitte geben Sie alle zutreffenden Quellen an.",
+          "description": "Bitte geben Sie alle zutreffenden Quellen an.",
           "filter": "AA33005 = 3, 14 (in Altersteilzeit oder in Rente, Pension oder im Vorruhestand)",
           "scale": "txt",
           "sn": 0,
@@ -812,6 +815,8 @@
         {
           "item": "0",
           "text": "Haben Sie im vergangenen Jahr Beiträge zu einer der folgenden Arten der Altersvorsorge geleistet?",
+          "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
           "filter": "AA33005 = 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16 (vollzeiterwerbstätig oder teilzeiterwerbstätig oder geringfügig erwerbstätig, 450-Euro-Job, Minijob bis Student/-in oder arbeitslos oder dauerhaft erwerbsunfähig)",
           "scale": "txt",
           "sn": 0,

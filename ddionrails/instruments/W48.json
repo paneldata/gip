@@ -2,6 +2,7 @@
   "study": "gip",
   "name": "W48",
   "label": "GIP Wave 48",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 48 enthält folgende zugespielte Variablen:\n• [i[id_g]i] - Unique ID, GIP\n• [i[hhid_g]i] - Household identifyer, GIP\n• [i[pid]i] - Person identifyer (within HH)\n• [i[gender_19]i] - gender\n• [i[year_of_birth_cat_19]i] - year of birth categories\n• [i[educ_school_19]i] - highest educational degree\n• [i[educ_job_19]i] - highest professional qualification\n• [i[marital_status_19]i] - marital status\n• [i[number_hh_members_19]i] - number of household members\n• [i[occupation_19]i] - employment status\n• [i[german_citizenship_19]i] - german citizenship\n• [i[internet_usage_19]i] - private internet usage\n• [i[state_19]i] - residence state\n• [i[sample]i] - year of recruitment\n• [i[dDatum]i] - Interview-Datum\n• [i[online_status_wave]i] - current online status",
   "analysis_unit": "p",
   "period": "2020/07",
   "instrument": "W48",
@@ -293,8 +294,8 @@
         {
           "item": "0",
           "text": "Welches der folgenden Typen beschreibt am besten Ihr Smartphone?",
-          "instruction": "Wenn Sie mehrere Smartphones besitzen, dann denken Sie bitte an das Smartphone, das Sie am\nhäufigsten benutzen.",
-          "description": "Wenn Sie mehrere Smartphones besitzen, dann denken Sie bitte an das Smartphone, das Sie am\nhäufigsten benutzen.",
+          "instruction": "Wenn Sie mehrere Smartphones besitzen, dann denken Sie bitte an das Smartphone, das Sie am häufigsten benutzen.",
+          "description": "Wenn Sie mehrere Smartphones besitzen, dann denken Sie bitte an das Smartphone, das Sie am häufigsten benutzen.",
           "filter": "AJ48004 = 1 (wenn Befragte/-r Smartphone besitzt)",
           "scale": "cat",
           "answers": [
@@ -762,20 +763,23 @@
           "answers": [
             {
               "value": 1,
-              "label": "Anfänger/-in"
+              "label": "1. Anfänger/-in"
             },
             {
-              "value": 2
+              "value": 2,
+              "label": "2"
             },
             {
-              "value": 3
+              "value": 3,
+              "label": "3"
             },
             {
-              "value": 4
+              "value": 4,
+              "label": "4"
             },
             {
               "value": 5,
-              "label": "Fortgeschrittene/-r"
+              "label": "5. Fortgeschrittene/-r"
             }
           ],
           "sn": 0,
@@ -1908,12 +1912,12 @@
     "Page 50": {
       "question": "Page 50",
       "name": "Page 50",
-      "label": "Sie werden nun etwas über den Gerichtshof der Europäischen Union (EuGH) lesen, die oberste gerichtliche Instanz der Europäischen Union, die die Anwendung und Auslegung von Gesetzen der Europäischen Union überwacht. Bitte lesen Sie das Folgende aufmerksam. \n\n\n[wenn expCG48118 = 2: Eine kürzlich durchgeführte Analyse der Entscheidungen des Gerichtshofs der Europäischen Union (EuGH) stellt fest, dass das Organ Maßnahmen begünstigt, die die Europäische Einigung vorantreiben, was zu Lasten von Parteien oder Gruppen geht, die gegen die Europäische Einigung sind. Konkret stellt diese Studie fest, dass der EuGH regelmäßig Rechtsvorschriften aufrechterhält, die die Europäische Einigung vorantreiben.] \n\n[wenn expCG48118 = 3: Eine kürzlich durchgeführte Analyse der Entscheidungen des Gerichtshofs der Europäischen Union (EuGH) stellt fest, dass das Organ Parteien oder Gruppen schützt, die gegen die Europäische Einigung sind, was zu Lasten von Maßnahmen geht, die die Europäische Einigung vorantreiben. Konkret stellt diese Studie fest, dass der EuGH regelmäßig Rechtsvorschriften für nichtig erklärt, die die Europäische Einigung vorantreiben, um Parteien oder Gruppen zu schützen, die gegen die Europäische Einigung sind.]",
+      "label": "Sie werden nun etwas über den Gerichtshof der Europäischen Union (EuGH) lesen, die oberste gerichtliche Instanz der Europäischen Union, die die Anwendung und Auslegung von Gesetzen der Europäischen Union überwacht. Bitte lesen Sie das Folgende aufmerksam.\n\n[wenn expCG48118 = 2: Eine kürzlich durchgeführte Analyse der Entscheidungen des Gerichtshofs der Europäischen Union (EuGH) stellt fest, dass das Organ Maßnahmen begünstigt, die die Europäische Einigung vorantreiben, was zu Lasten von Parteien oder Gruppen geht, die gegen die Europäische Einigung sind. Konkret stellt diese Studie fest, dass der EuGH regelmäßig Rechtsvorschriften aufrechterhält, die die Europäische Einigung vorantreiben.] \n[wenn expCG48118 = 3: Eine kürzlich durchgeführte Analyse der Entscheidungen des Gerichtshofs der Europäischen Union (EuGH) stellt fest, dass das Organ Parteien oder Gruppen schützt, die gegen die Europäische Einigung sind, was zu Lasten von Maßnahmen geht, die die Europäische Einigung vorantreiben. Konkret stellt diese Studie fest, dass der EuGH regelmäßig Rechtsvorschriften für nichtig erklärt, die die Europäische Einigung vorantreiben, um Parteien oder Gruppen zu schützen, die gegen die Europäische Einigung sind.]",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Sie werden nun etwas über den Gerichtshof der Europäischen Union (EuGH) lesen, die oberste gerichtliche Instanz der Europäischen Union, die die Anwendung und Auslegung von Gesetzen der Europäischen Union überwacht. Bitte lesen Sie das Folgende aufmerksam. \n\n\n[wenn expCG48118 = 2: Eine kürzlich durchgeführte Analyse der Entscheidungen des Gerichtshofs der Europäischen Union (EuGH) stellt fest, dass das Organ Maßnahmen begünstigt, die die Europäische Einigung vorantreiben, was zu Lasten von Parteien oder Gruppen geht, die gegen die Europäische Einigung sind. Konkret stellt diese Studie fest, dass der EuGH regelmäßig Rechtsvorschriften aufrechterhält, die die Europäische Einigung vorantreiben.] \n\n[wenn expCG48118 = 3: Eine kürzlich durchgeführte Analyse der Entscheidungen des Gerichtshofs der Europäischen Union (EuGH) stellt fest, dass das Organ Parteien oder Gruppen schützt, die gegen die Europäische Einigung sind, was zu Lasten von Maßnahmen geht, die die Europäische Einigung vorantreiben. Konkret stellt diese Studie fest, dass der EuGH regelmäßig Rechtsvorschriften für nichtig erklärt, die die Europäische Einigung vorantreiben, um Parteien oder Gruppen zu schützen, die gegen die Europäische Einigung sind.]",
+          "text": "Sie werden nun etwas über den Gerichtshof der Europäischen Union (EuGH) lesen, die oberste gerichtliche Instanz der Europäischen Union, die die Anwendung und Auslegung von Gesetzen der Europäischen Union überwacht. Bitte lesen Sie das Folgende aufmerksam.\n\n[wenn expCG48118 = 2: Eine kürzlich durchgeführte Analyse der Entscheidungen des Gerichtshofs der Europäischen Union (EuGH) stellt fest, dass das Organ Maßnahmen begünstigt, die die Europäische Einigung vorantreiben, was zu Lasten von Parteien oder Gruppen geht, die gegen die Europäische Einigung sind. Konkret stellt diese Studie fest, dass der EuGH regelmäßig Rechtsvorschriften aufrechterhält, die die Europäische Einigung vorantreiben.] \n[wenn expCG48118 = 3: Eine kürzlich durchgeführte Analyse der Entscheidungen des Gerichtshofs der Europäischen Union (EuGH) stellt fest, dass das Organ Parteien oder Gruppen schützt, die gegen die Europäische Einigung sind, was zu Lasten von Maßnahmen geht, die die Europäische Einigung vorantreiben. Konkret stellt diese Studie fest, dass der EuGH regelmäßig Rechtsvorschriften für nichtig erklärt, die die Europäische Einigung vorantreiben, um Parteien oder Gruppen zu schützen, die gegen die Europäische Einigung sind.]",
           "description": "Befragte zufällig auf drei Gruppen aufteilen.\n- 1/3 der Befragten bekommt Treatment 1 (Gruppe 1).\n- 1/3 der Befragten bekommt Treatment 2 (Gruppe 2).\n- 1/3 der Befragten bekommt Treatment 3 (Gruppe 3).\nZuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expCG48118 speichern.",
           "filter": "exp48118 = 2,3",
           "scale": "txt",

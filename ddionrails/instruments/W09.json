@@ -2,6 +2,7 @@
   "study": "gip",
   "name": "W09",
   "label": "GIP Wave 09",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 09 enthält folgende zugespielte Variablen:\n• [i[id_g]i] - Unique ID, GIP\n• [i[hhid_g]i] - Household identifyer, GIP\n• [i[pid]i] - Person identifyer (within HH)\n• [i[gender_13]i] - gender\n• [i[year_of_birth_cat]i] - year of birth categories\n• [i[educ_school_13]i] - highest educational degree\n• [i[educ_job_13]i] - highest professional qualification\n• [i[marital_status_13]i] - marital status\n• [i[number_hh_members_13]i] - number of household members\n• [i[occupation_13]i] - employment status\n• [i[state]i] - residence state\n• [i[german_citizenship_13]i] - german citizenship\n• [i[internet_usage_13]i] - private internet usage\n• [i[dDatum]i] - Interview-Datum\nPreload-Variablen aus vorherigen GIP-Wellen:\n- aus Welle 07 (Core, September 2013):\n• [i[AA07006]i] Previous Employment Status",
   "analysis_unit": "p",
   "period": "2014/01",
   "instrument": "W09",
@@ -789,12 +790,12 @@
     "Page 20": {
       "question": "Page 20",
       "name": "Page 20",
-      "label": "Was schätzen Sie? Wie würde sich die Nachfrage nach Arbeitskräften [wenn AB09048 = 1 oder 2: erhöhen] [wenn AB09048 = 4 oder 5: verringern], wenn die Löhne um 3 Prozent fallen?\n\nSie würde um…\n\n[answer field] Prozent [wenn AB09048 = 1 oder 2: steigen] [wenn AB09048 = 4 oder 5: fallen].",
+      "label": "Was schätzen Sie? Wie würde sich die Nachfrage nach Arbeitskräften [wenn AB09048 = 1 oder 2: erhöhen] [wenn AB09048 = 4 oder 5: verringern], wenn die Löhne um 3 Prozent fallen?\nSie würde um…",
       "label_de": "",
       "items": [
         {
           "item": "0",
-          "text": "Was schätzen Sie? Wie würde sich die Nachfrage nach Arbeitskräften [wenn AB09048 = 1 oder 2: erhöhen] [wenn AB09048 = 4 oder 5: verringern], wenn die Löhne um 3 Prozent fallen?\n\nSie würde um…\n\n[answer field] Prozent [wenn AB09048 = 1 oder 2: steigen] [wenn AB09048 = 4 oder 5: fallen].",
+          "text": "Was schätzen Sie? Wie würde sich die Nachfrage nach Arbeitskräften [wenn AB09048 = 1 oder 2: erhöhen] [wenn AB09048 = 4 oder 5: verringern], wenn die Löhne um 3 Prozent fallen?\nSie würde um…",
           "filter": "AB09048 != 3, -90, -99 (Perceived labor demand effect nicht gleich die Nachfrage bliebe unverändert oder gleich keine Antwort oder gleich weiß nicht)",
           "scale": "int",
           "sn": 0,
