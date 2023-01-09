@@ -14,10 +14,10 @@ config:
 -  **Authors:** Annelies Blom, Ulrich Krieger, et al. (for additional authors see each wave respectively)
 -  **Citation:** All work using German Internet Panel data must include the following references:
     - This paper uses data from the German Internet Panel wave(s) XX (DOIs:[insert DOIs here]), (Blom et al. [year of data release]). A study description can be found in Blom et al. (2015). The German Internet Panel is funded by the German Research Foundation through the Collaborative Research Center 884 "Political Economy of Reforms" (SFB 884).
-    - Each wave has its own DOI and reference that can be found at the website of the GESIS data archive [here](https://dbk.gesis.org/dbksearch/GDesc2.asp?no=0109&tab=&ll=10&notabs=1&db=E).
+    - Each wave has its own DOI and reference that can be found at the [website of the GESIS data archive](https://dbk.gesis.org/dbksearch/GDesc2.asp?no=0109&tab=&ll=10&notabs=1&db=E).
     - Blom, A. G., Gathmann, C., and Krieger, U. (2015). Setting Up an Online Panel Representative of the General Population: The German Internet Panel. Field Methods, 27(4), 391-408. DOI: 10.1177/1525822X15574494
 -  **DOI:** (see each wave, respectively)
--  **URL:** [German Internet Panel](https://www.uni-mannheim.de/gip/)
+-  **URL:** [www.uni-mannheim.de/gip](https://www.uni-mannheim.de/gip)
 
 ## Study Info
 
@@ -27,13 +27,13 @@ As a SFB 884 infrastructure project, the GIP collects data on individual attitud
 
 The topics covered in the GIP are divers and include attitudes towards the reform policies, the welfare state, German and EU politics, health, social inequality, education, employment and key socio-demographic information. Questionnaire modules on these topics are developed by SFB 884 researchers in collaboration with the GIP team. GIP online questionnaires of 20-25 minutes are implemented bi-monthly.
 
-For publications with GIP data please see database [here](https://intranet.reforms.uni-mannheim.de/extern/publications/index.php).
+For publications with GIP data please visit: [www.uni-mannheim.de/en/gip/results/publications](https://www.uni-mannheim.de/en/gip/results/publications/)
 
 ## Data access
 
-The GIP data are available to the scientific community via the GESIS Data Archive for the Social Sciences as scientific use files [here](https://dbk.gesis.org/dbksearch/GDESC2.asp?no=0109&DB=D).
+The GIP data are available to the scientific community via the [GESIS Data Archive for the Social Sciences](https://dbk.gesis.org/dbksearch/GDESC2.asp?no=0109&DB=D) as scientific use files
 
-To order the scientific use files please proceed as described [here](https://dbk.gesis.org/dbksearch/download.asp?db=D&id=54805).
+To order the scientific use files please proceed as described in the following document: [GIP Data Access Manual](https://dbk.gesis.org/dbksearch/download.asp?db=D&id=54805).
 
 ## Method
 
@@ -45,14 +45,14 @@ To order the scientific use files please proceed as described [here](https://dbk
 
 - Recruitment method: The 2012 and 2014 samples were recruited with face-to-face interviews during which respondents were invited to the online panel. Sampled persons without access to the internet were provided with the necessary equipment, internet, and support. The 2018 sample was recruited via postal invitations.
 
-- Sample sizes and response rates: An overview of all sample sizes and response rates can be found [here](https://www.uni-mannheim.de/media/Einrichtungen/gip/Response_Rates/German_Internet_Panel_Response_Rates.pdf).
+- Sample sizes and response rates: An overview of all sample sizes and response rates can be found in the following document: [GIP Response Rates](https://www.uni-mannheim.de/media/Einrichtungen/gip/Response_Rates/German_Internet_Panel_Response_Rates.pdf).
 
 - Incentives: For their participation GIP panel members receive 4€ per completed questionnaire as well as a bonus of 5€ for completing five or 10€ for all six waves within a year. Incentives are paid out twice a year and panel members can choose whether to receive their incentives via bank transfer, as an online voucher or whether to donate it to charity. In addition, several SFB-projects incentivize panel members in various different ways.
 
 Further information on the GIP methodology is available at the following sources:
 
 - General information:
-    - [Website](https://www.uni-mannheim.de/gip/)
+    - Website: [www.uni-mannheim.de/gip](https://www.uni-mannheim.de/gip)
     - Blom, A. G., Gathmann, C., and Krieger, U. (2015). Setting Up an Online Panel Representative of the General Population: The German Internet Panel. Field Methods, 27(4), 391-408. DOI: 10.1177/1525822X15574494
 
 - Information on the inclusion of the offline population:
@@ -60,3 +60,23 @@ Further information on the GIP methodology is available at the following sources
     - Herzing, J. M. E. and Blom, A. G. (2018). The Influence of a Person's IT Literacy on Unit Nonresponse and Attrition in an Online Panel. Social Science Computer Review, Published Online First on 20th May 2018. DOI: 10.1177/0894439318774758.
 
 - Information on cross-national collaborations: Blom, A. G., Bosnjak, M., Cornilleau, A., Cousteaux, A.-S., Das, M., Douhou, S., and Krieger, U. (2016). A Comparison of Four Probability-Based Online and Mixed-Mode Panels in Europe, Social Science Computer Review, 34(1), 8-25. DOI: 10.1177/0894439315574825
+
+## Missing conventions
+
+The following codes apply in the GIP datasets:
+
+**Code:** **Meaning**
+
+- -99: „weiß nicht“/„keine Meinung” - refusal for lack of knowledge
+
+- -98: „möchte ich nicht sagen”/ „keine Angabe” - explicit refusal
+
+- -97: „trifft nicht zu” - refusal for lack of applicability
+
+- -91: 'bitte wählen'-Platzhalter - dummy in drop-down menus
+
+- -90: Frage nicht beantwortet - question not answered, implicit refusal, item nonresponse
+
+- -80: Wert nicht plausibel (im Rahmen der Datenaufbereitung vergeben) - value not plausible (assigned during data preparation) 
+
+- . or [ ]: Frage nicht angezeigt (z.B.: aufgrund von Filtern oder Abbrüchen) - question not shown e.g. because of filter or previous breakoff
