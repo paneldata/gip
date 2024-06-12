@@ -1,0 +1,4499 @@
+{
+  "study": "gip",
+  "name": "W58",
+  "label": "GIP Wave 58",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 58 enthält folgende Kennungen und zugespielte Variablen:\n• [i[id_g]i] - Unique ID, GIP\n• [i[hhid_g]i] - Household Identifyer, GIP\n• [i[pid]i] - Person identifyer (wthin HH)\n• [i[gender_20]i] - gender\n• [i[year_of_birth_cat_20]i] - year of birth categories\n• [i[educ_school_21]i] - highest educational degree\n• [i[educ_job_21]i]  - highest professional qualification\n• [i[marital_status_21]i] - marital status\n• [i[number_hh_members_21]i] - number of household members\n• [i[occupation_21]i] - employment status\n• [i[german_citizenship_21]i] - german citizenship\n• [i[internet_usage_20]i] - private internet usage\n• [i[state_21]i] - residence state\n• [i[sample]i] - year of recruitment\n• [i[dDatum]i] - Interview-Datum\n•  [i[online_status_wave]i] - current online status ",
+  "analysis_unit": "p",
+  "period": "2022/03",
+  "instrument": "W58",
+  "questions": {
+    "Page 1 Introduction": {
+      "question": "Page 1 Introduction",
+      "name": "Page 1 Introduction",
+      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“,\nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren.\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen: info@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“,\nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren.\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen: info@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 2": {
+      "question": "Page 2",
+      "name": "Page 2",
+      "label": "Zunächst geht es um den Besitz und die Nutzung von Mobiltelefonen.\n\nBesitzen Sie persönlich ein Mobiltelefon oder besitzen Sie kein Mobiltelefon?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Zunächst geht es um den Besitz und die Nutzung von Mobiltelefonen.\n\nBesitzen Sie persönlich ein Mobiltelefon oder besitzen Sie kein Mobiltelefon?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja, besitze ich"
+            },
+            {
+              "value": 2,
+              "label": "nein, besitze ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 3": {
+      "question": "Page 3",
+      "name": "Page 3",
+      "label": "Manche Mobiltelefone werden aufgrund ihrer Merkmale (zum Beispiel Touchscreen, Internetzugang, Verfügbarkeit von Apps) “Smartphones“ genannt. Ist Ihr Mobiltelefon ein solches Smartphone oder nicht?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Manche Mobiltelefone werden aufgrund ihrer Merkmale (zum Beispiel Touchscreen, Internetzugang, Verfügbarkeit von Apps) “Smartphones“ genannt. Ist Ihr Mobiltelefon ein solches Smartphone oder nicht?",
+          "filter": "AJ58030 = 1 (wenn Befragte/-r Mobiltelefon besitzt)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja, ein Smartphone"
+            },
+            {
+              "value": 2,
+              "label": "nein, kein Smartphone"
+            },
+            {
+              "value": -99,
+              "label": "bin nicht sicher/weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 4": {
+      "question": "Page 4",
+      "name": "Page 4",
+      "label": "Wie oft verwenden Sie Ihr Smartphone zum Telefonieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone zum Telefonieren?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 5": {
+      "question": "Page 5",
+      "name": "Page 5",
+      "label": "Wie oft verwenden Sie Ihr Smartphone zum Versenden von Textnachrichten (zum Beispiel SMS, WhatsApp, Messenger)?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone zum Versenden von Textnachrichten (zum Beispiel SMS, WhatsApp, Messenger)?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 6": {
+      "question": "Page 6",
+      "name": "Page 6",
+      "label": "Wie oft verwenden Sie Ihr Smartphone für andere Aktivitäten außer telefonieren oder Textnachrichten versenden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone für andere Aktivitäten außer telefonieren oder Textnachrichten versenden?",
+          "description": "Befragte zufällig in zwei Gruppen aufteilen, Gruppe 1 erhält AM58001 und AM58002_a-AM58002_m, Gruppe 2 erhält AM58023-AM58034. Gruppenzuteilung in separater Variable expAM58001 ablegen.",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt) und expAM58001 = 1 ",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 7": {
+      "question": "Page 7",
+      "name": "Page 7",
+      "label": "Für welche der folgenden Aktivitäten verwenden Sie Ihr Smartphone?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Für welche der folgenden Aktivitäten verwenden Sie Ihr Smartphone?",
+          "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt) und expAM58001 = 1",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Webseiten besuchen",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "E-Mails lesen und/oder schreiben",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Fotos machen",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Inhalte auf Sozialen Netzwerken ansehen (zum Beispiel Texte, Bilder, Videos auf Facebook, Twitter, Instagram ansehen)",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Inhalte auf Sozialen Netzwerken posten (zum Beispiel Texte, Bilder, Videos auf Facebook, Twitter, Instagram posten)",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Einkaufen (zum Beispiel Bücher oder Kleidung kaufen, Zugfahrkarten buchen, Essen bestellen)",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Onlinebanking (zum Beispiel Kontostand überprüfen, Geld überweisen)",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "neue Apps installieren (zum Beispiel von Apple App Store, Google Play Store)",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Verwenden von Apps, die GPS/Standort nutzen (zum Beispiel Google Maps, Foursquare, Yelp)",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Verbindung zu anderen elektronischen Geräten über Bluetooth herstellen (zum Beispiel Smartwatches, Fitnessarmbänder, Schrittzähler)",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Spiele spielen",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text": "im Internet Musik hören oder Videos ansehen",
+          "scale": "bin",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "13",
+          "text": "keine dieser Aktivitäten",
+          "scale": "bin",
+          "sn": 13,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 8": {
+      "question": "Page 8",
+      "name": "Page 8",
+      "label": "Wie oft verwenden Sie Ihr Smartphone, um Webseiten zu besuchen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone, um Webseiten zu besuchen?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt) und expAM58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 9": {
+      "question": "Page 9",
+      "name": "Page 9",
+      "label": "Wie oft verwenden Sie Ihr Smartphone, um E-Mails zu lesen und/oder zu schreiben?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone, um E-Mails zu lesen und/oder zu schreiben?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt) und expAM58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 10": {
+      "question": "Page 10",
+      "name": "Page 10",
+      "label": "Wie oft verwenden Sie Ihr Smartphone, um Fotos zu machen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone, um Fotos zu machen?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt) und expAM58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 11": {
+      "question": "Page 11",
+      "name": "Page 11",
+      "label": "Wie oft verwenden Sie Ihr Smartphone, um Inhalte auf Sozialen Netzwerken anzusehen (zum Beispiel Texte, Bilder, Videos auf Facebook, Twitter, Instagram ansehen)?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone, um Inhalte auf Sozialen Netzwerken anzusehen (zum Beispiel Texte, Bilder, Videos auf Facebook, Twitter, Instagram ansehen)?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt) und expAM58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 12": {
+      "question": "Page 12",
+      "name": "Page 12",
+      "label": "Wie oft verwenden Sie Ihr Smartphone, um Inhalte auf Sozialen Netzwerken zu posten (zum Beispiel Texte, Bilder, Videos auf Facebook, Twitter, Instagram posten)?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone, um Inhalte auf Sozialen Netzwerken zu posten (zum Beispiel Texte, Bilder, Videos auf Facebook, Twitter, Instagram posten)?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt) und expAM58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 13": {
+      "question": "Page 13",
+      "name": "Page 13",
+      "label": "Wie oft verwenden Sie Ihr Smartphone, um einzukaufen (zum Beispiel Bücher oder Kleidung kaufen, Zugfahrkarten buchen, Essen bestellen)?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone, um einzukaufen (zum Beispiel Bücher oder Kleidung kaufen, Zugfahrkarten buchen, Essen bestellen)?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt) und expAM58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 14": {
+      "question": "Page 14",
+      "name": "Page 14",
+      "label": "Wie oft verwenden Sie Ihr Smartphone, um Onlinebanking zu nutzen (zum Beispiel Kontostand überprüfen, Geld überweisen)?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone, um Onlinebanking zu nutzen (zum Beispiel Kontostand überprüfen, Geld überweisen)?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt) und expAM58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 15": {
+      "question": "Page 15",
+      "name": "Page 15",
+      "label": "Wie oft verwenden Sie Ihr Smartphone, um neue Apps zu installieren (zum Beispiel von Apple App Store, Google Play Store)?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone, um neue Apps zu installieren (zum Beispiel von Apple App Store, Google Play Store)?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt) und expAM58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 16": {
+      "question": "Page 16",
+      "name": "Page 16",
+      "label": "Wie oft verwenden Sie Ihr Smartphone für Apps, die GPS/Standort nutzen (zum Beispiel Google Maps, Foursquare, Yelp)?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone für Apps, die GPS/Standort nutzen (zum Beispiel Google Maps, Foursquare, Yelp)?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt) und expAM58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 17": {
+      "question": "Page 17",
+      "name": "Page 17",
+      "label": "Wie oft verwenden Sie Ihr Smartphone, um eine Verbindung zu anderen elektronischen Geräten über Bluetooth herzustellen (zum Beispiel Smartwatches, Fitnessarmbänder, Schrittzähler)?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone, um eine Verbindung zu anderen elektronischen Geräten über Bluetooth herzustellen (zum Beispiel Smartwatches, Fitnessarmbänder, Schrittzähler)?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt) und expAM58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 18": {
+      "question": "Page 18",
+      "name": "Page 18",
+      "label": "Wie oft verwenden Sie Ihr Smartphone, um Spiele zu spielen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone, um Spiele zu spielen?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt) und expAM58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 19": {
+      "question": "Page 19",
+      "name": "Page 19",
+      "label": "Wie oft verwenden Sie Ihr Smartphone, um im Internet Musik zu hören oder Videos anzusehen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft verwenden Sie Ihr Smartphone, um im Internet Musik zu hören oder Videos anzusehen?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt) und expAM58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "mehrmals täglich"
+            },
+            {
+              "value": 2,
+              "label": "täglich"
+            },
+            {
+              "value": 3,
+              "label": "mehrmals in der Woche"
+            },
+            {
+              "value": 4,
+              "label": "mehrmals im Monat"
+            },
+            {
+              "value": 5,
+              "label": "einmal im Monat oder seltener"
+            },
+            {
+              "value": 6,
+              "label": "nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 18,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 20": {
+      "question": "Page 20",
+      "name": "Page 20",
+      "label": "Welche der folgenden Apps sind auf Ihrem Smartphone installiert?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche der folgenden Apps sind auf Ihrem Smartphone installiert?",
+          "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt)",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "WhatsApp",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Facebook",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Google Maps",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "DB Navigator",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Spotify",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "tagesschau",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "keine dieser Apps",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        }
+      ],
+      "sn": 19,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 21": {
+      "question": "Page 21",
+      "name": "Page 21",
+      "label": "Wie schätzen Sie allgemein Ihre Fähigkeiten ein, mit Ihrem Smartphone umzugehen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie schätzen Sie allgemein Ihre Fähigkeiten ein, mit Ihrem Smartphone umzugehen?",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Anfänger/-in"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5 Fortgeschrittene/-r"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 20,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 22": {
+      "question": "Page 22",
+      "name": "Page 22",
+      "label": "Stellen Sie sich vor, Sie möchten mit dem Zug in eine 300 km entfernte Stadt in Deutschland fahren. Mit Ihrem Smartphone würden Sie gerne ein Online-Zugticket bei der Deutschen Bahn kaufen. Die Ticket-App der Deutschen Bahn „DB Navigator“ ist allerdings noch nicht auf Ihrem Smartphone installiert. Auf Ihrem Smartphone müssen Sie mehrere Schritte ausführen, um das Zugticket erfolgreich zu buchen.\n\nBitte ordnen Sie die nachfolgenden Schritte in der Reihenfolge, in der Sie diese auf Ihrem Smartphone ausführen würden.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich vor, Sie möchten mit dem Zug in eine 300 km entfernte Stadt in Deutschland fahren. Mit Ihrem Smartphone würden Sie gerne ein Online-Zugticket bei der Deutschen Bahn kaufen. Die Ticket-App der Deutschen Bahn „DB Navigator“ ist allerdings noch nicht auf Ihrem Smartphone installiert. Auf Ihrem Smartphone müssen Sie mehrere Schritte ausführen, um das Zugticket erfolgreich zu buchen.\n\nBitte ordnen Sie die nachfolgenden Schritte in der Reihenfolge, in der Sie diese auf Ihrem Smartphone ausführen würden.",
+          "instruction": "Tragen Sie bitte für jeden Schritt eine Zahl ein (z. B. 1 für den ersten Schritt, 2 für den zweiten Schritt, 3 für den dritten Schritt, usw.).",
+          "description": "Tragen Sie bitte für jeden Schritt eine Zahl ein (z. B. 1 für den ersten Schritt, 2 für den zweiten Schritt, 3 für den dritten Schritt, usw.).",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt)",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Smartphone einschalten und Passwort eingeben",
+          "scale": "int",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "App „App Store“ (iPhone) oder „Google Play Store” (Android) auf dem Home-Bildschirm öffnen",
+          "scale": "int",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "App „DB Navigator” suchen und installieren",
+          "scale": "int",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "App „DB Navigator“ auf dem Home-Bildschirm öffnen",
+          "scale": "int",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Zugverbindung auswählen",
+          "scale": "int",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "In der App mit Benutzername und Passwort anmelden",
+          "scale": "int",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Zahlungsdaten eingeben (zum Beispiel Kreditkarte, Sofortüberweisung, PayPal)",
+          "scale": "int",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Buchung des Zugtickets bestätigen",
+          "scale": "int",
+          "sn": 8,
+          "number": ""
+        }
+      ],
+      "sn": 21,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 23": {
+      "question": "Page 23",
+      "name": "Page 23",
+      "label": "Stellen Sie sich vor, Sie sind mit der Bahn an Ihrem Ziel angekommen und möchten mit Ihrem Smartphone den Weg vom Bahnhof zu Ihrem Hotel finden. Sie erinnern sich, dass das Hotel in Fußnähe zum Bahnhof liegt, aber haben die genaue Adresse vergessen. Die Navigationsapp „Google Maps“ sowie eine Browser-App sind bereits auf Ihrem Smartphone installiert und Ihr Smartphone ist mit mobilem Internet verbunden. Auf Ihrem Smartphone müssen Sie mehrere Schritte ausführen, um den Weg zum Hotel erfolgreich zu finden.\n\nBitte ordnen Sie die nachfolgenden Schritte in der Reihenfolge, in der Sie diese auf Ihrem Smartphone ausführen würden.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich vor, Sie sind mit der Bahn an Ihrem Ziel angekommen und möchten mit Ihrem Smartphone den Weg vom Bahnhof zu Ihrem Hotel finden. Sie erinnern sich, dass das Hotel in Fußnähe zum Bahnhof liegt, aber haben die genaue Adresse vergessen. Die Navigationsapp „Google Maps“ sowie eine Browser-App sind bereits auf Ihrem Smartphone installiert und Ihr Smartphone ist mit mobilem Internet verbunden. Auf Ihrem Smartphone müssen Sie mehrere Schritte ausführen, um den Weg zum Hotel erfolgreich zu finden.\n\nBitte ordnen Sie die nachfolgenden Schritte in der Reihenfolge, in der Sie diese auf Ihrem Smartphone ausführen würden.",
+          "instruction": "Tragen Sie bitte für jeden Schritt eine Zahl ein (z. B. 1 für den ersten Schritt, 2 für den zweiten Schritt, 3 für den dritten Schritt, usw.).",
+          "description": "Tragen Sie bitte für jeden Schritt eine Zahl ein (z. B. 1 für den ersten Schritt, 2 für den zweiten Schritt, 3 für den dritten Schritt, usw.).",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt)",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Smartphone einschalten und Passwort eingeben",
+          "scale": "int",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Browser-App auf dem Home-Bildschirm öffnen",
+          "scale": "int",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Webseite einer Suchmaschine (zum Beispiel Google) öffnen",
+          "scale": "int",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Nach dem Begriff „Hotel Adresse“ suchen",
+          "scale": "int",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Webseite des Hotels öffnen und dort nach der Adresse suchen",
+          "scale": "int",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "App „Google Maps“ auf dem Home-Bildschirm öffnen",
+          "scale": "int",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Adresse des Hotels auf der Karte suchen",
+          "scale": "int",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Navigation zum Hotel starten",
+          "scale": "int",
+          "sn": 8,
+          "number": ""
+        }
+      ],
+      "sn": 22,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 24": {
+      "question": "Page 24",
+      "name": "Page 24",
+      "label": "Stellen Sie sich vor, Sie haben das Hotel gefunden und sind bereits in Ihr Hotelzimmer gegangen. Dort möchten Sie Ihr Smartphone mit dem WLAN-Netzwerk des Hotels verbinden. Sie haben auf der Zugfahrt einige Fotos mit Ihrem Smartphone gemacht, die Sie per Messenger-App (zum Beispiel WhatsApp) an Freunde schicken möchten. Die WLAN-Zugangsdaten wurden Ihnen beim Check-in mitgeteilt und die Messenger-App ist bereits auf Ihrem Smartphone installiert. Auf Ihrem Smartphone müssen Sie mehrere Schritte ausführen, um sich mit dem WLAN des Hotels zu verbinden und Ihre Fotos per Messenger-App erfolgreich zu verschicken.\n\nBitte ordnen Sie die nachfolgenden Schritte in der Reihenfolge, in der Sie diese auf Ihrem Smartphone ausführen würden.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich vor, Sie haben das Hotel gefunden und sind bereits in Ihr Hotelzimmer gegangen. Dort möchten Sie Ihr Smartphone mit dem WLAN-Netzwerk des Hotels verbinden. Sie haben auf der Zugfahrt einige Fotos mit Ihrem Smartphone gemacht, die Sie per Messenger-App (zum Beispiel WhatsApp) an Freunde schicken möchten. Die WLAN-Zugangsdaten wurden Ihnen beim Check-in mitgeteilt und die Messenger-App ist bereits auf Ihrem Smartphone installiert. Auf Ihrem Smartphone müssen Sie mehrere Schritte ausführen, um sich mit dem WLAN des Hotels zu verbinden und Ihre Fotos per Messenger-App erfolgreich zu verschicken.\n\nBitte ordnen Sie die nachfolgenden Schritte in der Reihenfolge, in der Sie diese auf Ihrem Smartphone ausführen würden.",
+          "instruction": "Tragen Sie bitte für jeden Schritt eine Zahl ein (z. B. 1 für den ersten Schritt, 2 für den zweiten Schritt, 3 für den dritten Schritt, usw.).",
+          "description": "Tragen Sie bitte für jeden Schritt eine Zahl ein (z. B. 1 für den ersten Schritt, 2 für den zweiten Schritt, 3 für den dritten Schritt, usw.).",
+          "filter": "AJ58004 = 1 (wenn Befragte/-r Smartphone besitzt)",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Smartphone einschalten und Passwort eingeben",
+          "scale": "int",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "App „Einstellungen“ auf dem Home-Bildschirm öffnen",
+          "scale": "int",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "WLAN-Einstellungen öffnen",
+          "scale": "int",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "WLAN-Netzwerk des Hotels auswählen",
+          "scale": "int",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "WLAN-Passwort eingeben",
+          "scale": "int",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Messenger-App auf dem Home-Bildschirm öffnen",
+          "scale": "int",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Freunde aus der Kontaktliste auswählen",
+          "scale": "int",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Fotos aus der Galerie auswählen",
+          "scale": "int",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Nachricht abschicken",
+          "scale": "int",
+          "sn": 9,
+          "number": ""
+        }
+      ],
+      "sn": 23,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 25": {
+      "question": "Page 25",
+      "name": "Page 25",
+      "label": "Wie viele Stunden pro Woche sind Sie berufstätig?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie viele Stunden pro Woche sind Sie berufstätig?",
+          "instruction": "Bitte geben Sie Ihre tatsächliche Arbeitszeit pro Woche im Durchschnitt an, einschließlich eventueller Überstunden.",
+          "description": "Bitte geben Sie Ihre tatsächliche Arbeitszeit pro Woche im Durchschnitt an, einschließlich eventueller Überstunden.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Gar nicht "
+            },
+            {
+              "value": 2,
+              "label": "Bis unter 20 Stunden"
+            },
+            {
+              "value": 3,
+              "label": "20 bis unter 25 Stunden"
+            },
+            {
+              "value": 4,
+              "label": "25 bis unter 30 Stunden"
+            },
+            {
+              "value": 5,
+              "label": "30 bis unter 35 Stunden"
+            },
+            {
+              "value": 6,
+              "label": "35 bis unter 40 Stunden"
+            },
+            {
+              "value": 7,
+              "label": "40 bis unter 45 Stunden"
+            },
+            {
+              "value": 8,
+              "label": "45 Stunden und mehr"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 24,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 26": {
+      "question": "Page 26",
+      "name": "Page 26",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nBei der Arbeit gab es eine klare Vorstellung darüber, wie man auf die Corona-Krise reagieren sollte.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nBei der Arbeit gab es eine klare Vorstellung darüber, wie man auf die Corona-Krise reagieren sollte.",
+          "filter": "BL58001 = 2,3,4,5,6,7,8 (wenn Befragte/r berufstätig ist)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 25,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 27": {
+      "question": "Page 27",
+      "name": "Page 27",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nBei der Arbeit konnte ich mich auf etablierte Prozeduren und Praktiken verlassen, um auf die Corona-Krise zu reagieren.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nBei der Arbeit konnte ich mich auf etablierte Prozeduren und Praktiken verlassen, um auf die Corona-Krise zu reagieren.",
+          "filter": "BL58001 = 2,3,4,5,6,7,8 (wenn Befragte/r berufstätig ist)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 26,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 28": {
+      "question": "Page 28",
+      "name": "Page 28",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nWährend der Corona-Krise gab es bei der Arbeit Regeln, Prozeduren und Richtlinien, an die ich mich halten konnte.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nWährend der Corona-Krise gab es bei der Arbeit Regeln, Prozeduren und Richtlinien, an die ich mich halten konnte.",
+          "filter": "BL58001 = 2,3,4,5,6,7,8 (wenn Befragte/r berufstätig ist)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 27,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 29": {
+      "question": "Page 29",
+      "name": "Page 29",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nDie Corona-Krise hat meine Fähigkeit, meine Arbeit gut zu erledigen, durcheinander gebracht.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nDie Corona-Krise hat meine Fähigkeit, meine Arbeit gut zu erledigen, durcheinander gebracht.",
+          "filter": "BL58001 = 2,3,4,5,6,7,8 (wenn Befragte/r berufstätig ist)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 28,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 30": {
+      "question": "Page 30",
+      "name": "Page 30",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nDie Corona-Krise hat meine normale Arbeitsweise verändert.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nDie Corona-Krise hat meine normale Arbeitsweise verändert.",
+          "filter": "BL58001 = 2,3,4,5,6,7,8 (wenn Befragte/r berufstätig ist)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 29,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 31": {
+      "question": "Page 31",
+      "name": "Page 31",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nDie Corona-Krise hat von mir verlangt, dass ich die Art und Weise, wie ich meine Arbeit erledige, verändere.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nDie Corona-Krise hat von mir verlangt, dass ich die Art und Weise, wie ich meine Arbeit erledige, verändere.",
+          "filter": "BL58001 = 2,3,4,5,6,7,8 (wenn Befragte/r berufstätig ist)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 30,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 32": {
+      "question": "Page 32",
+      "name": "Page 32",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nBei der Arbeit war die Corona-Krise entscheidend dafür, wie sich meine berufliche Zukunft entwickeln wird.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nBei der Arbeit war die Corona-Krise entscheidend dafür, wie sich meine berufliche Zukunft entwickeln wird.",
+          "filter": "BL58001 = 2,3,4,5,6,7,8 (wenn Befragte/r berufstätig ist)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 31,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 33": {
+      "question": "Page 33",
+      "name": "Page 33",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nBei der Arbeit hatte die Corona-Krise eine hohe Priorität für mich.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nBei der Arbeit hatte die Corona-Krise eine hohe Priorität für mich.",
+          "filter": "BL58001 = 2,3,4,5,6,7,8 (wenn Befragte/r berufstätig ist)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 32,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 34": {
+      "question": "Page 34",
+      "name": "Page 34",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nBei der Arbeit war die Corona-Krise ein wichtiges Ereignis für mich.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Ihren Arbeitsplatz zutrifft.\n\nBei der Arbeit war die Corona-Krise ein wichtiges Ereignis für mich.",
+          "filter": "BL58001 = 2,3,4,5,6,7,8 (wenn Befragte/r berufstätig ist)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 33,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 35": {
+      "question": "Page 35",
+      "name": "Page 35",
+      "label": "Mit den folgenden Aussagen soll erfasst werden, ob sich durch die Corona-Krise bestimmte Dinge in Ihrem Leben verändert haben. \nBitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise entwickelte ich neue Interessen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Mit den folgenden Aussagen soll erfasst werden, ob sich durch die Corona-Krise bestimmte Dinge in Ihrem Leben verändert haben. \nBitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise entwickelte ich neue Interessen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 34,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 36": {
+      "question": "Page 36",
+      "name": "Page 36",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise weiß ich jetzt, dass ich in schweren Zeiten auf andere Menschen zählen kann.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise weiß ich jetzt, dass ich in schweren Zeiten auf andere Menschen zählen kann.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 35,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 37": {
+      "question": "Page 37",
+      "name": "Page 37",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise habe ich neue Vorstellungen darüber, was im Leben wichtig und vorrangig ist.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise habe ich neue Vorstellungen darüber, was im Leben wichtig und vorrangig ist.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 36,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 38": {
+      "question": "Page 38",
+      "name": "Page 38",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise entwickelte ich ein Gefühl des Selbstvertrauens.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise entwickelte ich ein Gefühl des Selbstvertrauens.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 37,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 39": {
+      "question": "Page 39",
+      "name": "Page 39",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise fange ich mehr mit meinem Leben an.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise fange ich mehr mit meinem Leben an.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 38,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 40": {
+      "question": "Page 40",
+      "name": "Page 40",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise erfuhr ich eine Menge darüber, wie gut Menschen sind.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise erfuhr ich eine Menge darüber, wie gut Menschen sind.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 39,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 41": {
+      "question": "Page 41",
+      "name": "Page 41",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise habe ich ein neues Gefühl dafür, wie wichtig mir mein Leben ist.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise habe ich ein neues Gefühl dafür, wie wichtig mir mein Leben ist.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 40,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 42": {
+      "question": "Page 42",
+      "name": "Page 42",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise weiß ich jetzt, dass ich mit Schwierigkeiten umgehen kann.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise weiß ich jetzt, dass ich mit Schwierigkeiten umgehen kann.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 41,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 43": {
+      "question": "Page 43",
+      "name": "Page 43",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise sind jetzt Möglichkeiten für mich verfügbar, die es sonst nicht gegeben hätte.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise sind jetzt Möglichkeiten für mich verfügbar, die es sonst nicht gegeben hätte.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 42,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 44": {
+      "question": "Page 44",
+      "name": "Page 44",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise akzeptiere ich, dass ich andere brauche.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise akzeptiere ich, dass ich andere brauche.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 43,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 45": {
+      "question": "Page 45",
+      "name": "Page 45",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise entdeckte ich, dass ich stärker bin, als ich dachte.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise entdeckte ich, dass ich stärker bin, als ich dachte.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 44,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 46": {
+      "question": "Page 46",
+      "name": "Page 46",
+      "label": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise würdige ich jeden Tag.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie stark die folgende Aussage auf Sie zutrifft.\n\nAufgrund der Corona-Krise würdige ich jeden Tag.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft gar nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft mittelmäßig zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft völlig zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 45,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 47": {
+      "question": "Page 47",
+      "name": "Page 47",
+      "label": "Im Folgenden interessieren wir uns für Ihre Einstellungen im Bereich Partnerschaften. Dazu stellen wir Ihnen 6 beispielhafte Situationen vor. Bitte geben Sie jeweils an, wie Sie selbst darauf reagieren würden. Es gibt dabei keine richtigen oder falschen Meinungen. Uns interessiert nur Ihre persönliche Reaktion.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden interessieren wir uns für Ihre Einstellungen im Bereich Partnerschaften. Dazu stellen wir Ihnen 6 beispielhafte Situationen vor. Bitte geben Sie jeweils an, wie Sie selbst darauf reagieren würden. Es gibt dabei keine richtigen oder falschen Meinungen. Uns interessiert nur Ihre persönliche Reaktion.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 46,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 48": {
+      "question": "Page 48",
+      "name": "Page 48",
+      "label": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Christ, aber Religion spielt keine große Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Christ, aber Religion spielt keine große Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "description": "Befragte zufällig in sechs Gruppen aufteilen, \nGruppe 1 erhält CN58001 und CN58002 und CN58003 und CN58004 und CN58005 und CN58006, \nGruppe 2 erhält CN58007 und CN58008 und CN58009 und CN58010 und CN58011 und CN58012, \nGruppe 3 erhält CN58013 und CN58014 und CN58015 und CN58016 und CN58017 und CN58018, \nGruppe 4 erhält CN58019 und CN58020 und CN58021 und CN58022 und CN58023 und CN58024, \nGruppe 5 erhält CN58025 und CN58026 und CN58027 und CN58028 und CN58029 und CN58030, \nGruppe 6 erhält CN58031 und CN58032 und CN58033 und CN58034 und CN58035 und CN58036. \nGruppenzuteilung in separater Variable expCN58001 ablegen.",
+          "filter": "expCN58001 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 47,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 49": {
+      "question": "Page 49",
+      "name": "Page 49",
+      "label": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 48,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 50": {
+      "question": "Page 50",
+      "name": "Page 50",
+      "label": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Muslimin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Muslimin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 49,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 51": {
+      "question": "Page 51",
+      "name": "Page 51",
+      "label": "Ein Verwandter geht eine feste Beziehung mit einer Frau ein, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Muslimin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter geht eine feste Beziehung mit einer Frau ein, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Muslimin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 50,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 52": {
+      "question": "Page 52",
+      "name": "Page 52",
+      "label": "Eine Verwandte geht mit einem Mann aus, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Christ, aber Religion spielt keine große Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte geht mit einem Mann aus, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Christ, aber Religion spielt keine große Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 51,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 53": {
+      "question": "Page 53",
+      "name": "Page 53",
+      "label": "Ein Verwandter geht mit einer Frau aus, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Christin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter geht mit einer Frau aus, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Christin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 52,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 54": {
+      "question": "Page 54",
+      "name": "Page 54",
+      "label": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Christ und Religion spielt eine wichtige Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Christ und Religion spielt eine wichtige Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 53,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 55": {
+      "question": "Page 55",
+      "name": "Page 55",
+      "label": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Christ, aber Religion spielt keine große Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Christ, aber Religion spielt keine große Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 54,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 56": {
+      "question": "Page 56",
+      "name": "Page 56",
+      "label": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 55,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 57": {
+      "question": "Page 57",
+      "name": "Page 57",
+      "label": "Ein Verwandter geht eine feste Beziehung mit einer Frau ein, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Christin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter geht eine feste Beziehung mit einer Frau ein, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Christin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 56,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 58": {
+      "question": "Page 58",
+      "name": "Page 58",
+      "label": "Ein Verwandter geht eine feste Beziehung mit einer Frau ein, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Muslimin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter geht eine feste Beziehung mit einer Frau ein, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Muslimin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 57,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 59": {
+      "question": "Page 59",
+      "name": "Page 59",
+      "label": "Ein Verwandter geht mit einer Frau aus, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Muslimin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter geht mit einer Frau aus, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Muslimin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 58,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 60": {
+      "question": "Page 60",
+      "name": "Page 60",
+      "label": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Muslim und Religion spielt eine wichtige Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Muslim und Religion spielt eine wichtige Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 59,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 61": {
+      "question": "Page 61",
+      "name": "Page 61",
+      "label": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Christin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Christin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 60,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 62": {
+      "question": "Page 62",
+      "name": "Page 62",
+      "label": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Muslimin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Muslimin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 61,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 63": {
+      "question": "Page 63",
+      "name": "Page 63",
+      "label": "Eine Verwandte geht eine feste Beziehung mit einem Mann ein, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Christ und Religion spielt eine wichtige Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte geht eine feste Beziehung mit einem Mann ein, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Christ und Religion spielt eine wichtige Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 62,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 64": {
+      "question": "Page 64",
+      "name": "Page 64",
+      "label": "Eine Verwandte geht mit einem Mann aus, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte geht mit einem Mann aus, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 63,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 65": {
+      "question": "Page 65",
+      "name": "Page 65",
+      "label": "Ein Verwandter geht mit einer Frau aus, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Christin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter geht mit einer Frau aus, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Christin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 64,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 66": {
+      "question": "Page 66",
+      "name": "Page 66",
+      "label": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Christ und Religion spielt eine wichtige Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Christ und Religion spielt eine wichtige Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 65,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 67": {
+      "question": "Page 67",
+      "name": "Page 67",
+      "label": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Muslimin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Muslimin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 66,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 68": {
+      "question": "Page 68",
+      "name": "Page 68",
+      "label": "Eine Verwandte geht eine feste Beziehung mit einem Mann ein, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Muslim und Religion spielt eine wichtige Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte geht eine feste Beziehung mit einem Mann ein, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Muslim und Religion spielt eine wichtige Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 67,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 69": {
+      "question": "Page 69",
+      "name": "Page 69",
+      "label": "Ein Verwandter geht eine feste Beziehung mit einer Frau ein, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Christin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter geht eine feste Beziehung mit einer Frau ein, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Christin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 68,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 70": {
+      "question": "Page 70",
+      "name": "Page 70",
+      "label": "Eine Verwandte geht mit einem Mann aus, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Christ und Religion spielt eine wichtige Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte geht mit einem Mann aus, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Christ und Religion spielt eine wichtige Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 69,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 71": {
+      "question": "Page 71",
+      "name": "Page 71",
+      "label": "Ein Verwandter geht mit einer Frau aus, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Muslimin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter geht mit einer Frau aus, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Muslimin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 70,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 72": {
+      "question": "Page 72",
+      "name": "Page 72",
+      "label": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Muslim und Religion spielt eine wichtige Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte heiratet einen Mann, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Muslim und Religion spielt eine wichtige Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 5",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 71,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 73": {
+      "question": "Page 73",
+      "name": "Page 73",
+      "label": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Christin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Christin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 5",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 72,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 74": {
+      "question": "Page 74",
+      "name": "Page 74",
+      "label": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Christin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Christin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 5",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 73,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 75": {
+      "question": "Page 75",
+      "name": "Page 75",
+      "label": "Eine Verwandte geht eine feste Beziehung mit einem Mann ein, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte geht eine feste Beziehung mit einem Mann ein, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 5",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 74,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 76": {
+      "question": "Page 76",
+      "name": "Page 76",
+      "label": "Ein Verwandter geht eine feste Beziehung mit einer Frau ein, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Christin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter geht eine feste Beziehung mit einer Frau ein, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Christin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 5",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 75,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 77": {
+      "question": "Page 77",
+      "name": "Page 77",
+      "label": "Eine Verwandte geht mit einem Mann aus, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte geht mit einem Mann aus, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 5",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 76,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 78": {
+      "question": "Page 78",
+      "name": "Page 78",
+      "label": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Christin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Christin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 6",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 77,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 79": {
+      "question": "Page 79",
+      "name": "Page 79",
+      "label": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Muslimin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter heiratet eine Frau, die vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Diese Frau ist Muslimin, aber Religion spielt keine große Rolle in ihrem Leben. Sie hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 6",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 78,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 80": {
+      "question": "Page 80",
+      "name": "Page 80",
+      "label": "Eine Verwandte geht eine feste Beziehung mit einem Mann ein, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Christ, aber Religion spielt keine große Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte geht eine feste Beziehung mit einem Mann ein, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Christ, aber Religion spielt keine große Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 6",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 79,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 81": {
+      "question": "Page 81",
+      "name": "Page 81",
+      "label": "Eine Verwandte geht eine feste Beziehung mit einem Mann ein, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte geht eine feste Beziehung mit einem Mann ein, der vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Dieser Mann ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er hat keinen Bildungsabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 6",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 80,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 82": {
+      "question": "Page 82",
+      "name": "Page 82",
+      "label": "Eine Verwandte geht mit einem Mann aus, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Muslim und Religion spielt eine wichtige Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine Verwandte geht mit einem Mann aus, der vor einigen Jahren als Flüchtling aus Afghanistan nach Deutschland kam. Dieser Mann ist Muslim und Religion spielt eine wichtige Rolle in seinem Leben. Er hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 6",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 81,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 83": {
+      "question": "Page 83",
+      "name": "Page 83",
+      "label": "Ein Verwandter geht mit einer Frau aus, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Christin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Verwandter geht mit einer Frau aus, die vor einigen Jahren als Flüchtling aus Syrien nach Deutschland kam. Diese Frau ist Christin und Religion spielt eine wichtige Rolle in ihrem Leben. Sie hat einen Hochschulabschluss.\n\nWie würden Sie darauf reagieren?",
+          "filter": "expCN58001 = 6",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 82,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 84": {
+      "question": "Page 84",
+      "name": "Page 84",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "interessant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 83,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 85": {
+      "question": "Page 85",
+      "name": "Page 85",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "abwechslungsreich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 84,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 86": {
+      "question": "Page 86",
+      "name": "Page 86",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "relevant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 85,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 87": {
+      "question": "Page 87",
+      "name": "Page 87",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "lang",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 86,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 88": {
+      "question": "Page 88",
+      "name": "Page 88",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "schwierig",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 87,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 89": {
+      "question": "Page 89",
+      "name": "Page 89",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "zu persönlich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 88,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 90": {
+      "question": "Page 90",
+      "name": "Page 90",
+      "label": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut"
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 89,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 91": {
+      "question": "Page 91",
+      "name": "Page 91",
+      "label": "Haben Sie noch weitere Anmerkungen?\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Haben Sie noch weitere Anmerkungen?\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 90,
+      "instrument": "W58",
+      "study": "gip"
+    },
+    "Page 92 Outro": {
+      "question": "Page 92 Outro",
+      "name": "Page 92 Outro",
+      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\nIhr Forschungsteam von der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\nIhr Forschungsteam von der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 91,
+      "instrument": "W58",
+      "study": "gip"
+    }
+  }
+}

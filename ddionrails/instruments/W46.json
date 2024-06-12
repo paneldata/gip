@@ -1,0 +1,3100 @@
+{
+  "study": "gip",
+  "name": "W46",
+  "label": "GIP Wave 46",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 46 enthält folgende zugespielte Variablen:\n• [i[id_g]i] - Unique ID, GIP\n• [i[hhid_g]i] - Household identifyer, GIP\n• [i[pid]i] - Person identifyer (within HH)\n• [i[gender_19]i] - gender\n• [i[year_of_birth_cat_19]i] - year of birth categories\n• [i[educ_school_19]i] - highest educational degree\n• [i[educ_job_19]i] - highest professional qualification\n• [i[marital_status_19]i] - marital status\n• [i[number_hh_members_19]i] - number of household members\n• [i[occupation_19]i] - employment status\n• [i[german_citizenship_19]i] - german citizenship\n• [i[internet_usage_19]i] - private internet usage\n• [i[state_19]i] - residence state\n• [i[sample]i] - year of recruitment\n• [i[dDatum]i] - Interview-Datum\n• [i[online_status_wave]i] - current online status",
+  "analysis_unit": "p",
+  "period": "2020/03",
+  "instrument": "W46",
+  "questions": {
+    "Page 1 Introduction": {
+      "question": "Page 1 Introduction",
+      "name": "Page 1 Introduction",
+      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 2": {
+      "question": "Page 2",
+      "name": "Page 2",
+      "label": "Bitte lesen Sie die folgenden Informationen über die Europäische Union (EU). Bitte nehmen Sie sich die Zeit, sie sorgfältig durchzulesen.\n\n[wenn expZH46032 = 1: Unlängst haben viele Experten argumentiert, dass die europäische Integration weiter vorangetrieben werden sollte. Sie sagen, dass die nationalen Regierungen koordiniert mit den anderen EU-Ländern handeln sollten, um die wichtigsten Herausforderungen, vor denen die EU und ihre Mitgliedstaaten stehen, anzugehen. Trotz der grenzüberschreitenden Probleme haben sich die nationalen Regierungen der EU-Mitgliedstaaten gegen eine weitere Übertragung der Macht auf die EU gewehrt.\n\nEine aktuelle Studie führender Forscher liefert auch Ergebnisse, die diese Ansicht mit einer fortschrittlichen statistischen Methode unterstützen. Demnach ist das genaue Ausmaß dessen, was sie \"EU-Kompetenz\" nennen, auffallend geringer als das, was viele Menschen sich wünschen.]\n\n[wenn expZH46032 = 2: Unlängst haben viele Experten argumentiert, dass die europäische Integration bereits zu weit gegangen ist. Sie sagen, dass die nationalen Regierungen unabhängig handeln sollten, um die wichtigsten Herausforderungen, vor denen die EU und ihre Mitgliedstaaten stehen, anzugehen und ihre Politik an die spezifischen Bedürfnisse ihrer Länder anzupassen. Im Laufe der Zeit hat die EU das Spektrum ihrer Aktivitäten drastisch erweitert, um fast alle denkbaren Bereiche des politischen, wirtschaftlichen und sozialen Lebens abzudecken.\n\nEine aktuelle Studie führender Forscher liefert auch Ergebnisse, die diese Ansicht mit einer fortschrittlichen statistischen Methode unterstützen. Demnach ist das genaue Ausmaß dessen, was sie \"EU-Kompetenz\" nennen, auffallend größer als das, was viele Menschen sich wünschen.]\n \n[wenn expZH46032 = 3: Unlängst haben viele Experten argumentiert, dass die europäische Integration bereits zu weit gegangen ist. Sie sagen, dass die nationalen Regierungen unabhängig handeln sollten, um die wichtigsten Herausforderungen, vor denen die EU und ihre Mitgliedstaaten stehen, anzugehen und ihre Politik an die spezifischen Bedürfnisse ihrer Länder anzupassen. Im Laufe der Zeit hat die EU das Spektrum ihrer Aktivitäten drastisch erweitert, um fast alle denkbaren Bereiche des politischen, wirtschaftlichen und sozialen Lebens abzudecken.\n\nEine aktuelle Studie führender Forscher liefert auch Ergebnisse, die diese Ansicht mit einer fortschrittlichen statistischen Methode unterstützen. Demnach ist das genaue Ausmaß dessen, was sie \"EU-Kompetenz\" nennen, auffallend größer als das, was viele Menschen sich wünschen. Infolgedessen wird sich diese Situation letztendlich negativ auf die deutsche Wirtschaft auswirken, wie die jüngste Wirtschaftskrise zeigt.]\n \n[wenn expZH46032 = 4: Unlängst haben viele Experten argumentiert, dass die europäische Integration bereits zu weit gegangen ist. Sie sagen, dass die nationalen Regierungen unabhängig handeln sollten, um die wichtigsten Herausforderungen, vor denen die EU und ihre Mitgliedstaaten stehen, anzugehen und ihre Politik an die spezifischen Bedürfnisse ihrer Länder anzupassen. Im Laufe der Zeit hat die EU das Spektrum ihrer Aktivitäten drastisch erweitert, um fast alle denkbaren Bereiche des politischen, wirtschaftlichen und sozialen Lebens abzudecken.\n\nEine aktuelle Studie führender Forscher liefert auch Ergebnisse, die diese Ansicht mit einer fortschrittlichen statistischen Methode unterstützen. Demnach ist das genaue Ausmaß dessen, was sie \"EU-Kompetenz\" nennen, auffallend größer als das, was viele Menschen sich wünschen. Infolgedessen wird diese Situation letztendlich unsere Kultur und Identität untergraben, wie die jüngste Flüchtlingskrise zeigt.]\n\n[wenn expZH46032 = 5: Unlängst haben viele Experten argumentiert, dass die europäische Integration bereits zu weit gegangen ist. Sie sagen, dass die nationalen Regierungen unabhängig handeln sollten, um die wichtigsten Herausforderungen, vor denen die EU und ihre Mitgliedstaaten stehen, anzugehen und ihre Politik an die spezifischen Bedürfnisse ihrer Länder anzupassen. Im Laufe der Zeit hat die EU das Spektrum ihrer Aktivitäten drastisch erweitert, um fast alle denkbaren Bereiche des politischen, wirtschaftlichen und sozialen Lebens abzudecken.\n\nEine aktuelle Studie führender Forscher liefert auch Ergebnisse, die diese Ansicht mit einer fortschrittlichen statistischen Methode unterstützen. Demnach ist das genaue Ausmaß dessen, was sie \"EU-Kompetenz\" nennen, auffallend größer als das, was viele Menschen sich wünschen. Wie sich in den letzten Jahren gezeigt hat, wird die deutsche Regierung infolgedessen viel Macht und Autorität verlieren, die nötig wären, um unseren politischen Status und Einfluss zu verteidigen.]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte lesen Sie die folgenden Informationen über die Europäische Union (EU). Bitte nehmen Sie sich die Zeit, sie sorgfältig durchzulesen.\n\n[wenn expZH46032 = 1: Unlängst haben viele Experten argumentiert, dass die europäische Integration weiter vorangetrieben werden sollte. Sie sagen, dass die nationalen Regierungen koordiniert mit den anderen EU-Ländern handeln sollten, um die wichtigsten Herausforderungen, vor denen die EU und ihre Mitgliedstaaten stehen, anzugehen. Trotz der grenzüberschreitenden Probleme haben sich die nationalen Regierungen der EU-Mitgliedstaaten gegen eine weitere Übertragung der Macht auf die EU gewehrt.\n\nEine aktuelle Studie führender Forscher liefert auch Ergebnisse, die diese Ansicht mit einer fortschrittlichen statistischen Methode unterstützen. Demnach ist das genaue Ausmaß dessen, was sie \"EU-Kompetenz\" nennen, auffallend geringer als das, was viele Menschen sich wünschen.]\n\n[wenn expZH46032 = 2: Unlängst haben viele Experten argumentiert, dass die europäische Integration bereits zu weit gegangen ist. Sie sagen, dass die nationalen Regierungen unabhängig handeln sollten, um die wichtigsten Herausforderungen, vor denen die EU und ihre Mitgliedstaaten stehen, anzugehen und ihre Politik an die spezifischen Bedürfnisse ihrer Länder anzupassen. Im Laufe der Zeit hat die EU das Spektrum ihrer Aktivitäten drastisch erweitert, um fast alle denkbaren Bereiche des politischen, wirtschaftlichen und sozialen Lebens abzudecken.\n\nEine aktuelle Studie führender Forscher liefert auch Ergebnisse, die diese Ansicht mit einer fortschrittlichen statistischen Methode unterstützen. Demnach ist das genaue Ausmaß dessen, was sie \"EU-Kompetenz\" nennen, auffallend größer als das, was viele Menschen sich wünschen.]\n \n[wenn expZH46032 = 3: Unlängst haben viele Experten argumentiert, dass die europäische Integration bereits zu weit gegangen ist. Sie sagen, dass die nationalen Regierungen unabhängig handeln sollten, um die wichtigsten Herausforderungen, vor denen die EU und ihre Mitgliedstaaten stehen, anzugehen und ihre Politik an die spezifischen Bedürfnisse ihrer Länder anzupassen. Im Laufe der Zeit hat die EU das Spektrum ihrer Aktivitäten drastisch erweitert, um fast alle denkbaren Bereiche des politischen, wirtschaftlichen und sozialen Lebens abzudecken.\n\nEine aktuelle Studie führender Forscher liefert auch Ergebnisse, die diese Ansicht mit einer fortschrittlichen statistischen Methode unterstützen. Demnach ist das genaue Ausmaß dessen, was sie \"EU-Kompetenz\" nennen, auffallend größer als das, was viele Menschen sich wünschen. Infolgedessen wird sich diese Situation letztendlich negativ auf die deutsche Wirtschaft auswirken, wie die jüngste Wirtschaftskrise zeigt.]\n \n[wenn expZH46032 = 4: Unlängst haben viele Experten argumentiert, dass die europäische Integration bereits zu weit gegangen ist. Sie sagen, dass die nationalen Regierungen unabhängig handeln sollten, um die wichtigsten Herausforderungen, vor denen die EU und ihre Mitgliedstaaten stehen, anzugehen und ihre Politik an die spezifischen Bedürfnisse ihrer Länder anzupassen. Im Laufe der Zeit hat die EU das Spektrum ihrer Aktivitäten drastisch erweitert, um fast alle denkbaren Bereiche des politischen, wirtschaftlichen und sozialen Lebens abzudecken.\n\nEine aktuelle Studie führender Forscher liefert auch Ergebnisse, die diese Ansicht mit einer fortschrittlichen statistischen Methode unterstützen. Demnach ist das genaue Ausmaß dessen, was sie \"EU-Kompetenz\" nennen, auffallend größer als das, was viele Menschen sich wünschen. Infolgedessen wird diese Situation letztendlich unsere Kultur und Identität untergraben, wie die jüngste Flüchtlingskrise zeigt.]\n\n[wenn expZH46032 = 5: Unlängst haben viele Experten argumentiert, dass die europäische Integration bereits zu weit gegangen ist. Sie sagen, dass die nationalen Regierungen unabhängig handeln sollten, um die wichtigsten Herausforderungen, vor denen die EU und ihre Mitgliedstaaten stehen, anzugehen und ihre Politik an die spezifischen Bedürfnisse ihrer Länder anzupassen. Im Laufe der Zeit hat die EU das Spektrum ihrer Aktivitäten drastisch erweitert, um fast alle denkbaren Bereiche des politischen, wirtschaftlichen und sozialen Lebens abzudecken.\n\nEine aktuelle Studie führender Forscher liefert auch Ergebnisse, die diese Ansicht mit einer fortschrittlichen statistischen Methode unterstützen. Demnach ist das genaue Ausmaß dessen, was sie \"EU-Kompetenz\" nennen, auffallend größer als das, was viele Menschen sich wünschen. Wie sich in den letzten Jahren gezeigt hat, wird die deutsche Regierung infolgedessen viel Macht und Autorität verlieren, die nötig wären, um unseren politischen Status und Einfluss zu verteidigen.]",
+          "description": "Befragte zufällig auf fünf Gruppen aufteilen.\n- 1/6 der Befragten bekommt Treatment 1 (Gruppe 1).\n- 1/6 der Befragten bekommt Treatment 2 (Gruppe 2).\n- 1/6 der Befragten bekommt Treatment 3 (Gruppe 3).\n- 1/6 der Befragten bekommt Treatment 4 (Gruppe 4).\n- 1/6 der Befragten bekommt Treatment 5 (Gruppe 5).\n- 1/6 der Befragten bekommt KEIN Treatment (Gruppe 6).\nZuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expZH46032 speichern.",
+          "filter": "expZH46032 = 1, 2, 3, 4, 5",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 3": {
+      "question": "Page 3",
+      "name": "Page 3",
+      "label": "Man hört manchmal, die europäische Einigung sollte weiter vorangetrieben werden.\nAndere sagen, dass sie schon zu weit gegangen ist. Was ist Ihre Meinung?\nBitte geben Sie Ihre Ansichten auf einer Skala von 1 bis 7 an, wobei \"1\" bedeutet, dass die europäische Integration \"bereits zu weit gegangen ist\" und \"7\" bedeutet, dass sie \"weiter vorangetrieben werden sollte\". Welche Zahl auf dieser Skala beschreibt Ihre Position am besten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Man hört manchmal, die europäische Einigung sollte weiter vorangetrieben werden.\nAndere sagen, dass sie schon zu weit gegangen ist. Was ist Ihre Meinung?\nBitte geben Sie Ihre Ansichten auf einer Skala von 1 bis 7 an, wobei \"1\" bedeutet, dass die europäische Integration \"bereits zu weit gegangen ist\" und \"7\" bedeutet, dass sie \"weiter vorangetrieben werden sollte\". Welche Zahl auf dieser Skala beschreibt Ihre Position am besten?",
+          "filter": "expZH46032 = 6",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Die europäische Integration ist bereits zu weit gegangen"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7 Die europäische Integration sollte weiter vorangetrieben werden"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 4": {
+      "question": "Page 4",
+      "name": "Page 4",
+      "label": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\nIch möchte eher von einem Bürger repräsentiert werden als von einem spezialisierten Politiker.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\nIch möchte eher von einem Bürger repräsentiert werden als von einem spezialisierten Politiker.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 4,
+              "label": "teils-teils"
+            },
+            {
+              "value": 5,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 6,
+              "label": "stimme zu"
+            },
+            {
+              "value": 7,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 5": {
+      "question": "Page 5",
+      "name": "Page 5",
+      "label": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\nDie Menschen, und nicht die Politiker, sollten unsere wichtigsten politischen Entscheidungen treffen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\nDie Menschen, und nicht die Politiker, sollten unsere wichtigsten politischen Entscheidungen treffen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 4,
+              "label": "teils-teils"
+            },
+            {
+              "value": 5,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 6,
+              "label": "stimme zu"
+            },
+            {
+              "value": 7,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 6": {
+      "question": "Page 6",
+      "name": "Page 6",
+      "label": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\nGewählte Vertreter reden zu viel und unternehmen zu wenig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\nGewählte Vertreter reden zu viel und unternehmen zu wenig.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 4,
+              "label": "teils-teils"
+            },
+            {
+              "value": 5,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 6,
+              "label": "stimme zu"
+            },
+            {
+              "value": 7,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 7": {
+      "question": "Page 7",
+      "name": "Page 7",
+      "label": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\nWas die Leute „Kompromiss” nennen, heißt in Wirklichkeit nur, seine Prinzipien aufzugeben.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\nWas die Leute „Kompromiss” nennen, heißt in Wirklichkeit nur, seine Prinzipien aufzugeben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 4,
+              "label": "teils-teils"
+            },
+            {
+              "value": 5,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 6,
+              "label": "stimme zu"
+            },
+            {
+              "value": 7,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 8": {
+      "question": "Page 8",
+      "name": "Page 8",
+      "label": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\nLeute wie ich haben nicht das Sagen darüber, was die EU tut.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\nLeute wie ich haben nicht das Sagen darüber, was die EU tut.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 4,
+              "label": "teils-teils"
+            },
+            {
+              "value": 5,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 6,
+              "label": "stimme zu"
+            },
+            {
+              "value": 7,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 9": {
+      "question": "Page 9",
+      "name": "Page 9",
+      "label": "Die folgende Übersicht zeigt die Programme zweier Parteien. Stellen Sie sich vor, Sie stimmen für eine der zwei Parteien in den nächsten Europawahlen.\nWir werden Ihnen zweimal jeweils zwei alternative Parteiprogramme präsentieren. Jedes Mal bitten wir Sie erst, sich zwischen diesen beiden Programmen zu entscheiden. Dann möchten wir von Ihnen wissen, wie Sie jedes der beiden Programme insgesamt bewerten. Dabei gibt es keine richtige oder falsche Antwort, es geht ausschließlich um Ihre persönliche Einschätzung.\nPartei A Runde 1 Partei B\n[expCG46112_1a] Europäische Integration [expCG46112_1b]\n[expCG46112_2a] Marktregulierung und Wettbewerb [expCG46112_2b]\n[expCG46112_3a] Asyl und Immigration [expCG46112_3b]\n[expCG46112_4a] Umwelt und Energie [expCG46112_4b]\n[expCG46112_5a] Sicherheit und Verteidigung [expCG46112_5b]\n[expCG46112_6a] Landwirtschaft [expCG46112_6b]\n[expCG46112_7a] Handelspolitik [expCG46112_7b]\n\nWelche Partei würden Sie wählen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Die folgende Übersicht zeigt die Programme zweier Parteien. Stellen Sie sich vor, Sie stimmen für eine der zwei Parteien in den nächsten Europawahlen.\nWir werden Ihnen zweimal jeweils zwei alternative Parteiprogramme präsentieren. Jedes Mal bitten wir Sie erst, sich zwischen diesen beiden Programmen zu entscheiden. Dann möchten wir von Ihnen wissen, wie Sie jedes der beiden Programme insgesamt bewerten. Dabei gibt es keine richtige oder falsche Antwort, es geht ausschließlich um Ihre persönliche Einschätzung.\nPartei A Runde 1 Partei B\n[expCG46112_1a] Europäische Integration [expCG46112_1b]\n[expCG46112_2a] Marktregulierung und Wettbewerb [expCG46112_2b]\n[expCG46112_3a] Asyl und Immigration [expCG46112_3b]\n[expCG46112_4a] Umwelt und Energie [expCG46112_4b]\n[expCG46112_5a] Sicherheit und Verteidigung [expCG46112_5b]\n[expCG46112_6a] Landwirtschaft [expCG46112_6b]\n[expCG46112_7a] Handelspolitik [expCG46112_7b]\n\nWelche Partei würden Sie wählen?",
+          "instruction": "Bitte geben Sie an, welche der beiden Sie am ehesten unterstützen würden, auch wenn Sie sich nicht vollkommen sicher sind.",
+          "description": "Conjoint-Experiment: Insgesamt zweimal sollen die Befragten sich jeweils zwischen zwei Parteien entscheiden und dazu drei Fragen beantworten. Die beiden Parteien und die zugehörigen sieben Attribute sollen aus einer Liste randomisiert zugewiesen und dynamisch eingefügt werden („randomization without replacement“). Zwischen den vier Parteien A, B, C und D sollen niemals alle 7 Attribute identisch sein.\nVariable name: expCG46112_1a; Variable label: Eu integration party A; Attribute: Europäische Integration [eu integration]; Value: 1; Text: Keine Position\nVariable name: expCG46112_1b; Variable label: Eu integration party B; Attribute: Europäische Integration [eu integration]; Value: 2; Text: Der EU Befugnisse abnehmen und mehr Befugnisse an die nationalen Regierungen geben\nVariable name: expCG46112_1c; Variable label: Eu integration party C; Attribute: Europäische Integration [eu integration]; Value: 3; Text: Die derzeitigen Befugnisse der EU beibehalten und Reformen, um bestehende Probleme anzugehen\nVariable name: expCG46112_1d; Variable label: Eu integration party D; Attribute: Europäische Integration [eu integration]; Value: 4; Text: Der EU mehr Befugnisse geben\nVariable name: expCG46112_2a; Variable label: Market regulation party A; Attribute: Marktregulierung und Wettbewerb [market regulation]; Value: 1; Text: Keine Position\nVariable name: expCG46112_2b; Variable label: Market regulation party B; Attribute: Marktregulierung und Wettbewerb [market regulation]; Value: 2; Text: Die Regierung sollte Regeln abbauen, um Jobwachstum und eine wettbewerbsfähige Wirtschaft zu ermöglichen\nVariable name: expCG46112_2c; Variable label: Market regulation party C; Attribute: Marktregulierung und Wettbewerb [market regulation]; Value: 3; Text: Die Regierung sollte nur einschreiten wo nötig\nVariable name: expCG46112_2d; Variable label: Market regulation party D; Attribute: Marktregulierung und Wettbewerb [market regulation]; Value: 4; Text: Die Regierung muss aktiv einschreiten, um wirtschaftliche Ungleichheit und andere Probleme zu lösen\nVariable name: expCG46112_3a; Variable label: Asylum party A; Attribute: Asyl und Immigration [asylum]; Value: 1; Text: Keine Position\nVariable name: expCG46112_3b; Variable label: Asylum party B; Attribute: Asyl und Immigration [asylum]; Value: 2; Text: Unterstützen einer strikten Politik zu Einwanderern und Asylsuchenden\nVariable name: expCG46112_3c; Variable label: Asylum party C; Attribute: Asyl und Immigration [asylum]; Value: 3; Text: Einwanderer und Asylsuchende nur akzeptieren, wenn Sicherheit und ökonomischer Nutzen gewährleistet sind\nVariable name: expCG46112_3d; Variable label: Asylum party D; Attribute: Asyl und Immigration [asylum]; Value: 4; Text: Ablehnen einer strikten Politik zu Einwanderern und Asylsuchenden\nVariable name: expCG46112_4a; Variable label: Environment party A; Attribute: Umwelt und Energie [environment]; Value: 1; Text: Keine Position\nVariable name: expCG46112_4b; Variable label: Environment party B; Attribute: Umwelt und Energie [environment]; Value: 2; Text: Einschränken umweltfreundlicher Vorschläge, die Unternehmen und Wirtschaft belasten\nVariable name: expCG46112_4c; Variable label: Environment party C; Attribute: Umwelt und Energie [environment]; Value: 3; Text: Unterstützen umweltfreundlicher Vorschläge, die nicht schädlich sind für wirtschaftliche Wettbewerbsfähigkeit oder Verbraucher\nVariable name: expCG46112_4d; Variable label: Environment party D; Attribute: Umwelt und Energie [environment]; Value: 4; Text: Stärkung umweltfreundlicher Vorschläge und Stärkung internationaler Kooperation, um die Umwelt zu schützen\nVariable name: expCG46112_5a; Variable label: Security party A; Attribute: Sicherheit und Verteidigung [security]; Value: 1; Text: Keine Position\nVariable name: expCG46112_5b; Variable label: Security party B; Attribute: Sicherheit und Verteidigung [security]; Value: 2; Text: Keine Erhöhung der Militärausgaben der EU und Ablehnung von Bewaffnung innerhalb und außerhalb Europas\nVariable name: expCG46112_5c; Variable label: Security party C; Attribute: Sicherheit und Verteidigung [security]; Value: 3; Text: Die EU sollte Frieden und internationale Kooperation für Verteidigungszwecke fördern\nVariable name: expCG46112_5d; Variable label: Security party D; Attribute: Sicherheit und Verteidigung [security]; Value: 4; Text: Erhöhung der Militärausgaben der EU, um ihre Sicherheit und Verteidigung zu gewährleisten\nVariable name: expCG46112_6a; Variable label: Agriculture party A; Attribute: Landwirtschaft [agriculture]; Value: 1; Text: Keine Position\nVariable name: expCG46112_6b; Variable label: Agriculture party B; Attribute: Landwirtschaft [agriculture]; Value: 2; Text: Zuwendungen absenken, um Effizienz und Wettbewerbsfähigkeit sicherzustellen\nVariable name: expCG46112_6c; Variable label: Agriculture party C; Attribute: Landwirtschaft [agriculture]; Value: 3; Text: Unterstützen von Vorschlägen, die die Gesundheit der Verbraucher und eine nachhaltige Landwirtschaft fördern\nVariable name: expCG46112_6d; Variable label: Agriculture party D; Attribute: Landwirtschaft [agriculture]; Value: 4; Text: Zuwendungen beibehalten oder erhöhen, um Landwirtschaft und Bauern zu schützen\nVariable name: expCG46112_7a; Variable label: Trade party A; Attribute: Handelspolitik [trade]; Value: 1; Text: Keine Position\nVariable name: expCG46112_7b; Variable label: Trade party B; Attribute: Handelspolitik [trade]; Value: 2; Text: Begrenzen der derzeitigen Freihandelspolitik, um heimische Industrien zu schützen\nVariable name: expCG46112_7c; Variable label: Trade party C; Attribute: Handelspolitik [trade]; Value: 3; Text: Freihandelspolitik verfolgen, aber dabei ihre negative Folgen bedenken\nVariable name: expCG46112_7d; Variable label: Trade party D; Attribute: Handelspolitik [trade]; Value: 4; Text: Freihandelspolitik aktiv vorantreiben, um die europäische Wirtschaft anzuschieben\nBitte geben Sie an, welche der beiden Sie am ehesten unterstützen würden, auch wenn Sie sich nicht vollkommen sicher sind.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Partei A"
+            },
+            {
+              "value": 2,
+              "label": "Partei B"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 10": {
+      "question": "Page 10",
+      "name": "Page 10",
+      "label": "Partei A Runde 1 Partei B\n[expCG46112_1a] Europäische Integration [expCG46112_1b]\n[expCG46112_2a] Marktregulierung und Wettbewerb [expCG46112_2b]\n[expCG46112_3a] Asyl und Immigration [expCG46112_3b]\n[expCG46112_4a] Umwelt und Energie [expCG46112_4b]\n[expCG46112_5a] Sicherheit und Verteidigung [expCG46112_5b]\n[expCG46112_6a] Landwirtschaft [expCG46112_6b]\n[expCG46112_7a] Handelspolitik [expCG46112_7b]\n\nWie bewerten Sie die politische Partei A insgesamt?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Partei A Runde 1 Partei B\n[expCG46112_1a] Europäische Integration [expCG46112_1b]\n[expCG46112_2a] Marktregulierung und Wettbewerb [expCG46112_2b]\n[expCG46112_3a] Asyl und Immigration [expCG46112_3b]\n[expCG46112_4a] Umwelt und Energie [expCG46112_4b]\n[expCG46112_5a] Sicherheit und Verteidigung [expCG46112_5b]\n[expCG46112_6a] Landwirtschaft [expCG46112_6b]\n[expCG46112_7a] Handelspolitik [expCG46112_7b]\n\nWie bewerten Sie die politische Partei A insgesamt?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr positiv"
+            },
+            {
+              "value": 2,
+              "label": "Eher positiv"
+            },
+            {
+              "value": 3,
+              "label": "Weder positiv noch negativ"
+            },
+            {
+              "value": 4,
+              "label": "Eher negativ"
+            },
+            {
+              "value": 5,
+              "label": "Sehr negativ"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 11": {
+      "question": "Page 11",
+      "name": "Page 11",
+      "label": "Partei A Runde 1 Partei B\n[expCG46112_1a] Europäische Integration [expCG46112_1b]\n[expCG46112_2a] Marktregulierung und Wettbewerb [expCG46112_2b]\n[expCG46112_3a] Asyl und Immigration [expCG46112_3b]\n[expCG46112_4a] Umwelt und Energie [expCG46112_4b]\n[expCG46112_5a] Sicherheit und Verteidigung [expCG46112_5b]\n[expCG46112_6a] Landwirtschaft [expCG46112_6b]\n[expCG46112_7a] Handelspolitik [expCG46112_7b]\n\nWie bewerten Sie die politische Partei B insgesamt?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Partei A Runde 1 Partei B\n[expCG46112_1a] Europäische Integration [expCG46112_1b]\n[expCG46112_2a] Marktregulierung und Wettbewerb [expCG46112_2b]\n[expCG46112_3a] Asyl und Immigration [expCG46112_3b]\n[expCG46112_4a] Umwelt und Energie [expCG46112_4b]\n[expCG46112_5a] Sicherheit und Verteidigung [expCG46112_5b]\n[expCG46112_6a] Landwirtschaft [expCG46112_6b]\n[expCG46112_7a] Handelspolitik [expCG46112_7b]\n\nWie bewerten Sie die politische Partei B insgesamt?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr positiv"
+            },
+            {
+              "value": 2,
+              "label": "Eher positiv"
+            },
+            {
+              "value": 3,
+              "label": "Weder positiv noch negativ"
+            },
+            {
+              "value": 4,
+              "label": "Eher negativ"
+            },
+            {
+              "value": 5,
+              "label": "Sehr negativ"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 12": {
+      "question": "Page 12",
+      "name": "Page 12",
+      "label": "Die folgende Übersicht zeigt die Programme zweier Parteien. Stellen Sie sich vor, Sie stimmen für eine der zwei Parteien in den nächsten Europawahlen.\nPartei C Runde 2 Partei D\n[expCG46112_1c] Europäische Integration [expCG46112_1d]\n[expCG46112_2c] Marktregulierung und Wettbewerb [expCG46112_2d]\n[expCG46112_3c] Asyl und Immigration [expCG46112_3d]\n[expCG46112_4c] Umwelt und Energie [expCG46112_4d]\n[expCG46112_5c] Sicherheit und Verteidigung [expCG46112_5d]\n[expCG46112_6c] Landwirtschaft [expCG46112_6d]\n[expCG46112_7c] Handelspolitik [expCG46112_7d]\n\nWelche Partei würden Sie wählen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Die folgende Übersicht zeigt die Programme zweier Parteien. Stellen Sie sich vor, Sie stimmen für eine der zwei Parteien in den nächsten Europawahlen.\nPartei C Runde 2 Partei D\n[expCG46112_1c] Europäische Integration [expCG46112_1d]\n[expCG46112_2c] Marktregulierung und Wettbewerb [expCG46112_2d]\n[expCG46112_3c] Asyl und Immigration [expCG46112_3d]\n[expCG46112_4c] Umwelt und Energie [expCG46112_4d]\n[expCG46112_5c] Sicherheit und Verteidigung [expCG46112_5d]\n[expCG46112_6c] Landwirtschaft [expCG46112_6d]\n[expCG46112_7c] Handelspolitik [expCG46112_7d]\n\nWelche Partei würden Sie wählen?",
+          "instruction": "Bitte geben Sie an, welche der beiden Sie am ehesten unterstützen würden, auch wenn Sie sich nicht vollkommen sicher sind.",
+          "description": "Bitte geben Sie an, welche der beiden Sie am ehesten unterstützen würden, auch wenn Sie sich nicht vollkommen sicher sind.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Partei C"
+            },
+            {
+              "value": 2,
+              "label": "Partei D"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 13": {
+      "question": "Page 13",
+      "name": "Page 13",
+      "label": "Partei C Runde 2 Partei D\n[expCG46112_1c] Europäische Integration [expCG46112_1d]\n[expCG46112_2c] Marktregulierung und Wettbewerb [expCG46112_2d]\n[expCG46112_3c] Asyl und Immigration [expCG46112_3d]\n[expCG46112_4c] Umwelt und Energie [expCG46112_4d]\n[expCG46112_5c] Sicherheit und Verteidigung [expCG46112_5d]\n[expCG46112_6c] Landwirtschaft [expCG46112_6d]\n[expCG46112_7c] Handelspolitik [expCG46112_7d]\n\nWie bewerten Sie die politische Partei C insgesamt?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Partei C Runde 2 Partei D\n[expCG46112_1c] Europäische Integration [expCG46112_1d]\n[expCG46112_2c] Marktregulierung und Wettbewerb [expCG46112_2d]\n[expCG46112_3c] Asyl und Immigration [expCG46112_3d]\n[expCG46112_4c] Umwelt und Energie [expCG46112_4d]\n[expCG46112_5c] Sicherheit und Verteidigung [expCG46112_5d]\n[expCG46112_6c] Landwirtschaft [expCG46112_6d]\n[expCG46112_7c] Handelspolitik [expCG46112_7d]\n\nWie bewerten Sie die politische Partei C insgesamt?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr positiv"
+            },
+            {
+              "value": 2,
+              "label": "Eher positiv"
+            },
+            {
+              "value": 3,
+              "label": "Weder positiv noch negativ"
+            },
+            {
+              "value": 4,
+              "label": "Eher negativ"
+            },
+            {
+              "value": 5,
+              "label": "Sehr negativ"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 14": {
+      "question": "Page 14",
+      "name": "Page 14",
+      "label": "Partei C Runde 2 Partei D\n[expCG46112_1c] Europäische Integration [expCG46112_1d]\n[expCG46112_2c] Marktregulierung und Wettbewerb [expCG46112_2d]\n[expCG46112_3c] Asyl und Immigration [expCG46112_3d]\n[expCG46112_4c] Umwelt und Energie [expCG46112_4d]\n[expCG46112_5c] Sicherheit und Verteidigung [expCG46112_5d]\n[expCG46112_6c] Landwirtschaft [expCG46112_6d]\n[expCG46112_7c] Handelspolitik [expCG46112_7d]\n\nWie bewerten Sie die politische Partei D insgesamt?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Partei C Runde 2 Partei D\n[expCG46112_1c] Europäische Integration [expCG46112_1d]\n[expCG46112_2c] Marktregulierung und Wettbewerb [expCG46112_2d]\n[expCG46112_3c] Asyl und Immigration [expCG46112_3d]\n[expCG46112_4c] Umwelt und Energie [expCG46112_4d]\n[expCG46112_5c] Sicherheit und Verteidigung [expCG46112_5d]\n[expCG46112_6c] Landwirtschaft [expCG46112_6d]\n[expCG46112_7c] Handelspolitik [expCG46112_7d]\n\nWie bewerten Sie die politische Partei D insgesamt?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr positiv"
+            },
+            {
+              "value": 2,
+              "label": "Eher positiv"
+            },
+            {
+              "value": 3,
+              "label": "Weder positiv noch negativ"
+            },
+            {
+              "value": 4,
+              "label": "Eher negativ"
+            },
+            {
+              "value": 5,
+              "label": "Sehr negativ"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 15": {
+      "question": "Page 15",
+      "name": "Page 15",
+      "label": "[Wenn AA46041a10 als Erstes gestellt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\nUnd wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn AA46041a10 als Erstes gestellt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\nUnd wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
+          "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.  ",
+          "description": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "CDU/CSU",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Links"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Rechts"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 16": {
+      "question": "Page 16",
+      "name": "Page 16",
+      "label": "[Wenn AA46041a3 als Erstes gestellt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\nUnd wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn AA46041a3 als Erstes gestellt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\nUnd wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
+          "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.  ",
+          "description": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "SPD",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Links"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Rechts"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 17": {
+      "question": "Page 17",
+      "name": "Page 17",
+      "label": "[Wenn AA46041a4 als Erstes gestellt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\nUnd wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn AA46041a4 als Erstes gestellt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\nUnd wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
+          "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.  ",
+          "description": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "FDP",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Links"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Rechts"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 18": {
+      "question": "Page 18",
+      "name": "Page 18",
+      "label": "[Wenn AA46041a5 als Erstes gestellt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\nUnd wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn AA46041a5 als Erstes gestellt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\nUnd wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
+          "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.  ",
+          "description": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Bündnis 90/Die Grünen",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Links"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Rechts"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 19": {
+      "question": "Page 19",
+      "name": "Page 19",
+      "label": "[Wenn AA46041a6 als Erstes gestellt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\nUnd wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn AA46041a6 als Erstes gestellt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\nUnd wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
+          "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.  ",
+          "description": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Die Linke",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Links"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Rechts"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 18,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 20": {
+      "question": "Page 20",
+      "name": "Page 20",
+      "label": "[Wenn AA46041a9 als Erstes gestellt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\nUnd wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn AA46041a9 als Erstes gestellt wird: Wenn von Politik gesprochen wird, hört man immer wieder die Begriffe „links“ und „rechts“. Wir hätten gerne von Ihnen gewusst, ob Sie die folgenden Akteure eher links oder eher rechts einordnen. Auf der folgenden Skala von 1 (links) bis 11 (rechts) können Sie abgestuft antworten.]\n\nUnd wenn Sie diese Skala von 1 bis 11 benutzen, wo würden Sie die folgende Partei einordnen?",
+          "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.  ",
+          "description": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "AfD",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Links"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Rechts"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 19,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 21": {
+      "question": "Page 21",
+      "name": "Page 21",
+      "label": "Und wo würden Sie sich selbst einordnen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und wo würden Sie sich selbst einordnen?",
+          "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.  ",
+          "description": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Links"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Rechts"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 20,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 22": {
+      "question": "Page 22",
+      "name": "Page 22",
+      "label": "Und wo würden Sie das Bundesverfassungsgericht einordnen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und wo würden Sie das Bundesverfassungsgericht einordnen?",
+          "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.  ",
+          "description": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Links"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Rechts"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 21,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 23": {
+      "question": "Page 23",
+      "name": "Page 23",
+      "label": "Wo würden Sie die folgende Meinung auf einer Skala von 1 bis 11 einordnen, wenn 1 links und 11 rechts ist?\n\nDeutschland soll sich am Kaufprogramm von Staatsanleihen durch die Europäischen Zentralbank beteiligen. Durch den Kauf von Staatsanleihen leiht die Zentralbank einem verschuldeten Europäischen Mitgliedsland Geld für Investitionen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wo würden Sie die folgende Meinung auf einer Skala von 1 bis 11 einordnen, wenn 1 links und 11 rechts ist?\n\nDeutschland soll sich am Kaufprogramm von Staatsanleihen durch die Europäischen Zentralbank beteiligen. Durch den Kauf von Staatsanleihen leiht die Zentralbank einem verschuldeten Europäischen Mitgliedsland Geld für Investitionen.",
+          "instruction": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.  ",
+          "description": "Bitte geben Sie den Wert an, der Ihrer Meinung nach zutrifft.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Links"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Rechts"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 22,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 24": {
+      "question": "Page 24",
+      "name": "Page 24",
+      "label": "[wenn expCD46136 = 1: ]\n[wenn expCD46136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu, oder lehnen Sie diese ab?\n\nWenn Eltern einen Vertrag schließen, dass der Vater bei einer Scheidung kein Geld für das Kind zahlen muss (Unterhalt), dann sollte dieser Vertrag nach einer Scheidung nicht gültig sein.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn expCD46136 = 1: ]\n[wenn expCD46136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu, oder lehnen Sie diese ab?\n\nWenn Eltern einen Vertrag schließen, dass der Vater bei einer Scheidung kein Geld für das Kind zahlen muss (Unterhalt), dann sollte dieser Vertrag nach einer Scheidung nicht gültig sein.",
+          "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "description": "Befragte wurden in W45 in zwei Gruppen geteilt (expCD45136). Wenn expCD45136 = missing: Befragte zufällig in zwei Gruppen aufteilen und Zuteilung in separater Variable expCD46136 ablegen. Wenn expCD45136 != missing: Wert aus expCD45136 für expCD46136 übernehmen. Reihenfolge der Items CD46143, CD46144, CD46145, CD46146 und CD46147 randomisieren und Randomisierung in separater Variable rndCD46143 speichern.\nEs gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "Ich stimme dieser Aussage zu"
+            },
+            {
+              "value": 1,
+              "label": "Ich lehne diese Aussage ab"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 23,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 25": {
+      "question": "Page 25",
+      "name": "Page 25",
+      "label": "[wenn expCD46136 = 1: ]\n[wenn expCD46136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu, oder lehnen Sie diese ab?\n\nGenerell muss der unerlaubte Umgang mit Cannabis bestraft werden, allerdings kann ein Verfahren eingestellt werden, wenn nur eine geringe Menge konsumiert wird.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn expCD46136 = 1: ]\n[wenn expCD46136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu, oder lehnen Sie diese ab?\n\nGenerell muss der unerlaubte Umgang mit Cannabis bestraft werden, allerdings kann ein Verfahren eingestellt werden, wenn nur eine geringe Menge konsumiert wird.",
+          "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "description": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "Ich stimme dieser Aussage zu"
+            },
+            {
+              "value": 1,
+              "label": "Ich lehne diese Aussage ab"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 24,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 26": {
+      "question": "Page 26",
+      "name": "Page 26",
+      "label": "[wenn expCD46136 = 1: ]\n[wenn expCD46136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu, oder lehnen Sie diese ab?\n\nDer heimliche Zugriff durch Behörden auf alle Daten eines Computers oder Handys berührt den persönlichen Lebensbereich. Deshalb ist so ein Zugriff nur zulässig, wenn von einer Person eine konkrete Gefahr für das Leben anderer ausgeht und der Zugriff von einem Gericht genehmigt wird.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn expCD46136 = 1: ]\n[wenn expCD46136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu, oder lehnen Sie diese ab?\n\nDer heimliche Zugriff durch Behörden auf alle Daten eines Computers oder Handys berührt den persönlichen Lebensbereich. Deshalb ist so ein Zugriff nur zulässig, wenn von einer Person eine konkrete Gefahr für das Leben anderer ausgeht und der Zugriff von einem Gericht genehmigt wird.",
+          "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "description": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "Ich stimme dieser Aussage zu"
+            },
+            {
+              "value": 1,
+              "label": "Ich lehne diese Aussage ab"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 25,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 27": {
+      "question": "Page 27",
+      "name": "Page 27",
+      "label": "[wenn expCD46136 = 1: ]\n[wenn expCD46136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu, oder lehnen Sie diese ab?\n\nWenn normale Angestellte der Deutschen Post rechtmäßig streiken, dann müssen Beamte der Deutschen Post mehr arbeiten, um die Arbeit der normalen Angestellten zu übernehmen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn expCD46136 = 1: ]\n[wenn expCD46136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu, oder lehnen Sie diese ab?\n\nWenn normale Angestellte der Deutschen Post rechtmäßig streiken, dann müssen Beamte der Deutschen Post mehr arbeiten, um die Arbeit der normalen Angestellten zu übernehmen.",
+          "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "description": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "Ich stimme dieser Aussage zu"
+            },
+            {
+              "value": 1,
+              "label": "Ich lehne diese Aussage ab"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 26,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 28": {
+      "question": "Page 28",
+      "name": "Page 28",
+      "label": "[wenn expCD46136 = 1: ]\n[wenn expCD46136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu, oder lehnen Sie diese ab?\n\nDie Kürzung einer Zusatzversorgung von ehemaligen Ministern der DDR, die ihnen auch für ihre Treue zum damaligen System gegeben wurde, ist gerechtfertigt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn expCD46136 = 1: ]\n[wenn expCD46136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu, oder lehnen Sie diese ab?\n\nDie Kürzung einer Zusatzversorgung von ehemaligen Ministern der DDR, die ihnen auch für ihre Treue zum damaligen System gegeben wurde, ist gerechtfertigt.",
+          "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "description": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "Ich stimme dieser Aussage zu"
+            },
+            {
+              "value": 1,
+              "label": "Ich lehne diese Aussage ab"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 27,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 29": {
+      "question": "Page 29",
+      "name": "Page 29",
+      "label": "[wenn expCD46136 = 1: ]\n[wenn expCD46136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu, oder lehnen Sie diese ab?\n\nJeder Mensch kann freiwillige Hilfe anderer in Anspruch nehmen, um selbstbestimmt zu sterben.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn expCD46136 = 1: ]\n[wenn expCD46136 = 2: Das Bundesverfassungsgericht muss viele rechtlich relevante Aussagen bewerten.]\n\nEinmal ganz generell gesprochen, wie bewerten Sie persönlich die folgende Aussage? Stimmen Sie der Aussage zu, oder lehnen Sie diese ab?\n\nJeder Mensch kann freiwillige Hilfe anderer in Anspruch nehmen, um selbstbestimmt zu sterben.",
+          "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "description": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "Ich stimme dieser Aussage zu"
+            },
+            {
+              "value": 1,
+              "label": "Ich lehne diese Aussage ab"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 28,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 30": {
+      "question": "Page 30",
+      "name": "Page 30",
+      "label": "[Wenn CD45139 als Erstes gezeigt wird:] \n[Wenn expCD46136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n[Wenn expCD46136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n\nWenn das Bundesverfassungsgericht anfangen würde, eine Vielzahl von Entscheidungen zu treffen, denen die meisten Menschen nicht zustimmen, wäre es vielleicht besser, das Bundesverfassungsgericht ganz abzuschaffen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn CD45139 als Erstes gezeigt wird:] \n[Wenn expCD46136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n[Wenn expCD46136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n\nWenn das Bundesverfassungsgericht anfangen würde, eine Vielzahl von Entscheidungen zu treffen, denen die meisten Menschen nicht zustimmen, wäre es vielleicht besser, das Bundesverfassungsgericht ganz abzuschaffen.",
+          "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "description": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Unentschieden"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme vollkommen zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 29,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 31": {
+      "question": "Page 31",
+      "name": "Page 31",
+      "label": "[Wenn CD45140 als Erstes gezeigt wird:] \n[Wenn expCD46136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n[Wenn expCD46136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n\nDas Bundesverfassungsgericht ist zu politisch.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn CD45140 als Erstes gezeigt wird:] \n[Wenn expCD46136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n[Wenn expCD46136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n\nDas Bundesverfassungsgericht ist zu politisch.",
+          "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "description": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Unentschieden"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme vollkommen zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 30,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 32": {
+      "question": "Page 32",
+      "name": "Page 32",
+      "label": "[Wenn CD45141 als Erstes gezeigt wird:] \n[Wenn expCD46136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n[Wenn expCD46136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n\nIn seinen Entscheidungen bevorzugt das Bundesverfassungsgericht einige Gruppen mehr als andere.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn CD45141 als Erstes gezeigt wird:] \n[Wenn expCD46136=1: Und nun kommen wir zu etwas Anderem. Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n[Wenn expCD46136=2: Denken Sie jetzt bitte einmal an das aktuelle Bundesverfassungsgericht. Sagen Sie uns bitte für jede der folgenden Aussagen inwieweit Sie diesen zustimmen oder nicht zustimmen.]\n\nIn seinen Entscheidungen bevorzugt das Bundesverfassungsgericht einige Gruppen mehr als andere.",
+          "instruction": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "description": "Es gibt kein richtig oder falsch. Wir sind ausschließlich an Ihrer persönlichen Meinung interessiert.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Unentschieden"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme vollkommen zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 31,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 33": {
+      "question": "Page 33",
+      "name": "Page 33",
+      "label": "[Wenn AK46034 als Erstes gezeigt wird: Im Folgenden finden Sie nun eine Reihe von öffentlichen Einrichtungen und Organisationen. \nGeben Sie bitte bei jeder Einrichtung oder Organisation an, wie groß das Vertrauen ist, das Sie ihr entgegenbringen. Benutzen Sie dazu bitte diese Skala: 1 bedeutet, dass Sie ihr überhaupt kein Vertrauen entgegenbringen; 7 bedeutet, dass Sie ihr sehr großes Vertrauen entgegenbringen. Mit den Zahlen dazwischen können Sie Ihre Meinung wiederum abstufen.]\n\nWie ist das mit der Bundesregierung?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn AK46034 als Erstes gezeigt wird: Im Folgenden finden Sie nun eine Reihe von öffentlichen Einrichtungen und Organisationen. \nGeben Sie bitte bei jeder Einrichtung oder Organisation an, wie groß das Vertrauen ist, das Sie ihr entgegenbringen. Benutzen Sie dazu bitte diese Skala: 1 bedeutet, dass Sie ihr überhaupt kein Vertrauen entgegenbringen; 7 bedeutet, dass Sie ihr sehr großes Vertrauen entgegenbringen. Mit den Zahlen dazwischen können Sie Ihre Meinung wiederum abstufen.]\n\nWie ist das mit der Bundesregierung?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Überhaupt kein Vertrauen"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7 Sehr großes Vertrauen"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 32,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 34": {
+      "question": "Page 34",
+      "name": "Page 34",
+      "label": "[Wenn AK46031 als Erstes gezeigt wird: Im Folgenden finden Sie nun eine Reihe von öffentlichen Einrichtungen und Organisationen. \n\nGeben Sie bitte bei jeder Einrichtung oder Organisation an, wie groß das Vertrauen ist, das Sie ihr entgegenbringen. Benutzen Sie dazu bitte diese Skala: 1 bedeutet, dass Sie ihr überhaupt kein Vertrauen entgegenbringen; 7 bedeutet, dass Sie ihr sehr großes Vertrauen entgegenbringen. Mit den Zahlen dazwischen können Sie Ihre Meinung wiederum abstufen.]\n\nWie ist das mit dem Bundesverfassungsgericht?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn AK46031 als Erstes gezeigt wird: Im Folgenden finden Sie nun eine Reihe von öffentlichen Einrichtungen und Organisationen. \n\nGeben Sie bitte bei jeder Einrichtung oder Organisation an, wie groß das Vertrauen ist, das Sie ihr entgegenbringen. Benutzen Sie dazu bitte diese Skala: 1 bedeutet, dass Sie ihr überhaupt kein Vertrauen entgegenbringen; 7 bedeutet, dass Sie ihr sehr großes Vertrauen entgegenbringen. Mit den Zahlen dazwischen können Sie Ihre Meinung wiederum abstufen.]\n\nWie ist das mit dem Bundesverfassungsgericht?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Überhaupt kein Vertrauen"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7 Sehr großes Vertrauen"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 33,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 35": {
+      "question": "Page 35",
+      "name": "Page 35",
+      "label": "Nun zu einem anderen Thema: In Deutschland sollen Bund und Länder in Zukunft keine neuen Schulden mehr machen. Dies könnte allerdings bedeuten, dass staatliche Leistungen gekürzt und/oder die Steuerbelastung der Menschen erhöht werden müssen.\n\nAb welchem Jahr sollten Bund und Länder Ihrer Meinung nach ganz ohne neue Schulden auskommen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nun zu einem anderen Thema: In Deutschland sollen Bund und Länder in Zukunft keine neuen Schulden mehr machen. Dies könnte allerdings bedeuten, dass staatliche Leistungen gekürzt und/oder die Steuerbelastung der Menschen erhöht werden müssen.\n\nAb welchem Jahr sollten Bund und Länder Ihrer Meinung nach ganz ohne neue Schulden auskommen?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ab 2020"
+            },
+            {
+              "value": 2,
+              "label": "ab 2021"
+            },
+            {
+              "value": 3,
+              "label": "ab 2025"
+            },
+            {
+              "value": 4,
+              "label": "ab 2030"
+            },
+            {
+              "value": 5,
+              "label": "nach 2030"
+            },
+            {
+              "value": 6,
+              "label": "überhaupt nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 34,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 36": {
+      "question": "Page 36",
+      "name": "Page 36",
+      "label": "Die sogenannte Schuldenbremse verbietet es der Bundesregierung ab 2016 fast vollständig, neue Schulden zu machen. Die Bundesländer dürfen gemäß der Schuldenbremse ab 2020 überhaupt keine neuen Schulden mehr machen.\n\nWie finden Sie die Schuldenbremse?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Die sogenannte Schuldenbremse verbietet es der Bundesregierung ab 2016 fast vollständig, neue Schulden zu machen. Die Bundesländer dürfen gemäß der Schuldenbremse ab 2020 überhaupt keine neuen Schulden mehr machen.\n\nWie finden Sie die Schuldenbremse?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 3,
+              "label": "eher gut"
+            },
+            {
+              "value": 4,
+              "label": "weder gut noch schlecht"
+            },
+            {
+              "value": 5,
+              "label": "eher schlecht"
+            },
+            {
+              "value": 6,
+              "label": "schlecht"
+            },
+            {
+              "value": 7,
+              "label": "sehr schlecht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 35,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 37": {
+      "question": "Page 37",
+      "name": "Page 37",
+      "label": "Ein Bundesland kommt ohne neue Schulden aus, wenn es alle seine Ausgaben mit Einnahmen aus Steuern und Abgaben bezahlen kann.\n\nFür wie wahrscheinlich halten Sie es, dass das Bundesland, in dem Sie Ihren Hauptwohnsitz haben, ab 2020 ohne neue Schulden auskommt?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Bundesland kommt ohne neue Schulden aus, wenn es alle seine Ausgaben mit Einnahmen aus Steuern und Abgaben bezahlen kann.\n\nFür wie wahrscheinlich halten Sie es, dass das Bundesland, in dem Sie Ihren Hauptwohnsitz haben, ab 2020 ohne neue Schulden auskommt?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr wahrscheinlich"
+            },
+            {
+              "value": 2,
+              "label": "wahrscheinlich"
+            },
+            {
+              "value": 3,
+              "label": "eher wahrscheinlich"
+            },
+            {
+              "value": 4,
+              "label": "eher unwahrscheinlich"
+            },
+            {
+              "value": 5,
+              "label": "unwahrscheinlich"
+            },
+            {
+              "value": 6,
+              "label": "sehr unwahrscheinlich"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 36,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 38": {
+      "question": "Page 38",
+      "name": "Page 38",
+      "label": "[wenn expCF46004 = Gruppe 1: Angenommen, ein anderes Bundesland hält sich nicht an die Schuldenbremse und macht neue Schulden.] \n[wenn expCF46004 = Gruppe 2: Angenommen, drei andere Bundesländer halten sich nicht an die Schuldenbremse und machen neue Schulden.] \n[wenn expCF46004 = Gruppe 3: Angenommen, fünf andere Bundesländer halten sich nicht an die Schuldenbremse und machen neue Schulden.] \n[wenn expCF46004 = Gruppe 4: Angenommen, acht andere Bundesländer halten sich nicht an die Schuldenbremse und machen neue Schulden.] \n[wenn expCF46004 = Gruppe 5: Angenommen, elf andere Bundesländer halten sich nicht an die Schuldenbremse und machen neue Schulden.] \n[wenn expCF46004 = Gruppe 6: Angenommen, alle anderen Bundesländer halten sich an die Schuldenbremse und machen keine neuen Schulden.]\n\nWie würden Sie es finden, wenn sich das Bundesland, in dem Sie Ihren Hauptwohnsitz haben, unter diesen Umständen an die Schuldenbremse hält?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn expCF46004 = Gruppe 1: Angenommen, ein anderes Bundesland hält sich nicht an die Schuldenbremse und macht neue Schulden.] \n[wenn expCF46004 = Gruppe 2: Angenommen, drei andere Bundesländer halten sich nicht an die Schuldenbremse und machen neue Schulden.] \n[wenn expCF46004 = Gruppe 3: Angenommen, fünf andere Bundesländer halten sich nicht an die Schuldenbremse und machen neue Schulden.] \n[wenn expCF46004 = Gruppe 4: Angenommen, acht andere Bundesländer halten sich nicht an die Schuldenbremse und machen neue Schulden.] \n[wenn expCF46004 = Gruppe 5: Angenommen, elf andere Bundesländer halten sich nicht an die Schuldenbremse und machen neue Schulden.] \n[wenn expCF46004 = Gruppe 6: Angenommen, alle anderen Bundesländer halten sich an die Schuldenbremse und machen keine neuen Schulden.]\n\nWie würden Sie es finden, wenn sich das Bundesland, in dem Sie Ihren Hauptwohnsitz haben, unter diesen Umständen an die Schuldenbremse hält?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Befragte zufällig auf sechs Gruppen aufteilen. \n- 1/6 der Befragten bekommen Treatment 1 (Gruppe 1). \n- 1/6 der Befragten bekommen Treatment 2 (Gruppe 2). \n- 1/6 der Befragten bekommen Treatment 3 (Gruppe 3). \n- 1/6 der Befragten bekommen Treatment 4 (Gruppe 4). \n- 1/6 der Befragten bekommen Treatment 5 (Gruppe 5). \n- 1/6 der Befragten bekommen Treatment 6 (Gruppe 6). \nZuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expCF46004 speichern.\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 3,
+              "label": "eher gut"
+            },
+            {
+              "value": 4,
+              "label": "weder gut noch schlecht"
+            },
+            {
+              "value": 5,
+              "label": "eher schlecht"
+            },
+            {
+              "value": 6,
+              "label": "schlecht"
+            },
+            {
+              "value": 7,
+              "label": "sehr schlecht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 37,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 39": {
+      "question": "Page 39",
+      "name": "Page 39",
+      "label": "Welcher der hier aufgeführten Faktoren macht die Einkommensteuer Ihrer Meinung nach insbesondere kompliziert?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welcher der hier aufgeführten Faktoren macht die Einkommensteuer Ihrer Meinung nach insbesondere kompliziert?",
+          "instruction": "Bei dieser Frage können Sie mehrere Antworten geben.",
+          "description": "Bei dieser Frage können Sie mehrere Antworten geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Umfang der Dokumentationspflichten",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Befürchtung, bei der Steuererklärung etwas Wichtiges zu vergessen",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Befürchtung, bei der Steuererklärung etwas falsch auszufüllen",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Unterschiedliche Steuersätze im Einkommenssteuertarif",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Sonstiges:",
+          "scale": "chr",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Keiner",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Weiß nicht",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        }
+      ],
+      "sn": 38,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 40": {
+      "question": "Page 40",
+      "name": "Page 40",
+      "label": "Im deutschen System der Einkommensteuer existieren Abzugsmöglichkeiten und Freibeträge. Was ist Ihrer Meinung nach das vorrangige Ziel der derzeit existierenden Abzugsmöglichkeiten und Freibeträge?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im deutschen System der Einkommensteuer existieren Abzugsmöglichkeiten und Freibeträge. Was ist Ihrer Meinung nach das vorrangige Ziel der derzeit existierenden Abzugsmöglichkeiten und Freibeträge?",
+          "instruction": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "description": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 39,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 41": {
+      "question": "Page 41",
+      "name": "Page 41",
+      "label": "Falls Sie über die Gestaltung der Abzugsmöglichkeiten und Freibeträge in der deutschen Einkommenssteuer entscheiden könnten: \nFür welchen Zweck würden Sie diese Ausnahmen und Abzugsmöglichkeiten hauptsächlich einsetzen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Falls Sie über die Gestaltung der Abzugsmöglichkeiten und Freibeträge in der deutschen Einkommenssteuer entscheiden könnten: \nFür welchen Zweck würden Sie diese Ausnahmen und Abzugsmöglichkeiten hauptsächlich einsetzen?",
+          "instruction": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "description": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 40,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 42": {
+      "question": "Page 42",
+      "name": "Page 42",
+      "label": "Bitte nennen Sie alle gegenwärtigen Abzugsmöglichkeiten und Freibeträge im deutschen Einkommenssteuersystem, die Ihnen einfallen. Es ist dabei in Ordnung, falls Sie nicht den offiziellen Fachbegriff für die jeweilige Abzugsmöglichkeit oder den jeweiligen Freibetrag verwenden. Sie können die entsprechenden Sachverhalte auch gerne in Ihren eigenen Worten beschreiben.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte nennen Sie alle gegenwärtigen Abzugsmöglichkeiten und Freibeträge im deutschen Einkommenssteuersystem, die Ihnen einfallen. Es ist dabei in Ordnung, falls Sie nicht den offiziellen Fachbegriff für die jeweilige Abzugsmöglichkeit oder den jeweiligen Freibetrag verwenden. Sie können die entsprechenden Sachverhalte auch gerne in Ihren eigenen Worten beschreiben.",
+          "instruction": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "description": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 41,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 43": {
+      "question": "Page 43",
+      "name": "Page 43",
+      "label": "Im Folgenden sind fünf oft genutzte Abzugsmöglichkeiten und Freibeträge im deutschen Einkommenssteuersystem aufgelistet. Bitte ordnen Sie diese danach, ob sie Ihrer Meinung nach das Steuersystem gerechter machen. Ordnen Sie die fünf Fälle in absteigender Reihenfolge und fangen mit den Fällen an, die Ihrer Meinung nach am ehesten einem gerechten Einkommenssteuersystem dienen.\n\nTragen Sie daher für die Abzugsmöglichkeit bzw. den Freibetrag, der Ihrer Meinung nach am Wichtigsten für ein gerechtes Steuersystem ist eine 1 ein. Bei den Ihrer Meinung nach zweit-, dritt-, und viertwichtigsten Abzugsmöglichkeiten bzw. Freibeträgen tragen Sie bitte eine 2, 3 und 4 ein. Bei der am wenigsten wichtigen Abzugsmöglichkeit bzw. dem am wenigsten wichtigen Freibetrag tragen Sie bitte eine 5 ein.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden sind fünf oft genutzte Abzugsmöglichkeiten und Freibeträge im deutschen Einkommenssteuersystem aufgelistet. Bitte ordnen Sie diese danach, ob sie Ihrer Meinung nach das Steuersystem gerechter machen. Ordnen Sie die fünf Fälle in absteigender Reihenfolge und fangen mit den Fällen an, die Ihrer Meinung nach am ehesten einem gerechten Einkommenssteuersystem dienen.\n\nTragen Sie daher für die Abzugsmöglichkeit bzw. den Freibetrag, der Ihrer Meinung nach am Wichtigsten für ein gerechtes Steuersystem ist eine 1 ein. Bei den Ihrer Meinung nach zweit-, dritt-, und viertwichtigsten Abzugsmöglichkeiten bzw. Freibeträgen tragen Sie bitte eine 2, 3 und 4 ein. Bei der am wenigsten wichtigen Abzugsmöglichkeit bzw. dem am wenigsten wichtigen Freibetrag tragen Sie bitte eine 5 ein.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ausgaben, die im Zusammenhang mit der beruflichen Tätigkeit stehen (z.B. Kosten für den Fahrtweg zur Arbeit)",
+          "scale": "int",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Spenden für gemeinnützige Zwecke oder politische Parteien",
+          "scale": "int",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Vorsorgeaufwendungen für Rente und/oder gesetzliche Rentenversicherung",
+          "scale": "int",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Kosten für die Pflege von Angehörigen",
+          "scale": "int",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Kinderfreibeträge",
+          "scale": "int",
+          "sn": 5,
+          "number": ""
+        }
+      ],
+      "sn": 42,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 44": {
+      "question": "Page 44",
+      "name": "Page 44",
+      "label": "Stellen Sie sich zwei Personen A und B vor. Welche Person sollte Ihrer Ansicht nach in der folgenden Situation mehr Steuern zahlen?\n\n[wenn expCF46084 = 1: Person A hat einen sehr langen Weg zur Arbeit. Person B's Arbeitsplatz ist sehr nah am Wohnort gelegen. Beide Personen verfügen über das gleiche Bruttoarbeitseinkommen und sind sich auch sonst sehr ähnlich.]\n[wenn expCF46084 = 2: Person A wurde betriebsbedingt versetzt und hat seitdem einen sehr langen Weg zur Arbeit. Person B's Arbeitsplatz ist sehr nah am Wohnort gelegen. Beide Personen verfügen über das gleiche Bruttoarbeitseinkommen und sind sich auch sonst sehr ähnlich.]\n[wenn expCF46084 = 3: Die möglichen beruflichen Tätigkeiten in der Nähe des Wohnortes von Person A entsprechen nicht seinen Vorstellungen und seiner Qualifikation. Person A entscheidet sich daher für einen Arbeitsplatz mit einem sehr langen Weg zur Arbeit. Person B's Arbeitsplatz ist sehr nah am Wohnort gelegen. Beide Personen verfügen über das gleiche Bruttoarbeitseinkommen und sind sich auch sonst sehr ähnlich.]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich zwei Personen A und B vor. Welche Person sollte Ihrer Ansicht nach in der folgenden Situation mehr Steuern zahlen?\n\n[wenn expCF46084 = 1: Person A hat einen sehr langen Weg zur Arbeit. Person B's Arbeitsplatz ist sehr nah am Wohnort gelegen. Beide Personen verfügen über das gleiche Bruttoarbeitseinkommen und sind sich auch sonst sehr ähnlich.]\n[wenn expCF46084 = 2: Person A wurde betriebsbedingt versetzt und hat seitdem einen sehr langen Weg zur Arbeit. Person B's Arbeitsplatz ist sehr nah am Wohnort gelegen. Beide Personen verfügen über das gleiche Bruttoarbeitseinkommen und sind sich auch sonst sehr ähnlich.]\n[wenn expCF46084 = 3: Die möglichen beruflichen Tätigkeiten in der Nähe des Wohnortes von Person A entsprechen nicht seinen Vorstellungen und seiner Qualifikation. Person A entscheidet sich daher für einen Arbeitsplatz mit einem sehr langen Weg zur Arbeit. Person B's Arbeitsplatz ist sehr nah am Wohnort gelegen. Beide Personen verfügen über das gleiche Bruttoarbeitseinkommen und sind sich auch sonst sehr ähnlich.]",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Befragte zufällig auf drei Gruppen aufteilen. \n- 1/3 der Befragten bekommen Treatment 1 (Gruppe 1). \n- 1/3 der Befragten bekommen Treatment 2 (Gruppe 2). \n- 1/3 der Befragten bekommen Kontrollgruppe (Gruppe 3).\nZuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expCF46084 speichern.\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Person A sollte mehr Steuern zahlen"
+            },
+            {
+              "value": 2,
+              "label": "Person B sollte mehr Steuern zahlen"
+            },
+            {
+              "value": 3,
+              "label": "Person A und B sollten gleich viel Steuern zahlen"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 43,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 45": {
+      "question": "Page 45",
+      "name": "Page 45",
+      "label": "Welche der folgenden Abzugsmöglichkeiten und/oder Freibeträge nehmen Sie im Rahmen der Einkommensteuer für gewöhnlich in Anspruch?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche der folgenden Abzugsmöglichkeiten und/oder Freibeträge nehmen Sie im Rahmen der Einkommensteuer für gewöhnlich in Anspruch?",
+          "instruction": "Bitte geben Sie alle zutreffenden Abzugsmöglichkeiten oder Freibeträge an.",
+          "description": "Bitte geben Sie alle zutreffenden Abzugsmöglichkeiten oder Freibeträge an.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Doppelte Haushaltsführung",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Arbeitszimmer",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Pendlerpauschale (für den Weg zur Arbeit)",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Andere berufsbedingte Ausgaben (Werbungskosten)",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Vorsorgezahlungen für die Rente und/oder gesetzliche Rentenversicherung",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Ausbildungskosten (für mich selbst oder meine Kinder)",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Pflege von Angehörigen",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Kinderfreibeträge und/oder Kinderbetreuungskosten",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Spenden für gemeinnützige Zwecke oder politische Parteien",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Andere",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Ich nehme nur den Grundfreibetrag und die Pauschalabzüge in Anspruch",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text": "Weiß nicht",
+          "scale": "bin",
+          "sn": 12,
+          "number": ""
+        }
+      ],
+      "sn": 44,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 46": {
+      "question": "Page 46",
+      "name": "Page 46",
+      "label": "In den folgenden Fragen geht es um die Möglichkeit einer Besteuerung von zuckerhaltigen Getränken in Deutschland.\nMit zuckerhaltigen Getränken meinen wir:  \n• Limonaden, Cola und andere Soft-Drinks\n• Isotonische Sportgetränke\n• Eistee und kalte Kaffeemixgetränke\n• Energy Drinks\n• gesüßte Fruchtgetränke\n• zuckerhaltige Getränkepulver und –sirups\n\nMit zuckerhaltigen Getränken meinen wir nicht:\n• natürliche Säfte und Smoothies\n•  Milch\n• Light- oder Diät-Getränke",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "In den folgenden Fragen geht es um die Möglichkeit einer Besteuerung von zuckerhaltigen Getränken in Deutschland.\nMit zuckerhaltigen Getränken meinen wir:  \n• Limonaden, Cola und andere Soft-Drinks\n• Isotonische Sportgetränke\n• Eistee und kalte Kaffeemixgetränke\n• Energy Drinks\n• gesüßte Fruchtgetränke\n• zuckerhaltige Getränkepulver und –sirups\n\nMit zuckerhaltigen Getränken meinen wir nicht:\n• natürliche Säfte und Smoothies\n•  Milch\n• Light- oder Diät-Getränke",
+          "instruction": " ",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 45,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 47": {
+      "question": "Page 47",
+      "name": "Page 47",
+      "label": "Wenn Sie sich einmal mit anderen in Deutschland lebenden Erwachsenen vergleichen, wie gerne trinken Sie und wie sehr mögen Sie den Geschmack zuckerhaltiger Getränke?\nLassen Sie dabei für einen Moment Überlegungen zu guter Ernährung und gesundheitlichen Auswirkungen außen vor.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie sich einmal mit anderen in Deutschland lebenden Erwachsenen vergleichen, wie gerne trinken Sie und wie sehr mögen Sie den Geschmack zuckerhaltiger Getränke?\nLassen Sie dabei für einen Moment Überlegungen zu guter Ernährung und gesundheitlichen Auswirkungen außen vor.",
+          "instruction": "[u[Mit zuckerhaltigen Getränken meinen wir]u]: Limonaden, Cola und andere Soft-Drinks; Isotonische Sportgetränke; Eistee und kalte Kaffeemixgetränke; Energy Drinks; gesüßte Fruchtgetränke; zuckerhaltige Getränkepulver und -sirups.\n[u[Mit zuckerhaltigen Getränken meinen wir nicht]u]: natürliche Säfte und Smoothies, Milch sowie Light- oder Diät-Getränke.\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "[u[Mit zuckerhaltigen Getränken meinen wir]u]: Limonaden, Cola und andere Soft-Drinks; Isotonische Sportgetränke; Eistee und kalte Kaffeemixgetränke; Energy Drinks; gesüßte Fruchtgetränke; zuckerhaltige Getränkepulver und -sirups.\n[u[Mit zuckerhaltigen Getränken meinen wir nicht]u]: natürliche Säfte und Smoothies, Milch sowie Light- oder Diät-Getränke.\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Deutlich überdurchschnittlich"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "Durchschnittlich"
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Deutlich unterdurchschnittlich"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 46,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 48": {
+      "question": "Page 48",
+      "name": "Page 48",
+      "label": "Wenn Sie sich einmal mit anderen in Deutschland lebenden Erwachsenen vergleichen, wie wichtig ist es Ihnen, auf Ihre Gesundheit zu achten?\n\nAlso zum Beispiel auf ein gesundes Körpergewicht, die Vermeidung von Diabetes, Herzerkrankungen, usw.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie sich einmal mit anderen in Deutschland lebenden Erwachsenen vergleichen, wie wichtig ist es Ihnen, auf Ihre Gesundheit zu achten?\n\nAlso zum Beispiel auf ein gesundes Körpergewicht, die Vermeidung von Diabetes, Herzerkrankungen, usw.",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Deutlich überdurchschnittlich"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "Durchschnittlich"
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Deutlich unterdurchschnittlich"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 47,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 49": {
+      "question": "Page 49",
+      "name": "Page 49",
+      "label": "Wenn Sie sich einmal mit anderen in Deutschland lebenden Erwachsenen vergleichen, wie gut kennen Sie sich mit gesunder Ernährung aus?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie sich einmal mit anderen in Deutschland lebenden Erwachsenen vergleichen, wie gut kennen Sie sich mit gesunder Ernährung aus?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Deutlich überdurchschnittlich"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "Durchschnittlich"
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Deutlich unterdurchschnittlich"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 48,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 50": {
+      "question": "Page 50",
+      "name": "Page 50",
+      "label": "Bitte geben Sie an, inwieweit die folgende Aussage auf Sie zutrifft: \n\nIch trinke häufiger zuckerhaltige Getränke als ich eigentlich möchte.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, inwieweit die folgende Aussage auf Sie zutrifft: \n\nIch trinke häufiger zuckerhaltige Getränke als ich eigentlich möchte.",
+          "instruction": "Mit zuckerhaltigen Getränken meinen wir: Limonaden, Cola und andere Soft-Drinks; Isotonische Sportgetränke; Eistee und kalte Kaffeemixgetränke; Energy Drinks; gesüßte Fruchtgetränke; zuckerhaltige Getränkepulver und -sirups.\nMit zuckerhaltigen Getränken meinen wir nicht: natürliche Säfte und Smoothies, Milch sowie  Light- oder Diät-Getränke.\n\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Mit zuckerhaltigen Getränken meinen wir: Limonaden, Cola und andere Soft-Drinks; Isotonische Sportgetränke; Eistee und kalte Kaffeemixgetränke; Energy Drinks; gesüßte Fruchtgetränke; zuckerhaltige Getränkepulver und -sirups.\nMit zuckerhaltigen Getränken meinen wir nicht: natürliche Säfte und Smoothies, Milch sowie  Light- oder Diät-Getränke.\n\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 4,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 49,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 51": {
+      "question": "Page 51",
+      "name": "Page 51",
+      "label": "Bitte geben Sie an, inwieweit die folgende Aussage auf Sie zutrifft: \n\nDer durchschnittliche in Deutschland lebende Erwachsene trinkt häufiger zuckerhaltige Getränke als er/sie eigentlich möchte.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, inwieweit die folgende Aussage auf Sie zutrifft: \n\nDer durchschnittliche in Deutschland lebende Erwachsene trinkt häufiger zuckerhaltige Getränke als er/sie eigentlich möchte.",
+          "instruction": "Mit zuckerhaltigen Getränken meinen wir: Limonaden, Cola und andere Soft-Drinks; Isotonische Sportgetränke; Eistee und kalte Kaffeemixgetränke; Energy Drinks; gesüßte Fruchtgetränke; zuckerhaltige Getränkepulver und -sirups.\nMit zuckerhaltigen Getränken meinen wir nicht: natürliche Säfte und Smoothies, Milch sowie  Light- oder Diät-Getränke.\n\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Mit zuckerhaltigen Getränken meinen wir: Limonaden, Cola und andere Soft-Drinks; Isotonische Sportgetränke; Eistee und kalte Kaffeemixgetränke; Energy Drinks; gesüßte Fruchtgetränke; zuckerhaltige Getränkepulver und -sirups.\nMit zuckerhaltigen Getränken meinen wir nicht: natürliche Säfte und Smoothies, Milch sowie  Light- oder Diät-Getränke.\n\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 3,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 4,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 50,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 52": {
+      "question": "Page 52",
+      "name": "Page 52",
+      "label": "Stellen Sie sich vor, eine Steuer auf zuckerhaltige Getränke würde in Deutschland eingeführt. \n\nWie hoch, glauben Sie, wären Ihre zusätzlichen Ausgaben durch diese Steuer im Vergleich zu anderen in Deutschland lebenden Erwachsenen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich vor, eine Steuer auf zuckerhaltige Getränke würde in Deutschland eingeführt. \n\nWie hoch, glauben Sie, wären Ihre zusätzlichen Ausgaben durch diese Steuer im Vergleich zu anderen in Deutschland lebenden Erwachsenen?",
+          "instruction": "Mit zuckerhaltigen Getränken meinen wir: Limonaden, Cola und andere Soft-Drinks; Isotonische Sportgetränke; Eistee und kalte Kaffeemixgetränke; Energy Drinks; gesüßte Fruchtgetränke; zuckerhaltige Getränkepulver und -sirups.\nMit zuckerhaltigen Getränken meinen wir nicht: natürliche Säfte und Smoothies, Milch sowie  Light- oder Diät-Getränke.\n\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Mit zuckerhaltigen Getränken meinen wir: Limonaden, Cola und andere Soft-Drinks; Isotonische Sportgetränke; Eistee und kalte Kaffeemixgetränke; Energy Drinks; gesüßte Fruchtgetränke; zuckerhaltige Getränkepulver und -sirups.\nMit zuckerhaltigen Getränken meinen wir nicht: natürliche Säfte und Smoothies, Milch sowie  Light- oder Diät-Getränke.\n\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Deutlich überdurchschnittlich"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "Durchschnittlich"
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Deutlich unterdurchschnittlich"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 51,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 53": {
+      "question": "Page 53",
+      "name": "Page 53",
+      "label": "Stellen Sie sich vor, es gäbe eine Abstimmung über die Einführung einer Steuer auf zuckerhaltige Getränke. \n\nWelche Aspekte wären für Ihre Abstimmungsentscheidung ausschlaggebend?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich vor, es gäbe eine Abstimmung über die Einführung einer Steuer auf zuckerhaltige Getränke. \n\nWelche Aspekte wären für Ihre Abstimmungsentscheidung ausschlaggebend?",
+          "instruction": "Mit zuckerhaltigen Getränken meinen wir: Limonaden, Cola und andere Soft-Drinks; Isotonische Sportgetränke; Eistee und kalte Kaffeemixgetränke; Energy Drinks; gesüßte Fruchtgetränke; zuckerhaltige Getränkepulver und -sirups.\nMit zuckerhaltigen Getränken meinen wir nicht: natürliche Säfte und Smoothies, Milch sowie Light- oder Diät-Getränke.\n\nBitte wählen Sie Zutreffendes aus.",
+          "description": "Mit zuckerhaltigen Getränken meinen wir: Limonaden, Cola und andere Soft-Drinks; Isotonische Sportgetränke; Eistee und kalte Kaffeemixgetränke; Energy Drinks; gesüßte Fruchtgetränke; zuckerhaltige Getränkepulver und -sirups.\nMit zuckerhaltigen Getränken meinen wir nicht: natürliche Säfte und Smoothies, Milch sowie Light- oder Diät-Getränke.\n\nBitte wählen Sie Zutreffendes aus.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ob ich durch die Steuer zusätzliche Ausgaben hätte.",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Ob zusätzliche Steuereinnahmen sinnvoll eingesetzt würden.",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Ob ich meinen Konsum reduzieren und positive Auswirkungen auf meine Gesundheit spüren würde.",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Ob andere ihren Konsum reduzieren und positive Auswirkungen auf ihre Gesundheit spüren würden.",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Ob die Ausgaben für das Gesundheitssystem sinken würden.",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Ich finde, der Staat sollte sich in so etwas nicht einmischen.",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Sonstiges, und zwar:",
+          "scale": "chr",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Keiner",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Weiß nicht",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        }
+      ],
+      "sn": 52,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 54": {
+      "question": "Page 54",
+      "name": "Page 54",
+      "label": "Die CDU wählt am 25. April 2020 einen neuen Parteivorsitzenden.\n\nWen würden Sie als neuen Parteivorsitzenden der CDU bevorzugen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Die CDU wählt am 25. April 2020 einen neuen Parteivorsitzenden.\n\nWen würden Sie als neuen Parteivorsitzenden der CDU bevorzugen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Friedrich Merz"
+            },
+            {
+              "value": 2,
+              "label": "Armin Laschet"
+            },
+            {
+              "value": 3,
+              "label": "Norbert Röttgen"
+            },
+            {
+              "value": 4,
+              "label": "Jemand anderes und zwar: [answer field]"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 53,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 55": {
+      "question": "Page 55",
+      "name": "Page 55",
+      "label": "Wie sehr stimmen Sie der folgenden Aussage zu?\n\nUm dauerhaft erfolgreich zu sein, muss die CDU konservativer werden, selbst wenn sie dadurch Stimmen moderater Wähler verliert.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sehr stimmen Sie der folgenden Aussage zu?\n\nUm dauerhaft erfolgreich zu sein, muss die CDU konservativer werden, selbst wenn sie dadurch Stimmen moderater Wähler verliert.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 weder noch"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7 stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 54,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 56": {
+      "question": "Page 56",
+      "name": "Page 56",
+      "label": "Wie sehr stimmen Sie der folgenden Aussage zu?\n\nDie CDU sollte generell eine Zusammenarbeit mit der AfD ausschließen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sehr stimmen Sie der folgenden Aussage zu?\n\nDie CDU sollte generell eine Zusammenarbeit mit der AfD ausschließen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 stimme voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "2 stimme zu"
+            },
+            {
+              "value": 3,
+              "label": "3 stimme eher zu"
+            },
+            {
+              "value": 4,
+              "label": "4 weder noch"
+            },
+            {
+              "value": 5,
+              "label": "5 stimme eher nicht zu"
+            },
+            {
+              "value": 6,
+              "label": "6 stimme nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7 stimme überhaupt nicht zu"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 55,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 57": {
+      "question": "Page 57",
+      "name": "Page 57",
+      "label": "Wie sehr stimmen Sie der folgenden Aussage zu?\n\nDie CDU sollte generell eine Zusammenarbeit mit der Partei Die Linke ausschließen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sehr stimmen Sie der folgenden Aussage zu?\n\nDie CDU sollte generell eine Zusammenarbeit mit der Partei Die Linke ausschließen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 stimme voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "2 stimme zu"
+            },
+            {
+              "value": 3,
+              "label": "3 stimme eher zu"
+            },
+            {
+              "value": 4,
+              "label": "4 weder noch"
+            },
+            {
+              "value": 5,
+              "label": "5 stimme eher nicht zu"
+            },
+            {
+              "value": 6,
+              "label": "6 stimme nicht zu"
+            },
+            {
+              "value": 7,
+              "label": "7 stimme überhaupt nicht zu"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 56,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 58": {
+      "question": "Page 58",
+      "name": "Page 58",
+      "label": "Kommen wir nun zu einem anderen Thema. \nAm 5. Februar 2020 wurde Thomas Kemmerich (FDP) zum Ministerpräsidenten von Thüringen gewählt. Seine Wahl wurde auch durch Stimmen der AfD ermöglicht.\n\nHalten Sie es für problematisch, dass Thomas Kemmerich unter anderem mit den Stimmen der AfD zum Ministerpräsidenten von Thüringen gewählt wurde?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Kommen wir nun zu einem anderen Thema. \nAm 5. Februar 2020 wurde Thomas Kemmerich (FDP) zum Ministerpräsidenten von Thüringen gewählt. Seine Wahl wurde auch durch Stimmen der AfD ermöglicht.\n\nHalten Sie es für problematisch, dass Thomas Kemmerich unter anderem mit den Stimmen der AfD zum Ministerpräsidenten von Thüringen gewählt wurde?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht problematisch"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 weder problematisch noch unproblematisch"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7 sehr problematisch"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 57,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 59": {
+      "question": "Page 59",
+      "name": "Page 59",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "interessant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 58,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 60": {
+      "question": "Page 60",
+      "name": "Page 60",
+      "label": "Fanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "abwechslungsreich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 59,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 61": {
+      "question": "Page 61",
+      "name": "Page 61",
+      "label": "Fanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "relevant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 60,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 62": {
+      "question": "Page 62",
+      "name": "Page 62",
+      "label": "Fanden Sie den Fragebogen …?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Fanden Sie den Fragebogen …?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "lang",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 61,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 63": {
+      "question": "Page 63",
+      "name": "Page 63",
+      "label": "Fanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "schwierig",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 62,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 64": {
+      "question": "Page 64",
+      "name": "Page 64",
+      "label": "Fanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "zu persönlich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 63,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 65": {
+      "question": "Page 65",
+      "name": "Page 65",
+      "label": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut"
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 64,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 66": {
+      "question": "Page 66",
+      "name": "Page 66",
+      "label": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de“>info@gesellschaft-im-wandel.de",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de“>info@gesellschaft-im-wandel.de",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 65,
+      "instrument": "W46",
+      "study": "gip"
+    },
+    "Page 67 Outro": {
+      "question": "Page 67 Outro",
+      "name": "Page 67 Outro",
+      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\n\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\n\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\n\nIhr Forschungsteam von der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\n\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\n\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\n\nIhr Forschungsteam von der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 66,
+      "instrument": "W46",
+      "study": "gip"
+    }
+  }
+}

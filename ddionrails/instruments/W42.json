@@ -1,0 +1,5643 @@
+{
+  "study": "gip",
+  "name": "W42",
+  "label": "GIP Wave 42",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 42 enthält folgende zugespielte Variablen:\n• [i[id_g]i] - Unique ID, GIP\n• [i[hhid_g]i] - Household identifyer, GIP\n• [i[pid]i] - Person identifyer (within HH)\n• [i[gender_19]i] - gender\n• [i[year_of_birth_cat_19]i] - year of birth categories\n• [i[educ_school_19]i] - highest educational degree\n• [i[educ_job_19]i] - highest professional qualification\n• [i[marital_status_19]i] - marital status\n• [i[number_hh_members_19]i] - number of household members\n• [i[occupation_19]i] - employment status\n• [i[german_citizenship_19]i] - german citizenship\n• [i[internet_usage_19]i] - private internet usage\n• [i[state_19]i] - residence state\n• [i[sample]i] - year of recruitment\n• [i[dDatum]i] - Interview-Datum\n• [i[online_status_wave]i] - current online status",
+  "analysis_unit": "p",
+  "period": "2019/07",
+  "instrument": "W42",
+  "questions": {
+    "Page 1 Introduction ": {
+      "question": "Page 1 Introduction ",
+      "name": "Page 1 Introduction ",
+      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline        anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline        anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 2": {
+      "question": "Page 2",
+      "name": "Page 2",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nWichtige politische Fragen kann ich gut verstehen und einschätzen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nWichtige politische Fragen kann ich gut verstehen und einschätzen.",
+          "description": "Befragte zufällig in 2 gleiche Gruppen aufteilen:\n1/2 bekommt AJ42043 bis AJ42046 (Gruppe 1)\n1/2 bekommt AJ42070 bis AJ42049 (Gruppe 2)\nZuteilung zu den Experimentalgruppen in separater Variable expAJ42043  speichern.",
+          "filter": "expAJ42043 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme zu"
+            },
+            {
+              "value": 3,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 4,
+              "label": "Stimme nicht zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 3": {
+      "question": "Page 3",
+      "name": "Page 3",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nDie Politiker bemühen sich um einen engen Kontakt zur Bevölkerung.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nDie Politiker bemühen sich um einen engen Kontakt zur Bevölkerung.",
+          "filter": "expAJ42043 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme zu"
+            },
+            {
+              "value": 3,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 4,
+              "label": "Stimme nicht zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 4": {
+      "question": "Page 4",
+      "name": "Page 4",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nIch traue mir zu, mich an einem Gespräch über politische Fragen aktiv zu beteiligen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nIch traue mir zu, mich an einem Gespräch über politische Fragen aktiv zu beteiligen.",
+          "filter": "expAJ42043 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme zu"
+            },
+            {
+              "value": 3,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 4,
+              "label": "Stimme nicht zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 5": {
+      "question": "Page 5",
+      "name": "Page 5",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nDie Politiker kümmern sich darum, was Leute wie ich denken.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nDie Politiker kümmern sich darum, was Leute wie ich denken.",
+          "filter": "expAJ42043 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme zu"
+            },
+            {
+              "value": 3,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 4,
+              "label": "Stimme nicht zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 6": {
+      "question": "Page 6",
+      "name": "Page 6",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nWichtige politische Fragen kann ich gut verstehen und einschätzen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nWichtige politische Fragen kann ich gut verstehen und einschätzen.",
+          "filter": "expAJ42043 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 2,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": 3,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 4,
+              "label": "Stimme zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 7": {
+      "question": "Page 7",
+      "name": "Page 7",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nDie Politiker bemühen sich um einen engen Kontakt zur Bevölkerung.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nDie Politiker bemühen sich um einen engen Kontakt zur Bevölkerung.",
+          "filter": "expAJ42043 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 2,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": 3,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 4,
+              "label": "Stimme zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 8": {
+      "question": "Page 8",
+      "name": "Page 8",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nIch traue mir zu, mich an einem Gespräch über politische Fragen aktiv zu beteiligen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nIch traue mir zu, mich an einem Gespräch über politische Fragen aktiv zu beteiligen.",
+          "filter": "expAJ42043= 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 2,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": 3,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 4,
+              "label": "Stimme zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 9": {
+      "question": "Page 9",
+      "name": "Page 9",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nDie Politiker kümmern sich darum, was Leute wie ich denken.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nDie Politiker kümmern sich darum, was Leute wie ich denken.",
+          "filter": "expAJ42043= 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 2,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": 3,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 4,
+              "label": "Stimme zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 10": {
+      "question": "Page 10",
+      "name": "Page 10",
+      "label": "Wie stark interessieren Sie sich im Allgemeinen für Politik?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie stark interessieren Sie sich im Allgemeinen für Politik?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr stark"
+            },
+            {
+              "value": 2,
+              "label": "Stark"
+            },
+            {
+              "value": 3,
+              "label": "Mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "Wenig"
+            },
+            {
+              "value": 5,
+              "label": "Überhaupt nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 11": {
+      "question": "Page 11",
+      "name": "Page 11",
+      "label": "Wie wichtig sind Umweltthemen für Sie?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie wichtig sind Umweltthemen für Sie?",
+          "description": "Befragte zufällig in 2 gleiche Gruppen aufteilen:\n1/5 bekommt ZF42137, ZF42138 (Gruppe 1)\n1/5 bekommt ZF42139, ZF42141 (Gruppe 2)\n1/5 bekommt ZF42139, ZF42143 (Gruppe 3)\n1/5 bekommt ZF42140, ZF42142 (Gruppe 4)\n1/5 bekommt ZF42140, ZF42144 (Gruppe 5)\nZuteilung zu den Experimentalgruppen in separater Variable expZF42137 speichern.",
+          "filter": "expZF42137 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Äußerst"
+            },
+            {
+              "value": 2,
+              "label": "Ziemlich"
+            },
+            {
+              "value": 3,
+              "label": "Einigermaßen"
+            },
+            {
+              "value": 4,
+              "label": "Kaum"
+            },
+            {
+              "value": 5,
+              "label": "Gar nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 12": {
+      "question": "Page 12",
+      "name": "Page 12",
+      "label": "Wie wichtig sind Geschlechterthemen für Sie?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie wichtig sind Geschlechterthemen für Sie?",
+          "filter": "expZF42137 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Äußerst"
+            },
+            {
+              "value": 2,
+              "label": "Ziemlich"
+            },
+            {
+              "value": 3,
+              "label": "Einigermaßen"
+            },
+            {
+              "value": 4,
+              "label": "Kaum"
+            },
+            {
+              "value": 5,
+              "label": "Gar nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 13": {
+      "question": "Page 13",
+      "name": "Page 13",
+      "label": "Unten sehen Sie fünf Wörter. Bitte versuchen Sie sich diese Wörter zu merken.\n\nKaum, einigermaßen, sehr, nicht, ziemlich",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Unten sehen Sie fünf Wörter. Bitte versuchen Sie sich diese Wörter zu merken.\n\nKaum, einigermaßen, sehr, nicht, ziemlich",
+          "filter": "expZF42137 = 2,3",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 14": {
+      "question": "Page 14",
+      "name": "Page 14",
+      "label": "Unten sehen Sie fünf Zahlen. Bitte versuchen Sie sich diese Zahlen zu merken.\n\n5, 9, 2, 0, 6",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Unten sehen Sie fünf Zahlen. Bitte versuchen Sie sich diese Zahlen zu merken.\n\n5, 9, 2, 0, 6",
+          "filter": "expZF42137 = 4,5",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 15": {
+      "question": "Page 15",
+      "name": "Page 15",
+      "label": "Erinnern Sie sich bitte jetzt an die Liste mit den fünf Wörtern. Geben Sie bitte alle Wörter in das Feld ein (durch Kommas getrennt), an die Sie sich erinnern.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Erinnern Sie sich bitte jetzt an die Liste mit den fünf Wörtern. Geben Sie bitte alle Wörter in das Feld ein (durch Kommas getrennt), an die Sie sich erinnern.",
+          "instruction": "Die Reihenfolge spielt dabei keine Rolle.",
+          "description": "Die Reihenfolge spielt dabei keine Rolle.",
+          "filter": "expZF42137 = 2",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 16": {
+      "question": "Page 16",
+      "name": "Page 16",
+      "label": "Erinnern Sie sich bitte jetzt an die Liste mit den fünf Zahlen. Geben Sie bitte alle Zahlen in das Feld ein (durch Kommas getrennt), an die Sie sich erinnern.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Erinnern Sie sich bitte jetzt an die Liste mit den fünf Zahlen. Geben Sie bitte alle Zahlen in das Feld ein (durch Kommas getrennt), an die Sie sich erinnern.",
+          "instruction": "Die Reihenfolge spielt dabei keine Rolle.",
+          "description": "Die Reihenfolge spielt dabei keine Rolle.",
+          "filter": "expZF42137 = 4",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 17": {
+      "question": "Page 17",
+      "name": "Page 17",
+      "label": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich mehr oder weniger zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch schenke anderen leicht Vertrauen, glaube an das Gute im Menschen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich mehr oder weniger zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch schenke anderen leicht Vertrauen, glaube an das Gute im Menschen.",
+          "description": "Befragte in 4 gleiche Gruppen aufteilen:\n1/4 bekommt AA42045_1, AA42048_1, AA42050_1, AA42053_1 (Gruppe 1)\n1/4 bekommt AA42045_2, AA42048_2, AA42050_2, AA42053_2 (Gruppe 2)\n1/4 bekommt AA42045_3, AA42048_3, AA42050_3, AA42053_3 (Gruppe 3)\n1/4 bekommt AA42045_4, AA42048_4, AA42050_4, AA42053_4 (Gruppe 4)\nZuteilung zu den Experimentalgruppen in separater Variable expAA42045 speichern.",
+          "filter": "expAA42045 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 3,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 18": {
+      "question": "Page 18",
+      "name": "Page 18",
+      "label": "Bitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch habe nur wenig künstlerisches Interesse.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch habe nur wenig künstlerisches Interesse.",
+          "filter": "expAA42045 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 3,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 19": {
+      "question": "Page 19",
+      "name": "Page 19",
+      "label": "Bitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch neige dazu, andere zu kritisieren.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch neige dazu, andere zu kritisieren.",
+          "filter": "expAA42045= 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 3,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 18,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 20": {
+      "question": "Page 20",
+      "name": "Page 20",
+      "label": "Bitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch habe eine aktive Vorstellungskraft, bin fantasievoll.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch habe eine aktive Vorstellungskraft, bin fantasievoll.",
+          "filter": "expAA42045 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 3,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 19,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 21": {
+      "question": "Page 21",
+      "name": "Page 21",
+      "label": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich mehr oder weniger zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch schenke anderen leicht Vertrauen, glaube an das Gute im Menschen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich mehr oder weniger zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch schenke anderen leicht Vertrauen, glaube an das Gute im Menschen.",
+          "filter": "expAA42045 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 3,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 20,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 22": {
+      "question": "Page 22",
+      "name": "Page 22",
+      "label": "Bitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch habe nur wenig künstlerisches Interesse.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch habe nur wenig künstlerisches Interesse.",
+          "filter": "expAA42045 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 3,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 21,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 23": {
+      "question": "Page 23",
+      "name": "Page 23",
+      "label": "Bitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch neige dazu, andere zu kritisieren.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch neige dazu, andere zu kritisieren.",
+          "filter": "expAA42045 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 3,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 22,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 24": {
+      "question": "Page 24",
+      "name": "Page 24",
+      "label": "Bitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch habe eine aktive Vorstellungskraft, bin fantasievoll.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.\n\nIch habe eine aktive Vorstellungskraft, bin fantasievoll.",
+          "filter": "expAA42045 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "Trifft eher zu"
+            },
+            {
+              "value": 3,
+              "label": "Kommt drauf an"
+            },
+            {
+              "value": 4,
+              "label": "Trifft eher nicht zu"
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 23,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 25": {
+      "question": "Page 25",
+      "name": "Page 25",
+      "label": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich zutreffen oder nicht zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch schenke anderen leicht Vertrauen, glaube an das Gute im Menschen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich zutreffen oder nicht zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch schenke anderen leicht Vertrauen, glaube an das Gute im Menschen.",
+          "filter": "expAA42045 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Vollkommen zutreffend"
+            },
+            {
+              "value": 2,
+              "label": "Eher zutreffend"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Eher unzutreffend"
+            },
+            {
+              "value": 5,
+              "label": "Vollkommen unzutreffend"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 24,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 26": {
+      "question": "Page 26",
+      "name": "Page 26",
+      "label": "Bitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch habe nur wenig künstlerisches Interesse.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch habe nur wenig künstlerisches Interesse.",
+          "filter": "expAA42045 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Vollkommen zutreffend"
+            },
+            {
+              "value": 2,
+              "label": "Eher zutreffend"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Eher unzutreffend"
+            },
+            {
+              "value": 5,
+              "label": "Vollkommen unzutreffend"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 25,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 27": {
+      "question": "Page 27",
+      "name": "Page 27",
+      "label": "Bitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch neige dazu, andere zu kritisieren.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch neige dazu, andere zu kritisieren.",
+          "filter": "expAA4245 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Vollkommen zutreffend"
+            },
+            {
+              "value": 2,
+              "label": "Eher zutreffend"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Eher unzutreffend"
+            },
+            {
+              "value": 5,
+              "label": "Vollkommen unzutreffend"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 26,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 28": {
+      "question": "Page 28",
+      "name": "Page 28",
+      "label": "Bitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch habe eine aktive Vorstellungskraft, bin fantasievoll.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch habe eine aktive Vorstellungskraft, bin fantasievoll.",
+          "filter": "expAA42045 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Vollkommen zutreffend"
+            },
+            {
+              "value": 2,
+              "label": "Eher zutreffend"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Eher unzutreffend"
+            },
+            {
+              "value": 5,
+              "label": "Vollkommen unzutreffend"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 27,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 29": {
+      "question": "Page 29",
+      "name": "Page 29",
+      "label": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich zutreffen oder nicht zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch schenke anderen leicht Vertrauen, glaube an das Gute im Menschen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich zutreffen oder nicht zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch schenke anderen leicht Vertrauen, glaube an das Gute im Menschen.",
+          "filter": "expAA42045 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Vollkommen zutreffend"
+            },
+            {
+              "value": 2,
+              "label": "Eher zutreffend"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Eher unzutreffend"
+            },
+            {
+              "value": 5,
+              "label": "Vollkommen unzutreffend"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 28,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 30": {
+      "question": "Page 30",
+      "name": "Page 30",
+      "label": "Bitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch habe nur wenig künstlerisches Interesse.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch habe nur wenig künstlerisches Interesse.",
+          "filter": "expAA42045 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Vollkommen zutreffend"
+            },
+            {
+              "value": 2,
+              "label": "Eher zutreffend"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Eher unzutreffend"
+            },
+            {
+              "value": 5,
+              "label": "Vollkommen unzutreffend"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 29,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 31": {
+      "question": "Page 31",
+      "name": "Page 31",
+      "label": "Bitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch neige dazu, andere zu kritisieren.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch neige dazu, andere zu kritisieren.",
+          "filter": "expAA42045 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Vollkommen zutreffend"
+            },
+            {
+              "value": 2,
+              "label": "Eher zutreffend"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Eher unzutreffend"
+            },
+            {
+              "value": 5,
+              "label": "Vollkommen unzutreffend"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 30,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 32": {
+      "question": "Page 32",
+      "name": "Page 32",
+      "label": "Bitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch habe eine aktive Vorstellungskraft, bin fantasievoll.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie bei jeder Aussage an, inwieweit Sie die Aussage unzutreffend oder zutreffend für Sie ist.\n\nIch habe eine aktive Vorstellungskraft, bin fantasievoll.",
+          "filter": "expAA42045 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Vollkommen zutreffend"
+            },
+            {
+              "value": 2,
+              "label": "Eher zutreffend"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Eher unzutreffend"
+            },
+            {
+              "value": 5,
+              "label": "Vollkommen unzutreffend"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 31,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 33": {
+      "question": "Page 33",
+      "name": "Page 33",
+      "label": "Alles in allem, wie zufrieden sind Sie mit Ihrem Leben?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Alles in allem, wie zufrieden sind Sie mit Ihrem Leben?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr zufrieden"
+            },
+            {
+              "value": 2,
+              "label": "Etwas zufrieden"
+            },
+            {
+              "value": 3,
+              "label": "Teils zufrieden, teils unzufrieden"
+            },
+            {
+              "value": 4,
+              "label": "Etwas unzufrieden"
+            },
+            {
+              "value": 5,
+              "label": "Sehr unzufrieden"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 32,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 34": {
+      "question": "Page 34",
+      "name": "Page 34",
+      "label": "Erinnern Sie sich bitte jetzt an die Liste mit den fünf Wörtern. Geben Sie bitte alle Wörter in das Feld ein (durch Kommas getrennt), an die Sie sich erinnern.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Erinnern Sie sich bitte jetzt an die Liste mit den fünf Wörtern. Geben Sie bitte alle Wörter in das Feld ein (durch Kommas getrennt), an die Sie sich erinnern.",
+          "instruction": "Die Reihenfolge spielt dabei keine Rolle.",
+          "description": "Die Reihenfolge spielt dabei keine Rolle.",
+          "filter": "expZF42137 = 3",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 33,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 35": {
+      "question": "Page 35",
+      "name": "Page 35",
+      "label": "Erinnern Sie sich bitte jetzt an die Liste mit den fünf Zahlen. Geben Sie bitte alle Zahlen in das Feld ein (durch Kommas getrennt), an die Sie sich erinnern.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Erinnern Sie sich bitte jetzt an die Liste mit den fünf Zahlen. Geben Sie bitte alle Zahlen in das Feld ein (durch Kommas getrennt), an die Sie sich erinnern.",
+          "instruction": "Die Reihenfolge spielt dabei keine Rolle.",
+          "description": "Die Reihenfolge spielt dabei keine Rolle.",
+          "filter": "expZF42137 = 5",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 34,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 36": {
+      "question": "Page 36",
+      "name": "Page 36",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs macht mir Spaß mit anderen im Wettbewerb zu stehen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs macht mir Spaß mit anderen im Wettbewerb zu stehen.",
+          "description": "Befragte in 4 gleiche Gruppen aufteilen:\n1/4 bekommt ZF42145 bis ZF42156 (Gruppe 1)\n1/4 bekommt ZF42157 bis ZF42168 (Gruppe 2)\n1/4 bekommt ZF42169 bis ZF42180 (Gruppe 3)\n1/4 bekommt ZF42181 bis ZF42192 (Gruppe 4)\nZuteilung zu den Experimentalgruppen in separater Variable expZF42145 speichern.",
+          "filter": "expZF42145 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 35,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 37": {
+      "question": "Page 37",
+      "name": "Page 37",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs befriedigt mich, wenn meine Leistungen besser sind als die von anderen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs befriedigt mich, wenn meine Leistungen besser sind als die von anderen.",
+          "filter": "expZF42145 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 36,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 38": {
+      "question": "Page 38",
+      "name": "Page 38",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nBei allem was ich tue, bemühe ich mich, besser zu sein als andere.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nBei allem was ich tue, bemühe ich mich, besser zu sein als andere.",
+          "filter": "expZF42145 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 37,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 39": {
+      "question": "Page 39",
+      "name": "Page 39",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch strenge mich mehr an, wenn ich mit anderen im Wettbewerb stehe.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch strenge mich mehr an, wenn ich mit anderen im Wettbewerb stehe.",
+          "filter": "expZF42145 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 38,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 40": {
+      "question": "Page 40",
+      "name": "Page 40",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch halte es für erstrebenswert, in meinem Arbeitsbereich einer der Besten zu sein.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch halte es für erstrebenswert, in meinem Arbeitsbereich einer der Besten zu sein.",
+          "filter": "expZF42145 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 39,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 41": {
+      "question": "Page 41",
+      "name": "Page 41",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nSelbstständig arbeiten zu können ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nSelbstständig arbeiten zu können ist mir wichtig.",
+          "filter": "expZF42145 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 40,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 42": {
+      "question": "Page 42",
+      "name": "Page 42",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Talente und Fertigkeiten einzusetzen ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Talente und Fertigkeiten einzusetzen ist mir wichtig.",
+          "filter": "expZF42145 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 41,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 43": {
+      "question": "Page 43",
+      "name": "Page 43",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nAufgaben, die Verantwortungsbewusstsein erfordern, sind mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nAufgaben, die Verantwortungsbewusstsein erfordern, sind mir wichtig.",
+          "filter": "expZF42145 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 42,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 44": {
+      "question": "Page 44",
+      "name": "Page 44",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Ideen verwirklichen zu können ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Ideen verwirklichen zu können ist mir wichtig.",
+          "filter": "expZF42145 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 43,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 45": {
+      "question": "Page 45",
+      "name": "Page 45",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEin hohes Einkommen ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEin hohes Einkommen ist mir wichtig.",
+          "filter": "expZF42145 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 44,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 46": {
+      "question": "Page 46",
+      "name": "Page 46",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nGute Aufstiegsmöglichkeiten sind mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nGute Aufstiegsmöglichkeiten sind mir wichtig.",
+          "filter": "expZF42145 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 45,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 47": {
+      "question": "Page 47",
+      "name": "Page 47",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nKlare Karriereperspektiven sind mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nKlare Karriereperspektiven sind mir wichtig.",
+          "filter": "expZF42145 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 46,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 48": {
+      "question": "Page 48",
+      "name": "Page 48",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs macht mir Spaß mit anderen im Wettbewerb zu stehen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs macht mir Spaß mit anderen im Wettbewerb zu stehen.",
+          "filter": "expZF42145 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 47,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 49": {
+      "question": "Page 49",
+      "name": "Page 49",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs befriedigt mich, wenn meine Leistungen besser sind als die von anderen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs befriedigt mich, wenn meine Leistungen besser sind als die von anderen.",
+          "filter": "expZF42145 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 48,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 50": {
+      "question": "Page 50",
+      "name": "Page 50",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nBei allem was ich tue, bemühe ich mich, besser zu sein als andere.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nBei allem was ich tue, bemühe ich mich, besser zu sein als andere.",
+          "filter": "expZF42145 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 49,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 51": {
+      "question": "Page 51",
+      "name": "Page 51",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch strenge mich mehr an, wenn ich mit anderen im Wettbewerb stehe.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch strenge mich mehr an, wenn ich mit anderen im Wettbewerb stehe.",
+          "filter": "expZF42145 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 50,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 52": {
+      "question": "Page 52",
+      "name": "Page 52",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch halte es für erstrebenswert, in meinem Arbeitsbereich einer der Besten zu sein.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch halte es für erstrebenswert, in meinem Arbeitsbereich einer der Besten zu sein.",
+          "filter": "expZF42145 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 51,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 53": {
+      "question": "Page 53",
+      "name": "Page 53",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nSelbstständig arbeiten zu können ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nSelbstständig arbeiten zu können ist mir wichtig.",
+          "filter": "expZF42145 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 52,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 54": {
+      "question": "Page 54",
+      "name": "Page 54",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Talente und Fertigkeiten einzusetzen ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Talente und Fertigkeiten einzusetzen ist mir wichtig.",
+          "filter": "expZF42145 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 53,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 55": {
+      "question": "Page 55",
+      "name": "Page 55",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nAufgaben, die Verantwortungsbewusstsein erfordern, sind mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nAufgaben, die Verantwortungsbewusstsein erfordern, sind mir wichtig.",
+          "filter": "expZF42145 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 54,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 56": {
+      "question": "Page 56",
+      "name": "Page 56",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Ideen verwirklichen zu können ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Ideen verwirklichen zu können ist mir wichtig.",
+          "filter": "expZF42145 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 55,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 57": {
+      "question": "Page 57",
+      "name": "Page 57",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEin hohes Einkommen ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEin hohes Einkommen ist mir wichtig.",
+          "filter": "expZF42145 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 56,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 58": {
+      "question": "Page 58",
+      "name": "Page 58",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nGute Aufstiegsmöglichkeiten sind mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nGute Aufstiegsmöglichkeiten sind mir wichtig.",
+          "filter": "expZF42145 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 57,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 59": {
+      "question": "Page 59",
+      "name": "Page 59",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nKlare Karriereperspektiven sind mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nKlare Karriereperspektiven sind mir wichtig.",
+          "filter": "expZF42145 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 58,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 60": {
+      "question": "Page 60",
+      "name": "Page 60",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs macht mir Spaß mit anderen im Wettbewerb zu stehen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs macht mir Spaß mit anderen im Wettbewerb zu stehen.",
+          "filter": "expZF42145 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 59,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 61": {
+      "question": "Page 61",
+      "name": "Page 61",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs befriedigt mich, wenn meine Leistungen besser sind als die von anderen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs befriedigt mich, wenn meine Leistungen besser sind als die von anderen.",
+          "filter": "expZF42145 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 60,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 62": {
+      "question": "Page 62",
+      "name": "Page 62",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nBei allem was ich tue, bemühe ich mich, besser zu sein als andere.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nBei allem was ich tue, bemühe ich mich, besser zu sein als andere.",
+          "filter": "expZF42145 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 61,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 63": {
+      "question": "Page 63",
+      "name": "Page 63",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch strenge mich mehr an, wenn ich mit anderen im Wettbewerb stehe.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch strenge mich mehr an, wenn ich mit anderen im Wettbewerb stehe.",
+          "filter": "expZF42145 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 62,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 64": {
+      "question": "Page 64",
+      "name": "Page 64",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch halte es für erstrebenswert, in meinem Arbeitsbereich einer der Besten zu sein.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch halte es für erstrebenswert, in meinem Arbeitsbereich einer der Besten zu sein.",
+          "filter": "expZF42145 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 63,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 65": {
+      "question": "Page 65",
+      "name": "Page 65",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nSelbstständig arbeiten zu können ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nSelbstständig arbeiten zu können ist mir wichtig.",
+          "filter": "expZF42145 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 64,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 66": {
+      "question": "Page 66",
+      "name": "Page 66",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Talente und Fertigkeiten einzusetzen ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Talente und Fertigkeiten einzusetzen ist mir wichtig.",
+          "filter": "expZF42145 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 65,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 67": {
+      "question": "Page 67",
+      "name": "Page 67",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nAufgaben, die Verantwortungsbewusstsein erfordern, sind mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nAufgaben, die Verantwortungsbewusstsein erfordern, sind mir wichtig.",
+          "filter": "expZF42145 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 66,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 68": {
+      "question": "Page 68",
+      "name": "Page 68",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Ideen verwirklichen zu können ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Ideen verwirklichen zu können ist mir wichtig.",
+          "filter": "expZF42145 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 67,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 69": {
+      "question": "Page 69",
+      "name": "Page 69",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEin hohes Einkommen ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEin hohes Einkommen ist mir wichtig.",
+          "filter": "expZF42145 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 68,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 70": {
+      "question": "Page 70",
+      "name": "Page 70",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nGute Aufstiegsmöglichkeiten sind mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nGute Aufstiegsmöglichkeiten sind mir wichtig.",
+          "filter": "expZF42145 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 69,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 71": {
+      "question": "Page 71",
+      "name": "Page 71",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nKlare Karriereperspektiven sind mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nKlare Karriereperspektiven sind mir wichtig.",
+          "filter": "expZF42145 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft überhaupt nicht zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 70,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 72": {
+      "question": "Page 72",
+      "name": "Page 72",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs macht mir Spaß mit anderen im Wettbewerb zu stehen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs macht mir Spaß mit anderen im Wettbewerb zu stehen.",
+          "filter": "expZF42145 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 71,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 73": {
+      "question": "Page 73",
+      "name": "Page 73",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs befriedigt mich, wenn meine Leistungen besser sind als die von anderen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEs befriedigt mich, wenn meine Leistungen besser sind als die von anderen.",
+          "filter": "expZF42145 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 72,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 74": {
+      "question": "Page 74",
+      "name": "Page 74",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nBei allem was ich tue, bemühe ich mich, besser zu sein als andere.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nBei allem was ich tue, bemühe ich mich, besser zu sein als andere.",
+          "filter": "expZF42145 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 73,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 75": {
+      "question": "Page 75",
+      "name": "Page 75",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch strenge mich mehr an, wenn ich mit anderen im Wettbewerb stehe.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch strenge mich mehr an, wenn ich mit anderen im Wettbewerb stehe.",
+          "filter": "expZF42145 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 74,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 76": {
+      "question": "Page 76",
+      "name": "Page 76",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch halte es für erstrebenswert, in meinem Arbeitsbereich einer der Besten zu sein.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nIch halte es für erstrebenswert, in meinem Arbeitsbereich einer der Besten zu sein.",
+          "filter": "expZF42145 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 75,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 77": {
+      "question": "Page 77",
+      "name": "Page 77",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nSelbstständig arbeiten zu können ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nSelbstständig arbeiten zu können ist mir wichtig.",
+          "filter": "expZF42145 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 76,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 78": {
+      "question": "Page 78",
+      "name": "Page 78",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Talente und Fertigkeiten einzusetzen ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Talente und Fertigkeiten einzusetzen ist mir wichtig.",
+          "filter": "expZF42145 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 77,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 79": {
+      "question": "Page 79",
+      "name": "Page 79",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nAufgaben, die Verantwortungsbewusstsein erfordern, sind mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nAufgaben, die Verantwortungsbewusstsein erfordern, sind mir wichtig.",
+          "filter": "expZF42145 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 78,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 80": {
+      "question": "Page 80",
+      "name": "Page 80",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Ideen verwirklichen zu können ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEigene Ideen verwirklichen zu können ist mir wichtig.",
+          "filter": "expZF42145 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 79,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 81": {
+      "question": "Page 81",
+      "name": "Page 81",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEin hohes Einkommen ist mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nEin hohes Einkommen ist mir wichtig.",
+          "filter": "expZF42145 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 80,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 82": {
+      "question": "Page 82",
+      "name": "Page 82",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nGute Aufstiegsmöglichkeiten sind mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nGute Aufstiegsmöglichkeiten sind mir wichtig.",
+          "filter": "expZF42145 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 81,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 83": {
+      "question": "Page 83",
+      "name": "Page 83",
+      "label": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nKlare Karriereperspektiven sind mir wichtig.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nKlare Karriereperspektiven sind mir wichtig.",
+          "filter": "expZF42145 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Trifft voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 82,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 84": {
+      "question": "Page 84",
+      "name": "Page 84",
+      "label": "Am Sonntag, den 26. Mai 2019, waren Wahlen zum Europäischen Parlament. Einige Menschen in Deutschland sind aus dem einen oder anderen Grund nicht zur Wahl gegangen. Haben Sie selbst bei der Wahl zum Europäischen Parlament Ihre Stimme abgegeben? Welche Partei haben Sie selbst bei der Wahl zum Europäischen Parlament gewählt?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Am Sonntag, den 26. Mai 2019, waren Wahlen zum Europäischen Parlament. Einige Menschen in Deutschland sind aus dem einen oder anderen Grund nicht zur Wahl gegangen. Haben Sie selbst bei der Wahl zum Europäischen Parlament Ihre Stimme abgegeben? Welche Partei haben Sie selbst bei der Wahl zum Europäischen Parlament gewählt?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich war nicht wahlberechtigt"
+            },
+            {
+              "value": 2,
+              "label": "Ich habe bei der Europawahl im Mai nicht gewählt"
+            },
+            {
+              "value": 3,
+              "label": "Christlich Demokratische Union/Christlich Soziale Union (CDU/CSU)"
+            },
+            {
+              "value": 4,
+              "label": "Sozialdemokratische Partei Deutschlands (SPD)"
+            },
+            {
+              "value": 5,
+              "label": "Alternative für Deutschland (AfD)"
+            },
+            {
+              "value": 6,
+              "label": "Freie Demokratische Partei (FDP)"
+            },
+            {
+              "value": 7,
+              "label": "Die Linke (Linke)"
+            },
+            {
+              "value": 8,
+              "label": "Bündnis 90 / Die Grünen (Grüne)"
+            },
+            {
+              "value": 9,
+              "label": "Freie Wähler (FW)"
+            },
+            {
+              "value": 10,
+              "label": "Nationaldemokratische Partei Deutschlands (NPD)"
+            },
+            {
+              "value": 11,
+              "label": "Die Republikaner (REP)"
+            },
+            {
+              "value": 12,
+              "label": "andere Partei"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 83,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 85": {
+      "question": "Page 85",
+      "name": "Page 85",
+      "label": "Man hört manchmal, die europäische Einigung sollte weiter vorangetrieben werden. \nAndere sagen, dass sie schon zu weit gegangen ist. Was ist Ihre Meinung?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Man hört manchmal, die europäische Einigung sollte weiter vorangetrieben werden. \nAndere sagen, dass sie schon zu weit gegangen ist. Was ist Ihre Meinung?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "weiter vorantreiben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "zu weit gegangen"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 84,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 86": {
+      "question": "Page 86",
+      "name": "Page 86",
+      "label": "Und wie ungefähr würden Sie die Ansichten der folgenden Partei zur europäischen Einigung einstufen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und wie ungefähr würden Sie die Ansichten der folgenden Partei zur europäischen Einigung einstufen?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "CDU/CSU",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "weiter vorantreiben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "zu weit gegangen"
+            },
+            {
+              "value": 12,
+              "label": "kenne die Partei nicht"
+            },
+            {
+              "value": 13,
+              "label": "weiß nicht, wo ich die Partei platzieren soll"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "SPD",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "weiter vorantreiben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "zu weit gegangen"
+            },
+            {
+              "value": 12,
+              "label": "kenne die Partei nicht"
+            },
+            {
+              "value": 13,
+              "label": "weiß nicht, wo ich die Partei platzieren soll"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "AFD",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "weiter vorantreiben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "zu weit gegangen"
+            },
+            {
+              "value": 12,
+              "label": "kenne die Partei nicht"
+            },
+            {
+              "value": 13,
+              "label": "weiß nicht, wo ich die Partei platzieren soll"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "FDP",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "weiter vorantreiben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "zu weit gegangen"
+            },
+            {
+              "value": 12,
+              "label": "kenne die Partei nicht"
+            },
+            {
+              "value": 13,
+              "label": "weiß nicht, wo ich die Partei platzieren soll"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Bündnis 90/ Die Grünen",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "weiter vorantreiben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "zu weit gegangen"
+            },
+            {
+              "value": 12,
+              "label": "kenne die Partei nicht"
+            },
+            {
+              "value": 13,
+              "label": "weiß nicht, wo ich die Partei platzieren soll"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Die Linke",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "weiter vorantreiben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "zu weit gegangen"
+            },
+            {
+              "value": 12,
+              "label": "kenne die Partei nicht"
+            },
+            {
+              "value": 13,
+              "label": "weiß nicht, wo ich die Partei platzieren soll"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        }
+      ],
+      "sn": 85,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 87": {
+      "question": "Page 87",
+      "name": "Page 87",
+      "label": "Und wie ungefähr würden Sie die Ansichten der folgenden Partei zur europäischen Einigung einstufen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und wie ungefähr würden Sie die Ansichten der folgenden Partei zur europäischen Einigung einstufen?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "CDU/CSU",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "weiter vorantreiben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "zu weit gegangen"
+            },
+            {
+              "value": 12,
+              "label": "kenne die Partei nicht"
+            },
+            {
+              "value": 13,
+              "label": "weiß nicht, wo ich die Partei platzieren soll"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "SPD",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "weiter vorantreiben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "zu weit gegangen"
+            },
+            {
+              "value": 12,
+              "label": "kenne die Partei nicht"
+            },
+            {
+              "value": 13,
+              "label": "weiß nicht, wo ich die Partei platzieren soll"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "AFD",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "weiter vorantreiben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "zu weit gegangen"
+            },
+            {
+              "value": 12,
+              "label": "kenne die Partei nicht"
+            },
+            {
+              "value": 13,
+              "label": "weiß nicht, wo ich die Partei platzieren soll"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "FDP",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "weiter vorantreiben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "zu weit gegangen"
+            },
+            {
+              "value": 12,
+              "label": "kenne die Partei nicht"
+            },
+            {
+              "value": 13,
+              "label": "weiß nicht, wo ich die Partei platzieren soll"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Bündnis 90/ Die Grünen",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "weiter vorantreiben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "zu weit gegangen"
+            },
+            {
+              "value": 12,
+              "label": "kenne die Partei nicht"
+            },
+            {
+              "value": 13,
+              "label": "weiß nicht, wo ich die Partei platzieren soll"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Die Linke",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "weiter vorantreiben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "zu weit gegangen"
+            },
+            {
+              "value": 12,
+              "label": "kenne die Partei nicht"
+            },
+            {
+              "value": 13,
+              "label": "weiß nicht, wo ich die Partei platzieren soll"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        }
+      ],
+      "sn": 86,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 88": {
+      "question": "Page 88",
+      "name": "Page 88",
+      "label": "Und wie ungefähr würden Sie die Ansichten des Europäischen Parlaments zur europäischen Einigung einstufen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und wie ungefähr würden Sie die Ansichten des Europäischen Parlaments zur europäischen Einigung einstufen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "weiter vorantreiben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "zu weit gegangen"
+            },
+            {
+              "value": 12,
+              "label": "weiß nicht, wo ich das Europäische Parlament platzieren soll"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 87,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 89": {
+      "question": "Page 89",
+      "name": "Page 89",
+      "label": "In der Politik reden die Leute häufig von links und rechts. Wenn Sie diese Skala hier benutzen, wo würden Sie das Europäische Parlament einordnen, wenn 1 links und 11 rechts ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "In der Politik reden die Leute häufig von links und rechts. Wenn Sie diese Skala hier benutzen, wo würden Sie das Europäische Parlament einordnen, wenn 1 links und 11 rechts ist?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "links"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "rechts"
+            },
+            {
+              "value": 12,
+              "label": "weiß nicht, wo ich das Europäische Parlament platzieren soll"
+            },
+            {
+              "value": -99,
+              "label": "weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 88,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 90": {
+      "question": "Page 90",
+      "name": "Page 90",
+      "label": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\nWenn die EU viele Entscheidungen träfe, denen die meisten Menschen nicht zustimmen, wäre es besser, die EU ganz abzuschaffen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\nWenn die EU viele Entscheidungen träfe, denen die meisten Menschen nicht zustimmen, wäre es besser, die EU ganz abzuschaffen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "lehne voll und ganz ab"
+            },
+            {
+              "value": 2,
+              "label": "lehne ab"
+            },
+            {
+              "value": 3,
+              "label": "lehne eher ab"
+            },
+            {
+              "value": 4,
+              "label": "stimme weder zu noch lehne ab"
+            },
+            {
+              "value": 5,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 6,
+              "label": "stimme zu"
+            },
+            {
+              "value": 7,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 89,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 91": {
+      "question": "Page 91",
+      "name": "Page 91",
+      "label": "Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der EU?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der EU?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "völlig unzufrieden"
+            },
+            {
+              "value": 2,
+              "label": "sehr unzufrieden"
+            },
+            {
+              "value": 3,
+              "label": "ziemlich unzufrieden"
+            },
+            {
+              "value": 4,
+              "label": "weder unzufrieden noch zufrieden"
+            },
+            {
+              "value": 5,
+              "label": "ziemlich zufrieden"
+            },
+            {
+              "value": 6,
+              "label": "sehr zufrieden"
+            },
+            {
+              "value": 7,
+              "label": "völlig zufrieden"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 90,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 92": {
+      "question": "Page 92",
+      "name": "Page 92",
+      "label": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\n[wenn expCG42105 = 1: Im Allgemeinen ist es schlecht für die deutsche Wirtschaft, wenn Menschen aus anderen Ländern kommen, um hier zu leben.]\n[wenn expCG42105 = 2: Im Allgemeinen wird das kulturelle Leben in Deutschland untergraben, wenn Menschen aus anderen Ländern kommen, um hier zu leben.]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\n[wenn expCG42105 = 1: Im Allgemeinen ist es schlecht für die deutsche Wirtschaft, wenn Menschen aus anderen Ländern kommen, um hier zu leben.]\n[wenn expCG42105 = 2: Im Allgemeinen wird das kulturelle Leben in Deutschland untergraben, wenn Menschen aus anderen Ländern kommen, um hier zu leben.]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "lehne voll und ganz ab"
+            },
+            {
+              "value": 2,
+              "label": "lehne ab"
+            },
+            {
+              "value": 3,
+              "label": "lehne eher ab"
+            },
+            {
+              "value": 4,
+              "label": "stimme weder zu noch lehne ab"
+            },
+            {
+              "value": 5,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 6,
+              "label": "stimme zu"
+            },
+            {
+              "value": 7,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 91,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 93": {
+      "question": "Page 93",
+      "name": "Page 93",
+      "label": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\n[wenn expCG42100 = 1: Wichtige EU-politische Fragen kann ich gut verstehen und einschätzen.]\n[wenn expCG42100 = 2: Die Politiker in der EU kümmern sich darum, was Leute wie ich denken.]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.\n\n[wenn expCG42100 = 1: Wichtige EU-politische Fragen kann ich gut verstehen und einschätzen.]\n[wenn expCG42100 = 2: Die Politiker in der EU kümmern sich darum, was Leute wie ich denken.]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "lehne voll und ganz ab"
+            },
+            {
+              "value": 2,
+              "label": "lehne ab"
+            },
+            {
+              "value": 3,
+              "label": "lehne eher ab"
+            },
+            {
+              "value": 4,
+              "label": "stimme weder zu noch lehne ab"
+            },
+            {
+              "value": 5,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 6,
+              "label": "stimme zu"
+            },
+            {
+              "value": 7,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 92,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 94": {
+      "question": "Page 94",
+      "name": "Page 94",
+      "label": "Zusätzlich zu Ihren Befragungsdaten würden wir während der folgenden Fragen gerne automatisch Information darüber erfassen, wie Sie den Fragebogen ausfüllen. Diese Informationen helfen uns, Ihre Antworten besser zu verstehen. Dazu würden wir einmalig ein JavaScript einsetzen. Auch diese Informationen werden selbstverständlich ausschließlich zu wissenschaftlichen Forschungszwecken erhoben.\n\nIhre Zustimmung gilt ausschließlich für die jetzt folgenden Fragen. Das Bundesdatenschutzgesetz sowie die einschlägigen Landesdatenschutzgesetzte werden weiterhin streng eingehalten. Die Speicherung erfolgt nicht personenbezogen für einen Zeitraum von 12 Monaten. Im Anschluss an diesen Zeitraum werden die Daten unwiderruflich gelöscht.\n\nIhre Zustimmung können Sie jederzeit, auch nach dieser Befragung, wiederrufen. Dazu genügt ein Anruf unter 0800-589-2604 oder eine E-Mail an info@gesellschaft-im-wandel.de. In dem Fall werden die Daten unverzüglich und unwiderruflich gelöscht.\n\nSind Sie einverstanden, dass wir heute automatisch Ihre Tastenanschläge und Mausklicks erfassen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Zusätzlich zu Ihren Befragungsdaten würden wir während der folgenden Fragen gerne automatisch Information darüber erfassen, wie Sie den Fragebogen ausfüllen. Diese Informationen helfen uns, Ihre Antworten besser zu verstehen. Dazu würden wir einmalig ein JavaScript einsetzen. Auch diese Informationen werden selbstverständlich ausschließlich zu wissenschaftlichen Forschungszwecken erhoben.\n\nIhre Zustimmung gilt ausschließlich für die jetzt folgenden Fragen. Das Bundesdatenschutzgesetz sowie die einschlägigen Landesdatenschutzgesetzte werden weiterhin streng eingehalten. Die Speicherung erfolgt nicht personenbezogen für einen Zeitraum von 12 Monaten. Im Anschluss an diesen Zeitraum werden die Daten unwiderruflich gelöscht.\n\nIhre Zustimmung können Sie jederzeit, auch nach dieser Befragung, wiederrufen. Dazu genügt ein Anruf unter 0800-589-2604 oder eine E-Mail an info@gesellschaft-im-wandel.de. In dem Fall werden die Daten unverzüglich und unwiderruflich gelöscht.\n\nSind Sie einverstanden, dass wir heute automatisch Ihre Tastenanschläge und Mausklicks erfassen?",
+          "description": "Befragte in 4 gleiche Gruppen aufteilen:\n1/4 bekommt AJ42052 (Gruppe 1)\n1/4 bekommt AJ42053 (Gruppe 2)\n1/4 bekommt AJ42052 und AJ42054 (Gruppe 3)\n1/4 bekommt AJ42053 und AJ42055 (Gruppe 4)\nZuteilung zu den Experimentalgruppen in separater Variable expAJ42052 speichern.",
+          "filter": "expAJ42052 = 1,3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ja, ich bin einverstanden."
+            },
+            {
+              "value": 2,
+              "label": "Nein, ich bin nicht einverstanden."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 93,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 95": {
+      "question": "Page 95",
+      "name": "Page 95",
+      "label": "Zusätzlich zu Ihren Befragungsdaten würden wir während der folgenden Fragen gerne automatisch Information darüber erfassen, wie Sie den Fragebogen ausfüllen. Diese Informationen helfen uns, Ihre Antworten besser zu verstehen. Dazu würden wir einmalig ein JavaScript einsetzen. \nAuch diese Informationen werden selbstverständlich ausschließlich zu wissenschaftlichen Forschungszwecken erhoben.\n\nIhre Zustimmung gilt ausschließlich für die jetzt folgenden Fragen. Das Bundesdatenschutzgesetz sowie die einschlägigen Landesdatenschutzgesetzte werden weiterhin streng eingehalten. Die Speicherung erfolgt nicht personenbezogen für einen Zeitraum von 12 Monaten. Im Anschluss an diesen Zeitraum werden die Daten unwiderruflich gelöscht. \n\nIhre Zustimmung können Sie jederzeit, auch nach dieser Befragung, wiederrufen. Dazu genügt ein Anruf unter 0800-589-2604 oder eine E-Mail an info@gesellschaft-im-wandel.de. In dem Fall werden die Daten unverzüglich und unwiderruflich gelöscht.\n\nSind Sie einverstanden, dass wir heute einmalig automatisch Ihre GPS-Daten erfassen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Zusätzlich zu Ihren Befragungsdaten würden wir während der folgenden Fragen gerne automatisch Information darüber erfassen, wie Sie den Fragebogen ausfüllen. Diese Informationen helfen uns, Ihre Antworten besser zu verstehen. Dazu würden wir einmalig ein JavaScript einsetzen. \nAuch diese Informationen werden selbstverständlich ausschließlich zu wissenschaftlichen Forschungszwecken erhoben.\n\nIhre Zustimmung gilt ausschließlich für die jetzt folgenden Fragen. Das Bundesdatenschutzgesetz sowie die einschlägigen Landesdatenschutzgesetzte werden weiterhin streng eingehalten. Die Speicherung erfolgt nicht personenbezogen für einen Zeitraum von 12 Monaten. Im Anschluss an diesen Zeitraum werden die Daten unwiderruflich gelöscht. \n\nIhre Zustimmung können Sie jederzeit, auch nach dieser Befragung, wiederrufen. Dazu genügt ein Anruf unter 0800-589-2604 oder eine E-Mail an info@gesellschaft-im-wandel.de. In dem Fall werden die Daten unverzüglich und unwiderruflich gelöscht.\n\nSind Sie einverstanden, dass wir heute einmalig automatisch Ihre GPS-Daten erfassen?",
+          "filter": "expAJ42052 = 2,4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ja, ich bin einverstanden."
+            },
+            {
+              "value": 2,
+              "label": "Nein, ich bin nicht einverstanden."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 94,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 96": {
+      "question": "Page 96",
+      "name": "Page 96",
+      "label": "Außerdem würden wir heute gerne einmalig automatisch Ihre GPS-Daten erfassen um Ihren Standort zu ermitteln. Sind Sie einverstanden, dass wir heute automatisch Ihre GPS-Daten erfassen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Außerdem würden wir heute gerne einmalig automatisch Ihre GPS-Daten erfassen um Ihren Standort zu ermitteln. Sind Sie einverstanden, dass wir heute automatisch Ihre GPS-Daten erfassen?",
+          "filter": "expAJ42052 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ja, ich bin einverstanden."
+            },
+            {
+              "value": 2,
+              "label": "Nein, ich bin nicht einverstanden."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 95,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 97": {
+      "question": "Page 97",
+      "name": "Page 97",
+      "label": "Außerdem würden wir heute gerne automatisch Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen. Sind Sie einverstanden, dass wir heute Ihre Tastenanschläge und Mausklicks automatisch erfassen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Außerdem würden wir heute gerne automatisch Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen. Sind Sie einverstanden, dass wir heute Ihre Tastenanschläge und Mausklicks automatisch erfassen?",
+          "filter": "expAJ42052 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ja, ich bin einverstanden."
+            },
+            {
+              "value": 2,
+              "label": "Nein, ich bin nicht einverstanden."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 96,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 98": {
+      "question": "Page 98",
+      "name": "Page 98",
+      "label": "Sie haben zugestimmt, dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie zugestimmt haben?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sie haben zugestimmt, dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie zugestimmt haben?",
+          "description": "Befragte je Gruppe in expAJ42052 (4 Gruppen) in 2 gleiche Gruppen aufteilen:\n1/2 bekommt AJ42056, AJ42058, AJ42060, AJ42062, AJ42064, AJ42066 (Gruppe 1)\n1/2 bekommt AJ42057, AJ42059, AJ42061, AJ42063, AJ42065, AJ42067 (Gruppe 2)\nZuteilung zu den Experimentalgruppen in separater Variable expAJ42056 speichern.",
+          "filter": "expAJ42056 = 1 und AJ42052 = 1 oder AJ42055 = 1 ",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich vertraue darauf, dass die Studie meine Daten vertraulich behandelt."
+            },
+            {
+              "value": 2,
+              "label": "Ich möchte die Wissenschaft so gut wie möglich unterstützen."
+            },
+            {
+              "value": 3,
+              "label": "Ich weiß, dass die Erfassung der Daten keine negativen Konsequenzen für mich hat."
+            },
+            {
+              "value": 4,
+              "label": "Ich möchte Fortschritte in der Umfragetechnik unterstützen."
+            },
+            {
+              "value": 5,
+              "label": "Ein anderer Grund, und zwar: [answer field] "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 97,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 99": {
+      "question": "Page 99",
+      "name": "Page 99",
+      "label": "Sie haben zugestimmt, dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie zugestimmt haben?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sie haben zugestimmt, dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie zugestimmt haben?",
+          "filter": "expAJ42056 = 2 und AJ42052 = 1 oder AJ42055 = 1 ",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 98,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 100": {
+      "question": "Page 100",
+      "name": "Page 100",
+      "label": "Sie haben nicht zugestimmt, dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie nicht zugestimmt haben?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sie haben nicht zugestimmt, dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie nicht zugestimmt haben?",
+          "filter": "expAJ42056 = 1 und AJ42052 = 2 oder AJ42055 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich vertraue nicht darauf, dass die Studie meine Daten vertraulich behandelt. "
+            },
+            {
+              "value": 2,
+              "label": "Ich unterstütze die Wissenschaft durch meine Teilnahme an der Studie schon genug."
+            },
+            {
+              "value": 3,
+              "label": "Ich weiß nicht, ob die Erfassung der Daten negativen Konsequenzen für mich haben könnte."
+            },
+            {
+              "value": 4,
+              "label": "Ich möchte derartige Neuentwicklungen in der Umfragetechnik nicht unterstützen."
+            },
+            {
+              "value": 5,
+              "label": "Ich verstehe nicht wozu diese Informationen gut sein sollen."
+            },
+            {
+              "value": 6,
+              "label": "Ein anderer Grund, und zwar: [answer field]"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 99,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 101": {
+      "question": "Page 101",
+      "name": "Page 101",
+      "label": "Sie haben nicht zugestimmt, dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie nicht zugestimmt haben?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sie haben nicht zugestimmt, dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie nicht zugestimmt haben?",
+          "filter": "expAJ42056 = 2 und AJ42052 = 2 oder AJ42055 = 2",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 100,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 102": {
+      "question": "Page 102",
+      "name": "Page 102",
+      "label": "[Wenn AJ42052 oder AJ42055 = 1: Sie sind damit einverstanden, dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen.]\n[Wenn AJ42052 oder AJ42055 = 2: Sie sind nicht damit einverstanden], dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen.]\n[Wenn AJ42052 und AJ42055 = .] \n\nWas denken Sie meinen wir mit den „Tastenanschlägen und Mausklicks“, die wir in dieser Studie erfassen möchten?\nUnter „Tastenanschlägen und Mausklicks“ verstehen wir...",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn AJ42052 oder AJ42055 = 1: Sie sind damit einverstanden, dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen.]\n[Wenn AJ42052 oder AJ42055 = 2: Sie sind nicht damit einverstanden], dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen.]\n[Wenn AJ42052 und AJ42055 = .] \n\nWas denken Sie meinen wir mit den „Tastenanschlägen und Mausklicks“, die wir in dieser Studie erfassen möchten?\nUnter „Tastenanschlägen und Mausklicks“ verstehen wir...",
+          "filter": "expAJ42052 = 1, 3, 4 und expAJ42056 = 1 ",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "…alle Eingaben (also alle Zeichen wie beispielsweise Buchstaben und Zahlen), die Sie mit Ihrer Tastatur oder Maus machen während Sie unsere Fragen auf unserer Internetseite beantworten.",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "…alle Eingaben (also alle Zeichen wie beispielsweise Buchstaben und Zahlen), die Sie mit Ihrer Tastatur oder Maus auch auf anderen Internetseiten während unserer Befragung machen.",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "...alle Eingaben (also alle Zeichen wie beispielsweise Buchstaben und Zahlen), die Sie mit Ihrer Tastatur oder Maus machen während Sie unsere Fragen auf unserer Internetseite beantworten, auch wenn Sie Ihre Antworten ändern.",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "…die Kraft und Häufigkeit, mit der Sie während der Befragung auf unserer Internetseite die Tasten auf Ihrer Tastatur oder Maus drücken.",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        }
+      ],
+      "sn": 101,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 103": {
+      "question": "Page 103",
+      "name": "Page 103",
+      "label": "[Wenn AJ42052 oder AJ42055 = 1: Sie sind damit einverstanden, dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen.]\n[Wenn AJ42052 oder AJ42055 = 2: Sie sind nicht damit einverstanden, dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen.]\n[Wenn AJ42052 und AJ42055 = .]\n\nWas denken Sie meinen wir mit den „Tastenanschlägen und Mausklicks“, die wir in dieser Studie erfassen möchten?\nUnter „Tastenanschlägen und Mausklicks“ verstehen wir...",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn AJ42052 oder AJ42055 = 1: Sie sind damit einverstanden, dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen.]\n[Wenn AJ42052 oder AJ42055 = 2: Sie sind nicht damit einverstanden, dass wir Informationen zu Ihren Tastenanschlägen und Mausklicks erfassen.]\n[Wenn AJ42052 und AJ42055 = .]\n\nWas denken Sie meinen wir mit den „Tastenanschlägen und Mausklicks“, die wir in dieser Studie erfassen möchten?\nUnter „Tastenanschlägen und Mausklicks“ verstehen wir...",
+          "filter": "expAJ42052 = 1, 3, 4 und expAJ42056 = 2",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 102,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 104": {
+      "question": "Page 104",
+      "name": "Page 104",
+      "label": "Sie haben gerade geantwortet, dass Sie damit einverstanden sind, dass wir Ihre GPS-Daten erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie zugestimmt haben?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sie haben gerade geantwortet, dass Sie damit einverstanden sind, dass wir Ihre GPS-Daten erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie zugestimmt haben?",
+          "filter": "expAJ42056 = 1 und AJ42053 = 1 oder AJ42054 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich vertraue darauf, dass die Studie meine Daten vertraulich behandelt."
+            },
+            {
+              "value": 2,
+              "label": "Ich möchte die Wissenschaft so gut wie möglich unterstützen."
+            },
+            {
+              "value": 3,
+              "label": "Ich weiß, dass die Erfassung der Daten keine negativen Konsequenzen für mich hat."
+            },
+            {
+              "value": 4,
+              "label": "Ich möchte Fortschritte in der Umfragetechnik unterstützen."
+            },
+            {
+              "value": 5,
+              "label": "Ein anderer Grund, und zwar: [answer field] "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 103,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 105": {
+      "question": "Page 105",
+      "name": "Page 105",
+      "label": "Sie haben gerade geantwortet, dass Sie damit einverstanden sind, dass wir Ihre GPS-Daten erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie zugestimmt haben?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sie haben gerade geantwortet, dass Sie damit einverstanden sind, dass wir Ihre GPS-Daten erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie zugestimmt haben?",
+          "filter": "expAJ42056 = 2 und AJ42053 = 1 oder AJ42054 = 1",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 104,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 106": {
+      "question": "Page 106",
+      "name": "Page 106",
+      "label": "Sie haben gerade geantwortet, dass Sie nicht damit einverstanden sind, dass wir Ihre GPS-Daten erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie nicht zugestimmt haben?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sie haben gerade geantwortet, dass Sie nicht damit einverstanden sind, dass wir Ihre GPS-Daten erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie nicht zugestimmt haben?",
+          "filter": "expAJ42056 = 1 und AJ42053 = 2 oder AJ42054 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich vertraue nicht darauf, dass die Studie meine Daten vertraulich behandelt. "
+            },
+            {
+              "value": 2,
+              "label": "Ich unterstütze die Wissenschaft durch meine Teilnahme an der Studie schon genug."
+            },
+            {
+              "value": 3,
+              "label": "Ich weiß nicht, ob die Erfassung der Daten negativen Konsequenzen für mich haben könnte."
+            },
+            {
+              "value": 4,
+              "label": "Ich möchte derartige Neuentwicklungen in der Umfragetechnik nicht unterstützen."
+            },
+            {
+              "value": 5,
+              "label": "Ich verstehe nicht wozu diese Informationen gut sein sollen."
+            },
+            {
+              "value": 6,
+              "label": "Ein anderer Grund, und zwar: [answer field]"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 105,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 107": {
+      "question": "Page 107",
+      "name": "Page 107",
+      "label": "Sie haben gerade geantwortet, dass Sie nicht damit einverstanden sind, dass wir Ihre GPS-Daten erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie nicht zugestimmt haben?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sie haben gerade geantwortet, dass Sie nicht damit einverstanden sind, dass wir Ihre GPS-Daten erfassen. Im Interesse der Verbesserung unserer Umfragen interessieren wir uns für Ihre Gründe.\n\nWürden Sie uns den Hauptgrund verraten, aus dem Sie nicht zugestimmt haben?",
+          "filter": "expAJ42056 = 2 und AJ42053 = 2 oder AJ42054 = 2",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 106,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 108": {
+      "question": "Page 108",
+      "name": "Page 108",
+      "label": "[Wenn AJ42053 oder AJ42054 = 1: Sie sind damit einverstanden, dass wir Ihre GPS-Daten erfassen.]\n[Wenn AJ42053 oder AJ42054 = 2: Sie sind nicht damit einverstanden, dass wir Ihre GPS-Daten erfassen.]\n[Wenn AJ42053 und AJ42054 = .]\n\nWas denken Sie meinen wir mit den „GPS-Daten“, die wir in dieser Studie erfassen möchten?\nUnter „GPS-Daten“ verstehen wir...",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn AJ42053 oder AJ42054 = 1: Sie sind damit einverstanden, dass wir Ihre GPS-Daten erfassen.]\n[Wenn AJ42053 oder AJ42054 = 2: Sie sind nicht damit einverstanden, dass wir Ihre GPS-Daten erfassen.]\n[Wenn AJ42053 und AJ42054 = .]\n\nWas denken Sie meinen wir mit den „GPS-Daten“, die wir in dieser Studie erfassen möchten?\nUnter „GPS-Daten“ verstehen wir...",
+          "filter": "expAJ42052 = 2, 3, 4 und expAJ42056 = 1",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "…Daten die uns Informationen über den Standort Ihres Gerätes zum Zeitpunkt der Umfrage liefern.",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "…Daten die uns Informationen darüber liefern, an welchen verschiedenen Standorten Sie Ihr Gerät generell verwenden.",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "…Daten die uns Informationen darüber liefern, ob Sie die GPS Funktionen Ihres Gerätes verwenden.",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "…Daten die uns Informationen über die Qualität Ihrer Internetverbindung liefern.",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        }
+      ],
+      "sn": 107,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 109": {
+      "question": "Page 109",
+      "name": "Page 109",
+      "label": "[Wenn AJ42053 oder AJ42054 = 1: Sie sind damit einverstanden, dass wir Ihre GPS-Daten erfassen.]\n[Wenn AJ42053 oder AJ42054 = 2: Sie sind nicht damit einverstanden, dass wir Ihre GPS-Daten erfassen.]\n[Wenn AJ42053 oder AJ42054 = .]\n\nWas denken Sie meinen wir mit den „GPS-Daten“, die wir in dieser Studie erfassen möchten?\nUnter „GPS-Daten“ verstehen wir...",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn AJ42053 oder AJ42054 = 1: Sie sind damit einverstanden, dass wir Ihre GPS-Daten erfassen.]\n[Wenn AJ42053 oder AJ42054 = 2: Sie sind nicht damit einverstanden, dass wir Ihre GPS-Daten erfassen.]\n[Wenn AJ42053 oder AJ42054 = .]\n\nWas denken Sie meinen wir mit den „GPS-Daten“, die wir in dieser Studie erfassen möchten?\nUnter „GPS-Daten“ verstehen wir...",
+          "filter": "expAJ42052 = 2, 3, 4 und expAJ42056 = 2",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 108,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 110": {
+      "question": "Page 110",
+      "name": "Page 110",
+      "label": "Wir haben Sie in den vorherigen Fragen gebeten, der Erfassung zusätzlicher Informationen durch ein JavaScript zuzustimmen.\n\nWas denken Sie trifft auf die automatische Erfassung dieser Informationen zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wir haben Sie in den vorherigen Fragen gebeten, der Erfassung zusätzlicher Informationen durch ein JavaScript zuzustimmen.\n\nWas denken Sie trifft auf die automatische Erfassung dieser Informationen zu?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Die Informationen werden durch ein Programm erhoben, das auf Ihrem Gerät standardmäßig installiert ist.",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Die Informationen werden durch ein zusätzliches Programm erfasst, das wir auf Ihrem Gerät installieren sobald Sie der Erfassung zustimmen.",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Die Informationen können nur erfasst werden, wenn Sie JavaScript aktiviert haben.",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Ob die Erfassung gelingt, hängt von der Geschwindigkeit der Internetverbindung ab.",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Die Erfassung endet, sobald Sie diese Befragung abgeschlossen haben.",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        }
+      ],
+      "sn": 109,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 111": {
+      "question": "Page 111",
+      "name": "Page 111",
+      "label": "In den vorangegangenen Fragen ging es um die automatische Erfassung einiger zusätzlicher Informationen durch ein JavaScript. Wir haben Ihnen diese Fragen gestellt, weil einige Studien im Internet diese Informationen tatsächlich erfassen. Daher wollen wir gerne wissen, ob unsere Studienteilnehmer die Erfassung zusätzlicher Informationen überhaupt in Ordnung finden.  \nHeute geht es lediglich darum zu verstehen, ob Sie die Erfassung solcher Informationen erlauben und welche Gründe Sie für Ihre Entscheidung haben. Ihre Meinung ist uns sehr wichtig. \nAuch wenn Sie der Erfassung zugestimmt haben, werden wir diese Informationen heute nicht tatsächlich von Ihnen erfassen. Sollten wir in Zukunft derartige Informationen tatsächlich erfassen wollen, werden wir Sie selbstverständlich erneut nach Ihrer Zustimmung fragen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "In den vorangegangenen Fragen ging es um die automatische Erfassung einiger zusätzlicher Informationen durch ein JavaScript. Wir haben Ihnen diese Fragen gestellt, weil einige Studien im Internet diese Informationen tatsächlich erfassen. Daher wollen wir gerne wissen, ob unsere Studienteilnehmer die Erfassung zusätzlicher Informationen überhaupt in Ordnung finden.  \nHeute geht es lediglich darum zu verstehen, ob Sie die Erfassung solcher Informationen erlauben und welche Gründe Sie für Ihre Entscheidung haben. Ihre Meinung ist uns sehr wichtig. \nAuch wenn Sie der Erfassung zugestimmt haben, werden wir diese Informationen heute nicht tatsächlich von Ihnen erfassen. Sollten wir in Zukunft derartige Informationen tatsächlich erfassen wollen, werden wir Sie selbstverständlich erneut nach Ihrer Zustimmung fragen.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 110,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 112": {
+      "question": "Page 112",
+      "name": "Page 112",
+      "label": "Wie lange hat es Ihrer Meinung nach gedauert, diese Umfrage zu beantworten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie lange hat es Ihrer Meinung nach gedauert, diese Umfrage zu beantworten?",
+          "description": "Befragte in 2 gleiche Gruppen aufteilen:\n1/2 bekommt ZF42193, ZF42194, ZF42195 (Gruppe 1)\n1/2 bekommt ZF42196, ZF42197, ZF42198 (Gruppe 2)\nZuteilung zu den Experimentalgruppen in separater Variable expZF42193 speichern.",
+          "filter": "expZF42193 = 1",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 111,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 113": {
+      "question": "Page 113",
+      "name": "Page 113",
+      "label": "Was ist die ideale Länge für eine Umfrage, an der Sie teilnehmen würden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Was ist die ideale Länge für eine Umfrage, an der Sie teilnehmen würden?",
+          "filter": "expZF42193 = 1",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 112,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 114": {
+      "question": "Page 114",
+      "name": "Page 114",
+      "label": "Was ist die maximale Länge für eine Umfrage, an der Sie teilnehmen würden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Was ist die maximale Länge für eine Umfrage, an der Sie teilnehmen würden?",
+          "filter": "expZF42193 = 1",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 113,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 115": {
+      "question": "Page 115",
+      "name": "Page 115",
+      "label": "Wie lange hat es Ihrer Meinung nach gedauert, diese Onlineumfrage zu beantworten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie lange hat es Ihrer Meinung nach gedauert, diese Onlineumfrage zu beantworten?",
+          "filter": "expZF42193 = 2",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 114,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 116": {
+      "question": "Page 116",
+      "name": "Page 116",
+      "label": "Was ist die ideale Länge für eine Onlineumfrage, an der Sie teilnehmen würden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Was ist die ideale Länge für eine Onlineumfrage, an der Sie teilnehmen würden?",
+          "filter": "expZF42193 = 2",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 115,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 117": {
+      "question": "Page 117",
+      "name": "Page 117",
+      "label": "Was ist die maximale Länge für eine Onlineumfrage, an der Sie teilnehmen würden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Was ist die maximale Länge für eine Onlineumfrage, an der Sie teilnehmen würden?",
+          "filter": "expZF42193 = 2",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 116,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 118": {
+      "question": "Page 118",
+      "name": "Page 118",
+      "label": "Vorhin haben wir Ihnen die folgende Frage gestellt:\n\nWie stark interessieren Sie sich im Allgemeinen für Politik?\n\nKönnen Sie sich noch an Ihre genaue Antwort darauf erinnern?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vorhin haben wir Ihnen die folgende Frage gestellt:\n\nWie stark interessieren Sie sich im Allgemeinen für Politik?\n\nKönnen Sie sich noch an Ihre genaue Antwort darauf erinnern?",
+          "filter": "AJ42050 != missing",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ja"
+            },
+            {
+              "value": 2,
+              "label": "Nein"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 117,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 119": {
+      "question": "Page 119",
+      "name": "Page 119",
+      "label": "[Wenn ZF42199 = 1: Bitte geben Sie an, was Ihre Antwort war.]\n[Wenn ZF42199 = 2: Auch wenn Sie sich nicht mehr genau erinnern können: Bitte schätzen Sie, was Ihre Antwort war.]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn ZF42199 = 1: Bitte geben Sie an, was Ihre Antwort war.]\n[Wenn ZF42199 = 2: Auch wenn Sie sich nicht mehr genau erinnern können: Bitte schätzen Sie, was Ihre Antwort war.]",
+          "filter": "ZF42199 != missing",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr stark"
+            },
+            {
+              "value": 2,
+              "label": "Stark"
+            },
+            {
+              "value": 3,
+              "label": "Mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "Wenig"
+            },
+            {
+              "value": 5,
+              "label": "Überhaupt nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 118,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 120": {
+      "question": "Page 120",
+      "name": "Page 120",
+      "label": "Wie sicher sind Sie sich mit Ihrer Einschätzung?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sicher sind Sie sich mit Ihrer Einschätzung?",
+          "filter": "ZF42200 != missing",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0 Überhaupt nicht sicher"
+            },
+            {
+              "value": 1,
+              "label": "1"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10 Vollkommen sicher"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 119,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 121": {
+      "question": "Page 121",
+      "name": "Page 121",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "interessant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 120,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 122": {
+      "question": "Page 122",
+      "name": "Page 122",
+      "label": "Fanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "abwechslungsreich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 121,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 123": {
+      "question": "Page 123",
+      "name": "Page 123",
+      "label": "Fanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "relevant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 122,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 124": {
+      "question": "Page 124",
+      "name": "Page 124",
+      "label": "Fanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "lang",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 123,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 125": {
+      "question": "Page 125",
+      "name": "Page 125",
+      "label": "Fanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "schwierig",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 124,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 126": {
+      "question": "Page 126",
+      "name": "Page 126",
+      "label": "Fanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "zu persönlich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 125,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 127": {
+      "question": "Page 127",
+      "name": "Page 127",
+      "label": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut"
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 126,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 128": {
+      "question": "Page 128",
+      "name": "Page 128",
+      "label": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 127,
+      "instrument": "W42",
+      "study": "gip"
+    },
+    "Page 129 Outro": {
+      "question": "Page 129 Outro",
+      "name": "Page 129 Outro",
+      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\n\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\n\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\n\nIhr Forschungsteam von der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\n\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\n\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\n\nIhr Forschungsteam von der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 128,
+      "instrument": "W42",
+      "study": "gip"
+    }
+  }
+}
