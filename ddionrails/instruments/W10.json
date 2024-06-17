@@ -1,0 +1,3604 @@
+{
+  "study": "gip",
+  "name": "W10",
+  "label": "GIP Wave 10",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 10 enthält folgende zugespielte Variablen:\n• [i[id_g]i] - Unique ID, GIP\n• [i[hhid_g]i] - Household identifyer, GIP\n• [i[pid]i] - Person identifyer (within HH)\n• [i[gender_13]i] - gender\n• [i[year_of_birth_cat]i] - year of birth categories\n• [i[educ_school_13]i] - highest educational degree\n• [i[educ_job_13]i] - highest professional qualification\n• [i[marital_status_13]i] - marital status\n• [i[number_hh_members_13]i] - number of household members\n• [i[occupation_13]i] - employment status\n• [i[state]i] - residence state\n• [i[german_citizenship_13]i] - german citizenship\n• [i[internet_usage_13]i] - private internet usage\n• [i[dDatum]i] - Interview-Datum",
+  "analysis_unit": "p",
+  "period": "2014/03",
+  "instrument": "W10",
+  "questions": {
+    "Page 1 Introduction": {
+      "question": "Page 1 Introduction",
+      "name": "Page 1 Introduction",
+      "label": "Herzlich Willkommen zu dieser Umfrage!\nDie Teilnahme dauert insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nEinige der folgenden Fragen kennen Sie vielleicht schon. Für uns ist es wichtig, dazu noch einmal Ihre Meinung zu erfahren.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren.\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz).\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim in Zusammenarbeit mit dem LINK Institut",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Herzlich Willkommen zu dieser Umfrage!\nDie Teilnahme dauert insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nEinige der folgenden Fragen kennen Sie vielleicht schon. Für uns ist es wichtig, dazu noch einmal Ihre Meinung zu erfahren.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren.\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz).\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim in Zusammenarbeit mit dem LINK Institut",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 2": {
+      "question": "Page 2",
+      "name": "Page 2",
+      "label": "Der folgende Teil des Fragebogens beschäftigt sich mit der Politik und den Parteien in Deutschland.\n\nWenn am nächsten Sonntag Bundestagswahl wäre, welche Partei würden Sie dann mit Ihrer Zweitstimme wählen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Der folgende Teil des Fragebogens beschäftigt sich mit der Politik und den Parteien in Deutschland.\n\nWenn am nächsten Sonntag Bundestagswahl wäre, welche Partei würden Sie dann mit Ihrer Zweitstimme wählen?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "CDU/CSU"
+            },
+            {
+              "value": 2,
+              "label": "SPD"
+            },
+            {
+              "value": 3,
+              "label": "FDP"
+            },
+            {
+              "value": 4,
+              "label": "Bündnis 90/Die Grünen"
+            },
+            {
+              "value": 5,
+              "label": "Die Linke"
+            },
+            {
+              "value": 6,
+              "label": "NPD"
+            },
+            {
+              "value": 7,
+              "label": "Piratenpartei"
+            },
+            {
+              "value": 8,
+              "label": "Alternative für Deutschland"
+            },
+            {
+              "value": 9,
+              "label": "eine andere Partei, und zwar: [answer field] (bitte eintragen)"
+            },
+            {
+              "value": 10,
+              "label": "Ich wäre nicht wahlberechtigt."
+            },
+            {
+              "value": 11,
+              "label": "Ich würde nicht wählen."
+            },
+            {
+              "value": -99,
+              "label": "Ich weiß nicht, welche Partei ich wählen würde."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 3": {
+      "question": "Page 3",
+      "name": "Page 3",
+      "label": "[wenn Gruppe 0: Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.]\n[wenn Gruppe 1: Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten. Zum Beispiel haben einige Mitglieder der CDU/CSU vor Kurzem Angela Merkel für ihre Vorschläge zum Thema Mindestlohn kritisiert.]\n[wenn Gruppe 2: Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten. Zum Beispiel haben einige Mitglieder der CDU/CSU vor Kurzem Angela Merkel für ihre Handhabung der Koalitionsverhandlungen kritisiert.]\nWenn Sie einmal an die letzten Monate zurückdenken: Nehmen Sie die CDU/CSU als zerstritten oder als geschlossen wahr?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn Gruppe 0: Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.]\n[wenn Gruppe 1: Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten. Zum Beispiel haben einige Mitglieder der CDU/CSU vor Kurzem Angela Merkel für ihre Vorschläge zum Thema Mindestlohn kritisiert.]\n[wenn Gruppe 2: Innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten. Zum Beispiel haben einige Mitglieder der CDU/CSU vor Kurzem Angela Merkel für ihre Handhabung der Koalitionsverhandlungen kritisiert.]\nWenn Sie einmal an die letzten Monate zurückdenken: Nehmen Sie die CDU/CSU als zerstritten oder als geschlossen wahr?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Befragte zufällig auf drei Gruppen aufteilen. 1/3 der Befragten bekommt die Frage ohne Treatment (Gruppe 0). 1/3 der Befragten bekommt die Frage mit „Treatment 1“ (Gruppe 1). 1/3 der Befragten bekommt die Frage mit „Treatment 2“ (Gruppe 2); Zuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expCE10141 speichern.\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 sehr zerstritten"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 sehr geschlossen"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 4": {
+      "question": "Page 4",
+      "name": "Page 4",
+      "label": "[wenn Gruppe 1: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz der politischen Parteien im Bundestag befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die CDU/CSU am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn Gruppe 2: Und wie ist es mit der CDU/CSU? In welchen Bereichen ist Ihrer Meinung nach die CDU/CSU am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn Gruppe 1: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz der politischen Parteien im Bundestag befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die CDU/CSU am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn Gruppe 2: Und wie ist es mit der CDU/CSU? In welchen Bereichen ist Ihrer Meinung nach die CDU/CSU am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+          "instruction": "Bitte wählen Sie die Bereiche aus:",
+          "description": "– es gibt zwei Gruppen\n– die Befragten sollen derselben Gruppe wie in Welle 02 (und falls nicht vorhanden Welle 06 und falls nicht vorhanden Welle 08) zugewiesen werden\n– neue Befragte sollen zu 1/2 jeder Gruppe zugewiesen werden\n– Zuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expCE10142 speichern.\n– auch die Reihenfolge der Items soll für jede Person wie die Reihenfolge der Antwortmöglichkeiten in Welle 02 (und falls nicht vorhanden Welle 06 und falls nicht vorhanden Welle 08) sein\n– neue Befragte sollen zufällige Randomisierung der Items erhalten\n– auf jeder der 4 folgenden Seiten soll dieselbe Reihenfolge der Items genutzt werden\n– Randomisierung in separater Variable mit dem Namen rndCE10142 speichern. Randomisierungsvariable wird auch bei nachfolgenden Fragen benötigt.\n\nGruppe 1: Reihenfolge der folgenden 4 Seiten = 4.00, 5.00, 6.00, 7.00 (CDU/CSU, SPD, Bündnis 90/die Grünen, Die Linke)\nGruppe 2: Reihenfolge der folgenden 4 Seiten = 7.00, 6.00, 5.00, 4.00 (Die Linke, Bündnis 90/die Grünen, SPD, CDU/CSU)\nBitte wählen Sie die Bereiche aus:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Arbeitsmarkt",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Außenpolitik",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Bildung und Forschung",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Bürgerbeteiligung",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Energieversorgung",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Europäische Einigung",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Familie",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Gesundheitssystem",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Gleichstellung",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Innere Sicherheit",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Persönlichkeitsrechte",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text": "Rentensystem",
+          "scale": "bin",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "13",
+          "text": "Staatsverschuldung",
+          "scale": "bin",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "14",
+          "text": "Steuersystem",
+          "scale": "bin",
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "15",
+          "text": "Umwelt und Klimaschutz",
+          "scale": "bin",
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "16",
+          "text": "Verkehr",
+          "scale": "bin",
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "17",
+          "text": "Verteidigung",
+          "scale": "bin",
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "18",
+          "text": "Währung",
+          "scale": "bin",
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "19",
+          "text": "Wirtschaft",
+          "scale": "bin",
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "20",
+          "text": "Zuwanderung und Integration",
+          "scale": "bin",
+          "sn": 20,
+          "number": ""
+        },
+        {
+          "item": "21",
+          "text": "In keinem der hier aufgeführten Bereiche.",
+          "scale": "bin",
+          "sn": 21,
+          "number": ""
+        },
+        {
+          "item": "22",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 22,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 5": {
+      "question": "Page 5",
+      "name": "Page 5",
+      "label": "Und wie ist es mit der SPD? In welchen Bereichen ist Ihrer Meinung nach die SPD am ehesten in der Lage, die anstehenden Probleme zu lösen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und wie ist es mit der SPD? In welchen Bereichen ist Ihrer Meinung nach die SPD am ehesten in der Lage, die anstehenden Probleme zu lösen?",
+          "instruction": "Bitte wählen Sie die Bereiche aus:",
+          "description": "Bitte wählen Sie die Bereiche aus:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Arbeitsmarkt",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Außenpolitik",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Bildung und Forschung",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Bürgerbeteiligung",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Energieversorgung",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Europäische Einigung",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Familie",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Gesundheitssystem",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Gleichstellung",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Innere Sicherheit",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Persönlichkeitsrechte",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text": "Rentensystem",
+          "scale": "bin",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "13",
+          "text": "Staatsverschuldung",
+          "scale": "bin",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "14",
+          "text": "Steuersystem",
+          "scale": "bin",
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "15",
+          "text": "Umwelt und Klimaschutz",
+          "scale": "bin",
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "16",
+          "text": "Verkehr",
+          "scale": "bin",
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "17",
+          "text": "Verteidigung",
+          "scale": "bin",
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "18",
+          "text": "Währung",
+          "scale": "bin",
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "19",
+          "text": "Wirtschaft",
+          "scale": "bin",
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "20",
+          "text": "Zuwanderung und Integration",
+          "scale": "bin",
+          "sn": 20,
+          "number": ""
+        },
+        {
+          "item": "21",
+          "text": "In keinem der hier aufgeführten Bereiche.",
+          "scale": "bin",
+          "sn": 21,
+          "number": ""
+        },
+        {
+          "item": "22",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 22,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 6": {
+      "question": "Page 6",
+      "name": "Page 6",
+      "label": "Und wie ist es mit der Partei Bündnis 90/Die Grünen? In welchen Bereichen ist Ihrer Meinung nach die Partei Bündnis 90/Die Grünen am ehesten in der Lage, die anstehenden Probleme zu lösen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und wie ist es mit der Partei Bündnis 90/Die Grünen? In welchen Bereichen ist Ihrer Meinung nach die Partei Bündnis 90/Die Grünen am ehesten in der Lage, die anstehenden Probleme zu lösen?",
+          "instruction": "Bitte wählen Sie die Bereiche aus:",
+          "description": "Bitte wählen Sie die Bereiche aus:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Arbeitsmarkt",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Außenpolitik",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Bildung und Forschung",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Bürgerbeteiligung",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Energieversorgung",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Europäische Einigung",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Familie",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Gesundheitssystem",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Gleichstellung",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Innere Sicherheit",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Persönlichkeitsrechte",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text": "Rentensystem",
+          "scale": "bin",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "13",
+          "text": "Staatsverschuldung",
+          "scale": "bin",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "14",
+          "text": "Steuersystem",
+          "scale": "bin",
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "15",
+          "text": "Umwelt und Klimaschutz",
+          "scale": "bin",
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "16",
+          "text": "Verkehr",
+          "scale": "bin",
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "17",
+          "text": "Verteidigung",
+          "scale": "bin",
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "18",
+          "text": "Währung",
+          "scale": "bin",
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "19",
+          "text": "Wirtschaft",
+          "scale": "bin",
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "20",
+          "text": "Zuwanderung und Integration",
+          "scale": "bin",
+          "sn": 20,
+          "number": ""
+        },
+        {
+          "item": "21",
+          "text": "In keinem der hier aufgeführten Bereiche.",
+          "scale": "bin",
+          "sn": 21,
+          "number": ""
+        },
+        {
+          "item": "22",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 22,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 7": {
+      "question": "Page 7",
+      "name": "Page 7",
+      "label": "[wenn Gruppe 2: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz der politischen Parteien im Bundestag befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die Partei Die Linke  am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn Gruppe 1: Und wie ist es mit der Partei Die Linke ? In welchen Bereichen ist Ihrer Meinung nach die Partei Die Linke am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn Gruppe 2: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz der politischen Parteien im Bundestag befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die Partei Die Linke  am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn Gruppe 1: Und wie ist es mit der Partei Die Linke ? In welchen Bereichen ist Ihrer Meinung nach die Partei Die Linke am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+          "instruction": "Bitte wählen Sie die Bereiche aus:",
+          "description": "Bitte wählen Sie die Bereiche aus:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Arbeitsmarkt",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Außenpolitik",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Bildung und Forschung",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Bürgerbeteiligung",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Energieversorgung",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Europäische Einigung",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Familie",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Gesundheitssystem",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Gleichstellung",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Innere Sicherheit",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Persönlichkeitsrechte",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text": "Rentensystem",
+          "scale": "bin",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "13",
+          "text": "Staatsverschuldung",
+          "scale": "bin",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "14",
+          "text": "Steuersystem",
+          "scale": "bin",
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "15",
+          "text": "Umwelt und Klimaschutz",
+          "scale": "bin",
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "16",
+          "text": "Verkehr",
+          "scale": "bin",
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "17",
+          "text": "Verteidigung",
+          "scale": "bin",
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "18",
+          "text": "Währung",
+          "scale": "bin",
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "19",
+          "text": "Wirtschaft",
+          "scale": "bin",
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "20",
+          "text": "Zuwanderung und Integration",
+          "scale": "bin",
+          "sn": 20,
+          "number": ""
+        },
+        {
+          "item": "21",
+          "text": "In keinem der hier aufgeführten Bereiche.",
+          "scale": "bin",
+          "sn": 21,
+          "number": ""
+        },
+        {
+          "item": "22",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 22,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 8": {
+      "question": "Page 8",
+      "name": "Page 8",
+      "label": "Im Deutschen Bundestag teilen sich die politischen Parteien in Bundesregierung und Opposition auf.\n\nSind die folgenden Parteien Ihrer Meinung nach derzeit in der Bundesregierung oder in der Opposition?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Deutschen Bundestag teilen sich die politischen Parteien in Bundesregierung und Opposition auf.\n\nSind die folgenden Parteien Ihrer Meinung nach derzeit in der Bundesregierung oder in der Opposition?",
+          "instruction": "Bitte wählen Sie eine Antwort für jede Partei aus:",
+          "description": "Bitte wählen Sie eine Antwort für jede Partei aus:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "CDU/CSU",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Partei ist in der Bundesregierung"
+            },
+            {
+              "value": 2,
+              "label": "Partei ist in der Opposition"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "SPD",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Partei ist in der Bundesregierung"
+            },
+            {
+              "value": 2,
+              "label": "Partei ist in der Opposition"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Bündnis 90/Die Grünen",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Partei ist in der Bundesregierung"
+            },
+            {
+              "value": 2,
+              "label": "Partei ist in der Opposition"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Die Linke",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Partei ist in der Bundesregierung"
+            },
+            {
+              "value": 2,
+              "label": "Partei ist in der Opposition"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 9 und 10": {
+      "question": "Page 9 und 10",
+      "name": "Page 9 und 10",
+      "label": "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung bei.\n\nWelche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit den folgenden Bereichen bei?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Die Bundesregierung misst verschiedenen Bereichen unterschiedliche Bedeutung bei.\n\nWelche Bedeutung misst die Bundesregierung Ihrer Ansicht nach derzeit den folgenden Bereichen bei?",
+          "instruction": "Bitte wählen Sie eine Antwort für jeden Bereich aus:",
+          "description": "Bitte wählen Sie eine Antwort für jeden Bereich aus:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Steuersystem",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Wirtschaft",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Staatsverschuldung",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Persönlichkeitsrechte",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Bürgerbeteiligung",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Rentensystem",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Außenpolitik",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Verteidigung",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Energieversorgung",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Verkehr",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Familie",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text": "Innere Sicherheit",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "13",
+          "text": "Gesundheitssystem",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "14",
+          "text": "Arbeitsmarkt",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "15",
+          "text": "Europäische Einigung",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "16",
+          "text": "Zuwanderung und Integration",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "17",
+          "text": "Umwelt und Klimaschutz",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "18",
+          "text": "Gleichstellung",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "19",
+          "text": "Bildung und Forschung",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "20",
+          "text": "Währung",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr niedrige"
+            },
+            {
+              "value": 2,
+              "label": "niedrige"
+            },
+            {
+              "value": 3,
+              "label": "mittlere"
+            },
+            {
+              "value": 4,
+              "label": "hohe"
+            },
+            {
+              "value": 5,
+              "label": "sehr hohe"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 20,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 11": {
+      "question": "Page 11",
+      "name": "Page 11",
+      "label": "In der Politik reden die Leute häufig von \"links\" und \"rechts\".\nWenn Sie diese Skala hier benutzen, wo würden Sie die aktuelle und zwei mögliche Regierungskoalitionen der momentan im Bundestag vertretenen Parteien einordnen? Dabei steht  1 für \"links\" und 11 für \"rechts\".",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "In der Politik reden die Leute häufig von \"links\" und \"rechts\".\nWenn Sie diese Skala hier benutzen, wo würden Sie die aktuelle und zwei mögliche Regierungskoalitionen der momentan im Bundestag vertretenen Parteien einordnen? Dabei steht  1 für \"links\" und 11 für \"rechts\".",
+          "instruction": "Bitte geben Sie für jede Zeile eine Antwort.\n",
+          "description": "Bitte geben Sie für jede Zeile eine Antwort.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Koalition aus CDU/CSU und SPD",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 links"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 rechts"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Koalition aus CDU/CSU und Bündnis 90/Die Grünen",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 links"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 rechts"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Koalition aus SPD, Die Linke und Bündnis 90/Die Grünen",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 links"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 rechts"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 12": {
+      "question": "Page 12",
+      "name": "Page 12",
+      "label": "In Koalitionsverhandlungen wird das zukünftige Regierungsprogramm beschlossen und entschieden, welche Partei die Leitung welcher Ministerien übernimmt.\n\nMeistens erhalten Parteien mit weniger Stimmen auch weniger Ministerien als Parteien mit mehr Stimmen. Hin und wieder kann sich eine Partei aber besser durchsetzen und mehr Ministerien übernehmen.\n\nWie sehr konnte sich Ihrer Meinung nach die SPD bei den Koalitionsverhandlungen nach der Bundestagswahl im September 2013 durchsetzen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "In Koalitionsverhandlungen wird das zukünftige Regierungsprogramm beschlossen und entschieden, welche Partei die Leitung welcher Ministerien übernimmt.\n\nMeistens erhalten Parteien mit weniger Stimmen auch weniger Ministerien als Parteien mit mehr Stimmen. Hin und wieder kann sich eine Partei aber besser durchsetzen und mehr Ministerien übernehmen.\n\nWie sehr konnte sich Ihrer Meinung nach die SPD bei den Koalitionsverhandlungen nach der Bundestagswahl im September 2013 durchsetzen?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0 überhaupt nicht durchsetzen"
+            },
+            {
+              "value": 1,
+              "label": "1"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5 entsprechend ihres Sitzanteils durchsetzen"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10 sehr stark durchsetzen"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 13": {
+      "question": "Page 13",
+      "name": "Page 13",
+      "label": "Im Folgenden geht es uns um gesellschaftliche Themen, die alle Bürger betreffen: Wovon sollen Menschen im Alter leben? Soll die Gesundheitsversorgung in Deutschland verbessert werden? Wie sollen Arbeitslose unterstützt werden? Dabei gibt es weder richtige noch falsche Antworten, es zählt einzig Ihre persönliche Meinung.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden geht es uns um gesellschaftliche Themen, die alle Bürger betreffen: Wovon sollen Menschen im Alter leben? Soll die Gesundheitsversorgung in Deutschland verbessert werden? Wie sollen Arbeitslose unterstützt werden? Dabei gibt es weder richtige noch falsche Antworten, es zählt einzig Ihre persönliche Meinung.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 14": {
+      "question": "Page 14",
+      "name": "Page 14",
+      "label": "Sollte der Staat Ihrer Meinung nach dafür verantwortlich sein, eine ausreichende gesundheitliche Versorgung für Kranke sicherzustellen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sollte der Staat Ihrer Meinung nach dafür verantwortlich sein, eine ausreichende gesundheitliche Versorgung für Kranke sicherzustellen?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0 überhaupt nicht verantwortlich sein"
+            },
+            {
+              "value": 1,
+              "label": "1"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10 voll und ganz verantwortlich sein"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 15": {
+      "question": "Page 15",
+      "name": "Page 15",
+      "label": "Wie schätzen Sie insgesamt den Änderungsbedarf des Gesundheitssystems in Deutschland ein?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie schätzen Sie insgesamt den Änderungsbedarf des Gesundheitssystems in Deutschland ein?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Es braucht keine Änderungen."
+            },
+            {
+              "value": 2,
+              "label": "Es braucht sehr wenige Änderungen."
+            },
+            {
+              "value": 3,
+              "label": "Es braucht wenige Änderungen."
+            },
+            {
+              "value": 4,
+              "label": "Es braucht viele Änderungen."
+            },
+            {
+              "value": 5,
+              "label": "Es braucht sehr viele Änderungen."
+            },
+            {
+              "value": 6,
+              "label": "Es muss vollständig geändert werden."
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 16": {
+      "question": "Page 16",
+      "name": "Page 16",
+      "label": "Eine mögliche Veränderung des Gesundheitssystems betrifft die Ausgaben.\n\nSollten der Staat und die gesetzliche Krankenkasse für das Gesundheitssystem mehr oder weniger Geld ausgeben als momentan?\n\n[wenn Gruppe 2: Bedenken Sie dabei, dass sehr viel höhere Ausgaben auch höhere Steuern und Krankenkassenbeiträge erfordern können.]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine mögliche Veränderung des Gesundheitssystems betrifft die Ausgaben.\n\nSollten der Staat und die gesetzliche Krankenkasse für das Gesundheitssystem mehr oder weniger Geld ausgeben als momentan?\n\n[wenn Gruppe 2: Bedenken Sie dabei, dass sehr viel höhere Ausgaben auch höhere Steuern und Krankenkassenbeiträge erfordern können.]",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "(unterschiedlicher Fragetext), 2 Gruppen, jeweils 50%; Zuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expAC10051 speichern. Experimentalvariable wird auch bei nachfolgenden Fragen benötigt.\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr viel mehr ausgeben"
+            },
+            {
+              "value": 2,
+              "label": "etwas mehr ausgeben"
+            },
+            {
+              "value": 3,
+              "label": "die Ausgaben auf dem jetzigen Stand halten"
+            },
+            {
+              "value": 4,
+              "label": "etwas weniger ausgeben"
+            },
+            {
+              "value": 5,
+              "label": "sehr viel weniger ausgeben"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 17": {
+      "question": "Page 17",
+      "name": "Page 17",
+      "label": "Die Ausgaben für das Gesundheitssystem sind in den letzten Jahren gestiegen. Um Einnahmen und Ausgaben im Gleichgewicht zu halten, gibt es unterschiedliche Maßnahmen, die im Folgenden aufgeführt sind.\n\nWelche dieser Maßnahmen befürworten Sie am wenigsten? Und welche befürworten Sie am meisten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Die Ausgaben für das Gesundheitssystem sind in den letzten Jahren gestiegen. Um Einnahmen und Ausgaben im Gleichgewicht zu halten, gibt es unterschiedliche Maßnahmen, die im Folgenden aufgeführt sind.\n\nWelche dieser Maßnahmen befürworten Sie am wenigsten? Und welche befürworten Sie am meisten?",
+          "instruction": "Bitte wählen Sie jeweils eine Maßnahme aus, die Sie am wenigsten befürworten, und eine, die Sie am meisten befürworten.",
+          "description": "Bitte wählen Sie jeweils eine Maßnahme aus, die Sie am wenigsten befürworten, und eine, die Sie am meisten befürworten.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Befürworte ich am wenigsten",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Die Beiträge zur Krankenversicherung sollten erhöht werden."
+            },
+            {
+              "value": 2,
+              "label": "Die medizinischen Leistungen, die von der Krankenversicherung bezahlt werden, sollten beschränkt werden."
+            },
+            {
+              "value": 3,
+              "label": "Die allgemeinen Steuern sollten erhöht werden (z. B. die Einkommenssteuer)."
+            },
+            {
+              "value": 5,
+              "label": "Andere private Zuzahlungen durch Patienten sollten erhöht werden (z. B. die Zuzahlung zu Medikamenten oder zur zahnärztlichen Versorgung)."
+            },
+            {
+              "value": 6,
+              "label": "Die Vergütung von Ärzten, Apotheken und der Pharmaindustrie sollte gekürzt werden."
+            },
+            {
+              "value": 7,
+              "label": "keine der Alternativen"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Befürworte ich am meisten",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Die Beiträge zur Krankenversicherung sollten erhöht werden."
+            },
+            {
+              "value": 2,
+              "label": "Die medizinischen Leistungen, die von der Krankenversicherung bezahlt werden, sollten beschränkt werden."
+            },
+            {
+              "value": 3,
+              "label": "Die allgemeinen Steuern sollten erhöht werden (z. B. die Einkommenssteuer)."
+            },
+            {
+              "value": 5,
+              "label": "Andere private Zuzahlungen durch Patienten sollten erhöht werden (z. B. die Zuzahlung zu Medikamenten oder zur zahnärztlichen Versorgung)."
+            },
+            {
+              "value": 6,
+              "label": "Die Vergütung von Ärzten, Apotheken und der Pharmaindustrie sollte gekürzt werden."
+            },
+            {
+              "value": 7,
+              "label": "keine der Alternativen"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 18": {
+      "question": "Page 18",
+      "name": "Page 18",
+      "label": "Seit einiger Zeit gibt es sogenannte Hausarztmodelle. Dabei verpflichtet man sich, für mindestens ein Jahr bei gesundheitlichen Problemen immer zuerst zu seinem Hausarzt zu gehen. Dieser entscheidet dann, ob Patienten zu einem Facharzt überwiesen werden. Für Notfälle, Besuche beim Augen- und Kinderarzt sowie beim Gynäkologen ist weiterhin keine Überweisung erforderlich.\n\n[wenn Gruppe 2:\nDurch das Hausarztmodell sollen beispielsweise Doppeluntersuchungen und unnötige Arztbesuche vermieden werden und so die Kosten der Gesundheitsversorgung reduziert werden.]\n\nWären Sie dazu bereit, an einem solchen Hausarztmodell teilzunehmen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Seit einiger Zeit gibt es sogenannte Hausarztmodelle. Dabei verpflichtet man sich, für mindestens ein Jahr bei gesundheitlichen Problemen immer zuerst zu seinem Hausarzt zu gehen. Dieser entscheidet dann, ob Patienten zu einem Facharzt überwiesen werden. Für Notfälle, Besuche beim Augen- und Kinderarzt sowie beim Gynäkologen ist weiterhin keine Überweisung erforderlich.\n\n[wenn Gruppe 2:\nDurch das Hausarztmodell sollen beispielsweise Doppeluntersuchungen und unnötige Arztbesuche vermieden werden und so die Kosten der Gesundheitsversorgung reduziert werden.]\n\nWären Sie dazu bereit, an einem solchen Hausarztmodell teilzunehmen?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "(unterschiedlicher Fragetext), 2 Gruppen, jeweils 50%\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich wäre nicht bereit, an einem Hausarztmodell teilzunehmen."
+            },
+            {
+              "value": 2,
+              "label": "Ich würde daran teilnehmen, wenn ich dann niedrigere Krankenkassenbeiträge zahlen müsste."
+            },
+            {
+              "value": 3,
+              "label": "Ich würde auch ohne Beitragsentlastung daran teilnehmen."
+            },
+            {
+              "value": 4,
+              "label": "Ich nehme an so einem Modell bereits teil."
+            },
+            {
+              "value": 5,
+              "label": "Ich habe eine Zeit an so einem Modell teilgenommen, nun aber nicht mehr."
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 19": {
+      "question": "Page 19",
+      "name": "Page 19",
+      "label": "Wie stehen Sie zu folgendem Vorschlag?\nÄrzte, von denen Sie behandelt werden, können Ihre Krankengeschichte elektronisch einsehen (sogenannte Gesundheitskarte).\n[wenn Gruppe 1: Dadurch soll eine optimale Gesundheitsversorgung gewährleistet werden.]\n[wenn Gruppe 2: Dadurch sollen Kosten bei der Gesundheitsversorgung gespart werden.]\n[wenn Gruppe 3: ]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie stehen Sie zu folgendem Vorschlag?\nÄrzte, von denen Sie behandelt werden, können Ihre Krankengeschichte elektronisch einsehen (sogenannte Gesundheitskarte).\n[wenn Gruppe 1: Dadurch soll eine optimale Gesundheitsversorgung gewährleistet werden.]\n[wenn Gruppe 2: Dadurch sollen Kosten bei der Gesundheitsversorgung gespart werden.]\n[wenn Gruppe 3: ]",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "(unterschiedlicher Fragetext), 3 Gruppen, jeweils 1/3; Zuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expAC10054 speichern\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "befürworte ich voll und ganz"
+            },
+            {
+              "value": 2,
+              "label": "befürworte ich"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "lehne ich ab"
+            },
+            {
+              "value": 5,
+              "label": "lehne ich voll und ganz ab"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 20": {
+      "question": "Page 20",
+      "name": "Page 20",
+      "label": "Immer häufiger gibt es Medizinische Versorgungszentren, in denen Allgemeinärzte, mehrere Fachärzte, Physiotherapeuten und Andere Gesundheitsleistungen unter einem Dach anbieten.\n\nWenn Sie vor Ort die Wahl zwischen einer Einzelpraxis und einem Medizinischen Versorgungszentrum hätten, wo würden Sie Gesundheitsleistungen durch niedergelassene Ärzte eher in Anspruch nehmen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Immer häufiger gibt es Medizinische Versorgungszentren, in denen Allgemeinärzte, mehrere Fachärzte, Physiotherapeuten und Andere Gesundheitsleistungen unter einem Dach anbieten.\n\nWenn Sie vor Ort die Wahl zwischen einer Einzelpraxis und einem Medizinischen Versorgungszentrum hätten, wo würden Sie Gesundheitsleistungen durch niedergelassene Ärzte eher in Anspruch nehmen?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "eher in einer Einzelpraxis"
+            },
+            {
+              "value": 2,
+              "label": "eher in einem Medizinischen Versorgungszentrum"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 18,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 21": {
+      "question": "Page 21",
+      "name": "Page 21",
+      "label": "Und alles in allem betrachtet, würden Sie sagen, Ihre Gesundheit ist …",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und alles in allem betrachtet, würden Sie sagen, Ihre Gesundheit ist …",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "schlecht"
+            },
+            {
+              "value": 5,
+              "label": "sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 19,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 22": {
+      "question": "Page 22",
+      "name": "Page 22",
+      "label": "Im folgenden Teil der Befragung geht es nun um Ihre Meinung zur Alterssicherung in Deutschland.\n\nSollte der Staat Ihrer Meinung nach dafür verantwortlich sein, einen angemessenen Lebensstandard im Alter sicherzustellen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im folgenden Teil der Befragung geht es nun um Ihre Meinung zur Alterssicherung in Deutschland.\n\nSollte der Staat Ihrer Meinung nach dafür verantwortlich sein, einen angemessenen Lebensstandard im Alter sicherzustellen?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0 überhaupt nicht verantwortlich sein"
+            },
+            {
+              "value": 1,
+              "label": "1"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10 voll und ganz verantwortlich sein"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 20,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 23": {
+      "question": "Page 23",
+      "name": "Page 23",
+      "label": "Wie schätzen Sie insgesamt den Änderungsbedarf des Rentensystems in Deutschland ein?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie schätzen Sie insgesamt den Änderungsbedarf des Rentensystems in Deutschland ein?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Es braucht keine Änderungen."
+            },
+            {
+              "value": 2,
+              "label": "Es braucht sehr wenige Änderungen."
+            },
+            {
+              "value": 3,
+              "label": "Es braucht wenige Änderungen."
+            },
+            {
+              "value": 4,
+              "label": "Es braucht viele Änderungen."
+            },
+            {
+              "value": 5,
+              "label": "Es braucht sehr viele Änderungen."
+            },
+            {
+              "value": 6,
+              "label": "Es muss vollständig geändert werden."
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 21,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 24": {
+      "question": "Page 24",
+      "name": "Page 24",
+      "label": "Eine mögliche Veränderung des Rentensystems betrifft die Ausgaben.\n\nSollten der Staat und die gesetzliche Rentenversicherung für Renten mehr oder weniger Geld ausgeben als momentan?\n\n[Gruppe 2: Bedenken Sie dabei, dass sehr viel höhere Ausgaben auch höhere Steuern und Rentenversicherungsbeiträge erfordern können.]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine mögliche Veränderung des Rentensystems betrifft die Ausgaben.\n\nSollten der Staat und die gesetzliche Rentenversicherung für Renten mehr oder weniger Geld ausgeben als momentan?\n\n[Gruppe 2: Bedenken Sie dabei, dass sehr viel höhere Ausgaben auch höhere Steuern und Rentenversicherungsbeiträge erfordern können.]",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "(unterschiedlicher Fragetext), 2 Gruppen, jeweils 50%, gleiche Gruppenzuordnung wie in Frage AC10051 (siehe Variable expAC10051)\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr viel mehr ausgeben"
+            },
+            {
+              "value": 2,
+              "label": "etwas mehr ausgeben"
+            },
+            {
+              "value": 3,
+              "label": "die Ausgaben auf dem jetzigen Stand halten"
+            },
+            {
+              "value": 4,
+              "label": "etwas weniger ausgeben"
+            },
+            {
+              "value": 5,
+              "label": "sehr viel weniger ausgeben"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 22,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 25": {
+      "question": "Page 25",
+      "name": "Page 25",
+      "label": "[Gruppe 1: [Grafik \"Verhältnis von Erwerbstätigen und Rentnern in Deutschland\"]\nDie Alterung der Gesellschaft (wie im Bild dargestellt) gefährdet die Finanzierung der gesetzlichen Renten in ihrer jetzigen Höhe.]\n[Gruppe 2: Die Alterung der Gesellschaft gefährdet die Finanzierung der gesetzlichen Renten in ihrer jetzigen Höhe.]\n\nWelchen der folgenden Vorschläge würden Sie am wenigsten befürworten? Und welchen am meisten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Gruppe 1: [Grafik \"Verhältnis von Erwerbstätigen und Rentnern in Deutschland\"]\nDie Alterung der Gesellschaft (wie im Bild dargestellt) gefährdet die Finanzierung der gesetzlichen Renten in ihrer jetzigen Höhe.]\n[Gruppe 2: Die Alterung der Gesellschaft gefährdet die Finanzierung der gesetzlichen Renten in ihrer jetzigen Höhe.]\n\nWelchen der folgenden Vorschläge würden Sie am wenigsten befürworten? Und welchen am meisten?",
+          "instruction": "Bitte wählen Sie jeweils einen Vorschlag aus, den Sie am wenigsten befürworten, und einen, den Sie am meisten befürworten.",
+          "description": "(unterschiedliche Einleitungstexte und Grafik zur Frage), insgesamt 2 Gruppen, jeweils 50% (beruhend auf der Zuteilung zu den Fragegruppen aus der Januarwelle (Fragen AC03023 und AC03024)):\nGruppenzuteilung\nJanuar 2013 \nGruppe 1 (50%)\nGruppe 2 (50%)  \nMärz 2014\nGruppe 1 (25%) Gruppe 2 (25%)\nGruppe 1 (25%) Gruppe 2 (25%)\nBitte wählen Sie jeweils einen Vorschlag aus, den Sie am wenigsten befürworten, und einen, den Sie am meisten befürworten.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Würde ich am wenigsten befürworten",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Die gesetzliche Rente sollte ihre jetzige Höhe behalten, auch wenn das höhere Beitragssätze bedeutet."
+            },
+            {
+              "value": 2,
+              "label": "Die gesetzliche Rente und die Beitragssätze sollten in ihrer jetzigen Höhe beibehalten werden, stattdessen sollte das Rentenalter angehoben werden."
+            },
+            {
+              "value": 3,
+              "label": "Die Regierung sollte die allgemeinen Steuern erhöhen, um die gesetzliche Rente in ihrer derzeitigen Höhe zu erhalten."
+            },
+            {
+              "value": 4,
+              "label": "Die gesetzlichen Rentenleistungen sollten entsprechend der demografischen Entwicklung verringert werden."
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Würde ich am meisten befürworten",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Die gesetzliche Rente sollte ihre jetzige Höhe behalten, auch wenn das höhere Beitragssätze bedeutet."
+            },
+            {
+              "value": 2,
+              "label": "Die gesetzliche Rente und die Beitragssätze sollten in ihrer jetzigen Höhe beibehalten werden, stattdessen sollte das Rentenalter angehoben werden."
+            },
+            {
+              "value": 3,
+              "label": "Die Regierung sollte die allgemeinen Steuern erhöhen, um die gesetzliche Rente in ihrer derzeitigen Höhe zu erhalten."
+            },
+            {
+              "value": 4,
+              "label": "Die gesetzlichen Rentenleistungen sollten entsprechend der demografischen Entwicklung verringert werden."
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 23,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 26": {
+      "question": "Page 26",
+      "name": "Page 26",
+      "label": "[wenn AC10060 = 1: Sie haben sich für den Vorschlag entschieden, die Beitragssätze zu erhöhen. | wenn AC10060 = 2: Sie haben sich für den Vorschlag entschieden, das Rentenalter zu erhöhen. | wenn AC10060 = 3: Sie haben sich für den Vorschlag entschieden, die allgemeinen Steuern zu erhöhen. | wenn AC10060 = 4: Sie haben sich für den Vorschlag entschieden, die Rentenleistungen entsprechend der demografischen Entwicklung zu verringern.]\n\nWie sicher sind Sie sich Ihrer Meinung?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn AC10060 = 1: Sie haben sich für den Vorschlag entschieden, die Beitragssätze zu erhöhen. | wenn AC10060 = 2: Sie haben sich für den Vorschlag entschieden, das Rentenalter zu erhöhen. | wenn AC10060 = 3: Sie haben sich für den Vorschlag entschieden, die allgemeinen Steuern zu erhöhen. | wenn AC10060 = 4: Sie haben sich für den Vorschlag entschieden, die Rentenleistungen entsprechend der demografischen Entwicklung zu verringern.]\n\nWie sicher sind Sie sich Ihrer Meinung?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "AC10060 = 1 bis 4 (pension_financing_prefv2 gleich 1 Die gesetzliche Rente sollte ihre jetzige Höhe behalten, auch wenn das höhere Beitragssätze bedeutet. bis 4 Die gesetzlichen Rentenleistungen sollten entsprechend der demografischen Entwicklung verringert werden)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr sicher"
+            },
+            {
+              "value": 2,
+              "label": "eher sicher"
+            },
+            {
+              "value": 3,
+              "label": "weder sicher noch unsicher"
+            },
+            {
+              "value": 4,
+              "label": "eher unsicher"
+            },
+            {
+              "value": 5,
+              "label": "sehr unsicher"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 24,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 27": {
+      "question": "Page 27",
+      "name": "Page 27",
+      "label": "Manche sagen, dass die, die mehr verdienen, höhere Renten bekommen sollten, weil sie höhere Beiträge in die Rentenversicherung einbezahlt haben. Andere sagen, dass die, die weniger verdienen, höhere Renten bekommen sollten, weil sie bedürftiger sind.\n\nWelche der folgenden drei Aussagen kommt Ihrer Meinung am nächsten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Manche sagen, dass die, die mehr verdienen, höhere Renten bekommen sollten, weil sie höhere Beiträge in die Rentenversicherung einbezahlt haben. Andere sagen, dass die, die weniger verdienen, höhere Renten bekommen sollten, weil sie bedürftiger sind.\n\nWelche der folgenden drei Aussagen kommt Ihrer Meinung am nächsten?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Die, die mehr verdienen, sollten später höhere Renten bekommen als die, die weniger verdienen."
+            },
+            {
+              "value": 2,
+              "label": "Die, die mehr verdienen, und die, die weniger verdienen, sollten später gleich hohe Renten bekommen."
+            },
+            {
+              "value": 3,
+              "label": "Die, die weniger verdienen, sollten später höhere Renten bekommen als die, die mehr verdienen."
+            },
+            {
+              "value": 4,
+              "label": "Keine dieser Aussagen."
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 25,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 28": {
+      "question": "Page 28",
+      "name": "Page 28",
+      "label": "Im Folgenden sind zwei Vorschläge dargestellt, wie das Rentensystem in Deutschland verändert werden sollte. Diese stammen aus Wahlprogrammen zur Bundestagswahl 2013. Welchen der beiden Vorschläge finden Sie besser?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden sind zwei Vorschläge dargestellt, wie das Rentensystem in Deutschland verändert werden sollte. Diese stammen aus Wahlprogrammen zur Bundestagswahl 2013. Welchen der beiden Vorschläge finden Sie besser?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "(unterschiedliche Antwortmöglichkeiten), 2 Gruppen, jeweils 50%; Zuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expAC10063 speichern\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "(Label = Solidarrente) [Gruppe 1: Die SPD fordert | Gruppe 2 falls erste Antwortmöglichkeit: Ein Vorschlag fordert | Gruppe 2 falls zweite Antwortmöglichkeit: Ein anderer Vorschlag fordert] die Einführung einer durch Steuern finanzierten „Solidarrente“ in Höhe von mindestens 850 Euro im Monat für Versicherte mit mindestens 30 Beitrags- und 40 Versicherungsjahren."
+            },
+            {
+              "value": 2,
+              "label": "(Label = Lebensleistungsrente) [Gruppe 1: CDU/CSU wollen | Gruppe 2 falls zweite Antwortmöglichkeit: Ein anderer Vorschlag will | Gruppe 2 falls erste Antwortmöglichkeit: Ein Vorschlag will] eine „Lebensleistungsrente“ einführen. Wer 40 Jahre versichert ist und privat vorgesorgt hat, soll einen Zuschuss zur Rente auf 850 Euro erhalten."
+            },
+            {
+              "value": 3,
+              "label": "Keinen davon."
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 26,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 29": {
+      "question": "Page 29",
+      "name": "Page 29",
+      "label": "Es wurde beschlossen, das Rentenalter bis zum Jahr 2029 schrittweise auf 67 Jahre zu erhöhen.\n[Gruppe 1: Die Arbeitgeber | Gruppe 2: Manche] fordern, die Erhöhung des Rentenalters beizubehalten, da diese Reform die Finanzierung der gesetzlichen Rentenversicherung gestärkt hat.\n[Gruppe 1: Die Gewerkschaften | Gruppe 2: Andere] fordern, auf die Erhöhung des Rentenalters vorläufig zu verzichten, da viele nicht bis zum Rentenalter von 67 arbeiten können.\n\nWas halten Sie von der Erhöhung des Rentenalters auf 67 Jahre?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Es wurde beschlossen, das Rentenalter bis zum Jahr 2029 schrittweise auf 67 Jahre zu erhöhen.\n[Gruppe 1: Die Arbeitgeber | Gruppe 2: Manche] fordern, die Erhöhung des Rentenalters beizubehalten, da diese Reform die Finanzierung der gesetzlichen Rentenversicherung gestärkt hat.\n[Gruppe 1: Die Gewerkschaften | Gruppe 2: Andere] fordern, auf die Erhöhung des Rentenalters vorläufig zu verzichten, da viele nicht bis zum Rentenalter von 67 arbeiten können.\n\nWas halten Sie von der Erhöhung des Rentenalters auf 67 Jahre?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "(unterschiedlicher Fragetext), 2 Gruppen, jeweils 50%; Zuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expAC10064 speichern\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "befürworte ich voll und ganz"
+            },
+            {
+              "value": 2,
+              "label": "befürworte ich"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "lehne ich ab"
+            },
+            {
+              "value": 5,
+              "label": "lehne ich voll und ganz ab"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 27,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 30": {
+      "question": "Page 30",
+      "name": "Page 30",
+      "label": "Im folgenden Teil der Befragung geht es nun um Ihre Meinung zur Arbeitsmarktpolitik in Deutschland.\n\nSollte der Staat Ihrer Meinung nach dafür verantwortlich sein, einen angemessenen Lebensstandard für Arbeitslose sicherzustellen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im folgenden Teil der Befragung geht es nun um Ihre Meinung zur Arbeitsmarktpolitik in Deutschland.\n\nSollte der Staat Ihrer Meinung nach dafür verantwortlich sein, einen angemessenen Lebensstandard für Arbeitslose sicherzustellen?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "0 überhaupt nicht verantwortlich sein"
+            },
+            {
+              "value": 1,
+              "label": "1"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10 voll und ganz verantwortlich sein"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 28,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 31": {
+      "question": "Page 31",
+      "name": "Page 31",
+      "label": "Wie schätzen Sie insgesamt den Änderungsbedarf der sozialen Sicherung von Arbeitslosen in Deutschland ein?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie schätzen Sie insgesamt den Änderungsbedarf der sozialen Sicherung von Arbeitslosen in Deutschland ein?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Es braucht keine Änderungen."
+            },
+            {
+              "value": 2,
+              "label": "Es braucht sehr wenige Änderungen."
+            },
+            {
+              "value": 3,
+              "label": "Es braucht wenige Änderungen."
+            },
+            {
+              "value": 4,
+              "label": "Es braucht viele Änderungen."
+            },
+            {
+              "value": 5,
+              "label": "Es braucht sehr viele Änderungen."
+            },
+            {
+              "value": 6,
+              "label": "Es muss vollständig geändert werden."
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 29,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 32": {
+      "question": "Page 32",
+      "name": "Page 32",
+      "label": "Eine mögliche Veränderung der sozialen Sicherung von Arbeitslosen betrifft die Ausgaben.\n\nSollte der Staat für die Unterstützung von Arbeitslosen mehr oder weniger Geld ausgeben als momentan?\n\n[Gruppe 2: Bedenken Sie dabei, dass sehr viel höhere Ausgaben auch höhere Steuern und Beiträge zur Arbeitslosenversicherung erfordern können.]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Eine mögliche Veränderung der sozialen Sicherung von Arbeitslosen betrifft die Ausgaben.\n\nSollte der Staat für die Unterstützung von Arbeitslosen mehr oder weniger Geld ausgeben als momentan?\n\n[Gruppe 2: Bedenken Sie dabei, dass sehr viel höhere Ausgaben auch höhere Steuern und Beiträge zur Arbeitslosenversicherung erfordern können.]",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "(unterschiedlicher Fragetext), 2 Gruppen, jeweils 50%, gleiche Gruppenzuordnung wie in Frage AC10051 (siehe Variable expAC10051)\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr viel mehr ausgeben"
+            },
+            {
+              "value": 2,
+              "label": "etwas mehr ausgeben"
+            },
+            {
+              "value": 3,
+              "label": "die Ausgaben auf dem jetzigen Stand halten"
+            },
+            {
+              "value": 4,
+              "label": "etwas weniger ausgeben"
+            },
+            {
+              "value": 5,
+              "label": "sehr viel weniger ausgeben"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 30,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 33": {
+      "question": "Page 33",
+      "name": "Page 33",
+      "label": "[Gruppe 1: Manche sagen, dass bei Arbeitslosigkeit im ersten Jahr die, die mehr verdient haben, höhere Leistungen bekommen sollten, weil sie mehr Beiträge bezahlt haben. Andere sind dagegen der Ansicht, dass die, die weniger verdient haben, höhere Leistungen bekommen sollten, weil sie bedürftiger sind.]\n\n[Gruppe 2: Im Folgenden sind drei Vorschläge dargestellt, wie die Höhe des Arbeitseinkommens und die Höhe der Leistungen bei Arbeitslosigkeit im ersten Jahr zusammenhängen sollen.]\n\nWelche der folgenden drei Aussagen kommt Ihrer Meinung am nächsten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Gruppe 1: Manche sagen, dass bei Arbeitslosigkeit im ersten Jahr die, die mehr verdient haben, höhere Leistungen bekommen sollten, weil sie mehr Beiträge bezahlt haben. Andere sind dagegen der Ansicht, dass die, die weniger verdient haben, höhere Leistungen bekommen sollten, weil sie bedürftiger sind.]\n\n[Gruppe 2: Im Folgenden sind drei Vorschläge dargestellt, wie die Höhe des Arbeitseinkommens und die Höhe der Leistungen bei Arbeitslosigkeit im ersten Jahr zusammenhängen sollen.]\n\nWelche der folgenden drei Aussagen kommt Ihrer Meinung am nächsten?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "(unterschiedlicher Fragetext), 2 Gruppen, jeweils 50%; Zuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expAC10068 speichern\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Die, die mehr verdienen, sollten bei Arbeitslosigkeit im ersten Jahr höhere Leistungen bekommen als die, die weniger verdienen."
+            },
+            {
+              "value": 2,
+              "label": "Die, die mehr verdienen, und die, die weniger verdienen, sollten im ersten Jahr der Arbeitslosigkeit gleich hohe Leistungen bekommen."
+            },
+            {
+              "value": 3,
+              "label": "Die, die weniger verdienen, sollten bei Arbeitslosigkeit im ersten Jahr höhere Leistungen bekommen als die, die mehr verdienen."
+            },
+            {
+              "value": 4,
+              "label": "Keine dieser Aussagen."
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 31,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 34": {
+      "question": "Page 34",
+      "name": "Page 34",
+      "label": "Welche der folgenden Bedingungen für die Mindestsicherung sollte Ihrer Meinung nach für Langzeitarbeitslose, die länger als ein Jahr arbeitslos sind, gelten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche der folgenden Bedingungen für die Mindestsicherung sollte Ihrer Meinung nach für Langzeitarbeitslose, die länger als ein Jahr arbeitslos sind, gelten?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Langzeitarbeitslose sollten ohne weitere Bedingungen eine Mindestsicherung erhalten."
+            },
+            {
+              "value": 2,
+              "label": "Langzeitarbeitslose sollten eine Mindestsicherung nur dann erhalten, wenn sie bedürftig sind, das bedeutet, wenn niemand im Haushalt für einen aufkommen kann und man nicht über ein eigenes Vermögen verfügt."
+            },
+            {
+              "value": 3,
+              "label": "Langzeitarbeitslose sollten Mindestsicherung nur dann erhalten, wenn sie bedürftig sind, ernsthaft Arbeit suchen und Arbeitsangebote annehmen."
+            },
+            {
+              "value": 4,
+              "label": "Langzeitarbeitslose sollten keine Mindestsicherung erhalten."
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 32,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 35": {
+      "question": "Page 35",
+      "name": "Page 35",
+      "label": "Im Jahr 2005 wurde [Gruppe1: die Grundsicherung für Arbeitssuchende] [Gruppe2: die sogenannte Hartz-IV-Reform (Grundsicherung für Arbeitssuchende)] eingeführt. Wie finden Sie diese Reform?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Jahr 2005 wurde [Gruppe1: die Grundsicherung für Arbeitssuchende] [Gruppe2: die sogenannte Hartz-IV-Reform (Grundsicherung für Arbeitssuchende)] eingeführt. Wie finden Sie diese Reform?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "(unterschiedlicher Fragetext), 2 Gruppen, jeweils 50%; Zuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expAC10070 speichern\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Die Reform war richtig, da sie maßgeblich zum Abbau der Arbeitslosigkeit beigetragen hat."
+            },
+            {
+              "value": 2,
+              "label": "Die Reform muss nachgebessert werden, da sie zwar einen wichtigen Beitrag zum Abbau von Arbeitslosigkeit geleistet hat, aber auch die soziale Ungleichheit angestiegen ist."
+            },
+            {
+              "value": 3,
+              "label": "Die Reform war falsch und sollte abgeschafft werden, da sie lediglich dazu beigetragen hat, dass die soziale Ungleichheit in Deutschland angestiegen ist."
+            },
+            {
+              "value": 4,
+              "label": "Keine dieser Aussagen."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 33,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 36": {
+      "question": "Page 36",
+      "name": "Page 36",
+      "label": "[wenn Gruppe 1 bis 4: Bisher war es so, dass Arbeitgeber und Gewerkschaften gemeinsam die Löhne unabhängig vom Staat aushandeln.] [wenn Gruppe 1, 2, 5, 6: Die Gewerkschaften | wenn Gruppe 3, 4, 7, 8: Manche] fordern einen bundesweiten  gesetzlichen Mindestlohn von 8,50 Euro pro Stunde. [wenn Gruppe 1, 3, 5, 7:  Ihrer Meinung nach stellt ein Mindestlohn sicher, dass Menschen von ihrer Arbeit ohne weitere Unterstützung leben können.] [wenn Gruppe 1, 2, 5, 6: Die Arbeitgeber | wenn Gruppe 3, 4, 7, 8: Andere] lehnen die Einführung eines gesetzlichen Mindestlohnes grundsätzlich ab. [wenn Gruppe 1, 3, 5, 7: Ihrer Meinung nach gefährde ein Mindestlohn Arbeitsplätze da viele Arbeitnehmer, die bisher weniger verdienen, ihren Job verlieren würden.]\n\nWelchen Vorschlag finden Sie besser?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn Gruppe 1 bis 4: Bisher war es so, dass Arbeitgeber und Gewerkschaften gemeinsam die Löhne unabhängig vom Staat aushandeln.] [wenn Gruppe 1, 2, 5, 6: Die Gewerkschaften | wenn Gruppe 3, 4, 7, 8: Manche] fordern einen bundesweiten  gesetzlichen Mindestlohn von 8,50 Euro pro Stunde. [wenn Gruppe 1, 3, 5, 7:  Ihrer Meinung nach stellt ein Mindestlohn sicher, dass Menschen von ihrer Arbeit ohne weitere Unterstützung leben können.] [wenn Gruppe 1, 2, 5, 6: Die Arbeitgeber | wenn Gruppe 3, 4, 7, 8: Andere] lehnen die Einführung eines gesetzlichen Mindestlohnes grundsätzlich ab. [wenn Gruppe 1, 3, 5, 7: Ihrer Meinung nach gefährde ein Mindestlohn Arbeitsplätze da viele Arbeitnehmer, die bisher weniger verdienen, ihren Job verlieren würden.]\n\nWelchen Vorschlag finden Sie besser?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "(unterschiedlicher Fragetext), 2x2x2 Design (8 Gruppen):\n1. mit erstem Satz zum Status quo oder ohne (50/50)\n2. mit Nennung des Senders der Position (Gewerkschaft bzw. Arbeitgeber) oder ohne (dann manche/andere verwenden) (50/50)\n3. mit inhaltlichem Argument nach jeder Position oder ohne (50/50)\nZuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expAC10071 speichern.\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Einen bundesweiten gesetzlichen Mindestlohn von 8,50 Euro in der Stunde."
+            },
+            {
+              "value": 2,
+              "label": "Keinen gesetzlichen Mindestlohn. Arbeitgeber und Gewerkschaften sollen die Löhne unabhängig vom Staat aushandeln."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 34,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 37": {
+      "question": "Page 37",
+      "name": "Page 37",
+      "label": "[wenn AC10071 = 1: Sie haben sich für einen bundesweiten gesetzlichen Mindestlohn in Höhe von 8,50 Euro entschieden. | wenn AC10071 = 2: Sie haben sich gegen einen gesetzlichen Mindestlohn entschieden und möchten, dass Arbeitgeber und Gewerkschaften die Löhne unabhängig vom Staat aushandeln.]\n\nWie sicher sind Sie sich Ihrer Meinung?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn AC10071 = 1: Sie haben sich für einen bundesweiten gesetzlichen Mindestlohn in Höhe von 8,50 Euro entschieden. | wenn AC10071 = 2: Sie haben sich gegen einen gesetzlichen Mindestlohn entschieden und möchten, dass Arbeitgeber und Gewerkschaften die Löhne unabhängig vom Staat aushandeln.]\n\nWie sicher sind Sie sich Ihrer Meinung?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "AC10071 = 1 oder 2 (minimum wage gleich 1 Einen bundesweiten gesetzlichen Mindestlohn von 8,50 Euro in der Stunde. oder 2 Keinen gesetzlichen Mindestlohn. Arbeitgeber und Gewerkschaften sollen die Löhne unabhängig vom Staat aushandeln)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr sicher"
+            },
+            {
+              "value": 2,
+              "label": "eher sicher"
+            },
+            {
+              "value": 3,
+              "label": "weder sicher noch unsicher"
+            },
+            {
+              "value": 4,
+              "label": "eher unsicher"
+            },
+            {
+              "value": 5,
+              "label": "sehr unsicher"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 35,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 38": {
+      "question": "Page 38",
+      "name": "Page 38",
+      "label": "Zum Abschluss dieses Fragebogenteils interessiert uns Ihre Einschätzung der folgenden Aussagen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Zum Abschluss dieses Fragebogenteils interessiert uns Ihre Einschätzung der folgenden Aussagen.",
+          "instruction": "Bitte geben Sie für jede Aussage eine Einschätzung ab.",
+          "description": "Bitte geben Sie für jede Aussage eine Einschätzung ab.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Die gerechteste Art, Einkommen zu verteilen, wäre, allen gleiche Anteile zu geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 3,
+              "label": "stimme weder zu noch lehne ab"
+            },
+            {
+              "value": 4,
+              "label": "lehne eher ab"
+            },
+            {
+              "value": 5,
+              "label": "lehne voll und ganz ab"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Es ist gerecht, dass man das, was man sich durch Arbeit verdient hat, behält, auch wenn das heißt, dass einige reicher sind als andere.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 3,
+              "label": "stimme weder zu noch lehne ab"
+            },
+            {
+              "value": 4,
+              "label": "lehne eher ab"
+            },
+            {
+              "value": 5,
+              "label": "lehne voll und ganz ab"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Am wichtigsten ist, dass die Menschen das bekommen, was sie zum Leben brauchen, auch wenn die Besserverdienenden dafür etwas von ihrem Einkommen abgeben müssen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme voll und ganz zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 3,
+              "label": "stimme weder zu noch lehne ab"
+            },
+            {
+              "value": 4,
+              "label": "lehne eher ab"
+            },
+            {
+              "value": 5,
+              "label": "lehne voll und ganz ab"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        }
+      ],
+      "sn": 36,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 39": {
+      "question": "Page 39",
+      "name": "Page 39",
+      "label": "Bitte geben Sie an, wie sehr Sie folgender Aussage zustimmen oder wie sehr Sie diese ablehnen:\n\nDer Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie sehr Sie folgender Aussage zustimmen oder wie sehr Sie diese ablehnen:\n\nDer Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern.",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme stark zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "lehne ab"
+            },
+            {
+              "value": 5,
+              "label": "lehne stark ab"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 37,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 40": {
+      "question": "Page 40",
+      "name": "Page 40",
+      "label": "Im Mai 2014 ist Europawahl. Dabei wählen die Bürger der Europäischen Union die Mitglieder des Europäischen Parlamentes.\n\nWenn die Europawahl am nächsten Sonntag stattfinden würde, wie wahrscheinlich wäre es, dass Sie zur Wahl gehen oder nicht?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Mai 2014 ist Europawahl. Dabei wählen die Bürger der Europäischen Union die Mitglieder des Europäischen Parlamentes.\n\nWenn die Europawahl am nächsten Sonntag stattfinden würde, wie wahrscheinlich wäre es, dass Sie zur Wahl gehen oder nicht?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "würde sicher zur Wahl gehen"
+            },
+            {
+              "value": 2,
+              "label": "würde wahrscheinlich zur Wahl gehen"
+            },
+            {
+              "value": 3,
+              "label": "würde wahrscheinlich nicht zur Wahl gehen"
+            },
+            {
+              "value": 4,
+              "label": "würde sicher nicht zur Wahl gehen"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 38,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 41": {
+      "question": "Page 41",
+      "name": "Page 41",
+      "label": "Und welche Partei würden Sie bei dieser Europawahl am ehesten wählen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und welche Partei würden Sie bei dieser Europawahl am ehesten wählen?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "BC10020 = 1 oder 2 (EPE_participation_intention gleich 1 würde sicher zur Wahl gehen oder 2 würde wahrscheinlich zur Wahl gehen)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "CDU/CSU"
+            },
+            {
+              "value": 2,
+              "label": "SPD"
+            },
+            {
+              "value": 3,
+              "label": "Bündnis 90/Die Grünen"
+            },
+            {
+              "value": 4,
+              "label": "Die Linke"
+            },
+            {
+              "value": 5,
+              "label": "FDP"
+            },
+            {
+              "value": 6,
+              "label": "Alternative für Deutschland (AfD)"
+            },
+            {
+              "value": 7,
+              "label": "andere Partei"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 39,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 42": {
+      "question": "Page 42",
+      "name": "Page 42",
+      "label": "Bewertung dieser Umfrage\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.",
+          "instruction": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "description": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Fanden Sie den Fragebogen ...? \ninteressant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "abwechslungsreich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "relevant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "lang",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "schwierig",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "zu persönlich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut"
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Haben Sie noch weitere Anmerkungen? \n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie  generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+          "scale": "chr",
+          "sn": 8,
+          "number": ""
+        }
+      ],
+      "sn": 40,
+      "instrument": "W10",
+      "study": "gip"
+    },
+    "Page 43 Outro": {
+      "question": "Page 43 Outro",
+      "name": "Page 43 Outro",
+      "label": "Vielen Dank für die Teilnahme an der Befragung!\nSie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft. Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben. Bitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.\n\nIhr Forschungsteam von der Universität Mannheim in Zusammenarbeit mit dem LINK Institut",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Teilnahme an der Befragung!\nSie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft. Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben. Bitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.\n\nIhr Forschungsteam von der Universität Mannheim in Zusammenarbeit mit dem LINK Institut",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 41,
+      "instrument": "W10",
+      "study": "gip"
+    }
+  }
+}

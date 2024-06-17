@@ -1,0 +1,4001 @@
+{
+  "study": "gip",
+  "name": "W22",
+  "label": "GIP Wave 22",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 22 enthält folgende zugespielte Variablen:\n• [i[id_g]i] - Unique ID, GIP\n• [i[hhid_g]i] - Household identifyer, GIP\n• [i[pid]i] - Person identifyer (within HH)\n• [i[gender_15]i] - gender\n• [i[year_of_birth_cat]i] - year of birth categories\n• [i[educ_school_15]i] - highest educational degree\n• [i[educ_job_15]i] - highest professional qualification\n• [i[marital_status_15]i] - marital status\n• [i[number_hh_members_15]i] - number of household members\n• [i[occupation_15]i] - employment status\n• [i[sample]i] - year of recruitment\n• [i[state]i] - residence state\n• [i[german_citizenship_15]i] - german citizenship\n• [i[internet_usage_15]i] - private internet usage\n• [i[dDatum]i] - Interview-Datum\nPreload-Variablen aus der Datenbank/vorherigen GIP-Wellen:\n- aus Welle 13 (Core, September 2014 - März 2015):\n• [i[age_cat_14]i] age categories (Variable aus Datenschutzgründen nicht im Datensatz enthalten)\n• [i[educ_job_14]i] highest professional qualification\n• [i[occupation_14]i] Employment status\n- aus Welle 17 (Mai 2015):\n• [i[BF17006]i] year of birth child1 birth (Variable aus Datenschutzgründen in Kategorien zusammengefasst)\n• [i[BF17031]i] year of birth child (Variable aus Datenschutzgründen in Kategorien zusammengefasst)\n• [i[BF17035]i] main group BF17\n- aus der Datenbank:\n• [i[hOnline]i] - Online-Ausstattung\n• [i[hGIP2]i] - Stichprobe GIP",
+  "analysis_unit": "p",
+  "period": "2016/03",
+  "instrument": "W22",
+  "questions": {
+    "Page 1 Introduction": {
+      "question": "Page 1 Introduction",
+      "name": "Page 1 Introduction",
+      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \n\nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\n\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\n\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \n\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\n\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\n\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\n\n\nIhr Forschungsteam der Universität Mannheim in Zusammenarbeit mit dem LINK Institut",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \n\nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\n\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\n\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \n\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\n\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\n\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\n\n\nIhr Forschungsteam der Universität Mannheim in Zusammenarbeit mit dem LINK Institut",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 2": {
+      "question": "Page 2",
+      "name": "Page 2",
+      "label": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\n\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren.\n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\n\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren.\n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+          "description": "Befragte zufällig auf 4 Gruppen aufteilen.\n- 1/4 der Befragten bekommt Frage zu Umweltzonen mit Mittelkategorie und mit visuell abgesetzter „weiß nicht“-Kategorie (Gruppe 1).\n- 1/4 der Befragten bekommt Frage zu Umweltzonen mit Mittelkategorie und ohne visuell abgesetzte „weiß nicht“-Kategorie  (Gruppe 2).\n- 1/4 der Befragten bekommt Frage zu Umweltzonen ohne Mittelkategorie und mit visuell abgesetzter „weiß nicht“-Kategorie (Gruppe 3).\n- 1/4 der Befragten bekommt Frage zu Umweltzonen ohne Mittelkategorie und ohne visuell abgesetzte „weiß nicht“-Kategorie (Gruppe 4).\nZuteilung zu den Experimentalgruppen in separater Variable expAI22001 speichern.",
+          "filter": "expAI22001 = 1",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ich finde Umweltzonen in Großstädten …",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 3,
+              "label": "eher gut"
+            },
+            {
+              "value": 4,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 5,
+              "label": "eher schlecht"
+            },
+            {
+              "value": 6,
+              "label": "schlecht"
+            },
+            {
+              "value": 7,
+              "label": "sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 3": {
+      "question": "Page 3",
+      "name": "Page 3",
+      "label": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\n\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren. \n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\n\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren. \n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+          "filter": "expAI22001 = 2",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ich finde Umweltzonen in Großstädten …",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 3,
+              "label": "eher gut"
+            },
+            {
+              "value": 4,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 5,
+              "label": "eher schlecht"
+            },
+            {
+              "value": 6,
+              "label": "schlecht"
+            },
+            {
+              "value": 7,
+              "label": "sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 4": {
+      "question": "Page 4",
+      "name": "Page 4",
+      "label": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\n\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren. \n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\n\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren. \n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+          "filter": "expAI22001 = 3",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ich finde Umweltzonen in Großstädten …",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 3,
+              "label": "eher gut"
+            },
+            {
+              "value": 5,
+              "label": "eher schlecht"
+            },
+            {
+              "value": 6,
+              "label": "schlecht"
+            },
+            {
+              "value": 7,
+              "label": "sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 5": {
+      "question": "Page 5",
+      "name": "Page 5",
+      "label": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\n\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren. \n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\n\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren. \n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+          "filter": "expAI22001 = 4",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ich finde Umweltzonen in Großstädten …",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 3,
+              "label": "eher gut"
+            },
+            {
+              "value": 5,
+              "label": "eher schlecht"
+            },
+            {
+              "value": 6,
+              "label": "schlecht"
+            },
+            {
+              "value": 7,
+              "label": "sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 6": {
+      "question": "Page 6",
+      "name": "Page 6",
+      "label": "Welche Partei haben Sie bei der letzten Bundestagswahl am 22. September 2013 mit Ihrer Zweitstimme gewählt?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche Partei haben Sie bei der letzten Bundestagswahl am 22. September 2013 mit Ihrer Zweitstimme gewählt?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "CDU/CSU"
+            },
+            {
+              "value": 2,
+              "label": "SPD"
+            },
+            {
+              "value": 3,
+              "label": "Die Linke"
+            },
+            {
+              "value": 4,
+              "label": "Bündnis 90/Die Grünen"
+            },
+            {
+              "value": 5,
+              "label": "FDP"
+            },
+            {
+              "value": 7,
+              "label": "Piratenpartei"
+            },
+            {
+              "value": 6,
+              "label": "AfD (Alternative für Deutschland)"
+            },
+            {
+              "value": 8,
+              "label": "NPD"
+            },
+            {
+              "value": 9,
+              "label": "eine andere Partei, und zwar: [answer field]"
+            },
+            {
+              "value": 10,
+              "label": "Ich war nicht wahlberechtigt."
+            },
+            {
+              "value": 11,
+              "label": "Ich habe nicht gewählt."
+            },
+            {
+              "value": -99,
+              "label": "Ich weiß es nicht mehr."
+            },
+            {
+              "value": -98,
+              "label": "Ich möchte es nicht sagen."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 7": {
+      "question": "Page 7",
+      "name": "Page 7",
+      "label": "Wie stark interessieren Sie sich im Allgemeinen für politische Themen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie stark interessieren Sie sich im Allgemeinen für politische Themen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8,
+              "label": "sehr stark"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 8": {
+      "question": "Page 8",
+      "name": "Page 8",
+      "label": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich mehr oder weniger zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich mehr oder weniger zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.",
+          "description": "Befragte zufällig auf zwei Gruppen aufteilen.\n- 50% der Befragten bekommen Matrixfrage auf Frageseite 8.00 (Gruppe 1)\n- 50% der Befragten bekommen Einzelfragen auf Frageseiten 8.10 und 8.20 (Gruppe 2)\nZuteilung zu den Experimentalgruppen in separater Variable  expAA22045 speichern.",
+          "filter": "expAA22045 = 1",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ich schenke anderen leicht Vertrauen, glaube an das Gute im Menschen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "eher zutreffend"
+            },
+            {
+              "value": 5,
+              "label": "trifft voll und ganz zu"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Ich neige dazu, andere zu kritisieren.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "eher zutreffend"
+            },
+            {
+              "value": 5,
+              "label": "trifft voll und ganz zu"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 8.10": {
+      "question": "Page 8.10",
+      "name": "Page 8.10",
+      "label": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich mehr oder weniger zutreffen. \n\nBitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich mehr oder weniger zutreffen. \n\nBitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.",
+          "filter": "expAA22045 = 2",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ich schenke anderen leicht Vertrauen, glaube an das Gute im Menschen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "eher zutreffend"
+            },
+            {
+              "value": 5,
+              "label": "trifft voll und ganz zu"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 8.20": {
+      "question": "Page 8.20",
+      "name": "Page 8.20",
+      "label": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich mehr oder weniger zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich mehr oder weniger zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.",
+          "filter": "expAA22045 = 2",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ich neige dazu, andere zu kritisieren.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "eher zutreffend"
+            },
+            {
+              "value": 5,
+              "label": "trifft voll und ganz zu"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 9": {
+      "question": "Page 9",
+      "name": "Page 9",
+      "label": "Was waren Ihre beruflichen Aktivitäten in der letzten Woche? Damit meinen wir die 7 Tage bis zum letzten Sonntag.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Was waren Ihre beruflichen Aktivitäten in der letzten Woche? Damit meinen wir die 7 Tage bis zum letzten Sonntag.",
+          "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ich habe in der vergangenen Woche mindestens eine Stunde eine bezahlte bzw. eine mit einem Einkommen verbundene Tätigkeit ausgeübt.\n\nDazu zählen auch: Arbeit im Rahmen der Ausbildung/Lehre, Militärdienst, Bundesfreiwilligendienst, freiwilliges soziales/ökologisches bzw. diakonisches Jahr, Mini-Jobs, 1-Euro-Jobs und geringfügige Tätigkeiten",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Ich habe vorübergehend keine bezahlte bzw. berufliche Tätigkeit ausgeübt oder meine bezahlte bzw. berufliche Tätigkeit wurde vorübergehend ausgesetzt, ich habe jedoch von meinem Arbeitgeber mindestens 50% meines Lohns oder Gehalts erhalten oder rechne damit, innerhalb von 3 Monaten wieder an meine alte Arbeitsstelle zurückzukehren.\n\nBeispiele: Elternzeit, Krankheit, Urlaub, Sabbatjahr, kurzfristig ausgesetzter 450-Euro-Job; Altersteilzeit bitte unten angeben",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Ich war in der vergangenen Woche mindestens eine Stunde unbezahlt für den Betrieb eines Familienangehörigen oder den eigenen Betrieb tätig.",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Ich war in der aktiven Arbeitsphase / Ansparphase der Altersteilzeit.",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Ich war in der Freistellungsphase / passiven Phase der Altersteilzeit.",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Keine davon.",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 10": {
+      "question": "Page 10",
+      "name": "Page 10",
+      "label": "Wie gut entsprechen Ihre Fertigkeiten denen für Ihre derzeitige Arbeit notwendigen Fertigkeiten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie gut entsprechen Ihre Fertigkeiten denen für Ihre derzeitige Arbeit notwendigen Fertigkeiten?",
+          "description": "[Wenn ZH22017= 1, -90: Befragte zufällig auf vier Gruppen aufteilen.\n- 1/4 der Befragten bekommt Frage ZH22020 (Gruppe 1).\n- 1/4 der Befragten bekommt Frage AI22030 (Gruppe 2).\n- 1/4 der Befragten bekommen Fragen AI22031 und AI22032 (Gruppe 3).\n- 1/4 der Befragten bekommen Fragen AI22033 und AI22034 (Gruppe 4).\nZuteilung zu den Experimentalgruppen in separater Variable expZH22020 speichern.]\n\n[Wenn expZH22020 = 2, 3, 4: Befragte innerhalb der Experimentalgruppen expZH22020 zufällig auf zwei Gruppen aufteilen.\n-1/2 der Befragten bekommt/bekommen Frage AI22030 bzw. Fragen AI22031 und AI22032 bzw. AI22033 und AI22034 mit horizontaler Antwortskala (Gruppe 1)\n- 1/2 der Befragten bekommt/bekommen Frage AI22030 bzw. Fragen AI22031 und AI22032 bzw. AI22033 und AI22034 mit vertikaler Antwortskala (Gruppe 2)\nZuteilung zu den Experimentalgruppen in separater Variable expAI22030 speichern.]",
+          "filter": "ZH22017 = 1, -90 (Erwerbsstatus nach ILO erwerbstätig oder missing (\"-90\")) und expZH22020 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Meine Fertigkeiten sind viel höher als für meine derzeitige Arbeit notwendig."
+            },
+            {
+              "value": 2,
+              "label": "Meine Fertigkeiten sind etwas höher als für meine derzeitige Arbeit notwendig."
+            },
+            {
+              "value": 3,
+              "label": "Meine Fertigkeiten entsprechen den für meine derzeitige Arbeit notwendigen Fertigkeiten."
+            },
+            {
+              "value": 4,
+              "label": "Meine Fertigkeiten sind etwas niedriger als für meine derzeitige Arbeit notwendig."
+            },
+            {
+              "value": 5,
+              "label": "Meine Fertigkeiten sind viel niedriger als für meine derzeitige Arbeit notwendig."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 11": {
+      "question": "Page 11",
+      "name": "Page 11",
+      "label": "Bei der Beantwortung der folgenden Frage geht es um Ihre Kenntnisse – also Ihr Wissen – und um Ihre Fertigkeiten – also Ihr Können, das Sie an Ihrem Arbeitsplatz benötigen und einbringen. Dabei spielt es keine Rolle, ob Sie dafür ein Zeugnis oder ein Zertifikat erhalten haben oder nicht. Bitte denken Sie nur an Ihre gegenwärtigen Aufgaben während der Arbeit, nicht an die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nBei den arbeitsbezogenen Kenntnissen denken Sie bitte an Ihr Wissen, das Sie in der Praxis, bei der Ausbildung oder aus Büchern erworben haben. Dieses Wissen kann auch Kenntnisse über Abläufe und Vorgehensweisen beinhalten. Arbeitsbezogene Fertigkeiten können praktische Fertigkeiten, wie beispielsweise das richtige Bedienen einer Maschine, aber auch logisches oder kreatives Denken sein.\n\nBitte denken Sie an die alltägliche Ausführung Ihrer Arbeit: Wie schätzen Sie Ihr Wissen und Können im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bei der Beantwortung der folgenden Frage geht es um Ihre Kenntnisse – also Ihr Wissen – und um Ihre Fertigkeiten – also Ihr Können, das Sie an Ihrem Arbeitsplatz benötigen und einbringen. Dabei spielt es keine Rolle, ob Sie dafür ein Zeugnis oder ein Zertifikat erhalten haben oder nicht. Bitte denken Sie nur an Ihre gegenwärtigen Aufgaben während der Arbeit, nicht an die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nBei den arbeitsbezogenen Kenntnissen denken Sie bitte an Ihr Wissen, das Sie in der Praxis, bei der Ausbildung oder aus Büchern erworben haben. Dieses Wissen kann auch Kenntnisse über Abläufe und Vorgehensweisen beinhalten. Arbeitsbezogene Fertigkeiten können praktische Fertigkeiten, wie beispielsweise das richtige Bedienen einer Maschine, aber auch logisches oder kreatives Denken sein.\n\nBitte denken Sie an die alltägliche Ausführung Ihrer Arbeit: Wie schätzen Sie Ihr Wissen und Können im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+          "filter": "ZH22017 = 1, -90 (Erwerbsstatus nach ILO erwerbstätig oder missing (\"-90\")) und expZH22020 = 2 und expAI22030 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Ich weiß und kann sehr viel weniger, als erforderlich ist."
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6 Ich weiß und kann genauso viel wie erforderlich ist."
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Ich weiß und kann sehr viel mehr, als erforderlich ist."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 11.50": {
+      "question": "Page 11.50",
+      "name": "Page 11.50",
+      "label": "Bei der Beantwortung der folgenden Frage geht es um Ihre Kenntnisse – also Ihr Wissen – und um Ihre Fertigkeiten – also Ihr Können, das Sie an Ihrem Arbeitsplatz benötigen und einbringen. Dabei spielt es keine Rolle, ob Sie dafür ein Zeugnis oder ein Zertifikat erhalten haben oder nicht. Bitte denken Sie nur an Ihre gegenwärtigen Aufgaben während der Arbeit, nicht an die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nBei den arbeitsbezogenen Kenntnissen denken Sie bitte an Ihr Wissen, das Sie in der Praxis, bei der Ausbildung oder aus Büchern erworben haben. Dieses Wissen kann auch Kenntnisse über Abläufe und Vorgehensweisen beinhalten. Arbeitsbezogene Fertigkeiten können praktische Fertigkeiten, wie beispielsweise das richtige Bedienen einer Maschine, aber auch logisches oder kreatives Denken sein.\n\nBitte denken Sie an die alltägliche Ausführung Ihrer Arbeit: Wie schätzen Sie Ihr Wissen und Können im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bei der Beantwortung der folgenden Frage geht es um Ihre Kenntnisse – also Ihr Wissen – und um Ihre Fertigkeiten – also Ihr Können, das Sie an Ihrem Arbeitsplatz benötigen und einbringen. Dabei spielt es keine Rolle, ob Sie dafür ein Zeugnis oder ein Zertifikat erhalten haben oder nicht. Bitte denken Sie nur an Ihre gegenwärtigen Aufgaben während der Arbeit, nicht an die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nBei den arbeitsbezogenen Kenntnissen denken Sie bitte an Ihr Wissen, das Sie in der Praxis, bei der Ausbildung oder aus Büchern erworben haben. Dieses Wissen kann auch Kenntnisse über Abläufe und Vorgehensweisen beinhalten. Arbeitsbezogene Fertigkeiten können praktische Fertigkeiten, wie beispielsweise das richtige Bedienen einer Maschine, aber auch logisches oder kreatives Denken sein.\n\nBitte denken Sie an die alltägliche Ausführung Ihrer Arbeit: Wie schätzen Sie Ihr Wissen und Können im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+          "filter": "ZH22017 = 1, -90 (Erwerbsstatus nach ILO erwerbstätig oder missing (\"-90\")) und expZH22020 = 2 und expAI22030 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Ich weiß und kann sehr viel weniger, als erforderlich ist."
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6 Ich weiß und kann genauso viel wie erforderlich ist."
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Ich weiß und kann sehr viel mehr, als erforderlich ist."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 12": {
+      "question": "Page 12",
+      "name": "Page 12",
+      "label": "Bei der Beantwortung der folgenden Fragen geht es um Ihre Kenntnisse – also Ihr Wissen – und um Ihre Fertigkeiten – also Ihr Können, das Sie an Ihrem Arbeitsplatz benötigen und einbringen. Dabei spielt es keine Rolle, ob Sie dafür ein Zeugnis oder ein Zertifikat erhalten haben oder nicht. Bitte denken Sie nur an Ihre gegenwärtigen Aufgaben während der Arbeit, nicht an die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nZunächst interessieren uns Ihre arbeitsbezogenen Kenntnisse. Es geht hier um Ihr Wissen, das Sie in der Praxis, bei der Ausbildung oder aus Büchern erworben haben. Dieses Wissen kann auch Kenntnisse über Abläufe und Vorgehensweisen beinhalten. \n\nBitte denken Sie an die alltägliche Ausführung Ihrer Arbeit: Wie schätzen Sie Ihr Wissen im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bei der Beantwortung der folgenden Fragen geht es um Ihre Kenntnisse – also Ihr Wissen – und um Ihre Fertigkeiten – also Ihr Können, das Sie an Ihrem Arbeitsplatz benötigen und einbringen. Dabei spielt es keine Rolle, ob Sie dafür ein Zeugnis oder ein Zertifikat erhalten haben oder nicht. Bitte denken Sie nur an Ihre gegenwärtigen Aufgaben während der Arbeit, nicht an die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nZunächst interessieren uns Ihre arbeitsbezogenen Kenntnisse. Es geht hier um Ihr Wissen, das Sie in der Praxis, bei der Ausbildung oder aus Büchern erworben haben. Dieses Wissen kann auch Kenntnisse über Abläufe und Vorgehensweisen beinhalten. \n\nBitte denken Sie an die alltägliche Ausführung Ihrer Arbeit: Wie schätzen Sie Ihr Wissen im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+          "filter": "ZH22017 = 1, -90 (Erwerbsstatus nach ILO erwerbstätig oder missing (\"-90\")) und expZH22020 = 3 und expAI22030 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Ich weiß und kann sehr viel weniger, als erforderlich ist."
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6 Ich weiß und kann genauso viel wie erforderlich ist."
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Ich weiß und kann sehr viel mehr, als erforderlich ist."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 12.50": {
+      "question": "Page 12.50",
+      "name": "Page 12.50",
+      "label": "Bei der Beantwortung der folgenden Fragen geht es um Ihre Kenntnisse – also Ihr Wissen – und um Ihre Fertigkeiten – also Ihr Können, das Sie an Ihrem Arbeitsplatz benötigen und einbringen. Dabei spielt es keine Rolle, ob Sie dafür ein Zeugnis oder ein Zertifikat erhalten haben oder nicht. Bitte denken Sie nur an Ihre gegenwärtigen Aufgaben während der Arbeit, nicht an die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nZunächst interessieren uns Ihre arbeitsbezogenen Kenntnisse. Es geht hier um Ihr Wissen, das Sie in der Praxis, bei der Ausbildung oder aus Büchern erworben haben. Dieses Wissen kann auch Kenntnisse über Abläufe und Vorgehensweisen beinhalten. \n\nBitte denken Sie an die alltägliche Ausführung Ihrer Arbeit: Wie schätzen Sie Ihr Wissen im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bei der Beantwortung der folgenden Fragen geht es um Ihre Kenntnisse – also Ihr Wissen – und um Ihre Fertigkeiten – also Ihr Können, das Sie an Ihrem Arbeitsplatz benötigen und einbringen. Dabei spielt es keine Rolle, ob Sie dafür ein Zeugnis oder ein Zertifikat erhalten haben oder nicht. Bitte denken Sie nur an Ihre gegenwärtigen Aufgaben während der Arbeit, nicht an die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nZunächst interessieren uns Ihre arbeitsbezogenen Kenntnisse. Es geht hier um Ihr Wissen, das Sie in der Praxis, bei der Ausbildung oder aus Büchern erworben haben. Dieses Wissen kann auch Kenntnisse über Abläufe und Vorgehensweisen beinhalten. \n\nBitte denken Sie an die alltägliche Ausführung Ihrer Arbeit: Wie schätzen Sie Ihr Wissen im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+          "filter": "ZH22017 = 1, -90 (Erwerbsstatus nach ILO erwerbstätig oder missing (\"-90\")) und expZH22020 = 3 und expAI22030 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Ich weiß und kann sehr viel weniger, als erforderlich ist."
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6 Ich weiß und kann genauso viel wie erforderlich ist."
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Ich weiß und kann sehr viel mehr, als erforderlich ist."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 13": {
+      "question": "Page 13",
+      "name": "Page 13",
+      "label": "Nun geht es um Ihre arbeitsbezogenen Fertigkeiten, die Sie erlernt haben, also Ihr Können. Dies können praktische Fertigkeiten, wie beispielsweise das richtige Bedienen einer Maschine, aber auch logisches oder kreatives Denken sein.\n\nBitte denken Sie an die alltägliche Ausführung Ihrer Arbeit: Wie schätzen Sie Ihr Können im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nun geht es um Ihre arbeitsbezogenen Fertigkeiten, die Sie erlernt haben, also Ihr Können. Dies können praktische Fertigkeiten, wie beispielsweise das richtige Bedienen einer Maschine, aber auch logisches oder kreatives Denken sein.\n\nBitte denken Sie an die alltägliche Ausführung Ihrer Arbeit: Wie schätzen Sie Ihr Können im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+          "filter": "ZH22017 = 1, -90 (Erwerbsstatus nach ILO erwerbstätig oder missing (\"-90\")) und expZH22020 = 3 und expAI22030 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Ich weiß und kann sehr viel weniger, als erforderlich ist."
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6 Ich weiß und kann genauso viel wie erforderlich ist."
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Ich weiß und kann sehr viel mehr, als erforderlich ist."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 13.50": {
+      "question": "Page 13.50",
+      "name": "Page 13.50",
+      "label": "Nun geht es um Ihre arbeitsbezogenen Fertigkeiten, die Sie erlernt haben, also Ihr Können. Dies können praktische Fertigkeiten, wie beispielsweise das richtige Bedienen einer Maschine, aber auch logisches oder kreatives Denken sein.\n\nBitte denken Sie an die alltägliche Ausführung Ihrer Arbeit: Wie schätzen Sie Ihr Können im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nun geht es um Ihre arbeitsbezogenen Fertigkeiten, die Sie erlernt haben, also Ihr Können. Dies können praktische Fertigkeiten, wie beispielsweise das richtige Bedienen einer Maschine, aber auch logisches oder kreatives Denken sein.\n\nBitte denken Sie an die alltägliche Ausführung Ihrer Arbeit: Wie schätzen Sie Ihr Können im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+          "filter": "ZH22017 = 1, -90 (Erwerbsstatus nach ILO erwerbstätig oder missing (\"-90\")) und expZH22020 = 3 und expAI22030 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Ich weiß und kann sehr viel weniger, als erforderlich ist."
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6 Ich weiß und kann genauso viel wie erforderlich ist."
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Ich weiß und kann sehr viel mehr, als erforderlich ist."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 14": {
+      "question": "Page 14",
+      "name": "Page 14",
+      "label": "Im Folgenden geht es darum, dass Sie Ihre eigenen Lesefähigkeiten einschätzen. Es geht hier um die Lesefähigkeit, die erforderlich ist, um Ihre Arbeitsaufgaben auszuführen. Insbesondere geht es darum, geschriebenen Text in Form von Sätzen und Abschnitten zu verstehen, zu bewerten und für Ihre Arbeitsaufgaben zu nutzen. Es geht dabei nur um Ihre gegenwärtigen Aufgaben während der Arbeit, nicht um die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nBitte denken Sie an Ihre gegenwärtigen Arbeitsaufgaben: Wie schätzen Sie Ihre Lesefähigkeit im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden geht es darum, dass Sie Ihre eigenen Lesefähigkeiten einschätzen. Es geht hier um die Lesefähigkeit, die erforderlich ist, um Ihre Arbeitsaufgaben auszuführen. Insbesondere geht es darum, geschriebenen Text in Form von Sätzen und Abschnitten zu verstehen, zu bewerten und für Ihre Arbeitsaufgaben zu nutzen. Es geht dabei nur um Ihre gegenwärtigen Aufgaben während der Arbeit, nicht um die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nBitte denken Sie an Ihre gegenwärtigen Arbeitsaufgaben: Wie schätzen Sie Ihre Lesefähigkeit im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+          "filter": "ZH22017 = 1, -90 (Erwerbsstatus nach ILO erwerbstätig oder missing (\"-90\"=)) und expZH22020 = 4 und expAI22030 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Ich verfüge über sehr viel weniger Lesefähigkeit, als erforderlich ist."
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6 Ich verfüge über genau die Lesefähigkeit, die für meine Arbeit erforderlich ist."
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Ich verfüge über sehr viel mehr Lesefähigkeit, als erforderlich ist."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 18,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 14.50": {
+      "question": "Page 14.50",
+      "name": "Page 14.50",
+      "label": "Im Folgenden geht es darum, dass Sie Ihre eigenen Lesefähigkeiten einschätzen. Es geht hier um die Lesefähigkeit, die erforderlich ist, um Ihre Arbeitsaufgaben auszuführen. Insbesondere geht es darum, geschriebenen Text in Form von Sätzen und Abschnitten zu verstehen, zu bewerten und für Ihre Arbeitsaufgaben zu nutzen. Es geht dabei nur um Ihre gegenwärtigen Aufgaben während der Arbeit, nicht um die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nBitte denken Sie an Ihre gegenwärtigen Arbeitsaufgaben: Wie schätzen Sie Ihre Lesefähigkeit im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden geht es darum, dass Sie Ihre eigenen Lesefähigkeiten einschätzen. Es geht hier um die Lesefähigkeit, die erforderlich ist, um Ihre Arbeitsaufgaben auszuführen. Insbesondere geht es darum, geschriebenen Text in Form von Sätzen und Abschnitten zu verstehen, zu bewerten und für Ihre Arbeitsaufgaben zu nutzen. Es geht dabei nur um Ihre gegenwärtigen Aufgaben während der Arbeit, nicht um die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nBitte denken Sie an Ihre gegenwärtigen Arbeitsaufgaben: Wie schätzen Sie Ihre Lesefähigkeit im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+          "filter": "ZH22017 = 1, -90 (Erwerbsstatus nach ILO erwerbstätig oder missing (\"-90\"))  und expZH22020 = 4 und expAI22030 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Ich verfüge über sehr viel weniger Lesefähigkeit, als erforderlich ist."
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6 Ich verfüge über genau die Lesefähigkeit, die für meine Arbeit erforderlich ist."
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Ich verfüge über sehr viel mehr Lesefähigkeit, als erforderlich ist."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 19,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 15": {
+      "question": "Page 15",
+      "name": "Page 15",
+      "label": "Jetzt geht es darum, dass Sie Ihre eigenen mathematischen Fähigkeiten einschätzen. Es geht hier um die mathematische Fähigkeit, die erforderlich ist, um Ihre Arbeitsaufgaben auszuführen. Insbesondere geht es darum, Zahlen, Formeln, Tabellen und Diagramme zu verstehen, auszuwerten und für Ihre Arbeitsaufgaben zu nutzen und deren Inhalte beziehungsweise Ergebnisse daraus an Ihre Kollegen zu vermitteln. Es geht dabei nur um Ihre gegenwärtigen Aufgaben während der Arbeit, nicht um die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nBitte denken Sie an Ihre gegenwärtigen Arbeitsaufgaben: Wie schätzen Sie Ihre mathematische Fähigkeit im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Jetzt geht es darum, dass Sie Ihre eigenen mathematischen Fähigkeiten einschätzen. Es geht hier um die mathematische Fähigkeit, die erforderlich ist, um Ihre Arbeitsaufgaben auszuführen. Insbesondere geht es darum, Zahlen, Formeln, Tabellen und Diagramme zu verstehen, auszuwerten und für Ihre Arbeitsaufgaben zu nutzen und deren Inhalte beziehungsweise Ergebnisse daraus an Ihre Kollegen zu vermitteln. Es geht dabei nur um Ihre gegenwärtigen Aufgaben während der Arbeit, nicht um die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nBitte denken Sie an Ihre gegenwärtigen Arbeitsaufgaben: Wie schätzen Sie Ihre mathematische Fähigkeit im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+          "filter": "ZH22017 = 1, -90 (Erwerbsstatus nach ILO erwerbstätig oder missing (\"-90\")) und expZH22020 = 4 und expAI22030 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Ich verfüge über sehr viel weniger mathematische Fähigkeit, als erforderlich ist."
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6 Ich verfüge über genau die mathematische Fähigkeit, die für meine Arbeit erforderlich ist."
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Ich verfüge über sehr viel mehr mathematische Fähigkeit, als erforderlich ist."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 20,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 15.50": {
+      "question": "Page 15.50",
+      "name": "Page 15.50",
+      "label": "Jetzt geht es darum, dass Sie Ihre eigenen mathematischen Fähigkeiten einschätzen. Es geht hier um die mathematische Fähigkeit, die erforderlich ist, um Ihre Arbeitsaufgaben auszuführen. Insbesondere geht es darum, Zahlen, Formeln, Tabellen und Diagramme zu verstehen, auszuwerten und für Ihre Arbeitsaufgaben zu nutzen und deren Inhalte beziehungsweise Ergebnisse daraus an Ihre Kollegen zu vermitteln. Es geht dabei nur um Ihre gegenwärtigen Aufgaben während der Arbeit, nicht um die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nBitte denken Sie an Ihre gegenwärtigen Arbeitsaufgaben: Wie schätzen Sie Ihre mathematische Fähigkeit im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Jetzt geht es darum, dass Sie Ihre eigenen mathematischen Fähigkeiten einschätzen. Es geht hier um die mathematische Fähigkeit, die erforderlich ist, um Ihre Arbeitsaufgaben auszuführen. Insbesondere geht es darum, Zahlen, Formeln, Tabellen und Diagramme zu verstehen, auszuwerten und für Ihre Arbeitsaufgaben zu nutzen und deren Inhalte beziehungsweise Ergebnisse daraus an Ihre Kollegen zu vermitteln. Es geht dabei nur um Ihre gegenwärtigen Aufgaben während der Arbeit, nicht um die möglichen Erweiterungen der Aufgaben oder Ihre Karriere im Job. \n\nBitte denken Sie an Ihre gegenwärtigen Arbeitsaufgaben: Wie schätzen Sie Ihre mathematische Fähigkeit im Vergleich dazu ein, was für die Erledigung Ihrer Arbeit erforderlich ist?",
+          "filter": "ZH22017 = 1, -90 (Erwerbsstatus nach ILO erwerbstätig oder missing (\"-90\")) und expZH22020 = 4 und expAI22030 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 Ich verfüge über sehr viel weniger mathematische Fähigkeit, als erforderlich ist."
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6 Ich verfüge über genau die mathematische Fähigkeit, die für meine Arbeit erforderlich ist."
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 Ich verfüge über sehr viel mehr mathematische Fähigkeit, als erforderlich ist."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 21,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 16": {
+      "question": "Page 16",
+      "name": "Page 16",
+      "label": "Menschen aus anderen Ländern kommen aus ganz verschiedenen Gründen nach Deutschland, um hier zu leben. Einige dieser Menschen haben Vorfahren in Deutschland, andere kommen, um hier zu arbeiten oder weil ihre Familien hier leben. Wieder andere kommen nach Deutschland, weil sie in ihrer Heimat bedroht werden. \n\nWir werden Ihnen im Folgenden jeweils zwei Personen präsentieren, deren Angaben Sie einer Tabelle entnehmen können. Stellen Sie sich bitte vor, Sie müssten entscheiden, wen Sie eher einwandern lassen würden. Dabei gibt es keine richtige oder falsche Antwort, es geht ausschließlich um Ihre persönliche Wahl.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Menschen aus anderen Ländern kommen aus ganz verschiedenen Gründen nach Deutschland, um hier zu leben. Einige dieser Menschen haben Vorfahren in Deutschland, andere kommen, um hier zu arbeiten oder weil ihre Familien hier leben. Wieder andere kommen nach Deutschland, weil sie in ihrer Heimat bedroht werden. \n\nWir werden Ihnen im Folgenden jeweils zwei Personen präsentieren, deren Angaben Sie einer Tabelle entnehmen können. Stellen Sie sich bitte vor, Sie müssten entscheiden, wen Sie eher einwandern lassen würden. Dabei gibt es keine richtige oder falsche Antwort, es geht ausschließlich um Ihre persönliche Wahl.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 22,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 17": {
+      "question": "Page 17",
+      "name": "Page 17",
+      "label": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1 : Person 2\nHerkunft: [S1_origin1] [S1_origin2]\nvergleichbarer Bildungsabschluss: [S1_educ1] [S1_educ2]\nKenntnisse der deutschen Sprache: [S1_lang1] [S1_lang2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation: [S1_qual1] [S1_qual2]\nReligionszugehörigkeit: [S1_relig1] [S1_relig2]\nGeschlecht: [S1_gender1] [S1_gender2]\nGrund der Einwanderung: [S1_reason1] [S1_reason2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1 : Person 2\nHerkunft: [S1_origin1] [S1_origin2]\nvergleichbarer Bildungsabschluss: [S1_educ1] [S1_educ2]\nKenntnisse der deutschen Sprache: [S1_lang1] [S1_lang2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation: [S1_qual1] [S1_qual2]\nReligionszugehörigkeit: [S1_relig1] [S1_relig2]\nGeschlecht: [S1_gender1] [S1_gender2]\nGrund der Einwanderung: [S1_reason1] [S1_reason2]",
+          "description": "In den folgenden sechs Fragen sollen die Befragten sich jeweils zwischen zwei Alternativen entscheiden. Jedem Befragten wurden im Voraus randomisiert sechs Kombinationen von Werten verschiedener Attribute zugewiesen. Die Werte sollen dynamisch eingefügt werden. Im Unterschied zu Welle 16 (März 2015) wurde der mögliche Wert „Europa“ des Attributs „Herkunft“ bei einem Drittel der Kombinationen durch die möglichen Werte „Westeuropa“ und „Osteuropa“ ersetzt. Im Unterschied zu Welle 16 (März 2015) sollen diese Kombinationen der Reihe nach den einzelnen Befragten zugewiesen und die laufende Nummer der Kombination (Respondent) in der Variablen AH22026_17 gespeichert werden.\nDie möglichen Werte der einzelnen Attribute sind:\nHerkunft (Attribut): 2/3: Europa, Afrika, Nordamerika, Südamerika, Asien, Naher Osten; 1/3: Westeuropa, Osteuropa, Afrika, Nordamerika, Südamerika, Asien, Naher Osten;\nvergleichbarer Bildungsabschluss (Attribut): keinen, Hauptschulabschluss, Realschulabschluss, Abitur, Universitätsabschluss;\nKenntnisse der deutschen Sprache (Attribut): fließend Deutsch, gebrochen Deutsch, kein Deutsch;\nbesitzt in Deutschland gesuchte berufliche Qualifikation (Attribut): ja, nein;\nReligionszugehörigkeit (Attribut): Christentum, Judentum, Islam, Hinduismus, Buddhismus, keine;\nGeschlecht (Attribut): männlich, weiblich;\nGrund der Einwanderung (Attribut): politische Verfolgung, religiöse Verfolgung, wirtschaftliche Verbesserung, Familie lebt in Deutschland;",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Person 1"
+            },
+            {
+              "value": 2,
+              "label": "Person 2"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 23,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 18": {
+      "question": "Page 18",
+      "name": "Page 18",
+      "label": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1 : Person 2\nHerkunft: [ S2_origin1] : [ S2_origin2]\nvergleichbarer Bildungsabschluss: [ S2_educ1] : [ S2_educ2]\nKenntnisse der deutschen Sprache: [ S2_lang1] : [ S2_lang2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation: [ S2_qual1] : [ S2_qual2]\nReligionszugehörigkeit: [ S2_relig1] : [ S2_relig2]\nGeschlecht: [ S2_gender1] : [ S2_gender2]\nGrund der Einwanderung: [ S2_reason1] : [ S2_reason2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1 : Person 2\nHerkunft: [ S2_origin1] : [ S2_origin2]\nvergleichbarer Bildungsabschluss: [ S2_educ1] : [ S2_educ2]\nKenntnisse der deutschen Sprache: [ S2_lang1] : [ S2_lang2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation: [ S2_qual1] : [ S2_qual2]\nReligionszugehörigkeit: [ S2_relig1] : [ S2_relig2]\nGeschlecht: [ S2_gender1] : [ S2_gender2]\nGrund der Einwanderung: [ S2_reason1] : [ S2_reason2]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Person 1"
+            },
+            {
+              "value": 2,
+              "label": "Person 2"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 24,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 19": {
+      "question": "Page 19",
+      "name": "Page 19",
+      "label": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1 : Person 2\nHerkunft: [ S3_origin1] : [ S3_origin2]\nvergleichbarer Bildungsabschluss: [ S3_educ1] : [ S3_educ2]\nKenntnisse der deutschen Sprache: [ S3_lang1] : [ S3_lang2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation: [ S3_qual1] : [ S3_qual2]\nReligionszugehörigkeit: [ S3_relig1] : [ S3_relig2]\nGeschlecht: [ S3_gender1] : [ S3_gender2]\nGrund der Einwanderung: [ S3_reason1] : [ S3_reason2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1 : Person 2\nHerkunft: [ S3_origin1] : [ S3_origin2]\nvergleichbarer Bildungsabschluss: [ S3_educ1] : [ S3_educ2]\nKenntnisse der deutschen Sprache: [ S3_lang1] : [ S3_lang2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation: [ S3_qual1] : [ S3_qual2]\nReligionszugehörigkeit: [ S3_relig1] : [ S3_relig2]\nGeschlecht: [ S3_gender1] : [ S3_gender2]\nGrund der Einwanderung: [ S3_reason1] : [ S3_reason2]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Person 1"
+            },
+            {
+              "value": 2,
+              "label": "Person 2"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 25,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 20": {
+      "question": "Page 20",
+      "name": "Page 20",
+      "label": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1 : Person 2\nHerkunft: [ S4_origin1] : [ S4_origin2]\nvergleichbarer Bildungsabschluss: [ S4_educ1] :[ S4_educ2]\nKenntnisse der deutschen Sprache: [ S4_lang1] : [ S4_lang2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation: [ S4_qual1] : [ S4_qual2]\nReligionszugehörigkeit: [ S4_relig1] : [ S4_relig2]\nGeschlecht: [ S4_gender1] : [ S4_gender2]\nGrund der Einwanderung: [ S4_reason1] : [ S4_reason2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1 : Person 2\nHerkunft: [ S4_origin1] : [ S4_origin2]\nvergleichbarer Bildungsabschluss: [ S4_educ1] :[ S4_educ2]\nKenntnisse der deutschen Sprache: [ S4_lang1] : [ S4_lang2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation: [ S4_qual1] : [ S4_qual2]\nReligionszugehörigkeit: [ S4_relig1] : [ S4_relig2]\nGeschlecht: [ S4_gender1] : [ S4_gender2]\nGrund der Einwanderung: [ S4_reason1] : [ S4_reason2]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Person 1"
+            },
+            {
+              "value": 2,
+              "label": "Person 2"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 26,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 21": {
+      "question": "Page 21",
+      "name": "Page 21",
+      "label": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1 : Person 2\nHerkunft: [ S5_origin1] : [ S5_origin2]\nvergleichbarer Bildungsabschluss: [ S5_educ1] :[ S5_educ2]\nKenntnisse der deutschen Sprache: [ S5_lang1] : [ S5_lang2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation: [ S5_qual1] : [ S5_qual2]\nReligionszugehörigkeit: [ S5_relig1] : [ S5_relig2]\nGeschlecht: [ S5_gender1] : [ S5_gender2]\nGrund der Einwanderung: [ S5_reason1] : [ S5_reason2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1 : Person 2\nHerkunft: [ S5_origin1] : [ S5_origin2]\nvergleichbarer Bildungsabschluss: [ S5_educ1] :[ S5_educ2]\nKenntnisse der deutschen Sprache: [ S5_lang1] : [ S5_lang2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation: [ S5_qual1] : [ S5_qual2]\nReligionszugehörigkeit: [ S5_relig1] : [ S5_relig2]\nGeschlecht: [ S5_gender1] : [ S5_gender2]\nGrund der Einwanderung: [ S5_reason1] : [ S5_reason2]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Person 1"
+            },
+            {
+              "value": 2,
+              "label": "Person 2"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 27,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 22": {
+      "question": "Page 22",
+      "name": "Page 22",
+      "label": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1 : Person 2\nHerkunft: [ S6_origin1] : [ S6_origin2]\nvergleichbarer Bildungsabschluss: [ S6_educ1] : [ S6_educ2]\nKenntnisse der deutschen Sprache: [ S6_lang1] : [ S6_lang2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation: [ S6_qual1] : [ S6_qual2]\nReligionszugehörigkeit: [ S6_relig1] : [ S6_relig2]\nGeschlecht: [ S6_gender1] : [ S6_gender2]\nGrund der Einwanderung: [ S6_reason1] : [ S6_reason2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1 : Person 2\nHerkunft: [ S6_origin1] : [ S6_origin2]\nvergleichbarer Bildungsabschluss: [ S6_educ1] : [ S6_educ2]\nKenntnisse der deutschen Sprache: [ S6_lang1] : [ S6_lang2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation: [ S6_qual1] : [ S6_qual2]\nReligionszugehörigkeit: [ S6_relig1] : [ S6_relig2]\nGeschlecht: [ S6_gender1] : [ S6_gender2]\nGrund der Einwanderung: [ S6_reason1] : [ S6_reason2]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Person 1"
+            },
+            {
+              "value": 2,
+              "label": "Person 2"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 28,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 23": {
+      "question": "Page 23",
+      "name": "Page 23",
+      "label": "Wie wahrscheinlich ist es, dass Sie in den nächsten drei Jahren ein Studium an einer Fachhochschule oder einer Universität aufnehmen werden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie wahrscheinlich ist es, dass Sie in den nächsten drei Jahren ein Studium an einer Fachhochschule oder einer Universität aufnehmen werden?",
+          "filter": "BF17035 = 1 (Hauptgruppe 1 in Welle 17)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 sehr unwahrscheinlich"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10 sehr wahrscheinlich"
+            },
+            {
+              "value": 11,
+              "label": "ich studiere bereits"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 29,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 24": {
+      "question": "Page 24",
+      "name": "Page 24",
+      "label": "Im vergangenen halben Jahr haben Sie uns Auskunft über Ihr im Jahr [BF17031] geborenes Kind gegeben. Zu diesem würden wir Sie gerne weiter befragen.\n\nDie folgenden Fragen beziehen sich auf Ihr [BF17031] geborenes Kind. Falls mehrere Kinder im gleichen Jahr geboren wurden, bitten wir Sie, sich auf das älteste Kind zu beziehen, welches in dem Jahr geboren wurde. \n\nWie wahrscheinlich ist es, dass Ihr Kind, geboren [BF17031], in den nächsten drei Jahren ein Studium an einer Fachhochschule oder einer Universität aufnehmen wird?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im vergangenen halben Jahr haben Sie uns Auskunft über Ihr im Jahr [BF17031] geborenes Kind gegeben. Zu diesem würden wir Sie gerne weiter befragen.\n\nDie folgenden Fragen beziehen sich auf Ihr [BF17031] geborenes Kind. Falls mehrere Kinder im gleichen Jahr geboren wurden, bitten wir Sie, sich auf das älteste Kind zu beziehen, welches in dem Jahr geboren wurde. \n\nWie wahrscheinlich ist es, dass Ihr Kind, geboren [BF17031], in den nächsten drei Jahren ein Studium an einer Fachhochschule oder einer Universität aufnehmen wird?",
+          "filter": "BF17035 = 2 (Hauptgruppe 2 in Welle 17)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 sehr unwahrscheinlich"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10 sehr wahrscheinlich"
+            },
+            {
+              "value": 11,
+              "label": "mein Kind, geboren [BF17031], studiert bereits"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 30,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 25": {
+      "question": "Page 25",
+      "name": "Page 25",
+      "label": "Das Bundesausbildungsförderungsgesetz (BAföG) unterstützt junge Frauen und Männer dabei, unabhängig von der finanziellen Situation ihrer Familie eine ihren Eignungen und Interessen entsprechende Ausbildung absolvieren zu können.\n\nFür wie wahrscheinlich halten Sie es, dass Sie Anspruch auf das BAföG hätten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Das Bundesausbildungsförderungsgesetz (BAföG) unterstützt junge Frauen und Männer dabei, unabhängig von der finanziellen Situation ihrer Familie eine ihren Eignungen und Interessen entsprechende Ausbildung absolvieren zu können.\n\nFür wie wahrscheinlich halten Sie es, dass Sie Anspruch auf das BAföG hätten?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "BF17035 = 1 (Hauptgruppe 1 in Welle 17) ",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 sehr unwahrscheinlich"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10 sehr wahrscheinlich"
+            },
+            {
+              "value": 11,
+              "label": "ich habe bereits einen BAföG-Antrag gestellt "
+            },
+            {
+              "value": 12,
+              "label": "ich beziehe bereits das BAföG"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 31,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 26": {
+      "question": "Page 26",
+      "name": "Page 26",
+      "label": "Das Bundesausbildungsförderungsgesetz (BAföG) unterstützt junge Frauen und Männer dabei, unabhängig von der finanziellen Situation ihrer Familie eine ihren Eignungen und Interessen entsprechende Ausbildung absolvieren zu können.\n\nFür wie wahrscheinlich halten Sie es, dass Ihr Kind, geboren [BF17031], Anspruch auf das BAföG hätte?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Das Bundesausbildungsförderungsgesetz (BAföG) unterstützt junge Frauen und Männer dabei, unabhängig von der finanziellen Situation ihrer Familie eine ihren Eignungen und Interessen entsprechende Ausbildung absolvieren zu können.\n\nFür wie wahrscheinlich halten Sie es, dass Ihr Kind, geboren [BF17031], Anspruch auf das BAföG hätte?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "BF17035 = 2 (Hauptgruppe 2 in Welle 17) ",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 sehr unwahrscheinlich"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10 sehr wahrscheinlich"
+            },
+            {
+              "value": 11,
+              "label": "mein Kind, geboren [BF17031], hat bereits einen BAföG-Antrag gestellt"
+            },
+            {
+              "value": 12,
+              "label": "mein Kind, geboren [BF17031], bezieht bereits BAföG"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 32,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 27": {
+      "question": "Page 27",
+      "name": "Page 27",
+      "label": "Wenn Sie sich heute für ein Studienfach entscheiden müssten, welche drei Studienfächer wären in Ihrer engeren Auswahl?\n\nMeine erste Wahl für ein Studienfach wäre:",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie sich heute für ein Studienfach entscheiden müssten, welche drei Studienfächer wären in Ihrer engeren Auswahl?\n\nMeine erste Wahl für ein Studienfach wäre:",
+          "filter": "BF22070 != 1, 2, 3, 11 (Studium != unwahrscheinlich oder != bereits studiert)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Anglistik"
+            },
+            {
+              "value": 2,
+              "label": "Architektur"
+            },
+            {
+              "value": 3,
+              "label": "Bauingenieurwesen"
+            },
+            {
+              "value": 4,
+              "label": "Betriebswirtschaftslehre"
+            },
+            {
+              "value": 5,
+              "label": "Biologie"
+            },
+            {
+              "value": 6,
+              "label": "Chemie"
+            },
+            {
+              "value": 7,
+              "label": "Chemieingenieurwesen"
+            },
+            {
+              "value": 8,
+              "label": "Elektrotechnik"
+            },
+            {
+              "value": 9,
+              "label": "Geowissenschaften"
+            },
+            {
+              "value": 10,
+              "label": "Germanistik"
+            },
+            {
+              "value": 11,
+              "label": "Geschichte"
+            },
+            {
+              "value": 12,
+              "label": "Informatik"
+            },
+            {
+              "value": 13,
+              "label": "Jura"
+            },
+            {
+              "value": 14,
+              "label": "Lehramt"
+            },
+            {
+              "value": 15,
+              "label": "Maschinenbau"
+            },
+            {
+              "value": 16,
+              "label": "Mathematik"
+            },
+            {
+              "value": 17,
+              "label": "Medizin"
+            },
+            {
+              "value": 18,
+              "label": "Musikwissenschaft"
+            },
+            {
+              "value": 19,
+              "label": "Pädagogik"
+            },
+            {
+              "value": 20,
+              "label": "Physik"
+            },
+            {
+              "value": 21,
+              "label": "Politikwissenschaft"
+            },
+            {
+              "value": 22,
+              "label": "Psychologie"
+            },
+            {
+              "value": 23,
+              "label": "Regionalwissenschaft"
+            },
+            {
+              "value": 24,
+              "label": "Soziale Arbeit"
+            },
+            {
+              "value": 25,
+              "label": "Versorgungstechnik"
+            },
+            {
+              "value": 26,
+              "label": "Volkswirtschaftslehre"
+            },
+            {
+              "value": 27,
+              "label": "Wirtschaftsingenieurwesen"
+            },
+            {
+              "value": 28,
+              "label": "Zahnmedizin"
+            },
+            {
+              "value": 29,
+              "label": "Ein anderes Studienfach, nämlich: [answer field]"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 33,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 28": {
+      "question": "Page 28",
+      "name": "Page 28",
+      "label": "Meine zweite Wahl für ein Studienfach wäre:",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Meine zweite Wahl für ein Studienfach wäre:",
+          "filter": "BF22083 != -99 (erste Studienfachwahl != „Weiß nicht“)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Anglistik (BF22083 != 1)"
+            },
+            {
+              "value": 2,
+              "label": "Architektur (BF22083 != 2)"
+            },
+            {
+              "value": 3,
+              "label": "Bauingenieurwesen (BF22083 != 3)"
+            },
+            {
+              "value": 4,
+              "label": "Betriebswirtschaftslehre (BF22083 != 4)"
+            },
+            {
+              "value": 5,
+              "label": "Biologie (BF22083 != 5)"
+            },
+            {
+              "value": 6,
+              "label": "Chemie (BF22083 != 6)"
+            },
+            {
+              "value": 7,
+              "label": "Chemieingenieurwesen (BF22083 != 7)"
+            },
+            {
+              "value": 8,
+              "label": "Elektrotechnik (BF22083 != 8)"
+            },
+            {
+              "value": 9,
+              "label": "Geowissenschaften (BF22083 != 9)"
+            },
+            {
+              "value": 10,
+              "label": "Germanistik (BF22083 != 10)"
+            },
+            {
+              "value": 11,
+              "label": "Geschichte (BF22083 != 11)"
+            },
+            {
+              "value": 12,
+              "label": "Informatik (BF22083 != 12)"
+            },
+            {
+              "value": 13,
+              "label": "Jura (BF22083 != 13)"
+            },
+            {
+              "value": 14,
+              "label": "Lehramt (BF22083 != 14)"
+            },
+            {
+              "value": 15,
+              "label": "Maschinenbau (BF22083 != 15)"
+            },
+            {
+              "value": 16,
+              "label": "Mathematik (BF22083 != 16)"
+            },
+            {
+              "value": 17,
+              "label": "Medizin (BF22083 != 17)"
+            },
+            {
+              "value": 18,
+              "label": "Musikwissenschaft (BF22083 != 18)"
+            },
+            {
+              "value": 19,
+              "label": "Pädagogik (BF22083 != 19)"
+            },
+            {
+              "value": 20,
+              "label": "Physik (BF22083 != 20)"
+            },
+            {
+              "value": 21,
+              "label": "Politikwissenschaft (BF22083 != 21)"
+            },
+            {
+              "value": 22,
+              "label": "Psychologie (BF22083 != 22)"
+            },
+            {
+              "value": 23,
+              "label": "Regionalwissenschaft (BF22083 != 23)"
+            },
+            {
+              "value": 24,
+              "label": "Soziale Arbeit (BF22083 != 24)"
+            },
+            {
+              "value": 25,
+              "label": "Versorgungstechnik (BF22083 != 25)"
+            },
+            {
+              "value": 26,
+              "label": "Volkswirtschaftslehre (BF22083 != 26)"
+            },
+            {
+              "value": 27,
+              "label": "Wirtschaftsingenieurwesen (BF22083 != 27)"
+            },
+            {
+              "value": 28,
+              "label": "Zahnmedizin (BF22083 != 28)"
+            },
+            {
+              "value": 29,
+              "label": "Ein anderes Studienfach, nämlich: [answer field]"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            },
+            {
+              "value": 30,
+              "label": "Ich habe keinen weiteren Studienfachwunsch."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 34,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 29": {
+      "question": "Page 29",
+      "name": "Page 29",
+      "label": "Meine dritte Wahl für ein Studienfach wäre:",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Meine dritte Wahl für ein Studienfach wäre:",
+          "filter": "BF22084 != -99 (zweite Studienfachwahl != „weiß nicht“)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Anglistik (BF22083 != 1 und BF22084 != 1)"
+            },
+            {
+              "value": 2,
+              "label": "Architektur (BF22083 != 2 und BF22084 != 2)"
+            },
+            {
+              "value": 3,
+              "label": "Bauingenieurwesen (BF22083 != 3 und BF22084 != 3)"
+            },
+            {
+              "value": 4,
+              "label": "Betriebswirtschaftslehre (BF22083 != 4 und BF22084 != 4)"
+            },
+            {
+              "value": 5,
+              "label": "Biologie (BF22083 != 5 und BF22084 != 5)"
+            },
+            {
+              "value": 6,
+              "label": "Chemie (BF22083 != 6 und BF22084 != 6)"
+            },
+            {
+              "value": 7,
+              "label": "Chemieingenieurwesen (BF22083 != 7 und BF22084 != 7)"
+            },
+            {
+              "value": 8,
+              "label": "Elektrotechnik (BF22083 != 8 und BF22084 != 8)"
+            },
+            {
+              "value": 9,
+              "label": "Geowissenschaften (BF22083 != 9 und BF22084 != 9)"
+            },
+            {
+              "value": 10,
+              "label": "Germanistik (BF22083 != 10 und BF22084 != 10)"
+            },
+            {
+              "value": 11,
+              "label": "Geschichte (BF22083 != 11 und BF22084 != 11)"
+            },
+            {
+              "value": 12,
+              "label": "Informatik (BF22083 != 12 und BF22084 != 12)"
+            },
+            {
+              "value": 13,
+              "label": "Jura (BF22083 != 13 und BF22084 != 13)"
+            },
+            {
+              "value": 14,
+              "label": "Lehramt (BF22083 != 14 und BF22084 != 14)"
+            },
+            {
+              "value": 15,
+              "label": "Maschinenbau (BF22083 != 15 und BF22084 != 15)"
+            },
+            {
+              "value": 16,
+              "label": "Mathematik (BF22083 != 16 und BF22084 != 16)"
+            },
+            {
+              "value": 17,
+              "label": "Medizin (BF22083 != 17 und BF22084 != 17)"
+            },
+            {
+              "value": 18,
+              "label": "Musikwissenschaft (BF22083 != 18 und BF22084 != 18)"
+            },
+            {
+              "value": 19,
+              "label": "Pädagogik (BF22083 != 19 und BF22084 != 19)"
+            },
+            {
+              "value": 20,
+              "label": "Physik (BF22083 != 20 und BF22084 != 20)"
+            },
+            {
+              "value": 21,
+              "label": "Politikwissenschaft (BF22083 != 21 und BF22084 != 21)"
+            },
+            {
+              "value": 22,
+              "label": "Psychologie (BF22083 != 22 und BF22084 != 22)"
+            },
+            {
+              "value": 23,
+              "label": "Regionalwissenschaft (BF22083 != 23 und BF22084 != 23)"
+            },
+            {
+              "value": 24,
+              "label": "Soziale Arbeit (BF22083 != 24 und BF22084 != 24)"
+            },
+            {
+              "value": 25,
+              "label": "Versorgungstechnik (BF22083 != 25 und BF22084 != 25)"
+            },
+            {
+              "value": 26,
+              "label": "Volkswirtschaftslehre (BF22083 != 26 und BF22084 != 26)"
+            },
+            {
+              "value": 27,
+              "label": "Wirtschaftsingenieurwesen (BF22083 != 27 und BF22084 != 27)"
+            },
+            {
+              "value": 28,
+              "label": "Zahnmedizin (BF22083 != 28 und BF22084 != 28)"
+            },
+            {
+              "value": 29,
+              "label": "Ein anderes Studienfach, nämlich: [answer field]"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            },
+            {
+              "value": 30,
+              "label": "Ich habe keinen weiteren Studienfachwunsch."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 35,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 30": {
+      "question": "Page 30",
+      "name": "Page 30",
+      "label": "Wenn Sie heute ein Studienfach für Ihr Kind, geboren [BF17031], auswählen könnten, welche drei Studienfächer wären in Ihrer engeren Auswahl?\n\nMeine erste Wahl für ein Studienfach für mein Kind, geboren [BF17031], wäre:",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie heute ein Studienfach für Ihr Kind, geboren [BF17031], auswählen könnten, welche drei Studienfächer wären in Ihrer engeren Auswahl?\n\nMeine erste Wahl für ein Studienfach für mein Kind, geboren [BF17031], wäre:",
+          "filter": "BF22100 != 1, 2, 3, 11 (Studium Kind != unwahrscheinlich oder Kind != bereits studiert)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Anglistik"
+            },
+            {
+              "value": 2,
+              "label": "Architektur"
+            },
+            {
+              "value": 3,
+              "label": "Bauingenieurwesen"
+            },
+            {
+              "value": 4,
+              "label": "Betriebswirtschaftslehre"
+            },
+            {
+              "value": 5,
+              "label": "Biologie"
+            },
+            {
+              "value": 6,
+              "label": "Chemie"
+            },
+            {
+              "value": 7,
+              "label": "Chemieingenieurwesen"
+            },
+            {
+              "value": 8,
+              "label": "Elektrotechnik"
+            },
+            {
+              "value": 9,
+              "label": "Geowissenschaften"
+            },
+            {
+              "value": 10,
+              "label": "Germanistik"
+            },
+            {
+              "value": 11,
+              "label": "Geschichte"
+            },
+            {
+              "value": 12,
+              "label": "Informatik"
+            },
+            {
+              "value": 13,
+              "label": "Jura"
+            },
+            {
+              "value": 14,
+              "label": "Lehramt"
+            },
+            {
+              "value": 15,
+              "label": "Maschinenbau"
+            },
+            {
+              "value": 16,
+              "label": "Mathematik"
+            },
+            {
+              "value": 17,
+              "label": "Medizin"
+            },
+            {
+              "value": 18,
+              "label": "Musikwissenschaft"
+            },
+            {
+              "value": 19,
+              "label": "Pädagogik"
+            },
+            {
+              "value": 20,
+              "label": "Physik"
+            },
+            {
+              "value": 21,
+              "label": "Politikwissenschaft"
+            },
+            {
+              "value": 22,
+              "label": "Psychologie"
+            },
+            {
+              "value": 23,
+              "label": "Regionalwissenschaft"
+            },
+            {
+              "value": 24,
+              "label": "Soziale Arbeit"
+            },
+            {
+              "value": 25,
+              "label": "Versorgungstechnik"
+            },
+            {
+              "value": 26,
+              "label": "Volkswirtschaftslehre"
+            },
+            {
+              "value": 27,
+              "label": "Wirtschaftsingenieurwesen"
+            },
+            {
+              "value": 28,
+              "label": "Zahnmedizin"
+            },
+            {
+              "value": 29,
+              "label": "Ein anderes Studienfach, nämlich: [answer field]"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 36,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 31": {
+      "question": "Page 31",
+      "name": "Page 31",
+      "label": "Meine zweite Wahl für ein Studienfach für mein Kind, geboren [BF17031], wäre:",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Meine zweite Wahl für ein Studienfach für mein Kind, geboren [BF17031], wäre:",
+          "filter": "BF22086 != -99 (erste Studienfachwahl Kind nicht „Weiß nicht“)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Anglistik (BF22084 != 1)"
+            },
+            {
+              "value": 2,
+              "label": "Architektur (BF22084 != 2)"
+            },
+            {
+              "value": 3,
+              "label": "Bauingenieurwesen (BF22084 != 3)"
+            },
+            {
+              "value": 4,
+              "label": "Betriebswirtschaftslehre (BF22084 != 4)"
+            },
+            {
+              "value": 5,
+              "label": "Biologie (BF22084 != 5)"
+            },
+            {
+              "value": 6,
+              "label": "Chemie (BF22084 != 6)"
+            },
+            {
+              "value": 7,
+              "label": "Chemieingenieurwesen (BF22084 != 7)"
+            },
+            {
+              "value": 8,
+              "label": "Elektrotechnik (BF22084 != 8)"
+            },
+            {
+              "value": 9,
+              "label": "Geowissenschaften (BF22084 != 9)"
+            },
+            {
+              "value": 10,
+              "label": "Germanistik (BF22084 != 10)"
+            },
+            {
+              "value": 11,
+              "label": "Geschichte (BF22084 != 11)"
+            },
+            {
+              "value": 12,
+              "label": "Informatik (BF22084 != 12)"
+            },
+            {
+              "value": 13,
+              "label": "Jura (BF22084 != 13)"
+            },
+            {
+              "value": 14,
+              "label": "Lehramt (BF22084 != 14)"
+            },
+            {
+              "value": 15,
+              "label": "Maschinenbau (BF22084 != 15)"
+            },
+            {
+              "value": 16,
+              "label": "Mathematik (BF22084 != 16)"
+            },
+            {
+              "value": 17,
+              "label": "Medizin (BF22084 != 17)"
+            },
+            {
+              "value": 18,
+              "label": "Musikwissenschaft (BF22084 != 18)"
+            },
+            {
+              "value": 19,
+              "label": "Pädagogik (BF22084 != 19)"
+            },
+            {
+              "value": 20,
+              "label": "Physik (BF22084 != 20)"
+            },
+            {
+              "value": 21,
+              "label": "Politikwissenschaft (BF22084 != 21)"
+            },
+            {
+              "value": 22,
+              "label": "Psychologie (BF22084 != 22)"
+            },
+            {
+              "value": 23,
+              "label": "Regionalwissenschaft (BF22084 != 23)"
+            },
+            {
+              "value": 24,
+              "label": "Soziale Arbeit (BF22084 != 24)"
+            },
+            {
+              "value": 25,
+              "label": "Versorgungstechnik (BF22084 != 25)"
+            },
+            {
+              "value": 26,
+              "label": "Volkswirtschaftslehre (BF22084 != 26)"
+            },
+            {
+              "value": 27,
+              "label": "Wirtschaftsingenieurwesen (BF22084 != 27)"
+            },
+            {
+              "value": 28,
+              "label": "Zahnmedizin (BF22084 != 28)"
+            },
+            {
+              "value": 29,
+              "label": "Ein anderes Studienfach, nämlich: [answer field]"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            },
+            {
+              "value": 30,
+              "label": "Ich habe keinen weiteren Studienfachwunsch für mein Kind."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 37,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 32": {
+      "question": "Page 32",
+      "name": "Page 32",
+      "label": "Meine dritte Wahl für ein Studienfach für mein Kind, geboren [BF17031], wäre:",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Meine dritte Wahl für ein Studienfach für mein Kind, geboren [BF17031], wäre:",
+          "filter": "BF22087 != -99 (zweite Studienfachwahl Kind != „weiß nicht“)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Anglistik (BF22086 != 1 und BF22087 != 1)"
+            },
+            {
+              "value": 2,
+              "label": "Architektur (BF22086 != 2 und BF22087 != 2)"
+            },
+            {
+              "value": 3,
+              "label": "Bauingenieurwesen (BF22086 != 3 und BF22087 != 3)"
+            },
+            {
+              "value": 4,
+              "label": "Betriebswirtschaftslehre (BF22086 != 4 und BF22087 != 4)"
+            },
+            {
+              "value": 5,
+              "label": "Biologie (BF22086 != 5 und BF22087 != 5)"
+            },
+            {
+              "value": 6,
+              "label": "Chemie (BF22086 != 6 und BF22087 != 6)"
+            },
+            {
+              "value": 7,
+              "label": "Chemieingenieurwesen (BF22086 != 7 und BF22087 != 7)"
+            },
+            {
+              "value": 8,
+              "label": "Elektrotechnik (BF22086 != 8 und BF22087 != 8)"
+            },
+            {
+              "value": 9,
+              "label": "Geowissenschaften (BF22086 != 9 und BF22087 != 9)"
+            },
+            {
+              "value": 10,
+              "label": "Germanistik (BF22086 != 10 und BF22087 != 10)"
+            },
+            {
+              "value": 11,
+              "label": "Geschichte (BF22086 != 11 und BF22087 != 11)"
+            },
+            {
+              "value": 12,
+              "label": "Informatik (BF22086 != 12 und BF22087 != 12)"
+            },
+            {
+              "value": 13,
+              "label": "Jura (BF22086 != 13 und BF22087 != 13)"
+            },
+            {
+              "value": 14,
+              "label": "Lehramt (BF22086 != 14 und BF22087 != 14)"
+            },
+            {
+              "value": 15,
+              "label": "Maschinenbau (BF22086 != 15 und BF22087 != 15)"
+            },
+            {
+              "value": 16,
+              "label": "Mathematik (BF22086 != 16 und BF22087 != 16)"
+            },
+            {
+              "value": 17,
+              "label": "Medizin (BF22086 != 17 und BF22087 != 17)"
+            },
+            {
+              "value": 18,
+              "label": "Musikwissenschaft (BF22086 != 18 und BF22087 != 18)"
+            },
+            {
+              "value": 19,
+              "label": "Pädagogik (BF22086 != 19 und BF22087 != 19)"
+            },
+            {
+              "value": 20,
+              "label": "Physik (BF22086 != 20 und BF22087 != 20)"
+            },
+            {
+              "value": 21,
+              "label": "Politikwissenschaft (BF22086 != 21 und BF22087 != 21)"
+            },
+            {
+              "value": 22,
+              "label": "Psychologie (BF22086 != 22 und BF22087 != 22)"
+            },
+            {
+              "value": 23,
+              "label": "Regionalwissenschaft (BF22086 != 23 und BF22087 != 23)"
+            },
+            {
+              "value": 24,
+              "label": "Soziale Arbeit (BF22086 != 24 und BF22087 != 24)"
+            },
+            {
+              "value": 25,
+              "label": "Versorgungstechnik (BF22086 != 25 und BF22087 != 25)"
+            },
+            {
+              "value": 26,
+              "label": "Volkswirtschaftslehre (BF22086 != 26 und BF22087 != 26)"
+            },
+            {
+              "value": 27,
+              "label": "Wirtschaftsingenieurwesen (BF22086 != 27 und BF22087 != 27)"
+            },
+            {
+              "value": 28,
+              "label": "Zahnmedizin (BF22086 != 28 und BF22087 != 28)"
+            },
+            {
+              "value": 29,
+              "label": "Ein anderes Studienfach, nämlich: [answer field]"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            },
+            {
+              "value": 30,
+              "label": "Ich habe keinen weiteren Studienfachwunsch für mein Kind."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 38,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 33": {
+      "question": "Page 33",
+      "name": "Page 33",
+      "label": "Allgemeine Forschungsfrage\n\nDer nachfolgende Teil besteht aus zwei Seiten und enthält eine allgemeine Forschungsfrage, bei der wir Sie um Ihre Mitarbeit bitten.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Allgemeine Forschungsfrage\n\nDer nachfolgende Teil besteht aus zwei Seiten und enthält eine allgemeine Forschungsfrage, bei der wir Sie um Ihre Mitarbeit bitten.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 39,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 34": {
+      "question": "Page 34",
+      "name": "Page 34",
+      "label": "Bei der nun folgenden Frage kommt es darauf an, dass Sie möglichst schnell antworten.\n\nInnerhalb von 60 Sekunden sollen Sie so viele Begriffe wie möglich in ein Textfeld schreiben. Trennen Sie die einzelnen Begriffe bitte einfach jeweils durch ein Leerzeichen oder ein Komma voneinander ab.\n\nSobald Sie auf *Weiter* klicken, erscheint die Aufgabe und die Zeit läuft.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bei der nun folgenden Frage kommt es darauf an, dass Sie möglichst schnell antworten.\n\nInnerhalb von 60 Sekunden sollen Sie so viele Begriffe wie möglich in ein Textfeld schreiben. Trennen Sie die einzelnen Begriffe bitte einfach jeweils durch ein Leerzeichen oder ein Komma voneinander ab.\n\nSobald Sie auf *Weiter* klicken, erscheint die Aufgabe und die Zeit läuft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 40,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 35": {
+      "question": "Page 35",
+      "name": "Page 35",
+      "label": "Bitte schreiben Sie so viele Pflanzenarten wie möglich in das Textfeld.\n\nVerbleibende Zeit [Timer] Sekunden",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte schreiben Sie so viele Pflanzenarten wie möglich in das Textfeld.\n\nVerbleibende Zeit [Timer] Sekunden",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 41,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 36": {
+      "question": "Page 36",
+      "name": "Page 36",
+      "label": "Wie viele Pflanzenarten haben Sie genannt?\n\nBei dieser Schätzaufgabe können Sie einen Geldpreis gewinnen. Nachdem alle Teilnehmer die Befragung abgeschlossen haben, werden wir 50 Teilnehmer zufällig auslosen. Wenn Sie sich unter den ausgelosten Teilnehmern befinden, können Sie 20 Euro gewinnen. Die Wahrscheinlichkeit, mit der Sie 20 Euro gewinnen, ist umso größer, je besser Ihre Schätzung ist. \n\nJe genauer Sie die Anzahl der von Ihnen genannten Pflanzenarten angeben, desto eher gewinnen Sie 20 Euro. Das wird durch das unten beschriebene Verfahren garantiert.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie viele Pflanzenarten haben Sie genannt?\n\nBei dieser Schätzaufgabe können Sie einen Geldpreis gewinnen. Nachdem alle Teilnehmer die Befragung abgeschlossen haben, werden wir 50 Teilnehmer zufällig auslosen. Wenn Sie sich unter den ausgelosten Teilnehmern befinden, können Sie 20 Euro gewinnen. Die Wahrscheinlichkeit, mit der Sie 20 Euro gewinnen, ist umso größer, je besser Ihre Schätzung ist. \n\nJe genauer Sie die Anzahl der von Ihnen genannten Pflanzenarten angeben, desto eher gewinnen Sie 20 Euro. Das wird durch das unten beschriebene Verfahren garantiert.",
+          "instruction": "Wenn Sie sich unter den ausgelosten Befragten befinden, wird Ihre Auszahlung folgendermaßen berechnet: \n- Zuerst wählt der Computer eine Zufallszahl zwischen 0 und 400 aus. Jede der Zahlen zwischen 0 und 400 wird dabei mit der gleichen Wahrscheinlichkeit gezogen.\n- Ihr Vorhersagefehler ist der Abstand zwischen Ihrer Schätzung und der wahren Anzahl der von Ihnen genannten Pflanzenarten. Wenn Ihr Vorhersagefehler einmal mit sich selbst malgenommen nicht größer als die Zufallszahl ist, dann erhalten Sie 20 Euro. Andernfalls erhalten Sie 0 Euro. \n\nEin Beispiel: Sie haben geschätzt, dass Sie 18 Pflanzenarten genannt haben. Tatsächlich haben Sie aber 21 Pflanzenarten genannt. Ihr Vorhersagefehler, einmal mit sich selbst malgenommen ist demnach 9. Wenn Sie sich unter den ausgelosten Befragten befinden und die vom Computer gezogene Zufallszahl 86 ist, dann erhalten Sie 20 Euro. Wenn die vom Computer gezogene Zufallszahl 1 ist, dann erhalten Sie 0 Euro.",
+          "description": "Wenn Sie sich unter den ausgelosten Befragten befinden, wird Ihre Auszahlung folgendermaßen berechnet: \n- Zuerst wählt der Computer eine Zufallszahl zwischen 0 und 400 aus. Jede der Zahlen zwischen 0 und 400 wird dabei mit der gleichen Wahrscheinlichkeit gezogen.\n- Ihr Vorhersagefehler ist der Abstand zwischen Ihrer Schätzung und der wahren Anzahl der von Ihnen genannten Pflanzenarten. Wenn Ihr Vorhersagefehler einmal mit sich selbst malgenommen nicht größer als die Zufallszahl ist, dann erhalten Sie 20 Euro. Andernfalls erhalten Sie 0 Euro. \n\nEin Beispiel: Sie haben geschätzt, dass Sie 18 Pflanzenarten genannt haben. Tatsächlich haben Sie aber 21 Pflanzenarten genannt. Ihr Vorhersagefehler, einmal mit sich selbst malgenommen ist demnach 9. Wenn Sie sich unter den ausgelosten Befragten befinden und die vom Computer gezogene Zufallszahl 86 ist, dann erhalten Sie 20 Euro. Wenn die vom Computer gezogene Zufallszahl 1 ist, dann erhalten Sie 0 Euro.",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 42,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 37": {
+      "question": "Page 37",
+      "name": "Page 37",
+      "label": "Wie viele von 100 zufällig ausgewählten Befragten haben weniger Pflanzenarten genannt als Sie?\n\nBei dieser Schätzaufgabe können Sie wiederum Geld verdienen. Nachdem alle Teilnehmer die Befragung abgeschlossen haben, werden wir 50 Teilnehmer zufällig auslosen. Wenn Sie sich unter den ausgelosten Teilnehmern befinden, können Sie 20 Euro gewinnen. \n\nDie anderen Teilnehmer dieser Befragung haben dieselbe Aufgabe bearbeitet, möglichst viele Pflanzenarten in 60 Sekunden aufzuschreiben. Wir vergleichen jetzt Ihr Abschneiden mit dem Abschneiden von 100 Teilnehmern dieser Befragung, die wir zufällig auswählen. Die Wahrscheinlichkeit, mit der Sie 20 Euro gewinnen, ist umso größer, je besser Ihre Einschätzung ist. Sie schätzen dabei die Anzahl der Teilnehmer, die schlechter abgeschnitten haben als Sie (also weniger Pflanzenarten angegeben haben). \n\nJe genauer Ihre Schätzung ist, desto höher ist Ihre Chance, 20 Euro zu gewinnen. Das wird durch das unten beschriebene Verfahren garantiert.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie viele von 100 zufällig ausgewählten Befragten haben weniger Pflanzenarten genannt als Sie?\n\nBei dieser Schätzaufgabe können Sie wiederum Geld verdienen. Nachdem alle Teilnehmer die Befragung abgeschlossen haben, werden wir 50 Teilnehmer zufällig auslosen. Wenn Sie sich unter den ausgelosten Teilnehmern befinden, können Sie 20 Euro gewinnen. \n\nDie anderen Teilnehmer dieser Befragung haben dieselbe Aufgabe bearbeitet, möglichst viele Pflanzenarten in 60 Sekunden aufzuschreiben. Wir vergleichen jetzt Ihr Abschneiden mit dem Abschneiden von 100 Teilnehmern dieser Befragung, die wir zufällig auswählen. Die Wahrscheinlichkeit, mit der Sie 20 Euro gewinnen, ist umso größer, je besser Ihre Einschätzung ist. Sie schätzen dabei die Anzahl der Teilnehmer, die schlechter abgeschnitten haben als Sie (also weniger Pflanzenarten angegeben haben). \n\nJe genauer Ihre Schätzung ist, desto höher ist Ihre Chance, 20 Euro zu gewinnen. Das wird durch das unten beschriebene Verfahren garantiert.",
+          "instruction": "Wenn Sie sich unter den ausgelosten Teilnehmern befinden, wird Ihre Auszahlung folgendermaßen berechnet:\n- Zuerst wählt der Computer eine Zufallszahl zwischen 0 und 10000 aus. Jede der Zahlen zwischen 0 und 10000 wird dabei mit der gleichen Wahrscheinlichkeit gezogen. \n- Ihr Vorhersagefehler ist der Abstand zwischen Ihrer Schätzung und der wahren Anzahl von Teilnehmern, die schlechter als Sie abgeschnitten haben. Wenn Ihr Vorhersagefehler einmal mit sich selbst malgenommen nicht größer als die Zufallszahl ist, dann erhalten Sie 20 Euro. Andernfalls erhalten Sie 0 Euro.\n",
+          "description": "Wenn Sie sich unter den ausgelosten Teilnehmern befinden, wird Ihre Auszahlung folgendermaßen berechnet:\n- Zuerst wählt der Computer eine Zufallszahl zwischen 0 und 10000 aus. Jede der Zahlen zwischen 0 und 10000 wird dabei mit der gleichen Wahrscheinlichkeit gezogen. \n- Ihr Vorhersagefehler ist der Abstand zwischen Ihrer Schätzung und der wahren Anzahl von Teilnehmern, die schlechter als Sie abgeschnitten haben. Wenn Ihr Vorhersagefehler einmal mit sich selbst malgenommen nicht größer als die Zufallszahl ist, dann erhalten Sie 20 Euro. Andernfalls erhalten Sie 0 Euro.",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 43,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 38": {
+      "question": "Page 38",
+      "name": "Page 38",
+      "label": "Im Folgenden geht es um Ihren weiteren Bildungsweg. Egal, welche Schule Sie gerade besuchen und wie gut Ihre Noten sind: Welchen höchsten beruflichen Bildungsabschluss wünschen Sie sich?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden geht es um Ihren weiteren Bildungsweg. Egal, welche Schule Sie gerade besuchen und wie gut Ihre Noten sind: Welchen höchsten beruflichen Bildungsabschluss wünschen Sie sich?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "occupation_14 = 12 (Schüler/-in an einer allgemeinbildenden Schule) ",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Lehre/Berufsausbildung"
+            },
+            {
+              "value": 2,
+              "label": "Fachschulabschluss, Meister-/Technikerausbildung"
+            },
+            {
+              "value": 3,
+              "label": "Fachhochschulabschluss"
+            },
+            {
+              "value": 4,
+              "label": "Hochschulabschluss"
+            },
+            {
+              "value": 5,
+              "label": "Promotion"
+            },
+            {
+              "value": 6,
+              "label": "Ich wünsche mir keinen beruflichen Bildungsabschluss."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 44,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 39": {
+      "question": "Page 39",
+      "name": "Page 39",
+      "label": "Um beruflich hinzuzulernen, kann man einen weiteren beruflichen Bildungsabschluss machen. Wenn es allein nach Ihren Wünschen ginge: Welchen (weiteren) höchsten beruflichen Bildungsabschluss wünschen Sie sich?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Um beruflich hinzuzulernen, kann man einen weiteren beruflichen Bildungsabschluss machen. Wenn es allein nach Ihren Wünschen ginge: Welchen (weiteren) höchsten beruflichen Bildungsabschluss wünschen Sie sich?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "age_cat_14 != -80, -90, missing und age_cat_14 <= 4 und occupation_14  != 12, -90, missing (Altersangabe plausibel und vorhanden und höchstens 34 Jahre alt und Erwerbsstatus nicht unbekannt oder nicht Schüler/-in an einer allgemeinbildenden Schule)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Lehre/Berufsausbildung"
+            },
+            {
+              "value": 2,
+              "label": "Fachschulabschluss, Meister-/Technikerausbildung"
+            },
+            {
+              "value": 3,
+              "label": "Fachhochschulabschluss"
+            },
+            {
+              "value": 4,
+              "label": "Hochschulabschluss"
+            },
+            {
+              "value": 5,
+              "label": "Promotion"
+            },
+            {
+              "value": 6,
+              "label": "Ich wünsche mir keinen (weiteren) beruflichen Bildungsabschluss."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 45,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 40": {
+      "question": "Page 40",
+      "name": "Page 40",
+      "label": "Im vergangenen Jahr haben Sie uns Auskunft über Ihr im Jahr [BF17006] geborenes Kind gegeben. Zu diesem würden wir Sie gerne weiter befragen.\n\nDie folgenden Fragen beziehen sich auf Ihr [BF17006] geborenes Kind. Falls mehrere Kinder im gleichen Jahr geboren wurden, bitten wir Sie, sich auf das jüngste Kind zu beziehen, welches in dem Jahr geboren wurde. \n\nIm Folgenden geht es um den Bildungsweg Ihres Kindes, geboren [BF17006]. Unabhängig davon, ob es bereits zur Schule geht oder nicht: Welchen höchsten beruflichen Bildungsabschluss wünschen Sie sich für dieses Kind?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im vergangenen Jahr haben Sie uns Auskunft über Ihr im Jahr [BF17006] geborenes Kind gegeben. Zu diesem würden wir Sie gerne weiter befragen.\n\nDie folgenden Fragen beziehen sich auf Ihr [BF17006] geborenes Kind. Falls mehrere Kinder im gleichen Jahr geboren wurden, bitten wir Sie, sich auf das jüngste Kind zu beziehen, welches in dem Jahr geboren wurde. \n\nIm Folgenden geht es um den Bildungsweg Ihres Kindes, geboren [BF17006]. Unabhängig davon, ob es bereits zur Schule geht oder nicht: Welchen höchsten beruflichen Bildungsabschluss wünschen Sie sich für dieses Kind?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "BF17006 != -90, missing (Geburtsjahr des jüngsten Kindes ab 1993 bekannt)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Lehre/Berufsausbildung"
+            },
+            {
+              "value": 2,
+              "label": "Fachschulabschluss, Meister-/Technikerausbildung"
+            },
+            {
+              "value": 3,
+              "label": "Fachhochschulabschluss"
+            },
+            {
+              "value": 4,
+              "label": "Hochschulabschluss"
+            },
+            {
+              "value": 5,
+              "label": "Promotion"
+            },
+            {
+              "value": 6,
+              "label": "Ich habe keine Wünsche bezüglich des Bildungsabschlusses dieses Kindes."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 46,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 41": {
+      "question": "Page 41",
+      "name": "Page 41",
+      "label": "Und wenn Sie realistisch sind: Was ist der höchste berufliche Bildungsabschluss, den Sie wohl tatsächlich machen werden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und wenn Sie realistisch sind: Was ist der höchste berufliche Bildungsabschluss, den Sie wohl tatsächlich machen werden?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "occupation_14 = 12 (Schüler/-in an einer allgemeinbildenden Schule) ",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Lehre/Berufsausbildung"
+            },
+            {
+              "value": 2,
+              "label": "Fachschulabschluss, Meister-/Technikerausbildung"
+            },
+            {
+              "value": 3,
+              "label": "Fachhochschulabschluss"
+            },
+            {
+              "value": 4,
+              "label": "Hochschulabschluss"
+            },
+            {
+              "value": 5,
+              "label": "Promotion"
+            },
+            {
+              "value": 6,
+              "label": "Ich werde keinen beruflichen Bildungsabschluss machen."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 47,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 42": {
+      "question": "Page 42",
+      "name": "Page 42",
+      "label": "Und wenn Sie realistisch sind: Was ist der höchste (weitere) berufliche Bildungsabschluss, den Sie wohl tatsächlich machen werden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und wenn Sie realistisch sind: Was ist der höchste (weitere) berufliche Bildungsabschluss, den Sie wohl tatsächlich machen werden?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "age_cat_14 != -80, -90, missing und age_cat_14 <= 4 und occupation_14  != 12, -90, missing (Altersangabe plausibel und vorhanden und höchstens 34 Jahre alt und Erwerbsstatus nicht unbekannt oder nicht Schüler/-in an einer allgemeinbildenden Schule)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Lehre/Berufsausbildung"
+            },
+            {
+              "value": 2,
+              "label": "Fachschulabschluss, Meister-/Technikerausbildung"
+            },
+            {
+              "value": 3,
+              "label": "Fachhochschulabschluss"
+            },
+            {
+              "value": 4,
+              "label": "Hochschulabschluss"
+            },
+            {
+              "value": 5,
+              "label": "Promotion"
+            },
+            {
+              "value": 6,
+              "label": "Ich werde keinen (weiteren) beruflichen Bildungsabschluss machen."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 48,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 43": {
+      "question": "Page 43",
+      "name": "Page 43",
+      "label": "Und wenn Sie realistisch sind: Was ist der höchste berufliche Bildungsabschluss, den Ihr Kind, geboren [BF17006], wohl tatsächlich machen wird?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und wenn Sie realistisch sind: Was ist der höchste berufliche Bildungsabschluss, den Ihr Kind, geboren [BF17006], wohl tatsächlich machen wird?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "BF17006 != -90, missing (Geburtsjahr des jüngsten Kindes ab 1993 bekannt)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Lehre/Berufsausbildung"
+            },
+            {
+              "value": 2,
+              "label": "Fachschulabschluss, Meister-/Technikerausbildung"
+            },
+            {
+              "value": 3,
+              "label": "Fachhochschulabschluss"
+            },
+            {
+              "value": 4,
+              "label": "Hochschulabschluss"
+            },
+            {
+              "value": 5,
+              "label": "Promotion"
+            },
+            {
+              "value": 6,
+              "label": "Dieses Kind wird keinen beruflichen Bildungsabschluss machen."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 49,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 44": {
+      "question": "Page 44",
+      "name": "Page 44",
+      "label": "Falls Sie studiert haben: Rückblickend, nennen Sie bitte die drei wichtigsten Aspekte, die für die Wahl Ihres Hauptstudienganges entscheidend waren.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Falls Sie studiert haben: Rückblickend, nennen Sie bitte die drei wichtigsten Aspekte, die für die Wahl Ihres Hauptstudienganges entscheidend waren.",
+          "instruction": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "description": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "filter": "educ_job_14 = 8, 9, 10, 11 (studiert)",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "scale": "chr",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Ich weiß es nicht mehr.",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 50,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 45": {
+      "question": "Page 45",
+      "name": "Page 45",
+      "label": "Falls Sie (noch) nicht studiert haben: Nennen Sie bitte die drei wichtigsten Aspekte, die für die Wahl Ihres Hauptstudienganges entscheidend wären.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Falls Sie (noch) nicht studiert haben: Nennen Sie bitte die drei wichtigsten Aspekte, die für die Wahl Ihres Hauptstudienganges entscheidend wären.",
+          "instruction": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "description": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "filter": "educ_job_14  != 8, 9, 10, 11 (nicht studiert)",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "scale": "chr",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Ich weiß es nicht.",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 51,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 46": {
+      "question": "Page 46",
+      "name": "Page 46",
+      "label": "Falls Sie studiert haben: Nennen Sie bitte die drei wichtigsten Aspekte, die für die Wahl Ihrer Hochschule(n) entscheidend waren?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Falls Sie studiert haben: Nennen Sie bitte die drei wichtigsten Aspekte, die für die Wahl Ihrer Hochschule(n) entscheidend waren?",
+          "instruction": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "description": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "filter": "educ_job_14  = 8, 9, 10, 11 (studiert)",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "scale": "chr",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Ich weiß es nicht mehr.",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 52,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 47": {
+      "question": "Page 47",
+      "name": "Page 47",
+      "label": "Falls Sie (noch) nicht studiert haben: Nennen Sie bitte die drei wichtigsten Aspekte, die für die Wahl Ihrer Hochschule entscheidend wären.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Falls Sie (noch) nicht studiert haben: Nennen Sie bitte die drei wichtigsten Aspekte, die für die Wahl Ihrer Hochschule entscheidend wären.",
+          "instruction": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "description": "Bitte tragen Sie Ihre Antwort in das Feld ein.",
+          "filter": "educ_job_14  != 8, 9, 10, 11 (nicht studiert)",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "scale": "chr",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Ich weiß es nicht.",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 53,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 48": {
+      "question": "Page 48",
+      "name": "Page 48",
+      "label": "Welche der folgenden Geräte besitzen Sie persönlich oder nicht?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche der folgenden Geräte besitzen Sie persönlich oder nicht?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Mobiltelefon",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "besitze ich"
+            },
+            {
+              "value": 2,
+              "label": "besitze ich nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Computer oder Laptop",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "besitze ich"
+            },
+            {
+              "value": 2,
+              "label": "besitze ich nicht"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Tablet Computer, zum Beispiel iPad, Samsung Galaxy, Google Nexus, Kindle Fire etc.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "besitze ich"
+            },
+            {
+              "value": 2,
+              "label": "besitze ich nicht"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        }
+      ],
+      "sn": 54,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 49": {
+      "question": "Page 49",
+      "name": "Page 49",
+      "label": "Manche Mobiltelefone werden aufgrund ihrer Merkmale (zum Beispiel Touchscreen, Internetzugang, Verfügbarkeit von Apps) “Smartphones” genannt. Ist Ihr Mobiltelefon ein solches Smartphone oder nicht?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Manche Mobiltelefone werden aufgrund ihrer Merkmale (zum Beispiel Touchscreen, Internetzugang, Verfügbarkeit von Apps) “Smartphones” genannt. Ist Ihr Mobiltelefon ein solches Smartphone oder nicht?",
+          "filter": "AJ22001 = 1 (besitzt Mobiltelefon)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja, ein Smartphone"
+            },
+            {
+              "value": 2,
+              "label": "nein, kein Smartphone"
+            },
+            {
+              "value": -99,
+              "label": "bin nicht sicher/weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 55,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 50": {
+      "question": "Page 50",
+      "name": "Page 50",
+      "label": "Welches der folgenden Typen beschreibt am besten Ihr Smartphone?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welches der folgenden Typen beschreibt am besten Ihr Smartphone?",
+          "instruction": "Wenn Sie mehrere Smartphones besitzen, dann denken Sie bitte an das Smartphone, das Sie am häufigsten benutzen.",
+          "description": "Wenn Sie mehrere Smartphones besitzen, dann denken Sie bitte an das Smartphone, das Sie am häufigsten benutzen.",
+          "filter": "AJ22004 = 1 (besitzt Smartphone)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "iPhone"
+            },
+            {
+              "value": 2,
+              "label": "Android Phone"
+            },
+            {
+              "value": 3,
+              "label": "Windows Phone"
+            },
+            {
+              "value": 4,
+              "label": "Blackberry"
+            },
+            {
+              "value": 5,
+              "label": "etwas anderes"
+            },
+            {
+              "value": -99,
+              "label": "bin mir nicht sicher/weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 56,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 51": {
+      "question": "Page 51",
+      "name": "Page 51",
+      "label": "Welches der folgenden Geräte nutzen Sie zumindest gelegentlich für den Zugang zum Internet?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welches der folgenden Geräte nutzen Sie zumindest gelegentlich für den Zugang zum Internet?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Mobiltelefon [ wenn AJ22001 = 1 und (AJ22004 = 2 oder AJ22004 = -99) (besitzt Mobiltelefon, das kein Smartphone ist)]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja"
+            },
+            {
+              "value": 2,
+              "label": "nein"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Smartphone [ wenn AJ22004 = 1 (besitzt Smartphone)]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja"
+            },
+            {
+              "value": 2,
+              "label": "nein"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Computer oder Laptop [wenn AJ22002 = 1 (besitzt Computer oder Laptop)]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja"
+            },
+            {
+              "value": 2,
+              "label": "nein"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Tablet Computer [wenn AJ22003 = 1 (besitzt Tablet Computer)]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja"
+            },
+            {
+              "value": 2,
+              "label": "nein"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Anderes Gerät, zum Beispiel E-Book-Reader, Spielkonsole, TV-Gerät",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja"
+            },
+            {
+              "value": 2,
+              "label": "nein"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        }
+      ],
+      "sn": 57,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 52": {
+      "question": "Page 52",
+      "name": "Page 52",
+      "label": "Welche der folgenden Anwendungen nutzen Sie zumindest gelegentlich im Internet oder als mobile App?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche der folgenden Anwendungen nutzen Sie zumindest gelegentlich im Internet oder als mobile App?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Facebook",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja"
+            },
+            {
+              "value": 2,
+              "label": "nein"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Instagram",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja"
+            },
+            {
+              "value": 2,
+              "label": "nein"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "LinkedIn",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja"
+            },
+            {
+              "value": 2,
+              "label": "nein"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Twitter",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja"
+            },
+            {
+              "value": 2,
+              "label": "nein"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Xing",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja"
+            },
+            {
+              "value": 2,
+              "label": "nein"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        }
+      ],
+      "sn": 58,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 52.10": {
+      "question": "Page 52.10",
+      "name": "Page 52.10",
+      "label": "Wenn am nächsten Sonntag Bundestagswahl wäre, welche Partei würden Sie dann mit Ihrer Zweitstimme wählen?\n\nDie Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn am nächsten Sonntag Bundestagswahl wäre, welche Partei würden Sie dann mit Ihrer Zweitstimme wählen?\n\nDie Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Würde nicht wählen"
+            },
+            {
+              "value": 2,
+              "label": "Nicht wahlberechtigt (nicht volljährig/keine deutsche Staatsbürgerschaft)"
+            },
+            {
+              "value": 3,
+              "label": "CDU/CSU"
+            },
+            {
+              "value": 4,
+              "label": "SPD"
+            },
+            {
+              "value": 7,
+              "label": "Die Linke"
+            },
+            {
+              "value": 6,
+              "label": "Bündnis 90/Die Grünen"
+            },
+            {
+              "value": 5,
+              "label": "FDP"
+            },
+            {
+              "value": 11,
+              "label": "AfD"
+            },
+            {
+              "value": 9,
+              "label": "Piratenpartei"
+            },
+            {
+              "value": 8,
+              "label": "NPD"
+            },
+            {
+              "value": 10,
+              "label": "Andere Partei, und zwar (bitte eintragen): [answer field]"
+            },
+            {
+              "value": -98,
+              "label": "Möchte ich nicht sagen."
+            },
+            {
+              "value": -99,
+              "label": "Weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 59,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 52.20": {
+      "question": "Page 52.20",
+      "name": "Page 52.20",
+      "label": "Zuletzt möchten wir Ihnen einige Fragen aus aktuellem Anlass stellen.\n\nWie sehr stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nDeutschland sollte seine Politik, Flüchtlinge aus Kriegsgebieten aufzunehmen, beibehalten.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Zuletzt möchten wir Ihnen einige Fragen aus aktuellem Anlass stellen.\n\nWie sehr stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nDeutschland sollte seine Politik, Flüchtlinge aus Kriegsgebieten aufzunehmen, beibehalten.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme voll zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme zu"
+            },
+            {
+              "value": 3,
+              "label": "stimme weder zu noch nicht zu"
+            },
+            {
+              "value": 4,
+              "label": "stimme nicht zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            },
+            {
+              "value": -98,
+              "label": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 60,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 52.30": {
+      "question": "Page 52.30",
+      "name": "Page 52.30",
+      "label": "Wie sehr stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nDeutschland kann die Herausforderungen bewältigen, die durch den Zuzug von Flüchtlingen entstehen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sehr stimmen Sie der folgenden Aussage zu oder nicht zu?\n\nDeutschland kann die Herausforderungen bewältigen, die durch den Zuzug von Flüchtlingen entstehen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme voll zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme zu"
+            },
+            {
+              "value": 3,
+              "label": "stimme weder zu noch nicht zu"
+            },
+            {
+              "value": 4,
+              "label": "stimme nicht zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            },
+            {
+              "value": -98,
+              "label": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 61,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 52.40": {
+      "question": "Page 52.40",
+      "name": "Page 52.40",
+      "label": "Bisher unterstützt die gemeinsame Bundestagsfraktion der Parteien CDU und CSU die Bundesregierung darin, Flüchtlinge aus Kriegsgebieten in Deutschland aufzunehmen. Gleichzeitig fordern manche Politiker dieser Parteien eine Änderung dieser Politik.\n\nFür wie wahrscheinlich halten Sie es, dass die CDU/CSU-Bundestagsfraktion auch noch Ende dieses Jahres die Position vertritt, dass Deutschland Flüchtlinge aus Kriegsgebieten aufnehmen sollte.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bisher unterstützt die gemeinsame Bundestagsfraktion der Parteien CDU und CSU die Bundesregierung darin, Flüchtlinge aus Kriegsgebieten in Deutschland aufzunehmen. Gleichzeitig fordern manche Politiker dieser Parteien eine Änderung dieser Politik.\n\nFür wie wahrscheinlich halten Sie es, dass die CDU/CSU-Bundestagsfraktion auch noch Ende dieses Jahres die Position vertritt, dass Deutschland Flüchtlinge aus Kriegsgebieten aufnehmen sollte.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr wahrscheinlich"
+            },
+            {
+              "value": 2,
+              "label": "eher wahrscheinlich"
+            },
+            {
+              "value": 3,
+              "label": "weder wahrscheinlich noch unwahrscheinlich"
+            },
+            {
+              "value": 4,
+              "label": "eher unwahrscheinlich"
+            },
+            {
+              "value": 5,
+              "label": "sehr unwahrscheinlich"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            },
+            {
+              "value": -98,
+              "label": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 62,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 52.50": {
+      "question": "Page 52.50",
+      "name": "Page 52.50",
+      "label": "Wie sollten Politiker Ihrer Meinung nach mit diesem möglichen Dilemma umgehen:\n \nEntweder kann man die moralische Verpflichtung erfüllen, Flüchtlingen aus Kriegsgebieten zu helfen. \nOder man kann die Sicherheit in der deutschen Gesellschaft gewährleisten.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sollten Politiker Ihrer Meinung nach mit diesem möglichen Dilemma umgehen:\n \nEntweder kann man die moralische Verpflichtung erfüllen, Flüchtlingen aus Kriegsgebieten zu helfen. \nOder man kann die Sicherheit in der deutschen Gesellschaft gewährleisten.",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Dieses Dilemma gibt es nicht, die Flüchtlingshilfe beeinträchtigt die Sicherheit der deutschen Bevölkerung nicht.\n[Im Datensatz: Dilemma gibt es nicht]"
+            },
+            {
+              "value": 2,
+              "label": "Bei diesem Dilemma sollten Politiker nur auf die Flüchtlingshilfe achten.\n[Im Datensatz: nur auf Flüchtlingshilfe achten]"
+            },
+            {
+              "value": 3,
+              "label": "Bei diesem Dilemma sollten Politiker eher auf die Flüchtlingshilfe achten.\n[Im Datensatz: eher Flüchtlingshilfe]"
+            },
+            {
+              "value": 4,
+              "label": "Bei diesem Dilemma sollten Politiker gleich viel auf die Flüchtlingshilfe und die Sicherheit der deutschen Bevölkerung achten.\n[Im Datensatz: Flüchtlingshilfe und Sicherheit]"
+            },
+            {
+              "value": 5,
+              "label": "Bei diesem Dilemma sollten Politiker eher auf die Sicherheit der deutschen Bevölkerung achten.\n[Im Datensatz: eher Sicherheit]"
+            },
+            {
+              "value": 6,
+              "label": "Bei diesem Dilemma sollten Politiker nur auf die Sicherheit der deutschen Bevölkerung achten.\n[Im Datensatz: nur Sicherheit]"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            },
+            {
+              "value": -98,
+              "label": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 63,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 53": {
+      "question": "Page 53",
+      "name": "Page 53",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.",
+          "instruction": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "description": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Fanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "interessant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "abwechslungsreich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "relevant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "lang",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "schwierig",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "zu persönlich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut"
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut"
+            }
+          ],
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+          "scale": "chr",
+          "sn": 9,
+          "number": ""
+        }
+      ],
+      "sn": 64,
+      "instrument": "W22",
+      "study": "gip"
+    },
+    "Page 54 Outro": {
+      "question": "Page 54 Outro",
+      "name": "Page 54 Outro",
+      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\n\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\n\nBitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.\n\n\nIhr Forschungsteam von der Universität Mannheim in Zusammenarbeit mit dem LINK Institut",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\n\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\n\nBitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.\n\n\nIhr Forschungsteam von der Universität Mannheim in Zusammenarbeit mit dem LINK Institut",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 65,
+      "instrument": "W22",
+      "study": "gip"
+    }
+  }
+}

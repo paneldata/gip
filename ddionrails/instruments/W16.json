@@ -1,0 +1,3750 @@
+{
+  "study": "gip",
+  "name": "W16",
+  "label": "GIP Wave 16",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 16 enthält folgende zugespielte Variablen:\n• [i[id_g]i] - Unique ID, GIP\n• [i[hhid_g]i] - Household identifyer, GIP\n• [i[pid]i] - Person identifyer (within HH)\n• [i[gender_14]i] - gender\n• [i[year_of_birth_cat]i] - year of birth categories\n• [i[educ_school_14]i] - highest educational degree\n• [i[educ_job_14]i] - highest professional qualification\n• [i[marital_status_14]i] - marital status\n• [i[number_hh_members_14]i] - number of household members\n• [i[occupation_14]i] - employment status\n• [i[sample]i] - year of recruitment\n• [i[state]i] - residence state\n• [i[german_citizenship_14]i] - german citizenship\n• [i[internet_usage_14]i] - private internet usage\n• [i[dDatum]i] - Interview-Datum",
+  "analysis_unit": "p",
+  "period": "2015/03",
+  "instrument": "W16",
+  "questions": {
+    "Page 1 Introduction": {
+      "question": "Page 1 Introduction",
+      "name": "Page 1 Introduction",
+      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim in Zusammenarbeit mit dem LINK Institut",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim in Zusammenarbeit mit dem LINK Institut",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 2": {
+      "question": "Page 2",
+      "name": "Page 2",
+      "label": "In diesem Fragebogenteil möchten wir gerne Ihre Meinung zu aktuellen politischen Fragen wissen.\n\nWenn am nächsten Sonntag Bundestagswahl wäre, welche Partei würden Sie dann mit Ihrer Zweitstimme wählen?\nDie Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "In diesem Fragebogenteil möchten wir gerne Ihre Meinung zu aktuellen politischen Fragen wissen.\n\nWenn am nächsten Sonntag Bundestagswahl wäre, welche Partei würden Sie dann mit Ihrer Zweitstimme wählen?\nDie Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "CDU/CSU"
+            },
+            {
+              "value": 2,
+              "label": "SPD"
+            },
+            {
+              "value": 3,
+              "label": "Die Linke"
+            },
+            {
+              "value": 4,
+              "label": "Bündnis 90/Die Grünen"
+            },
+            {
+              "value": 5,
+              "label": "FDP"
+            },
+            {
+              "value": 6,
+              "label": "AfD (Alternative für Deutschland)"
+            },
+            {
+              "value": 7,
+              "label": "Piratenpartei"
+            },
+            {
+              "value": 8,
+              "label": "NPD"
+            },
+            {
+              "value": 9,
+              "label": "eine andere Partei, und zwar: [answer field] "
+            },
+            {
+              "value": 10,
+              "label": "Ich wäre nicht wahlberechtigt."
+            },
+            {
+              "value": 11,
+              "label": "Ich würde nicht wählen."
+            },
+            {
+              "value": -99,
+              "label": "Ich weiß nicht, welche Partei ich wählen würde."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 3": {
+      "question": "Page 3",
+      "name": "Page 3",
+      "label": "Auch innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.\n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie die folgenden Parteien als zerstritten oder als geschlossen wahr?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Auch innerhalb einer Partei werden manchmal verschiedene Standpunkte vertreten.\n\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Nehmen Sie die folgenden Parteien als zerstritten oder als geschlossen wahr?",
+          "instruction": "Bitte wählen Sie eine Antwort für jede Partei aus.",
+          "description": "Bitte wählen Sie eine Antwort für jede Partei aus.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "CDU/CSU",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 sehr zerstritten "
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 sehr geschlossen"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht "
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "SPD",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 sehr zerstritten "
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 sehr geschlossen"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht "
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "FDP",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 sehr zerstritten "
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 sehr geschlossen"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht "
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Bündnis 90/Die Grünen",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 sehr zerstritten "
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 sehr geschlossen"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht "
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Die Linke",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 sehr zerstritten "
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 sehr geschlossen"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht "
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "AfD (Alternative für Deutschland)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 sehr zerstritten "
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label": "11 sehr geschlossen"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht "
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 4": {
+      "question": "Page 4",
+      "name": "Page 4",
+      "label": "Sie haben angegeben, dass in den folgenden Parteien verschiedene Standpunkte vertreten werden.\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Bei welchem Thema nehmen Sie die jeweilige Partei als besonders zerstritten wahr?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sie haben angegeben, dass in den folgenden Parteien verschiedene Standpunkte vertreten werden.\nWenn Sie einmal an die letzten vier Wochen zurückdenken: Bei welchem Thema nehmen Sie die jeweilige Partei als besonders zerstritten wahr?",
+          "instruction": "Bitte tragen Sie das Thema in das jeweilige Textfeld ein:",
+          "description": "Bitte tragen Sie das Thema in das jeweilige Textfeld ein:",
+          "filter": "CE16171 oder CE16172 oder CE16173 oder CE16174 oder CE16175 oder CE16176 <= 10 (bei einer Partei in der vorigen Frage mindestens einmal nicht „sehr geschlossen“ gewählt wurde)",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "[wenn CE16171 <= 10: CDU/CSU]",
+          "scale": "chr",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "[wenn CE16172 <= 10: SPD]",
+          "scale": "chr",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "[wenn CE16173 <= 10: FDP]",
+          "scale": "chr",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "[wenn CE16174 <= 10: Bündnis 90/Die Grünen]",
+          "scale": "chr",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "[wenn CE16175 <= 10: Die Linke]",
+          "scale": "chr",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "[wenn CE16176 <= 10: AfD (Alternative für Deutschland)]",
+          "scale": "chr",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 12,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 5": {
+      "question": "Page 5",
+      "name": "Page 5",
+      "label": "[wenn erste Frage: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz von politischen Parteien befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die CDU/CSU am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn nicht erste Frage: Und wie ist es mit der CDU/CSU? In welchen Bereichen ist Ihrer Meinung nach die CDU/CSU am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn erste Frage: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz von politischen Parteien befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die CDU/CSU am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn nicht erste Frage: Und wie ist es mit der CDU/CSU? In welchen Bereichen ist Ihrer Meinung nach die CDU/CSU am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+          "instruction": "Bitte wählen Sie die Bereiche aus:",
+          "description": "Bitte wählen Sie die Bereiche aus:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Arbeitsmarkt",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Außenpolitik",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Bildung und Forschung",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Bürgerbeteiligung",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Energieversorgung",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Europäische Einigung",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Familie",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Gesundheitssystem",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Gleichstellung von Frauen und Männern",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Innere Sicherheit",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Persönlichkeitsrechte",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text": "Rentensystem",
+          "scale": "bin",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "13",
+          "text": "Staatsverschuldung",
+          "scale": "bin",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "14",
+          "text": "Steuersystem",
+          "scale": "bin",
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "15",
+          "text": "Umwelt und Klimaschutz",
+          "scale": "bin",
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "16",
+          "text": "Verkehr",
+          "scale": "bin",
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "17",
+          "text": "Verteidigung",
+          "scale": "bin",
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "18",
+          "text": "Währung",
+          "scale": "bin",
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "19",
+          "text": "Wirtschaft",
+          "scale": "bin",
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "20",
+          "text": "Zuwanderung und Integration",
+          "scale": "bin",
+          "sn": 20,
+          "number": ""
+        },
+        {
+          "item": "23",
+          "text": "Ernährung und Landwirtschaft",
+          "scale": "bin",
+          "sn": 21,
+          "number": ""
+        },
+        {
+          "item": "24",
+          "text": "Verbraucherschutz",
+          "scale": "bin",
+          "sn": 22,
+          "number": ""
+        },
+        {
+          "item": "21",
+          "text": "In keinem der hier aufgeführten Bereiche.",
+          "scale": "bin",
+          "sn": 23,
+          "number": ""
+        },
+        {
+          "item": "22",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 24,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 6": {
+      "question": "Page 6",
+      "name": "Page 6",
+      "label": "[wenn erste Frage: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz von politischen Parteien befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die SPD am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn nicht erste Frage: Und wie ist es mit der SPD? In welchen Bereichen ist Ihrer Meinung nach die SPD am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn erste Frage: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz von politischen Parteien befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die SPD am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn nicht erste Frage: Und wie ist es mit der SPD? In welchen Bereichen ist Ihrer Meinung nach die SPD am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+          "instruction": "Bitte wählen Sie die Bereiche aus:",
+          "description": "Bitte wählen Sie die Bereiche aus:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Arbeitsmarkt",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Außenpolitik",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Bildung und Forschung",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Bürgerbeteiligung",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Energieversorgung",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Europäische Einigung",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Familie",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Gesundheitssystem",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Gleichstellung von Frauen und Männern",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Innere Sicherheit",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Persönlichkeitsrechte",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text": "Rentensystem",
+          "scale": "bin",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "13",
+          "text": "Staatsverschuldung",
+          "scale": "bin",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "14",
+          "text": "Steuersystem",
+          "scale": "bin",
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "15",
+          "text": "Umwelt und Klimaschutz",
+          "scale": "bin",
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "16",
+          "text": "Verkehr",
+          "scale": "bin",
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "17",
+          "text": "Verteidigung",
+          "scale": "bin",
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "18",
+          "text": "Währung",
+          "scale": "bin",
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "19",
+          "text": "Wirtschaft",
+          "scale": "bin",
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "20",
+          "text": "Zuwanderung und Integration",
+          "scale": "bin",
+          "sn": 20,
+          "number": ""
+        },
+        {
+          "item": "23",
+          "text": "Ernährung und Landwirtschaft",
+          "scale": "bin",
+          "sn": 21,
+          "number": ""
+        },
+        {
+          "item": "24",
+          "text": "Verbraucherschutz",
+          "scale": "bin",
+          "sn": 22,
+          "number": ""
+        },
+        {
+          "item": "21",
+          "text": "In keinem der hier aufgeführten Bereiche.",
+          "scale": "bin",
+          "sn": 23,
+          "number": ""
+        },
+        {
+          "item": "22",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 24,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 7": {
+      "question": "Page 7",
+      "name": "Page 7",
+      "label": "[wenn erste Frage: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz von politischen Parteien befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die FDP am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn nicht erste Frage: Und wie ist es mit der FDP? In welchen Bereichen ist Ihrer Meinung nach die FDP am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn erste Frage: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz von politischen Parteien befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die FDP am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn nicht erste Frage: Und wie ist es mit der FDP? In welchen Bereichen ist Ihrer Meinung nach die FDP am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+          "instruction": "Bitte wählen Sie die Bereiche aus:",
+          "description": "Bitte wählen Sie die Bereiche aus:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Arbeitsmarkt",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Außenpolitik",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Bildung und Forschung",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Bürgerbeteiligung",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Energieversorgung",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Europäische Einigung",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Familie",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Gesundheitssystem",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Gleichstellung von Frauen und Männern",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Innere Sicherheit",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Persönlichkeitsrechte",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text": "Rentensystem",
+          "scale": "bin",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "13",
+          "text": "Staatsverschuldung",
+          "scale": "bin",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "14",
+          "text": "Steuersystem",
+          "scale": "bin",
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "15",
+          "text": "Umwelt und Klimaschutz",
+          "scale": "bin",
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "16",
+          "text": "Verkehr",
+          "scale": "bin",
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "17",
+          "text": "Verteidigung",
+          "scale": "bin",
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "18",
+          "text": "Währung",
+          "scale": "bin",
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "19",
+          "text": "Wirtschaft",
+          "scale": "bin",
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "20",
+          "text": "Zuwanderung und Integration",
+          "scale": "bin",
+          "sn": 20,
+          "number": ""
+        },
+        {
+          "item": "23",
+          "text": "Ernährung und Landwirtschaft",
+          "scale": "bin",
+          "sn": 21,
+          "number": ""
+        },
+        {
+          "item": "24",
+          "text": "Verbraucherschutz",
+          "scale": "bin",
+          "sn": 22,
+          "number": ""
+        },
+        {
+          "item": "21",
+          "text": "In keinem der hier aufgeführten Bereiche.",
+          "scale": "bin",
+          "sn": 23,
+          "number": ""
+        },
+        {
+          "item": "22",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 24,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 8": {
+      "question": "Page 8",
+      "name": "Page 8",
+      "label": "[wenn erste Frage: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz von politischen Parteien befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die Partei Bündnis90/Die Grünen am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn nicht erste Frage: Und wie ist es mit der Partei Bündnis 90/Die Grünen? In welchen Bereichen ist Ihrer Meinung nach die Partei Bündnis 90/Die Grünen am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn erste Frage: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz von politischen Parteien befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die Partei Bündnis90/Die Grünen am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn nicht erste Frage: Und wie ist es mit der Partei Bündnis 90/Die Grünen? In welchen Bereichen ist Ihrer Meinung nach die Partei Bündnis 90/Die Grünen am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+          "instruction": "Bitte wählen Sie die Bereiche aus:",
+          "description": "Bitte wählen Sie die Bereiche aus:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Arbeitsmarkt",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Außenpolitik",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Bildung und Forschung",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Bürgerbeteiligung",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Energieversorgung",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Europäische Einigung",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Familie",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Gesundheitssystem",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Gleichstellung von Frauen und Männern",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Innere Sicherheit",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Persönlichkeitsrechte",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text": "Rentensystem",
+          "scale": "bin",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "13",
+          "text": "Staatsverschuldung",
+          "scale": "bin",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "14",
+          "text": "Steuersystem",
+          "scale": "bin",
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "15",
+          "text": "Umwelt und Klimaschutz",
+          "scale": "bin",
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "16",
+          "text": "Verkehr",
+          "scale": "bin",
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "17",
+          "text": "Verteidigung",
+          "scale": "bin",
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "18",
+          "text": "Währung",
+          "scale": "bin",
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "19",
+          "text": "Wirtschaft",
+          "scale": "bin",
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "20",
+          "text": "Zuwanderung und Integration",
+          "scale": "bin",
+          "sn": 20,
+          "number": ""
+        },
+        {
+          "item": "23",
+          "text": "Ernährung und Landwirtschaft",
+          "scale": "bin",
+          "sn": 21,
+          "number": ""
+        },
+        {
+          "item": "24",
+          "text": "Verbraucherschutz",
+          "scale": "bin",
+          "sn": 22,
+          "number": ""
+        },
+        {
+          "item": "21",
+          "text": "In keinem der hier aufgeführten Bereiche.",
+          "scale": "bin",
+          "sn": 23,
+          "number": ""
+        },
+        {
+          "item": "22",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 24,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 9": {
+      "question": "Page 9",
+      "name": "Page 9",
+      "label": "[wenn erste Frage: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz von politischen Parteien befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die Partei Die Linke am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn nicht erste Frage: Und wie ist es mit der Partei Die Linke? In welchen Bereichen ist Ihrer Meinung nach die Partei Die Linke am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn erste Frage: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz von politischen Parteien befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die Partei Die Linke am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn nicht erste Frage: Und wie ist es mit der Partei Die Linke? In welchen Bereichen ist Ihrer Meinung nach die Partei Die Linke am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+          "instruction": "Bitte wählen Sie die Bereiche aus:",
+          "description": "Bitte wählen Sie die Bereiche aus:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Arbeitsmarkt",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Außenpolitik",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Bildung und Forschung",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Bürgerbeteiligung",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Energieversorgung",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Europäische Einigung",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Familie",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Gesundheitssystem",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Gleichstellung von Frauen und Männern",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Innere Sicherheit",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Persönlichkeitsrechte",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text": "Rentensystem",
+          "scale": "bin",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "13",
+          "text": "Staatsverschuldung",
+          "scale": "bin",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "14",
+          "text": "Steuersystem",
+          "scale": "bin",
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "15",
+          "text": "Umwelt und Klimaschutz",
+          "scale": "bin",
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "16",
+          "text": "Verkehr",
+          "scale": "bin",
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "17",
+          "text": "Verteidigung",
+          "scale": "bin",
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "18",
+          "text": "Währung",
+          "scale": "bin",
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "19",
+          "text": "Wirtschaft",
+          "scale": "bin",
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "20",
+          "text": "Zuwanderung und Integration",
+          "scale": "bin",
+          "sn": 20,
+          "number": ""
+        },
+        {
+          "item": "23",
+          "text": "Ernährung und Landwirtschaft",
+          "scale": "bin",
+          "sn": 21,
+          "number": ""
+        },
+        {
+          "item": "24",
+          "text": "Verbraucherschutz",
+          "scale": "bin",
+          "sn": 22,
+          "number": ""
+        },
+        {
+          "item": "21",
+          "text": "In keinem der hier aufgeführten Bereiche.",
+          "scale": "bin",
+          "sn": 23,
+          "number": ""
+        },
+        {
+          "item": "22",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 24,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 10": {
+      "question": "Page 10",
+      "name": "Page 10",
+      "label": "[wenn erste Frage: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz von politischen Parteien befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die AfD (Alternative für Deutschland) am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn nicht erste Frage: Und wie ist es mit der AfD (Alternative für Deutschland)? In welchen Bereichen ist Ihrer Meinung nach die AfD (Alternative für Deutschland) am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn erste Frage: Im Folgenden möchten wir Sie zu Ihrer Einschätzung der Lösungskompetenz von politischen Parteien befragen.\n\nIn der Politik treten bisweilen immer wieder neue Probleme auf. In welchen Bereichen ist Ihrer Meinung nach die AfD (Alternative für Deutschland) am ehesten in der Lage, die anstehenden Probleme zu lösen?]\n[wenn nicht erste Frage: Und wie ist es mit der AfD (Alternative für Deutschland)? In welchen Bereichen ist Ihrer Meinung nach die AfD (Alternative für Deutschland) am ehesten in der Lage, die anstehenden Probleme zu lösen?]",
+          "instruction": "Bitte wählen Sie die Bereiche aus:",
+          "description": "Bitte wählen Sie die Bereiche aus:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Arbeitsmarkt",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Außenpolitik",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Bildung und Forschung",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Bürgerbeteiligung",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Energieversorgung",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Europäische Einigung",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Familie",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Gesundheitssystem",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Gleichstellung von Frauen und Männern",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Innere Sicherheit",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Persönlichkeitsrechte",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text": "Rentensystem",
+          "scale": "bin",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "13",
+          "text": "Staatsverschuldung",
+          "scale": "bin",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "14",
+          "text": "Steuersystem",
+          "scale": "bin",
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "15",
+          "text": "Umwelt und Klimaschutz",
+          "scale": "bin",
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "16",
+          "text": "Verkehr",
+          "scale": "bin",
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "17",
+          "text": "Verteidigung",
+          "scale": "bin",
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "18",
+          "text": "Währung",
+          "scale": "bin",
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "19",
+          "text": "Wirtschaft",
+          "scale": "bin",
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "20",
+          "text": "Zuwanderung und Integration",
+          "scale": "bin",
+          "sn": 20,
+          "number": ""
+        },
+        {
+          "item": "23",
+          "text": "Ernährung und Landwirtschaft",
+          "scale": "bin",
+          "sn": 21,
+          "number": ""
+        },
+        {
+          "item": "24",
+          "text": "Verbraucherschutz",
+          "scale": "bin",
+          "sn": 22,
+          "number": ""
+        },
+        {
+          "item": "21",
+          "text": "In keinem der hier aufgeführten Bereiche.",
+          "scale": "bin",
+          "sn": 23,
+          "number": ""
+        },
+        {
+          "item": "22",
+          "text": "weiß nicht",
+          "scale": "bin",
+          "sn": 24,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 11": {
+      "question": "Page 11",
+      "name": "Page 11",
+      "label": "Kommen wir nun zu einem anderen Thema. Bitte geben Sie an, inwieweit Sie folgender Aussage zustimmen:\n\nDer Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern. \nBedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt, finanziert werden müssen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Kommen wir nun zu einem anderen Thema. Bitte geben Sie an, inwieweit Sie folgender Aussage zustimmen:\n\nDer Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern. \nBedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt, finanziert werden müssen.",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Es gibt verschiedene Frageblöcke, deren Reihenfolge randomisiert werden soll:\n- Block 1: Frageseite 11.00\n- Block 2: Frageseiten 12.00 bis 18.00\n- Block 3: Frageseiten 43.00 bis 49.00\n- Block 4: Frageseite 50.00\nBefragte zufällig auf acht Gruppen aufteilen:\n- 1/8 der Befragten bekommt zuerst Block 1, dann Block 2, dann Block 3 und zuletzt Block 4 (Gruppe 1).\n- 1/8 der Befragten bekommt zuerst Block 1, dann Block 2, dann Block 4 und zuletzt Block 3 (Gruppe 2).\n- 1/8 der Befragten bekommt zuerst Block 2, dann Block 1, dann Block 3 und zuletzt Block 4 (Gruppe 3).\n- 1/8 der Befragten bekommt zuerst Block 2, dann Block 1, dann Block 4 und zuletzt Block 3 (Gruppe 4).\n- 1/8 der Befragten bekommt zuerst Block 3, dann Block 4, dann Block 1 und zuletzt Block 2 (Gruppe 5).\n- 1/8 der Befragten bekommt zuerst Block 3, dann Block 4, dann Block 2 und zuletzt Block 1 (Gruppe 6).\n- 1/8 der Befragten bekommt zuerst Block 4, dann Block 3, dann Block 1 und zuletzt Block 2 (Gruppe 7).\n- 1/8 der Befragten bekommt zuerst Block 4, dann Block 3, dann Block 2 und zuletzt Block 1 (Gruppe 8).\nDie Reihenfolge der Fragenblöcke  in dieser Programmieranweisung entspricht der Reihenfolge der Gruppe 1.\nZuteilung zu den Experimentalgruppen in separater Variable expAH16001 speichern.\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme stark zu "
+            },
+            {
+              "value": 2,
+              "label": "Stimme zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Lehne ab"
+            },
+            {
+              "value": 5,
+              "label": "Lehne stark ab"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 12": {
+      "question": "Page 12",
+      "name": "Page 12",
+      "label": "Die Höhe von Steuereinnahmen bestimmt, wie viel Geld der Staat für Maßnahmen der sozialen Sicherung ausgeben kann. Diese Maßnahmen dienen dazu, hilfsbedürftige Menschen finanziell zu unterstützen, wie bei Pflegebedürftigkeit, Arbeitslosigkeit oder im Alter. \n\nDrei Bereiche sind dabei besonders wichtig: \n(1) Arbeit, wie z. B. Arbeitslosengeld, Weiterbildungsmaßnahmen\n(2) Soziales, wie z. B. Hartz IV, Kinder- und Wohngeld\n(3) Rente, wie z. B. Zuschüsse zur Rentenversicherung\n\nIm Folgenden bitten wir Sie um eine Einschätzung dazu, wie hoch der Steuersatz sein sollte und wie sich die staatlichen Ausgaben auf die drei Bereiche „Arbeit“, „Soziales“ und „Rente“ verteilen sollten.  Hierzu bitten wir Sie, unterschiedliche Vorschläge zu bewerten.  Wir werden Ihnen immer jeweils zwei Vorschläge präsentieren. Jedes Mal bitten wir Sie, sich zwischen diesen beiden Vorschlägen zu entscheiden. Dabei gibt es keine richtige oder falsche Antwort, es geht ausschließlich um Ihre persönliche Präferenz.\n\n[Hinweis: Der nachfolgende Textabschnitt wurde während der Feldzeit am 14.3.2015 hinzugefügt. Der Variable hFeldzeit ist zu entnehmen ob der Text angezeigt wurde.]\n\nEs kann sein, dass Sie keinen der beiden hypothetischen Vorschläge mögen und sich von daher schwer entscheiden können. Uns geht es nicht um Ihre persönliche Zustimmung zu einem der Vorschläge. Für unsere Studie ist sehr wichtig zu lernen, wie Sie sich gegebenenfalls zwischen zwei Vorschlägen für das kleinere Übel entscheiden.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Die Höhe von Steuereinnahmen bestimmt, wie viel Geld der Staat für Maßnahmen der sozialen Sicherung ausgeben kann. Diese Maßnahmen dienen dazu, hilfsbedürftige Menschen finanziell zu unterstützen, wie bei Pflegebedürftigkeit, Arbeitslosigkeit oder im Alter. \n\nDrei Bereiche sind dabei besonders wichtig: \n(1) Arbeit, wie z. B. Arbeitslosengeld, Weiterbildungsmaßnahmen\n(2) Soziales, wie z. B. Hartz IV, Kinder- und Wohngeld\n(3) Rente, wie z. B. Zuschüsse zur Rentenversicherung\n\nIm Folgenden bitten wir Sie um eine Einschätzung dazu, wie hoch der Steuersatz sein sollte und wie sich die staatlichen Ausgaben auf die drei Bereiche „Arbeit“, „Soziales“ und „Rente“ verteilen sollten.  Hierzu bitten wir Sie, unterschiedliche Vorschläge zu bewerten.  Wir werden Ihnen immer jeweils zwei Vorschläge präsentieren. Jedes Mal bitten wir Sie, sich zwischen diesen beiden Vorschlägen zu entscheiden. Dabei gibt es keine richtige oder falsche Antwort, es geht ausschließlich um Ihre persönliche Präferenz.\n\n[Hinweis: Der nachfolgende Textabschnitt wurde während der Feldzeit am 14.3.2015 hinzugefügt. Der Variable hFeldzeit ist zu entnehmen ob der Text angezeigt wurde.]\n\nEs kann sein, dass Sie keinen der beiden hypothetischen Vorschläge mögen und sich von daher schwer entscheiden können. Uns geht es nicht um Ihre persönliche Zustimmung zu einem der Vorschläge. Für unsere Studie ist sehr wichtig zu lernen, wie Sie sich gegebenenfalls zwischen zwei Vorschlägen für das kleinere Übel entscheiden.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 13": {
+      "question": "Page 13",
+      "name": "Page 13",
+      "label": "Für welchen dieser beiden folgenden Vorschläge würden Sie sich entscheiden?\nZu Ihrer Information: Momentan werden durchschnittlich 25% des Einkommens als Steuern abgezogen, um die Ausgaben für die soziale Sicherung zu finanzieren. Die Ausgaben sind wie folgt auf die drei Bereiche verteilt: (1) Arbeit 15%, (2) Soziales 40% und (3) Rente 45%. Von den gesamten Ausgaben für die soziale Sicherung werden gegenwärtig rund 80% an Deutsche ausgezahlt, etwa 20% gehen an Personen mit einer anderen Staatsangehörigkeit.\nVorschlag A : Vorschlag B\n\nAnteil des Einkommens, der als Steuern abgezogen wird, um die Ausgaben zu finanzieren: [Alt 1] : [Alt 2]\nVerteilung der Ausgaben auf die drei Bereiche: [Alt 1] : [Alt 2]\nStaatsangehörigkeit der Empfänger: [Alt 1] : [Alt 2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Für welchen dieser beiden folgenden Vorschläge würden Sie sich entscheiden?\nZu Ihrer Information: Momentan werden durchschnittlich 25% des Einkommens als Steuern abgezogen, um die Ausgaben für die soziale Sicherung zu finanzieren. Die Ausgaben sind wie folgt auf die drei Bereiche verteilt: (1) Arbeit 15%, (2) Soziales 40% und (3) Rente 45%. Von den gesamten Ausgaben für die soziale Sicherung werden gegenwärtig rund 80% an Deutsche ausgezahlt, etwa 20% gehen an Personen mit einer anderen Staatsangehörigkeit.\nVorschlag A : Vorschlag B\n\nAnteil des Einkommens, der als Steuern abgezogen wird, um die Ausgaben zu finanzieren: [Alt 1] : [Alt 2]\nVerteilung der Ausgaben auf die drei Bereiche: [Alt 1] : [Alt 2]\nStaatsangehörigkeit der Empfänger: [Alt 1] : [Alt 2]",
+          "instruction": "Bitte wählen Sie Vorschlag A oder Vorschlag B aus.",
+          "description": "In den folgenden sechs Fragen 13.00 bis 18.00 sollen die Befragten sich jeweils zwischen zwei Alternativen entscheiden. Jedem Befragten wurden im Voraus sechs verschiedene Kombinationen von Alternativen randomisiert zugewiesen. Die Alternativen sollen dynamisch eingefügt werden, für jede Alternative gibt es eine eigene Grafik. Die Prozentwerte der ersten Alternative sind in den Variablen AH1602*_1_taxes, AH1602*_1_work, AH1602*_1_pensions, AH1602*_1_social und AH1602*_1_foreigners gespeichert. Die Prozentwerte der zweiten Alternative sind in den Variablen AH1602*_2_taxes, AH1602*_2_work, AH1602*_2_pensions, AH1602*_2_social und AH1602*_2_foreigners gespeichert.\nBitte wählen Sie Vorschlag A oder Vorschlag B aus.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Vorschlag A"
+            },
+            {
+              "value": 2,
+              "label": "Vorschlag B"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 14": {
+      "question": "Page 14",
+      "name": "Page 14",
+      "label": "Für welchen dieser beiden folgenden Vorschläge würden Sie sich entscheiden?\nZu Ihrer Information: Momentan werden durchschnittlich 25% des Einkommens als Steuern abgezogen, um die Ausgaben für die soziale Sicherung zu finanzieren. Die Ausgaben sind wie folgt auf die drei Bereiche verteilt: (1) Arbeit 15%, (2) Soziales 40% und (3) Rente 45%. Von den gesamten Ausgaben für die soziale Sicherung werden gegenwärtig rund 80% an Deutsche ausgezahlt, etwa 20% gehen an Personen mit einer anderen Staatsangehörigkeit.\nVorschlag A : Vorschlag B\nAnteil des Einkommens, der als Steuern abgezogen wird, um die Ausgaben zu finanzieren: [Alt 1] : [Alt 2]\nVerteilung der Ausgaben auf die drei Bereiche: [Alt 1] : [Alt 2]\nStaatsangehörigkeit der Empfänger: [Alt 1] : [Alt 2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Für welchen dieser beiden folgenden Vorschläge würden Sie sich entscheiden?\nZu Ihrer Information: Momentan werden durchschnittlich 25% des Einkommens als Steuern abgezogen, um die Ausgaben für die soziale Sicherung zu finanzieren. Die Ausgaben sind wie folgt auf die drei Bereiche verteilt: (1) Arbeit 15%, (2) Soziales 40% und (3) Rente 45%. Von den gesamten Ausgaben für die soziale Sicherung werden gegenwärtig rund 80% an Deutsche ausgezahlt, etwa 20% gehen an Personen mit einer anderen Staatsangehörigkeit.\nVorschlag A : Vorschlag B\nAnteil des Einkommens, der als Steuern abgezogen wird, um die Ausgaben zu finanzieren: [Alt 1] : [Alt 2]\nVerteilung der Ausgaben auf die drei Bereiche: [Alt 1] : [Alt 2]\nStaatsangehörigkeit der Empfänger: [Alt 1] : [Alt 2]",
+          "instruction": "Bitte wählen Sie Vorschlag A oder Vorschlag B aus.",
+          "description": "Bitte wählen Sie Vorschlag A oder Vorschlag B aus.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Vorschlag A"
+            },
+            {
+              "value": 2,
+              "label": "Vorschlag B"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 15": {
+      "question": "Page 15",
+      "name": "Page 15",
+      "label": "Für welchen dieser beiden folgenden Vorschläge würden Sie sich entscheiden?\nZu Ihrer Information: Momentan werden durchschnittlich 25% des Einkommens als Steuern abgezogen, um die Ausgaben für die soziale Sicherung zu finanzieren. Die Ausgaben sind wie folgt auf die drei Bereiche verteilt: (1) Arbeit 15%, (2) Soziales 40% und (3) Rente 45%. Von den gesamten Ausgaben für die soziale Sicherung werden gegenwärtig rund 80% an Deutsche ausgezahlt, etwa 20% gehen an Personen mit einer anderen Staatsangehörigkeit.\nVorschlag A:Vorschlag B\nAnteil des Einkommens, der als Steuern abgezogen wird, um die Ausgaben zu finanzieren: [Alt 1] : [Alt 2]\nVerteilung der Ausgaben auf die drei Bereiche: [Alt 1] : [Alt 2]\nStaatsangehörigkeit der Empfänger: [Alt 1] : [Alt 2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Für welchen dieser beiden folgenden Vorschläge würden Sie sich entscheiden?\nZu Ihrer Information: Momentan werden durchschnittlich 25% des Einkommens als Steuern abgezogen, um die Ausgaben für die soziale Sicherung zu finanzieren. Die Ausgaben sind wie folgt auf die drei Bereiche verteilt: (1) Arbeit 15%, (2) Soziales 40% und (3) Rente 45%. Von den gesamten Ausgaben für die soziale Sicherung werden gegenwärtig rund 80% an Deutsche ausgezahlt, etwa 20% gehen an Personen mit einer anderen Staatsangehörigkeit.\nVorschlag A:Vorschlag B\nAnteil des Einkommens, der als Steuern abgezogen wird, um die Ausgaben zu finanzieren: [Alt 1] : [Alt 2]\nVerteilung der Ausgaben auf die drei Bereiche: [Alt 1] : [Alt 2]\nStaatsangehörigkeit der Empfänger: [Alt 1] : [Alt 2]",
+          "instruction": "Bitte wählen Sie Vorschlag A oder Vorschlag B aus.",
+          "description": "Bitte wählen Sie Vorschlag A oder Vorschlag B aus.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Vorschlag A"
+            },
+            {
+              "value": 2,
+              "label": "Vorschlag B"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 16": {
+      "question": "Page 16",
+      "name": "Page 16",
+      "label": "Für welchen dieser beiden folgenden Vorschläge würden Sie sich entscheiden?\nZu Ihrer Information: Momentan werden durchschnittlich 25% des Einkommens als Steuern abgezogen, um die Ausgaben für die soziale Sicherung zu finanzieren. Die Ausgaben sind wie folgt auf die drei Bereiche verteilt: (1) Arbeit 15%, (2) Soziales 40% und (3) Rente 45%. Von den gesamten Ausgaben für die soziale Sicherung werden gegenwärtig rund 80% an Deutsche ausgezahlt, etwa 20% gehen an Personen mit einer anderen Staatsangehörigkeit.\nVorschlag A: Vorschlag B\nAnteil des Einkommens, der als Steuern abgezogen wird, um die Ausgaben zu finanzieren: [Alt 1] : [Alt 2]\nVerteilung der Ausgaben auf die drei Bereiche: [Alt 1] : [Alt 2]\nStaatsangehörigkeit der Empfänger: [Alt 1] : [Alt 2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Für welchen dieser beiden folgenden Vorschläge würden Sie sich entscheiden?\nZu Ihrer Information: Momentan werden durchschnittlich 25% des Einkommens als Steuern abgezogen, um die Ausgaben für die soziale Sicherung zu finanzieren. Die Ausgaben sind wie folgt auf die drei Bereiche verteilt: (1) Arbeit 15%, (2) Soziales 40% und (3) Rente 45%. Von den gesamten Ausgaben für die soziale Sicherung werden gegenwärtig rund 80% an Deutsche ausgezahlt, etwa 20% gehen an Personen mit einer anderen Staatsangehörigkeit.\nVorschlag A: Vorschlag B\nAnteil des Einkommens, der als Steuern abgezogen wird, um die Ausgaben zu finanzieren: [Alt 1] : [Alt 2]\nVerteilung der Ausgaben auf die drei Bereiche: [Alt 1] : [Alt 2]\nStaatsangehörigkeit der Empfänger: [Alt 1] : [Alt 2]",
+          "instruction": "Bitte wählen Sie Vorschlag A oder Vorschlag B aus.",
+          "description": "Bitte wählen Sie Vorschlag A oder Vorschlag B aus.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Vorschlag A"
+            },
+            {
+              "value": 2,
+              "label": "Vorschlag B"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 17": {
+      "question": "Page 17",
+      "name": "Page 17",
+      "label": "Für welchen dieser beiden folgenden Vorschläge würden Sie sich entscheiden?\nZu Ihrer Information: Momentan werden durchschnittlich 25% des Einkommens als Steuern abgezogen, um die Ausgaben für die soziale Sicherung zu finanzieren. Die Ausgaben sind wie folgt auf die drei Bereiche verteilt: (1) Arbeit 15%, (2) Soziales 40% und (3) Rente 45%. Von den gesamten Ausgaben für die soziale Sicherung werden gegenwärtig rund 80% an Deutsche ausgezahlt, etwa 20% gehen an Personen mit einer anderen Staatsangehörigkeit.\nVorschlag A: Vorschlag B\nAnteil des Einkommens, der als Steuern abgezogen wird, um die Ausgaben zu finanzieren: [Alt 1] : [Alt 2]\nVerteilung der Ausgaben auf die drei Bereiche: [Alt 1] : [Alt 2]\nStaatsangehörigkeit der Empfänger: [Alt 1] : [Alt 2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Für welchen dieser beiden folgenden Vorschläge würden Sie sich entscheiden?\nZu Ihrer Information: Momentan werden durchschnittlich 25% des Einkommens als Steuern abgezogen, um die Ausgaben für die soziale Sicherung zu finanzieren. Die Ausgaben sind wie folgt auf die drei Bereiche verteilt: (1) Arbeit 15%, (2) Soziales 40% und (3) Rente 45%. Von den gesamten Ausgaben für die soziale Sicherung werden gegenwärtig rund 80% an Deutsche ausgezahlt, etwa 20% gehen an Personen mit einer anderen Staatsangehörigkeit.\nVorschlag A: Vorschlag B\nAnteil des Einkommens, der als Steuern abgezogen wird, um die Ausgaben zu finanzieren: [Alt 1] : [Alt 2]\nVerteilung der Ausgaben auf die drei Bereiche: [Alt 1] : [Alt 2]\nStaatsangehörigkeit der Empfänger: [Alt 1] : [Alt 2]",
+          "instruction": "Bitte wählen Sie Vorschlag A oder Vorschlag B aus.",
+          "description": "Bitte wählen Sie Vorschlag A oder Vorschlag B aus.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Vorschlag A"
+            },
+            {
+              "value": 2,
+              "label": "Vorschlag B"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 18": {
+      "question": "Page 18",
+      "name": "Page 18",
+      "label": "Für welchen dieser beiden folgenden Vorschläge würden Sie sich entscheiden?\nZu Ihrer Information: Momentan werden durchschnittlich 25% des Einkommens als Steuern abgezogen, um die Ausgaben für die soziale Sicherung zu finanzieren. Die Ausgaben sind wie folgt auf die drei Bereiche verteilt: (1) Arbeit 15%, (2) Soziales 40% und (3) Rente 45%. Von den gesamten Ausgaben für die soziale Sicherung werden gegenwärtig rund 80% an Deutsche ausgezahlt, etwa 20% gehen an Personen mit einer anderen Staatsangehörigkeit.\nVorschlag A: Vorschlag B\nAnteil des Einkommens, der als Steuern abgezogen wird, um die Ausgaben zu finanzieren: [Alt 1] : [Alt 2]\nVerteilung der Ausgaben auf die drei Bereiche: [Alt 1] : [Alt 2]\nStaatsangehörigkeit der Empfänger: [Alt 1] : [Alt 2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Für welchen dieser beiden folgenden Vorschläge würden Sie sich entscheiden?\nZu Ihrer Information: Momentan werden durchschnittlich 25% des Einkommens als Steuern abgezogen, um die Ausgaben für die soziale Sicherung zu finanzieren. Die Ausgaben sind wie folgt auf die drei Bereiche verteilt: (1) Arbeit 15%, (2) Soziales 40% und (3) Rente 45%. Von den gesamten Ausgaben für die soziale Sicherung werden gegenwärtig rund 80% an Deutsche ausgezahlt, etwa 20% gehen an Personen mit einer anderen Staatsangehörigkeit.\nVorschlag A: Vorschlag B\nAnteil des Einkommens, der als Steuern abgezogen wird, um die Ausgaben zu finanzieren: [Alt 1] : [Alt 2]\nVerteilung der Ausgaben auf die drei Bereiche: [Alt 1] : [Alt 2]\nStaatsangehörigkeit der Empfänger: [Alt 1] : [Alt 2]",
+          "instruction": "Bitte wählen Sie Vorschlag A oder Vorschlag B aus.",
+          "description": "Bitte wählen Sie Vorschlag A oder Vorschlag B aus.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Vorschlag A"
+            },
+            {
+              "value": 2,
+              "label": "Vorschlag B"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 19": {
+      "question": "Page 19",
+      "name": "Page 19",
+      "label": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren. \n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren. \n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+          "description": "Befragte zufällig auf 4 Gruppen aufteilen:\n- 1/4 der Befragten bekommt Frage zu Umweltzonen mit Mittelkategorie und mit visuell abgesetzter „weiß nicht“-Kategorie (Gruppe 1) \n- 1/4 der Befragten bekommt Frage zu Umweltzonen mit Mittelkategorie und ohne visuell abgesetzte „weiß nicht“-Kategorie  (Gruppe 2)\n- 1/4 der Befragten bekommt Frage zu Umweltzonen ohne Mittelkategorie und mit visuell abgesetzter „weiß nicht“-Kategorie (Gruppe 3)\n- 1/4 der Befragten bekommt Frage zu Umweltzonen ohne Mittelkategorie und ohne visuell abgesetzte „weiß nicht“-Kategorie (Gruppe 4)\nZuteilung zu den Experimentalgruppen in separater Variable expAI16001 speichern.",
+          "filter": "expAI16001 = 1",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ich finde Umweltzonen in Großstädten …",
+          "filter": "expAI16001 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 3,
+              "label": "eher gut"
+            },
+            {
+              "value": 4,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 5,
+              "label": "eher schlecht"
+            },
+            {
+              "value": 6,
+              "label": "schlecht"
+            },
+            {
+              "value": 7,
+              "label": "sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 18,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 20": {
+      "question": "Page 20",
+      "name": "Page 20",
+      "label": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren. \n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren. \n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+          "filter": "expAI16001 = 2",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ich finde Umweltzonen in Großstädten …",
+          "filter": "expAI16001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 3,
+              "label": "eher gut"
+            },
+            {
+              "value": 4,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 5,
+              "label": "eher schlecht"
+            },
+            {
+              "value": 6,
+              "label": "schlecht"
+            },
+            {
+              "value": 7,
+              "label": "sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 19,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 21": {
+      "question": "Page 21",
+      "name": "Page 21",
+      "label": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren. \n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren. \n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+          "filter": "expAI16001 = 3",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ich finde Umweltzonen in Großstädten …",
+          "filter": "expAI16001 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 3,
+              "label": "eher gut"
+            },
+            {
+              "value": 4,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 5,
+              "label": "eher schlecht"
+            },
+            {
+              "value": 6,
+              "label": "schlecht"
+            },
+            {
+              "value": 7,
+              "label": "sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 20,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 22": {
+      "question": "Page 22",
+      "name": "Page 22",
+      "label": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren. \n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im folgenden Teil geht es um verschiedene Themen wie zum Beispiel Umwelt, Straßenverkehr und Ihre Lebenssituation im Allgemeinen.\nBereits seit 2007 gibt es in Großstädten Umweltzonen für besonders mit Feinstaub belastete Bereiche. Nur Autos mit einer Umweltplakette dürfen hier durchfahren. \n\nWie ist Ihre Meinung zu Umweltzonen in Großstädten?",
+          "filter": "expAI16001 = 4",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ich finde Umweltzonen in Großstädten …",
+          "filter": "expAI16001 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 3,
+              "label": "eher gut"
+            },
+            {
+              "value": 4,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 5,
+              "label": "eher schlecht"
+            },
+            {
+              "value": 6,
+              "label": "schlecht"
+            },
+            {
+              "value": 7,
+              "label": "sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 21,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 23": {
+      "question": "Page 23",
+      "name": "Page 23",
+      "label": "Wurde Ihnen in Deutschland jemals ein Führerschein ausgestellt?\nDamit ist jeder in Deutschland gültige Führerschein beziehungsweise jede Fahrerlaubnis gemeint – unabhängig von der Fahrzeugklasse.\nBitte wählen Sie auch „ja“ aus, wenn Sie Ihren Führerschein (vorübergehend) abgegeben haben.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wurde Ihnen in Deutschland jemals ein Führerschein ausgestellt?\nDamit ist jeder in Deutschland gültige Führerschein beziehungsweise jede Fahrerlaubnis gemeint – unabhängig von der Fahrzeugklasse.\nBitte wählen Sie auch „ja“ aus, wenn Sie Ihren Führerschein (vorübergehend) abgegeben haben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja"
+            },
+            {
+              "value": 2,
+              "label": "nein"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 22,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 24": {
+      "question": "Page 24",
+      "name": "Page 24",
+      "label": "Wurde Ihnen nach dem 1. Januar 1999 ein Führerschein ausgestellt?\nDas kann zum Beispiel sein, weil Sie...\n... einen neuen Führerschein gemacht haben, \n... Ihren Führerschein verloren hatten und er Ihnen neu ausgestellt wurde oder\n... Ihren Führerschein eingetauscht haben.\nBei Führerscheinen, die in Deutschland nach dem 1. Januar 1999 neu ausgestellt wurden, handelt es sich um Kartenführerscheine, wie diesen:\n[Bild Kartenführerschein]\nQuelle: Bundesdruckerei GmbH",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wurde Ihnen nach dem 1. Januar 1999 ein Führerschein ausgestellt?\nDas kann zum Beispiel sein, weil Sie...\n... einen neuen Führerschein gemacht haben, \n... Ihren Führerschein verloren hatten und er Ihnen neu ausgestellt wurde oder\n... Ihren Führerschein eingetauscht haben.\nBei Führerscheinen, die in Deutschland nach dem 1. Januar 1999 neu ausgestellt wurden, handelt es sich um Kartenführerscheine, wie diesen:\n[Bild Kartenführerschein]\nQuelle: Bundesdruckerei GmbH",
+          "filter": "AI16002 = 1, -90 (Führerschein wurde in Deutschland  ausgestellt oder  Angabe missing (\"-90\"))",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja"
+            },
+            {
+              "value": 2,
+              "label": "nein"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 23,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 25": {
+      "question": "Page 25",
+      "name": "Page 25",
+      "label": "Hatten Sie jemals einen ausländischen Führerschein, mit dem Sie in Deutschland ein Auto fahren durften?\nBitte wählen Sie auch „ja“ aus, wenn Sie Ihren Führerschein (vorübergehend) abgeben mussten.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Hatten Sie jemals einen ausländischen Führerschein, mit dem Sie in Deutschland ein Auto fahren durften?\nBitte wählen Sie auch „ja“ aus, wenn Sie Ihren Führerschein (vorübergehend) abgeben mussten.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "ja"
+            },
+            {
+              "value": 2,
+              "label": "nein"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 24,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 26": {
+      "question": "Page 26",
+      "name": "Page 26",
+      "label": "Hatten Sie am 1. Januar 2015 Punkte für Verkehrsverstöße, also sogenannte Punkte in Flensburg?\nUnd wenn ja, wie viele?\nBitte geben Sie Ihre Punkte nach dem neuen System (gültig ab dem 1. Mai 2014) an, Informationen dazu finden Sie in der Abbildung. Denken Sie auch daran, dass Punkte nach einer bestimmten Zeit wieder gelöscht werden. Geben Sie daher bitte nur die Punkte an, die Sie am 1. Januar 2015 hatten.\n[Bild zur Überführung der Punktestände: Quelle Bundesministerium für Verkehr und digital Infrastruktur]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Hatten Sie am 1. Januar 2015 Punkte für Verkehrsverstöße, also sogenannte Punkte in Flensburg?\nUnd wenn ja, wie viele?\nBitte geben Sie Ihre Punkte nach dem neuen System (gültig ab dem 1. Mai 2014) an, Informationen dazu finden Sie in der Abbildung. Denken Sie auch daran, dass Punkte nach einer bestimmten Zeit wieder gelöscht werden. Geben Sie daher bitte nur die Punkte an, die Sie am 1. Januar 2015 hatten.\n[Bild zur Überführung der Punktestände: Quelle Bundesministerium für Verkehr und digital Infrastruktur]",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "AI16002 = 1, -90 oder AI16004 = 1, -90 (Führerschein wurde in Deutschland  ausgestellt oder  Angabe missing (\"-90\") oder ausländischen Führerschein, mit dem man in Deutschland ein Auto fahren durften oder  Angabe missing (\"-90\"))",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0 Punkte"
+            },
+            {
+              "value": 2,
+              "label": "1 Punkt"
+            },
+            {
+              "value": 3,
+              "label": "2 Punkte"
+            },
+            {
+              "value": 4,
+              "label": "3 Punkte"
+            },
+            {
+              "value": 5,
+              "label": "4 Punkte"
+            },
+            {
+              "value": 6,
+              "label": "5 Punkte"
+            },
+            {
+              "value": 7,
+              "label": "6 Punkte"
+            },
+            {
+              "value": 8,
+              "label": "7 Punkte"
+            },
+            {
+              "value": 9,
+              "label": "8 Punkte"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 25,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 27": {
+      "question": "Page 27",
+      "name": "Page 27",
+      "label": "Waren am 1. Januar 2015 auf Sie persönlich Autos zugelassen? Und wenn ja, wie viele?\nDamit meinen wir PKWs, bei denen Sie persönlich im Fahrzeugschein als Halter eingetragen waren.\nBitte beziehen Sie dabei ausschließlich PKWs ein: Das sind Fahrzeuge zur Beförderung von Personen mit mindestens vier Rädern und mit höchstens acht Sitzplätzen außer dem Fahrersitz. Wohnmobile zählen zu PKWs, nicht eingeschlossen sind jedoch Wohnmobile auf LKW-Basis.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Waren am 1. Januar 2015 auf Sie persönlich Autos zugelassen? Und wenn ja, wie viele?\nDamit meinen wir PKWs, bei denen Sie persönlich im Fahrzeugschein als Halter eingetragen waren.\nBitte beziehen Sie dabei ausschließlich PKWs ein: Das sind Fahrzeuge zur Beförderung von Personen mit mindestens vier Rädern und mit höchstens acht Sitzplätzen außer dem Fahrersitz. Wohnmobile zählen zu PKWs, nicht eingeschlossen sind jedoch Wohnmobile auf LKW-Basis.",
+          "filter": "AI16002 = 1, -90 oder AI16004 = 1, -90 (Führerschein wurde in Deutschland  ausgestellt oder  Angabe missing (\"-90\") oder ausländischen Führerschein, mit dem man in Deutschland ein Auto fahren durften oder  Angabe missing (\"-90\"))",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Nein, es war kein PKW auf mich persönlich zugelassen.",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Ja, auf mich persönlich waren PKWs zugelassen. Anzahl PKW:",
+          "scale": "int",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 26,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 28": {
+      "question": "Page 28",
+      "name": "Page 28",
+      "label": "Was würden Sie sagen, wie ist Ihre Gesundheit im Allgemeinen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Was würden Sie sagen, wie ist Ihre Gesundheit im Allgemeinen?",
+          "description": "Befragte zufällig auf 4 Gruppen aufteilen\n- 1/4 der Befragten bekommt Frage zum Gesundheitszustand mit Mittelkategorie und mit visuell abgesetzter „weiß nicht“-Kategorie (Gruppe 1) \n- 1/4 der Befragten bekommt Frage zum Gesundheitszustand mit Mittelkategorie und ohne visuell abgesetzte „weiß nicht“-Kategorie  (Gruppe 2)\n- 1/4 der Befragten bekommt Frage zum Gesundheitszustand ohne Mittelkategorie und mit visuell abgesetzter „weiß nicht“-Kategorie (Gruppe 3)\n- 1/4 der Befragten bekommt Frage zum Gesundheitszustand ohne Mittelkategorie und ohne visuell abgesetzte „weiß nicht“-Kategorie (Gruppe 4)\nZuteilung zu den Experimentalgruppen in separater Variable expAI16008 speichern.",
+          "filter": "expAI16008 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "schlecht"
+            },
+            {
+              "value": 5,
+              "label": "sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 27,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 29": {
+      "question": "Page 29",
+      "name": "Page 29",
+      "label": "Was würden Sie sagen, wie ist Ihre Gesundheit im Allgemeinen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Was würden Sie sagen, wie ist Ihre Gesundheit im Allgemeinen?",
+          "filter": "expAI16008 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "schlecht"
+            },
+            {
+              "value": 5,
+              "label": "sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 28,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 30": {
+      "question": "Page 30",
+      "name": "Page 30",
+      "label": "Was würden Sie sagen, wie ist Ihre Gesundheit im Allgemeinen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Was würden Sie sagen, wie ist Ihre Gesundheit im Allgemeinen?",
+          "filter": "expAI16008 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 4,
+              "label": "schlecht"
+            },
+            {
+              "value": 5,
+              "label": "sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 29,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 31": {
+      "question": "Page 31",
+      "name": "Page 31",
+      "label": "Was würden Sie sagen, wie ist Ihre Gesundheit im Allgemeinen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Was würden Sie sagen, wie ist Ihre Gesundheit im Allgemeinen?",
+          "filter": "expAI16008 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr gut"
+            },
+            {
+              "value": 2,
+              "label": "gut"
+            },
+            {
+              "value": 4,
+              "label": "schlecht"
+            },
+            {
+              "value": 5,
+              "label": "sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 30,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 32": {
+      "question": "Page 32",
+      "name": "Page 32",
+      "label": "Sind Sie krankenversichert?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sind Sie krankenversichert?",
+          "instruction": "Private Zusatzversicherungen für zusätzliche Leistungen sind nicht gemeint.",
+          "description": "Private Zusatzversicherungen für zusätzliche Leistungen sind nicht gemeint.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ja, und zwar…\n... in einer gesetzlichen Krankenversicherung",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "selbst pflichtversichert"
+            },
+            {
+              "value": 2,
+              "label": "selbst freiwillig versichert"
+            },
+            {
+              "value": 3,
+              "label": "als Familienangehörige/-r gesetzlich versichert"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "... in einer privaten Krankenversicherung",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 4,
+              "label": "selbst versichert"
+            },
+            {
+              "value": 5,
+              "label": "als Familienangehörige/-r privat versichert"
+            },
+            {
+              "value": 6,
+              "label": "Nein, nicht krankenversichert"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 31,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 33": {
+      "question": "Page 33",
+      "name": "Page 33",
+      "label": "Wie groß sind Sie?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie groß sind Sie?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Geben Sie bitte Ihre Größe in Zentimetern (cm) an",
+          "scale": "int",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Keine Angabe",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 32,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 34": {
+      "question": "Page 34",
+      "name": "Page 34",
+      "label": "Wie viel wiegen Sie?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie viel wiegen Sie?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Geben Sie bitte Ihr Gewicht in Kilogramm (kg) an:",
+          "scale": "int",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Keine Angabe",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 33,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 35": {
+      "question": "Page 35",
+      "name": "Page 35",
+      "label": "Welche Partei haben Sie bei der letzten Bundestagswahl am 22. September 2013 mit Ihrer Zweitstimme gewählt?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche Partei haben Sie bei der letzten Bundestagswahl am 22. September 2013 mit Ihrer Zweitstimme gewählt?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "CDU/CSU"
+            },
+            {
+              "value": 2,
+              "label": "SPD"
+            },
+            {
+              "value": 3,
+              "label": "Die Linke"
+            },
+            {
+              "value": 4,
+              "label": "Bündnis 90/Die Grünen"
+            },
+            {
+              "value": 5,
+              "label": "FDP"
+            },
+            {
+              "value": 7,
+              "label": "Piratenpartei"
+            },
+            {
+              "value": 6,
+              "label": "AfD (Alternative für Deutschland)"
+            },
+            {
+              "value": 8,
+              "label": "NPD"
+            },
+            {
+              "value": 9,
+              "label": "eine andere Partei, und zwar: [answer field] "
+            },
+            {
+              "value": 10,
+              "label": "Ich war nicht wahlberechtigt."
+            },
+            {
+              "value": 11,
+              "label": "Ich habe nicht gewählt."
+            },
+            {
+              "value": -99,
+              "label": "Ich weiß es nicht mehr."
+            },
+            {
+              "value": -98,
+              "label": "Ich möchte es nicht sagen."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 34,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 36": {
+      "question": "Page 36",
+      "name": "Page 36",
+      "label": "Sind Sie Mitglied in einer Partei? Und wenn ja, in welcher?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sind Sie Mitglied in einer Partei? Und wenn ja, in welcher?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "CDU/CSU"
+            },
+            {
+              "value": 2,
+              "label": "SPD"
+            },
+            {
+              "value": 3,
+              "label": "Die Linke"
+            },
+            {
+              "value": 4,
+              "label": "Bündnis 90/Die Grünen"
+            },
+            {
+              "value": 5,
+              "label": "FDP"
+            },
+            {
+              "value": 7,
+              "label": "Piratenpartei"
+            },
+            {
+              "value": 6,
+              "label": "AfD (Alternative für Deutschland)"
+            },
+            {
+              "value": 8,
+              "label": "NPD"
+            },
+            {
+              "value": 9,
+              "label": "eine andere Partei, und zwar: [answer field] "
+            },
+            {
+              "value": 10,
+              "label": "Ich bin in keiner Partei Mitglied."
+            },
+            {
+              "value": 11,
+              "label": "Ich bin ausschließlich in der Jugendorganisation einer Partei Mitglied."
+            },
+            {
+              "value": -99,
+              "label": "Ich weiß es nicht mehr."
+            },
+            {
+              "value": -98,
+              "label": "Ich möchte es nicht sagen."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 35,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 37": {
+      "question": "Page 37",
+      "name": "Page 37",
+      "label": "Wie stark interessieren Sie sich im Allgemeinen für politische Themen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie stark interessieren Sie sich im Allgemeinen für politische Themen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8,
+              "label": "sehr stark"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 36,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 38": {
+      "question": "Page 38",
+      "name": "Page 38",
+      "label": "Und wie stark engagieren Sie sich politisch?\n\nDamit meinen wir, wie stark Sie sich aktiv am politischen Geschehen beteiligen. Das kann zum Beispiel durch die Teilnahme an Wahlen, Demonstrationen, Petitionen oder Bürgerinitiativen sein.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und wie stark engagieren Sie sich politisch?\n\nDamit meinen wir, wie stark Sie sich aktiv am politischen Geschehen beteiligen. Das kann zum Beispiel durch die Teilnahme an Wahlen, Demonstrationen, Petitionen oder Bürgerinitiativen sein.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8,
+              "label": "sehr stark"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 37,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 39": {
+      "question": "Page 39",
+      "name": "Page 39",
+      "label": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich mehr oder weniger zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nun kommen einige allgemeine Aussagen, die zur Beschreibung von Personen verwendet werden können. Diese Aussagen können auf Sie persönlich mehr oder weniger zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit die Aussage auf Sie selbst zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Ich schenke anderen leicht Vertrauen, glaube an das Gute im Menschen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "eher zutreffend"
+            },
+            {
+              "value": 5,
+              "label": "trifft voll und ganz zu"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Ich habe nur wenig künstlerisches Interesse.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "eher zutreffend"
+            },
+            {
+              "value": 5,
+              "label": "trifft voll und ganz zu"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Ich neige dazu, andere zu kritisieren.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "eher zutreffend"
+            },
+            {
+              "value": 5,
+              "label": "trifft voll und ganz zu"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Ich habe eine aktive Vorstellungskraft, bin fantasievoll.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "trifft eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "eher zutreffend"
+            },
+            {
+              "value": 5,
+              "label": "trifft voll und ganz zu"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        }
+      ],
+      "sn": 38,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 40": {
+      "question": "Page 40",
+      "name": "Page 40",
+      "label": "Die folgenden Aussagen können mehr oder weniger auf Sie zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit diese im Allgemeinen auf Sie persönlich zutrifft.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Die folgenden Aussagen können mehr oder weniger auf Sie zutreffen.\n\nBitte geben Sie bei jeder Aussage an, inwieweit diese im Allgemeinen auf Sie persönlich zutrifft.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Es genügt mir einfach die Antwort zu kennen, ohne die Gründe für die Antwort eines Problems zu verstehen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "weder noch"
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "trifft voll und ganz zu"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Ich habe es gern, wenn mein Leben voller kniffliger Aufgaben ist, die ich lösen muss.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "weder noch"
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "trifft voll und ganz zu"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Ich würde kompliziertere Probleme einfachen Problemen vorziehen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "weder noch"
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "trifft voll und ganz zu"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "In erster Linie denke ich, weil ich muss.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "trifft überhaupt nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "weder noch"
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "trifft voll und ganz zu"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        }
+      ],
+      "sn": 39,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 41": {
+      "question": "Page 41",
+      "name": "Page 41",
+      "label": "Bewohnen Sie Ihre Wohnung/ Ihr Haus als ... ?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewohnen Sie Ihre Wohnung/ Ihr Haus als ... ?",
+          "instruction": "Bei mietfreier Bereitstellung Ihrer Wohnung, zum Beispiel durch Familienmitglieder oder durch Ihren Arbeitgeber (Werk-/Dienstwohnung), sind Sie Hauptmieter/-in.",
+          "description": "Bei mietfreier Bereitstellung Ihrer Wohnung, zum Beispiel durch Familienmitglieder oder durch Ihren Arbeitgeber (Werk-/Dienstwohnung), sind Sie Hauptmieter/-in.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Eigentümer/-in des Gebäudes"
+            },
+            {
+              "value": 2,
+              "label": "Eigentümer/-in der Wohnung"
+            },
+            {
+              "value": 3,
+              "label": "Hauptmieter/-in"
+            },
+            {
+              "value": 4,
+              "label": "Untermieter/-in"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 40,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 42": {
+      "question": "Page 42",
+      "name": "Page 42",
+      "label": "Wie oft nutzen Sie das Internet, das World Wide Web oder E-Mail für private Zwecke, egal ob zu Hause oder am Arbeitsplatz?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie oft nutzen Sie das Internet, das World Wide Web oder E-Mail für private Zwecke, egal ob zu Hause oder am Arbeitsplatz?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Bisher kein Zugang zu Hause oder am Arbeitsplatz"
+            },
+            {
+              "value": 2,
+              "label": "Nutze ich nie"
+            },
+            {
+              "value": 3,
+              "label": "Weniger als einmal im Monat"
+            },
+            {
+              "value": 4,
+              "label": "Einmal im Monat"
+            },
+            {
+              "value": 5,
+              "label": "Mehrmals im Monat "
+            },
+            {
+              "value": 6,
+              "label": "Einmal in der Woche"
+            },
+            {
+              "value": 7,
+              "label": "Mehrmals in der Woche"
+            },
+            {
+              "value": 8,
+              "label": "Täglich"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 41,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 43": {
+      "question": "Page 43",
+      "name": "Page 43",
+      "label": "Menschen aus anderen Ländern kommen aus ganz verschiedenen Gründen nach Deutschland, um hier zu leben. Einige dieser Menschen haben Vorfahren in Deutschland, andere kommen, um hier zu arbeiten oder weil ihre Familien hier leben. Wieder andere kommen nach Deutschland, weil sie in ihrer Heimat bedroht werden. \n\nWir werden Ihnen im Folgenden jeweils zwei Personen präsentieren, deren Angaben Sie einer Tabelle entnehmen können. Stellen Sie sich bitte vor, Sie müssten entscheiden, wen Sie eher einwandern lassen würden. Dabei gibt es keine richtige oder falsche Antwort, es geht ausschließlich um Ihre persönliche Wahl.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Menschen aus anderen Ländern kommen aus ganz verschiedenen Gründen nach Deutschland, um hier zu leben. Einige dieser Menschen haben Vorfahren in Deutschland, andere kommen, um hier zu arbeiten oder weil ihre Familien hier leben. Wieder andere kommen nach Deutschland, weil sie in ihrer Heimat bedroht werden. \n\nWir werden Ihnen im Folgenden jeweils zwei Personen präsentieren, deren Angaben Sie einer Tabelle entnehmen können. Stellen Sie sich bitte vor, Sie müssten entscheiden, wen Sie eher einwandern lassen würden. Dabei gibt es keine richtige oder falsche Antwort, es geht ausschließlich um Ihre persönliche Wahl.",
+          "description": "In den folgenden sechs Fragen sollen die Befragten sich jeweils zwischen zwei Alternativen entscheiden. Jedem Befragten wurden im Voraus randomisiert Kombinationen von Werten verschiedener Attribute zugewiesen. Die Werte sollen dynamisch eingefügt werden.\nDie möglichen Werte der einzelnen Attribute sind:\nAttribute: Werte\nHerkunft: Europa, Afrika, Nordamerika, Südamerika, Asien, Naher Osten\nvergleichbarer Bildungsabschluss: keinen, Hauptschulabschluss, Realschulabschluss, Abitur, Universitätsabschluss\nKenntnisse der deutschen Sprache: fließend Deutsch, gebrochen Deutsch, kein Deutsch\nbesitzt in Deutschland gesuchte berufliche Qualifikation: ja, nein\nReligionszugehörigkeit: Christentum, Judentum, Islam, Hinduismus, Buddhismus, keine\nGeschlecht: männlich, weiblich\nGrund der Einwanderung: politische Verfolgung, religiöse Verfolgung, wirtschaftliche Verbesserung, Familie lebt in Deutschland",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 42,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 44": {
+      "question": "Page 44",
+      "name": "Page 44",
+      "label": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1: Person 2\nHerkunft [Origin 1] : [Origin 2]\nvergleichbarer Bildungsabschluss [Education 1] : [Education 2]\nKenntnisse der deutschen Sprache [Language 1] : [Language 2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation [Profession 1] : [Profession 2]\nReligionszugehörigkeit [Religion 1] : [Religion 2]\nGeschlecht [Gender 1] : [Gender 2]\nGrund der Einwanderung [Reason 1] : [Reason 2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1: Person 2\nHerkunft [Origin 1] : [Origin 2]\nvergleichbarer Bildungsabschluss [Education 1] : [Education 2]\nKenntnisse der deutschen Sprache [Language 1] : [Language 2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation [Profession 1] : [Profession 2]\nReligionszugehörigkeit [Religion 1] : [Religion 2]\nGeschlecht [Gender 1] : [Gender 2]\nGrund der Einwanderung [Reason 1] : [Reason 2]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Person 1"
+            },
+            {
+              "value": 2,
+              "label": "Person 2"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 43,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 45": {
+      "question": "Page 45",
+      "name": "Page 45",
+      "label": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1: Person 2\nHerkunft [Origin 1] : [Origin 2]\nvergleichbarer Bildungsabschluss [Education 1] : [Education 2]\nKenntnisse der deutschen Sprache [Language 1] : [Language 2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation [Profession 1] : [Profession 2]\nReligionszugehörigkeit [Religion 1] : [Religion 2]\nGeschlecht [Gender 1] : [Gender 2]\nGrund der Einwanderung [Reason 1] : [Reason 2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1: Person 2\nHerkunft [Origin 1] : [Origin 2]\nvergleichbarer Bildungsabschluss [Education 1] : [Education 2]\nKenntnisse der deutschen Sprache [Language 1] : [Language 2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation [Profession 1] : [Profession 2]\nReligionszugehörigkeit [Religion 1] : [Religion 2]\nGeschlecht [Gender 1] : [Gender 2]\nGrund der Einwanderung [Reason 1] : [Reason 2]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Person 1"
+            },
+            {
+              "value": 2,
+              "label": "Person 2"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 44,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 46": {
+      "question": "Page 46",
+      "name": "Page 46",
+      "label": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1 Person 2\nHerkunft [EDV: Origin 1] [EDV: Origin 2]\nvergleichbarer Bildungsabschluss [EDV: Education 1] [EDV: Education 2]\nKenntnisse der deutschen Sprache [EDV: Language 1] [EDV: Language 2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation [EDV: Profession 1] [EDV: Profession 2]\nReligionszugehörigkeit [EDV: Religion 1] [EDV: Religion 2]\nGeschlecht [EDV: Gender 1] [EDV: Gender 2]\nGrund der Einwanderung [EDV: Reason 1] [EDV: Reason 2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1 Person 2\nHerkunft [EDV: Origin 1] [EDV: Origin 2]\nvergleichbarer Bildungsabschluss [EDV: Education 1] [EDV: Education 2]\nKenntnisse der deutschen Sprache [EDV: Language 1] [EDV: Language 2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation [EDV: Profession 1] [EDV: Profession 2]\nReligionszugehörigkeit [EDV: Religion 1] [EDV: Religion 2]\nGeschlecht [EDV: Gender 1] [EDV: Gender 2]\nGrund der Einwanderung [EDV: Reason 1] [EDV: Reason 2]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Person 1"
+            },
+            {
+              "value": 2,
+              "label": "Person 2"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 45,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 47": {
+      "question": "Page 47",
+      "name": "Page 47",
+      "label": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1: Person 2\nHerkunft [Origin 1] : [Origin 2]\nvergleichbarer Bildungsabschluss [Education 1] : [Education 2]\nKenntnisse der deutschen Sprache [Language 1] : [Language 2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation [Profession 1] : [Profession 2]\nReligionszugehörigkeit [Religion 1] : [Religion 2]\nGeschlecht [Gender 1] : [Gender 2]\nGrund der Einwanderung [Reason 1] : [Reason 2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1: Person 2\nHerkunft [Origin 1] : [Origin 2]\nvergleichbarer Bildungsabschluss [Education 1] : [Education 2]\nKenntnisse der deutschen Sprache [Language 1] : [Language 2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation [Profession 1] : [Profession 2]\nReligionszugehörigkeit [Religion 1] : [Religion 2]\nGeschlecht [Gender 1] : [Gender 2]\nGrund der Einwanderung [Reason 1] : [Reason 2]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Person 1"
+            },
+            {
+              "value": 2,
+              "label": "Person 2"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 46,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 48": {
+      "question": "Page 48",
+      "name": "Page 48",
+      "label": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1: Person 2\nHerkunft [Origin 1] : [Origin 2]\nvergleichbarer Bildungsabschluss [Education 1] : [Education 2]\nKenntnisse der deutschen Sprache [Language 1] : [Language 2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation [Profession 1] : [Profession 2]\nReligionszugehörigkeit [Religion 1] : [Religion 2]\nGeschlecht [Gender 1] : [Gender 2]\nGrund der Einwanderung [Reason 1] : [Reason 2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1: Person 2\nHerkunft [Origin 1] : [Origin 2]\nvergleichbarer Bildungsabschluss [Education 1] : [Education 2]\nKenntnisse der deutschen Sprache [Language 1] : [Language 2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation [Profession 1] : [Profession 2]\nReligionszugehörigkeit [Religion 1] : [Religion 2]\nGeschlecht [Gender 1] : [Gender 2]\nGrund der Einwanderung [Reason 1] : [Reason 2]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Person 1"
+            },
+            {
+              "value": 2,
+              "label": "Person 2"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 47,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 49": {
+      "question": "Page 49",
+      "name": "Page 49",
+      "label": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1: Person 2\nHerkunft [Origin 1] : [Origin 2]\nvergleichbarer Bildungsabschluss [Education 1] : [Education 2]\nKenntnisse der deutschen Sprache [Language 1] : [Language 2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation [Profession 1] : [Profession 2]\nReligionszugehörigkeit [Religion 1] : [Religion 2]\nGeschlecht [Gender 1] : [Gender 2]\nGrund der Einwanderung [Reason 1] : [Reason 2]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche Person würden Sie persönlich eher nach Deutschland einwandern lassen? \n\nPerson 1: Person 2\nHerkunft [Origin 1] : [Origin 2]\nvergleichbarer Bildungsabschluss [Education 1] : [Education 2]\nKenntnisse der deutschen Sprache [Language 1] : [Language 2]\nbesitzt in Deutschland gesuchte berufliche Qualifikation [Profession 1] : [Profession 2]\nReligionszugehörigkeit [Religion 1] : [Religion 2]\nGeschlecht [Gender 1] : [Gender 2]\nGrund der Einwanderung [Reason 1] : [Reason 2]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Person 1"
+            },
+            {
+              "value": 2,
+              "label": "Person 2"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 48,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 50": {
+      "question": "Page 50",
+      "name": "Page 50",
+      "label": "Jetzt geht es um Ihre Position zu den Zuzugsmöglichkeiten für Ausländer. Sollten Zuzugsmöglichkeiten für Ausländer erleichtert oder eingeschränkt werden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Jetzt geht es um Ihre Position zu den Zuzugsmöglichkeiten für Ausländer. Sollten Zuzugsmöglichkeiten für Ausländer erleichtert oder eingeschränkt werden?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Zuzugsmöglichkeiten für Ausländer erleichtern "
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Zuzugsmöglichkeiten für Ausländer einschränken"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 49,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 51": {
+      "question": "Page 51",
+      "name": "Page 51",
+      "label": "Bewertung dieser Umfrage\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat",
+          "instruction": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "description": "Bitte für jede der Fragen auf dieser Seite eine Antwort auswählen.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Fanden Sie den Fragebogen...?",
+          "scale": "txt",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "interessant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "abwechslungsreich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "relevant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "lang",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "schwierig",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "zu persönlich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut"
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut"
+            }
+          ],
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Haben Sie noch weitere Anmerkungen?\nHier können Sie Lob oder Kritik zum Fragebogen äußern.\n\nWenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+          "scale": "chr",
+          "sn": 9,
+          "number": ""
+        }
+      ],
+      "sn": 50,
+      "instrument": "W16",
+      "study": "gip"
+    },
+    "Page 52 Outro": {
+      "question": "Page 52 Outro",
+      "name": "Page 52 Outro",
+      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\n\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\n\nBitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.\n\n\nIhr Forschungsteam von der Universität Mannheim in Zusammenarbeit mit dem LINK Institut",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\n\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\n\nBitte klicken Sie auf „Ende“, um den Fragebogen zu beenden. Sie werden dann automatisch auf Ihren persönlichen Bereich der Studie weitergeleitet.\n\n\nIhr Forschungsteam von der Universität Mannheim in Zusammenarbeit mit dem LINK Institut",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 51,
+      "instrument": "W16",
+      "study": "gip"
+    }
+  }
+}
