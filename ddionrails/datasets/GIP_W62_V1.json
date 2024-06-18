@@ -1,0 +1,5014 @@
+[
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "id_g",
+    "label": "Unique ID, GIP",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 10005901,
+      "1st Qu.": 30280503,
+      "Median": 31123201,
+      "Mean": 35602217.0686922,
+      "3rd Qu.": 44519901,
+      "Max.": 49990401,
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "hhid_g",
+    "label": "Household Identifyer, GIP",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 100059,
+      "1st Qu.": 302805,
+      "Median": 311232,
+      "Mean": 356022.157992074,
+      "3rd Qu.": 445199,
+      "Max.": 499904,
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "pid",
+    "label": "Person identifyer (wthin HH)",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 1,
+      "1st Qu.": 1,
+      "Median": 1,
+      "Mean": 1.26948480845443,
+      "3rd Qu.": 1,
+      "Max.": 6,
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "gender_22",
+    "label": "gender",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. m\u00e4nnlich",
+        "2. weiblich"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        1,
+        0,
+        0,
+        4,
+        0,
+        1952,
+        1828
+      ]
+    },
+    "statistics": {
+      "valid": 3784,
+      "invalid": 1
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "year_of_birth_cat_22",
+    "label": "year of birth categories",
+    "categories": {
+      "values": [
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "labels": [
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. 1935-1939",
+        "2. 1940-1944",
+        "3. 1945-1949",
+        "4. 1950-1954",
+        "5. 1955-1959",
+        "6. 1960-1964",
+        "7. 1965-1969",
+        "8. 1970-1974",
+        "9. 1975-1979",
+        "10. 1980-1984",
+        "11. 1985-1989",
+        "12. 1990-1994",
+        "13. 1995-1999",
+        "14. 2000 und sp\u00e4ter"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        31,
+        2,
+        19,
+        121,
+        202,
+        362,
+        421,
+        477,
+        491,
+        328,
+        280,
+        313,
+        288,
+        235,
+        171,
+        44
+      ]
+    },
+    "statistics": {
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "educ_school_22",
+    "label": "highest educational degree",
+    "categories": {
+      "values": [
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "labels": [
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Noch Sch\u00fcler/-in",
+        "2. Schule beendet ohne Abschluss",
+        "3. Volks-/Hauptschulabschluss bzw. Polytechnische Oberschule mit Abschluss 8. oder 9. Klasse",
+        "4. Mittlere Reife, Realschulabschluss bzw. Polytechnische Oberschule mit Abschluss 10. Klasse",
+        "5. Fachhochschulreife (Abschluss einer Fachoberschule etc.)",
+        "6. Abitur bzw. Erweiterte Oberschule mit Abschluss 12. Klasse (Hochschulreife)",
+        "7. Anderen Schulabschluss: Bitte tragen Sie Ihren Schulabschluss ein: __________________"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        7,
+        20,
+        468,
+        1135,
+        526,
+        1518,
+        111
+      ]
+    },
+    "statistics": {
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "educ_job_22",
+    "label": "highest professional qualification",
+    "categories": {
+      "values": [
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "labels": [
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Noch in beruflicher Ausbildung (Berufsvorbereitungsjahr, Auszubildende/-r, Praktikant/-in, Student/-in)",
+        "2. Sch\u00fcler/-in und besuche eine berufsorientierte Aufbau-, Fachschule o. \u00e4.",
+        "3. Keinen beruflichen Abschluss und bin nicht in beruflicher Ausbildung",
+        "4. Beruflich-betriebliche Berufsausbildung (Lehre) abgeschlossen",
+        "5. Beruflich-schulische Ausbildung (Berufsfachschule, Handelsschule, Vorbereitungsdienst f\u00fcr den mittleren Dienst in der \u00f6ffentlichen Verwaltung) abgeschlossen",
+        "6. Ausbildung an einer Fachschule der DDR abgeschlossen",
+        "7. Ausbildung an einer Fach-, Meister-, Technikerschule, Berufs- oder Fachakademie abgeschlossen",
+        "8. Bachelor an (Fach-)Hochschule abgeschlossen",
+        "9. Fachhochschulabschluss (z. B. Diplom, Master)",
+        "10. Universit\u00e4tsabschluss (z. B. Diplom, Magister, Staatsexamen, Master)",
+        "11. Promotion",
+        "12. Ein anderer beruflicher Abschluss, und zwar (bitte eintragen): _____________________"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        86,
+        5,
+        109,
+        1277,
+        268,
+        78,
+        513,
+        170,
+        371,
+        675,
+        115,
+        118
+      ]
+    },
+    "statistics": {
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "marital_status_22",
+    "label": "marital status",
+    "categories": {
+      "values": [
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "labels": [
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Verheiratet und leben mit Ihrem/Ihrer Ehepartner/-in zusammen",
+        "2. Verheiratet und leben getrennt",
+        "3. Verwitwet",
+        "4. Geschieden",
+        "5. Ledig",
+        "6. Eingetragene Lebenspartnerschaft, zusammenlebend",
+        "7. Eingetragene Lebenspartnerschaft, getrennt lebend",
+        "8. Eingetragene/-r Lebenspartner/-in verstorben",
+        "9. Eingetragene Lebenspartnerschaft aufgehoben"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        2285,
+        58,
+        132,
+        367,
+        913,
+        25,
+        3,
+        1,
+        1
+      ]
+    },
+    "statistics": {
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "number_hh_members_22",
+    "label": "number of household members",
+    "categories": {
+      "values": [
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "labels": [
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. 1",
+        "2. 2",
+        "3. 3",
+        "4. 4",
+        "5. 5 und mehr"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        708,
+        1764,
+        591,
+        547,
+        175
+      ]
+    },
+    "statistics": {
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "occupation_22",
+    "label": "employment status",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Vollzeiterwerbst\u00e4tig",
+        "2. Teilzeiterwerbst\u00e4tig",
+        "3. Altersteilzeit (unabh\u00e4ngig davon, ob in der Arbeits- oder Freistellungsphase befindlich)",
+        "4. Geringf\u00fcgig erwerbst\u00e4tig, 400-Euro-Job, Minijob",
+        "5. \u201eEin-Euro-Job\u201c (bei Bezug von Arbeitslosengeld II)",
+        "6. Gelegentlich oder unregelm\u00e4\u00dfig besch\u00e4ftigt",
+        "7. In einer beruflichen Ausbildung/Lehre",
+        "8. In Umschulung",
+        "9. Freiwilliger Wehrdienst, Bundesfreiwilligendienst",
+        "10. Freiwilliges Soziales/\u00d6kologisches/Kulturelles Jahr",
+        "11. Mutterschafts-, Erziehungsurlaub, Elternzeit oder sonstige Beurlaubung (Altersteilzeit oben angeben)",
+        "12. Sch\u00fcler/-in an einer allgemeinbildenden Schule",
+        "13. Student/-in",
+        "14. Rentner/-in, Pension\u00e4r/-in, im Vorruhestand",
+        "15. Arbeitslos",
+        "16. Dauerhaft erwerbsunf\u00e4hig",
+        "17. Hausfrau/Hausmann"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1658,
+        611,
+        32,
+        64,
+        1,
+        16,
+        33,
+        4,
+        1,
+        1,
+        61,
+        5,
+        106,
+        966,
+        54,
+        56,
+        115
+      ]
+    },
+    "statistics": {
+      "valid": 3784,
+      "invalid": 1
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "german_citizenship_22",
+    "label": "german citizenship",
+    "categories": {
+      "values": [
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3
+      ],
+      "labels": [
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Ja, nur die deutsche Staatsangeh\u00f6rig",
+        "2. Ja, die deutsche Staatsangeh\u00f6rigkeit",
+        "3. Nein, habe eine andere Staatsangeh\u00f6rigkeit"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        3585,
+        91,
+        109
+      ]
+    },
+    "statistics": {
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "internet_usage_22",
+    "label": " private internet usage",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -99,
+        -97,
+        -91,
+        -90,
+        -80,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-99. Wei\u00df nicht",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "2. Nutze ich nie",
+        "3. Weniger als einmal im Monat",
+        "4. Einmal im Monat",
+        "5. Mehrmals im Monat",
+        "6. Einmal in der Woche",
+        "7. Mehrmals in der Woche",
+        "8. T\u00e4glich"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        3,
+        17,
+        0,
+        0,
+        0,
+        0,
+        31,
+        29,
+        24,
+        124,
+        47,
+        482,
+        3028
+      ]
+    },
+    "statistics": {
+      "valid": 3782,
+      "invalid": 3
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "state_22",
+    "label": "residence state",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        15,
+        16
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Schleswig-Holstein/Hamburg",
+        "4. Niedersachsen/Bremen",
+        "5. Nordrhein-Westfalen",
+        "6. Hessen",
+        "7. Rheinland-Pfalz/Saarland",
+        "8. Baden-W\u00fcrttemberg",
+        "9. Bayern",
+        "11. Berlin/Brandenburg",
+        "13. Mecklenburg-Vorpommern",
+        "14. Sachsen",
+        "15. Sachsen-Anhalt",
+        "16. Th\u00fcringen"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        182,
+        384,
+        731,
+        304,
+        225,
+        571,
+        629,
+        281,
+        62,
+        234,
+        75,
+        106
+      ]
+    },
+    "statistics": {
+      "valid": 3784,
+      "invalid": 1
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "sample",
+    "label": "year of recruitment",
+    "categories": {
+      "values": [
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        21
+      ],
+      "labels": [
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. recruited 2012",
+        "2. recruited 2014",
+        "3. recruited 2018",
+        "21. additional forsa sample 2021"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        624,
+        1399,
+        1762,
+        0
+      ]
+    },
+    "statistics": {
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "dDatum",
+    "label": "Interview-Datum",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 22950,
+      "1st Qu.": 22950,
+      "Median": 22955,
+      "Mean": 22958.3297225892,
+      "3rd Qu.": 22964,
+      "Max.": 22979,
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "online_status_wave",
+    "label": "current online status",
+    "categories": {
+      "values": [
+        -97,
+        -91,
+        -90,
+        -80,
+        0,
+        1,
+        2,
+        3
+      ],
+      "labels": [
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "0. not equipped with pc/internet",
+        "1. equipped with internet",
+        "2. equipped with Ben PC and internet",
+        "3. equipped with tablet and internet"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        0,
+        0,
+        3785,
+        0,
+        0,
+        0
+      ]
+    },
+    "statistics": {
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EA62011",
+    "label": "expectation_carbonprice",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Preis wird sehr stark sinken",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10. Preis wird sehr stark steigen"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        26,
+        0,
+        0,
+        16,
+        0,
+        33,
+        13,
+        30,
+        71,
+        240,
+        398,
+        875,
+        1152,
+        301,
+        630
+      ]
+    },
+    "statistics": {
+      "valid": 3759,
+      "invalid": 26
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "expEA62012",
+    "label": "experiment page 3.00 f.",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Gruppe 1",
+        "2. Gruppe 2"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        26,
+        0,
+        0,
+        0,
+        0,
+        1881,
+        1878
+      ]
+    },
+    "statistics": {
+      "valid": 3759,
+      "invalid": 26
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EA62012",
+    "label": "price_experts_a",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Preisprognose zwischen 88 und 92 Euro",
+        "2. Preisprognose zwischen 85 und 95 Euro",
+        "3. Preisprognose zwischen 82 und 98 Euro",
+        "4. Preisprognose zwischen 79 und 101 Euro",
+        "5. Andere Preisspanne: 90 von 100 Personen prognostizieren einen Preis, der au\u00dferh"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        1910,
+        0,
+        0,
+        16,
+        0,
+        178,
+        337,
+        474,
+        592,
+        278
+      ]
+    },
+    "statistics": {
+      "valid": 1875,
+      "invalid": 1910
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EA62013",
+    "label": "price_experts_b",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Preisprognose zwischen 50 und 130 Euro",
+        "2. Preisprognose zwischen 30 und 150 Euro",
+        "3. Preisprognose zwischen 10 und 170 Euro",
+        "4. Preisprognose zwischen 0 und 300 Euro",
+        "5. Andere Preisspanne: 90 von 100 Personen prognostizieren einen Preis, der au\u00dferh"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        1913,
+        0,
+        0,
+        26,
+        0,
+        762,
+        595,
+        250,
+        123,
+        116
+      ]
+    },
+    "statistics": {
+      "valid": 1872,
+      "invalid": 1913
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EA62014",
+    "label": "expectation_carbonprice_90",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. \u00dcberhaupt nicht wahrscheinlich",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10. Sehr wahrscheinlich"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        42,
+        0,
+        0,
+        30,
+        0,
+        115,
+        79,
+        184,
+        220,
+        350,
+        432,
+        599,
+        780,
+        329,
+        625
+      ]
+    },
+    "statistics": {
+      "valid": 3743,
+      "invalid": 42
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EA62015_a",
+    "label": "investment_green",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 0,
+      "Median": 2000,
+      "Mean": 2672.23288409703,
+      "3rd Qu.": 5000,
+      "Max.": 10000,
+      "NA's": 75,
+      "valid": 3710,
+      "invalid": 75
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EA62015_b",
+    "label": "investment_normal",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 0,
+      "Median": 0,
+      "Mean": 1950.78760107817,
+      "3rd Qu.": 3000,
+      "Max.": 10000,
+      "NA's": 75,
+      "valid": 3710,
+      "invalid": 75
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EA62015_c",
+    "label": "investment_consume",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 0,
+      "Median": 2400,
+      "Mean": 3432.52264150943,
+      "3rd Qu.": 5000,
+      "Max.": 10000,
+      "NA's": 75,
+      "valid": 3710,
+      "invalid": 75
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EA62015_d",
+    "label": "investment_other",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 0,
+      "Median": 0,
+      "Mean": 1695.09838274933,
+      "3rd Qu.": 2000,
+      "Max.": 10000,
+      "NA's": 75,
+      "valid": 3710,
+      "invalid": 75
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EA62016",
+    "label": "expectation_return_green",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -99,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-99. Wei\u00df nicht",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Nachhaltige Finanzinvestitionen werden eher weniger Investitionsertrag bringen.",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10. Nachhaltige Finanzinvestitionen werden eher mehr Investitionsertrag bringen."
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        83,
+        715,
+        0,
+        0,
+        20,
+        0,
+        122,
+        60,
+        258,
+        306,
+        316,
+        431,
+        565,
+        520,
+        121,
+        268
+      ]
+    },
+    "statistics": {
+      "valid": 3702,
+      "invalid": 83
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EA62017",
+    "label": "expectation_risk_green",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -99,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-99. Wei\u00df nicht",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Nachhaltige Finanzinvestitionen haben eher ein geringeres Ertragsrisiko.",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10. Nachhaltige Finanzinvestitionen haben eher ein h\u00f6heres Ertragsrisiko."
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        83,
+        794,
+        0,
+        0,
+        18,
+        0,
+        133,
+        72,
+        328,
+        447,
+        470,
+        515,
+        403,
+        335,
+        77,
+        110
+      ]
+    },
+    "statistics": {
+      "valid": 3702,
+      "invalid": 83
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62001_a",
+    "label": "preference_price",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 5,
+      "Median": 20,
+      "Mean": 21.3277265328269,
+      "3rd Qu.": 30,
+      "Max.": 100,
+      "NA's": 99,
+      "valid": 3686,
+      "invalid": 99
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62001_b",
+    "label": "preference_quality",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 10,
+      "Median": 20,
+      "Mean": 23.8841562669561,
+      "3rd Qu.": 31.75,
+      "Max.": 100,
+      "NA's": 99,
+      "valid": 3686,
+      "invalid": 99
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62001_c",
+    "label": "preference_sustain",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 0,
+      "Median": 10,
+      "Mean": 11.0892566467716,
+      "3rd Qu.": 20,
+      "Max.": 100,
+      "NA's": 99,
+      "valid": 3686,
+      "invalid": 99
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62001_d",
+    "label": "preference_fair",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 0,
+      "Median": 7.5,
+      "Mean": 7.51871947911015,
+      "3rd Qu.": 10,
+      "Max.": 100,
+      "NA's": 99,
+      "valid": 3686,
+      "invalid": 99
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62001_e",
+    "label": "preference_local",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 5,
+      "Median": 10,
+      "Mean": 13.2053716766142,
+      "3rd Qu.": 20,
+      "Max.": 100,
+      "NA's": 99,
+      "valid": 3686,
+      "invalid": 99
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62001_f",
+    "label": "preference_sme",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 0,
+      "Median": 5,
+      "Mean": 6.46771568095496,
+      "3rd Qu.": 10,
+      "Max.": 100,
+      "NA's": 99,
+      "valid": 3686,
+      "invalid": 99
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62001_g",
+    "label": "preference_popular",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 0,
+      "Median": 0,
+      "Mean": 1.64188822571894,
+      "3rd Qu.": 0,
+      "Max.": 100,
+      "NA's": 99,
+      "valid": 3686,
+      "invalid": 99
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62001_h",
+    "label": "preference_social",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 0,
+      "Median": 0,
+      "Mean": 1.69614758545849,
+      "3rd Qu.": 5,
+      "Max.": 70,
+      "NA's": 99,
+      "valid": 3686,
+      "invalid": 99
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62001_i",
+    "label": "preference_coop",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 0,
+      "Median": 0,
+      "Mean": 1.67878459034183,
+      "3rd Qu.": 2,
+      "Max.": 100,
+      "NA's": 99,
+      "valid": 3686,
+      "invalid": 99
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62001_j",
+    "label": "preference_other",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 0,
+      "Median": 0,
+      "Mean": 0.527415852334419,
+      "3rd Qu.": 0,
+      "Max.": 100,
+      "NA's": 101,
+      "valid": 3684,
+      "invalid": 101
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62002",
+    "label": "change_pref_sustain",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Sehr viel weniger",
+        "2",
+        "3",
+        "4. Unver\u00e4ndert",
+        "5",
+        "6",
+        "7. Sehr viel mehr"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        104,
+        0,
+        0,
+        6,
+        0,
+        44,
+        53,
+        67,
+        2470,
+        666,
+        272,
+        103
+      ]
+    },
+    "statistics": {
+      "valid": 3681,
+      "invalid": 104
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62003",
+    "label": "change_pref_fair",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Sehr viel weniger",
+        "2",
+        "3",
+        "4. Unver\u00e4ndert",
+        "5",
+        "6",
+        "7. Sehr viel mehr"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        104,
+        0,
+        0,
+        6,
+        0,
+        37,
+        32,
+        63,
+        2658,
+        627,
+        175,
+        83
+      ]
+    },
+    "statistics": {
+      "valid": 3681,
+      "invalid": 104
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62004",
+    "label": "change_pref_local",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Sehr viel weniger",
+        "2",
+        "3",
+        "4. Unver\u00e4ndert",
+        "5",
+        "6",
+        "7. Sehr viel mehr"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        104,
+        0,
+        0,
+        4,
+        0,
+        23,
+        22,
+        52,
+        1686,
+        936,
+        684,
+        274
+      ]
+    },
+    "statistics": {
+      "valid": 3681,
+      "invalid": 104
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62005",
+    "label": "change_pref_social",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Sehr viel weniger",
+        "2",
+        "3",
+        "4. Unver\u00e4ndert",
+        "5",
+        "6",
+        "7. Sehr viel mehr"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        104,
+        0,
+        0,
+        8,
+        0,
+        43,
+        27,
+        87,
+        2978,
+        406,
+        87,
+        45
+      ]
+    },
+    "statistics": {
+      "valid": 3681,
+      "invalid": 104
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62006",
+    "label": "change_pref_coop",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Sehr viel weniger",
+        "2",
+        "3",
+        "4. Unver\u00e4ndert",
+        "5",
+        "6",
+        "7. Sehr viel mehr"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        105,
+        0,
+        0,
+        8,
+        0,
+        59,
+        46,
+        88,
+        3065,
+        298,
+        90,
+        26
+      ]
+    },
+    "statistics": {
+      "valid": 3680,
+      "invalid": 105
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62008",
+    "label": "found_propensity",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Sehr unwahrscheinlich",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7. Sehr wahrscheinlich",
+        "8. Ich bin im Moment selbstst\u00e4ndig oder habe ein eigenes Unternehmen.",
+        "9. Ich bin im Moment dabei, ein Unternehmen zu gr\u00fcnden oder mich selbstst\u00e4ndig zu",
+        "10. Ich habe bereits ein Unternehmen gegr\u00fcndet, f\u00fcr das ich aber nicht mehr arbeit"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        108,
+        0,
+        0,
+        12,
+        0,
+        2615,
+        254,
+        165,
+        110,
+        91,
+        18,
+        54,
+        230,
+        29,
+        99
+      ]
+    },
+    "statistics": {
+      "valid": 3677,
+      "invalid": 108
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "EB62009",
+    "label": "found_propensity_change",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. hat stark abgenommen.",
+        "2",
+        "3",
+        "4. ist unver\u00e4ndert geblieben.",
+        "5",
+        "6",
+        "7. hat stark zugenommen."
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        109,
+        1526,
+        0,
+        8,
+        0,
+        202,
+        87,
+        109,
+        1597,
+        86,
+        35,
+        26
+      ]
+    },
+    "statistics": {
+      "valid": 3676,
+      "invalid": 109
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62001_a",
+    "label": "no. partner",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": -90,
+      "1st Qu.": 0,
+      "Median": 1,
+      "Mean": 0.218171926006529,
+      "3rd Qu.": 1,
+      "Max.": 1,
+      "NA's": 109,
+      "valid": 3676,
+      "invalid": 109
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62001_b",
+    "label": "children 0-5",
+    "categories": {
+      "values": [
+        -97,
+        -91,
+        -90,
+        -80,
+        0,
+        1
+      ],
+      "labels": [
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "0. Nein",
+        "1. Ja"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        20,
+        0,
+        3208,
+        557
+      ]
+    },
+    "statistics": {
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62001_c",
+    "label": "children 6-14",
+    "categories": {
+      "values": [
+        -97,
+        -91,
+        -90,
+        -80,
+        0,
+        1
+      ],
+      "labels": [
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "0. Nein",
+        "1. Ja"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        20,
+        0,
+        3201,
+        564
+      ]
+    },
+    "statistics": {
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62001_d",
+    "label": "children 15-20",
+    "categories": {
+      "values": [
+        -97,
+        -91,
+        -90,
+        -80,
+        0,
+        1
+      ],
+      "labels": [
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "0. Nein",
+        "1. Ja"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        20,
+        0,
+        3309,
+        456
+      ]
+    },
+    "statistics": {
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62001_e",
+    "label": "other",
+    "categories": {
+      "values": [
+        -97,
+        -91,
+        -90,
+        -80,
+        0,
+        1
+      ],
+      "labels": [
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "0. Nein",
+        "1. Ja"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        0,
+        0,
+        20,
+        0,
+        3208,
+        557
+      ]
+    },
+    "statistics": {
+      "valid": 3785,
+      "invalid": 0
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62001_1",
+    "label": "lives alone",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        0,
+        1
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "0. item not checked",
+        "1. item checked"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        109,
+        0,
+        0,
+        20,
+        0,
+        3018,
+        638
+      ]
+    },
+    "statistics": {
+      "valid": 3676,
+      "invalid": 109
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62001_2",
+    "label": "hh size na",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        0,
+        1
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "0. item not checked",
+        "1. item checked"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        109,
+        0,
+        0,
+        20,
+        0,
+        3557,
+        99
+      ]
+    },
+    "statistics": {
+      "valid": 3676,
+      "invalid": 109
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62002",
+    "label": "age partner",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -99,
+        -98,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-99. Wei\u00df nicht",
+        "-98. Keine Angabe",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Unter 16 Jahre",
+        "2. 16 bis 29 Jahre",
+        "3. 30 bis 39 Jahre",
+        "4. 40 bis 49 Jahre",
+        "5. 50 bis 59 Jahre",
+        "6. 60 bis 69 Jahre",
+        "7. 70 bis 75 Jahre",
+        "8. \u00c4lter als 75 Jahre"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        1183,
+        0,
+        17,
+        0,
+        0,
+        0,
+        0,
+        0,
+        92,
+        395,
+        432,
+        646,
+        653,
+        247,
+        120
+      ]
+    },
+    "statistics": {
+      "valid": 2602,
+      "invalid": 1183
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62003",
+    "label": "gender partner",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -98,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-98. Keine Angabe",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. M\u00e4nnlich",
+        "2. Weiblich"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        1183,
+        17,
+        0,
+        0,
+        0,
+        0,
+        1209,
+        1376
+      ]
+    },
+    "statistics": {
+      "valid": 2602,
+      "invalid": 1183
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62004",
+    "label": "age child",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 6,
+      "1st Qu.": 10,
+      "Median": 13,
+      "Mean": 13.1694152923538,
+      "3rd Qu.": 17,
+      "Max.": 20,
+      "NA's": 3118,
+      "valid": 667,
+      "invalid": 3118
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62004_1",
+    "label": "age child dk",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        0,
+        1
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "0. item not checked",
+        "1. item checked"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        3092,
+        0,
+        0,
+        0,
+        0,
+        692,
+        1
+      ]
+    },
+    "statistics": {
+      "valid": 693,
+      "invalid": 3092
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62004_2",
+    "label": "age child na",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        0,
+        1
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "0. item not checked",
+        "1. item checked"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        3092,
+        0,
+        0,
+        0,
+        0,
+        668,
+        25
+      ]
+    },
+    "statistics": {
+      "valid": 693,
+      "invalid": 3092
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62005",
+    "label": "gender child",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -98,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-98. Keine Angabe",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. M\u00e4nnlich",
+        "2. Weiblich"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        3092,
+        16,
+        0,
+        0,
+        0,
+        0,
+        363,
+        314
+      ]
+    },
+    "statistics": {
+      "valid": 693,
+      "invalid": 3092
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZJ62063_1",
+    "label": "Stunden starke Aktivit\u00e4t (letzte Woche)",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 0,
+      "1st Qu.": 0,
+      "Median": 0,
+      "Mean": 2.05118431799619,
+      "3rd Qu.": 2,
+      "Max.": 60,
+      "NA's": 112,
+      "valid": 3673,
+      "invalid": 112
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZJ62063_2",
+    "label": "Minuten starke Aktivit\u00e4t (letzte Woche)",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 0,
+      "1st Qu.": 0,
+      "Median": 0,
+      "Mean": 5.00544514021236,
+      "3rd Qu.": 0,
+      "Max.": 59,
+      "NA's": 112,
+      "valid": 3673,
+      "invalid": 112
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZJ62063_3",
+    "label": "Stunden mittlere Aktivit\u00e4t (letzte Woche)",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 0,
+      "1st Qu.": 1,
+      "Median": 3,
+      "Mean": 6.12197114075687,
+      "3rd Qu.": 7,
+      "Max.": 140,
+      "NA's": 112,
+      "valid": 3673,
+      "invalid": 112
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZJ62063_4",
+    "label": "Minuten mittlere Aktivit\u00e4t (letzte Woche)",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 0,
+      "1st Qu.": 0,
+      "Median": 0,
+      "Mean": 5.64416008712224,
+      "3rd Qu.": 0,
+      "Max.": 59,
+      "NA's": 112,
+      "valid": 3673,
+      "invalid": 112
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZJ62063_5",
+    "label": "Stunden milde Aktivit\u00e4t (letzte Woche)",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 0,
+      "1st Qu.": 2,
+      "Median": 5,
+      "Mean": 8.46991560032671,
+      "3rd Qu.": 10,
+      "Max.": 121,
+      "NA's": 112,
+      "valid": 3673,
+      "invalid": 112
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZJ62063_6",
+    "label": "Minuten milde Aktivit\u00e4t (letzte Woche)",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 0,
+      "1st Qu.": 0,
+      "Median": 0,
+      "Mean": 5.29294854342499,
+      "3rd Qu.": 0,
+      "Max.": 59,
+      "NA's": 112,
+      "valid": 3673,
+      "invalid": 112
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62006",
+    "label": "physical activity child",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. An keinem Tag",
+        "2. An einem Tag",
+        "3. An zwei Tagen",
+        "4. An drei Tagen",
+        "5. An vier Tagen",
+        "6. An f\u00fcnf Tagen",
+        "7. An sechs Tagen",
+        "8. An sieben Tagen"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        3093,
+        0,
+        0,
+        4,
+        0,
+        36,
+        42,
+        79,
+        133,
+        102,
+        138,
+        68,
+        90
+      ]
+    },
+    "statistics": {
+      "valid": 692,
+      "invalid": 3093
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZJ62061_1",
+    "label": "Stunden Bildschirmzeit (letzte Woche)",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 0,
+      "1st Qu.": 3,
+      "Median": 5,
+      "Mean": 6.10073509392867,
+      "3rd Qu.": 8,
+      "Max.": 23,
+      "NA's": 112,
+      "valid": 3673,
+      "invalid": 112
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZJ62061_2",
+    "label": "Minuten Bildschirmzeit (letzte Woche)",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 0,
+      "1st Qu.": 0,
+      "Median": 0,
+      "Mean": 9.19194119248571,
+      "3rd Qu.": 28,
+      "Max.": 59,
+      "NA's": 112,
+      "valid": 3673,
+      "invalid": 112
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62007_1",
+    "label": "Screentime weekend hours",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 0,
+      "1st Qu.": 2,
+      "Median": 4,
+      "Mean": 4.52409474543969,
+      "3rd Qu.": 5,
+      "Max.": 23,
+      "NA's": 112,
+      "valid": 3673,
+      "invalid": 112
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62007_2",
+    "label": "Screentime weekend minutes",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 0,
+      "1st Qu.": 0,
+      "Median": 0,
+      "Mean": 8.14783555676559,
+      "3rd Qu.": 15,
+      "Max.": 59,
+      "NA's": 112,
+      "valid": 3673,
+      "invalid": 112
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZJ62062",
+    "label": "Snacking (letzte Woche)",
+    "categories": {
+      "values": [],
+      "labels": [],
+      "missings": [],
+      "frequencies": []
+    },
+    "statistics": {
+      "Min.": 0,
+      "1st Qu.": 1,
+      "Median": 1,
+      "Mean": 1.57685815409747,
+      "3rd Qu.": 2,
+      "Max.": 34,
+      "NA's": 112,
+      "valid": 3673,
+      "invalid": 112
+    },
+    "scale": ""
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62008",
+    "label": "Couple relationship quality",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Sehr starke Ablehnung",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7. Sehr starke Zustimmung"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        1185,
+        0,
+        0,
+        13,
+        0,
+        21,
+        32,
+        74,
+        203,
+        376,
+        855,
+        1026
+      ]
+    },
+    "statistics": {
+      "valid": 2600,
+      "invalid": 1185
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62009",
+    "label": "Parent-child relationship \u0096 Intimacy",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Nie",
+        "2. Selten",
+        "3. Manchmal",
+        "4. H\u00e4ufig",
+        "5. Immer"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        3093,
+        0,
+        0,
+        1,
+        0,
+        9,
+        72,
+        184,
+        324,
+        102
+      ]
+    },
+    "statistics": {
+      "valid": 692,
+      "invalid": 3093
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62010",
+    "label": "Parent-child relationship \u0096 Admiration",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Nie",
+        "2. Selten",
+        "3. Manchmal",
+        "4. H\u00e4ufig",
+        "5. Immer"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        3093,
+        0,
+        0,
+        1,
+        0,
+        3,
+        15,
+        89,
+        425,
+        159
+      ]
+    },
+    "statistics": {
+      "valid": 692,
+      "invalid": 3093
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62011",
+    "label": "Emotion regulation \u0096 Reappraisal",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Trifft \u00fcberhaupt nicht zu",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7. Trifft voll und ganz zu"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        113,
+        0,
+        0,
+        24,
+        0,
+        311,
+        234,
+        294,
+        777,
+        1026,
+        572,
+        434
+      ]
+    },
+    "statistics": {
+      "valid": 3672,
+      "invalid": 113
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62012",
+    "label": "Emotion regulation \u0096 Supression",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Trifft \u00fcberhaupt nicht zu",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7. Trifft voll und ganz zu"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        113,
+        0,
+        0,
+        13,
+        0,
+        283,
+        465,
+        592,
+        622,
+        878,
+        565,
+        254
+      ]
+    },
+    "statistics": {
+      "valid": 3672,
+      "invalid": 113
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62013",
+    "label": "Broadbrent\u0092s Cognitive Failures 1",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Fast nie",
+        "2. Ziemlich selten",
+        "3. Gelegentlich",
+        "4. Ziemlich oft",
+        "5. Sehr oft"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        113,
+        0,
+        0,
+        11,
+        0,
+        810,
+        1137,
+        1241,
+        390,
+        83
+      ]
+    },
+    "statistics": {
+      "valid": 3672,
+      "invalid": 113
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62014",
+    "label": "Broadbrent\u0092s Cognitive Failures 2",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Fast nie",
+        "2. Ziemlich selten",
+        "3. Gelegentlich",
+        "4. Ziemlich oft",
+        "5. Sehr oft"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        113,
+        0,
+        0,
+        14,
+        0,
+        620,
+        1134,
+        1439,
+        389,
+        76
+      ]
+    },
+    "statistics": {
+      "valid": 3672,
+      "invalid": 113
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62015",
+    "label": "Broadbrent\u0092s Cognitive Failures 2",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Fast nie",
+        "2. Ziemlich selten",
+        "3. Gelegentlich",
+        "4. Ziemlich oft",
+        "5. Sehr oft"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        113,
+        0,
+        0,
+        13,
+        0,
+        763,
+        1126,
+        1178,
+        491,
+        101
+      ]
+    },
+    "statistics": {
+      "valid": 3672,
+      "invalid": 113
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZJ62056",
+    "label": "Anspannung",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. \u00fcberhaupt nicht",
+        "2. ein wenig",
+        "3. ziemlich",
+        "4. sehr"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        113,
+        0,
+        0,
+        9,
+        0,
+        2178,
+        1185,
+        242,
+        58
+      ]
+    },
+    "statistics": {
+      "valid": 3672,
+      "invalid": 113
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZJ62057",
+    "label": "Besorgnis",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. \u00fcberhaupt nicht",
+        "2. ein wenig",
+        "3. ziemlich",
+        "4. sehr"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        113,
+        0,
+        0,
+        9,
+        0,
+        1170,
+        1871,
+        504,
+        118
+      ]
+    },
+    "statistics": {
+      "valid": 3672,
+      "invalid": 113
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZJ62058",
+    "label": "Depression 1",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. \u00dcberhaupt nicht oder weniger als 1 Tag",
+        "2. An 1-2 Tagen",
+        "3. An 3-4 Tagen",
+        "4. An 5-7 Tagen"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        114,
+        0,
+        0,
+        11,
+        0,
+        2228,
+        949,
+        337,
+        146
+      ]
+    },
+    "statistics": {
+      "valid": 3671,
+      "invalid": 114
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZJ62059",
+    "label": "Depression 2",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. \u00dcberhaupt nicht oder weniger als 1 Tag",
+        "2. An 1-2 Tagen",
+        "3. An 3-4 Tagen",
+        "4. An 5-7 Tagen"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        114,
+        0,
+        0,
+        12,
+        0,
+        1822,
+        1150,
+        485,
+        202
+      ]
+    },
+    "statistics": {
+      "valid": 3671,
+      "invalid": 114
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZJ62060",
+    "label": "Einsamkeit",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. \u00dcberhaupt nicht oder weniger als 1 Tag",
+        "2. An 1-2 Tagen",
+        "3. An 3-4 Tagen",
+        "4. An 5-7 Tagen"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        114,
+        0,
+        0,
+        13,
+        0,
+        2762,
+        556,
+        227,
+        113
+      ]
+    },
+    "statistics": {
+      "valid": 3671,
+      "invalid": 114
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "ZH62002",
+    "label": "satisfaction life - B20",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Sehr unzufrieden",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10. Sehr zufrieden"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        114,
+        0,
+        0,
+        11,
+        0,
+        76,
+        121,
+        239,
+        270,
+        227,
+        321,
+        515,
+        982,
+        635,
+        274
+      ]
+    },
+    "statistics": {
+      "valid": 3671,
+      "invalid": 114
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62016",
+    "label": "Child\u0092s general life satisfaction",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Sehr unzufrieden",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10. Sehr zufrieden"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        3093,
+        0,
+        0,
+        1,
+        0,
+        4,
+        10,
+        26,
+        26,
+        41,
+        71,
+        147,
+        200,
+        117,
+        49
+      ]
+    },
+    "statistics": {
+      "valid": 692,
+      "invalid": 3093
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "expAR62017",
+    "label": "experiment page 43.00 ff.",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Gruppe 1",
+        "2. Gruppe 2",
+        "3. Gruppe 3",
+        "4. Gruppe 4"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        1118,
+        0,
+        0,
+        0,
+        0,
+        665,
+        667,
+        668,
+        667
+      ]
+    },
+    "statistics": {
+      "valid": 2667,
+      "invalid": 1118
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62017",
+    "label": "invite partner",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Ja",
+        "2. Nein",
+        "3. Mein/e (Ehe-)Partner/in nimmt schon teil."
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        1186,
+        0,
+        0,
+        2,
+        0,
+        917,
+        871,
+        809
+      ]
+    },
+    "statistics": {
+      "valid": 2599,
+      "invalid": 1186
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62018",
+    "label": "invite adolescent",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Ja",
+        "2. Nein",
+        "3. Mein Kind nimmt schon teil."
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        3509,
+        0,
+        0,
+        1,
+        0,
+        155,
+        115,
+        5
+      ]
+    },
+    "statistics": {
+      "valid": 276,
+      "invalid": 3509
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62019",
+    "label": "questions child",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Ja",
+        "2. Nein"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        3395,
+        0,
+        0,
+        0,
+        0,
+        325,
+        65
+      ]
+    },
+    "statistics": {
+      "valid": 390,
+      "invalid": 3395
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "expAR62020",
+    "label": "experiment page 47.00",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Gruppe 1",
+        "2. Gruppe 2",
+        "3. Gruppe 3",
+        "4. Gruppe 4",
+        "5. Gruppe 5",
+        "6. Gruppe 6"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        271,
+        0,
+        0,
+        0,
+        0,
+        589,
+        584,
+        585,
+        584,
+        585,
+        587
+      ]
+    },
+    "statistics": {
+      "valid": 3514,
+      "invalid": 271
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62020",
+    "label": "WTP",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Ja",
+        "2. Nein"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        270,
+        81,
+        0,
+        5,
+        0,
+        1069,
+        2360
+      ]
+    },
+    "statistics": {
+      "valid": 3515,
+      "invalid": 270
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "AR62021",
+    "label": "WTP Adolescent",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. Ja",
+        "2. Nein",
+        "3. Mein Kind besitzt kein Smartphone."
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        3711,
+        0,
+        0,
+        0,
+        0,
+        61,
+        13,
+        0
+      ]
+    },
+    "statistics": {
+      "valid": 74,
+      "invalid": 3711
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "QE62001",
+    "label": "Fragebogen: interessant",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. 1 \u00fcberhaupt nicht",
+        "2. 2",
+        "3. 3",
+        "4. 4 sehr"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        114,
+        0,
+        0,
+        5,
+        0,
+        196,
+        944,
+        1872,
+        654
+      ]
+    },
+    "statistics": {
+      "valid": 3671,
+      "invalid": 114
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "QE62002",
+    "label": "Fragebogen: abwechslungsreich",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. 1 \u00fcberhaupt nicht",
+        "2. 2",
+        "3. 3",
+        "4. 4 sehr"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        114,
+        0,
+        0,
+        5,
+        0,
+        126,
+        827,
+        1908,
+        805
+      ]
+    },
+    "statistics": {
+      "valid": 3671,
+      "invalid": 114
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "QE62003",
+    "label": "Fragebogen: relevant",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. 1 \u00fcberhaupt nicht",
+        "2. 2",
+        "3. 3",
+        "4. 4 sehr"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        114,
+        0,
+        0,
+        8,
+        0,
+        186,
+        988,
+        1784,
+        705
+      ]
+    },
+    "statistics": {
+      "valid": 3671,
+      "invalid": 114
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "QE62004",
+    "label": "Fragebogen: lang",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. 1 \u00fcberhaupt nicht",
+        "2. 2",
+        "3. 3",
+        "4. 4 sehr"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        114,
+        0,
+        0,
+        6,
+        0,
+        1310,
+        1535,
+        685,
+        135
+      ]
+    },
+    "statistics": {
+      "valid": 3671,
+      "invalid": 114
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "QE62005",
+    "label": "Fragebogen: schwierig",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. 1 \u00fcberhaupt nicht",
+        "2. 2",
+        "3. 3",
+        "4. 4 sehr"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        114,
+        0,
+        0,
+        8,
+        0,
+        1138,
+        1376,
+        913,
+        236
+      ]
+    },
+    "statistics": {
+      "valid": 3671,
+      "invalid": 114
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "QE62006",
+    "label": "Fragebogen: zu pers\u00f6nlich",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. 1 \u00fcberhaupt nicht",
+        "2. 2",
+        "3. 3",
+        "4. 4 sehr"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        114,
+        0,
+        0,
+        7,
+        0,
+        1068,
+        1378,
+        921,
+        297
+      ]
+    },
+    "statistics": {
+      "valid": 3671,
+      "invalid": 114
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "QE62007",
+    "label": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "1. \u00fcberhaupt nicht",
+        "2. nicht so gut",
+        "3. mittelm\u00e4\u00dfig",
+        "4. gut",
+        "5. sehr gut"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        114,
+        0,
+        0,
+        6,
+        0,
+        81,
+        359,
+        1107,
+        1820,
+        298
+      ]
+    },
+    "statistics": {
+      "valid": 3671,
+      "invalid": 114
+    },
+    "scale": "cat"
+  },
+  {
+    "study": "gip",
+    "dataset": "GIP_W62_V1",
+    "name": "QE62008_TXT_na",
+    "label": "weitere Anmerkungen text_na",
+    "categories": {
+      "values": [
+        -9223372036854775808,
+        -97,
+        -91,
+        -90,
+        -80,
+        0,
+        1
+      ],
+      "labels": [
+        ". (SYSMIS)",
+        "-97. trifft nicht zu",
+        "-91. 'bitte w\u00e4hlen'-Platzhalter",
+        "-90. item nonresponse",
+        "-80. Wert nicht plausibel",
+        "0. Item not answered",
+        "1. Item answered"
+      ],
+      "missings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "frequencies": [
+        114,
+        0,
+        0,
+        0,
+        0,
+        3300,
+        371
+      ]
+    },
+    "statistics": {
+      "valid": 3671,
+      "invalid": 114
+    },
+    "scale": "cat"
+  }
+]
