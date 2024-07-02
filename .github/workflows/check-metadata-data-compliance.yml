@@ -1,19 +1,19 @@
-name: Check-Meta-Data-Compliance
+name: Check-Data-Compliance
 
 on:
-    push:
-    pull_request:
+  push:
 
 jobs:
-    run-tests:
-        runs-on: ubuntu-latest
+  run-tests:
+    runs-on: ubuntu-latest
 
-        steps:
-            - uses: actions/checkout@v3
-            - name: Install
-              run: |
-                python3 -m pip install setuptools
-                python3 -m pip install goodtables
-            - name: Test
-              run: |
-                python3 -m goodtables validate --skip-checks extra-header metadata/datapackage.json
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install
+        run: |
+          sudo apt install python3
+          python3 -m pip install setuptools
+          python3 -m pip install git+https://github.com/ddionrails/paneldata_pipeline@master#egg=paneldata_pipeline
+      - name: Test Relations
+        run: |
+          python3 -m paneldata_pipeline.check_metadata -i metadata
