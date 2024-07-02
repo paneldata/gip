@@ -158,41 +158,5 @@
                 ]
             }
         ]
-    },
-    {
-        "file": "questions.csv",
-        "fields": [
-            "study",
-            "instrument",
-            "name"
-        ],
-        "relations_from": [
-            {
-                "file": "questions_variables.csv",
-                "fields": [
-                    "study",
-                    "instrument",
-                    "question"
-                ]
-            }
-        ]
-    },
-    {
-        "file": "variables.csv",
-        "fields": [
-            "study",
-            "dataset",
-            "name"
-        ],
-        "relations_from": [
-            {
-                "file": "questions_variables.csv",
-                "fields": [
-                    "study",
-                    "dataset",
-                    "variable"
-                ]
-            }
-        ]
     }
 ]
