@@ -1,0 +1,2516 @@
+{
+  "study": "gip",
+  "name": "W68",
+  "label": "GIP Wave 68",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 68 enthält folgende Kennungen und zugespielte Variablen:\n• id_g - Unique ID, GIP\n• hhid_g - Household Identifyer, GIP\n• pid - Person identifyer (wthin HH)\n• gender_23 - gender\n• year_of_birth_cat_23 - year of birth categories\n• educ_school_23 - highest educational degree\n• educ_job_23 - highest professional qualification\n• marital_status_23 - marital status\n• number_hh_members_23 - number of household members\n• occupation_23 - employment status\n• german_citizenship_23 - german citizenship\n• internet_usage_23 - private internet usage\n• state_23 - residence state\n• sample - year of recruitment\n• dDatum - Interview-Datum\n• online_status_wave - current online status",
+  "analysis_unit": "p",
+  "period": "2023/11",
+  "instrument": "W68",
+  "questions": {
+    "Page 1 Introduction": {
+      "question": "Page 1 Introduction",
+      "name": "Page 1 Introduction",
+      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“,\nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“,\nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 2": {
+      "question": "Page 2",
+      "name": "Page 2",
+      "label": "Gehen Sie zur Zeit einer Erwerbstätigkeit nach?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Gehen Sie zur Zeit einer Erwerbstätigkeit nach?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ja"
+            },
+            {
+              "value": 2,
+              "label": "Nein"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 3": {
+      "question": "Page 3",
+      "name": "Page 3",
+      "label": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden.\na) In meinem Arbeitsumfeld herrscht ein gutes Arbeitsklima.\nb) Bei Fragen im Arbeitsalltag weiß ich, an wen ich mich wenden kann.\nc) An meinem Arbeitsplatz sollte man Kritik besser nicht offen ansprechen.\nd) An meinem Arbeitsplatz gibt es rassistische Diskriminierung.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden.\na) In meinem Arbeitsumfeld herrscht ein gutes Arbeitsklima.\nb) Bei Fragen im Arbeitsalltag weiß ich, an wen ich mich wenden kann.\nc) An meinem Arbeitsplatz sollte man Kritik besser nicht offen ansprechen.\nd) An meinem Arbeitsplatz gibt es rassistische Diskriminierung.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+          "description": "Befragte zufällig in zwei Gruppen aufteilen, Gruppe 1 erhält CP68013, Gruppe 2 erhält CP68014. Gruppenzuteilung in separater Variable expCP68013 ablegen.",
+          "filter": "expCP68013 = 1 & CP68021  = 1 (wenn Befragte in Experimentalgruppe 1 und erwerbstätig sind)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0"
+            },
+            {
+              "value": 2,
+              "label": "1"
+            },
+            {
+              "value": 3,
+              "label": "2"
+            },
+            {
+              "value": 4,
+              "label": "3"
+            },
+            {
+              "value": 5,
+              "label": "4"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 4": {
+      "question": "Page 4",
+      "name": "Page 4",
+      "label": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. \n\na) In meinem Arbeitsumfeld herrscht ein gutes Arbeitsklima.\nb) Bei Fragen im Arbeitsalltag weiß ich, an wen ich mich wenden kann.\nc) An meinem Arbeitsplatz sollte man Kritik besser nicht offen ansprechen.\n \n\nWie vielen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. \n\na) In meinem Arbeitsumfeld herrscht ein gutes Arbeitsklima.\nb) Bei Fragen im Arbeitsalltag weiß ich, an wen ich mich wenden kann.\nc) An meinem Arbeitsplatz sollte man Kritik besser nicht offen ansprechen.\n \n\nWie vielen dieser Aussagen stimmen Sie zu?",
+          "filter": "expCP68013 = 2 & CP68021= 1 (Wenn Befragte in Experimentalgruppe 2 und erwerbstätig sind)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0"
+            },
+            {
+              "value": 2,
+              "label": "1"
+            },
+            {
+              "value": 3,
+              "label": "2"
+            },
+            {
+              "value": 4,
+              "label": "3"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 5": {
+      "question": "Page 5",
+      "name": "Page 5",
+      "label": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden.\n\na) Die hohen Gehälter für Manager sind nicht gerechtfertigt.\nb) Die öffentlichen Rundfunkgebühren kommen der Demokratie zugute.\nc) Es würde uns allen besser gehen, wenn wir weniger Fleisch essen würden.\nd) Gewisse ethnische Gruppen sind von Natur aus weniger intelligent als andere.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden.\n\na) Die hohen Gehälter für Manager sind nicht gerechtfertigt.\nb) Die öffentlichen Rundfunkgebühren kommen der Demokratie zugute.\nc) Es würde uns allen besser gehen, wenn wir weniger Fleisch essen würden.\nd) Gewisse ethnische Gruppen sind von Natur aus weniger intelligent als andere.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+          "description": "Befragte zufällig in zwei Gruppen aufteilen, Gruppe 1 erhält CP68015, Gruppe 2 erhält CP68016. Gruppenzuteilung in separater Variable expCP68015 ablegen.",
+          "filter": "expCP68015 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0"
+            },
+            {
+              "value": 2,
+              "label": "1"
+            },
+            {
+              "value": 3,
+              "label": "2"
+            },
+            {
+              "value": 4,
+              "label": "3"
+            },
+            {
+              "value": 5,
+              "label": "4"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 6": {
+      "question": "Page 6",
+      "name": "Page 6",
+      "label": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. \n\na) Die hohen Gehälter für Manager sind nicht gerechtfertigt.\nb) Die öffentlichen Rundfunkgebühren kommen der Demokratie zugute.\nc) Es würde uns allen besser gehen, wenn wir weniger Fleisch essen würden.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. \n\na) Die hohen Gehälter für Manager sind nicht gerechtfertigt.\nb) Die öffentlichen Rundfunkgebühren kommen der Demokratie zugute.\nc) Es würde uns allen besser gehen, wenn wir weniger Fleisch essen würden.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+          "filter": "expCP68015 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0"
+            },
+            {
+              "value": 2,
+              "label": "1"
+            },
+            {
+              "value": 3,
+              "label": "2"
+            },
+            {
+              "value": 4,
+              "label": "3"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 7": {
+      "question": "Page 7",
+      "name": "Page 7",
+      "label": "Wie sehr stimmen Sie der folgenden Aussage zu?\nWenn ich mit dem Auto zu einem neuen Ziel fahre, dann benutze ich regelmäßig ein Navigationssystem.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sehr stimmen Sie der folgenden Aussage zu?\nWenn ich mit dem Auto zu einem neuen Ziel fahre, dann benutze ich regelmäßig ein Navigationssystem.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme gar nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "stimme vollkommen zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 8": {
+      "question": "Page 8",
+      "name": "Page 8",
+      "label": "Wie sehr stimmen Sie der folgenden Aussage zu?\nWenn ich in einer fremden Stadt als Fußgänger unterwegs bin, nutze ich eine Navigationsanwendung auf meinem Smartphone (bzw. ein mobiles Navigationssystem), um mich zu orientieren und meinen Weg zu finden.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sehr stimmen Sie der folgenden Aussage zu?\nWenn ich in einer fremden Stadt als Fußgänger unterwegs bin, nutze ich eine Navigationsanwendung auf meinem Smartphone (bzw. ein mobiles Navigationssystem), um mich zu orientieren und meinen Weg zu finden.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme gar nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "stimme vollkommen zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 9": {
+      "question": "Page 9",
+      "name": "Page 9",
+      "label": "Wie sehr stimmen Sie der folgenden Aussage zu?\nWenn ich eine neue Route plane, benutze ich regelmäßig gedrucktes Kartenmaterial.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sehr stimmen Sie der folgenden Aussage zu?\nWenn ich eine neue Route plane, benutze ich regelmäßig gedrucktes Kartenmaterial.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme gar nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "stimme vollkommen zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 10": {
+      "question": "Page 10",
+      "name": "Page 10",
+      "label": "Wie sehr stimmen Sie der folgenden Aussage zu?\nWenn ich eine neue Route plane, nutze ich regelmäßig einen Routenplaner im Internet.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sehr stimmen Sie der folgenden Aussage zu?\nWenn ich eine neue Route plane, nutze ich regelmäßig einen Routenplaner im Internet.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme gar nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "stimme vollkommen zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 11": {
+      "question": "Page 11",
+      "name": "Page 11",
+      "label": "Wie sehr stimmen Sie der folgenden Aussage zu?\nMein Orientierungssinn ist sehr gut.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sehr stimmen Sie der folgenden Aussage zu?\nMein Orientierungssinn ist sehr gut.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme gar nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "stimme vollkommen zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 12": {
+      "question": "Page 12",
+      "name": "Page 12",
+      "label": "Wie sehr stimmen Sie der folgenden Aussage zu?\nIch kann spontan zeigen, wo Norden, Süden, Osten und Westen liegt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sehr stimmen Sie der folgenden Aussage zu?\nIch kann spontan zeigen, wo Norden, Süden, Osten und Westen liegt.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme gar nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "stimme vollkommen zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 13": {
+      "question": "Page 13",
+      "name": "Page 13",
+      "label": "Wie sehr stimmen Sie der folgenden Aussage zu?\nIch kann gut Karten lesen, um mich zu orientieren und zu navigieren.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sehr stimmen Sie der folgenden Aussage zu?\nIch kann gut Karten lesen, um mich zu orientieren und zu navigieren.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme gar nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "stimme vollkommen zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 14": {
+      "question": "Page 14",
+      "name": "Page 14",
+      "label": "Wie sehr stimmen Sie der folgenden Aussage zu?\nOhne mein Smartphone mit Navigationsanwendung könnte ich mich in einer unbekannten Umgebung nicht zurechtfinden.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sehr stimmen Sie der folgenden Aussage zu?\nOhne mein Smartphone mit Navigationsanwendung könnte ich mich in einer unbekannten Umgebung nicht zurechtfinden.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme gar nicht zu"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "stimme vollkommen zu"
+            },
+            {
+              "value": -97,
+              "label": "Ich verwende keine Navigationsanwendung auf einem Smartphone."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 15": {
+      "question": "Page 15",
+      "name": "Page 15",
+      "label": "Stellen Sie sich vor, Sie hätten die Wahl zwischen zwei verschiedenen Jobangeboten. Im Folgenden sind einige Eigenschaften der beiden Jobangebote aufgeführt.\nGröße des Unternehmens: Jobangebot A [expCP68056a_1]; Jobangebot B [expCP68056a_2]\nEntfernung zu Ihrem Wohnort: Jobangebot A [expCP68056b_1]; Jobangebot B [expCP68056b_2]\nBranche: Jobangebot A [expCP68056c_1]; Jobangebot B [expCP68056c_2]\nGehalt pro Monat: Jobangebot A [expCP68056d_1]; Jobangebot B [expCP68056d_2]\nMerkmale Ihrer Tätigkeit: Jobangebot A [expCP68056e_1], [expCP68056f_1], [expCP68056g_1]; Jobangebot B [expCP68056e_2], [expCP68056f_2], [expCP68056g_2]\nSonstige Leistungen: Jobangebot A [expCP68056h_1]; Jobangebot B [expCP68056h_2]\n\nAuch wenn Sie unentschieden sind oder keine der Möglichkeiten wählen würden, würden Sie eher Jobangebot A oder Jobangebot B wählen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich vor, Sie hätten die Wahl zwischen zwei verschiedenen Jobangeboten. Im Folgenden sind einige Eigenschaften der beiden Jobangebote aufgeführt.\nGröße des Unternehmens: Jobangebot A [expCP68056a_1]; Jobangebot B [expCP68056a_2]\nEntfernung zu Ihrem Wohnort: Jobangebot A [expCP68056b_1]; Jobangebot B [expCP68056b_2]\nBranche: Jobangebot A [expCP68056c_1]; Jobangebot B [expCP68056c_2]\nGehalt pro Monat: Jobangebot A [expCP68056d_1]; Jobangebot B [expCP68056d_2]\nMerkmale Ihrer Tätigkeit: Jobangebot A [expCP68056e_1], [expCP68056f_1], [expCP68056g_1]; Jobangebot B [expCP68056e_2], [expCP68056f_2], [expCP68056g_2]\nSonstige Leistungen: Jobangebot A [expCP68056h_1]; Jobangebot B [expCP68056h_2]\n\nAuch wenn Sie unentschieden sind oder keine der Möglichkeiten wählen würden, würden Sie eher Jobangebot A oder Jobangebot B wählen?",
+          "description": "In der folgenden Frage bekommen die Befragten zwei fiktive Jobangebote in tabellarischer Form vorgestellt und sollen dann entscheiden, welches der beiden Angebote sie wählen würden. Jedem Befragten soll randomisiert zwei Jobangebote jeweils bestehend aus einer Kombination von Werten verschiedener Attribute zugewiesen werden. Die in der jeweiligen Entscheidung verwendeten Werte der Attribute sollen in einer eigenen Variable abgelegt werden. Dabei sollen beide Angebote nicht in allen Attributen genau gleich sein.\n\n[b[Attribute: Größe A / Größe B]b]\n[i[Filter:]i]\n- wenn expCP68056a_1 = 1, dann: Kleinstunternehmen mit 7 Mitarbeitern\n- wenn expCP68056a_1 = 2, dann: Kleines Unternehmen mit 45 Mitarbeitern\n- wenn expCP68056a_1 = 3, dann: Mittleres Unternehmen mit 220 Mitarbeitern\n- wenn expCP68056a_1 = 4, dann: Großunternehmen mit 3000 Mitarbeitern\n\n- wenn expCP68056a_2 = 1, dann: Kleinstunternehmen mit 7 Mitarbeitern\n- wenn expCP68056a_2 = 2, dann: Kleines Unternehmen mit 45 Mitarbeitern\n- wenn expCP68056a_2 = 3, dann: Mittleres Unternehmen mit 220 Mitarbeitern\n- wenn expCP68056a_2 = 4, dann: Großunternehmen mit 3000 Mitarbeitern\n\n[b[Attribute: Entfernung A / Entfernung B]b]\n[i[Filter:]i]\n- wenn expCP68056b_1 = 1, dann: 5 km\n- wenn expCP68056b_1 = 2, dann: 17 km\n- wenn expCP68056b_1 = 3, dann: 35 km\n- wenn expCP68056b_1 = 4, dann: 60 km\n- wenn expCP68056b_1 = 5, dann: 90 km\n\n- wenn expCP68056b_2 = 1, dann: 5 km\n- wenn expCP68056b_2 = 2, dann: 17 km\n- wenn expCP68056b_2 = 3, dann: 35 km\n- wenn expCP68056b_2 = 4, dann: 60 km\n- wenn expCP68056b_2 = 5, dann: 90 km\n\n[b[Attribute: Branche A / Branche B]b]\n[i[Filter:]i]\n- wenn expCP68056c_1 = 1, dann: Verarbeitendes Gewerbe im Automobilbereich\n- wenn expCP68056c_1 = 2, dann: Produzierendes Gewerbe im Energiebereich\n- wenn expCP68056c_1 = 3, dann: Baugewerbe\n- wenn expCP68056c_1 = 4, dann: Dienstleistungsgewerbe im Bereich Finanzen und Versicherung\n- wenn expCP68056c_1 = 5, dann: Dienstleistungsgewerbe im Bereich Kultur und Unterhaltung\n- wenn expCP68056c_1 = 6, dann: Dienstleistungsgewerbe im Bereich Ernährung und Gesundheit\n\n- wenn expCP68056c_2 = 1, dann: Verarbeitendes Gewerbe im Automobilbereich\n- wenn expCP68056c_2 = 2, dann: Produzierendes Gewerbe im Energiebereich\n- wenn expCP68056c_2 = 3, dann: Baugewerbe\n- wenn expCP68056c_2 = 4, dann: Dienstleistungsgewerbe im Bereich Finanzen und Versicherung\n- wenn expCP68056c_2 = 5, dann: Dienstleistungsgewerbe im Bereich Kultur und Unterhaltung\n- wenn expCP68056c_2 = 6, dann: Dienstleistungsgewerbe im Bereich Ernährung und Gesundheit\n\n[b[Attribute: Gehalt A / Gehalt B]b]\n[i[Filter:]i]\n- wenn expCP68056d_1 = 1, dann: 1150 Euro netto\n- wenn expCP68056d_1 = 2, dann: 1900 Euro netto\n- wenn expCP68056d_1 = 3, dann: 2250 Euro netto\n- wenn expCP68056d_1 = 4, dann: 3200 Euro netto\n- wenn expCP68056d_1 = 5, dann: 4550 Euro netto\n- wenn expCP68056d_1 = 6, dann: 7300 Euro netto\n\n- wenn expCP68056d_2 = 1, dann: 1150 Euro netto\n- wenn expCP68056d_2 = 2, dann: 1900 Euro netto\n- wenn expCP68056d_2 = 3, dann: 2250 Euro netto\n- wenn expCP68056d_2 = 4, dann: 3200 Euro netto\n- wenn expCP68056d_2 = 5, dann: 4550 Euro netto\n- wenn expCP68056d_2 = 6, dann: 7300 Euro netto\n\n[b[Attribute: Tätigkeitsmerkmal_1 A / Tätigkeitsmerkmal_1 B]b]\n[i[Filter:]i]\n- wenn expCP68056e_1 = 1, dann: Die Tätigkeit erfordert vor allem soziales Geschick und menschliches Einfühlungsvermögen.\n- wenn expCP68056e_1 = 2, dann: Die Tätigkeit erfordert vor allem handwerkliches Geschick und körperliche Fitness.\n- wenn expCP68056e_1 = 3, dann: Die Tätigkeit erfordert vor allem geistiges Geschick und kreative Lösungskompetenz.\n\n- wenn expCP68056e_2 = 1, dann: Die Tätigkeit erfordert vor allem soziales Geschick und menschliches Einfühlungsvermögen.\n- wenn expCP68056e_2 = 2, dann: Die Tätigkeit erfordert vor allem handwerkliches Geschick und körperliche Fitness.\n- wenn expCP68056e_2 = 3, dann: Die Tätigkeit erfordert vor allem geistiges Geschick und kreative Lösungskompetenz.\n\n[b[Attribute: Tätigkeitsmerkmal_2 A / Tätigkeitsmerkmal_2 B]b]\n[i[Filter:]i]\n- wenn expCP68056f_1 = 1, dann: Die Tätigkeit ist wertvoll und nützlich.\n- wenn expCP68056f_1 = 2, dann: [leer]\n- wenn expCP68056f_1 = 3, dann: Die Tätigkeit ist wertlos und nützt niemandem.\n\n- wenn expCP68056f_2 = 1, dann: Die Tätigkeit ist wertvoll und nützlich.\n- wenn expCP68056f_2 = 2, dann: [leer]\n- wenn expCP68056f_2 = 3, dann: Die Tätigkeit ist wertlos und nützt niemandem.\n\n[b[Attribute: Tätigkeitsmerkmal_3 A / Tätigkeitsmerkmal_3 B]b]\n[i[Filter:]i]\n- wenn expCP68056g_1 = 1, dann: Die Tätigkeit ist krisensicher.\n- wenn expCP68056g_1 = 2, dann: Die Tätigkeit ist leicht konjunkturabhängig.\n- wenn expCP68056g_1 = 3, dann: Die Tätigkeit ist stark konjunkturabhängig.\n\n- wenn expCP68056g_2 = 1, dann: Die Tätigkeit ist krisensicher.\n- wenn expCP68056g_2 = 2, dann: Die Tätigkeit ist leicht konjunkturabhängig.\n- wenn expCP68056g_2 = 3, dann: Die Tätigkeit ist stark konjunkturabhängig.\n\n[b[Attribute: Sonstige Leistungen A / Sonstige Leistungen B]b]\n[i[Filter:]i]\n- wenn expCP68056h_1 = 1, dann: Betriebseigene Kinderbetreuung\n- wenn expCP68056h_1 = 2, dann: Bezahlte Weiterbildungsmöglichkeiten\n- wenn expCP68056h_1 = 3, dann: Urlaubsgeld\n- wenn expCP68056h_1 = 4, dann: Dienstwagen\n- wenn expCP68056h_1 = 5, dann: Keine\n\n- wenn expCP68056h_2 = 1, dann: Betriebseigene Kinderbetreuung\n- wenn expCP68056h_2 = 2, dann: Bezahlte Weiterbildungsmöglichkeiten\n- wenn expCP68056h_2 = 3, dann: Urlaubsgeld\n- wenn expCP68056h_2 = 4, dann: Dienstwagen\n- wenn expCP68056h_2 = 5, dann: Keine",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Jobangebot A"
+            },
+            {
+              "value": 2,
+              "label": "Jobangebot B"
+            },
+            {
+              "value": -97,
+              "label": "Keines von beiden, da ich nicht (mehr) im Erwerbsleben stehe."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 16": {
+      "question": "Page 16",
+      "name": "Page 16",
+      "label": "Stellen Sie sich vor, Sie hätten die Wahl zwischen zwei verschiedenen Kandidatinnen oder Kandidaten für den Deutschen Bundestag. Im Folgenden sind einige Eigenschaften der beiden Personen aufgeführt.\nAlter: wenn expCP68057b_1 = 1: Kandidatin A / wenn expCP68057b_1 = 2: Kandidat A [expCP68057a_1]; wenn expCP68057b_2 = 1: Kandidatin B / wenn expCP68057b_2 = 2: Kandidat B [expCP68057a_2]\nGeschlecht: wenn expCP68057b_1 = 1: Kandidatin A / wenn expCP68057b_1 = 2: Kandidat A [expCP68057b_1];  wenn expCP68057b_2 = 1: Kandidatin B / wenn expCP68057b_2 = 2: Kandidat B  [expCP68057b_2]\nBeruf: wenn expCP68057b_1 = 1: Kandidatin A / wenn expCP68057b_1 = 2: Kandidat A [expCP68057c_1]; wenn expCP68057b_2 = 1: Kandidatin B / wenn expCP68057b_2 = 2: Kandidat B [expCP68057c_2]\nPartei:  wenn expCP68057b_1 = 1: Kandidatin A / wenn expCP68057b_1 = 2: Kandidat A [expCP68057d_1]; wenn expCP68057b_2 = 1: Kandidatin B / wenn expCP68057b_2 = 2: Kandidat B [expCP68057d_2]\nPositionen: wenn expCP68057b_1 = 1: Kandidatin A / wenn expCP68057b_1 = 2: Kandidat A [expCP68057e_1], [expCP68057f_1], [expCP68057g_1];  wenn expCP68057b_2 = 1: Kandidatin B / wenn expCP68057b_2 = 2: Kandidat B [expCP68057e_2], [expCP68057f_2], [expCP68057g_2]\nHobbies: wenn expCP68057b_1 = 1: Kandidatin A / wenn expCP68057b_1 = 2: Kandidat A [expCP68057h_1]; wenn expCP68057b_2 = 1: Kandidatin B / wenn expCP68057b_2 = 2: Kandidat B [expCP68057h_2]\n\nAuch wenn Sie unentschieden sind oder keine der Möglichkeiten wählen würden, würden Sie eher [wenn expCP68057b_1 = 1:Kandidatin A][wenn expCP68057b_1 = 2:Kandidat A] oder [wenn expCP68057b_2 = 1:Kandidatin B][wenn expCP68057b_2 = 2:Kandidat B] wählen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich vor, Sie hätten die Wahl zwischen zwei verschiedenen Kandidatinnen oder Kandidaten für den Deutschen Bundestag. Im Folgenden sind einige Eigenschaften der beiden Personen aufgeführt.\nAlter: wenn expCP68057b_1 = 1: Kandidatin A / wenn expCP68057b_1 = 2: Kandidat A [expCP68057a_1]; wenn expCP68057b_2 = 1: Kandidatin B / wenn expCP68057b_2 = 2: Kandidat B [expCP68057a_2]\nGeschlecht: wenn expCP68057b_1 = 1: Kandidatin A / wenn expCP68057b_1 = 2: Kandidat A [expCP68057b_1];  wenn expCP68057b_2 = 1: Kandidatin B / wenn expCP68057b_2 = 2: Kandidat B  [expCP68057b_2]\nBeruf: wenn expCP68057b_1 = 1: Kandidatin A / wenn expCP68057b_1 = 2: Kandidat A [expCP68057c_1]; wenn expCP68057b_2 = 1: Kandidatin B / wenn expCP68057b_2 = 2: Kandidat B [expCP68057c_2]\nPartei:  wenn expCP68057b_1 = 1: Kandidatin A / wenn expCP68057b_1 = 2: Kandidat A [expCP68057d_1]; wenn expCP68057b_2 = 1: Kandidatin B / wenn expCP68057b_2 = 2: Kandidat B [expCP68057d_2]\nPositionen: wenn expCP68057b_1 = 1: Kandidatin A / wenn expCP68057b_1 = 2: Kandidat A [expCP68057e_1], [expCP68057f_1], [expCP68057g_1];  wenn expCP68057b_2 = 1: Kandidatin B / wenn expCP68057b_2 = 2: Kandidat B [expCP68057e_2], [expCP68057f_2], [expCP68057g_2]\nHobbies: wenn expCP68057b_1 = 1: Kandidatin A / wenn expCP68057b_1 = 2: Kandidat A [expCP68057h_1]; wenn expCP68057b_2 = 1: Kandidatin B / wenn expCP68057b_2 = 2: Kandidat B [expCP68057h_2]\n\nAuch wenn Sie unentschieden sind oder keine der Möglichkeiten wählen würden, würden Sie eher [wenn expCP68057b_1 = 1:Kandidatin A][wenn expCP68057b_1 = 2:Kandidat A] oder [wenn expCP68057b_2 = 1:Kandidatin B][wenn expCP68057b_2 = 2:Kandidat B] wählen?",
+          "description": "In der folgenden Frage bekommen die Befragten zwei fiktive Kandidaten für den Deutschen Bundestag in tabellarischer Form vorgestellt und sollen dann entscheiden, welchen der beiden Kandidaten sie wählen würden. Jedem Befragten soll randomisiert zwei Kandidaten jeweils bestehend aus einer Kombination von Werten verschiedener Attribute zugewiesen werden. Die in der jeweiligen Entscheidung verwendeten Werte der Attribute sollen in einer eigenen Variable abgelegt werden. Dabei sollen die KandidatInnen nicht in allen Attributen genau gleich sein.\n\n[b[Attribute: Alter A / Alter B]b]\n[i[Filter:]i]\n- wenn expCP68057a_1 = 1, dann: 38 Jahre\n- wenn expCP68057a_1 = 2, dann: 46 Jahre\n- wenn expCP68057a_1 = 3, dann: 54 Jahre\n- wenn expCP68057a_1 = 4, dann: 62 Jahre\n- wenn expCP68057a_1 = 5, dann: 70 Jahre\n\n- wenn expCP68057a_2 = 1, dann: 38 Jahre\n- wenn expCP68057a_2 = 2, dann: 46 Jahre\n- wenn expCP68057a_2 = 3, dann: 54 Jahre\n- wenn expCP68057a_2 = 4, dann: 62 Jahre\n- wenn expCP68057a_2 = 5, dann: 70 Jahre\n\n[b[Attribute: Geschlecht A / Geschlecht B]b]\n[i[Filter:]i]\n- wenn expCP68057b_1 = 1, dann: Weiblich\n- wenn expCP68057b_1 = 2, dann: Männlich\n\n- wenn expCP68057b_2 = 1, dann: Weiblich\n- wenn expCP68057b_2 = 2, dann: Männlich\n\n[b[Attribute: Beruf A / Beruf B]b]\n[i[Filter:]i]\n[Wenn expCP68057b_1 = 2:\n- wenn expCP68057c_1 = 1, dann: Rechtsanwalt\n- wenn expCP68057c_1 = 2, dann: Selbständiger Unternehmer\n- wenn expCP68057c_1 = 3, dann: Lehrer\n- wenn expCP68057c_1 = 4, dann: Handwerker\n- wenn expCP68057c_1 = 5, dann: kein Berufsabschluss]\n\n[Wenn expCP68057b_1 = 1:\n- wenn expCP68057c_1 = 1, dann: Rechtsanwältin\n- wenn expCP68057c_1 = 2, dann: Selbständige Unternehmerin\n- wenn expCP68057c_1 = 3, dann: Lehrerin\n- wenn expCP68057c_1 = 4, dann: Handwerkerin\n- wenn expCP68057c_1 = 5, dann: kein Berufsabschluss]\n\n[Wenn expCP68057b_2 = 2:\n- wenn expCP68057c_2 = 1, dann: Rechtsanwalt\n- wenn expCP68057c_2 = 2, dann: Selbständiger Unternehmer\n- wenn expCP68057c_2 = 3, dann: Lehrer\n- wenn expCP68057c_2 = 4, dann: Handwerker\n- wenn expCP68057c_2 = 5, dann: kein Berufsabschluss]\n\n[Wenn expCP68057b_2 = 1:\n- wenn expCP68057c_2 = 1, dann: Rechtsanwältin\n- wenn expCP68057c_2 = 2, dann: Selbständige Unternehmerin\n- wenn expCP68057c_2 = 3, dann: Lehrerin\n- wenn expCP68057c_2 = 4, dann: Handwerkerin\n- wenn expCP68057c_2 = 5, dann: kein Berufsabschluss]\n\n[b[Attribute: Partei A / Partei B]b]\n[i[Filter:]i]\n- wenn expCP68057d_1 = 1, dann: CDU \n- wenn expCP68057d_1 = 2, dann: SPD \n- wenn expCP68057d_1 = 3, dann: Grüne\n- wenn expCP68057d_1 = 4, dann: AfD \n- wenn expCP68057d_1 = 5, dann: Die Linke\n- wenn expCP68057d_1 = 6, dann: FDP\n- wenn expCP68057d_1 = 7, dann: parteilos\n\n- wenn expCP68057d_2 = 1, dann: CDU \n- wenn expCP68057d_2 = 2, dann: SPD \n- wenn expCP68057d_2 = 3, dann: Grüne\n- wenn expCP68057d_2 = 4, dann: AfD \n- wenn expCP68057d_2 = 5, dann: Die Linke\n- wenn expCP68057d_2 = 6, dann: FDP\n- wenn expCP68057d_2 = 7, dann: parteilos\n\n[b[Attribute: Position_1 A / Position_1 B]b]\n[i[Filter:]i]\n- wenn expCP68057e_1 = 1, dann: Die staatlichen Sozialleistungen sollen ausgebaut werden.\n- wenn expCP68057e_1 = 2, dann: Die staatlichen Sozialleistungen sollen weder ausgebaut noch eingeschränkt werden.\n- wenn expCP68057e_1 = 3, dann: Die staatlichen Sozialleistungen sollen eingeschränkt werden.\n\n- wenn expCP68057e_2 = 1, dann: Die staatlichen Sozialleistungen sollen ausgebaut werden.\n- wenn expCP68057e_2 = 2, dann: Die staatlichen Sozialleistungen sollen weder ausgebaut noch eingeschränkt werden.\n- wenn expCP68057e_2 = 3, dann: Die staatlichen Sozialleistungen sollen eingeschränkt werden.\n\n[b[Attribute: Position_2 A / Position_2 B]b]\n[i[Filter:]i]\n- wenn expCP68057f_1 = 1, dann: Die Politik sollte alle Bürger mit Respekt behandeln.\n- wenn expCP68057f_1 = 2, dann: [leer]\n- wenn expCP68057f_1 = 3, dann: Die Politik sollte Bürger wie unmündige Kinder behandeln.\n\n- wenn expCP68057f_2 = 1, dann: Die Politik sollte alle Bürger mit Respekt behandeln.\n- wenn expCP68057f_2 = 2, dann: [leer]\n- wenn expCP68057f_2 = 3, dann: Die Politik sollte Bürger wie unmündige Kinder behandeln.\n\n[b[Attribute: Position_3 A / Position_3 B]b]\n[i[Filter:]i]\n- wenn expCP68057g_1 = 1, dann: Die Zuzugsmöglichkeiten von Ausländern sollen erleichtert werden.\n- wenn expCP68057g_1 = 2, dann: Die Zuzugsmöglichkeiten von Ausländern sollen weder eingeschränkt noch erleichtert werden.\n- wenn expCP68057g_1 = 3, dann: Die Zuzugsmöglichkeiten von Ausländern sollen eingeschränkt werden.\n\n- wenn expCP68057g_2 = 1, dann: Die Zuzugsmöglichkeiten von Ausländern sollen erleichtert werden.\n- wenn expCP68057g_2 = 2, dann: Die Zuzugsmöglichkeiten von Ausländern sollen weder eingeschränkt noch erleichtert werden.\n- wenn expCP68057g_2 = 3, dann: Die Zuzugsmöglichkeiten von Ausländern sollen eingeschränkt werden.\n\n[b[Attribute: Hobbies A / Hobbies B]b]\n[i[Filter:]i]\n- wenn expCP68057h_1 = 1, dann: Verbringt gerne Zeit mit Freunden\n- wenn expCP68057h_1 = 2, dann: Hört gerne Rockmusik\n- wenn expCP68057h_1 = 3, dann: Fährt gerne Mountain-Bike\n- wenn expCP68057h_1 = 4, dann: Sieht gerne Sport im Fernsehen\n- wenn expCP68057h_1 = 5, dann: Kocht gerne\n\n- wenn expCP68057h_2 = 1, dann: Verbringt gerne Zeit mit Freunden\n- wenn expCP68057h_2 = 2, dann: Hört gerne Rockmusik\n- wenn expCP68057h_2 = 3, dann: Fährt gerne Mountain-Bike\n- wenn expCP68057h_2 = 4, dann: Sieht gerne Sport im Fernsehen\n- wenn expCP68057h_2 = 5, dann: Kocht gerne",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "[wenn expCP68057b_1 = 1:Kandidatin A] [wenn expCP68057b_1 = 2:Kandidat A]"
+            },
+            {
+              "value": 2,
+              "label": "[wenn expCP68057b_2 = 1:Kandidatin B] [wenn expCP68057b_2 = 2:Kandidat B]"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 17": {
+      "question": "Page 17",
+      "name": "Page 17",
+      "label": "Stellen Sie sich vor, Sie hätten die Wahl zwischen zwei neuen Wohnorten. Im Folgenden sind einige Eigenschaften der beiden Wohnorte aufgeführt.\nOrtsgröße: Wohnort A [expCP68058a_1]; Wohnort B [expCP68058a_2]\nMietpreis: Wohnort A [expCP68058b_1]; Wohnort B [expCP68058b_2]\nVerkehrsanbindung: Wohnort A [expCP68058c_1]; Wohnort B [expCP68058c_2]\nAusländeranteil: Wohnort A [expCP68058d_1]; Wohnort B [expCP68058d_2]\nEinwohner: Wohnort A [expCP68058e_1], [expCP68058f_1], [expCP68058g_1]; Wohnort B [expCP68058e_2], [expCP68058f_2], [expCP68058g_2]\nWeitere Besonderheiten: Wohnort A [expCP68058h_1]; Wohnort B [expCP68058h_2]\n\nAuch wenn Sie unentschieden sind oder keine der Möglichkeiten wählen würden, würden Sie eher Wohnort A oder Wohnort B wählen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich vor, Sie hätten die Wahl zwischen zwei neuen Wohnorten. Im Folgenden sind einige Eigenschaften der beiden Wohnorte aufgeführt.\nOrtsgröße: Wohnort A [expCP68058a_1]; Wohnort B [expCP68058a_2]\nMietpreis: Wohnort A [expCP68058b_1]; Wohnort B [expCP68058b_2]\nVerkehrsanbindung: Wohnort A [expCP68058c_1]; Wohnort B [expCP68058c_2]\nAusländeranteil: Wohnort A [expCP68058d_1]; Wohnort B [expCP68058d_2]\nEinwohner: Wohnort A [expCP68058e_1], [expCP68058f_1], [expCP68058g_1]; Wohnort B [expCP68058e_2], [expCP68058f_2], [expCP68058g_2]\nWeitere Besonderheiten: Wohnort A [expCP68058h_1]; Wohnort B [expCP68058h_2]\n\nAuch wenn Sie unentschieden sind oder keine der Möglichkeiten wählen würden, würden Sie eher Wohnort A oder Wohnort B wählen?",
+          "description": "In der folgenden Frage bekommen die Befragten zwei fiktive Wohnorte in tabellarischer Form vorgestellt und sollen dann entscheiden, welchen der beiden Wohnorte sie wählen würden. Jedem Befragten soll randomisiert zwei Wohnorte jeweils bestehend aus einer Kombination von Werten verschiedener Attribute zugewiesen werden. Die in der jeweiligen Entscheidung verwendeten Werte der Attribute sollen in einer eigenen Variable abgelegt werden. Dabei sollen die beiden Wohnorte nicht in allen Attributen genau gleich sein.\n\n[b[Attribute: Ortsgröße A / Ortsgröße B]b]\n[i[Filter:]i]\n- wenn expCP68058a_1 = 1, dann: Dorf mit 6.000 Einwohnern\n- wenn expCP68058a_1 = 2, dann: Kleinstadt mit 19.000 Einwohnern\n- wenn expCP68058a_1 = 3, dann: Mittelgroße Stadt mit 75.000 Einwohnern\n- wenn expCP68058a_1 = 4, dann: Großstadt mit 220.000 Einwohnern\n\n- wenn expCP68058a_2 = 1, dann: Dorf mit 6.000 Einwohnern\n- wenn expCP68058a_2 = 2, dann: Kleinstadt mit 19.000 Einwohnern\n- wenn expCP68058a_2 = 3, dann: Mittelgroße Stadt mit 75.000 Einwohnern\n- wenn expCP68058a_2 = 4, dann: Großstadt mit 220.000 Einwohnern\n\n[b[Attribute: Mietpreis A / Mietpreis B]b]\n[i[Filter:]i]\n- wenn expCP68058b_1 = 1, dann: 10 Euro pro m2\n- wenn expCP68058b_1 = 2, dann: 14 Euro pro m2\n- wenn expCP68058b_1 = 3, dann: 18 Euro pro m2\n- wenn expCP68058b_1 = 4, dann: 22 Euro pro m2\n\n- wenn expCP68058b_2 = 1, dann: 10 Euro pro m2\n- wenn expCP68058b_2 = 2, dann: 14 Euro pro m2\n- wenn expCP68058b_2 = 3, dann: 18 Euro pro m2\n- wenn expCP68058b_2 = 4, dann: 22 Euro pro m2\n\n[b[Attribute: Verkehrsanbindung A / Verkehrsanbindung B]b]\n[i[Filter:]i]\n- wenn expCP68058c_1 = 1, dann: Autobahnanschluss\n- wenn expCP68058c_1 = 2, dann: Fernverkehrsbahnhof\n- wenn expCP68058c_1 = 3, dann: Autobahnanschluss und Fernverkehrsbahnhof   \n- wenn expCP68058c_1 = 4, dann: Weder Autobahnanschluss noch Fernverkehrsbahnhof\n\n- wenn expCP68058c_2 = 1, dann: Autobahnanschluss\n- wenn expCP68058c_2 = 2, dann: Fernverkehrsbahnhof\n- wenn expCP68058c_2 = 3, dann: Autobahnanschluss und Fernverkehrsbahnhof   \n- wenn expCP68058c_2 = 4, dann: Weder Autobahnanschluss noch Fernverkehrsbahnhof\n\n[b[Attribute: Ausländeranteil A / Ausländeranteil B]b]\n[i[Filter:]i]\n- wenn expCP68058d_1 = 1, dann: 2 %\n- wenn expCP68058d_1 = 2, dann: 5 %\n- wenn expCP68058d_1 = 3, dann: 12 %\n- wenn expCP68058d_1 = 4, dann: 24 %\n- wenn expCP68058d_1 = 5, dann: 36 %\n\n- wenn expCP68058d_2 = 1, dann: 2 %\n- wenn expCP68058d_2 = 2, dann: 5 %\n- wenn expCP68058d_2 = 3, dann: 12 %\n- wenn expCP68058d_2 = 4, dann: 24 %\n- wenn expCP68058d_2 = 5, dann: 36 %\n\n[b[Attribute: Einwohner_1 A / Einwohner_1 B]b]\n[i[Filter:]i]\n- wenn expCP68058e_1 = 1, dann: Die Einwohner dieses Ortes sind politisch mehrheitlich progressiv eingestellt.\n- wenn expCP68058e_1 = 2, dann: Die Einwohner dieses Ortes sind politisch zu gleichen Teilen progressiv und konservativ eingestellt. \n- wenn expCP68058e_1 = 3, dann: Die Einwohner dieses Ortes sind politisch mehrheitlich konservativ eingestellt.\n\n- wenn expCP68058e_2 = 1, dann: Die Einwohner dieses Ortes sind politisch mehrheitlich progressiv eingestellt.\n- wenn expCP68058e_2 = 2, dann: Die Einwohner dieses Ortes sind politisch zu gleichen Teilen progressiv und konservativ eingestellt. \n- wenn expCP68058e_2 = 3, dann: Die Einwohner dieses Ortes sind politisch mehrheitlich konservativ eingestellt.\n\n[b[Attribute: Einwohner_2 A / Einwohner_2 B]b]\n[i[Filter:]i]\n- wenn expCP68058f_1 = 1, dann: Die Einwohner dieses Ortes behandeln sich gegenseitig mit Respekt.\n- wenn expCP68058f_1 = 2, dann: [leer]\n- wenn expCP68058f_1 = 3, dann: Die Einwohner dieses Ortes sehen aufeinander herab.\n\n- wenn expCP68058f_2 = 1, dann: Die Einwohner dieses Ortes behandeln sich gegenseitig mit Respekt.\n- wenn expCP68058f_2 = 2, dann: [leer]\n- wenn expCP68058f_2 = 3, dann: Die Einwohner dieses Ortes sehen aufeinander herab.\n\n[b[Attribute: Einwohner_3 A / Einwohner_3 B]b]\n[i[Filter:]i]\n- wenn expCP68058g_1 = 1, dann: Die Einwohner dieses Ortes haben sehr viel Geld.\n- wenn expCP68058g_1 = 2, dann: Wie viel Geld die Einwohner dieses Ortes haben, ist sehr unterschiedlich.\n- wenn expCP68058g_1 = 3, dann: Die Einwohner dieses Ortes haben sehr wenig Geld.\n\n- wenn expCP68058g_2 = 1, dann: Die Einwohner dieses Ortes haben sehr viel Geld.\n- wenn expCP68058g_2 = 2, dann: Wie viel Geld die Einwohner dieses Ortes haben, ist sehr unterschiedlich.\n- wenn expCP68058g_2 = 3, dann: Die Einwohner dieses Ortes haben sehr wenig Geld.\n\n[b[Attribute: Besonderheit A / Besonderheit B]b]\n[i[Filter:]i]\n- wenn expCP68058h_1 = 1, dann: Vielfältiges Angebot an Natur und Erholung\n- wenn expCP68058h_1 = 2, dann: Hohe öffentliche Sicherheit und wenig Kriminalität\n- wenn expCP68058h_1 = 3, dann: Gute medizinische Versorgung\n- wenn expCP68058h_1 = 4, dann: Vielfältiges Angebot an Kultur und Gastronomie\n- wenn expCP68058h_1 = 5, dann: Gutes Angebot an Schulen und Kindergärten\n\n- wenn expCP68058h_2 = 1, dann: Vielfältiges Angebot an Natur und Erholung\n- wenn expCP68058h_2 = 2, dann: Hohe öffentliche Sicherheit und wenig Kriminalität\n- wenn expCP68058h_2 = 3, dann: Gute medizinische Versorgung\n- wenn expCP68058h_2 = 4, dann: Vielfältiges Angebot an Kultur und Gastronomie\n- wenn expCP68058h_2 = 5, dann: Gutes Angebot an Schulen und Kindergärten",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Wohnort A"
+            },
+            {
+              "value": 2,
+              "label": "Wohnort B"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 18": {
+      "question": "Page 18",
+      "name": "Page 18",
+      "label": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nDas, was ich in meiner beruflichen Tätigkeit mache, ist wertvoll und nützlich.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nDas, was ich in meiner beruflichen Tätigkeit mache, ist wertvoll und nützlich.",
+          "filter": "CP68021 = 1 (wenn Befragte erwerbstätig sind)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 19": {
+      "question": "Page 19",
+      "name": "Page 19",
+      "label": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nDas, was ich zur Gesellschaft beitrage, ist wertvoll und nützlich.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nDas, was ich zur Gesellschaft beitrage, ist wertvoll und nützlich.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 18,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 20": {
+      "question": "Page 20",
+      "name": "Page 20",
+      "label": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nDas, was ich zur Demokratie beitrage, ist wertvoll und nützlich.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nDas, was ich zur Demokratie beitrage, ist wertvoll und nützlich.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 19,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 21": {
+      "question": "Page 21",
+      "name": "Page 21",
+      "label": "Wir möchten Ihnen einige Fragen dazu stellen, wie Menschen Ihrer Meinung nach von der Politik behandelt werden sollten. Danach werden wir Ihnen einige Fragen dazu stellen, wie Menschen wie Sie tatsächlich von der Politik behandelt werden.\n\nWenn Sie daran denken, wie Menschen von der Politik behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Politik sollte alle Menschen mit Respekt behandeln.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wir möchten Ihnen einige Fragen dazu stellen, wie Menschen Ihrer Meinung nach von der Politik behandelt werden sollten. Danach werden wir Ihnen einige Fragen dazu stellen, wie Menschen wie Sie tatsächlich von der Politik behandelt werden.\n\nWenn Sie daran denken, wie Menschen von der Politik behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Politik sollte alle Menschen mit Respekt behandeln.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 20,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 22": {
+      "question": "Page 22",
+      "name": "Page 22",
+      "label": "Wenn Sie daran denken, wie Menschen von der Politik behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Politik sollte die Menschen ihre eigenen Entscheidungen treffen lassen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie daran denken, wie Menschen von der Politik behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Politik sollte die Menschen ihre eigenen Entscheidungen treffen lassen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 21,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 23": {
+      "question": "Page 23",
+      "name": "Page 23",
+      "label": "Wenn Sie daran denken, wie Menschen von der Politik behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Politik sollte alle Menschen als gleichwertig mit allen anderen behandeln.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie daran denken, wie Menschen von der Politik behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Politik sollte alle Menschen als gleichwertig mit allen anderen behandeln.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 22,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 24": {
+      "question": "Page 24",
+      "name": "Page 24",
+      "label": "Wenn Sie jetzt daran denken, wie die Politik Menschen wie Sie tatsächlich behandelt, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Politik behandelt Menschen wie mich mit Respekt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie jetzt daran denken, wie die Politik Menschen wie Sie tatsächlich behandelt, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Politik behandelt Menschen wie mich mit Respekt.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 23,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 25": {
+      "question": "Page 25",
+      "name": "Page 25",
+      "label": "Wenn Sie jetzt daran denken, wie die Politik Menschen wie Sie tatsächlich behandelt, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Politik lässt Menschen wie mich ihre eigenen Entscheidungen treffen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie jetzt daran denken, wie die Politik Menschen wie Sie tatsächlich behandelt, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Politik lässt Menschen wie mich ihre eigenen Entscheidungen treffen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 24,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 26": {
+      "question": "Page 26",
+      "name": "Page 26",
+      "label": "Wenn Sie jetzt daran denken, wie die Politik Menschen wie Sie tatsächlich behandelt, inwiefern würden Sie der folgenden Aussage zustimmen? \nDie Politik behandelt Menschen wie mich als gleichwertig mit allen anderen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie jetzt daran denken, wie die Politik Menschen wie Sie tatsächlich behandelt, inwiefern würden Sie der folgenden Aussage zustimmen? \nDie Politik behandelt Menschen wie mich als gleichwertig mit allen anderen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 25,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 27": {
+      "question": "Page 27",
+      "name": "Page 27",
+      "label": "Nun möchten wir Ihnen einige Fragen dazu stellen, wie Menschen Ihrer Meinung nach von der Gesellschaft behandelt werden sollten. Danach werden wir Ihnen einige Fragen dazu stellen, wie Menschen wie Sie tatsächlich von der Gesellschaft behandelt werden.\n\n\nWenn Sie daran denken, wie Menschen von der Gesellschaft behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Gesellschaft sollte alle Menschen mit Respekt behandeln.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nun möchten wir Ihnen einige Fragen dazu stellen, wie Menschen Ihrer Meinung nach von der Gesellschaft behandelt werden sollten. Danach werden wir Ihnen einige Fragen dazu stellen, wie Menschen wie Sie tatsächlich von der Gesellschaft behandelt werden.\n\n\nWenn Sie daran denken, wie Menschen von der Gesellschaft behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Gesellschaft sollte alle Menschen mit Respekt behandeln.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 26,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 28 ": {
+      "question": "Page 28 ",
+      "name": "Page 28 ",
+      "label": "Wenn Sie daran denken, wie Menschen von der Gesellschaft behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Gesellschaft sollte den die Menschen ihre eigenen Entscheidungen treffen lassen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie daran denken, wie Menschen von der Gesellschaft behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Gesellschaft sollte den die Menschen ihre eigenen Entscheidungen treffen lassen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 27,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 29": {
+      "question": "Page 29",
+      "name": "Page 29",
+      "label": "Wenn Sie daran denken, wie Menschen von der Gesellschaft behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Gesellschaft sollte alle Menschen als gleichwertig mit allen anderen behandeln.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie daran denken, wie Menschen von der Gesellschaft behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Gesellschaft sollte alle Menschen als gleichwertig mit allen anderen behandeln.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 28,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 30": {
+      "question": "Page 30",
+      "name": "Page 30",
+      "label": "Wenn Sie jetzt daran denken, wie die Gesellschaft Menschen wie Sie tatsächlich behandelt, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Gesellschaft behandelt Menschen wie mich mit Respekt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie jetzt daran denken, wie die Gesellschaft Menschen wie Sie tatsächlich behandelt, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Gesellschaft behandelt Menschen wie mich mit Respekt.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 29,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 31": {
+      "question": "Page 31",
+      "name": "Page 31",
+      "label": "Wenn Sie jetzt daran denken, wie die Gesellschaft Menschen wie Sie tatsächlich behandelt, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Gesellschaft lässt Menschen wie mich ihre eigenen Entscheidungen treffen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie jetzt daran denken, wie die Gesellschaft Menschen wie Sie tatsächlich behandelt, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Gesellschaft lässt Menschen wie mich ihre eigenen Entscheidungen treffen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 30,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 32": {
+      "question": "Page 32",
+      "name": "Page 32",
+      "label": "Wenn Sie jetzt daran denken, wie die Gesellschaft Menschen wie Sie tatsächlich behandelt, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Gesellschaft behandelt Menschen wie mich als gleichwertig mit allen anderen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie jetzt daran denken, wie die Gesellschaft Menschen wie Sie tatsächlich behandelt, inwiefern würden Sie der folgenden Aussage zustimmen?\nDie Gesellschaft behandelt Menschen wie mich als gleichwertig mit allen anderen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 31,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 33": {
+      "question": "Page 33",
+      "name": "Page 33",
+      "label": "Nun möchten wir Ihnen einige Fragen dazu stellen, wie Menschen Ihrer Meinung nach in der Arbeitswelt behandelt werden sollten. Danach werden wir Ihnen einige Fragen dazu stellen, wie Menschen wie Sie tatsächlich in der Arbeitswelt behandelt werden.\n\nWenn Sie daran denken, wie Menschen in der Arbeitswelt behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen?\nIn der Arbeitswelt sollten alle Menschen mit Respekt behandelt werden.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nun möchten wir Ihnen einige Fragen dazu stellen, wie Menschen Ihrer Meinung nach in der Arbeitswelt behandelt werden sollten. Danach werden wir Ihnen einige Fragen dazu stellen, wie Menschen wie Sie tatsächlich in der Arbeitswelt behandelt werden.\n\nWenn Sie daran denken, wie Menschen in der Arbeitswelt behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen?\nIn der Arbeitswelt sollten alle Menschen mit Respekt behandelt werden.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 32,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 34": {
+      "question": "Page 34",
+      "name": "Page 34",
+      "label": "Wenn Sie daran denken, wie Menschen in der Arbeitswelt behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen? \nIn der Arbeitswelt sollte man die Menschen ihre eigenen Entscheidungen treffen lassen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie daran denken, wie Menschen in der Arbeitswelt behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen? \nIn der Arbeitswelt sollte man die Menschen ihre eigenen Entscheidungen treffen lassen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 33,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 35": {
+      "question": "Page 35",
+      "name": "Page 35",
+      "label": "Wenn Sie daran denken, wie Menschen in der Arbeitswelt behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen? \nIn der Arbeitswelt sollten alle Menschen als gleichwertig mit allen anderen behandelt werden.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie daran denken, wie Menschen in der Arbeitswelt behandelt werden sollten, inwiefern würden Sie der folgenden Aussage zustimmen? \nIn der Arbeitswelt sollten alle Menschen als gleichwertig mit allen anderen behandelt werden.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 34,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 36": {
+      "question": "Page 36",
+      "name": "Page 36",
+      "label": "Wenn Sie jetzt daran denken, wie Menschen wie Sie in der Arbeitswelt tatsächlich behandelt werden, inwiefern würden Sie der folgenden Aussage zustimmen? \nIn der Arbeitswelt werden Menschen wie ich mit Respekt behandelt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie jetzt daran denken, wie Menschen wie Sie in der Arbeitswelt tatsächlich behandelt werden, inwiefern würden Sie der folgenden Aussage zustimmen? \nIn der Arbeitswelt werden Menschen wie ich mit Respekt behandelt.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 35,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 37": {
+      "question": "Page 37",
+      "name": "Page 37",
+      "label": "Wenn Sie jetzt daran denken, wie Menschen wie Sie in der Arbeitswelt tatsächlich behandelt werden, inwiefern würden Sie der folgenden Aussage zustimmen? \nIn der Arbeitswelt lässt man Menschen wie mich ihre eigenen Entscheidungen treffen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie jetzt daran denken, wie Menschen wie Sie in der Arbeitswelt tatsächlich behandelt werden, inwiefern würden Sie der folgenden Aussage zustimmen? \nIn der Arbeitswelt lässt man Menschen wie mich ihre eigenen Entscheidungen treffen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 36,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 38": {
+      "question": "Page 38",
+      "name": "Page 38",
+      "label": "Wenn Sie jetzt daran denken, wie Menschen wie Sie in der Arbeitswelt tatsächlich behandelt werden, inwiefern würden Sie der folgenden Aussage zustimmen? \nIn der Arbeitswelt werden Menschen wie ich als gleichwertig mit allen anderen behandelt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie jetzt daran denken, wie Menschen wie Sie in der Arbeitswelt tatsächlich behandelt werden, inwiefern würden Sie der folgenden Aussage zustimmen? \nIn der Arbeitswelt werden Menschen wie ich als gleichwertig mit allen anderen behandelt.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 37,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 39": {
+      "question": "Page 39",
+      "name": "Page 39",
+      "label": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nIch habe das Gefühl, dass die Politik auf Menschen wie mich herabsieht.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nIch habe das Gefühl, dass die Politik auf Menschen wie mich herabsieht.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 38,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 40": {
+      "question": "Page 40",
+      "name": "Page 40",
+      "label": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nMenschen wie ich werden von der Politik wie unmündige Kinder behandelt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nMenschen wie ich werden von der Politik wie unmündige Kinder behandelt.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 39,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 41": {
+      "question": "Page 41",
+      "name": "Page 41",
+      "label": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nMenschen wie ich werden von der Politik als Bürger zweiter Klasse behandelt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nMenschen wie ich werden von der Politik als Bürger zweiter Klasse behandelt.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 40,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 42": {
+      "question": "Page 42",
+      "name": "Page 42",
+      "label": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nIch habe das Gefühl, dass die Gesellschaft auf Menschen wie mich herabsieht.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nIch habe das Gefühl, dass die Gesellschaft auf Menschen wie mich herabsieht.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 41,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 43": {
+      "question": "Page 43",
+      "name": "Page 43",
+      "label": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nMenschen wie ich werden von der Gesellschaft wie unmündige Kinder behandelt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nMenschen wie ich werden von der Gesellschaft wie unmündige Kinder behandelt.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 42,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 44": {
+      "question": "Page 44",
+      "name": "Page 44",
+      "label": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nMenschen wie ich werden von der Gesellschaft als Bürger zweiter Klasse behandelt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nMenschen wie ich werden von der Gesellschaft als Bürger zweiter Klasse behandelt.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 43,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 45": {
+      "question": "Page 45",
+      "name": "Page 45",
+      "label": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nIch habe das Gefühl, dass man in der Arbeitswelt auf Menschen wie mich herabsieht.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nIch habe das Gefühl, dass man in der Arbeitswelt auf Menschen wie mich herabsieht.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 44,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 46": {
+      "question": "Page 46",
+      "name": "Page 46",
+      "label": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nMenschen wie ich werden in der Arbeitswelt wie unmündige Kinder behandelt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nMenschen wie ich werden in der Arbeitswelt wie unmündige Kinder behandelt.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 45,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 47": {
+      "question": "Page 47",
+      "name": "Page 47",
+      "label": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nMenschen wie ich werden in der Arbeitswelt als Bürger zweiter Klasse behandelt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwiefern würden Sie der folgenden Aussage zustimmen?\nMenschen wie ich werden in der Arbeitswelt als Bürger zweiter Klasse behandelt.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 46,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 48": {
+      "question": "Page 48",
+      "name": "Page 48",
+      "label": "In unserer Gesellschaft gib es Bevölkerungsgruppen, die eher oben, und solche, die eher unten stehen. Wir haben hier eine Skala, die von oben nach unten verläuft. \n\nWenn Sie an sich selbst denken, wo würden Sie sich auf dieser Skala einordnen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "In unserer Gesellschaft gib es Bevölkerungsgruppen, die eher oben, und solche, die eher unten stehen. Wir haben hier eine Skala, die von oben nach unten verläuft. \n\nWenn Sie an sich selbst denken, wo würden Sie sich auf dieser Skala einordnen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "10 - ganz oben"
+            },
+            {
+              "value": 2,
+              "label": "9"
+            },
+            {
+              "value": 3,
+              "label": "8"
+            },
+            {
+              "value": 4,
+              "label": "7"
+            },
+            {
+              "value": 5,
+              "label": "6"
+            },
+            {
+              "value": 6,
+              "label": "5"
+            },
+            {
+              "value": 7,
+              "label": "4"
+            },
+            {
+              "value": 8,
+              "label": "3"
+            },
+            {
+              "value": 9,
+              "label": "2"
+            },
+            {
+              "value": 10,
+              "label": "1"
+            },
+            {
+              "value": 11,
+              "label": "0 - ganz unten"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 47,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 49": {
+      "question": "Page 49",
+      "name": "Page 49",
+      "label": "Im Vergleich dazu, wie andere Menschen hier in Deutschland leben:\n\nGlauben Sie, dass Sie persönlich Ihren gerechten Anteil erhalten, oder erhalten Sie persönlich mehr oder weniger als Ihren gerechten Anteil?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Vergleich dazu, wie andere Menschen hier in Deutschland leben:\n\nGlauben Sie, dass Sie persönlich Ihren gerechten Anteil erhalten, oder erhalten Sie persönlich mehr oder weniger als Ihren gerechten Anteil?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Viel weniger als meinen gerechten Anteil"
+            },
+            {
+              "value": 2,
+              "label": "Etwas weniger als meinen gerechten Anteil"
+            },
+            {
+              "value": 3,
+              "label": "Meinen gerechten Anteil"
+            },
+            {
+              "value": 4,
+              "label": "Etwas mehr als meinen gerechten Anteil"
+            },
+            {
+              "value": 5,
+              "label": "Viel mehr als meinen gerechten Anteil"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 48,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 50": {
+      "question": "Page 50",
+      "name": "Page 50",
+      "label": "Welchen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welchen dieser Aussagen stimmen Sie zu?",
+          "instruction": "Bitte wählen Sie alle Aussagen aus, denen Sie zustimmen.",
+          "description": "Bitte wählen Sie alle Aussagen aus, denen Sie zustimmen.",
+          "filter": "CP68021 = 1 (wenn Befragte erwerbstätig sind)",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "An meinem Arbeitsplatz gibt es rassistische Diskriminierung.",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Gewisse ethnische Gruppen sind von Natur aus weniger intelligent als andere.",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Ich stimme keiner der beiden Aussagen zu.",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        }
+      ],
+      "sn": 49,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 51": {
+      "question": "Page 51",
+      "name": "Page 51",
+      "label": "Würden Sie der folgenden Aussage zustimmen?\nGewisse ethnische Gruppen sind von Natur aus weniger intelligent als andere.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Würden Sie der folgenden Aussage zustimmen?\nGewisse ethnische Gruppen sind von Natur aus weniger intelligent als andere.",
+          "filter": "CP68021 != 1 (wenn Befragte nicht erwerbstätig sind oder die Frage nach Erwerbstätigkeit nicht oder mit „weiß nicht“ beantwortet haben)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ja"
+            },
+            {
+              "value": 2,
+              "label": "Nein"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 50,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 52": {
+      "question": "Page 52",
+      "name": "Page 52",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "interessant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 51,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 53": {
+      "question": "Page 53",
+      "name": "Page 53",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "abwechslungsreich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 52,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 54": {
+      "question": "Page 54",
+      "name": "Page 54",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "relevant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 53,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 55": {
+      "question": "Page 55",
+      "name": "Page 55",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "lang",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 54,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 56": {
+      "question": "Page 56",
+      "name": "Page 56",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "schwierig",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 55,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 57": {
+      "question": "Page 57",
+      "name": "Page 57",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "zu persönlich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 56,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 58": {
+      "question": "Page 58",
+      "name": "Page 58",
+      "label": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut "
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 57,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 59": {
+      "question": "Page 59",
+      "name": "Page 59",
+      "label": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern. Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern. Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 58,
+      "instrument": "W68",
+      "study": "gip"
+    },
+    "Page 60": {
+      "question": "Page 60",
+      "name": "Page 60",
+      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\nIhr Forschungsteam von der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\nIhr Forschungsteam von der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 59,
+      "instrument": "W68",
+      "study": "gip"
+    }
+  }
+}

@@ -1,0 +1,2154 @@
+{
+  "study": "gip",
+  "name": "W65",
+  "label": "GIP Wave 65",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 65 enthält folgende Kennungen und zugespielte Variablen:\n• id_g - Unique ID, GIP\n• hhid_g - Household Identifyer, GIP\n• pid - Person identifyer (wthin HH)\n• gender_22 - gender\n• year_of_birth_cat_22 - year of birth categories\n• educ_school_22 - highest educational degree\n• educ_job_22 - highest professional qualification\n• marital_status_22 - marital status\n• number_hh_members_22 - number of household members\n• occupation_22 - employment status\n• german_citizenship_22 - german citizenship\n• internet_usage_22 - private internet usage\n• state_22 - residence state\n• sample - year of recruitment\n• dDatum - Interview-Datum\n• online_status_wave - current online status",
+  "analysis_unit": "p",
+  "period": "2023/05",
+  "instrument": "W65",
+  "questions": {
+    "Page 1 Introduction": {
+      "question": "Page 1 Introduction",
+      "name": "Page 1 Introduction",
+      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 2": {
+      "question": "Page 2",
+      "name": "Page 2",
+      "label": "Gehen Sie zur Zeit einer Erwerbstätigkeit nach?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Gehen Sie zur Zeit einer Erwerbstätigkeit nach?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ja"
+            },
+            {
+              "value": 2,
+              "label": "Nein"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 3": {
+      "question": "Page 3",
+      "name": "Page 3",
+      "label": "Wenn Sie an Ihre Arbeit denken, inwiefern würden Sie der folgenden Aussage zustimmen?\nDas, was ich bei meiner Arbeit mache, ist wertvoll und nützlich.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie an Ihre Arbeit denken, inwiefern würden Sie der folgenden Aussage zustimmen?\nDas, was ich bei meiner Arbeit mache, ist wertvoll und nützlich.",
+          "filter": "CP65021 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu "
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu "
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 4": {
+      "question": "Page 4",
+      "name": "Page 4",
+      "label": "Wenn Sie an Ihre Arbeit denken, inwiefern würden Sie der folgenden Aussage zustimmen?\nBei meiner Arbeit werde ich als Person wertgeschätzt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie an Ihre Arbeit denken, inwiefern würden Sie der folgenden Aussage zustimmen?\nBei meiner Arbeit werde ich als Person wertgeschätzt.",
+          "filter": "CP65021 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu "
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu "
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 5": {
+      "question": "Page 5",
+      "name": "Page 5",
+      "label": "Wenn Sie an Ihre Arbeit denken, inwiefern würden Sie der folgenden Aussage zustimmen?\nBei meiner Arbeit habe ich das Gefühl, dass andere auf mich herabsehen",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie an Ihre Arbeit denken, inwiefern würden Sie der folgenden Aussage zustimmen?\nBei meiner Arbeit habe ich das Gefühl, dass andere auf mich herabsehen",
+          "filter": "CP65021 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu "
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu "
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 6": {
+      "question": "Page 6",
+      "name": "Page 6",
+      "label": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden.\na) In meinem Arbeitsumfeld herrscht ein gutes Arbeitsklima.\nb) Bei Fragen im Arbeitsalltag weiß ich, an wen ich mich wenden kann.\nc) Kritik sollte am Arbeitsplatz geäußert werden dürfen.\nd) An meinem Arbeitsplatz gibt es rassistische Diskriminierung.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden.\na) In meinem Arbeitsumfeld herrscht ein gutes Arbeitsklima.\nb) Bei Fragen im Arbeitsalltag weiß ich, an wen ich mich wenden kann.\nc) Kritik sollte am Arbeitsplatz geäußert werden dürfen.\nd) An meinem Arbeitsplatz gibt es rassistische Diskriminierung.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+          "description": "Befragte zufällig in zwei Gruppen aufteilen, Gruppe 1 erhält CP65013, Gruppe 2 erhält CP65014. Gruppenzuteilung in separater Variable expCP65013 ablegen.",
+          "filter": "expCP65013 = 1 & CP65021 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0"
+            },
+            {
+              "value": 2,
+              "label": "1"
+            },
+            {
+              "value": 3,
+              "label": "2"
+            },
+            {
+              "value": 4,
+              "label": "3"
+            },
+            {
+              "value": 5,
+              "label": "4"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 7": {
+      "question": "Page 7",
+      "name": "Page 7",
+      "label": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. \na) In meinem Arbeitsumfeld herrscht ein gutes Arbeitsklima.\nb) Bei Fragen im Arbeitsalltag weiß ich, an wen ich mich wenden kann.\nc) Kritik sollte am Arbeitsplatz geäußert werden dürfen.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. \na) In meinem Arbeitsumfeld herrscht ein gutes Arbeitsklima.\nb) Bei Fragen im Arbeitsalltag weiß ich, an wen ich mich wenden kann.\nc) Kritik sollte am Arbeitsplatz geäußert werden dürfen.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+          "filter": "expCP65013 = 2 & CP65021= 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0"
+            },
+            {
+              "value": 2,
+              "label": "1"
+            },
+            {
+              "value": 3,
+              "label": "2"
+            },
+            {
+              "value": 4,
+              "label": "3"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 8": {
+      "question": "Page 8",
+      "name": "Page 8",
+      "label": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden.\na) Die hohen Gehälter für Manager sind gerechtfertigt.\nb) Die öffentlichen Rundfunkgebühren kommen der Demokratie zugute.\nc) Es würde uns allen besser gehen, wenn wir weniger Fleisch essen würden.\nd) Gewisse ethnische Gruppen sind von Natur aus weniger intelligent als andere.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden.\na) Die hohen Gehälter für Manager sind gerechtfertigt.\nb) Die öffentlichen Rundfunkgebühren kommen der Demokratie zugute.\nc) Es würde uns allen besser gehen, wenn wir weniger Fleisch essen würden.\nd) Gewisse ethnische Gruppen sind von Natur aus weniger intelligent als andere.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+          "description": "Befragte zufällig in zwei Gruppen aufteilen, Gruppe 1 erhält CP65015, Gruppe 2 erhält CP65016. Gruppenzuteilung in separater Variable expCP65015 ablegen.",
+          "filter": "expCP65015 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0"
+            },
+            {
+              "value": 2,
+              "label": "1"
+            },
+            {
+              "value": 3,
+              "label": "2"
+            },
+            {
+              "value": 4,
+              "label": "3"
+            },
+            {
+              "value": 5,
+              "label": "4"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 9": {
+      "question": "Page 9",
+      "name": "Page 9",
+      "label": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. \na) Die hohen Gehälter für Manager sind gerechtfertigt.\nb) Die öffentlichen Rundfunkgebühren kommen der Demokratie zugute.   \nc) Es würde uns allen besser gehen, wenn wir weniger Fleisch essen würden.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. \na) Die hohen Gehälter für Manager sind gerechtfertigt.\nb) Die öffentlichen Rundfunkgebühren kommen der Demokratie zugute.   \nc) Es würde uns allen besser gehen, wenn wir weniger Fleisch essen würden.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+          "filter": "expCP65015 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0"
+            },
+            {
+              "value": 2,
+              "label": "1"
+            },
+            {
+              "value": 3,
+              "label": "2"
+            },
+            {
+              "value": 4,
+              "label": "3"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 10": {
+      "question": "Page 10",
+      "name": "Page 10",
+      "label": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden.\n\na) Es ist verständlich, dass manche Leute Steuern hinterziehen.\nb) Alkohol am Steuer ist keine Kleinigkeit.  \nc) In Deutschland sollten härtere Strafen für Verbrechen eingeführt werden. \nd) Für manche politischen Ziele ist es in Ordnung, Gewalt einzusetzen.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden.\n\na) Es ist verständlich, dass manche Leute Steuern hinterziehen.\nb) Alkohol am Steuer ist keine Kleinigkeit.  \nc) In Deutschland sollten härtere Strafen für Verbrechen eingeführt werden. \nd) Für manche politischen Ziele ist es in Ordnung, Gewalt einzusetzen.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+          "description": "Befragte zufällig in zwei Gruppen aufteilen, Gruppe 1 erhält CP65003, Gruppe 2 erhält CP65002. Gruppenzuteilung in separater Variable expCP65003 ablegen.",
+          "filter": "expCP65003 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0"
+            },
+            {
+              "value": 2,
+              "label": "1"
+            },
+            {
+              "value": 3,
+              "label": "2"
+            },
+            {
+              "value": 4,
+              "label": "3"
+            },
+            {
+              "value": 5,
+              "label": "4"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 11": {
+      "question": "Page 11",
+      "name": "Page 11",
+      "label": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. \na) Es ist verständlich, dass manche Leute Steuern hinterziehen.\nb) Alkohol am Steuer ist keine Kleinigkeit.  \nc) In Deutschland sollten härtere Strafen für Verbrechen eingeführt werden. \n\nWie vielen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. \na) Es ist verständlich, dass manche Leute Steuern hinterziehen.\nb) Alkohol am Steuer ist keine Kleinigkeit.  \nc) In Deutschland sollten härtere Strafen für Verbrechen eingeführt werden. \n\nWie vielen dieser Aussagen stimmen Sie zu?",
+          "filter": "expCP65003 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0"
+            },
+            {
+              "value": 2,
+              "label": "1"
+            },
+            {
+              "value": 3,
+              "label": "2"
+            },
+            {
+              "value": 4,
+              "label": "3"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 12": {
+      "question": "Page 12",
+      "name": "Page 12",
+      "label": "Im Folgenden schildern wir Ihnen einige Situationen, in denen politische Gewalt beschrieben wird. Bitte sagen Sie uns jeweils Ihre Meinung dazu.\nJan M. ist angeklagt Sachbeschädigung begangen zu haben. Er wurde von der Polizei verhaftet, nachdem er mehrere große Wahlplakate von Kandidaten der [Wenn expCP65016 = 1:AfD][Wenn expCP65016 = 2:CDU][Wenn expCP65016 = 3:SPD][Wenn expCP65016 = 4:Grünen] heruntergerissen hatte.\n\nInwieweit würden Sie einen Freispruch für Jan M. befürworten oder ablehnen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden schildern wir Ihnen einige Situationen, in denen politische Gewalt beschrieben wird. Bitte sagen Sie uns jeweils Ihre Meinung dazu.\nJan M. ist angeklagt Sachbeschädigung begangen zu haben. Er wurde von der Polizei verhaftet, nachdem er mehrere große Wahlplakate von Kandidaten der [Wenn expCP65016 = 1:AfD][Wenn expCP65016 = 2:CDU][Wenn expCP65016 = 3:SPD][Wenn expCP65016 = 4:Grünen] heruntergerissen hatte.\n\nInwieweit würden Sie einen Freispruch für Jan M. befürworten oder ablehnen?",
+          "description": "Befragte zufällig in vier Gruppen aufteilen und Gruppenzuteilung in separater Variable expCP65016 ablegen. Gruppe 1 erhält im Folgenden Fragen zur AfD, Gruppe 2 zur CDU, Gruppe 3 zur SPD und Gruppe 4 zu den Grünen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Voll und ganz ablehnen"
+            },
+            {
+              "value": 2,
+              "label": "Eher ablehnen"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Eher befürworten"
+            },
+            {
+              "value": 5,
+              "label": "Voll und ganz befürworten"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 13": {
+      "question": "Page 13",
+      "name": "Page 13",
+      "label": "Thomas K. ist angeklagt Körperverletzung begangen zu haben. Er wurde von der Polizei verhaftet, weil er Steine auf friedliche Teilnehmer einer Kundgebung der [Wenn expCP65016 = 1:AfD][Wenn expCP65016 = 2:CDU][Wenn expCP65016 = 3:SPD][Wenn expCP65016 =4 :Grünen] geworfen hatte. Obwohl niemand ernsthaft verletzt wurde, verbanden Sanitäter einen Mann mit einer Kopfwunde.\n\nInwieweit würden Sie einen Freispruch für Thomas K. befürworten oder ablehnen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Thomas K. ist angeklagt Körperverletzung begangen zu haben. Er wurde von der Polizei verhaftet, weil er Steine auf friedliche Teilnehmer einer Kundgebung der [Wenn expCP65016 = 1:AfD][Wenn expCP65016 = 2:CDU][Wenn expCP65016 = 3:SPD][Wenn expCP65016 =4 :Grünen] geworfen hatte. Obwohl niemand ernsthaft verletzt wurde, verbanden Sanitäter einen Mann mit einer Kopfwunde.\n\nInwieweit würden Sie einen Freispruch für Thomas K. befürworten oder ablehnen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Voll und ganz ablehnen"
+            },
+            {
+              "value": 2,
+              "label": "Eher ablehnen"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Eher befürworten"
+            },
+            {
+              "value": 5,
+              "label": "Voll und ganz befürworten"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 14": {
+      "question": "Page 14",
+      "name": "Page 14",
+      "label": "Marc H. ist angeklagt Brandstiftung begangen zu haben. Er wurde von der Polizei verhaftet, als er versuchte, vor einem Feuer zu fliehen, das er in der örtlichen Parteizentrale der [Wenn expCP65016 = 1:AfD][Wenn expCP65016 = 2:CDU][Wenn expCP65016 = 3:SPD][Wenn expCP65016 = 4:Grünen] gelegt hatte. Obwohl er darauf wartete, dass das Gebäude für die Nacht geschlossen wurde, waren mehrere benachbarte Gebäude noch besetzt.\n\nInwieweit würden Sie einen Freispruch für Marc H. befürworten oder ablehnen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Marc H. ist angeklagt Brandstiftung begangen zu haben. Er wurde von der Polizei verhaftet, als er versuchte, vor einem Feuer zu fliehen, das er in der örtlichen Parteizentrale der [Wenn expCP65016 = 1:AfD][Wenn expCP65016 = 2:CDU][Wenn expCP65016 = 3:SPD][Wenn expCP65016 = 4:Grünen] gelegt hatte. Obwohl er darauf wartete, dass das Gebäude für die Nacht geschlossen wurde, waren mehrere benachbarte Gebäude noch besetzt.\n\nInwieweit würden Sie einen Freispruch für Marc H. befürworten oder ablehnen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Voll und ganz ablehnen"
+            },
+            {
+              "value": 2,
+              "label": "Eher ablehnen"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Eher befürworten"
+            },
+            {
+              "value": 5,
+              "label": "Voll und ganz befürworten"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 15": {
+      "question": "Page 15",
+      "name": "Page 15",
+      "label": "Kevin B. ist angeklagt schwere Körperverletzung begangen zu haben. Er wurde von der Polizei verhaftet, nachdem er mit seinem Auto in eine Gruppe von Demonstranten der [Wenn expCP65016 = 1:AfD][Wenn expCP65016 = 2:CDU][Wenn expCP65016 = 3:SPD][Wenn expCP65016 = 4:Grünen] gefahren war. Obwohl niemand getötet wurde, wurden mehrere Personen schwer verletzt und eine davon verbrachte einen Monat im Krankenhaus.\n\nInwieweit würden Sie einen Freispruch für Kevin B. befürworten oder ablehnen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Kevin B. ist angeklagt schwere Körperverletzung begangen zu haben. Er wurde von der Polizei verhaftet, nachdem er mit seinem Auto in eine Gruppe von Demonstranten der [Wenn expCP65016 = 1:AfD][Wenn expCP65016 = 2:CDU][Wenn expCP65016 = 3:SPD][Wenn expCP65016 = 4:Grünen] gefahren war. Obwohl niemand getötet wurde, wurden mehrere Personen schwer verletzt und eine davon verbrachte einen Monat im Krankenhaus.\n\nInwieweit würden Sie einen Freispruch für Kevin B. befürworten oder ablehnen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Voll und ganz ablehnen"
+            },
+            {
+              "value": 2,
+              "label": "Eher ablehnen"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Eher befürworten"
+            },
+            {
+              "value": 5,
+              "label": "Voll und ganz befürworten"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 16": {
+      "question": "Page 16",
+      "name": "Page 16",
+      "label": "Welchen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welchen dieser Aussagen stimmen Sie zu?",
+          "instruction": "Bitte wählen Sie alle Aussagen aus, denen Sie zustimmen.",
+          "description": "Bitte wählen Sie alle Aussagen aus, denen Sie zustimmen.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "An meinem Arbeitsplatz gibt es rassistische Diskriminierung.",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Gewisse ethnische Gruppen sind von Natur aus weniger intelligent als andere.",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Für manche politischen Ziele ist es in Ordnung, Gewalt einzusetzen.",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Ich stimme keiner der drei Aussagen zu.",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 17": {
+      "question": "Page 17",
+      "name": "Page 17",
+      "label": "Im Folgenden bitten wir Sie, Ihre Zufriedenheit mit Ihrem Körperbild einzuschätzen.\n\nBitte geben Sie an, wie zufrieden Sie mit Ihrem Gesicht (Gesichtszüge, Gesichtsfarbe) sind.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden bitten wir Sie, Ihre Zufriedenheit mit Ihrem Körperbild einzuschätzen.\n\nBitte geben Sie an, wie zufrieden Sie mit Ihrem Gesicht (Gesichtszüge, Gesichtsfarbe) sind.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr unzufrieden"
+            },
+            {
+              "value": 2,
+              "label": "unzufrieden"
+            },
+            {
+              "value": 3,
+              "label": "weder unzufrieden noch zufrieden"
+            },
+            {
+              "value": 4,
+              "label": "zufrieden"
+            },
+            {
+              "value": 5,
+              "label": "sehr zufrieden"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 18": {
+      "question": "Page 18",
+      "name": "Page 18",
+      "label": "Bitte geben Sie an, wie zufrieden Sie mit Ihren Haaren (Farbe, Dicke, Struktur) sind.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie zufrieden Sie mit Ihren Haaren (Farbe, Dicke, Struktur) sind.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr unzufrieden"
+            },
+            {
+              "value": 2,
+              "label": "unzufrieden"
+            },
+            {
+              "value": 3,
+              "label": "weder unzufrieden noch zufrieden"
+            },
+            {
+              "value": 4,
+              "label": "zufrieden"
+            },
+            {
+              "value": 5,
+              "label": "sehr zufrieden"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 19": {
+      "question": "Page 19",
+      "name": "Page 19",
+      "label": "Bitte geben Sie an, wie zufrieden Sie mit Ihrem Unterkörper (Gesäß, Hüfte, Oberschenkel, Beine) sind.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie zufrieden Sie mit Ihrem Unterkörper (Gesäß, Hüfte, Oberschenkel, Beine) sind.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr unzufrieden"
+            },
+            {
+              "value": 2,
+              "label": "unzufrieden"
+            },
+            {
+              "value": 3,
+              "label": "weder unzufrieden noch zufrieden"
+            },
+            {
+              "value": 4,
+              "label": "zufrieden"
+            },
+            {
+              "value": 5,
+              "label": "sehr zufrieden"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 18,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 20": {
+      "question": "Page 20",
+      "name": "Page 20",
+      "label": "Bitte geben Sie an, wie zufrieden Sie mit Ihrem mittleren Rump (Taille, Bauch) sind.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie zufrieden Sie mit Ihrem mittleren Rump (Taille, Bauch) sind.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr unzufrieden"
+            },
+            {
+              "value": 2,
+              "label": "unzufrieden"
+            },
+            {
+              "value": 3,
+              "label": "weder unzufrieden noch zufrieden"
+            },
+            {
+              "value": 4,
+              "label": "zufrieden"
+            },
+            {
+              "value": 5,
+              "label": "sehr zufrieden"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 19,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 21": {
+      "question": "Page 21",
+      "name": "Page 21",
+      "label": "Bitte geben Sie an, wie zufrieden Sie mit Ihrem Oberkörper (Brust oder Busen, Schultern, Arme) sind.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie zufrieden Sie mit Ihrem Oberkörper (Brust oder Busen, Schultern, Arme) sind.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr unzufrieden"
+            },
+            {
+              "value": 2,
+              "label": "unzufrieden"
+            },
+            {
+              "value": 3,
+              "label": "weder unzufrieden noch zufrieden"
+            },
+            {
+              "value": 4,
+              "label": "zufrieden"
+            },
+            {
+              "value": 5,
+              "label": "sehr zufrieden"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 20,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 22": {
+      "question": "Page 22",
+      "name": "Page 22",
+      "label": "Bitte geben Sie an, wie zufrieden Sie mit Ihrer Muskelspannung sind.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie zufrieden Sie mit Ihrer Muskelspannung sind.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr unzufrieden"
+            },
+            {
+              "value": 2,
+              "label": "unzufrieden"
+            },
+            {
+              "value": 3,
+              "label": "weder unzufrieden noch zufrieden"
+            },
+            {
+              "value": 4,
+              "label": "zufrieden"
+            },
+            {
+              "value": 5,
+              "label": "sehr zufrieden"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 21,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 23": {
+      "question": "Page 23",
+      "name": "Page 23",
+      "label": "Bitte geben Sie an, wie zufrieden Sie mit Ihrem Körpergewicht sind.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie zufrieden Sie mit Ihrem Körpergewicht sind.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr unzufrieden"
+            },
+            {
+              "value": 2,
+              "label": "unzufrieden"
+            },
+            {
+              "value": 3,
+              "label": "weder unzufrieden noch zufrieden"
+            },
+            {
+              "value": 4,
+              "label": "zufrieden"
+            },
+            {
+              "value": 5,
+              "label": "sehr zufrieden"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 22,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 24": {
+      "question": "Page 24",
+      "name": "Page 24",
+      "label": "Bitte geben Sie an, wie zufrieden Sie mit Ihrer Körpergröße sind.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie zufrieden Sie mit Ihrer Körpergröße sind.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr unzufrieden"
+            },
+            {
+              "value": 2,
+              "label": "unzufrieden"
+            },
+            {
+              "value": 3,
+              "label": "weder unzufrieden noch zufrieden"
+            },
+            {
+              "value": 4,
+              "label": "zufrieden"
+            },
+            {
+              "value": 5,
+              "label": "sehr zufrieden"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 23,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 25": {
+      "question": "Page 25",
+      "name": "Page 25",
+      "label": "Bitte geben Sie an, wie zufrieden Sie mit Ihrer Erscheinung insgesamt sind.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, wie zufrieden Sie mit Ihrer Erscheinung insgesamt sind.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "sehr unzufrieden"
+            },
+            {
+              "value": 2,
+              "label": "unzufrieden"
+            },
+            {
+              "value": 3,
+              "label": "weder unzufrieden noch zufrieden"
+            },
+            {
+              "value": 4,
+              "label": "zufrieden"
+            },
+            {
+              "value": 5,
+              "label": "sehr zufrieden"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 24,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 26": {
+      "question": "Page 26",
+      "name": "Page 26",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nMein Körper ist sexuell ansprechend.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nMein Körper ist sexuell ansprechend.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 25,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 27": {
+      "question": "Page 27",
+      "name": "Page 27",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch mag mein Aussehen so, wie es ist.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch mag mein Aussehen so, wie es ist.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 26,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 28": {
+      "question": "Page 28",
+      "name": "Page 28",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nDie meisten Leute würden finden, dass ich gut aussehe.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nDie meisten Leute würden finden, dass ich gut aussehe.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 27,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 29": {
+      "question": "Page 29",
+      "name": "Page 29",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch mag es, wie ich ohne Kleidung aussehe.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch mag es, wie ich ohne Kleidung aussehe.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 28,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 30": {
+      "question": "Page 30",
+      "name": "Page 30",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nMir gefällt es, wie meine Kleidung sitzt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nMir gefällt es, wie meine Kleidung sitzt.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 29,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 31": {
+      "question": "Page 31",
+      "name": "Page 31",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch mag meine Statur nicht.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch mag meine Statur nicht.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 30,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 32": {
+      "question": "Page 32",
+      "name": "Page 32",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch bin körperlich unattraktiv.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch bin körperlich unattraktiv.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 31,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 33": {
+      "question": "Page 33",
+      "name": "Page 33",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nBevor ich unter Leute gehe, achte ich immer darauf, wie ich aussehe.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nBevor ich unter Leute gehe, achte ich immer darauf, wie ich aussehe.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 32,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 34": {
+      "question": "Page 34",
+      "name": "Page 34",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch achte darauf, Kleidung zu kaufen, die mich bestmöglich aussehen lässt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch achte darauf, Kleidung zu kaufen, die mich bestmöglich aussehen lässt.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 33,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 35": {
+      "question": "Page 35",
+      "name": "Page 35",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch überprüfe mein Aussehen im Spiegel, wann immer ich kann.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch überprüfe mein Aussehen im Spiegel, wann immer ich kann.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 34,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 36": {
+      "question": "Page 36",
+      "name": "Page 36",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nBevor ich ausgehe, verbringe ich gewöhnlich viel Zeit damit, mich zurecht zu machen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nBevor ich ausgehe, verbringe ich gewöhnlich viel Zeit damit, mich zurecht zu machen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 35,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 37": {
+      "question": "Page 37",
+      "name": "Page 37",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nEs ist wichtig, dass ich immer gut aussehe.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nEs ist wichtig, dass ich immer gut aussehe.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 36,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 38": {
+      "question": "Page 38",
+      "name": "Page 38",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch benutze sehr wenige Pflegeprodukte.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch benutze sehr wenige Pflegeprodukte.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 37,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 39": {
+      "question": "Page 39",
+      "name": "Page 39",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch fühle mich unsicher, wenn mein Styling/Erscheinungsbild nicht korrekt ist.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch fühle mich unsicher, wenn mein Styling/Erscheinungsbild nicht korrekt ist.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 38,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 40": {
+      "question": "Page 40",
+      "name": "Page 40",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch trage gewöhnlich was zur Hand ist, ohne darauf zu achten, wie es aussieht.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch trage gewöhnlich was zur Hand ist, ohne darauf zu achten, wie es aussieht.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 39,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 41": {
+      "question": "Page 41",
+      "name": "Page 41",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nEs ist mir egal, was andere Leute über mein Aussehen sagen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nEs ist mir egal, was andere Leute über mein Aussehen sagen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 40,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 42": {
+      "question": "Page 42",
+      "name": "Page 42",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch gebe mir besonders viel Mühe mit meinem Haarstyling.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch gebe mir besonders viel Mühe mit meinem Haarstyling.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 41,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 43": {
+      "question": "Page 43",
+      "name": "Page 43",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch denke nie über mein Aussehen nach.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch denke nie über mein Aussehen nach.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 42,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 44": {
+      "question": "Page 44",
+      "name": "Page 44",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch versuche immer, meine körperliche Erscheinung zu verbessern.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu?\nIch versuche immer, meine körperliche Erscheinung zu verbessern.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "weder noch"
+            },
+            {
+              "value": 4,
+              "label": "stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "stimme voll und ganz zu"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 43,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 45": {
+      "question": "Page 45",
+      "name": "Page 45",
+      "label": "In den letzten beiden Studien von Gesellschaft und Wandel interessieren wir uns unter anderem für mögliche unerwünschte Effekte von sozialen Medien auf das Selbstbewusstsein ihrer NutzerInnen. Aus diesem Grund haben wir Ihnen mehrere Fragen zur Nutzung von verschiedenen sozialen Netzwerken sowie Ihrem Körperbild gestellt. Die Antworten erlauben uns, mögliche Zusammenhänge festzustellen und somit Forschungslücken in diesem Bereich zu schließen. Diese Erkenntnisse liefern einen wichtigen Beitrag zur Debatte um den Einfluss von sozialen Medien auf Gesellschaft und Individuum. Vielen Dank, dass Sie sich die Zeit genommen haben, unsere Fragen zu beantworten.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "In den letzten beiden Studien von Gesellschaft und Wandel interessieren wir uns unter anderem für mögliche unerwünschte Effekte von sozialen Medien auf das Selbstbewusstsein ihrer NutzerInnen. Aus diesem Grund haben wir Ihnen mehrere Fragen zur Nutzung von verschiedenen sozialen Netzwerken sowie Ihrem Körperbild gestellt. Die Antworten erlauben uns, mögliche Zusammenhänge festzustellen und somit Forschungslücken in diesem Bereich zu schließen. Diese Erkenntnisse liefern einen wichtigen Beitrag zur Debatte um den Einfluss von sozialen Medien auf Gesellschaft und Individuum. Vielen Dank, dass Sie sich die Zeit genommen haben, unsere Fragen zu beantworten.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 44,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 46": {
+      "question": "Page 46",
+      "name": "Page 46",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "interessant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 45,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 47": {
+      "question": "Page 47",
+      "name": "Page 47",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "abwechslungsreich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 46,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 48": {
+      "question": "Page 48",
+      "name": "Page 48",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "relevant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 47,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 49": {
+      "question": "Page 49",
+      "name": "Page 49",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "lang",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 48,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 50": {
+      "question": "Page 50",
+      "name": "Page 50",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "schwierig",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 49,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 51": {
+      "question": "Page 51",
+      "name": "Page 51",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "zu persönlich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 50,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 52": {
+      "question": "Page 52",
+      "name": "Page 52",
+      "label": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut "
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 51,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 53": {
+      "question": "Page 53",
+      "name": "Page 53",
+      "label": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern. Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern. Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 52,
+      "instrument": "W65",
+      "study": "gip"
+    },
+    "Page 54 Outro": {
+      "question": "Page 54 Outro",
+      "name": "Page 54 Outro",
+      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur   Erforschung unserer Gesellschaft.\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\nIhr Forschungsteam von der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur   Erforschung unserer Gesellschaft.\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\nIhr Forschungsteam von der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 53,
+      "instrument": "W65",
+      "study": "gip"
+    }
+  }
+}

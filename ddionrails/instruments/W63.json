@@ -1,0 +1,1469 @@
+{
+  "study": "gip",
+  "name": "W63",
+  "label": "GIP Wave 63",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 63 enthält folgende Kennungen und zugespielte Variablen:\n• id_g - Unique ID, GIP\n• hhid_g - Household Identifyer, GIP\n• pid - Person identifyer (wthin HH)\n• gender_22 - gender\n• year_of_birth_cat_22 - year of birth categories\n• educ_school_22 - highest educational degree\n• educ_job_22 - highest professional qualification\n• marital_status_22 - marital status\n• number_hh_members_22 - number of household members\n• occupation_22 - employment status\n• german_citizenship_22 - german citizenship\n• internet_usage_22 - private internet usage\n• state_22 - residence state\n• sample - year of recruitment\n• dDatum - Interview-Datum\n• online_status_wave - current online status",
+  "analysis_unit": "p",
+  "period": "2023/01",
+  "instrument": "W63",
+  "questions": {
+    "Page 1 Introduction": {
+      "question": "Page 1 Introduction",
+      "name": "Page 1 Introduction",
+      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, wir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 10 bis 15 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren.\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, wir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 10 bis 15 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren.\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 2": {
+      "question": "Page 2",
+      "name": "Page 2",
+      "label": "Im Folgenden nennen wir Ihnen unterschiedliche digitale Plattformen, die mehr oder weniger intensiv genutzt werden können. Uns interessiert, wie intensiv Sie die nachfolgend genannten Plattformen nutzen und wie sich Ihr Nutzungsverhalten seit Beginn der Corona-Pandemie verändert hat.\nWie intensiv nutzen Sie digitale Plattformen zum Bestellen von Produkten (z. B. digitale Marktplätze wie Amazon, Fairmondo)?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir Ihnen unterschiedliche digitale Plattformen, die mehr oder weniger intensiv genutzt werden können. Uns interessiert, wie intensiv Sie die nachfolgend genannten Plattformen nutzen und wie sich Ihr Nutzungsverhalten seit Beginn der Corona-Pandemie verändert hat.\nWie intensiv nutzen Sie digitale Plattformen zum Bestellen von Produkten (z. B. digitale Marktplätze wie Amazon, Fairmondo)?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Gar nicht intensiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Sehr intensiv"
+            },
+            {
+              "value": -97,
+              "label": "Nutze ich nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 3": {
+      "question": "Page 3",
+      "name": "Page 3",
+      "label": "Nutzen Sie digitale Plattformen zum Bestellen von Produkten (z. B. digitale Marktplätze wie Amazon, Fairmondo) weniger intensiv oder intensiver als vor Beginn der Corona-Pandemie?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nutzen Sie digitale Plattformen zum Bestellen von Produkten (z. B. digitale Marktplätze wie Amazon, Fairmondo) weniger intensiv oder intensiver als vor Beginn der Corona-Pandemie?",
+          "filter": "EB63010 != -97, -90 (wenn Befragte Plattformen zum Bestellen von Produkten nutzen)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Deutlich weniger intensiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "Unverändert"
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Deutlich intensiver"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 4": {
+      "question": "Page 4",
+      "name": "Page 4",
+      "label": "Wie intensiv nutzen Sie digitale Plattformen zum Buchen von Dienstleistungen (z. B. Lieferando für Essenslieferungen, Helpling für haushaltsnahe Dienstleistungen)?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie intensiv nutzen Sie digitale Plattformen zum Buchen von Dienstleistungen (z. B. Lieferando für Essenslieferungen, Helpling für haushaltsnahe Dienstleistungen)?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Gar nicht intensiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Sehr intensiv"
+            },
+            {
+              "value": -97,
+              "label": "Nutze ich nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 5": {
+      "question": "Page 5",
+      "name": "Page 5",
+      "label": "Nutzen Sie digitale Plattformen zum Buchen von Dienstleistungen (z. B. Lieferando für Essenslieferungen, Helpling für haushaltsnahe Dienstleistungen) weniger intensiv oder intensiver als vor Beginn der Corona-Pandemie?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nutzen Sie digitale Plattformen zum Buchen von Dienstleistungen (z. B. Lieferando für Essenslieferungen, Helpling für haushaltsnahe Dienstleistungen) weniger intensiv oder intensiver als vor Beginn der Corona-Pandemie?",
+          "filter": "EB63012 != -97, -90 (wenn Befragte Plattformen zum Buchen von Dienstleistungen nutzen)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Deutlich weniger intensiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "Unverändert"
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Deutlich intensiver"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 6": {
+      "question": "Page 6",
+      "name": "Page 6",
+      "label": "Wie intensiv nutzen Sie Sharing-Plattformen oder digitale Plattformen, die eine geteilte Güternutzung ermöglichen (z. B. Airbnb, Uber, BlaBlaCar)?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie intensiv nutzen Sie Sharing-Plattformen oder digitale Plattformen, die eine geteilte Güternutzung ermöglichen (z. B. Airbnb, Uber, BlaBlaCar)?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Gar nicht intensiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Sehr intensiv"
+            },
+            {
+              "value": -97,
+              "label": "Nutze ich nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 7": {
+      "question": "Page 7",
+      "name": "Page 7",
+      "label": "Nutzen Sie Sharing-Plattformen oder digitale Plattformen, die eine geteilte Güternutzung ermöglichen (z. B. Airbnb, Uber, BlaBlaCar), weniger intensiv oder intensiver als vor Beginn der Corona-Pandemie?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nutzen Sie Sharing-Plattformen oder digitale Plattformen, die eine geteilte Güternutzung ermöglichen (z. B. Airbnb, Uber, BlaBlaCar), weniger intensiv oder intensiver als vor Beginn der Corona-Pandemie?",
+          "filter": "EB63014 != -97, -90 (wenn Befragte Plattformen zum Teilen von Gütern nutzen)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Deutlich weniger intensiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "Unverändert"
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Deutlich intensiver"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 8": {
+      "question": "Page 8",
+      "name": "Page 8",
+      "label": "Wie intensiv nutzen Sie Kollaborations-, Meeting- und Kommunikationsplattformen (z. B. Zoom, Skype)?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie intensiv nutzen Sie Kollaborations-, Meeting- und Kommunikationsplattformen (z. B. Zoom, Skype)?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Gar nicht intensiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Sehr intensiv"
+            },
+            {
+              "value": -97,
+              "label": "Nutze ich nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 9": {
+      "question": "Page 9",
+      "name": "Page 9",
+      "label": "Nutzen Sie Kollaborations-, Meeting- und Kommunikationsplattformen (z. B. Zoom, Skype) weniger intensiv oder intensiver als vor Beginn der Corona-Pandemie?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nutzen Sie Kollaborations-, Meeting- und Kommunikationsplattformen (z. B. Zoom, Skype) weniger intensiv oder intensiver als vor Beginn der Corona-Pandemie?",
+          "filter": "EB63016 != -97, -90 (wenn Befragte Kollaborations-, Meeting- und Kommunikationsplattformen nutzen)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Deutlich weniger intensiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "Unverändert"
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Deutlich intensiver"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 10": {
+      "question": "Page 10",
+      "name": "Page 10",
+      "label": "Wie intensiv nutzen Sie digitale Plattformen, um selbst Produkte oder Dienstleistungen anzubieten    (z. B. zum Vermitteln von Arbeitsaufträgen über Plattformen wie Clickworker und Amazon Mechanical Turk oder zum Anbieten von Leistungen über Plattformen wie Airbnb und BlaBlaCar)?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie intensiv nutzen Sie digitale Plattformen, um selbst Produkte oder Dienstleistungen anzubieten    (z. B. zum Vermitteln von Arbeitsaufträgen über Plattformen wie Clickworker und Amazon Mechanical Turk oder zum Anbieten von Leistungen über Plattformen wie Airbnb und BlaBlaCar)?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Gar nicht intensiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Sehr intensiv"
+            },
+            {
+              "value": -97,
+              "label": "Nutze ich nie"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 11": {
+      "question": "Page 11",
+      "name": "Page 11",
+      "label": "Nutzen Sie digitale Plattformen, um selbst Produkte oder Dienstleistungen anzubieten (z. B. zum Vermitteln von Arbeitsaufträgen über Plattformen wie Clickworker und Amazon Mechanical Turk oder zum Anbieten von Leistungen über Plattformen wie Airbnb und BlaBlaCar) weniger intensiv oder intensiver als vor Beginn der Corona-Pandemie?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Nutzen Sie digitale Plattformen, um selbst Produkte oder Dienstleistungen anzubieten (z. B. zum Vermitteln von Arbeitsaufträgen über Plattformen wie Clickworker und Amazon Mechanical Turk oder zum Anbieten von Leistungen über Plattformen wie Airbnb und BlaBlaCar) weniger intensiv oder intensiver als vor Beginn der Corona-Pandemie?",
+          "filter": "EB63018 != -97, -90 (wenn Befragte Plattformen zum Anbieten von Produkten oder Dienstleistungen nutzen)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Deutlich weniger intensiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "Unverändert"
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Deutlich intensiver"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 12": {
+      "question": "Page 12",
+      "name": "Page 12",
+      "label": "Gibt es sonst noch etwas, das Sie uns zum Thema digitale Plattformen mitteilen möchten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Gibt es sonst noch etwas, das Sie uns zum Thema digitale Plattformen mitteilen möchten?",
+          "instruction": "Hier können Sie Plattformtypen nennen, die wir in unseren Fragen nicht berücksichtigt haben. Sie können auch Beispiele für konkrete Plattformorganisationen nennen, deren Angebote Sie besonders intensiv nutzen. Nutzen Sie für Ihre Anmerkungen das folgende Eingabefeld.",
+          "description": "Hier können Sie Plattformtypen nennen, die wir in unseren Fragen nicht berücksichtigt haben. Sie können auch Beispiele für konkrete Plattformorganisationen nennen, deren Angebote Sie besonders intensiv nutzen. Nutzen Sie für Ihre Anmerkungen das folgende Eingabefeld.",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 13": {
+      "question": "Page 13",
+      "name": "Page 13",
+      "label": "In den folgenden Fragen interessieren wir uns für Ihre Nutzung von Sharing-Plattformen und wie sich diese seit Beginn der Corona-Pandemie verändert hat. Die Sharing Economy umfasst Angebote, die auf dem Teilen, Tauschen, Mieten oder gemeinsamen Nutzen von Produkten, Räumen und Flächen sowie der Buchung von Dienstleistungen über Online-Plattformen beruhen.\nWelche der folgenden Sharing-Plattformen haben Sie bereits genutzt?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "In den folgenden Fragen interessieren wir uns für Ihre Nutzung von Sharing-Plattformen und wie sich diese seit Beginn der Corona-Pandemie verändert hat. Die Sharing Economy umfasst Angebote, die auf dem Teilen, Tauschen, Mieten oder gemeinsamen Nutzen von Produkten, Räumen und Flächen sowie der Buchung von Dienstleistungen über Online-Plattformen beruhen.\nWelche der folgenden Sharing-Plattformen haben Sie bereits genutzt?",
+          "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Carsharing und Ridesharing (z. B. Stadtmobil, Cambio, BlaBlaCar)",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Andere Mobilitätsangebote (z. B. Bikesharing wie nextbike, E-Scooter-Sharing wie Lime)",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Second-Hand-Plattformen (z. B. Vinted, eBay)",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Nachbarschaftsplattformen (z. B. nebenan.de)",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Community Gardening, Angebote der solidarischen Landwirtschaft",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Coworking Spaces",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Maker Spaces und Repair Cafés",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Lokale Zeitbanken und lokale Tauschringe",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Übernachtungsplattformen/Plattformen zur Buchung und Vermietung von Unterkünften (z. B. Airbnb)",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Andere, und zwar: [answer field]",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Ich habe bisher keine dieser Sharing-Plattformen genutzt.",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 14": {
+      "question": "Page 14",
+      "name": "Page 14",
+      "label": "Welche der folgenden Sharing-Plattformen wollen Sie in Zukunft (weiterhin) nutzen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche der folgenden Sharing-Plattformen wollen Sie in Zukunft (weiterhin) nutzen?",
+          "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Carsharing und Ridesharing (z. B. Stadtmobil, Cambio, BlaBlaCar)",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Andere Mobilitätsangebote (z. B. Bikesharing wie nextbike, E-Scooter-Sharing wie Lime)",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Second-Hand-Plattformen (z. B. Vinted, eBay)",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Nachbarschaftsplattformen (z. B. nebenan.de)",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Community Gardening, Angebote der solidarischen Landwirtschaft",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Coworking Spaces",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Maker Spaces und Repair Cafés",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Lokale Zeitbanken und lokale Tauschringe",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Übernachtungsplattformen/Plattformen zur Buchung und Vermietung von Unterkünften (z. B. Airbnb)",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Andere, und zwar: [answer field]",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Ich möchte zukünftig keine dieser Sharing-Plattformen (mehr) nutzen.",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 15": {
+      "question": "Page 15",
+      "name": "Page 15",
+      "label": "Gibt es sonst noch etwas, das Sie uns zum Thema Sharing-Plattformen mitteilen möchten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Gibt es sonst noch etwas, das Sie uns zum Thema Sharing-Plattformen mitteilen möchten?",
+          "instruction": "Hier können Sie Sharing-Plattformen nennen, die wir in unseren Fragen nicht berücksichtigt haben. Sie können auch Beispiele für konkrete Plattformorganisationen nennen, deren Angebote Sie besonders intensiv nutzen. Nutzen Sie dafür gerne das folgende Eingabefeld.",
+          "description": "Hier können Sie Sharing-Plattformen nennen, die wir in unseren Fragen nicht berücksichtigt haben. Sie können auch Beispiele für konkrete Plattformorganisationen nennen, deren Angebote Sie besonders intensiv nutzen. Nutzen Sie dafür gerne das folgende Eingabefeld.",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 16": {
+      "question": "Page 16",
+      "name": "Page 16",
+      "label": "In Deutschland leben inzwischen Angehörige vieler verschiedener nationaler Gruppen zusammen. Im Folgenden möchten wir Ihnen einige Fragen zu Angehörigen dieser unterschiedlichen Gruppen stellen. Dazu stellen wir Ihnen 6 beispielhafte Situationen vor. Bitte geben Sie jeweils an, wie Sie selbst darauf reagieren würden. Es gibt dabei keine richtigen oder falschen Meinungen. Uns interessiert nur Ihre persönliche Reaktion.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "In Deutschland leben inzwischen Angehörige vieler verschiedener nationaler Gruppen zusammen. Im Folgenden möchten wir Ihnen einige Fragen zu Angehörigen dieser unterschiedlichen Gruppen stellen. Dazu stellen wir Ihnen 6 beispielhafte Situationen vor. Bitte geben Sie jeweils an, wie Sie selbst darauf reagieren würden. Es gibt dabei keine richtigen oder falschen Meinungen. Uns interessiert nur Ihre persönliche Reaktion.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 17": {
+      "question": "Page 17",
+      "name": "Page 17",
+      "label": "[EDV: Person] ist aus [EDV: Herkunftsland] nach Deutschland eingewandert. [EDV: Qualifikation] und spricht [EDV: Sprachkenntnis] Deutsch. [EDV: Person] ist [EDV: Religion] [EDV: Bedeutung] Leben.\nWie würden Sie darauf reagieren, wenn [EDV: Person] in Ihre Familie einheiraten würde?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[EDV: Person] ist aus [EDV: Herkunftsland] nach Deutschland eingewandert. [EDV: Qualifikation] und spricht [EDV: Sprachkenntnis] Deutsch. [EDV: Person] ist [EDV: Religion] [EDV: Bedeutung] Leben.\nWie würden Sie darauf reagieren, wenn [EDV: Person] in Ihre Familie einheiraten würde?",
+          "description": "In den folgenden Fragen bekommen die Befragten jeweils eine fiktive Situation vorgestellt. Jedem Befragten soll dafür eine Kombination von Werten verschiedener Attribute angezeigt werden. Befragte zufällig in 20 Gruppen aufteilen und Gruppenzuteilung in separater Variable expCN63037 ablegen.\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  [b[Attribute: Person]b]\n[i[Filter:]i]\n- wenn expCN63037 = 1, 5, 18, dann: 'Herr B.'\n- wenn expCN63037 = 3, 8, 13, 14, dann: 'Herr D.'\n- wenn expCN63037 = 10, dann: 'Frau D.'\n- wenn expCN63037 = 9, 19, 20, dann: 'Herr M.'\n- wenn expCN63037 = 15, dann: 'Frau M.'\n- wenn expCN63037 = 7, 12, dann: 'Herr R.'\n- wenn expCN63037 = 16, dann: 'Frau S.'\n- wenn expCN63037 = 2, 6, 17, dann: 'Herr T.'\n- wenn expCN63037 = 4, 11, dann: 'Frau T.'\n\n\n[b[Attribute: Herkunftsland]b]\n[i[Filter:]i]\n- wenn expCN63037 = 1, 8, 14, 15, 16, 20, dann: 'der Ukraine'  \n- wenn expCN63037 = 2, 4, 5, 6, 7, 10, 11, 12, 18, 19, dann: 'Syrien'\n- wenn expCN63037 = 3, 9, 13, 17, dann: 'Frankreich'\n\n\n[b[Attribute: Qualifikation]b]\n[i[Filter:]i]\n- wenn expCN63037 = 1, 2, 3, 5, 6, 17, 18, 20, dann: 'Er ist geringqualifiziert'\n- wenn expCN63037 = 4, 15, dann: 'Sie ist geringqualifiziert'\n- wenn expCN63037 = 7, 8, 9,12, 13, 14, 19, dann: 'Er ist hochqualifiziert'\n- wenn expCN63037 = 10, 11, 16, dann: 'Sie ist hochqualifiziert'\n\n\n[b[Attribute: Sprachkenntnis]b]\n[i[Filter:]i]\n- wenn expCN63037 = 1, 2, 4, 9, 10, 11, 13, 15, 16, 17, 18, 19, dann: 'kaum'\n- wenn expCN63037 = 3, 5, 6, 7, 8, 12, 14, 20, dann: 'gut'\n\n\n[b[Attribute: Religion]b]\n[i[Filter:]i] \n- wenn expCN63037 = 1, 2, 7, 13, 20, dann: 'Christ'\n- wenn expCN63037 = 10, 16, dann: 'Christin'\n- wenn expCN63037 = 3, 5, 14, 17, 19, dann: 'Jude'\n- wenn expCN63037 = 4, 15,  dann: 'Jüdin'\n- wenn expCN63037 = 6, 8, 9, 12, 18, dann: 'Muslim'\n- wenn expCN63037 = 11, dann: 'Muslimin' \n\n\n[b[Attribute: Bedeutung]b]\n[i[Filter:]i] \n- wenn expCN63037 = 1, 6, 7, 12, 13, 14, 17, 19, dann: 'und Religion spielt eine wichtige Rolle in seinem'\n- wenn expCN63037 = 4, 11, dann: 'und Religion spielt eine wichtige Rolle in ihrem'\n- wenn expCN63037 = 2, 3, 5, 8, 9, 18, 20, dann: ' , aber Religion spielt keine große Rolle in seinem'\n- wenn expCN63037 = 10, 15, 16, dann: ', aber Religion spielt keine große Rolle in ihrem'",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 18": {
+      "question": "Page 18",
+      "name": "Page 18",
+      "label": "[EDV: Person] ist aus [EDV: Herkunftsland] nach Deutschland eingewandert. [EDV: Qualifikation] und spricht [EDV: Sprachkenntnis] Deutsch. [EDV: Person] ist [EDV: Religion] [EDV: Bedeutung] Leben.\nWie würden Sie darauf reagieren, wenn [EDV: Person] [EDV: Ereignis] würde?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[EDV: Person] ist aus [EDV: Herkunftsland] nach Deutschland eingewandert. [EDV: Qualifikation] und spricht [EDV: Sprachkenntnis] Deutsch. [EDV: Person] ist [EDV: Religion] [EDV: Bedeutung] Leben.\nWie würden Sie darauf reagieren, wenn [EDV: Person] [EDV: Ereignis] würde?",
+          "description": "[b[Attribute: Person]b]\n[i[Filter:]i]\n- wenn expCN63037 = 12, dann: 'Herr B.'\n- wenn expCN63037 = 6, 17, 20, dann: 'Frau B.'\n- wenn expCN63037 = 2, dann: 'Herr D.'\n- wenn expCN63037 = 9, dann: 'Frau D.'\n- wenn expCN63037 = 5, 8, dann: 'Herr M.'\n- wenn expCN63037 = 1, dann: 'Frau M.'\n- wenn expCN63037 = 3, 4, 10, 11, 13, 16, 18, dann: 'Frau R.'\n- wenn expCN63037 = 7, dann: 'Herr S.' \n- wenn expCN63037 = 15, 19, dann: 'Frau S.'\n- wenn expCN63037 = 14, dann: 'Frau T.'\n\n\n[b[Attribute: Herkunftsland]b]\n[i[Filter:]i]\n- wenn expCN63037 = 1, 6, 7, 8, 11, 12, 14, 17, dann: 'der Ukraine'  \n- wenn expCN63037 = 3, 9, 13, 19, dann: 'Syrien'\n- wenn expCN63037 = 2, 4, 5, 10, 15, 16, 18, 20, dann: 'Frankreich'\n\n\n[b[Attribute: Qualifikation]b]\n[i[Filter:]i]\n- wenn expCN63037 = 2, 8, dann: 'Er ist geringqualifiziert'\n- wenn expCN63037 = 4, 10, 11, 13, 14, 16, 17, 19, dann: 'Sie ist geringqualifiziert'\n- wenn expCN63037 = 5, 7, 12, dann: 'Er ist hochqualifiziert'\n- wenn expCN63037 = 1, 3, 6, 9, 15, 18, 20, dann: 'Sie ist hochqualifiziert'\n\n\n[b[Attribute: Sprachkenntnis]b]\n[i[Filter:]i]\n- wenn expCN63037 = 6, 7, 8, 10, 12, 13, 16, 20, dann: 'kaum'\n- wenn expCN63037 = 1, 2, 3, 4, 5, 9, 11, 14, 15, 17, 18, 19, dann: 'gut'\n\n\n[b[Attribute: Religion]b]\n[i[Filter:]i] \n- wenn expCN63037 = 5, dann: 'Christ'\n- wenn expCN63037 = 1, 4, 10, 19, dann: 'Christin'\n- wenn expCN63037 = 7, 12, dann: 'Jude'\n- wenn expCN63037 = 9, 14, 17, 18, 20,  dann: 'Jüdin'\n- wenn expCN63037 = 2, 8, dann: 'Muslim'\n- wenn expCN63037 = 3, 6, 11, 13, 15, 16, dann: 'Muslimin' \n\n\n[b[Attribute: Bedeutung]b]\n[i[Filter:]i] \n- wenn expCN63037 = 2, 8, 12, dann: 'und Religion spielt eine wichtige Rolle in seinem'\n- wenn expCN63037 = 1, 6, 10, 13, 15, 17, 18, 19, dann: 'und Religion spielt eine wichtige Rolle in ihrem'\n- wenn expCN63037 = 5, 7, dann: ' , aber Religion spielt keine große Rolle in seinem'\n- wenn expCN63037 = 3, 4, 9, 11, 14, 16, 20, dann: ', aber Religion spielt keine große Rolle in ihrem'\n\n\n[b[Attribute: Ereignis]b]\n[i[Filter:]i] \n- wenn expCN63037 = 12, dann: 'in Ihre direkte Nachbarschaft ziehen'\n- wenn expCN63037 = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, dann: 'in Ihre Familie einheiraten'",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 19": {
+      "question": "Page 19",
+      "name": "Page 19",
+      "label": "[EDV: Person] ist aus [EDV: Herkunftsland] nach Deutschland eingewandert. [EDV: Qualifikation] und spricht [EDV: Sprachkenntnis] Deutsch. [EDV: Person] ist [EDV: Religion] [EDV: Bedeutung] Leben.\nWie würden Sie darauf reagieren, wenn [EDV: Person] in Ihre direkte Nachbarschaft ziehen würde?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[EDV: Person] ist aus [EDV: Herkunftsland] nach Deutschland eingewandert. [EDV: Qualifikation] und spricht [EDV: Sprachkenntnis] Deutsch. [EDV: Person] ist [EDV: Religion] [EDV: Bedeutung] Leben.\nWie würden Sie darauf reagieren, wenn [EDV: Person] in Ihre direkte Nachbarschaft ziehen würde?",
+          "description": "[b[Attribute: Person]b]\n[i[Filter:]i]\n- wenn expCN63037 = 4, 10, 16, dann: 'Herr B.'\n- wenn expCN63037 = 2, 8, 9, dann: 'Frau B.'\n- wenn expCN63037 = 6, dann: 'Herr D.'\n- wenn expCN63037 = 13, dann: 'Herr M.'\n- wenn expCN63037 = 15, dann: 'Herr R.'\n- wenn expCN63037 = 5, dann: 'Frau R.'\n- wenn expCN63037 = 11, 14, dann: 'Herr S.' \n- wenn expCN63037 = 17, dann: 'Frau S.'\n- wenn expCN63037 = 1, 3, 7, 18, 19, dann: 'Herr T.'\n- wenn expCN63037 = 12, 20, dann: 'Frau T.'\n\n\n[b[Attribute: Herkunftsland]b]\n[i[Filter:]i]\n- wenn expCN63037 = 2, 4, 5, 13, 16, 17, 18, 19, dann: 'der Ukraine'  \n- wenn expCN63037 = 7, 8, 9, 10, 11, 14, 15, 20, dann: 'Syrien'\n- wenn expCN63037 = 1, 3, 6, 12, dann: 'Frankreich'\n\n\n[b[Attribute: Qualifikation]b]\n[i[Filter:]i]\n- wenn expCN63037 = 1, 6, 7, 13, 15, 16, 19, dann: 'Er ist geringqualifiziert'\n- wenn expCN63037 = 8, 12, 17, dann: 'Sie ist geringqualifiziert'\n- wenn expCN63037 = 3, 4, 10, 11, 14, 18, dann: 'Er ist hochqualifiziert'\n- wenn expCN63037 = 2, 5, 9, 20, dann: 'Sie ist hochqualifiziert'\n\n\n[b[Attribute: Sprachkenntnis]b]\n[i[Filter:]i]\n- wenn expCN63037 = 5, 6, 8, 9, 11, 14, 17, 18, 19, dann: 'kaum'\n- wenn expCN63037 = 1, 2, 3, 4, 7, 10, 12, 13, 15, 16, 20, dann: 'gut'\n\n\n[b[Attribute: Religion]b]\n[i[Filter:]i] \n- wenn expCN63037 = 15, 16, 18, dann: 'Christ'\n- wenn expCN63037 = 9, 12, 17, dann: 'Christin'\n- wenn expCN63037 = 3, 6, 7, 11, 13, dann: 'Jude'\n- wenn expCN63037 = 2, 8, 20,  dann: 'Jüdin'\n- wenn expCN63037 = 1, 4, 10, 14, 19, dann: 'Muslim'\n- wenn expCN63037 = 5, dann: 'Muslimin' \n\n\n[b[Attribute: Bedeutung]b]\n[i[Filter:]i] \n- wenn expCN63037 = 3, 4, 6, 7, 14, 16, dann: 'und Religion spielt eine wichtige Rolle in seinem'\n- wenn expCN63037 = 9, 12, 17, 20, dann: 'und Religion spielt eine wichtige Rolle in ihrem'\n- wenn expCN63037 = 1, 10, 11, 13, 15, 18, 19, dann: ' , aber Religion spielt keine große Rolle in seinem'\n- wenn expCN63037 = 2, 5, 8, dann: ', aber Religion spielt keine große Rolle in ihrem'",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 18,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 20": {
+      "question": "Page 20",
+      "name": "Page 20",
+      "label": "[EDV: Person] ist aus [EDV: Herkunftsland] nach Deutschland eingewandert. [EDV: Qualifikation] und spricht [EDV: Sprachkenntnis] Deutsch. [EDV: Person] ist [EDV: Religion] [EDV: Bedeutung] Leben.\nWie würden Sie darauf reagieren, wenn [EDV: Person] [EDV: Ereignis] würde?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[EDV: Person] ist aus [EDV: Herkunftsland] nach Deutschland eingewandert. [EDV: Qualifikation] und spricht [EDV: Sprachkenntnis] Deutsch. [EDV: Person] ist [EDV: Religion] [EDV: Bedeutung] Leben.\nWie würden Sie darauf reagieren, wenn [EDV: Person] [EDV: Ereignis] würde?",
+          "description": "[b[Attribute: Person]b]\n[i[Filter:]i]\n- wenn expCN63037 = 14, 15, dann: 'Herr B.'\n- wenn expCN63037 = 7, 19, dann: 'Frau B.'\n- wenn expCN63037 = 11, 12, dann: 'Herr D.'\n- wenn expCN63037 = 4, dann: 'Frau D.'\n- wenn expCN63037 = 16, dann: 'Herr M.'\n- wenn expCN63037 = 3, dann: 'Frau M.'\n- wenn expCN63037 = 1, 2, 8, 9, 17, 20, dann: 'Frau R.'\n- wenn expCN63037 = 6, 18, dann: 'Frau S.' \n- wenn expCN63037 = 13, dann: 'Herr T.'\n- wenn expCN63037 = 5, 10, dann: 'Frau T.'\n\n\n[b[Attribute: Herkunftsland]b]\n[i[Filter:]i]\n- wenn expCN63037 = 3, 4, 5, 9, dann: 'der Ukraine'  \n- wenn expCN63037 = 1, 6, 15, 18, dann: 'Syrien'\n- wenn expCN63037 = 2, 7, 8, 10, 11, 12, 13, 14, 16, 17, 19, 20, dann: 'Frankreich'\n\n\n[b[Attribute: Qualifikation]b]\n[i[Filter:]i]\n- wenn expCN63037 = 12, 15, 16, dann: 'Er ist geringqualifiziert'\n- wenn expCN63037 = 1, 4, 5, 7, 9, 10, 18, 19, dann: 'Sie ist geringqualifiziert'\n- wenn expCN63037 = 11, 13, 14, dann: 'Er ist hochqualifiziert'\n- wenn expCN63037 = 2, 3, 6, 8, 17, 20, dann: 'Sie ist hochqualifiziert'\n\n\n[b[Attribute: Sprachkenntnis]b]\n[i[Filter:]i]\n- wenn expCN63037 = 2, 7, 8, 9, 12, 14, 15, 16, 18, 20, dann: 'kaum'\n- wenn expCN63037 = 1, 3, 4, 5, 6, 10, 11, 13, 17, 19, dann: 'gut'\n\n\n[b[Attribute: Religion]b]\n[i[Filter:]i] \n- wenn expCN63037 = 11, 12, 14, 15, dann: 'Christ'\n- wenn expCN63037 = 3, 4, 6, 7, dann: 'Christin'\n- wenn expCN63037 = 2, 8, 9, 10, 19,  dann: 'Jüdin'\n- wenn expCN63037 = 13, 16, dann: 'Muslim'\n- wenn expCN63037 = 1, 5, 17, 18, 20, dann: 'Muslimin' \n\n\n[b[Attribute: Bedeutung]b]\n[i[Filter:]i] \n- wenn expCN63037 = 11, 15, 16, dann: 'und Religion spielt eine wichtige Rolle in seinem'\n- wenn expCN63037 = 1, 3, 5, 8, 9, 19, 20, dann: 'und Religion spielt eine wichtige Rolle in ihrem'\n- wenn expCN63037 = 12, 13, 14, dann: ' , aber Religion spielt keine große Rolle in seinem'\n- wenn expCN63037 = 2, 4, 6, 7, 10, 17, 18, dann: ', aber Religion spielt keine große Rolle in ihrem'\n\n\n[b[Attribute: Ereignis]b]\n[i[Filter:]i] \n- wenn expCN63037 = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, dann: 'in Ihre direkte Nachbarschaft ziehen'\n- wenn expCN63037 = 12, dann: 'nach wenigen Jahren die deutsche Staatsbürgerschaft erhalten'",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 19,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 21": {
+      "question": "Page 21",
+      "name": "Page 21",
+      "label": "[EDV: Person] ist aus [EDV: Herkunftsland] nach Deutschland eingewandert. [EDV: Qualifikation] und spricht [EDV: Sprachkenntnis] Deutsch. [EDV: Person] ist [EDV: Religion] [EDV: Bedeutung] Leben.\nWie würden Sie darauf reagieren, wenn [EDV: Person] [EDV: Ereignis] würde?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[EDV: Person] ist aus [EDV: Herkunftsland] nach Deutschland eingewandert. [EDV: Qualifikation] und spricht [EDV: Sprachkenntnis] Deutsch. [EDV: Person] ist [EDV: Religion] [EDV: Bedeutung] Leben.\nWie würden Sie darauf reagieren, wenn [EDV: Person] [EDV: Ereignis] würde?",
+          "description": "[b[Attribute: Person]b]\n[i[Filter:]i]\n- wenn expCN63037 = 3, dann: 'Herr B.'\n- wenn expCN63037 = 13, dann: 'Frau B.'\n- wenn expCN63037 = 16, 17, 19, dann: 'Herr D.'\n- wenn expCN63037 = 7, dann: 'Frau D.'\n- wenn expCN63037 = 2, 11, 18, dann: 'Herr M.'\n- wenn expCN63037 = 14, dann: 'Frau M.'\n- wenn expCN63037 = 6, dann: 'Herr R.'\n- wenn expCN63037 = 1, 4, 5, 10, 20, dann: 'Herr S.' \n- wenn expCN63037 = 12, dann: 'Frau S.'\n- wenn expCN63037 = 8, 9, 15, dann: 'Herr T.'\n\n\n\n[b[Attribute: Herkunftsland]b]\n[i[Filter:]i]\n- wenn expCN63037 = 6, 7, 9, 10, 18, dann: 'der Ukraine'  \n- wenn expCN63037 = 2, 3, 5, 12, 13, 14, 16, 17, 20, dann: 'Syrien'\n- wenn expCN63037 = 1, 4, 8, 11, 15, 19, dann: 'Frankreich'\n\n\n[b[Attribute: Qualifikation]b]\n[i[Filter:]i]\n- wenn expCN63037 = 3, 5, 8, 9, 11, 20, dann: 'Er ist geringqualifiziert'\n- wenn expCN63037 = 12, 13, 14, dann: 'Sie ist geringqualifiziert'\n- wenn expCN63037 = 1, 2, 4, 6, 10, 15, 16, 17, 18, 19, dann: 'Er ist hochqualifiziert'\n- wenn expCN63037 = 7, dann: 'Sie ist hochqualifiziert'\n\n\n[b[Attribute: Sprachkenntnis]b]\n[i[Filter:]i]\n- wenn expCN63037 = 3, 4, 5, 10, 11, 14, 17, 18, 19, dann: 'kaum'\n- wenn expCN63037 = 1, 2, 6, 7, 8, 9, 12, 13, 15, 16, 20, dann: 'gut'\n\n\n[b[Attribute: Religion]b]\n[i[Filter:]i] \n- wenn expCN63037 = 2, 6, 8, 17, 18, dann: 'Christ'\n- wenn expCN63037 = 13, 14, dann: 'Christin'\n- wenn expCN63037 = 1, 4, 5, 11, 16, dann: 'Jude'\n- wenn expCN63037 = 12,  dann: 'Jüdin'\n- wenn expCN63037 = 3, 9, 10, 15, 19, 20, dann: 'Muslim'\n- wenn expCN63037 = 7, dann: 'Muslimin' \n\n\n[b[Attribute: Bedeutung]b]\n[i[Filter:]i] \n- wenn expCN63037 = 2, 3, 4, 5, 10, 15, 18, dann: 'und Religion spielt eine wichtige Rolle in seinem'\n- wenn expCN63037 = 7, 14, dann: 'und Religion spielt eine wichtige Rolle in ihrem'\n- wenn expCN63037 = 1, 6, 8, 9, 11, 16, 17, 19, 20, dann: ' , aber Religion spielt keine große Rolle in seinem'\n- wenn expCN63037 = 12, 13, dann: ', aber Religion spielt keine große Rolle in ihrem'\n\n\n[b[Attribute: Ereignis]b]\n[i[Filter:]i] \n- wenn expCN63037 = 11, dann: 'in Ihre direkte Nachbarschaft ziehen'\n- wenn expCN63037 = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, dann: 'nach wenigen Jahren die deutsche Staatsbürgerschaft erhalten'",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 20,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 22": {
+      "question": "Page 22",
+      "name": "Page 22",
+      "label": "[EDV: Person] ist aus [EDV: Herkunftsland] nach Deutschland eingewandert. [EDV: Qualifikation] und spricht [EDV: Sprachkenntnis] Deutsch. [EDV: Person] ist [EDV: Religion] [EDV: Bedeutung] Leben.\nWie würden Sie darauf reagieren, wenn [EDV: Person] nach wenigen Jahren die deutsche Staatsbürgerschaft erhalten würde?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[EDV: Person] ist aus [EDV: Herkunftsland] nach Deutschland eingewandert. [EDV: Qualifikation] und spricht [EDV: Sprachkenntnis] Deutsch. [EDV: Person] ist [EDV: Religion] [EDV: Bedeutung] Leben.\nWie würden Sie darauf reagieren, wenn [EDV: Person] nach wenigen Jahren die deutsche Staatsbürgerschaft erhalten würde?",
+          "description": "[b[Attribute: Person]b]\n[i[Filter:]i]\n- wenn expCN63037 = 11, dann: 'Frau B.'\n- wenn expCN63037 = 20, dann: 'Herr D.'\n- wenn expCN63037 = 1, 5, 15, 18, dann: 'Frau D.'\n- wenn expCN63037 = 10, dann: 'Herr M.'\n- wenn expCN63037 = 4, 6, 7, 12, 17, dann: 'Frau M.'\n- wenn expCN63037 = 14, 19, dann: 'Frau R.'\n- wenn expCN63037 = 9, dann: 'Herr S.' \n- wenn expCN63037 = 2, 3, 8, 13, dann: 'Frau S.'\n- wenn expCN63037 = 16, dann: 'Frau T.'\n\n\n[b[Attribute: Herkunftsland]b]\n[i[Filter:]i]\n- wenn expCN63037 = 2, 3, 10, 11, 12, 13, 15, 20, dann: 'der Ukraine'  \n- wenn expCN63037 = 1, 4, 16, 17, dann: 'Syrien'\n- wenn expCN63037 = 5, 6, 7, 8, 9, 14, 18, 19, dann: 'Frankreich'\n\n\n[b[Attribute: Qualifikation]b]\n[i[Filter:]i]\n- wenn expCN63037 = 9, 10, 20, dann: 'Er ist geringqualifiziert'\n- wenn expCN63037 = 2, 3, 6, 7, 11, 14, 18, dann: 'Sie ist geringqualifiziert'\n- wenn expCN63037 = 1, 4, 5, 8, 12, 13, 15, 16, 17, 19, dann: 'Sie ist hochqualifiziert'\n\n\n[b[Attribute: Sprachkenntnis]b]\n[i[Filter:]i]\n- wenn expCN63037 = 1, 2, 3, 4, 5, 6, 7, 12, 13, 20, dann: 'kaum'\n- wenn expCN63037 = 8, 9, 10, 11, 14, 15, 16, 17, 18, 19, dann: 'gut'\n\n\n[b[Attribute: Religion]b]\n[i[Filter:]i] \n- wenn expCN63037 = 9, dann: 'Christ'\n- wenn expCN63037 = 3, 5, 8, 11, 19, dann: 'Christin'\n- wenn expCN63037 = 10, 20, dann: 'Jude'\n- wenn expCN63037 = 1, 6, 13, 15, 16, 18,  dann: 'Jüdin'\n-wenn expCN63037 = 2, 4, 7, 12, 14, 17, dann: 'Muslimin' \n\n\n[b[Attribute: Bedeutung]b]\n[i[Filter:]i] \n- wenn expCN63037 = 9, 10, dann: 'und Religion spielt eine wichtige Rolle in seinem'\n- wenn expCN63037 = 2, 5, 7, 8, 11, 13, 16, 17, 18, dann: 'und Religion spielt eine wichtige Rolle in ihrem'\n- wenn expCN63037 = 20, dann: ' , aber Religion spielt keine große Rolle in seinem'\n- wenn expCN63037 = 1, 3, 4, 6, 12, 14, 15, 19, dann: ', aber Religion spielt keine große Rolle in ihrem'",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr negativ"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr positiv"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 21,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 23": {
+      "question": "Page 23",
+      "name": "Page 23",
+      "label": "Im Folgenden präsentieren wir Ihnen eine Beschreibung einer hypothetischen Situation. Es ist wichtig, dass Sie sich die Beschreibung aufmerksam und vollständig durchlesen. Bitte beantworten Sie anschließend die darunterstehende Frage. Es gibt dabei keine richtigen oder falschen Antworten – antworten Sie so, wie es Ihrer persönlichen Meinung entspricht.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden präsentieren wir Ihnen eine Beschreibung einer hypothetischen Situation. Es ist wichtig, dass Sie sich die Beschreibung aufmerksam und vollständig durchlesen. Bitte beantworten Sie anschließend die darunterstehende Frage. Es gibt dabei keine richtigen oder falschen Antworten – antworten Sie so, wie es Ihrer persönlichen Meinung entspricht.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 22,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 24": {
+      "question": "Page 24",
+      "name": "Page 24",
+      "label": "[Wenn expDZ63006 = 1: Auf Smartphones installierte Sensoren sammeln Daten zum Gesundheitszustand der Träger (z. B. Puls). Diese Daten werden mit Einverständnis der Träger an ein Unternehmen übermittelt. Das Unternehmen nutzt diese Daten, um die Verbreitung von Infektionskrankheiten in der Bevölkerung frühzeitig zu erkennen und Lösungen zu ihrer Eindämmung zu entwickeln. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 2: Auf Smartphones installierte Sensoren sammeln Daten zum Gesundheitszustand der Träger (z. B. Puls). Diese Daten werden mit Einverständnis der Träger an ein Unternehmen übermittelt. Das Unternehmen nutzt diese Daten, um den Trägern persönliche Empfehlungen zu ihrem Gesundheitsverhalten zu liefern. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 3: Auf Smartphones installierte Sensoren sammeln Daten zum Gesundheitszustand der Träger (z. B. Puls). Diese Daten werden mit Einverständnis der Träger an eine Behörde übermittelt. Die Behörde nutzt diese Daten, um die Verbreitung von Infektionskrankheiten in der Bevölkerung frühzeitig zu erkennen und Lösungen zu ihrer Eindämmung zu entwickeln. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 4: Auf Smartphones installierte Sensoren sammeln Daten zum Gesundheitszustand der Träger (z. B. Puls). Diese Daten werden mit Einverständnis der Träger an eine Behörde übermittelt. Die Behörde nutzt diese Daten, um den Trägern persönliche Empfehlungen zu ihrem Gesundheitsverhalten zu liefern. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 5: Smartphones mit Navigations-Apps sammeln während Autofahrten Standortdaten. Diese Daten werden mit Einverständnis der Fahrer an ein Unternehmen übermittelt. Das Unternehmen nutzt diese Daten, um Verbesserungen der lokalen Infrastruktur (z. B. zur Vermeidung von Staus und Unfällen) zu entwickeln. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 6: Smartphones mit Navigations-Apps sammeln während Autofahrten Standortdaten. Diese Daten werden mit Einverständnis der Fahrer an ein Unternehmen übermittelt. Das Unternehmen nutzt diese Daten, um den Fahrern persönliche Empfehlungen zu Fahrverhalten und Fahrtrouten (z. B. für kürzere Fahrtdauern und niedrigeren Kraftstoffverbrauch) zu liefern. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 7: Smartphones mit Navigations-Apps sammeln während Autofahrten Standortdaten. Diese Daten werden mit Einverständnis der Fahrer an eine Behörde übermittelt. Die Behörde nutzt diese Daten, um Verbesserungen der lokalen Infrastruktur (z. B. zur Vermeidung von Staus und Unfällen) zu entwickeln. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 8: Smartphones mit Navigations-Apps sammeln während Autofahrten Standortdaten. Diese Daten werden mit Einverständnis der Fahrer an eine Behörde übermittelt. Die Behörde nutzt diese Daten, um den Fahrern persönliche Empfehlungen zu Fahrverhalten und Fahrtrouten (z. B. für kürzere Fahrtdauern und niedrigeren Kraftstoffverbrauch) zu liefern. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 9: Intelligente Stromzähler sammeln Daten zum Energieverbrauch von Geräten im Haushalt. Diese Daten werden mit Einverständnis des jeweiligen Bewohners an ein Unternehmen übermittelt. Das Unternehmen nutzt diese Daten, um ein effizienteres Energieverteilungssystem im Wohngebiet des Bewohners zu entwickeln und so den kollektiven Energieverbrauch insgesamt zu reduzieren. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 10: Intelligente Stromzähler sammeln Daten zum Energieverbrauch von Geräten im Haushalt. Diese Daten werden mit Einverständnis des jeweiligen Bewohners an ein Unternehmen übermittelt. Das Unternehmen nutzt diese Daten, um dem Bewohner persönliche Empfehlungen zur Optimierung und Reduzierung des eigenen Energieverbrauchs im Haushalt zu liefern. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 11: Intelligente Stromzähler sammeln Daten zum Energieverbrauch von Geräten im Haushalt. Diese Daten werden mit Einverständnis des jeweiligen Bewohners an eine Behörde übermittelt. Die Behörde nutzt diese Daten, um ein effizienteres Energieverteilungssystem im Wohngebiet des Bewohners zu entwickeln und so den kollektiven Energieverbrauch insgesamt zu reduzieren. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 12: Intelligente Stromzähler sammeln Daten zum Energieverbrauch von Geräten im Haushalt. Diese Daten werden mit Einverständnis des jeweiligen Bewohners an eine Behörde übermittelt. Die Behörde nutzt diese Daten, um dem Bewohner persönliche Empfehlungen zur Optimierung und Reduzierung des eigenen Energieverbrauchs im Haushalt zu liefern. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\nWie akzeptabel finden Sie es, diese Daten zu diesem Zweck zu nutzen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn expDZ63006 = 1: Auf Smartphones installierte Sensoren sammeln Daten zum Gesundheitszustand der Träger (z. B. Puls). Diese Daten werden mit Einverständnis der Träger an ein Unternehmen übermittelt. Das Unternehmen nutzt diese Daten, um die Verbreitung von Infektionskrankheiten in der Bevölkerung frühzeitig zu erkennen und Lösungen zu ihrer Eindämmung zu entwickeln. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 2: Auf Smartphones installierte Sensoren sammeln Daten zum Gesundheitszustand der Träger (z. B. Puls). Diese Daten werden mit Einverständnis der Träger an ein Unternehmen übermittelt. Das Unternehmen nutzt diese Daten, um den Trägern persönliche Empfehlungen zu ihrem Gesundheitsverhalten zu liefern. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 3: Auf Smartphones installierte Sensoren sammeln Daten zum Gesundheitszustand der Träger (z. B. Puls). Diese Daten werden mit Einverständnis der Träger an eine Behörde übermittelt. Die Behörde nutzt diese Daten, um die Verbreitung von Infektionskrankheiten in der Bevölkerung frühzeitig zu erkennen und Lösungen zu ihrer Eindämmung zu entwickeln. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 4: Auf Smartphones installierte Sensoren sammeln Daten zum Gesundheitszustand der Träger (z. B. Puls). Diese Daten werden mit Einverständnis der Träger an eine Behörde übermittelt. Die Behörde nutzt diese Daten, um den Trägern persönliche Empfehlungen zu ihrem Gesundheitsverhalten zu liefern. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 5: Smartphones mit Navigations-Apps sammeln während Autofahrten Standortdaten. Diese Daten werden mit Einverständnis der Fahrer an ein Unternehmen übermittelt. Das Unternehmen nutzt diese Daten, um Verbesserungen der lokalen Infrastruktur (z. B. zur Vermeidung von Staus und Unfällen) zu entwickeln. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 6: Smartphones mit Navigations-Apps sammeln während Autofahrten Standortdaten. Diese Daten werden mit Einverständnis der Fahrer an ein Unternehmen übermittelt. Das Unternehmen nutzt diese Daten, um den Fahrern persönliche Empfehlungen zu Fahrverhalten und Fahrtrouten (z. B. für kürzere Fahrtdauern und niedrigeren Kraftstoffverbrauch) zu liefern. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 7: Smartphones mit Navigations-Apps sammeln während Autofahrten Standortdaten. Diese Daten werden mit Einverständnis der Fahrer an eine Behörde übermittelt. Die Behörde nutzt diese Daten, um Verbesserungen der lokalen Infrastruktur (z. B. zur Vermeidung von Staus und Unfällen) zu entwickeln. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 8: Smartphones mit Navigations-Apps sammeln während Autofahrten Standortdaten. Diese Daten werden mit Einverständnis der Fahrer an eine Behörde übermittelt. Die Behörde nutzt diese Daten, um den Fahrern persönliche Empfehlungen zu Fahrverhalten und Fahrtrouten (z. B. für kürzere Fahrtdauern und niedrigeren Kraftstoffverbrauch) zu liefern. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 9: Intelligente Stromzähler sammeln Daten zum Energieverbrauch von Geräten im Haushalt. Diese Daten werden mit Einverständnis des jeweiligen Bewohners an ein Unternehmen übermittelt. Das Unternehmen nutzt diese Daten, um ein effizienteres Energieverteilungssystem im Wohngebiet des Bewohners zu entwickeln und so den kollektiven Energieverbrauch insgesamt zu reduzieren. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 10: Intelligente Stromzähler sammeln Daten zum Energieverbrauch von Geräten im Haushalt. Diese Daten werden mit Einverständnis des jeweiligen Bewohners an ein Unternehmen übermittelt. Das Unternehmen nutzt diese Daten, um dem Bewohner persönliche Empfehlungen zur Optimierung und Reduzierung des eigenen Energieverbrauchs im Haushalt zu liefern. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 11: Intelligente Stromzähler sammeln Daten zum Energieverbrauch von Geräten im Haushalt. Diese Daten werden mit Einverständnis des jeweiligen Bewohners an eine Behörde übermittelt. Die Behörde nutzt diese Daten, um ein effizienteres Energieverteilungssystem im Wohngebiet des Bewohners zu entwickeln und so den kollektiven Energieverbrauch insgesamt zu reduzieren. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\n[Wenn expDZ63006 = 12: Intelligente Stromzähler sammeln Daten zum Energieverbrauch von Geräten im Haushalt. Diese Daten werden mit Einverständnis des jeweiligen Bewohners an eine Behörde übermittelt. Die Behörde nutzt diese Daten, um dem Bewohner persönliche Empfehlungen zur Optimierung und Reduzierung des eigenen Energieverbrauchs im Haushalt zu liefern. Die Daten sind sicher, anonym und vor Missbrauch geschützt.]\nWie akzeptabel finden Sie es, diese Daten zu diesem Zweck zu nutzen?",
+          "description": "Befragte zufällig in 12 Gruppen aufteilen und Gruppenzuteilung in separater Variable expDZ63006 ablegen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Nicht akzeptabel"
+            },
+            {
+              "value": 2,
+              "label": "Wenig akzeptabel"
+            },
+            {
+              "value": 3,
+              "label": "Mittelmäßig akzeptabel"
+            },
+            {
+              "value": 4,
+              "label": "Ziemlich akzeptabel"
+            },
+            {
+              "value": 5,
+              "label": "Sehr akzeptabel "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 23,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 25": {
+      "question": "Page 25",
+      "name": "Page 25",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "interessant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 24,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 26": {
+      "question": "Page 26",
+      "name": "Page 26",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "abwechslungsreich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 25,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 27 ": {
+      "question": "Page 27 ",
+      "name": "Page 27 ",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "relevant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 26,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 28": {
+      "question": "Page 28",
+      "name": "Page 28",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "lang",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 27,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 29": {
+      "question": "Page 29",
+      "name": "Page 29",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "schwierig",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 28,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 30 ": {
+      "question": "Page 30 ",
+      "name": "Page 30 ",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "zu persönlich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 29,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 31": {
+      "question": "Page 31",
+      "name": "Page 31",
+      "label": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut "
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 30,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 32": {
+      "question": "Page 32",
+      "name": "Page 32",
+      "label": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern. Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern. Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 31,
+      "instrument": "W63",
+      "study": "gip"
+    },
+    "Page 33 Outro": {
+      "question": "Page 33 Outro",
+      "name": "Page 33 Outro",
+      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\nIhr Forschungsteam von der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\nIhr Forschungsteam von der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 32,
+      "instrument": "W63",
+      "study": "gip"
+    }
+  }
+}
