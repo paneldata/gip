@@ -1,0 +1,2439 @@
+{
+  "study": "gip",
+  "name": "W66",
+  "label": "GIP Wave 66",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 66 enthält folgende Kennungen und zugespielte Variablen:\n• id_g - Unique ID, GIP\n• hhid_g - Household Identifyer, GIP\n• pid - Person identifyer (wthin HH)\n• gender_22 - gender\n• year_of_birth_cat_22 - year of birth categories\n• educ_school_22 - highest educational degree\n• educ_job_22 - highest professional qualification\n• marital_status_22 - marital status\n• number_hh_members_22 - number of household members\n• occupation_22 - employment status\n• german_citizenship_22 - german citizenship\n• internet_usage_22 - private internet usage\n• state_22 - residence state\n• sample - year of recruitment\n• dDatum - Interview-Datum\n• online_status_wave - current online status",
+  "analysis_unit": "p",
+  "period": "2023/07",
+  "instrument": "W66",
+  "questions": {
+    "Page 1 Introduction": {
+      "question": "Page 1 Introduction",
+      "name": "Page 1 Introduction",
+      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren.\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren.\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 2": {
+      "question": "Page 2",
+      "name": "Page 2",
+      "label": "Was ist Ihre persönliche Meinung zum Gesundheitssystem in Deutschland? Inwieweit sollte die Bundesregierung das Gesundheitssystem verändern?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Was ist Ihre persönliche Meinung zum Gesundheitssystem in Deutschland? Inwieweit sollte die Bundesregierung das Gesundheitssystem verändern?",
+          "instruction": "Bitte antworten Sie anhand der Skala.",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Die Bundesregierung sollte das Gesundheitssystem …",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "gar nicht verändern"
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10,
+              "label": "vollständig verändern"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 3": {
+      "question": "Page 3",
+      "name": "Page 3",
+      "label": "Die Ausgaben für das Gesundheitssystem sind in den letzten Jahren gestiegen. Um Einnahmen und Ausgaben im Gleichgewicht zu halten, gibt es unterschiedliche Maßnahmen, die im Folgenden aufgeführt sind.\n\nWelche dieser Maßnahmen befürworten Sie?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Die Ausgaben für das Gesundheitssystem sind in den letzten Jahren gestiegen. Um Einnahmen und Ausgaben im Gleichgewicht zu halten, gibt es unterschiedliche Maßnahmen, die im Folgenden aufgeführt sind.\n\nWelche dieser Maßnahmen befürworten Sie?",
+          "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Die Beiträge zur Krankenversicherung sollten erhöht werden.",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Private Zuzahlungen durch den Patienten sollten erhöht werden (z. B. Zuzahlung zu Medikamenten oder beim Arztbesuch).",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Die allgemeinen Steuern sollten erhöht werden (z. B. die Einkommenssteuer).",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Die Vergütung von Ärzten sollte gekürzt werden.",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Die Vergütung von Apotheken und der Pharmaindustrie sollten gekürzt werden.",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Die medizinischen Leistungen, die von der Krankenversicherung bezahlt werden, sollten beschränkt werden.",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Sonstiges, und zwar:",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Ich befürworte keine dieser Maßnahmen.",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 4": {
+      "question": "Page 4",
+      "name": "Page 4",
+      "label": "Ein Hausarztmodell verpflichtet jeden Patienten bei gesundheitlichen Problemen zuerst zu seinem Hausarzt zu gehen. Dieser entscheidet dann, ob Patienten zu einem Facharzt überwiesen werden. In Notfällen ist keine Überweisung erforderlich.\nBei der freien Arztwahl kann der Patient bei gesundheitlichen Problemen selbst entscheiden, ob er zum Hausarzt oder gleich zu einem Facharzt geht.\n\nWas finden Sie besser?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Hausarztmodell verpflichtet jeden Patienten bei gesundheitlichen Problemen zuerst zu seinem Hausarzt zu gehen. Dieser entscheidet dann, ob Patienten zu einem Facharzt überwiesen werden. In Notfällen ist keine Überweisung erforderlich.\nBei der freien Arztwahl kann der Patient bei gesundheitlichen Problemen selbst entscheiden, ob er zum Hausarzt oder gleich zu einem Facharzt geht.\n\nWas finden Sie besser?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Hausarztmodell"
+            },
+            {
+              "value": 2,
+              "label": "freie Arztwahl"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 5": {
+      "question": "Page 5",
+      "name": "Page 5",
+      "label": "Gibt es sonst noch etwas, das Sie uns zum deutschen Gesundheitssystem mitteilen möchten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Gibt es sonst noch etwas, das Sie uns zum deutschen Gesundheitssystem mitteilen möchten?",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 6": {
+      "question": "Page 6",
+      "name": "Page 6",
+      "label": "Was ist Ihre persönliche Meinung zur sozialen Sicherung von Arbeitslosen in Deutschland? Inwieweit sollte die Bundesregierung die soziale Sicherung von Arbeitslosen verändern?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Was ist Ihre persönliche Meinung zur sozialen Sicherung von Arbeitslosen in Deutschland? Inwieweit sollte die Bundesregierung die soziale Sicherung von Arbeitslosen verändern?",
+          "instruction": "Bitte antworten Sie anhand der Skala.",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Die Bundesregierung sollte die soziale Sicherung von Arbeitslosen …",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "gar nicht verändern"
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10,
+              "label": "vollständig verändern"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 7": {
+      "question": "Page 7",
+      "name": "Page 7",
+      "label": "Wie ist Ihre Meinung: Welche der folgenden Bedingungen sollten Menschen, die länger als ein Jahr arbeitslos sind, erfüllen, damit sie Arbeitslosengeld II („Hartz IV“) erhalten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie ist Ihre Meinung: Welche der folgenden Bedingungen sollten Menschen, die länger als ein Jahr arbeitslos sind, erfüllen, damit sie Arbeitslosengeld II („Hartz IV“) erhalten?",
+          "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 7 ": {
+      "question": "Page 7 ",
+      "name": "Page 7 ",
+      "label": "Sie sollten …",
+      "label_de": "",
+      "items": [
+        {
+          "item": "1",
+          "text": "Sie sollten …",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "ohne weitere Bedingungen Arbeitslosengeld II erhalten.",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "bedürftig sein, das heißt, dass weder sie selbst noch ein Mitglied des Haushalts für den Lebensunterhalt aufkommen kann.",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "sich aktiv um Arbeit bemühen.",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "zumutbare Arbeitsangebote annehmen.",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "jedes Arbeitsangebot annehmen.",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "zuvor in Deutschland gearbeitet haben.",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "die deutsche Staatsbürgerschaft besitzen.",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "sonstige Bedingungen erfüllen, und zwar:",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Das Arbeitslosengeld II sollte ersatzlos abgeschafft werden.",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Das Arbeitslosengeld II sollte abgeschafft und durch etwas anderes ersetzt werden.",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 8": {
+      "question": "Page 8",
+      "name": "Page 8",
+      "label": "Der Arbeitsmarkt in Deutschland wird durch mehrere Gesetze, beispielsweise zum Mindestlohn oder zum Kündigungsschutz, reguliert.\n\nSollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Der Arbeitsmarkt in Deutschland wird durch mehrere Gesetze, beispielsweise zum Mindestlohn oder zum Kündigungsschutz, reguliert.\n\nSollte die Bundesregierung mehr oder weniger Regeln für den deutschen Arbeitsmarkt festsetzen als momentan?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "viel mehr Regeln festsetzen als momentan"
+            },
+            {
+              "value": 2,
+              "label": "etwas mehr Regeln festsetzen als momentan"
+            },
+            {
+              "value": 3,
+              "label": "genauso viele Regeln festsetzen wie momentan"
+            },
+            {
+              "value": 4,
+              "label": "etwas weniger Regeln festsetzen als momentan"
+            },
+            {
+              "value": 5,
+              "label": "viel weniger Regeln festsetzen als momentan"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 9": {
+      "question": "Page 9",
+      "name": "Page 9",
+      "label": "Gibt es sonst noch etwas, das Sie uns zum Thema Arbeitsmarkt und Arbeitslosigkeit mitteilen möchten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Gibt es sonst noch etwas, das Sie uns zum Thema Arbeitsmarkt und Arbeitslosigkeit mitteilen möchten?",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 10": {
+      "question": "Page 10",
+      "name": "Page 10",
+      "label": "Was ist Ihre persönliche Meinung zum Rentensystem in Deutschland? Inwieweit sollte die Bundesregierung das Rentensystem verändern?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Was ist Ihre persönliche Meinung zum Rentensystem in Deutschland? Inwieweit sollte die Bundesregierung das Rentensystem verändern?",
+          "instruction": "Bitte antworten Sie anhand der Skala.",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Die Bundesregierung sollte das Rentensystem …",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "gar nicht verändern"
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10,
+              "label": "vollständig verändern"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 11": {
+      "question": "Page 11",
+      "name": "Page 11",
+      "label": "[expRM66008 = 1: Die Alterung der Gesellschaft gefährdet die Finanzierung der gesetzlichen Renten in ihrer jetzigen Höhe.]\n\n[expRM66008 = 1: Welchen der folgenden Vorschläge zur Finanzierung der gesetzlichen Renten würden Sie am meisten befürworten?]\n[expRM66008 = 2: Und welchen der folgenden Vorschläge zur Finanzierung der gesetzlichen Renten würden Sie am meisten befürworten?]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[expRM66008 = 1: Die Alterung der Gesellschaft gefährdet die Finanzierung der gesetzlichen Renten in ihrer jetzigen Höhe.]\n\n[expRM66008 = 1: Welchen der folgenden Vorschläge zur Finanzierung der gesetzlichen Renten würden Sie am meisten befürworten?]\n[expRM66008 = 2: Und welchen der folgenden Vorschläge zur Finanzierung der gesetzlichen Renten würden Sie am meisten befürworten?]",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Die Reihenfolge der beiden folgenden Fragen RM66008 und RM66009 soll randomisiert werden.\nBefragte zufällig auf zwei Gruppen aufteilen:\n- 50% der Befragten bekommen zuerst Frage RM66008, danach Frage RM66009 (Gruppe 1)\n- 50% der Befragten bekommen zuerst Frage RM66009, danach Frage RM66008 (Gruppe 2)\nDie Reihenfolge der Fragen in dieser Programmieranweisung entspricht der Reihenfolge der Gruppe 1.\nZuteilung zu den Experimentalgruppen in separater Variable mit dem Namen expRM66008 speichern.\nBei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "[b[Die Beiträge zur gesetzlichen Rentenversicherung sollten erhöht werden,]b] damit die Höhe der gesetzlichen Rente und das Rentenalter so bleiben, wie sie sind. (expRM66008 = 2 und RM66009 ≠ 1)"
+            },
+            {
+              "value": 2,
+              "label": "[b[Das Rentenalter sollte angehoben werden,]b] damit die Höhe der gesetzlichen Rente und die Beiträge zur gesetzlichen Rentenversicherung so bleiben, wie sie sind. (expRM66008 = 2 und RM66009 ≠ 2)"
+            },
+            {
+              "value": 3,
+              "label": "[b[Die Regierung sollte die allgemeinen Steuern erhöhen.]b] Das Rentenalter, die Höhe der gesetzlichen Rente und die Beiträge zur gesetzlichen Rentenversicherung sollten so bleiben, wie sie sind. (expRM66008 = 2 und RM66009 ≠ 3)"
+            },
+            {
+              "value": 4,
+              "label": "[b[Die Höhe der gesetzlichen Rente sollte verringert werden.]b] Das Rentenalter und die Beiträge zur gesetzlichen Rentenversicherung sollten so bleiben, wie sie sind. (expRM66008 = 2 und RM66009 ≠ 4)"
+            },
+            {
+              "value": 5,
+              "label": "Keinen davon."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 12": {
+      "question": "Page 12",
+      "name": "Page 12",
+      "label": "[expRM66008 = 2: Die Alterung der Gesellschaft gefährdet die Finanzierung der gesetzlichen Renten in ihrer jetzigen Höhe.]\n\n[expRM66008 = 1: Und welchen der folgenden Vorschläge zur Finanzierung der gesetzlichen Renten würden Sie am wenigsten befürworten?]\n[expRM66008 = 2: Welchen der folgenden Vorschläge zur Finanzierung der gesetzlichen Renten würden Sie am wenigsten befürworten?]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[expRM66008 = 2: Die Alterung der Gesellschaft gefährdet die Finanzierung der gesetzlichen Renten in ihrer jetzigen Höhe.]\n\n[expRM66008 = 1: Und welchen der folgenden Vorschläge zur Finanzierung der gesetzlichen Renten würden Sie am wenigsten befürworten?]\n[expRM66008 = 2: Welchen der folgenden Vorschläge zur Finanzierung der gesetzlichen Renten würden Sie am wenigsten befürworten?]",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "[b[Die Beiträge zur gesetzlichen Rentenversicherung sollten erhöht werden,]b] damit die Höhe der gesetzlichen Rente und das Rentenalter so bleiben, wie sie sind. (expRM66008 = 1 und RM66008 ≠ 1)"
+            },
+            {
+              "value": 2,
+              "label": "[b[Das Rentenalter sollte angehoben werden,]b] damit die Höhe der gesetzlichen Rente und die Beiträge zur gesetzlichen Rentenversicherung so bleiben, wie sie sind. (expRM66008 = 1 und RM66008 ≠ 2)"
+            },
+            {
+              "value": 3,
+              "label": "[b[Die Regierung sollte die allgemeinen Steuern erhöhen.]b] Das Rentenalter, die Höhe der gesetzlichen Rente und die Beiträge zur gesetzlichen Rentenversicherung sollten so bleiben, wie sie sind. (expRM66008 = 1 und RM66008 ≠ 3)"
+            },
+            {
+              "value": 4,
+              "label": "[b[Die Höhe der gesetzlichen Rente sollte verringert werden.]b] Das Rentenalter und die Beiträge zur gesetzlichen Rentenversicherung sollten so bleiben, wie sie sind. (expRM66008 = 1 und RM66008 ≠ 4)"
+            },
+            {
+              "value": 5,
+              "label": "Keinen davon."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 13": {
+      "question": "Page 13",
+      "name": "Page 13",
+      "label": "Gibt es sonst noch etwas, das Sie uns zum deutschen Rentensystem mitteilen möchten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Gibt es sonst noch etwas, das Sie uns zum deutschen Rentensystem mitteilen möchten?",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 14": {
+      "question": "Page 14",
+      "name": "Page 14",
+      "label": "Was ist Ihre persönliche Meinung zum Bildungssystem in Deutschland? Inwieweit sollte die Bundesregierung das Bildungssystem verändern?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Was ist Ihre persönliche Meinung zum Bildungssystem in Deutschland? Inwieweit sollte die Bundesregierung das Bildungssystem verändern?",
+          "instruction": "Bitte antworten Sie anhand der Skala.",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Die Bundesregierung sollte das Bildungssystem …",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "gar nicht verändern"
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10,
+              "label": "vollständig verändern"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 15": {
+      "question": "Page 15",
+      "name": "Page 15",
+      "label": "Sollte die Bundesregierung für das Bildungssystem mehr oder weniger Geld ausgeben als momentan?\n\nBedenken Sie dabei, dass höhere Ausgaben unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt, finanziert werden müssen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sollte die Bundesregierung für das Bildungssystem mehr oder weniger Geld ausgeben als momentan?\n\nBedenken Sie dabei, dass höhere Ausgaben unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt, finanziert werden müssen.",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "viel mehr ausgeben als momentan"
+            },
+            {
+              "value": 2,
+              "label": "etwas mehr ausgeben als momentan"
+            },
+            {
+              "value": 3,
+              "label": "gleich viel wie momentan ausgeben"
+            },
+            {
+              "value": 4,
+              "label": "etwas weniger ausgeben als momentan"
+            },
+            {
+              "value": 5,
+              "label": "viel weniger ausgeben als momentan"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 16": {
+      "question": "Page 16",
+      "name": "Page 16",
+      "label": "Und welches ist Ihrer Meinung nach der wichtigste Bereich des Bildungssystems, für den die Bundesregierung mehr Geld ausgeben sollte?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und welches ist Ihrer Meinung nach der wichtigste Bereich des Bildungssystems, für den die Bundesregierung mehr Geld ausgeben sollte?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "RM66011 = 1, 2 (wenn Bundesregierung mehr Geld für das Bildungssystem ausgeben soll)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Kinderbetreuung für 1- bis 5-Jährige (Kindergarten, Kita)"
+            },
+            {
+              "value": 2,
+              "label": "Grundschulen und weiterführende Schulen (Haupt- und Realschulen, Gymnasien)"
+            },
+            {
+              "value": 3,
+              "label": "berufliche Ausbildung (Lehre und Berufsschulen)"
+            },
+            {
+              "value": 4,
+              "label": "akademische Ausbildung (Universitäten, Fachhochschulen und pädagogische Hochschulen)"
+            },
+            {
+              "value": 5,
+              "label": "Weiterbildungsangebote für Berufstätige"
+            },
+            {
+              "value": 6,
+              "label": "Sonstiger Bereich, und zwar: [answer field]"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 17": {
+      "question": "Page 17",
+      "name": "Page 17",
+      "label": "Und welches ist Ihrer Meinung nach der Bereich des Bildungssystems, für den die Bundesregierung insbesondere weniger Geld ausgeben sollte?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und welches ist Ihrer Meinung nach der Bereich des Bildungssystems, für den die Bundesregierung insbesondere weniger Geld ausgeben sollte?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "RM66011 = 4, 5 (wenn Bundesregierung weniger Geld für das Bildungssystem ausgeben soll)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Kinderbetreuung für 1- bis 5-Jährige (Kindergarten, Kita)"
+            },
+            {
+              "value": 2,
+              "label": "Grundschulen und weiterführende Schulen (Haupt- und Realschulen, Gymnasien)"
+            },
+            {
+              "value": 3,
+              "label": "berufliche Ausbildung (Lehre und Berufsschulen)"
+            },
+            {
+              "value": 4,
+              "label": "akademische Ausbildung (Universitäten, Fachhochschulen und pädagogische Hochschulen)"
+            },
+            {
+              "value": 5,
+              "label": "Weiterbildungsangebote für Berufstätige"
+            },
+            {
+              "value": 6,
+              "label": "Sonstiger Bereich, und zwar: [answer field]"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 18": {
+      "question": "Page 18",
+      "name": "Page 18",
+      "label": "Gibt es einen Bereich des Bildungssystems, für den die Bundesregierung mehr Geld ausgeben sollte?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Gibt es einen Bereich des Bildungssystems, für den die Bundesregierung mehr Geld ausgeben sollte?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "RM66011 = 3 (wenn Bundesregierung gleich viel Geld für das Bildungssystem ausgeben soll wie momentan)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Kinderbetreuung für 1- bis 5-Jährige (Kindergarten, Kita)"
+            },
+            {
+              "value": 2,
+              "label": "Grundschulen und weiterführende Schulen (Haupt- und Realschulen, Gymnasien)"
+            },
+            {
+              "value": 3,
+              "label": "berufliche Ausbildung (Lehre und Berufsschulen)"
+            },
+            {
+              "value": 4,
+              "label": "akademische Ausbildung (Universitäten, Fachhochschulen und pädagogische Hochschulen)"
+            },
+            {
+              "value": 5,
+              "label": "Weiterbildungsangebote für Berufstätige"
+            },
+            {
+              "value": 6,
+              "label": "Sonstiger Bereich, und zwar: [answer field]"
+            },
+            {
+              "value": 7,
+              "label": "Nein, für keinen dieser Bereiche."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 18,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 19": {
+      "question": "Page 19",
+      "name": "Page 19",
+      "label": "Gibt es sonst noch etwas, das Sie uns zum deutschen Bildungssystem mitteilen möchten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Gibt es sonst noch etwas, das Sie uns zum deutschen Bildungssystem mitteilen möchten?",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 19,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 20": {
+      "question": "Page 20",
+      "name": "Page 20",
+      "label": "Mit Steuern, wie beispielsweise der Einkommenssteuer oder der Mehrwertsteuer, erzielt der Staat seine Einnahmen und muss dabei auch auf die damit verbundenen Folgen achten. Beispielsweise können hohe Einkommenssteuersätze Unternehmer davon abhalten, neue Arbeitsplätze zu schaffen.\n\nWas ist vor diesem Hintergrund Ihre persönliche Meinung zum Steuersystem in Deutschland? Inwieweit sollte die Bundesregierung das Steuersystem verändern?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Mit Steuern, wie beispielsweise der Einkommenssteuer oder der Mehrwertsteuer, erzielt der Staat seine Einnahmen und muss dabei auch auf die damit verbundenen Folgen achten. Beispielsweise können hohe Einkommenssteuersätze Unternehmer davon abhalten, neue Arbeitsplätze zu schaffen.\n\nWas ist vor diesem Hintergrund Ihre persönliche Meinung zum Steuersystem in Deutschland? Inwieweit sollte die Bundesregierung das Steuersystem verändern?",
+          "instruction": "Bitte antworten Sie anhand der Skala.",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Die Bundesregierung sollte das Steuersystem …",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "gar nicht verändern"
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10,
+              "label": "vollständig verändern"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 20,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 21": {
+      "question": "Page 21",
+      "name": "Page 21",
+      "label": "Bitte geben Sie an, inwieweit Sie folgender Aussage zustimmen:\n\nDer Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern.\nBedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt finanziert werden müssen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, inwieweit Sie folgender Aussage zustimmen:\n\nDer Staat sollte Maßnahmen ergreifen, um Einkommensunterschiede zu verringern.\nBedenken Sie, dass solche Maßnahmen unter anderem auch über Steuern, also letztlich über Abzüge vom Gehalt finanziert werden müssen.",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme stark zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Lehne ab"
+            },
+            {
+              "value": 5,
+              "label": "Lehne stark ab"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 21,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 22": {
+      "question": "Page 22",
+      "name": "Page 22",
+      "label": "Über Fälle von Steuerhinterziehung wird immer wieder in den Medien berichtet.\n\nFür wie vertretbar halten Sie es, Steuern zu hinterziehen, wenn sich dafür eine einfache\nMöglichkeit ergibt?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Über Fälle von Steuerhinterziehung wird immer wieder in den Medien berichtet.\n\nFür wie vertretbar halten Sie es, Steuern zu hinterziehen, wenn sich dafür eine einfache\nMöglichkeit ergibt?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "für sehr vertretbar"
+            },
+            {
+              "value": 2,
+              "label": "für vertretbar"
+            },
+            {
+              "value": 3,
+              "label": "für eher vertretbar"
+            },
+            {
+              "value": 4,
+              "label": "für eher nicht vertretbar"
+            },
+            {
+              "value": 5,
+              "label": "für nicht vertretbar"
+            },
+            {
+              "value": 6,
+              "label": "für überhaupt nicht vertretbar"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 22,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 23": {
+      "question": "Page 23",
+      "name": "Page 23",
+      "label": "Gibt es sonst noch etwas, das Sie uns zum deutschen Steuersystem mitteilen möchten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Gibt es sonst noch etwas, das Sie uns zum deutschen Steuersystem mitteilen möchten?",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 23,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 24": {
+      "question": "Page 24",
+      "name": "Page 24",
+      "label": "Ein Vorschlag, die Stabilität des Euro zu gewährleisten, ist, dass alle Mitgliedsstaaten der Euro-Zone Reformen ihrer Arbeitsmarkt- und Sozialsysteme durchführen. Solche Reformen können jedoch Nachteile für einzelne Bevölkerungsgruppen bedeuten (zum Beispiel längere Arbeitszeiten).\n\nWie ist Ihre persönliche Meinung zu diesen Reformen? Inwieweit sollen die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone verändert werden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Ein Vorschlag, die Stabilität des Euro zu gewährleisten, ist, dass alle Mitgliedsstaaten der Euro-Zone Reformen ihrer Arbeitsmarkt- und Sozialsysteme durchführen. Solche Reformen können jedoch Nachteile für einzelne Bevölkerungsgruppen bedeuten (zum Beispiel längere Arbeitszeiten).\n\nWie ist Ihre persönliche Meinung zu diesen Reformen? Inwieweit sollen die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone verändert werden?",
+          "instruction": "Bitte antworten Sie anhand der Skala.",
+          "description": "Bitte antworten Sie anhand der Skala.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Die Arbeitsmarkt- und Sozialsysteme in den Mitgliedsstaaten der Euro-Zone sollten …",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 0,
+              "label": "gar nicht verändern werden"
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10,
+              "label": "vollständig verändern werden"
+            },
+            {
+              "value": -99,
+              "label": "weiß nicht"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 24,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 25": {
+      "question": "Page 25",
+      "name": "Page 25",
+      "label": "Diese Reformen können entweder von einem Mitgliedsstaat einzeln oder gemeinsam auf europäischer Ebene beschlossen werden. Für die Reformen auf der europäischen Ebene müsste die Europäische Union jedoch mehr Entscheidungsrechte erhalten.\n\nSollte die Europäische Union mehr oder weniger über Reformen in den Mitgliedsstaaten entscheiden als momentan?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Diese Reformen können entweder von einem Mitgliedsstaat einzeln oder gemeinsam auf europäischer Ebene beschlossen werden. Für die Reformen auf der europäischen Ebene müsste die Europäische Union jedoch mehr Entscheidungsrechte erhalten.\n\nSollte die Europäische Union mehr oder weniger über Reformen in den Mitgliedsstaaten entscheiden als momentan?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Die Europäische Union sollte …",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "viel mehr entscheiden als momentan"
+            },
+            {
+              "value": 2,
+              "label": "etwas mehr entscheiden als momentan"
+            },
+            {
+              "value": 3,
+              "label": "genauso viel entscheiden wie momentan"
+            },
+            {
+              "value": 4,
+              "label": "etwas weniger entscheiden als momentan"
+            },
+            {
+              "value": 5,
+              "label": "viel weniger entscheiden als momentan"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 25,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 26": {
+      "question": "Page 26",
+      "name": "Page 26",
+      "label": "Und in welchen Politikbereichen sollte die Europäische Union mehr entscheiden als momentan?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und in welchen Politikbereichen sollte die Europäische Union mehr entscheiden als momentan?",
+          "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "filter": "RM66019 = 1, 2 (wenn Europäische Union mehr über Reformen entscheiden sollte)",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Außen- und Sicherheitspolitik",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Wirtschaft und Finanzen",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Justiz und Inneres",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Arbeit und Soziales",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Wettbewerbspolitik",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Transport und Verkehr",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Landwirtschaft und Fischerei",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Umwelt",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Bildung",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Sonstiger Bereich, und zwar:",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        }
+      ],
+      "sn": 26,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 27": {
+      "question": "Page 27",
+      "name": "Page 27",
+      "label": "Und in welchen Politikbereichen sollte die Europäische Union weniger entscheiden als momentan?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und in welchen Politikbereichen sollte die Europäische Union weniger entscheiden als momentan?",
+          "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "filter": "RM66019 = 4, 5 (wenn Europäische Union weniger über Reformen entscheiden sollte)",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Außen- und Sicherheitspolitik",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Wirtschaft und Finanzen",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Justiz und Inneres",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Arbeit und Soziales",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Wettbewerbspolitik",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Transport und Verkehr",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Landwirtschaft und Fischerei",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Umwelt",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Bildung",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Sonstiger Bereich, und zwar:",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        }
+      ],
+      "sn": 27,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 28": {
+      "question": "Page 28",
+      "name": "Page 28",
+      "label": "Gibt es einzelne Politikbereiche, in denen die Europäische Union mehr entscheiden sollte als momentan?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Gibt es einzelne Politikbereiche, in denen die Europäische Union mehr entscheiden sollte als momentan?",
+          "instruction": "Bitte geben Sie alles Zutreffende an.",
+          "description": "Bitte geben Sie alles Zutreffende an.",
+          "filter": "RM66019 = 3 (wenn Europäische Union genau so viel über Reformen entscheiden sollte)",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Außen- und Sicherheitspolitik",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Wirtschaft und Finanzen",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Justiz und Inneres",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Arbeit und Soziales",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Wettbewerbspolitik",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Transport und Verkehr",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Landwirtschaft und Fischerei",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Umwelt",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Bildung",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Sonstiger Bereich, und zwar:",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Nein, in keinem dieser Bereiche.",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        }
+      ],
+      "sn": 28,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 29": {
+      "question": "Page 29",
+      "name": "Page 29",
+      "label": "Gibt es sonst noch etwas, das Sie uns zu Entscheidungen der Europäischen Union mitteilen möchten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Gibt es sonst noch etwas, das Sie uns zu Entscheidungen der Europäischen Union mitteilen möchten?",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 29,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 30": {
+      "question": "Page 30",
+      "name": "Page 30",
+      "label": "Abschließend geht es um einen Vergleich der Politikbereiche, zu denen Sie bisher Fragen beantwortet haben.\n\nIn welchem Bereich sollte der Staat am ehesten Leistungen ausbauen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Abschließend geht es um einen Vergleich der Politikbereiche, zu denen Sie bisher Fragen beantwortet haben.\n\nIn welchem Bereich sollte der Staat am ehesten Leistungen ausbauen?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Gesundheitsleistungen"
+            },
+            {
+              "value": 2,
+              "label": "Grundsicherung für Arbeitslose"
+            },
+            {
+              "value": 3,
+              "label": "Arbeitsförderung von Menschen, die arbeitslos sind"
+            },
+            {
+              "value": 4,
+              "label": "Altersrenten"
+            },
+            {
+              "value": 5,
+              "label": "Bildung (d. h. Schulen und Universitäten)"
+            },
+            {
+              "value": 6,
+              "label": "Kinderbetreuungsmöglichkeiten"
+            },
+            {
+              "value": 7,
+              "label": "In keinem dieser Bereiche."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 30,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 31": {
+      "question": "Page 31",
+      "name": "Page 31",
+      "label": "Und in welchem Bereich sollte der Staat am ehesten Leistungen abbauen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und in welchem Bereich sollte der Staat am ehesten Leistungen abbauen?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "filter": "RM66023 ≠ 7, -90 („In keinem dieser Bereiche“, item nonresponse) die zuvor in RM66023 ausgewählte Antwortkategorie nicht mehr anzeigen",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Gesundheitsleistungen (RM66023 ≠ 1)"
+            },
+            {
+              "value": 2,
+              "label": "Grundsicherung für Arbeitslose (RM66023 ≠ 2)"
+            },
+            {
+              "value": 3,
+              "label": "Arbeitsförderung von Menschen, die arbeitslos sind (RM66023 ≠ 3)"
+            },
+            {
+              "value": 4,
+              "label": "Altersrenten (RM66023 ≠ 4)"
+            },
+            {
+              "value": 5,
+              "label": "Bildung (d. h. Schulen und Universitäten) (RM66023 ≠ 5)"
+            },
+            {
+              "value": 6,
+              "label": "Kinderbetreuungsmöglichkeiten (RM66023 ≠ 6)"
+            },
+            {
+              "value": 7,
+              "label": "In keinem dieser Bereiche."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 31,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 32": {
+      "question": "Page 32",
+      "name": "Page 32",
+      "label": "Im Folgenden werden wir Ihnen eine Person beschreiben und Sie um eine spontane Einschätzung bitten. Es gibt dabei keine richtigen oder falschen Meinungen. Uns interessiert nur Ihre persönliche Reaktion.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden werden wir Ihnen eine Person beschreiben und Sie um eine spontane Einschätzung bitten. Es gibt dabei keine richtigen oder falschen Meinungen. Uns interessiert nur Ihre persönliche Reaktion.",
+          "description": "Befragte zufällig in zwei Gruppen aufteilen und Gruppenzuteilung in separater Variable expDZ66049 ablegen.",
+          "filter": "expDZ66049 = 1",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 32,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 33": {
+      "question": "Page 33",
+      "name": "Page 33",
+      "label": "Im Folgenden werden wir Ihnen eine Situation beschreiben und Sie um eine spontane Einschätzung bitten. Es gibt dabei keine richtigen oder falschen Meinungen. Uns interessiert nur Ihre persönliche Reaktion.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden werden wir Ihnen eine Situation beschreiben und Sie um eine spontane Einschätzung bitten. Es gibt dabei keine richtigen oder falschen Meinungen. Uns interessiert nur Ihre persönliche Reaktion.",
+          "filter": "expDZ66049 = 2",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 33,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 34": {
+      "question": "Page 34",
+      "name": "Page 34",
+      "label": "Philipp ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist evangelisch, aber Religion spielt keine große Rolle in seinem Leben. Er geht nur an Feiertagen und zu besonderen Anlässen in die Kirche.\n\nWie positiv oder negativ ist Ihr erster Eindruck von Philipp?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Philipp ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist evangelisch, aber Religion spielt keine große Rolle in seinem Leben. Er geht nur an Feiertagen und zu besonderen Anlässen in die Kirche.\n\nWie positiv oder negativ ist Ihr erster Eindruck von Philipp?",
+          "description": "Befragte zufällig in sechs Gruppen aufteilen und Gruppenzuteilung in separater Variable expDZ66050 ablegen.",
+          "filter": "expDZ66049 = 1 und expDZ66050 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr positiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Sehr negativ"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 34,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 35": {
+      "question": "Page 35",
+      "name": "Page 35",
+      "label": "Philipp ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist evangelisch und Religion spielt eine wichtige Rolle in seinem Leben. Er geht jede Woche in die Kirche und betet auch zu Hause.\n\nWie positiv oder negativ ist Ihr erster Eindruck von Philipp?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Philipp ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist evangelisch und Religion spielt eine wichtige Rolle in seinem Leben. Er geht jede Woche in die Kirche und betet auch zu Hause.\n\nWie positiv oder negativ ist Ihr erster Eindruck von Philipp?",
+          "filter": "expDZ66049 = 1 und expDZ66050 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr positiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Sehr negativ"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 35,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 36": {
+      "question": "Page 36",
+      "name": "Page 36",
+      "label": "Philipp ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er gehört keiner Religions- oder Glaubensgemeinschaft an und glaubt nicht an Gott.\n\nWie positiv oder negativ ist Ihr erster Eindruck von Philipp?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Philipp ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er gehört keiner Religions- oder Glaubensgemeinschaft an und glaubt nicht an Gott.\n\nWie positiv oder negativ ist Ihr erster Eindruck von Philipp?",
+          "filter": "expDZ66049 = 1 und expDZ66050 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr positiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Sehr negativ"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 36,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 37": {
+      "question": "Page 37",
+      "name": "Page 37",
+      "label": "Hasan ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er geht nur an Feiertagen und zu besonderen Anlässen in die Moschee.\n\nWie positiv oder negativ ist Ihr erster Eindruck von Hasan?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Hasan ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er geht nur an Feiertagen und zu besonderen Anlässen in die Moschee.\n\nWie positiv oder negativ ist Ihr erster Eindruck von Hasan?",
+          "filter": "expDZ66049 = 1 und expDZ66050 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr positiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Sehr negativ"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 37,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 38": {
+      "question": "Page 38",
+      "name": "Page 38",
+      "label": "Hasan ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist Muslim und Religion spielt eine wichtige Rolle in seinem Leben. Er geht jede Woche in die Moschee und betet auch zu Hause.\n\nWie positiv oder negativ ist Ihr erster Eindruck von Hasan?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Hasan ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist Muslim und Religion spielt eine wichtige Rolle in seinem Leben. Er geht jede Woche in die Moschee und betet auch zu Hause.\n\nWie positiv oder negativ ist Ihr erster Eindruck von Hasan?",
+          "filter": "expDZ66049 = 1 und expDZ66050 = 5",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr positiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Sehr negativ"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 38,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 39": {
+      "question": "Page 39",
+      "name": "Page 39",
+      "label": "Hasan ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er gehört keiner Religions- oder Glaubensgemeinschaft an und glaubt nicht an Gott.\n\nWie positiv oder negativ ist Ihr erster Eindruck von Hasan?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Hasan ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er gehört keiner Religions- oder Glaubensgemeinschaft an und glaubt nicht an Gott.\n\nWie positiv oder negativ ist Ihr erster Eindruck von Hasan?",
+          "filter": "expDZ66049 = 1 und expDZ66050 = 6",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr positiv"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5,
+              "label": "Sehr negativ"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 39,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 40": {
+      "question": "Page 40",
+      "name": "Page 40",
+      "label": "Philipp ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist evangelisch, aber Religion spielt keine große Rolle in seinem Leben. Er geht nur an Feiertagen und zu besonderen Anlässen in die Kirche.\nStellen Sie sich vor, Sie verlieren im Bus Ihr Portemonnaie (mit Ausweis und Papieren) und Philipp findet es.\n\nWas glauben Sie: Erhalten Sie in dieser Situation Ihr Portemonnaie zurück?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Philipp ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist evangelisch, aber Religion spielt keine große Rolle in seinem Leben. Er geht nur an Feiertagen und zu besonderen Anlässen in die Kirche.\nStellen Sie sich vor, Sie verlieren im Bus Ihr Portemonnaie (mit Ausweis und Papieren) und Philipp findet es.\n\nWas glauben Sie: Erhalten Sie in dieser Situation Ihr Portemonnaie zurück?",
+          "description": "Befragte zufällig in sechs Gruppen aufteilen und Gruppenzuteilung in separater Variable expDZ66056 experiment ablegen.",
+          "filter": "expDZ66049 = 2 und expDZ66056 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich erhalte es ganz sicher zurück."
+            },
+            {
+              "value": 2,
+              "label": "Ich erhalte es wahrscheinlich zurück."
+            },
+            {
+              "value": 3,
+              "label": "Die Chance ist 50:50."
+            },
+            {
+              "value": 4,
+              "label": "Ich erhalte es wahrscheinlich nicht zurück."
+            },
+            {
+              "value": 5,
+              "label": "Ich erhalte es ganz sicher nicht zurück."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 40,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 41": {
+      "question": "Page 41",
+      "name": "Page 41",
+      "label": "Philipp ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist evangelisch und Religion spielt eine wichtige Rolle in seinem Leben. Er geht jede Woche in die Kirche und betet auch zu Hause.\nStellen Sie sich vor, Sie verlieren im Bus Ihr Portemonnaie (mit Ausweis und Papieren) und Philipp findet es.\n\nWas glauben Sie: Erhalten Sie in dieser Situation Ihr Portemonnaie zurück?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Philipp ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist evangelisch und Religion spielt eine wichtige Rolle in seinem Leben. Er geht jede Woche in die Kirche und betet auch zu Hause.\nStellen Sie sich vor, Sie verlieren im Bus Ihr Portemonnaie (mit Ausweis und Papieren) und Philipp findet es.\n\nWas glauben Sie: Erhalten Sie in dieser Situation Ihr Portemonnaie zurück?",
+          "filter": "expDZ66049 = 2 und expDZ66056 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich erhalte es ganz sicher zurück."
+            },
+            {
+              "value": 2,
+              "label": "Ich erhalte es wahrscheinlich zurück."
+            },
+            {
+              "value": 3,
+              "label": "Die Chance ist 50:50."
+            },
+            {
+              "value": 4,
+              "label": "Ich erhalte es wahrscheinlich nicht zurück."
+            },
+            {
+              "value": 5,
+              "label": "Ich erhalte es ganz sicher nicht zurück."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 41,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 42": {
+      "question": "Page 42",
+      "name": "Page 42",
+      "label": "Philipp ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er gehört keiner Religions- oder Glaubensgemeinschaft an und glaubt nicht an Gott.\nStellen Sie sich vor, Sie verlieren im Bus Ihr Portemonnaie (mit Ausweis und Papieren) und Philipp findet es.\n\nWas glauben Sie: Erhalten Sie in dieser Situation Ihr Portemonnaie zurück?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Philipp ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er gehört keiner Religions- oder Glaubensgemeinschaft an und glaubt nicht an Gott.\nStellen Sie sich vor, Sie verlieren im Bus Ihr Portemonnaie (mit Ausweis und Papieren) und Philipp findet es.\n\nWas glauben Sie: Erhalten Sie in dieser Situation Ihr Portemonnaie zurück?",
+          "filter": "expDZ66049 = 2 und expDZ66056 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich erhalte es ganz sicher zurück."
+            },
+            {
+              "value": 2,
+              "label": "Ich erhalte es wahrscheinlich zurück."
+            },
+            {
+              "value": 3,
+              "label": "Die Chance ist 50:50."
+            },
+            {
+              "value": 4,
+              "label": "Ich erhalte es wahrscheinlich nicht zurück."
+            },
+            {
+              "value": 5,
+              "label": "Ich erhalte es ganz sicher nicht zurück."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 42,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 43": {
+      "question": "Page 43",
+      "name": "Page 43",
+      "label": "Hasan ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er geht nur an Feiertagen und zu besonderen Anlässen in die Moschee.\nStellen Sie sich vor, Sie verlieren im Bus Ihr Portemonnaie (mit Ausweis und Papieren) und Hasan findet es.\n\nWas glauben Sie: Erhalten Sie in dieser Situation Ihr Portemonnaie zurück?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Hasan ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist Muslim, aber Religion spielt keine große Rolle in seinem Leben. Er geht nur an Feiertagen und zu besonderen Anlässen in die Moschee.\nStellen Sie sich vor, Sie verlieren im Bus Ihr Portemonnaie (mit Ausweis und Papieren) und Hasan findet es.\n\nWas glauben Sie: Erhalten Sie in dieser Situation Ihr Portemonnaie zurück?",
+          "filter": "expDZ66049 = 2 und expDZ66056 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich erhalte es ganz sicher zurück."
+            },
+            {
+              "value": 2,
+              "label": "Ich erhalte es wahrscheinlich zurück."
+            },
+            {
+              "value": 3,
+              "label": "Die Chance ist 50:50."
+            },
+            {
+              "value": 4,
+              "label": "Ich erhalte es wahrscheinlich nicht zurück."
+            },
+            {
+              "value": 5,
+              "label": "Ich erhalte es ganz sicher nicht zurück."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 43,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 44": {
+      "question": "Page 44",
+      "name": "Page 44",
+      "label": "Hasan ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist Muslim und Religion spielt eine wichtige Rolle in seinem Leben. Er geht jede Woche in die Kirche und betet auch zu Hause.\nStellen Sie sich vor, Sie verlieren im Bus Ihr Portemonnaie (mit Ausweis und Papieren) und Hasan findet es.\n\nWas glauben Sie: Erhalten Sie in dieser Situation Ihr Portemonnaie zurück?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Hasan ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er ist Muslim und Religion spielt eine wichtige Rolle in seinem Leben. Er geht jede Woche in die Kirche und betet auch zu Hause.\nStellen Sie sich vor, Sie verlieren im Bus Ihr Portemonnaie (mit Ausweis und Papieren) und Hasan findet es.\n\nWas glauben Sie: Erhalten Sie in dieser Situation Ihr Portemonnaie zurück?",
+          "filter": "expDZ66049 = 2 and expDZ66056 = 5",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich erhalte es ganz sicher zurück."
+            },
+            {
+              "value": 2,
+              "label": "Ich erhalte es wahrscheinlich zurück."
+            },
+            {
+              "value": 3,
+              "label": "Die Chance ist 50:50."
+            },
+            {
+              "value": 4,
+              "label": "Ich erhalte es wahrscheinlich nicht zurück."
+            },
+            {
+              "value": 5,
+              "label": "Ich erhalte es ganz sicher nicht zurück."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 44,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 45": {
+      "question": "Page 45",
+      "name": "Page 45",
+      "label": "Hasan ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er gehört keiner Religions- oder Glaubensgemeinschaft an und glaubt nicht an Gott.\nStellen Sie sich vor, Sie verlieren im Bus Ihr Portemonnaie (mit Ausweis und Papieren) und Hasan findet es.\n\nWas glauben Sie: Erhalten Sie in dieser Situation Ihr Portemonnaie zurück?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Hasan ist ein 36-jähriger Busfahrer, der in der Nähe Ihres jetzigen Wohnortes aufgewachsen ist. Er gehört keiner Religions- oder Glaubensgemeinschaft an und glaubt nicht an Gott.\nStellen Sie sich vor, Sie verlieren im Bus Ihr Portemonnaie (mit Ausweis und Papieren) und Hasan findet es.\n\nWas glauben Sie: Erhalten Sie in dieser Situation Ihr Portemonnaie zurück?",
+          "filter": "expDZ66049 = 2 und expDZ66056 = 6",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich erhalte es ganz sicher zurück."
+            },
+            {
+              "value": 2,
+              "label": "Ich erhalte es wahrscheinlich zurück."
+            },
+            {
+              "value": 3,
+              "label": "Die Chance ist 50:50."
+            },
+            {
+              "value": 4,
+              "label": "Ich erhalte es wahrscheinlich nicht zurück."
+            },
+            {
+              "value": 5,
+              "label": "Ich erhalte es ganz sicher nicht zurück."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 45,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 46": {
+      "question": "Page 46",
+      "name": "Page 46",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "interessant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 46,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 47": {
+      "question": "Page 47",
+      "name": "Page 47",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "abwechslungsreich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 47,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 48": {
+      "question": "Page 48",
+      "name": "Page 48",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "relevant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 48,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 49": {
+      "question": "Page 49",
+      "name": "Page 49",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "lang",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 49,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 50": {
+      "question": "Page 50",
+      "name": "Page 50",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "schwierig",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 50,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 51": {
+      "question": "Page 51",
+      "name": "Page 51",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "zu persönlich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 51,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 52": {
+      "question": "Page 52",
+      "name": "Page 52",
+      "label": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut "
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 52,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 53": {
+      "question": "Page 53",
+      "name": "Page 53",
+      "label": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern. Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern. Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 53,
+      "instrument": "W66",
+      "study": "gip"
+    },
+    "Page 54 Outro": {
+      "question": "Page 54 Outro",
+      "name": "Page 54 Outro",
+      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur   Erforschung unserer Gesellschaft.\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\nIhr Forschungsteam von der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur   Erforschung unserer Gesellschaft.\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\nIhr Forschungsteam von der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 54,
+      "instrument": "W66",
+      "study": "gip"
+    }
+  }
+}

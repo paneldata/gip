@@ -1,0 +1,3093 @@
+{
+  "study": "gip",
+  "name": "W60",
+  "label": "GIP Wave 60",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDer Datensatz der Welle 60 enthält folgende Kennungen und zugespielte Variablen:\n• id_g - Unique ID, GIP\n• hhid_g - Household Identifyer, GIP\n• pid - Person identifyer (wthin HH)\n• gender_20 - gender\n• year_of_birth_cat_20 - year of birth categories\n• educ_school_21 - highest educational degree\n• educ_job_21 - highest professional qualification\n• marital_status_21 - marital status\n• number_hh_members_21 - number of household members\n• occupation_21 - employment status\n• german_citizenship_21 - german citizenship\n• internet_usage_20 - private internet usage\n• state_21 - residence state\n• sample - year of recruitment\n• dDatum - Interview-Datum\n• online_status_wave - current online status",
+  "analysis_unit": "p",
+  "period": "2022/07",
+  "instrument": "W60",
+  "questions": {
+    "Page 1 Introduction": {
+      "question": "Page 1 Introduction",
+      "name": "Page 1 Introduction",
+      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \n\nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\n      \nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\n      \nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \n\n      Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\n\n      info@gesellschaft-im-wandel.de\n      0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\n\n\n Ihr Forschungsteam der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \n\nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\n      \nDie Teilnahme dauert diesen Monat insgesamt ungefähr 20 bis 25 Minuten. Sobald Sie den Fragebogen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 4 Euro auf Ihrem Studienkonto gut.\n      \nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren. \n\n      Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\n\n      info@gesellschaft-im-wandel.de\n      0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\n\n\n Ihr Forschungsteam der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 2": {
+      "question": "Page 2",
+      "name": "Page 2",
+      "label": "Vielleicht kommen Ihnen die folgenden Fragen bekannt vor. Wir möchten diesen Monat einige Fragen wiederholen, um zu erforschen, welche Veränderungen sich im Laufe der Zeit ergeben.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielleicht kommen Ihnen die folgenden Fragen bekannt vor. Wir möchten diesen Monat einige Fragen wiederholen, um zu erforschen, welche Veränderungen sich im Laufe der Zeit ergeben.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 3": {
+      "question": "Page 3",
+      "name": "Page 3",
+      "label": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. Bitte sagen Sie uns nicht, welchen Aussagen Sie zustimmen, sondern nur wie vielen davon.     \na) Es ist verständlich, dass manche Leute Steuern hinterziehen.\nb) Alkohol am Steuer ist keine Kleinigkeit.  \nc) In Deutschland sollten härtere Strafen für Verbrechen eingeführt werden. \nd) Gewalt gegen politische Gegner ist manchmal gerechtfertigt. \n\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. Bitte sagen Sie uns nicht, welchen Aussagen Sie zustimmen, sondern nur wie vielen davon.     \na) Es ist verständlich, dass manche Leute Steuern hinterziehen.\nb) Alkohol am Steuer ist keine Kleinigkeit.  \nc) In Deutschland sollten härtere Strafen für Verbrechen eingeführt werden. \nd) Gewalt gegen politische Gegner ist manchmal gerechtfertigt. \n\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+          "description": "Befragte zufällig in zwei Gruppen aufteilen, Gruppe 1 erhält CP60001, Gruppe 2 erhält CP60002. Gruppenzuteilung in separater Variable expCP60001 ablegen.",
+          "filter": "expCP60001 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0"
+            },
+            {
+              "value": 2,
+              "label": "1"
+            },
+            {
+              "value": 3,
+              "label": "2"
+            },
+            {
+              "value": 4,
+              "label": "3"
+            },
+            {
+              "value": 5,
+              "label": "4"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 4": {
+      "question": "Page 4",
+      "name": "Page 4",
+      "label": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. Bitte sagen Sie uns nicht, welchen Aussagen Sie zustimmen, sondern nur wie vielen davon. \na) Es ist verständlich, dass manche Leute Steuern hinterziehen.\nb) Alkohol am Steuer ist keine Kleinigkeit.  \nc) In Deutschland sollten härtere Strafen für Verbrechen eingeführt werden. \n\nWie vielen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. Bitte sagen Sie uns nicht, welchen Aussagen Sie zustimmen, sondern nur wie vielen davon. \na) Es ist verständlich, dass manche Leute Steuern hinterziehen.\nb) Alkohol am Steuer ist keine Kleinigkeit.  \nc) In Deutschland sollten härtere Strafen für Verbrechen eingeführt werden. \n\nWie vielen dieser Aussagen stimmen Sie zu?",
+          "filter": "expCP60001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0"
+            },
+            {
+              "value": 2,
+              "label": "1"
+            },
+            {
+              "value": 3,
+              "label": "2"
+            },
+            {
+              "value": 4,
+              "label": "3"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 5": {
+      "question": "Page 5",
+      "name": "Page 5",
+      "label": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. Bitte sagen Sie uns nicht, welchen Aussagen Sie zustimmen, sondern nur wie vielen davon. \n\na) Die hohen Gehälter für Manager sind gerechtfertigt.\nb) Die öffentlichen Rundfunkgebühren kommen der Demokratie zugute.   \nc) Es würde uns allen besser gehen, wenn wir weniger Fleisch essen würden.\nd) Für manche politischen Ziele ist es in Ordnung, Gewalt einzusetzen.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. Bitte sagen Sie uns nicht, welchen Aussagen Sie zustimmen, sondern nur wie vielen davon. \n\na) Die hohen Gehälter für Manager sind gerechtfertigt.\nb) Die öffentlichen Rundfunkgebühren kommen der Demokratie zugute.   \nc) Es würde uns allen besser gehen, wenn wir weniger Fleisch essen würden.\nd) Für manche politischen Ziele ist es in Ordnung, Gewalt einzusetzen.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+          "description": "Befragte zufällig in zwei Gruppen aufteilen, Gruppe 1 erhält CP60003, Gruppe 2 erhält CP60004. Gruppenzuteilung in separater Variable expCP60003 ablegen.",
+          "filter": "expCP60003 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0"
+            },
+            {
+              "value": 2,
+              "label": "1"
+            },
+            {
+              "value": 3,
+              "label": "2"
+            },
+            {
+              "value": 4,
+              "label": "3"
+            },
+            {
+              "value": 5,
+              "label": "4"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 6": {
+      "question": "Page 6",
+      "name": "Page 6",
+      "label": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. Bitte sagen Sie uns nicht, welchen Aussagen Sie zustimmen, sondern nur wie vielen davon. \n\na) Die hohen Gehälter für Manager sind gerechtfertigt.\nb) Die öffentlichen Rundfunkgebühren kommen der Demokratie zugute.   \nc) Es würde uns allen besser gehen, wenn wir weniger Fleisch essen würden.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. Bitte sagen Sie uns nicht, welchen Aussagen Sie zustimmen, sondern nur wie vielen davon. \n\na) Die hohen Gehälter für Manager sind gerechtfertigt.\nb) Die öffentlichen Rundfunkgebühren kommen der Demokratie zugute.   \nc) Es würde uns allen besser gehen, wenn wir weniger Fleisch essen würden.\n\nWie vielen dieser Aussagen stimmen Sie zu?",
+          "filter": "expCP60003 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "0"
+            },
+            {
+              "value": 2,
+              "label": "1"
+            },
+            {
+              "value": 3,
+              "label": "2"
+            },
+            {
+              "value": 4,
+              "label": "3"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 7": {
+      "question": "Page 7",
+      "name": "Page 7",
+      "label": "Wie akzeptabel ist es Ihrer Meinung nach, einen politischen Gegner im Internet einzuschüchtern?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie akzeptabel ist es Ihrer Meinung nach, einen politischen Gegner im Internet einzuschüchtern?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Überhaupt nicht akzeptabel"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Vollkommen akzeptabel"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 8": {
+      "question": "Page 8",
+      "name": "Page 8",
+      "label": "Wie akzeptabel ist es Ihrer Meinung nach, Flugblätter, Veranstaltungshinweise oder Wahlwerbung des politischen Gegners zu entfernen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie akzeptabel ist es Ihrer Meinung nach, Flugblätter, Veranstaltungshinweise oder Wahlwerbung des politischen Gegners zu entfernen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Überhaupt nicht akzeptabel"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Vollkommen akzeptabel"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 9": {
+      "question": "Page 9",
+      "name": "Page 9",
+      "label": "Wie akzeptabel ist es Ihrer Meinung nach, andere Leute am Besuch einer Veranstaltung des politischen Gegners zu hindern?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie akzeptabel ist es Ihrer Meinung nach, andere Leute am Besuch einer Veranstaltung des politischen Gegners zu hindern?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Überhaupt nicht akzeptabel"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Vollkommen akzeptabel"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 10": {
+      "question": "Page 10",
+      "name": "Page 10",
+      "label": "Wie akzeptabel ist es Ihrer Meinung nach, einen politischen Gegner niederzuschreien, um ihn an einer Rede zu hindern?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie akzeptabel ist es Ihrer Meinung nach, einen politischen Gegner niederzuschreien, um ihn an einer Rede zu hindern?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Überhaupt nicht akzeptabel"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Vollkommen akzeptabel"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 11": {
+      "question": "Page 11",
+      "name": "Page 11",
+      "label": "Wie akzeptabel ist es Ihrer Meinung nach, einen politischen Gegner mit Gewalt an einer Rede zu hindern?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie akzeptabel ist es Ihrer Meinung nach, einen politischen Gegner mit Gewalt an einer Rede zu hindern?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Überhaupt nicht akzeptabel"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Vollkommen akzeptabel"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 12": {
+      "question": "Page 12",
+      "name": "Page 12",
+      "label": "Welchen dieser Aussagen stimmen Sie zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welchen dieser Aussagen stimmen Sie zu?",
+          "instruction": "Bitte wählen Sie alle Aussagen aus, denen Sie zustimmen.",
+          "description": "Bitte wählen Sie alle Aussagen aus, denen Sie zustimmen.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Gewalt gegen politische Gegner ist manchmal gerechtfertigt.",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Für manche politischen Ziele ist es in Ordnung, Gewalt einzusetzen.",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Ich stimme keiner der beiden Aussagen zu.",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 13": {
+      "question": "Page 13",
+      "name": "Page 13",
+      "label": "Jetzt haben wir eine Frage zu einem Migranten, der nach Deutschland einwandern möchte. Er ist 29 Jahre alt und hat keine Familie. Er hat einen Universitätsabschluss und ist Christ. \n  \n[Wenn expCP60011 = 1: Er will nach Deutschland einwandern, weil er in seinem Land wegen seiner politischen Überzeugungen verfolgt wird.] \n[Wenn expCP60011 = 2: Er will nach Deutschland einwandern, weil er in seinem Land keine Arbeit findet.] \n[Wenn expCP60011 = 3: Er will nach Deutschland einwandern, weil sein Heimatland durch den Klimawandel unbewohnbar wird.]\n[Wenn expCP60011 = 4: Er will nach Deutschland einwandern, weil er wegen der hohen Corona-Infektionszahlen in seinem Land um seine Gesundheit fürchtet.]\n[Wenn expCP60011 = 5: ]\n\n\nAuf Basis dessen, was Sie über diesen Migranten wissen: Denken Sie, dass Deutschland ihm erlauben sollte, einzuwandern?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Jetzt haben wir eine Frage zu einem Migranten, der nach Deutschland einwandern möchte. Er ist 29 Jahre alt und hat keine Familie. Er hat einen Universitätsabschluss und ist Christ. \n  \n[Wenn expCP60011 = 1: Er will nach Deutschland einwandern, weil er in seinem Land wegen seiner politischen Überzeugungen verfolgt wird.] \n[Wenn expCP60011 = 2: Er will nach Deutschland einwandern, weil er in seinem Land keine Arbeit findet.] \n[Wenn expCP60011 = 3: Er will nach Deutschland einwandern, weil sein Heimatland durch den Klimawandel unbewohnbar wird.]\n[Wenn expCP60011 = 4: Er will nach Deutschland einwandern, weil er wegen der hohen Corona-Infektionszahlen in seinem Land um seine Gesundheit fürchtet.]\n[Wenn expCP60011 = 5: ]\n\n\nAuf Basis dessen, was Sie über diesen Migranten wissen: Denken Sie, dass Deutschland ihm erlauben sollte, einzuwandern?",
+          "description": "Befragte zufällig in fünf Gruppen aufteilen und Gruppenzuteilung in separater Variable expCP60011 ablegen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ja, Einwanderung erlauben"
+            },
+            {
+              "value": 2,
+              "label": "Nein, Einwanderung nicht erlauben"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 14": {
+      "question": "Page 14",
+      "name": "Page 14",
+      "label": "In der folgenden Frage geht es um Ihre Meinung zur deutschen Entwicklungshilfe. \n  \n[Wenn expCP60012 = 1: In manchen Entwicklungsländern herrscht große Armut. Deutschland hat in der Vergangenheit verschiedene Projekte unterstützt, die ein breiten- und beschäftigungswirksames Wachstum zum Ziel haben.]\n\n[Wenn expCP60012 = 2: In manchen Entwicklungsländern herrscht große Armut. Dies führt zu vermehrter Migration nach Europa. Deutschland hat in der Vergangenheit verschiedene Projekte unterstützt, die ein breiten- und beschäftigungswirksames Wachstum zum Ziel haben. Dies sollte auch die Migrationsströme nach Europa verringern.] \n\n[Wenn expCP60012 = 3: In manchen Entwicklungsländern kommt es zu kriegerischen Auseinandersetzungen und Menschenrechtsverletzungen. Deutschland hat in der Vergangenheit verschiedene Projekte unterstützt, um die demokratische Rechtsstaatlichkeit und die Gewährleistung der Menschenrechte zu fördern.]\n\n[Wenn expCP60012 = 4: In manchen Entwicklungsländern kommt es zu kriegerischen Auseinandersetzungen und Menschenrechtsverletzungen. Dies führt zu vermehrter Migration nach Europa. Deutschland hat in der Vergangenheit verschiedene Projekte unterstützt, um die demokratische Rechtsstaatlichkeit und die Gewährleistung der Menschenrechte zu fördern. Dies sollte auch die Migrationsströme nach Europa verringern.]\n\n[Wenn expCP60012 = 5: In manchen Entwicklungsländern zerstören Dürren als Folge des Klimawandels die Lebensgrundlage vieler Menschen. Deutschland hat in der Vergangenheit verschiedene Projekte im Bereich Klimarisikoversicherungen unterstützt, um erlittene Verluste auszugleichen und Schäden wieder zu beheben.]\n\n[Wenn expCP60012 = 6: In manchen Entwicklungsländern zerstören Dürren als Folge des Klimawandels die Lebensgrundlage vieler Menschen. Dies führt zu vermehrter Migration nach Europa. Deutschland hat in der Vergangenheit verschiedene Projekte im Bereich Klimarisikoversicherungen unterstützt, um erlittene Verluste auszugleichen und Schäden wieder zu beheben. Dies sollte auch die Migrationsströme nach Europa verringern.]\n\n[Wenn expCP60012 = 7: In manchen Entwicklungsländern führen Pandemien wie Covid-19 oder Ebola immer wieder zu humanitären Katstrophen. Deutschland hat in der Vergangenheit verschiedene Projekte unterstützt, um das Gesundheitssystem in diesen Ländern zu verbessern und die Bevölkerung vor Gesundheitsgefahren zu schützen.]\n\n[Wenn expCP60012 = 8: In manchen Entwicklungsländern führen Pandemien wie Covid-19 oder Ebola immer wieder zu humanitären Katstrophen. Dies führt zu vermehrter Migration nach Europa. Deutschland hat in der Vergangenheit verschiedene Projekte unterstützt, um das Gesundheitssystem in diesen Ländern zu verbessern und die Bevölkerung vor Gesundheitsgefahren zu schützen. Dies sollte auch die Migrationsströme nach Europa verringern.]\n\n[Wenn expCP60012 = 9: In manchen Entwicklungsländern hat Deutschland in der Vergangenheit verschiedene Entwicklungsprojekte unterstützt.]\n\n\nSind Sie der Meinung, dass solche Entwicklungsprojekte weiterhin von Deutschland finanziell unterstützt werden sollten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "In der folgenden Frage geht es um Ihre Meinung zur deutschen Entwicklungshilfe. \n  \n[Wenn expCP60012 = 1: In manchen Entwicklungsländern herrscht große Armut. Deutschland hat in der Vergangenheit verschiedene Projekte unterstützt, die ein breiten- und beschäftigungswirksames Wachstum zum Ziel haben.]\n\n[Wenn expCP60012 = 2: In manchen Entwicklungsländern herrscht große Armut. Dies führt zu vermehrter Migration nach Europa. Deutschland hat in der Vergangenheit verschiedene Projekte unterstützt, die ein breiten- und beschäftigungswirksames Wachstum zum Ziel haben. Dies sollte auch die Migrationsströme nach Europa verringern.] \n\n[Wenn expCP60012 = 3: In manchen Entwicklungsländern kommt es zu kriegerischen Auseinandersetzungen und Menschenrechtsverletzungen. Deutschland hat in der Vergangenheit verschiedene Projekte unterstützt, um die demokratische Rechtsstaatlichkeit und die Gewährleistung der Menschenrechte zu fördern.]\n\n[Wenn expCP60012 = 4: In manchen Entwicklungsländern kommt es zu kriegerischen Auseinandersetzungen und Menschenrechtsverletzungen. Dies führt zu vermehrter Migration nach Europa. Deutschland hat in der Vergangenheit verschiedene Projekte unterstützt, um die demokratische Rechtsstaatlichkeit und die Gewährleistung der Menschenrechte zu fördern. Dies sollte auch die Migrationsströme nach Europa verringern.]\n\n[Wenn expCP60012 = 5: In manchen Entwicklungsländern zerstören Dürren als Folge des Klimawandels die Lebensgrundlage vieler Menschen. Deutschland hat in der Vergangenheit verschiedene Projekte im Bereich Klimarisikoversicherungen unterstützt, um erlittene Verluste auszugleichen und Schäden wieder zu beheben.]\n\n[Wenn expCP60012 = 6: In manchen Entwicklungsländern zerstören Dürren als Folge des Klimawandels die Lebensgrundlage vieler Menschen. Dies führt zu vermehrter Migration nach Europa. Deutschland hat in der Vergangenheit verschiedene Projekte im Bereich Klimarisikoversicherungen unterstützt, um erlittene Verluste auszugleichen und Schäden wieder zu beheben. Dies sollte auch die Migrationsströme nach Europa verringern.]\n\n[Wenn expCP60012 = 7: In manchen Entwicklungsländern führen Pandemien wie Covid-19 oder Ebola immer wieder zu humanitären Katstrophen. Deutschland hat in der Vergangenheit verschiedene Projekte unterstützt, um das Gesundheitssystem in diesen Ländern zu verbessern und die Bevölkerung vor Gesundheitsgefahren zu schützen.]\n\n[Wenn expCP60012 = 8: In manchen Entwicklungsländern führen Pandemien wie Covid-19 oder Ebola immer wieder zu humanitären Katstrophen. Dies führt zu vermehrter Migration nach Europa. Deutschland hat in der Vergangenheit verschiedene Projekte unterstützt, um das Gesundheitssystem in diesen Ländern zu verbessern und die Bevölkerung vor Gesundheitsgefahren zu schützen. Dies sollte auch die Migrationsströme nach Europa verringern.]\n\n[Wenn expCP60012 = 9: In manchen Entwicklungsländern hat Deutschland in der Vergangenheit verschiedene Entwicklungsprojekte unterstützt.]\n\n\nSind Sie der Meinung, dass solche Entwicklungsprojekte weiterhin von Deutschland finanziell unterstützt werden sollten?",
+          "description": "Befragte zufällig in neun Gruppen aufteilen und Gruppenzuteilung in separater Variable expCP60012 ablegen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ja, Entwicklungsprojekte weiterhin finanziell unterstützen"
+            },
+            {
+              "value": 2,
+              "label": "Nein, Entwicklungsprojekte nicht weiterhin finanziell unterstützen"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 15": {
+      "question": "Page 15",
+      "name": "Page 15",
+      "label": "Im Zeitraum von März 2020 bis März 2022 wurde bei mehr als 7 Millionen Menschen in Deutschland das Corona-Virus diagnostiziert. Mehr als 100.000 Menschen starben an einer Corona-Virus Infektion. Zwischen Juni und Dezember 2021 ist die Anzahl der täglich diagnostizierten Corona-Fälle um das 100-fache gestiegen.\n\n[Grafik: Täglich diagnostizierte Corona-Fälle in Deutschland (Juni-Dezember 2021) ] \nQuelle: Robert Koch-Institut, Darstellung Universität Mannheim\n\nWie bedrohlich schätzen Sie die oben beschriebene Situation ein?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Zeitraum von März 2020 bis März 2022 wurde bei mehr als 7 Millionen Menschen in Deutschland das Corona-Virus diagnostiziert. Mehr als 100.000 Menschen starben an einer Corona-Virus Infektion. Zwischen Juni und Dezember 2021 ist die Anzahl der täglich diagnostizierten Corona-Fälle um das 100-fache gestiegen.\n\n[Grafik: Täglich diagnostizierte Corona-Fälle in Deutschland (Juni-Dezember 2021) ] \nQuelle: Robert Koch-Institut, Darstellung Universität Mannheim\n\nWie bedrohlich schätzen Sie die oben beschriebene Situation ein?",
+          "description": "Befragte zufällig in 2 Gruppen aufteilen. Gruppe 1 erhält EA60001, Gruppe 2 erhält EA60002. Gruppenzuteilung in separater Variable expEA60001 ablegen.",
+          "filter": "expEA60001 = 1 ",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr bedrohlich"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Überhaupt nicht bedrohlich"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 16": {
+      "question": "Page 16",
+      "name": "Page 16",
+      "label": "Im Jahr 2020 wurde in Deutschland bei 2.454 Menschen HIV diagnostiziert. Im Jahr 2019 starben deutschlandweit 285 Personen aufgrund einer HIV-Infektion. 97 % der HIV-Diagnostizierten in Deutschland erhalten HIV-Medikamente. Von jenen ist bei 96 % HIV nicht mehr nachweisbar. Zwischen 2014 und 2020 ist die Anzahl der jährlich diagnostizierten HIV-Fälle um ca. ein Drittel zurückgegangen. \n\n[Grafik: Jährlich diagnostizierte Corona-Fälle in Deutschland (Juni-Dezember 2021)]\nQuelle: Robert-Koch-Institut, Darstellung Universität Mannheim \n\nWie bedrohlich schätzen Sie die oben beschriebene Situation ein?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Jahr 2020 wurde in Deutschland bei 2.454 Menschen HIV diagnostiziert. Im Jahr 2019 starben deutschlandweit 285 Personen aufgrund einer HIV-Infektion. 97 % der HIV-Diagnostizierten in Deutschland erhalten HIV-Medikamente. Von jenen ist bei 96 % HIV nicht mehr nachweisbar. Zwischen 2014 und 2020 ist die Anzahl der jährlich diagnostizierten HIV-Fälle um ca. ein Drittel zurückgegangen. \n\n[Grafik: Jährlich diagnostizierte Corona-Fälle in Deutschland (Juni-Dezember 2021)]\nQuelle: Robert-Koch-Institut, Darstellung Universität Mannheim \n\nWie bedrohlich schätzen Sie die oben beschriebene Situation ein?",
+          "filter": "expEA60001 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr bedrohlich"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Überhaupt nicht bedrohlich"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 17": {
+      "question": "Page 17",
+      "name": "Page 17",
+      "label": "Im Folgenden sind zwei Aussagen aufgeführt, die unterschiedliche Wertvorstellungen widerspiegeln. Uns interessiert Ihre Meinung dazu.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Folgenden sind zwei Aussagen aufgeführt, die unterschiedliche Wertvorstellungen widerspiegeln. Uns interessiert Ihre Meinung dazu.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 18": {
+      "question": "Page 18",
+      "name": "Page 18",
+      "label": "Wie sehr stimmen Sie persönlich dieser Aussage zu oder nicht zu?\n\nEs ist in Ordnung, das Gesetz zu brechen, wenn man dabei nicht erwischt wird.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sehr stimmen Sie persönlich dieser Aussage zu oder nicht zu?\n\nEs ist in Ordnung, das Gesetz zu brechen, wenn man dabei nicht erwischt wird.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich stimme überhaupt nicht zu."
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Ich stimme voll und ganz zu."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 19": {
+      "question": "Page 19",
+      "name": "Page 19",
+      "label": "Wie sehr stimmen Sie persönlich dieser Aussage zu oder nicht zu?\n\nMan sollte immer hilfsbereit sein, wenn andere verletzt, krank oder traurig sind, auch wenn die Kosten dafür hoch sind.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie sehr stimmen Sie persönlich dieser Aussage zu oder nicht zu?\n\nMan sollte immer hilfsbereit sein, wenn andere verletzt, krank oder traurig sind, auch wenn die Kosten dafür hoch sind.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich stimme überhaupt nicht zu."
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Ich stimme voll und ganz zu."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 18,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 20": {
+      "question": "Page 20",
+      "name": "Page 20",
+      "label": "Auf den folgenden Seiten stellen wir Ihnen drei Szenarien vor, zu denen uns Ihre Meinung interessiert.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Auf den folgenden Seiten stellen wir Ihnen drei Szenarien vor, zu denen uns Ihre Meinung interessiert.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 19,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 21": {
+      "question": "Page 21",
+      "name": "Page 21",
+      "label": "Stellen Sie sich bitte folgendes Szenario vor:\n\nSie überlegen, ein Produkt von einem der beiden folgenden Unternehmen zu kaufen. Nach Durchsicht der Produktinformationen stellen Sie fest, dass die beiden Angebote sehr ähnlich sind. Sie erfahren jedoch Folgendes über die beiden Unternehmen:   \n\n- Firma A hat den Gewinn im Jahresabschluss 2021 manipuliert.\n\n- Firma B hat im Geschäftsjahr 2021 zweitausend Mitarbeiter in Deutschland entlassen.\n\n\nVon welchem Unternehmen würden Sie eher ein Produkt kaufen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich bitte folgendes Szenario vor:\n\nSie überlegen, ein Produkt von einem der beiden folgenden Unternehmen zu kaufen. Nach Durchsicht der Produktinformationen stellen Sie fest, dass die beiden Angebote sehr ähnlich sind. Sie erfahren jedoch Folgendes über die beiden Unternehmen:   \n\n- Firma A hat den Gewinn im Jahresabschluss 2021 manipuliert.\n\n- Firma B hat im Geschäftsjahr 2021 zweitausend Mitarbeiter in Deutschland entlassen.\n\n\nVon welchem Unternehmen würden Sie eher ein Produkt kaufen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich würde das Produkt auf jeden Fall von Firma A kaufen."
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "Ich bin unentschieden."
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Ich würde das Produkt auf jeden Fall von Firma B kaufen."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 20,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 22": {
+      "question": "Page 22",
+      "name": "Page 22",
+      "label": "Stellen Sie sich bitte folgendes Szenario vor:\n\nSie sind auf der Suche nach einem neuen Job und haben Angebote von zwei Unternehmen erhalten. Nach Sichtung der beiden Stellenangebote haben Sie festgestellt, dass beide Angebote sehr ähnlich sind. Sie erfahren jedoch Folgendes über die beiden Unternehmen:  \n\n- Firma A hat letztes Jahr 5 % der Gewinne in lokale Gemeinden in der Umgebung der Firma investiert, um Familien vor Ort zu unterstützen.\n\n- Firma B hat letztes Jahr 5 % der Gewinne in eine Software investiert, die Betrugsfälle bei Zahlungen im Internet verhindert.\n\n\nWelches Jobangebot würden Sie annehmen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich bitte folgendes Szenario vor:\n\nSie sind auf der Suche nach einem neuen Job und haben Angebote von zwei Unternehmen erhalten. Nach Sichtung der beiden Stellenangebote haben Sie festgestellt, dass beide Angebote sehr ähnlich sind. Sie erfahren jedoch Folgendes über die beiden Unternehmen:  \n\n- Firma A hat letztes Jahr 5 % der Gewinne in lokale Gemeinden in der Umgebung der Firma investiert, um Familien vor Ort zu unterstützen.\n\n- Firma B hat letztes Jahr 5 % der Gewinne in eine Software investiert, die Betrugsfälle bei Zahlungen im Internet verhindert.\n\n\nWelches Jobangebot würden Sie annehmen?",
+          "description": "Befragte zufällig in 3 Gruppen aufteilen. Gruppe 1 erhält EA60006, Gruppe 2 erhält EA60007, Gruppe 3 erhält EA60008. Gruppenzuteilung in separater Variable expEA60006 ablegen.",
+          "filter": "expEA60006 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich würde auf jeden Fall das Angebot von Firma A annehmen."
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "Ich bin unentschieden."
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Ich würde auf jeden Fall das Angebot von Firma B annehmen "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 21,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 23": {
+      "question": "Page 23",
+      "name": "Page 23",
+      "label": "Stellen Sie sich bitte folgendes Szenario vor:\n\nSie überlegen, ein Produkt von einem der beiden folgenden Unternehmen zu kaufen. Nach Durchsicht der Produktinformationen stellen Sie fest, dass die beiden Angebote sehr ähnlich sind. Sie erfahren jedoch Folgendes über die beiden Unternehmen:   \n\n- Firma A hat letztes Jahr 5 % der Gewinne in lokale Gemeinden in der Umgebung der Firma investiert, um Familien vor Ort zu unterstützen.\n\n- Firma B hat letztes Jahr 5 % der Gewinne in eine Software investiert, die Betrugsfälle bei Zahlungen im Internet verhindert.\n\n\nVon welchem Unternehmen würden Sie eher ein Produkt kaufen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich bitte folgendes Szenario vor:\n\nSie überlegen, ein Produkt von einem der beiden folgenden Unternehmen zu kaufen. Nach Durchsicht der Produktinformationen stellen Sie fest, dass die beiden Angebote sehr ähnlich sind. Sie erfahren jedoch Folgendes über die beiden Unternehmen:   \n\n- Firma A hat letztes Jahr 5 % der Gewinne in lokale Gemeinden in der Umgebung der Firma investiert, um Familien vor Ort zu unterstützen.\n\n- Firma B hat letztes Jahr 5 % der Gewinne in eine Software investiert, die Betrugsfälle bei Zahlungen im Internet verhindert.\n\n\nVon welchem Unternehmen würden Sie eher ein Produkt kaufen?",
+          "filter": "expEA60006 = 2 ",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich würde das Produkt auf jeden Fall von Firma A kaufen."
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "Ich bin unentschieden."
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Ich würde das Produkt auf jeden Fall von Firma B kaufen."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 22,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 24": {
+      "question": "Page 24",
+      "name": "Page 24",
+      "label": "Stellen Sie sich bitte folgendes Szenario vor:\n\nSie haben die Gelegenheit, Anteile von einem der zwei folgenden Unternehmen zu erwerben. Die Finanzdaten zeigen, dass von beiden Firmen eine ähnliche jährliche Rendite und ein ähnliches Risiko zu erwarten sind. Sie erfahren jedoch Folgendes über die beiden Unternehmen:\n\n- Firma A hat letztes Jahr 5 % der Gewinne in lokale Gemeinden in der Umgebung der Firma investiert, um Familien vor Ort zu unterstützen.\n\n- Firma B hat letztes Jahr 5 % der Gewinne in eine Software investiert, die Betrugsfälle bei Zahlungen im Internet verhindert.\n\n\nVon welcher Firma möchten Sie lieber Anteile erwerben?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich bitte folgendes Szenario vor:\n\nSie haben die Gelegenheit, Anteile von einem der zwei folgenden Unternehmen zu erwerben. Die Finanzdaten zeigen, dass von beiden Firmen eine ähnliche jährliche Rendite und ein ähnliches Risiko zu erwarten sind. Sie erfahren jedoch Folgendes über die beiden Unternehmen:\n\n- Firma A hat letztes Jahr 5 % der Gewinne in lokale Gemeinden in der Umgebung der Firma investiert, um Familien vor Ort zu unterstützen.\n\n- Firma B hat letztes Jahr 5 % der Gewinne in eine Software investiert, die Betrugsfälle bei Zahlungen im Internet verhindert.\n\n\nVon welcher Firma möchten Sie lieber Anteile erwerben?",
+          "instruction": "Nehmen Sie bitte an, dass Sie sich für eines der beiden Unternehmen entscheiden müssen. Sie können nicht gleichzeitig Anteile an beiden Unternehmen halten.",
+          "description": "Nehmen Sie bitte an, dass Sie sich für eines der beiden Unternehmen entscheiden müssen. Sie können nicht gleichzeitig Anteile an beiden Unternehmen halten.",
+          "filter": "expEA60006 = 3 ",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich würde auf jeden Fall Anteile von Firma A erwerben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "Ich bin unentschieden."
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Ich würde auf jeden Fall Anteile von Firma B erwerben "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 23,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 25": {
+      "question": "Page 25",
+      "name": "Page 25",
+      "label": "Stellen Sie sich bitte folgendes Szenario vor:\n\nSie haben die Gelegenheit, Anteile von einem der zwei folgenden Unternehmen zu erwerben. Die Finanzdaten zeigen, dass von beiden Firmen eine ähnliche jährliche Rendite und ein ähnliches Risiko zu erwarten sind. Es besteht jedoch der folgende Unterschied:\n\n- Firma A produziert Rückspiegel für die Automobilindustrie und hat ihren Sitz in Ostdeutschland.\n\n- Firma B produziert Außenspiegel für die Automobilindustrie und hat ihren Sitz in Westdeutschland.\n\n\nVon welcher Firma möchten Sie lieber Anteile erwerben?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich bitte folgendes Szenario vor:\n\nSie haben die Gelegenheit, Anteile von einem der zwei folgenden Unternehmen zu erwerben. Die Finanzdaten zeigen, dass von beiden Firmen eine ähnliche jährliche Rendite und ein ähnliches Risiko zu erwarten sind. Es besteht jedoch der folgende Unterschied:\n\n- Firma A produziert Rückspiegel für die Automobilindustrie und hat ihren Sitz in Ostdeutschland.\n\n- Firma B produziert Außenspiegel für die Automobilindustrie und hat ihren Sitz in Westdeutschland.\n\n\nVon welcher Firma möchten Sie lieber Anteile erwerben?",
+          "instruction": "Nehmen Sie bitte an, dass Sie sich für eines der beiden Unternehmen entscheiden müssen. Sie können nicht gleichzeitig Anteile an beiden Unternehmen halten.",
+          "description": "Nehmen Sie bitte an, dass Sie sich für eines der beiden Unternehmen entscheiden müssen. Sie können nicht gleichzeitig Anteile an beiden Unternehmen halten.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich würde auf jeden Fall Anteile von Firma A erwerben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4,
+              "label": "Ich bin unentschieden."
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7,
+              "label": "Ich würde auf jeden Fall Anteile von Firma B erwerben "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 24,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 26": {
+      "question": "Page 26",
+      "name": "Page 26",
+      "label": "Unternehmen können unterschiedliche Ziele verfolgen. Je nach Perspektive kann ein Ziel mehr oder weniger wichtig sein. \n\nBitte ordnen Sie diese 10 Unternehmensziele nach der von Ihnen wahrgenommenen Wichtigkeit.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Unternehmen können unterschiedliche Ziele verfolgen. Je nach Perspektive kann ein Ziel mehr oder weniger wichtig sein. \n\nBitte ordnen Sie diese 10 Unternehmensziele nach der von Ihnen wahrgenommenen Wichtigkeit.",
+          "instruction": "Bitte tragen Sie für jedes Ziel eine Zahl zwischen 1 und 10 ein. 1 bedeutet, dass es aus Ihrer Sicht das wichtigste Ziel ist. 10 bedeutet, dass es aus Ihrer Sicht das unwichtigste Ziel ist. Mit den Werten dazwischen können Sie Ihre Antwort abstufen. Sie können bei mehreren Zielen dieselbe Zahl eintragen, wenn Sie diese für gleich wichtig halten.",
+          "description": "Bitte tragen Sie für jedes Ziel eine Zahl zwischen 1 und 10 ein. 1 bedeutet, dass es aus Ihrer Sicht das wichtigste Ziel ist. 10 bedeutet, dass es aus Ihrer Sicht das unwichtigste Ziel ist. Mit den Werten dazwischen können Sie Ihre Antwort abstufen. Sie können bei mehreren Zielen dieselbe Zahl eintragen, wenn Sie diese für gleich wichtig halten.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Arbeitsplatzsicherheit in Deutschland",
+          "scale": "int",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "Reduktion von CO2-Emissionen",
+          "scale": "int",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Erhöhung des Frauenanteils in Führungspositionen",
+          "scale": "int",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Investitionen in Forschung und Entwicklung",
+          "scale": "int",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Gewinnmaximierung",
+          "scale": "int",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Produktsicherheit",
+          "scale": "int",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Arbeitsplatzsicherheit in allen Niederlassungen weltweit",
+          "scale": "int",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "Soziales Engagement in der Region",
+          "scale": "int",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Faire Löhne",
+          "scale": "int",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Respektvoller Umgang mit den Mitarbeitern",
+          "scale": "int",
+          "sn": 10,
+          "number": ""
+        }
+      ],
+      "sn": 25,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 27": {
+      "question": "Page 27",
+      "name": "Page 27",
+      "label": "Wenn Sie an den letzten Monat denken, wie oft hat die folgende Aussage auf Sie zugetroffen? \n\nVieles erscheint mir so sinnlos.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie an den letzten Monat denken, wie oft hat die folgende Aussage auf Sie zugetroffen? \n\nVieles erscheint mir so sinnlos.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "(Fast) nie"
+            },
+            {
+              "value": 2,
+              "label": "Sehr selten "
+            },
+            {
+              "value": 3,
+              "label": "Selten"
+            },
+            {
+              "value": 4,
+              "label": "Gelegentlich"
+            },
+            {
+              "value": 5,
+              "label": "Oft"
+            },
+            {
+              "value": 6,
+              "label": "Sehr oft"
+            },
+            {
+              "value": 7,
+              "label": "(Fast) immer"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 26,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 28": {
+      "question": "Page 28",
+      "name": "Page 28",
+      "label": "Wenn Sie an den letzten Monat denken, wie oft hat die folgende Aussage auf Sie zugetroffen?\n\nIch habe traurige Stimmungen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie an den letzten Monat denken, wie oft hat die folgende Aussage auf Sie zugetroffen?\n\nIch habe traurige Stimmungen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "(Fast) nie"
+            },
+            {
+              "value": 2,
+              "label": "Sehr selten "
+            },
+            {
+              "value": 3,
+              "label": "Selten"
+            },
+            {
+              "value": 4,
+              "label": "Gelegentlich"
+            },
+            {
+              "value": 5,
+              "label": "Oft"
+            },
+            {
+              "value": 6,
+              "label": "Sehr oft"
+            },
+            {
+              "value": 7,
+              "label": "(Fast) immer"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 27,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 29": {
+      "question": "Page 29",
+      "name": "Page 29",
+      "label": "Wenn Sie an den letzten Monat denken, wie sehr trifft die folgende Aussage auf Sie zu oder nicht zu?\n\n\n\nIch habe bei meiner Berufsarbeit immer öfter das Gefühl, emotional ausgelaugt zu sein.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie an den letzten Monat denken, wie sehr trifft die folgende Aussage auf Sie zu oder nicht zu?\n\n\n\nIch habe bei meiner Berufsarbeit immer öfter das Gefühl, emotional ausgelaugt zu sein.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Völlig unzutreffend"
+            },
+            {
+              "value": 2,
+              "label": "Eher unzutreffend"
+            },
+            {
+              "value": 3,
+              "label": "Eher zutreffend"
+            },
+            {
+              "value": 4,
+              "label": "Völlig zutreffend"
+            },
+            {
+              "value": 5,
+              "label": "Ich war im letzten Monat nicht berufstätig"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 28,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 30": {
+      "question": "Page 30",
+      "name": "Page 30",
+      "label": "Wenn Sie an den letzten Monat denken, wie sehr trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nNach der Arbeit fühle ich mich in der Regel schlapp und abgespannt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie an den letzten Monat denken, wie sehr trifft die folgende Aussage auf Sie zu oder nicht zu?\n\nNach der Arbeit fühle ich mich in der Regel schlapp und abgespannt.",
+          "filter": "BL60029 = 1,2,3,4 (wenn Befragte/r berufstätig ist)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Völlig unzutreffend"
+            },
+            {
+              "value": 2,
+              "label": "Eher unzutreffend"
+            },
+            {
+              "value": 3,
+              "label": "Eher zutreffend"
+            },
+            {
+              "value": 4,
+              "label": "Völlig zutreffend"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 29,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 31": {
+      "question": "Page 31",
+      "name": "Page 31",
+      "label": "Die nächsten Fragen betreffen Ihre Nutzung von sozialen Medien.\n\nBei welchen der folgenden sozialen Medien haben Sie einen persönlichen Account?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Die nächsten Fragen betreffen Ihre Nutzung von sozialen Medien.\n\nBei welchen der folgenden sozialen Medien haben Sie einen persönlichen Account?",
+          "instruction": "Bitte wählen Sie alles Zutreffende aus.",
+          "description": "Bitte wählen Sie alles Zutreffende aus.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Facebook",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "TikTok",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "LinkedIn",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Xing",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Instagram",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Spotify",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Twitter",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "YouTube",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Bei keinem dieser sozialen Medien",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        }
+      ],
+      "sn": 30,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 32": {
+      "question": "Page 32",
+      "name": "Page 32",
+      "label": "Wie häufig nutzen Sie Facebook?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie häufig nutzen Sie Facebook?",
+          "filter": "AP60010_a=1 (wenn Befragte einen Facebook Account haben)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Täglich "
+            },
+            {
+              "value": 2,
+              "label": "Mehrmals in der Woche "
+            },
+            {
+              "value": 3,
+              "label": "Mehrmals im Monat"
+            },
+            {
+              "value": 4,
+              "label": "Seltener "
+            },
+            {
+              "value": 5,
+              "label": "Nie "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 31,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 33": {
+      "question": "Page 33",
+      "name": "Page 33",
+      "label": "Man kann soziale Medien auf unterschiedliche Weise nutzen. Wie ist das bei Ihnen? Nutzen Sie Facebook eher privat oder beruflich?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Man kann soziale Medien auf unterschiedliche Weise nutzen. Wie ist das bei Ihnen? Nutzen Sie Facebook eher privat oder beruflich?",
+          "filter": "AP60011=1,2,3, oder 4 (wenn Befragte Facebook nutzen)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ausschließlich privat"
+            },
+            {
+              "value": 2,
+              "label": "Überwiegend privat"
+            },
+            {
+              "value": 3,
+              "label": "Eher privat"
+            },
+            {
+              "value": 4,
+              "label": "Teils-teils "
+            },
+            {
+              "value": 5,
+              "label": "Eher beruflich "
+            },
+            {
+              "value": 6,
+              "label": "Überwiegend beruflich "
+            },
+            {
+              "value": 7,
+              "label": "Ausschließlich beruflich "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 32,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 34": {
+      "question": "Page 34",
+      "name": "Page 34",
+      "label": "Wie häufig nutzen Sie TikTok?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie häufig nutzen Sie TikTok?",
+          "filter": "AP60010_b=1 (wenn Befragte einen TikTok Account haben)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Täglich "
+            },
+            {
+              "value": 2,
+              "label": "Mehrmals in der Woche "
+            },
+            {
+              "value": 3,
+              "label": "Mehrmals im Monat"
+            },
+            {
+              "value": 4,
+              "label": "Seltener "
+            },
+            {
+              "value": 5,
+              "label": "Nie "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 33,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 35": {
+      "question": "Page 35",
+      "name": "Page 35",
+      "label": "Man kann soziale Medien auf unterschiedliche Weise nutzen. Wie ist das bei Ihnen? Wenn Sie an die letzten zwei Monate zurückdenken, wie viele eigene Videos haben Sie über Ihren persönlichen TikTok Account in dieser Zeit in etwa geteilt?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Man kann soziale Medien auf unterschiedliche Weise nutzen. Wie ist das bei Ihnen? Wenn Sie an die letzten zwei Monate zurückdenken, wie viele eigene Videos haben Sie über Ihren persönlichen TikTok Account in dieser Zeit in etwa geteilt?",
+          "filter": "AP60013 = 1, 2, 3, oder 4 (wenn Befragte TikTok nutzen)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Kein eigenes Video"
+            },
+            {
+              "value": 2,
+              "label": "Ein eigenes Video "
+            },
+            {
+              "value": 3,
+              "label": "Zwei bis fünf eigene Videos"
+            },
+            {
+              "value": 4,
+              "label": "Sechs bis zehn eigene Videos"
+            },
+            {
+              "value": 5,
+              "label": "Mehr als zehn eigene Videos "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 34,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 36": {
+      "question": "Page 36",
+      "name": "Page 36",
+      "label": "Wie häufig nutzen Sie mindestens eines der berufsbezogenen sozialen Netzwerke LinkedIn oder Xing?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie häufig nutzen Sie mindestens eines der berufsbezogenen sozialen Netzwerke LinkedIn oder Xing?",
+          "filter": "AP60010_c=1 oder AP60010_d=1 (wenn Befragte einen LinkedIn/Xing Account haben)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Täglich "
+            },
+            {
+              "value": 2,
+              "label": "Mehrmals in der Woche "
+            },
+            {
+              "value": 3,
+              "label": "Mehrmals im Monat"
+            },
+            {
+              "value": 4,
+              "label": "Seltener "
+            },
+            {
+              "value": 5,
+              "label": "Nie "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 35,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 37": {
+      "question": "Page 37",
+      "name": "Page 37",
+      "label": "[Wenn Block 1 der erste Block in der Sequenz rndAP60016a ist: Durch die Nutzung digitaler Geräte produzieren wir immer mehr Daten. Diese Daten sind auch für die sozialwissenschaftliche Forschung interessant. Im Folgenden stellen wir Ihnen verschiedene Situationen zum Thema Teilen von digitalen Daten für die Forschung vor. Die Situationen unterscheiden sich in bestimmten Merkmalen. Bitte lesen Sie die Beschreibung jeder Situation genau durch und geben Sie im Anschluss daran an, für wie akzeptabel Sie die Anfrage zum Teilen der digitalen Daten in dieser Situation halten.]\n\n [Wenn Block 1 der zweite Block in der Sequenz rndAP60016a ist: Im Folgenden präsentieren wir Ihnen nochmals dieselben Situationen zur Weitergabe von digitalen Daten wie zuvor. Dieses Mal interessieren wir uns jedoch dafür, für wie akzeptabel Sie verschiedene Anfragen zum Teilen digi- \ntaler Daten im Allgemeinen halten. Bitte lesen Sie die Beschreibung jeder Situation wieder genau durch und geben Sie im Anschluss daran an, für wie akzeptabel Sie die Anfrage zum Teilen der Daten in dieser Situation halten.]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn Block 1 der erste Block in der Sequenz rndAP60016a ist: Durch die Nutzung digitaler Geräte produzieren wir immer mehr Daten. Diese Daten sind auch für die sozialwissenschaftliche Forschung interessant. Im Folgenden stellen wir Ihnen verschiedene Situationen zum Thema Teilen von digitalen Daten für die Forschung vor. Die Situationen unterscheiden sich in bestimmten Merkmalen. Bitte lesen Sie die Beschreibung jeder Situation genau durch und geben Sie im Anschluss daran an, für wie akzeptabel Sie die Anfrage zum Teilen der digitalen Daten in dieser Situation halten.]\n\n [Wenn Block 1 der zweite Block in der Sequenz rndAP60016a ist: Im Folgenden präsentieren wir Ihnen nochmals dieselben Situationen zur Weitergabe von digitalen Daten wie zuvor. Dieses Mal interessieren wir uns jedoch dafür, für wie akzeptabel Sie verschiedene Anfragen zum Teilen digi- \ntaler Daten im Allgemeinen halten. Bitte lesen Sie die Beschreibung jeder Situation wieder genau durch und geben Sie im Anschluss daran an, für wie akzeptabel Sie die Anfrage zum Teilen der Daten in dieser Situation halten.]",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 36,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 38": {
+      "question": "Page 38",
+      "name": "Page 38",
+      "label": "Im Rahmen eines Forschungsprojekts, das die Mobilitätsmuster der deutschen Bevölkerung untersucht, möchte eine deutsche Universität GPS-Daten sammeln, die mit dem Smartphone erhoben werden. Personen, die der Teilung dieser Daten zustimmen, exportieren diese von ihrem Smartphone und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60016 = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60016 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60016 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60016 = 6: ]\n\nWie akzeptabel oder inakzeptabel finden Sie diese Anfrage zum Teilen der Daten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Rahmen eines Forschungsprojekts, das die Mobilitätsmuster der deutschen Bevölkerung untersucht, möchte eine deutsche Universität GPS-Daten sammeln, die mit dem Smartphone erhoben werden. Personen, die der Teilung dieser Daten zustimmen, exportieren diese von ihrem Smartphone und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60016 = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60016 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60016 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60016 = 6: ]\n\nWie akzeptabel oder inakzeptabel finden Sie diese Anfrage zum Teilen der Daten?",
+          "description": "Befragte zufällig in 6 Gruppen aufteilen und Gruppenzuteilung in separater Variable expAP60016 ablegen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr akzeptabel "
+            },
+            {
+              "value": 2,
+              "label": "Akzeptabel "
+            },
+            {
+              "value": 3,
+              "label": "Eher akzeptabel "
+            },
+            {
+              "value": 4,
+              "label": "Weder akzeptabel noch inakzeptabel "
+            },
+            {
+              "value": 5,
+              "label": "Eher inakzeptabel "
+            },
+            {
+              "value": 6,
+              "label": "Inakzeptabel "
+            },
+            {
+              "value": 7,
+              "label": "Sehr inakzeptabel "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 37,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 39": {
+      "question": "Page 39",
+      "name": "Page 39",
+      "label": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass die Anfrage in der zuvor beschrieben Situation [wenn AP60016=1: sehr akzeptabel] [wenn AP60016=2: akzeptabel] [wenn AP60016=3: eher akzeptabel] [wenn AP60016=4: weder akzeptabel noch inakzeptabel] [wenn AP60016=5: eher inakzeptabel] [wenn AP60016=6: inakzeptabel] [wenn AP60016=7: sehr inakzeptabel] ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass die Anfrage in der zuvor beschrieben Situation [wenn AP60016=1: sehr akzeptabel] [wenn AP60016=2: akzeptabel] [wenn AP60016=3: eher akzeptabel] [wenn AP60016=4: weder akzeptabel noch inakzeptabel] [wenn AP60016=5: eher inakzeptabel] [wenn AP60016=6: inakzeptabel] [wenn AP60016=7: sehr inakzeptabel] ist?",
+          "filter": "AP60016 in rndAP60016b als erstes gestellt wird und AP60016=1,2,3,4,5,6,7",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 38,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 40": {
+      "question": "Page 40",
+      "name": "Page 40",
+      "label": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität Daten zum Web-Browsing-Verhalten sammeln. Personen, die der Teilung der Daten zu ihren Webseitenbesuchen zustimmen, exportieren diese von ihrem Smartphone oder Computer und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60018 = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60018 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60018 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60018 = 6: ]\n\nWie akzeptabel oder inakzeptabel finden Sie diese Anfrage zum Teilen der Daten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität Daten zum Web-Browsing-Verhalten sammeln. Personen, die der Teilung der Daten zu ihren Webseitenbesuchen zustimmen, exportieren diese von ihrem Smartphone oder Computer und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60018 = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60018 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60018 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60018 = 6: ]\n\nWie akzeptabel oder inakzeptabel finden Sie diese Anfrage zum Teilen der Daten?",
+          "description": "Befragte zufällig in 6 Gruppen aufteilen und Gruppenzuteilung in separater Variable expAP60018 ablegen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr akzeptabel "
+            },
+            {
+              "value": 2,
+              "label": "Akzeptabel "
+            },
+            {
+              "value": 3,
+              "label": "Eher akzeptabel "
+            },
+            {
+              "value": 4,
+              "label": "Weder akzeptabel noch inakzeptabel "
+            },
+            {
+              "value": 5,
+              "label": "Eher inakzeptabel "
+            },
+            {
+              "value": 6,
+              "label": "Inakzeptabel "
+            },
+            {
+              "value": 7,
+              "label": "Sehr inakzeptabel "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 39,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 41": {
+      "question": "Page 41",
+      "name": "Page 41",
+      "label": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass die Anfrage in der zuvor beschrieben Situation [wenn AP60018=1: sehr akzeptabel] [wenn AP60018=2: akzeptabel] [wenn AP60018=3: eher akzeptabel] [wenn AP60018=4: weder akzeptabel noch inakzeptabel] [wenn AP60018=5: eher inakzeptabel] [wenn AP60018=6: inakzeptabel] [wenn AP60018=7: sehr inakzeptabel] ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass die Anfrage in der zuvor beschrieben Situation [wenn AP60018=1: sehr akzeptabel] [wenn AP60018=2: akzeptabel] [wenn AP60018=3: eher akzeptabel] [wenn AP60018=4: weder akzeptabel noch inakzeptabel] [wenn AP60018=5: eher inakzeptabel] [wenn AP60018=6: inakzeptabel] [wenn AP60018=7: sehr inakzeptabel] ist?",
+          "filter": "AP60018 in rndAP60016b als erstes gestellt wird und AP60018=1,2,3,4,5,6,7",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 40,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 42": {
+      "question": "Page 42",
+      "name": "Page 42",
+      "label": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität Facebook-Daten sammeln (z. B. Profilinformationen, Posts, Kommentare, Likes). Personen, die der Teilung dieser Daten zustimmen, exportieren diese über ihren Account und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60020a = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60020a = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60020a = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60020a = 6: ]\n\nWie akzeptabel oder inakzeptabel finden Sie diese Anfrage zum Teilen der Daten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität Facebook-Daten sammeln (z. B. Profilinformationen, Posts, Kommentare, Likes). Personen, die der Teilung dieser Daten zustimmen, exportieren diese über ihren Account und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60020a = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60020a = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60020a = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60020a = 6: ]\n\nWie akzeptabel oder inakzeptabel finden Sie diese Anfrage zum Teilen der Daten?",
+          "description": "Befragte zufällig in 6 Gruppen aufteilen und Gruppenzuteilung in separater Variable expAP60020a ablegen.\n \n Befragte bekommen max. 2 der Fragen AP60020, AP60022 und AP60024 gestellt:\nWenn AP60010_a = 1 und AP60010_b = 1 und AP60010_c = 1 oder AP60010_d = 1 (wenn Befragte einen Facebook, TikTok und LinkedIn/Xing Account haben), Befragte zufällig in 2 Gruppen aufteilen und Gruppenzuteilung in separater Variable expAP60020b ablegen. \nGruppe 1 (50%) erhält AP60020 und AP60022 (Reihenfolge entsprechend rndAP60016b).\nGruppe 2 (50%) erhält AP60022 und AP60024 (Reihenfolge entsprechend rndAP60016b).",
+          "filter": "AP60010_a = 1 und AP60010_b !=1 und/oder AP60010_c != 1 und AP60010_d != 1 oder wenn expAP60020b = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr akzeptabel "
+            },
+            {
+              "value": 2,
+              "label": "Akzeptabel "
+            },
+            {
+              "value": 3,
+              "label": "Eher akzeptabel "
+            },
+            {
+              "value": 4,
+              "label": "Weder akzeptabel noch inakzeptabel "
+            },
+            {
+              "value": 5,
+              "label": "Eher inakzeptabel "
+            },
+            {
+              "value": 6,
+              "label": "Inakzeptabel "
+            },
+            {
+              "value": 7,
+              "label": "Sehr inakzeptabel "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 41,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 43": {
+      "question": "Page 43",
+      "name": "Page 43",
+      "label": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass die Anfrage in der zuvor beschrieben Situation [wenn AP60020=1: sehr akzeptabel] [wenn AP60020=2: akzeptabel] [wenn AP60020=3: eher akzeptabel] [wenn AP60020=4: weder akzeptabel noch inakzeptabel] [wenn AP60020=5: eher inakzeptabel] [wenn AP60020=6: inakzeptabel] [wenn AP60020=7: sehr inakzeptabel] ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass die Anfrage in der zuvor beschrieben Situation [wenn AP60020=1: sehr akzeptabel] [wenn AP60020=2: akzeptabel] [wenn AP60020=3: eher akzeptabel] [wenn AP60020=4: weder akzeptabel noch inakzeptabel] [wenn AP60020=5: eher inakzeptabel] [wenn AP60020=6: inakzeptabel] [wenn AP60020=7: sehr inakzeptabel] ist?",
+          "filter": "AP60020 in rndAP60016b als erstes gestellt wird und AP60020=1,2,3,4,5,6,7",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 42,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 44": {
+      "question": "Page 44",
+      "name": "Page 44",
+      "label": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität TikTok-Daten sammeln (z. B. Profilinformationen, angeschaute Videos, Follows, Likes). Personen, die der Teilung dieser Daten zustimmen, exportieren diese über ihren Account und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60022 = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60022 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60022 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60022 = 6: ]\n\nWie akzeptabel oder inakzeptabel finden Sie diese Anfrage zum Teilen der Daten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität TikTok-Daten sammeln (z. B. Profilinformationen, angeschaute Videos, Follows, Likes). Personen, die der Teilung dieser Daten zustimmen, exportieren diese über ihren Account und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60022 = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60022 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60022 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60022 = 6: ]\n\nWie akzeptabel oder inakzeptabel finden Sie diese Anfrage zum Teilen der Daten?",
+          "description": "Befragte zufällig in 6 Gruppen aufteilen und Gruppenzuteilung in separater Variable expAP60022 ablegen.",
+          "filter": "AP60010_b = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr akzeptabel "
+            },
+            {
+              "value": 2,
+              "label": "Akzeptabel "
+            },
+            {
+              "value": 3,
+              "label": "Eher akzeptabel "
+            },
+            {
+              "value": 4,
+              "label": "Weder akzeptabel noch inakzeptabel "
+            },
+            {
+              "value": 5,
+              "label": "Eher inakzeptabel "
+            },
+            {
+              "value": 6,
+              "label": "Inakzeptabel "
+            },
+            {
+              "value": 7,
+              "label": "Sehr inakzeptabel "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 43,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 45": {
+      "question": "Page 45",
+      "name": "Page 45",
+      "label": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass die Anfrage in der zuvor beschrieben Situation [wenn AP60022=1: sehr akzeptabel] [wenn AP60022=2: akzeptabel] [wenn AP60022=3: eher akzeptabel] [wenn AP60022=4: weder akzeptabel noch inakzeptabel] [wenn AP60022=5: eher inakzeptabel] [wenn AP60022=6: inakzeptabel] [wenn AP60022=7: sehr inakzeptabel] ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass die Anfrage in der zuvor beschrieben Situation [wenn AP60022=1: sehr akzeptabel] [wenn AP60022=2: akzeptabel] [wenn AP60022=3: eher akzeptabel] [wenn AP60022=4: weder akzeptabel noch inakzeptabel] [wenn AP60022=5: eher inakzeptabel] [wenn AP60022=6: inakzeptabel] [wenn AP60022=7: sehr inakzeptabel] ist?",
+          "filter": "AP60022 in rndAP60016b als erstes gestellt wird und AP60022=1,2,3,4,5,6,7",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 44,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 46": {
+      "question": "Page 46",
+      "name": "Page 46",
+      "label": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität Daten aus beruflichen sozialen Netzwerken wie Xing und LinkedIn sammeln (z. B. Profilinformationen, Posts, Kommentare, Likes). Personen, die der Teilung dieser Daten zustimmen, exportieren diese über ihren Account und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60024 = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60024 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60024 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60024 = 6: ]\n\nWie akzeptabel oder inakzeptabel finden Sie diese Anfrage zum Teilen der Daten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität Daten aus beruflichen sozialen Netzwerken wie Xing und LinkedIn sammeln (z. B. Profilinformationen, Posts, Kommentare, Likes). Personen, die der Teilung dieser Daten zustimmen, exportieren diese über ihren Account und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60024 = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60024 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60024 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60024 = 6: ]\n\nWie akzeptabel oder inakzeptabel finden Sie diese Anfrage zum Teilen der Daten?",
+          "description": "Befragte zufällig in 6 Gruppen aufteilen und Gruppenzuteilung in separater Variable expAP60024 ablegen.",
+          "filter": "AP60010_c = 1 und/oder AP60010_d = 1 und AP60010_a !=1 und/oder AP60010_b != 1 oder wenn expAP60020b = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr akzeptabel "
+            },
+            {
+              "value": 2,
+              "label": "Akzeptabel "
+            },
+            {
+              "value": 3,
+              "label": "Eher akzeptabel "
+            },
+            {
+              "value": 4,
+              "label": "Weder akzeptabel noch inakzeptabel "
+            },
+            {
+              "value": 5,
+              "label": "Eher inakzeptabel "
+            },
+            {
+              "value": 6,
+              "label": "Inakzeptabel "
+            },
+            {
+              "value": 7,
+              "label": "Sehr inakzeptabel "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 45,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 47": {
+      "question": "Page 47",
+      "name": "Page 47",
+      "label": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass die Anfrage in der zuvor beschrieben Situation [wenn AP60022=1: sehr akzeptabel] [wenn AP60022=2: akzeptabel] [wenn AP60024=3: eher akzeptabel] [wenn AP60024=4: weder akzeptabel noch inakzeptabel] [wenn AP60024=5: eher inakzeptabel] [wenn AP60022=6: inakzeptabel] [wenn AP60024=7: sehr inakzeptabel] ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass die Anfrage in der zuvor beschrieben Situation [wenn AP60022=1: sehr akzeptabel] [wenn AP60022=2: akzeptabel] [wenn AP60024=3: eher akzeptabel] [wenn AP60024=4: weder akzeptabel noch inakzeptabel] [wenn AP60024=5: eher inakzeptabel] [wenn AP60022=6: inakzeptabel] [wenn AP60024=7: sehr inakzeptabel] ist?",
+          "filter": "AP60024 in rndAP60016b als erstes gestellt wird und AP60024=1,2,3,4,5,6,7",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 46,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 48": {
+      "question": "Page 48",
+      "name": "Page 48",
+      "label": "[Wenn Block 2 der erste Block in der Sequenz rndAP60016a ist: Durch die Nutzung digitaler Geräte produzieren wir immer mehr Daten. Diese Daten sind auch für die sozialwissenschaftliche Forschung interessant. Im Folgenden stellen wir Ihnen verschiedene Situationen zum Thema Teilen von digitalen Daten für die Forschung vor. Die Situationen unterscheiden sich in bestimmten Merkmalen. Bitte lesen Sie die Beschreibung jeder Situation genau durch und geben Sie im Anschluss daran an, ob Sie bereit wären, Ihre digitalen Daten in dieser Situation zu teilen.]\n\n [Wenn Block 2 der zweite Block in der Sequenz rndAP60016a ist: Im Folgenden präsentieren wir Ihnen nochmals dieselben Situationen zur Weitergabe von digitalen Daten wie zuvor. Dieses Mal interessieren wir uns jedoch dafür, ob Sie persönlich bereit wären, Ihre digitalen Daten zu teilen. Bitte lesen Sie die Beschreibung jeder Situation wieder genau durch und geben Sie im Anschluss daran an, ob Sie bereit wären, Ihre digitalen Daten in dieser Situation zu teilen.]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[Wenn Block 2 der erste Block in der Sequenz rndAP60016a ist: Durch die Nutzung digitaler Geräte produzieren wir immer mehr Daten. Diese Daten sind auch für die sozialwissenschaftliche Forschung interessant. Im Folgenden stellen wir Ihnen verschiedene Situationen zum Thema Teilen von digitalen Daten für die Forschung vor. Die Situationen unterscheiden sich in bestimmten Merkmalen. Bitte lesen Sie die Beschreibung jeder Situation genau durch und geben Sie im Anschluss daran an, ob Sie bereit wären, Ihre digitalen Daten in dieser Situation zu teilen.]\n\n [Wenn Block 2 der zweite Block in der Sequenz rndAP60016a ist: Im Folgenden präsentieren wir Ihnen nochmals dieselben Situationen zur Weitergabe von digitalen Daten wie zuvor. Dieses Mal interessieren wir uns jedoch dafür, ob Sie persönlich bereit wären, Ihre digitalen Daten zu teilen. Bitte lesen Sie die Beschreibung jeder Situation wieder genau durch und geben Sie im Anschluss daran an, ob Sie bereit wären, Ihre digitalen Daten in dieser Situation zu teilen.]",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 47,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 49": {
+      "question": "Page 49",
+      "name": "Page 49",
+      "label": "Im Rahmen eines Forschungsprojekts, das die Mobilitätsmuster der deutschen Bevölkerung untersucht, möchte eine deutsche Universität GPS-Daten sammeln, die mit dem Smartphone erhoben werden. Personen, die der Teilung dieser Daten zustimmen, exportieren diese von ihrem Smartphone und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60016 = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60016 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60016 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60016 = 6: ]\n\nWie wahrscheinlich oder unwahrscheinlich ist es, dass Sie dieser Anfrage zum Teilen Ihrer Daten zustimmen würden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Rahmen eines Forschungsprojekts, das die Mobilitätsmuster der deutschen Bevölkerung untersucht, möchte eine deutsche Universität GPS-Daten sammeln, die mit dem Smartphone erhoben werden. Personen, die der Teilung dieser Daten zustimmen, exportieren diese von ihrem Smartphone und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60016 = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60016 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60016 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60016 = 6: ]\n\nWie wahrscheinlich oder unwahrscheinlich ist es, dass Sie dieser Anfrage zum Teilen Ihrer Daten zustimmen würden?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr wahrscheinlich"
+            },
+            {
+              "value": 2,
+              "label": "Wahrscheinlich"
+            },
+            {
+              "value": 3,
+              "label": "Eher wahrscheinlich "
+            },
+            {
+              "value": 4,
+              "label": "Weder wahrscheinlich noch unwahrscheinlich "
+            },
+            {
+              "value": 5,
+              "label": "Eher unwahrscheinlich "
+            },
+            {
+              "value": 6,
+              "label": "Unwahrscheinlich"
+            },
+            {
+              "value": 7,
+              "label": "Sehr unwahrscheinlich "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 48,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 50": {
+      "question": "Page 50",
+      "name": "Page 50",
+      "label": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass es [wenn AP60026=1: sehr wahrscheinlich] [wenn AP60026=2: wahrscheinlich] [wenn AP60026=3: eher wahrscheinlich] [wenn AP60026=4: weder wahrscheinlich noch unwahrscheinlich] [wenn AP60026=5: eher unwahrscheinlich] [wenn AP60026=6: unwahrscheinlich] [wenn AP60026=7: sehr unwahrscheinlich] ist, dass Sie Ihre Daten in der zuvor beschriebenen Situation weitergeben würden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass es [wenn AP60026=1: sehr wahrscheinlich] [wenn AP60026=2: wahrscheinlich] [wenn AP60026=3: eher wahrscheinlich] [wenn AP60026=4: weder wahrscheinlich noch unwahrscheinlich] [wenn AP60026=5: eher unwahrscheinlich] [wenn AP60026=6: unwahrscheinlich] [wenn AP60026=7: sehr unwahrscheinlich] ist, dass Sie Ihre Daten in der zuvor beschriebenen Situation weitergeben würden?",
+          "filter": "AP60026 in rndAP60016b als erstes gestellt wird und AP60026=1,2,3,4,5,6,7",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 49,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 51": {
+      "question": "Page 51",
+      "name": "Page 51",
+      "label": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität Daten zum Web-Browsing-Verhalten sammeln. Personen, die der Teilung der Daten zu ihren Webseitenbesuchen zustimmen, exportieren diese von ihrem Smartphone oder Computer und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60018 = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60018 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60018 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60018 = 6: ]\n\nWie wahrscheinlich oder unwahrscheinlich ist es, dass Sie dieser Anfrage zum Teilen Ihrer Daten zustimmen würden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität Daten zum Web-Browsing-Verhalten sammeln. Personen, die der Teilung der Daten zu ihren Webseitenbesuchen zustimmen, exportieren diese von ihrem Smartphone oder Computer und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60018 = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60018 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60018 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60018 = 6: ]\n\nWie wahrscheinlich oder unwahrscheinlich ist es, dass Sie dieser Anfrage zum Teilen Ihrer Daten zustimmen würden?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr wahrscheinlich"
+            },
+            {
+              "value": 2,
+              "label": "Wahrscheinlich"
+            },
+            {
+              "value": 3,
+              "label": "Eher wahrscheinlich "
+            },
+            {
+              "value": 4,
+              "label": "Weder wahrscheinlich noch unwahrscheinlich "
+            },
+            {
+              "value": 5,
+              "label": "Eher unwahrscheinlich "
+            },
+            {
+              "value": 6,
+              "label": "Unwahrscheinlich"
+            },
+            {
+              "value": 7,
+              "label": "Sehr unwahrscheinlich "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 50,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 52": {
+      "question": "Page 52",
+      "name": "Page 52",
+      "label": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass es [wenn AP60028=1: sehr wahrscheinlich] [wenn AP60028=2: wahrscheinlich] [wenn AP60028=3: eher wahrscheinlich] [wenn AP60028=4: weder wahrscheinlich noch unwahrscheinlich] [wenn AP60028=5: eher unwahrscheinlich] [wenn AP60028=6: unwahrscheinlich] [wenn AP60028=7: sehr unwahrscheinlich] ist, dass Sie Ihre Daten in der zuvor beschriebenen Situation weitergeben würden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass es [wenn AP60028=1: sehr wahrscheinlich] [wenn AP60028=2: wahrscheinlich] [wenn AP60028=3: eher wahrscheinlich] [wenn AP60028=4: weder wahrscheinlich noch unwahrscheinlich] [wenn AP60028=5: eher unwahrscheinlich] [wenn AP60028=6: unwahrscheinlich] [wenn AP60028=7: sehr unwahrscheinlich] ist, dass Sie Ihre Daten in der zuvor beschriebenen Situation weitergeben würden?",
+          "filter": "AP60028 in rndAP60016b als erstes gestellt wird und AP60028=1,2,3,4,5,6,7",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 51,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 53": {
+      "question": "Page 53",
+      "name": "Page 53",
+      "label": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität Facebook-Daten sammeln (z. B. Profilinformationen, Posts, Kommentare, Likes). Personen, die der Teilung dieser Daten zustimmen, exportieren diese über ihren Account und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60020a = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60020a = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60020a = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60020a = 6: ]\n\nWie wahrscheinlich oder unwahrscheinlich ist es, dass Sie dieser Anfrage zum Teilen Ihrer Daten zustimmen würden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität Facebook-Daten sammeln (z. B. Profilinformationen, Posts, Kommentare, Likes). Personen, die der Teilung dieser Daten zustimmen, exportieren diese über ihren Account und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60020a = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60020a = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60020a = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60020a = 6: ]\n\nWie wahrscheinlich oder unwahrscheinlich ist es, dass Sie dieser Anfrage zum Teilen Ihrer Daten zustimmen würden?",
+          "filter": "AP60010_a = 1 und AP60010_b !=1 und/oder AP60010_c != 1 und AP60010_d !=1 oder wenn expAP60020b = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr wahrscheinlich"
+            },
+            {
+              "value": 2,
+              "label": "Wahrscheinlich"
+            },
+            {
+              "value": 3,
+              "label": "Eher wahrscheinlich "
+            },
+            {
+              "value": 4,
+              "label": "Weder wahrscheinlich noch unwahrscheinlich "
+            },
+            {
+              "value": 5,
+              "label": "Eher unwahrscheinlich "
+            },
+            {
+              "value": 6,
+              "label": "Unwahrscheinlich"
+            },
+            {
+              "value": 7,
+              "label": "Sehr unwahrscheinlich "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 52,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 54": {
+      "question": "Page 54",
+      "name": "Page 54",
+      "label": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass es [wenn AP60030=1: sehr wahrscheinlich] [wenn AP60030=2: wahrscheinlich] [wenn AP60030=3: eher wahrscheinlich] [wenn AP60030=4: weder wahrscheinlich noch unwahrscheinlich] [wenn AP60030=5: eher unwahrscheinlich] [wenn AP60030=6: unwahrscheinlich] [wenn AP60030=7: sehr unwahrscheinlich] ist, dass Sie Ihre Daten in der zuvor beschriebenen Situation weitergeben würden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass es [wenn AP60030=1: sehr wahrscheinlich] [wenn AP60030=2: wahrscheinlich] [wenn AP60030=3: eher wahrscheinlich] [wenn AP60030=4: weder wahrscheinlich noch unwahrscheinlich] [wenn AP60030=5: eher unwahrscheinlich] [wenn AP60030=6: unwahrscheinlich] [wenn AP60030=7: sehr unwahrscheinlich] ist, dass Sie Ihre Daten in der zuvor beschriebenen Situation weitergeben würden?",
+          "filter": "AP60030 in rndAP60016b als erstes gestellt wird und AP60030=1,2,3,4,5,6,7",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 53,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 55": {
+      "question": "Page 55",
+      "name": "Page 55",
+      "label": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität TikTok-Daten sammeln (z. B. Profilinformationen, angeschaute Videos, Follows, Likes). Personen, die der Teilung dieser Daten zustimmen, exportieren diese über ihren Account und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60022 = 1,2,3:  Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60022 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60022 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60022 = 6: ]\n\nWie wahrscheinlich oder unwahrscheinlich ist es, dass Sie dieser Anfrage zum Teilen Ihrer Daten zustimmen würden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität TikTok-Daten sammeln (z. B. Profilinformationen, angeschaute Videos, Follows, Likes). Personen, die der Teilung dieser Daten zustimmen, exportieren diese über ihren Account und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60022 = 1,2,3:  Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60022 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60022 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60022 = 6: ]\n\nWie wahrscheinlich oder unwahrscheinlich ist es, dass Sie dieser Anfrage zum Teilen Ihrer Daten zustimmen würden?",
+          "filter": "AP60010_b = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr wahrscheinlich"
+            },
+            {
+              "value": 2,
+              "label": "Wahrscheinlich"
+            },
+            {
+              "value": 3,
+              "label": "Eher wahrscheinlich "
+            },
+            {
+              "value": 4,
+              "label": "Weder wahrscheinlich noch unwahrscheinlich "
+            },
+            {
+              "value": 5,
+              "label": "Eher unwahrscheinlich "
+            },
+            {
+              "value": 6,
+              "label": "Unwahrscheinlich"
+            },
+            {
+              "value": 7,
+              "label": "Sehr unwahrscheinlich "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 54,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 56": {
+      "question": "Page 56",
+      "name": "Page 56",
+      "label": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass es [wenn AP60032=1: sehr wahrscheinlich] [wenn AP60032=2: wahrscheinlich] [wenn AP60032=3: eher wahrscheinlich] [wenn AP60032=4: weder wahrscheinlich noch unwahrscheinlich] [wenn AP60032=5: eher unwahrscheinlich] [wenn AP60032=6: unwahrscheinlich] [wenn AP60032=7: sehr unwahrscheinlich] ist, dass Sie Ihre Daten in der zuvor beschriebenen Situation weitergeben würden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass es [wenn AP60032=1: sehr wahrscheinlich] [wenn AP60032=2: wahrscheinlich] [wenn AP60032=3: eher wahrscheinlich] [wenn AP60032=4: weder wahrscheinlich noch unwahrscheinlich] [wenn AP60032=5: eher unwahrscheinlich] [wenn AP60032=6: unwahrscheinlich] [wenn AP60032=7: sehr unwahrscheinlich] ist, dass Sie Ihre Daten in der zuvor beschriebenen Situation weitergeben würden?",
+          "filter": "AP60032 in rndAP60016b als erstes gestellt wird und AP60032=1,2,3,4,5,6,7",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 55,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 57": {
+      "question": "Page 57",
+      "name": "Page 57",
+      "label": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität Daten aus beruflichen sozialen Netzwerken wie Xing und LinkedIn sammeln (z. B. Profilinformationen, Posts, Kommentare, Likes). Personen, die der Teilung dieser Daten zustimmen, exportieren diese über ihren Account und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60024 = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60024 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60024 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60024 = 6: ]\n\n\n\nWie wahrscheinlich oder unwahrscheinlich ist es, dass Sie dieser Anfrage zum Teilen Ihrer Daten zustimmen würden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Im Rahmen eines Forschungsprojekts, das die Internetnutzung der deutschen Bevölkerung untersucht, möchte eine deutsche Universität Daten aus beruflichen sozialen Netzwerken wie Xing und LinkedIn sammeln (z. B. Profilinformationen, Posts, Kommentare, Likes). Personen, die der Teilung dieser Daten zustimmen, exportieren diese über ihren Account und stellen sie dem Forschungsprojekt durch Upload auf einem Universitätsserver zur Verfügung. [Wenn expAP60024 = 1,2,3: Die Universität gewährleistet, dass die Daten auf einem sicheren Weg übertragen werden und vor Missbrauch geschützt sind.] [Wenn expAP60024 = 1,4: Die Daten werden nur im Rahmen des Forschungsprojekts genutzt und nicht mit Dritten geteilt.] [Wenn expAP60024 = 2,5: Die Daten werden im Rahmen des Forschungsprojekts ausgewertet und anderen Wissenschaftler/innen in anonymisierter Form zur Verfügung gestellt.] [Wenn expAP60024 = 6: ]\n\n\n\nWie wahrscheinlich oder unwahrscheinlich ist es, dass Sie dieser Anfrage zum Teilen Ihrer Daten zustimmen würden?",
+          "filter": "AP60010_c = 1 und/oder AP60010_d = 1 und AP60010_a !=1 und/oder AP60010_b != 1 oder wenn expAP60018b = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr wahrscheinlich"
+            },
+            {
+              "value": 2,
+              "label": "Wahrscheinlich"
+            },
+            {
+              "value": 3,
+              "label": "Eher wahrscheinlich "
+            },
+            {
+              "value": 4,
+              "label": "Weder wahrscheinlich noch unwahrscheinlich "
+            },
+            {
+              "value": 5,
+              "label": "Eher unwahrscheinlich "
+            },
+            {
+              "value": 6,
+              "label": "Unwahrscheinlich"
+            },
+            {
+              "value": 7,
+              "label": "Sehr unwahrscheinlich "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 56,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 58": {
+      "question": "Page 58",
+      "name": "Page 58",
+      "label": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass es [wenn AP60034=1: sehr wahrscheinlich] [wenn AP60034=2: wahrscheinlich] [wenn AP60034=3: eher wahrscheinlich] [wenn AP60034=4: weder wahrscheinlich noch unwahrscheinlich] [wenn AP60034=5: eher unwahrscheinlich] [wenn AP60034=6: unwahrscheinlich] [wenn AP60034=7: sehr unwahrscheinlich] ist, dass Sie Ihre Daten in der zuvor beschriebenen Situation weitergeben würden?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Können Sie uns bitte sagen, warum Sie geantwortet haben, dass es [wenn AP60034=1: sehr wahrscheinlich] [wenn AP60034=2: wahrscheinlich] [wenn AP60034=3: eher wahrscheinlich] [wenn AP60034=4: weder wahrscheinlich noch unwahrscheinlich] [wenn AP60034=5: eher unwahrscheinlich] [wenn AP60034=6: unwahrscheinlich] [wenn AP60034=7: sehr unwahrscheinlich] ist, dass Sie Ihre Daten in der zuvor beschriebenen Situation weitergeben würden?",
+          "filter": "AP60034 in rndAP60016b als erstes gestellt wird und AP60034=1,2,3,4,5,6,7",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 57,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 59 ": {
+      "question": "Page 59 ",
+      "name": "Page 59 ",
+      "label": "Um sicherzugehen, dass diese Befragung nicht von einem automatisierten Computerprogramm, sondern von einer aufmerksamen Person ausgefüllt wird, beantworten Sie die folgende Aussage bitte mit ‚Stimme eher nicht zu‘, unabhängig davon, ob dies Ihre wirkliche Meinung ist.\n\n Inwieweit stimmen Sie dieser Aussage zu oder nicht zu?\n\n\n\n\nIch bin eine aufmerksame Person.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Um sicherzugehen, dass diese Befragung nicht von einem automatisierten Computerprogramm, sondern von einer aufmerksamen Person ausgefüllt wird, beantworten Sie die folgende Aussage bitte mit ‚Stimme eher nicht zu‘, unabhängig davon, ob dies Ihre wirkliche Meinung ist.\n\n Inwieweit stimmen Sie dieser Aussage zu oder nicht zu?\n\n\n\n\nIch bin eine aufmerksame Person.",
+          "description": "Befragte zufällig in 5 Gruppen aufteilen und Gruppenzuteilung in separater Variable expAP60036 ablegen.\nGruppe 1 erhält AP60036 und AP60040.\n Gruppe 2 erhält AP60037 und AP60040.\nGruppe 3 erhält AP60038 und AP60040.\nGruppe 4 erhält AP60039 und AP60040.\nGruppe 5 erhält AP60040.",
+          "filter": "expAP60036 = 1",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme voll und ganz zu "
+            },
+            {
+              "value": 2,
+              "label": "Stimme zu "
+            },
+            {
+              "value": 3,
+              "label": "Stimme eher zu "
+            },
+            {
+              "value": 4,
+              "label": "Stimme weder zu noch nicht zu "
+            },
+            {
+              "value": 5,
+              "label": "Stimme eher nicht zu "
+            },
+            {
+              "value": 6,
+              "label": "Stimme nicht zu "
+            },
+            {
+              "value": 7,
+              "label": "Stimme überhaupt nicht zu "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 58,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 60": {
+      "question": "Page 60",
+      "name": "Page 60",
+      "label": "Um sicherzugehen, dass diese Befragung nicht von einem automatisierten Computerprogramm, sondern von einer aufmerksamen Person ausgefüllt wird, lesen Sie sich die folgende Aussage bitte sorgfältig durch und geben Sie an, inwieweit Sie dieser zustimmen oder nicht zustimmen.\n\n Inwieweit stimmen Sie dieser Aussage zu oder nicht zu?\n\n\nIch nehme gerade an einer Umfrage teil.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Um sicherzugehen, dass diese Befragung nicht von einem automatisierten Computerprogramm, sondern von einer aufmerksamen Person ausgefüllt wird, lesen Sie sich die folgende Aussage bitte sorgfältig durch und geben Sie an, inwieweit Sie dieser zustimmen oder nicht zustimmen.\n\n Inwieweit stimmen Sie dieser Aussage zu oder nicht zu?\n\n\nIch nehme gerade an einer Umfrage teil.",
+          "filter": "expAP60036 = 2",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme voll und ganz zu "
+            },
+            {
+              "value": 2,
+              "label": "Stimme zu "
+            },
+            {
+              "value": 3,
+              "label": "Stimme eher zu "
+            },
+            {
+              "value": 4,
+              "label": "Stimme weder zu noch nicht zu "
+            },
+            {
+              "value": 5,
+              "label": "Stimme eher nicht zu "
+            },
+            {
+              "value": 6,
+              "label": "Stimme nicht zu "
+            },
+            {
+              "value": 7,
+              "label": "Stimme überhaupt nicht zu "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 59,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 61": {
+      "question": "Page 61",
+      "name": "Page 61",
+      "label": "Um sicherzugehen, dass diese Befragung nicht von einem automatisierten Computerprogramm, sondern von einer aufmerksamen Person ausgefüllt wird, zählen Sie bitte sorgfältig, wie häufig die Ziffer 0 in der Tabelle vorkommt.\n\n[Bild]\n\nWie oft kommt die Ziffer 0 in dieser Tabelle vor?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Um sicherzugehen, dass diese Befragung nicht von einem automatisierten Computerprogramm, sondern von einer aufmerksamen Person ausgefüllt wird, zählen Sie bitte sorgfältig, wie häufig die Ziffer 0 in der Tabelle vorkommt.\n\n[Bild]\n\nWie oft kommt die Ziffer 0 in dieser Tabelle vor?",
+          "filter": "expAP60036 = 3",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1-mal"
+            },
+            {
+              "value": 2,
+              "label": "4-mal"
+            },
+            {
+              "value": 3,
+              "label": "5-mal"
+            },
+            {
+              "value": 4,
+              "label": "8-mal"
+            },
+            {
+              "value": 5,
+              "label": "10-mal"
+            },
+            {
+              "value": 6,
+              "label": "13-mal"
+            },
+            {
+              "value": 7,
+              "label": "15-mal"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 60,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 62": {
+      "question": "Page 62",
+      "name": "Page 62",
+      "label": "Um sicherzugehen, dass diese Befragung nicht von einem automatisierten Computerprogramm, sondern von einer aufmerksamen Person ausgefüllt wird, rechnen Sie bitte die folgende Aufgabe sorgfältig aus und geben Sie die richtige Lösung an.\n\nBitte geben Sie das Ergebnis der Aufgabe „2 + 3“ an.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Um sicherzugehen, dass diese Befragung nicht von einem automatisierten Computerprogramm, sondern von einer aufmerksamen Person ausgefüllt wird, rechnen Sie bitte die folgende Aufgabe sorgfältig aus und geben Sie die richtige Lösung an.\n\nBitte geben Sie das Ergebnis der Aufgabe „2 + 3“ an.",
+          "filter": "expAP60036 = 4",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1"
+            },
+            {
+              "value": 2,
+              "label": "4"
+            },
+            {
+              "value": 3,
+              "label": "5"
+            },
+            {
+              "value": 4,
+              "label": "8"
+            },
+            {
+              "value": 5,
+              "label": "10"
+            },
+            {
+              "value": 6,
+              "label": "13"
+            },
+            {
+              "value": 7,
+              "label": "15"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 61,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 63": {
+      "question": "Page 63",
+      "name": "Page 63",
+      "label": "Um sicherzugehen, dass Befragungen nicht von automatisierten Computerprogrammen, sondern von aufmerksamen Personen ausgefüllt werden, bitten wir Befragte gelegentlich, ganz bestimmte Antwortoptionen zu wählen oder einfache Aufgaben zu lösen. Gab es eine solche Bitte auf der vorherigen Seite oder nicht?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Um sicherzugehen, dass Befragungen nicht von automatisierten Computerprogrammen, sondern von aufmerksamen Personen ausgefüllt werden, bitten wir Befragte gelegentlich, ganz bestimmte Antwortoptionen zu wählen oder einfache Aufgaben zu lösen. Gab es eine solche Bitte auf der vorherigen Seite oder nicht?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ja, gab es, und ich habe die Anweisung befolgt."
+            },
+            {
+              "value": 2,
+              "label": "Ja, gab es, aber ich habe die Anweisung bewusst nicht befolgt."
+            },
+            {
+              "value": 3,
+              "label": "Nein, gab es nicht."
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 62,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 64": {
+      "question": "Page 64",
+      "name": "Page 64",
+      "label": "In den nächsten Fragen geht es um Ihre persönliche Meinung zu Internetdiensten wie Facebook/Meta, Google oder Amazon.\n\nInwieweit stimmen Sie dieser Aussage zu oder nicht zu?\n\n\nDie Nutzer/innen von Internetdiensten haben jegliche Kontrolle darüber verloren, wie persönliche Daten gesammelt und verwendet werden.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "In den nächsten Fragen geht es um Ihre persönliche Meinung zu Internetdiensten wie Facebook/Meta, Google oder Amazon.\n\nInwieweit stimmen Sie dieser Aussage zu oder nicht zu?\n\n\nDie Nutzer/innen von Internetdiensten haben jegliche Kontrolle darüber verloren, wie persönliche Daten gesammelt und verwendet werden.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme voll und ganz zu "
+            },
+            {
+              "value": 2,
+              "label": "Stimme zu "
+            },
+            {
+              "value": 3,
+              "label": "Stimme eher zu "
+            },
+            {
+              "value": 4,
+              "label": "Stimme weder zu noch nicht zu "
+            },
+            {
+              "value": 5,
+              "label": "Stimme eher nicht zu "
+            },
+            {
+              "value": 6,
+              "label": "Stimme nicht zu "
+            },
+            {
+              "value": 7,
+              "label": "Stimme überhaupt nicht zu "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 63,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 65": {
+      "question": "Page 65",
+      "name": "Page 65",
+      "label": "Inwieweit stimmen Sie dieser Aussage zu oder nicht zu?\n\nDie meisten Internetdienste gehen mit den persönlichen Daten, die sie über Nutzende sammeln, ordnungsgemäß und vertraulich um.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie dieser Aussage zu oder nicht zu?\n\nDie meisten Internetdienste gehen mit den persönlichen Daten, die sie über Nutzende sammeln, ordnungsgemäß und vertraulich um.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme voll und ganz zu "
+            },
+            {
+              "value": 2,
+              "label": "Stimme zu "
+            },
+            {
+              "value": 3,
+              "label": "Stimme eher zu "
+            },
+            {
+              "value": 4,
+              "label": "Stimme weder zu noch nicht zu "
+            },
+            {
+              "value": 5,
+              "label": "Stimme eher nicht zu "
+            },
+            {
+              "value": 6,
+              "label": "Stimme nicht zu "
+            },
+            {
+              "value": 7,
+              "label": "Stimme überhaupt nicht zu "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 64,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 66": {
+      "question": "Page 66",
+      "name": "Page 66",
+      "label": "Inwieweit stimmen Sie dieser Aussage zu oder nicht zu?\n\nDie bestehenden Gesetze und Organisationspraktiken von Internetdiensten bieten heute einen angemessenen Schutz der Privatsphäre der Nutzenden.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie dieser Aussage zu oder nicht zu?\n\nDie bestehenden Gesetze und Organisationspraktiken von Internetdiensten bieten heute einen angemessenen Schutz der Privatsphäre der Nutzenden.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme voll und ganz zu "
+            },
+            {
+              "value": 2,
+              "label": "Stimme zu "
+            },
+            {
+              "value": 3,
+              "label": "Stimme eher zu "
+            },
+            {
+              "value": 4,
+              "label": "Stimme weder zu noch nicht zu "
+            },
+            {
+              "value": 5,
+              "label": "Stimme eher nicht zu "
+            },
+            {
+              "value": 6,
+              "label": "Stimme nicht zu "
+            },
+            {
+              "value": 7,
+              "label": "Stimme überhaupt nicht zu "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 65,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 67": {
+      "question": "Page 67",
+      "name": "Page 67",
+      "label": "Jetzt interessieren wir uns für Ihre Meinung zu wissenschaftlicher Forschung.\n\nInwieweit trifft diese Aussage auf Sie zu oder nicht zu?\n\n\nMein Vertrauen in die Wissenschaft steigt, wenn ich sehe, dass Wissenschaftler/innen ihre Studienmaterialien, ihre Daten und ihren Analysecode öffentlich teilen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Jetzt interessieren wir uns für Ihre Meinung zu wissenschaftlicher Forschung.\n\nInwieweit trifft diese Aussage auf Sie zu oder nicht zu?\n\n\nMein Vertrauen in die Wissenschaft steigt, wenn ich sehe, dass Wissenschaftler/innen ihre Studienmaterialien, ihre Daten und ihren Analysecode öffentlich teilen.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Trifft voll und ganz zu "
+            },
+            {
+              "value": 2,
+              "label": "Trifft zu "
+            },
+            {
+              "value": 3,
+              "label": "Trifft eher zu "
+            },
+            {
+              "value": 4,
+              "label": "Trifft weder zu noch nicht zu "
+            },
+            {
+              "value": 5,
+              "label": "Trifft eher nicht zu "
+            },
+            {
+              "value": 6,
+              "label": "Trifft nicht zu "
+            },
+            {
+              "value": 7,
+              "label": "Trifft überhaupt nicht zu "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 66,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 68": {
+      "question": "Page 68",
+      "name": "Page 68",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "interessant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 67,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 69": {
+      "question": "Page 69",
+      "name": "Page 69",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "abwechslungsreich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 68,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 70": {
+      "question": "Page 70",
+      "name": "Page 70",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "relevant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 69,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 71": {
+      "question": "Page 71",
+      "name": "Page 71",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "lang",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 70,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 72": {
+      "question": "Page 72",
+      "name": "Page 72",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "schwierig",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 71,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 73": {
+      "question": "Page 73",
+      "name": "Page 73",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "zu persönlich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 72,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 74": {
+      "question": "Page 74",
+      "name": "Page 74",
+      "label": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut "
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 73,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 75": {
+      "question": "Page 75",
+      "name": "Page 75",
+      "label": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern. Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern. Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 74,
+      "instrument": "W60",
+      "study": "gip"
+    },
+    "Page 76 Outro": {
+      "question": "Page 76 Outro",
+      "name": "Page 76 Outro",
+      "label": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\n\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\n\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\n\n\nIhr Forschungsteam von der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\n\nFür die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.\n\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\n\n\nIhr Forschungsteam von der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 75,
+      "instrument": "W60",
+      "study": "gip"
+    }
+  }
+}
