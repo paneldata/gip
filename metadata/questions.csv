@@ -25117,3 +25117,1791 @@ gip,W71,Page 59,0,"Vielen Dank für die Teilnahme an der Befragung! Sie leisten 
 Für die Teilnahme an der aktuellen Befragung haben wir Ihnen 4 Euro auf Ihrem Studienkonto gutgeschrieben.
 Sie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.
 Ihr Forschungsteam von der Universität Mannheim",,,,,,,,,,txt
+gip,W72,Page m 1 Introduction,0,"Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
+
+wir freuen uns, dass Sie unseren Fragebogen gestartet haben.
+						
+Ab diesem Monat verändert sich der Aufbau unserer Studie etwas. Wie bisher auch befragen wir Sie alle zwei Monate zu verschiedenen gesellschaftlichen Themen. Anstelle eines zusammenhängenden Fragebogens ist die Befragung dabei ab sofort in mehrere kürzere Abschnitte zu verschiedenen Themen aufgeteilt. Sie können dabei selbst entscheiden, [wenn exp72001 = 3,4,5: in welcher Reihenfolge Sie die verschiedenen Themen beantworten möchten und] ob Sie alle hintereinander ausfüllen oder zwischendurch eine Pause einlegen. Für jeden beantworteten Abschnitt schreiben wir Ihnen je nach dessen Länge einen Betrag auf Ihrem Studienkonto gut.
+
+Als Dankeschön für Ihre regelmäßige Teilnahme gibt es auch weiterhin einmal im Jahr einen Bonus von 10 Euro, wenn Sie an allen Befragungen im Jahr teilgenommen haben oder 5 Euro, wenn Sie lediglich eine Befragung verpasst haben. Hierfür ist es wichtig, dass Sie alle Themenabschnitte der jeweiligen Befragung beantworten.
+						
+Sie können die Befragung jederzeit auch unterbrechen und dann später fortfahren.
+
+Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:
+info@gesellschaft-im-wandel.de
+0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+
+Wir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!
+
+Ihr Forschungsteam der Universität Mannheim",,,,,"Befragte zufällig in 5 gleich große Gruppen einteilen und Gruppenzuteilung in separater Variable exp72001 experiment module selection ablegen.
+[b[• Gruppe 1]b] erhält die Module in vorgegebener Reihenfolge. Dabei sollen die Module in zufälliger Reihenfolge abgefragt und die gezeigte Reihenfolge in der separaten Variable rnd72001 randomization module selection abgelegt werden.
+[b[• Gruppe 2]b] erhält die Module analog zu Gruppe 1 in vorgegebener Reihenfolge, bekommt aber zunächst eine Übersicht aller Themen angezeigt.
+[b[• Gruppe 3]b] erhält eine Übersicht aller verfügbaren Module und kann dort aussuchen, welches als nächstes bearbeitet werden soll. Nach Abschluss eines Moduls werden Teilnehmer auf die Modulübersicht zurückgeleitet, wo erneut aus den unbearbeiteten Modulen ausgewählt werden kann, bis keine übrig sind. Auf der Modulübersicht werden lediglich deren Themen angezeigt.
+[b[• Gruppe 4]b] erhält eine Übersicht aller verfügbaren Module analog zu Gruppe 3. Auf der Modulübersicht werden Thema und Länge der einzelnen Module angezeigt.
+[b[• Gruppe 5]b] erhält eine Übersicht aller verfügbaren Module analog zu Gruppen 3 und 4. Auf der Modulübersicht werden Thema, Länge und Incentive für die einzelnen Module angezeigt.",,,,,txt
+gip,W72,Page m 2,0,"Dieses Mal geht es in unserer Studie um die folgenden Themen:	
+• Haushalt
+• Gerichtsurteile
+• Europawahl
+• Politik in Deutschland
+
+Durch einen Klick auf „Weiter“ werden Sie zum [wenn noch kein Modul gestartet wurde: ersten] [wenn mindestens ein Modul gestartet wurde: nächsten] Themenabschnitt weitergeleitet.",,,,,,,"exp72001 = 2 (Teilnehmer, denen die Module in fester Reihenfolge angezeigt wird und die vorher eine Themenübersicht erhalten)",,,txt
+gip,W72,Page m 3,0,"[wenn noch kein Modul gestartet wurde:Dieses Mal geht es in unserer Studie um die folgenden Themen:]
+[wenn schon mindestens ein Modul gestartet wurde:Wir haben für diesen Monat noch Fragen zu folgenden Themen an Sie:]",,Modul,"Hier können Sie auswählen, zu welchem Thema Sie als [wenn noch kein Modul gestartet wurde: Erstes][wenn mindestens ein Modul gestartet wurde: Nächstes] Fragen beantworten möchten.",,"Hier können Sie auswählen, zu welchem Thema Sie als [wenn noch kein Modul gestartet wurde: Erstes][wenn mindestens ein Modul gestartet wurde: Nächstes] Fragen beantworten möchten.",,"exp72001 = 3,4,5 (wenn Teilnehmer die Reihenfolge der Module selbst aussuchen)",,,cat
+gip,W72,Page core 1 Introduction,0,"Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, wir freuen uns, dass Sie die Befragung zum Thema Haushalt gestartet haben.
+Die Beantwortung dieses Teils der Befragung dauert ungefähr 4 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 1 Euro auf Ihrem Studienkonto gut.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,,,,txt
+gip,W72,Page core 2,0,"Bitte überprüfen Sie, ob folgende Angaben korrekt sind.",,,,,,,,,,txt
+gip,W72,Page core 2,1,Vorname: [Vorname],,1-2-korrekt,,,,,,,,cat
+gip,W72,Page core 2,2,Nachname: [Nachname],,1-2-korrekt,,,,,,,,cat
+gip,W72,Page core 2,3,Geschlecht: [Geschlecht],,1-2-korrekt,,,,,,,,cat
+gip,W72,Page core 2,4,Geburtsjahr: [Geburtsjahr],,1-2-korrekt,,,,,,,,cat
+gip,W72,Page core 3,0,Bitte korrigieren Sie folgende Angaben.,,,Bitte tragen Sie Ihre Angaben vollständig ein.,,Bitte tragen Sie Ihre Angaben vollständig ein.,,"AA72401 = 2 oder AA72402 = 2 oder AA72403 = 2 oder AA72404 = 2 (wenn Vorname, Name, Geschlecht oder Geburtsjahr der/des Befragten nicht korrekt)",,,txt
+gip,W72,Page core 3,1,Vorname: bisherige Angabe [Vorname],,,,,,,,,,chr
+gip,W72,Page core 3,2,Nachname: bisherige Angabe [Nachname],,,,,,,,,,chr
+gip,W72,Page core 3,3,"Geschlecht: bisherige Angabe [Geschlecht]
+korrigierte Angabe",,1-2-geschlecht_1,,,,,,,,cat
+gip,W72,Page core 3,4,Geburtsjahr: bisherige Angabe [Geburtsjahr],,,,,,,,,,int
+gip,W72,Page core 3,5,"Falls Sie Anmerkungen haben, tragen Sie diese bitte hier ein:",,,,,,,,,,chr
+gip,W72,Page core 4,0,"Bitte überprüfen Sie, ob die angegebene Mobilfunknummer (Handy) korrekt ist.
+Mobilfunknummer: [Mobilfunknummer]",,1-2-Mobilnummer,,,,,wenn Mobilfunknummer in Datenbank vorhanden,,,cat
+gip,W72,Page core 5,0,"Bitte korrigieren Sie die folgende Mobilfunknummer.
+Mobilfunknummer: 
+bisherige Mobilfunknummer
+[Mobilfunknummer]
+korrigierte Mobilfunknummer
+[Mobilfunknummer]",,,,,,,AA72409 = 2 (wenn Mobilfunknummer nicht korrekt),,,int
+gip,W72,Page core 6,0,"Nennen Sie uns bitte eine Mobilfunknummer (Handy), unter der wir Sie im Rahmen der Studie erreichen können, z. B. wenn Ihr E-Mail-Konto einmal voll sein sollte oder aus anderen Gründen nicht erreichbar ist.",,1-3-Handy,Bei dieser Frage können Sie nur eine Antwort geben.,,Bei dieser Frage können Sie nur eine Antwort geben.,,wenn keine Mobilfunknummer in Datenbank vorhanden,,,cat
+gip,W72,Page core 7,0,"Bitte überprüfen Sie, ob die angegebene Telefonnummer korrekt ist.
+Telefonnummer: [Telefonnummer]",,1-2-Telefonnummer,,,,,wenn Telefonnummer in Datenbank vorhanden,,,cat
+gip,W72,Page core 8,0,"Bitte korrigieren Sie die folgende Telefonnummer.
+Telefonnummer: 
+bisherige Telefonnummer
+[Telefonnummer]
+korrigierte Telefonnummer
+[Telefonnummer]",,,,,,,AA72411 = 2 (wenn Telefonnummer nicht korrekt),,,int
+gip,W72,Page core 9,0,"Falls Sie auch eine Telefonnummer im Festnetz haben, tragen Sie diese bitte hier ein (mit Vorwahl).",,1-3-Festnetz,Bei dieser Frage können Sie nur eine Antwort geben.,,Bei dieser Frage können Sie nur eine Antwort geben.,,wenn keine Telefonnummer in Datenbank vorhanden,,,cat
+gip,W72,Page core 10,0,Haben Sie die deutsche Staatsangehörigkeit?,,1-3-Staat,,,,,,,,cat
+gip,W72,Page core 11,0,Welche ausländische/-n Staatsangehörigkeit/-en besitzen Sie?,,,Bitte geben Sie alle Zutreffenden an.,,Bitte geben Sie alle Zutreffenden an.,,"AA2307 ≠ 1, -90 (wenn Befragte/-r nicht (nur) die deutsche Staatsangehörigkeit hat)",,,txt
+gip,W72,Page core 11,1,Türkei,,,,,,,,,,bin
+gip,W72,Page core 11,2,Polen,,,,,,,,,,bin
+gip,W72,Page core 11,3,Syrien,,,,,,,,,,bin
+gip,W72,Page core 11,4,Italien,,,,,,,,,,bin
+gip,W72,Page core 11,5,Rumänien,,,,,,,,,,bin
+gip,W72,Page core 11,6,Kroatien,,,,,,,,,,bin
+gip,W72,Page core 11,7,Griechenland,,,,,,,,,,bin
+gip,W72,Page core 11,8,Bulgarien,,,,,,,,,,bin
+gip,W72,Page core 11,9,Afghanistan,,,,,,,,,,bin
+gip,W72,Page core 11,10,Russische Föderation,,,,,,,,,,bin
+gip,W72,Page core 11,11,Irak,,,,,,,,,,bin
+gip,W72,Page core 11,12,"Anderes Land, und zwar: [answer field]",,,,,,,,,,bin
+gip,W72,Page core 11,13,"Keine, bin staatenlos",,,,,,,,,,bin
+gip,W72,Page core 12,0,Welchen Familienstand haben Sie?,,1-5-Familienstand,Bei dieser Frage können Sie nur eine Antwort geben.,,Bei dieser Frage können Sie nur eine Antwort geben.,,,,,cat
+gip,W72,Page core 12,1,"Nur für gleichgeschlechtliche, amtlich eingetragene Lebenspartnerschaften:",,6-9-Familienstand,,,,,,,,cat
+gip,W72,Page core 13,0,"Wie viele Personen leben ständig in Ihrem Haushalt, Sie selbst eingeschlossen?
+						
+Zu Ihrem Haushalt zählen alle Personen, die hier gemeinsam wohnen und wirtschaften.
+Denken Sie dabei bitte auch an alle im Haushalt lebenden Kinder.",,,,,,,,,,int
+gip,W72,Page core 14,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 1 (wenn mehr als eine Person im Haushalt des/der Befragten lebt),,,txt
+gip,W72,Page core 14,1,1. Person,,,,,,,,,,txt
+gip,W72,Page core 14,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 14,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 14,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 15,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 2 (wenn mehr als zwei Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 15,1,2. Person,,,,,,,,,,txt
+gip,W72,Page core 15,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 15,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 15,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 16,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 3 (wenn mehr als drei Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 16,1,3. Person,,,,,,,,,,txt
+gip,W72,Page core 16,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 16,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 16,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 17,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 4 (wenn mehr als vier Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 17,1,4. Person,,,,,,,,,,txt
+gip,W72,Page core 17,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 17,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 17,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 18,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 5 (wenn mehr als fünf Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 18,1,5. Person,,,,,,,,,,txt
+gip,W72,Page core 18,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 18,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 18,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 19,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 6 (wenn mehr als sechs Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 19,1,6. Person,,,,,,,,,,txt
+gip,W72,Page core 19,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 19,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 19,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 20,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 7 (wenn mehr als sieben Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 20,1,7. Person,,,,,,,,,,txt
+gip,W72,Page core 20,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 20,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 20,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 21,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 8 (wenn mehr als acht Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 21,1,8. Person,,,,,,,,,,txt
+gip,W72,Page core 21,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 21,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 21,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 22,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 9 (wenn mehr als neun Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 22,1,9. Person,,,,,,,,,,txt
+gip,W72,Page core 22,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 22,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 22,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 23,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 10 (wenn mehr als zehn Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 23,1,10. Person,,,,,,,,,,txt
+gip,W72,Page core 23,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 23,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 23,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 24,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 11 (wenn mehr als elf Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 24,1,11. Person,,,,,,,,,,txt
+gip,W72,Page core 24,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 24,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 24,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 25,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 12 (wenn mehr als zwölf Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 25,1,12. Person,,,,,,,,,,txt
+gip,W72,Page core 25,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 25,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 25,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 26,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 13 (wenn mehr als 13 Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 26,1,13. Person,,,,,,,,,,txt
+gip,W72,Page core 26,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 26,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 26,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 27,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 14 (wenn mehr als 14 Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 27,1,14. Person,,,,,,,,,,txt
+gip,W72,Page core 27,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 27,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 27,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 28,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 15 (wenn mehr als 15 Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 28,1,15. Person,,,,,,,,,,txt
+gip,W72,Page core 28,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 28,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 28,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 29,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 16 (wenn mehr als 16 Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 29,1,16. Person,,,,,,,,,,txt
+gip,W72,Page core 29,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 29,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 29,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 30,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 17 (wenn mehr als 17 Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 30,1,17. Person,,,,,,,,,,txt
+gip,W72,Page core 30,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 30,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 30,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 31,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 18 (wenn mehr als 18 Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 31,1,18. Person,,,,,,,,,,txt
+gip,W72,Page core 31,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 31,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 31,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 32,0,Welches Alter und Geschlecht haben die anderen Personen in Ihrem Haushalt und in welcher Beziehung stehen sie zu Ihnen?,,,Bitte machen Sie zu jeder Person alle Angaben.,,Bitte machen Sie zu jeder Person alle Angaben.,,AA72057 > 19 (wenn mehr als 19 Personen im Haushalt des/der Befragten leben),,,txt
+gip,W72,Page core 32,1,19. Person,,,,,,,,,,txt
+gip,W72,Page core 32,2,Alter:,,1-8-Alter,,,,,,,,cat
+gip,W72,Page core 32,3,Geschlecht:,,1-3-Geschlecht,,,,,,,,cat
+gip,W72,Page core 32,4,Diese Person ist mein(e)/ein(e)…,,1-10-Beziehung,,,,,,,,cat
+gip,W72,Page core 33,0,In welchem Bundesland haben Sie Ihren Hauptwohnsitz?,,1-16-Bundesland,Bei dieser Frage können Sie nur eine Antwort geben.,,Bei dieser Frage können Sie nur eine Antwort geben.,,,,,cat
+gip,W72,Page core 34,0,Wie lautet die Postleitzahl Ihres Hauptwohnsitzes?,,,,,,,,,,txt
+gip,W72,Page core 34,1,,,,,,,,,,,int
+gip,W72,Page core 34,2,Weiß nicht,,,,,,,,,,bin
+gip,W72,Page core 34,3,Möchte ich nicht sagen,,,,,,,,,,bin
+gip,W72,Page core 35,0,Welches ist Ihr höchster allgemeinbildender Schulabschluss?,,1-7-Schulabschluss,Bei dieser Frage können Sie nur eine Antwort geben.,,Bei dieser Frage können Sie nur eine Antwort geben.,,,,,cat
+gip,W72,Page core 36,0,Welchen höchsten beruflichen Ausbildungs- oder (Fach-)Hochschulabschluss haben Sie?,,1-12-beruflicher-abschluss,Bei dieser Frage können Sie nur eine Antwort geben.,,Bei dieser Frage können Sie nur eine Antwort geben.,,,,,cat
+gip,W72,Page core 37,0,"[wenn AA72057 = 1, -90 (wenn Anzahl der Haushaltsmitglieder gleich 1 oder Befragte/-r diese
+Frage nicht beantwortet hat): Nun eine Frage zu Ihrer finanziellen Situation.]
+[wenn AA72057 > 1 (wenn Anzahl der Haushaltsmitglieder größer 1): Nun einige Fragen zu Ihrer
+finanziellen Situation.]",,,,,,,,,,txt
+gip,W72,Page core 38,0,"Wie hoch ist Ihr eigenes monatliches Netto-Einkommen?
+
+Unter durchschnittlichem monatlichem Nettoeinkommen ist die Summe zu verstehen, die sich aus Lohn, Gehalt, Einkommen aus selbstständiger Tätigkeit, Rente oder Pension ergibt. Rechnen Sie bitte auch die Einkünfte aus öffentlichen Beihilfen, Einkommen aus Vermietung und Verpachtung, Vermögen, Wohngeld, Kindergeld und sonstige Einkünfte hinzu und ziehen Sie dann Steuern und Sozialversicherungsbeiträge ab.
+Bei Selbstständigen geht es um die durchschnittlichen Nettobezüge, d. h. abzüglich der Betriebsausgaben und der Steuern.",,1-15-Netto-Einkommen,,,,,,,,cat
+gip,W72,Page core 39,0,"Wie viele Personen tragen insgesamt zum Einkommen Ihres Haushalts bei?
+Denken Sie nicht nur an Arbeitseinkommen, sondern auch an Renten, Pensionen, Stipendien und andere Einkommen.",,,,,,,AA72057 > 1 (wenn Anzahl der Haushaltsmitglieder größer 1),,,int
+gip,W72,Page core 40,0,"Sind Sie die Person, die zum Haushaltseinkommen beiträgt?",,1-2-ja-nein,,,,,AA72057 > 1 (wenn Anzahl der Haushaltsmitglieder größer 1) und AA72055=1 (1 Person trägt zum Haushaltseinkommen bei),,,cat
+gip,W72,Page core 41,0,"Und Ihr Einkommen mit eingerechnet, wie hoch ist das durchschnittliche monatliche Netto-Einkommen Ihres Haushalts insgesamt?
+
+Unter durchschnittlichem monatlichem Nettoeinkommen ist die Summe zu verstehen, die sich aus Lohn, Gehalt, Einkommen aus selbstständiger Tätigkeit, Rente oder Pension ergibt. Rechnen Sie bitte auch die Einkünfte aus öffentlichen Beihilfen, Einkommen aus Vermietung und Verpachtung, Vermögen, Wohngeld, Kindergeld und sonstige Einkünfte hinzu und ziehen Sie dann Steuern und Sozialversicherungsbeiträge ab. 
+Bei Selbstständigen geht es um die durchschnittlichen Nettobezüge, d. h. abzüglich der Betriebsausgaben und der Steuern.",,1-15-Netto-Einkommen,,,,,"AA72465 = 2 (wenn befragte Person nicht die Person ist, die zum Haushaltseinkommen beiträgt) oder wenn AA72055 > 1 (mehr als eine Person trägt zum Haushaltseinkommen bei)",,,cat
+gip,W72,Page core 42,0,"Zu welcher der folgenden Religionen, Glaubensrichtungen oder Weltanschauungen bekennen Sie sich?",,1-11-Religion,Bei dieser Frage können Sie nur eine Antwort geben.,,Bei dieser Frage können Sie nur eine Antwort geben.,,,,,cat
+gip,W72,Page core 43,0,"Würden Sie von sich sagen, dass Sie eher religiös oder eher nicht religiös sind? Sie sehen hier eine Skala, die von „nicht religiös“ zu „religiös“ geht. Wo würden Sie Ihre eigenen Ansichten auf dieser Skala einstufen?",,1-10-religious,Bei dieser Frage können Sie nur eine Antwort geben.,,Bei dieser Frage können Sie nur eine Antwort geben.,,,,,cat
+gip,W72,Page core 44,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page coer 44,1,interessant,,1-4-sehr,,,,,,,,cat
+gip,W72,Page core 45,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page core 45,1,abwechslungsreich,,1-4-sehr,,,,,,,,cat
+gip,W72,Page core 46,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page core 46,1,relevant,,1-4-sehr,,,,,,,,cat
+gip,W72,Page core 47,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page core 47,1,lang,,1-4-sehr,,,,,,,,cat
+gip,W72,Page core 48,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page core 48,1,schwierig,,1-4-sehr,,,,,,,,cat
+gip,W72,Page core 49,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page core 49,1,zu persönlich,,1-4-sehr,,,,,,,,cat
+gip,W72,Page core 50,0,Wie hat Ihnen dieser Teil der Befragung insgesamt gefallen?,,1-5-bewertung,,,,,,,,cat
+gip,W72,Page core 51,0,"Haben Sie noch weitere Anmerkungen zu diesem Teil der Befragung?
+
+Hier können Sie Lob oder Kritik zu diesem Abschnitt äußern.
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",,,,,,,,,,chr
+gip,W72,Page core 52,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",,,,,,,"exp72001 = 1, 2, und falls noch offene Module vorhanden sind",,,txt
+gip,W72,Page core 53,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch auf die Befragungsseite für diesen Monat weitergeleitet. Dort können Sie den nächsten Abschnitt der Befragung auswählen.",,,,,,,"exp72001 = 3, 4, 5 und falls noch offene Module vorhanden sind",,,txt
+gip,W72,Page core 54,0,"Sie haben den letzten Teil der Befragung für diesen Monat abgeschlossen.
+Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
+Sie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,"exp72001 =1, 2, 3, 4, 5 und keine offenen Module mehr vorhanden sind",,,txt
+gip,W72,Page a 1 Introduction,0,"Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, wir freuen uns, dass Sie die Befragung zum Thema Gerichtsurteile gestartet haben.
+Die Beantwortung dieses Teils der Befragung dauert ungefähr 4 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 1 Euro auf Ihrem Studienkonto gut.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,,,,txt
+gip,W72,Page a 2,0,"Uns interessiert, was Sie über das Justizsystem und über Richter und Richterinnen in Deutschland denken. Dazu stellen wir Ihnen auf den nächsten Seiten Fragen. Uns interessiert nur ihre persönliche Meinung. Es gibt dabei kein ""richtig"" oder ""falsch"".
+
+Allgemein gesprochen, wie viel Vertrauen haben Sie in die Justiz?",,Vertrauen-1-11,,,,,,,,cat
+gip,W72,Page a 3,0,"Auf den nächsten Seiten stellen wir Ihnen ein fiktives Gerichtsurteil vor. Das heißt: So ähnliche Urteile gibt es wirklich, aber dieses haben wir uns ausgedacht. Wir möchten von Ihnen wissen, was Sie über dieses Urteil und den Richter oder die Richterin denken. Im Anschluss stellen wir Ihnen einige Fragen dazu. Bitte lesen Sie sich das Gerichtsurteil aufmerksam durch. Sie brauchen dazu kein Vorwissen über Recht und Gesetze. Auch hier gilt: Uns interessiert nur Ihre persönliche Meinung. Es gibt dabei kein „richtig“ oder „falsch“.",,,,,"Befragte zufällig in 6 Gruppen aufteilen und Gruppenzuteilung in separater Variable expEN72001 ablegen.
+Gruppe 1 erhält zuerst EN72001, EN72002, EN72003, dann EN72004, EN72005, EN72006.
+Gruppe 2 erhält zuerst EN72001, EN72002, EN72003, dann EN72007, EN72008, EN72009.
+Gruppe 3 erhält zuerst EN72001, EN72002, EN72003, dann EN72010, EN72011, EN72012.
+Gruppe 4 erhält zuerst EN72004, EN72005, EN72006, dann EN72001, EN72002, EN72003.
+Gruppe 5 erhält zuerst EN72007, EN72008, EN72009, dann EN72001, EN72002, EN72003.
+Gruppe 6 erhält zuerst EN72010, EN72011, EN72012, dann EN72001, EN72002, EN72003.
+Dabei soll immer zuerst Qp. 02.00 und zwischen den beiden Blöcken Qp. 06.00 angezeigt werden.",,,,,txt
+gip,W72,Page a 4,0,"Mina, 27 Jahre alt und Tochter [Migration] Eltern, engagiert sich für [Fall_1]. Auf der Arbeit ist sie sehr zuverlässig. Aber seit einigen Wochen geht sie freitags eine Stunde früher, um ehrenamtlich [Fall_2]. Ihr Chef hat ihr deshalb gekündigt. Dagegen wehrt sie sich vor Gericht.
+[Gender] ist [Religion]. Fachlich ist [Ability].
+[Urteil].
+
+Wie gerecht finden Sie dieses Urteil?",,1-5-Gerechtigkeit,,,"[b[Conjoint experiment:]b] Auf den folgenden Seiten erhalten die Teilnehmenden jeweils zwei fiktive Gerichtsfälle mit Urteil. Sie sollen dann für jeden Fall beurteilen, (1) wie fair sie das Urteil finden, (2) für wie integer sie den Richter/die Richterin halten, (3) ob sie die Urteilsfindung lieber der Mehrheit der Bürgerinnen und Bürger überlassen würden, und (optional) (4) wie sehr sie im Allgemeinen der Justiz in Deutschland vertrauen.
+
+[b[Attribute: [Migration] Migrationshintergrund Klägerin]b]
+[i[Filter:]i]
+- wenn expEN72001a = 1, dann: deutscher
+- wenn expEN72001a = 2, dann: türkeistämmiger
+
+[b[Attribute: [Fall] Fallgegenstand]b]
+[i[Filter:]i]
+- wenn expEN72001b = 1, dann: den Klimaschutz [Fall_1] [b[und]b] Menschen zum Stromsparen zu beraten [Fall_2]
+- wenn expEN72001b = 2, dann: Geflüchtete in Not [Fall_1] [b[und]b] Geflüchtete zu beraten, die in ihrer Heimat verfolgt werden [Fall_2]
+- wenn expEN72001b = 3, dann: Muslime und Musliminnen in Not [Fall_1] [b[und]b] Muslime und Musliminnen zu beraten, die Opfer von Diskriminierung und Anfeindung geworden sind [Fall_2]
+- wenn expEN72001b = 4, dann: LGBT+ (das heißt, u. a. lesbische, schwule, bisexuelle und transgender) Menschen in Not [Fall_1] [b[und]b] LGBT+ Menschen zu beraten, die Opfer von Diskriminierung und Anfeindung geworden sind [Fall_2]
+
+[b[Attribute: [Gender] Geschlecht Richter:in]b]
+[i[Filter:]i]
+- wenn expEN72001c = 1, dann: Der zuständige Richter
+- wenn expEN72001c = 2, dann: Die zuständige Richterin
+
+[b[Attribute: [Religion] Religion Richter:in]b]
+[i[Filter:]i]
+expEN72001c = 1:
+- wenn expEN72001d = 1, dann: gläubiger Christ
+- wenn expEN72001d = 2, dann: Christ, doch Religion spielt in seinem Leben keine Rolle
+- wenn expEN72001d = 3, dann: gläubiger Muslim 
+- wenn expEN72001d = 4, dann: Muslim, doch Religion spielt in seinem Leben keine Rolle
+- wenn expEN72001d = 5, dann: Atheist. Er gehört keiner Religion an und glaubt nicht an Gott
+
+expEN72001c = 2:
+- wenn expEN72001d = 1, dann: gläubige Christin
+- wenn expEN72001d = 2, dann: Christin, doch Religion spielt in ihrem Leben keine Rolle
+- wenn expEN72001d = 3, dann: gläubige Muslimin 
+- wenn expEN72001d = 4, dann: Muslimin, doch Religion spielt in ihrem Leben keine Rolle
+- wenn expEN72001d = 5, dann: Atheistin. Sie gehört keiner Religion an und glaubt nicht an Gott
+
+[b[Attribute: [Ability] Fachkompetenz Richter:in]b]
+[i[Filter:]i]
+expEN72001c = 1:
+- wenn expEN72001e = 1, dann: er ein hervorragender Jurist. Er macht selten Fehler
+- wenn expEN72001e = 2, dann: er ein durchschnittlicher Jurist. Er macht manchmal Fehler
+
+expEN72001c = 2:
+- wenn expEN72001e = 1, dann: sie eine hervorragende Juristin. Sie macht selten Fehler
+- wenn expEN72001e = 2, dann: sie eine durchschnittliche Juristin. Sie macht manchmal Fehler
+
+[b[Attribute: [Urteil] Urteil]b]
+[i[Filter:]i]
+expEN72001c = 1:
+- wenn expEN72001g = 1, dann: Er entscheidet, dass die Kündigung rechtens ist. Mina verliert ihre Arbeitsstelle
+- wenn expEN72001g = 2, dann: Er entscheidet, dass der Chef die Kündigung zurücknehmen muss. Er soll Mina eine zweite Chance geben
+
+expEN72001c = 2:
+- wenn expEN72001g = 1, dann: Sie entscheidet, dass die Kündigung rechtens ist. Mina verliert ihre Arbeitsstelle
+- wenn expEN72001g = 2, dann: Sie entscheidet, dass der Chef die Kündigung zurücknehmen muss. Er soll Mina eine zweite Chance geben",,,,,cat
+gip,W72,Page a 5,0,"Mina, 27 Jahre alt und Tochter [Migration] Eltern, engagiert sich für [Fall_1]. Auf der Arbeit ist sie sehr zuverlässig. Aber seit einigen Wochen geht sie freitags eine Stunde früher, um ehrenamtlich [Fall_2]. Ihr Chef hat ihr deshalb gekündigt. Dagegen wehrt sie sich vor Gericht.
+[Gender] ist [Religion]. Fachlich ist [Ability]. 
+[Urteil].
+
+Wie sehr stimmen Sie der folgenden Aussage zu?
+[Wenn expEN72001c=1: Der Richter war in seinem Urteil parteiisch.][Wenn expEN72001c=2: Die Richterin war in ihrem Urteil parteiisch.]",,1-5-Zustimmung,,,,,,,,cat
+gip,W72,Page a 6,0,"Mina, 27 Jahre alt und Tochter [Migration] Eltern, engagiert sich für [Fall_1]. Auf der Arbeit ist sie sehr zuverlässig. Aber seit einigen Wochen geht sie freitags eine Stunde früher, um ehrenamtlich [Fall_2]. Ihr Chef hat ihr deshalb gekündigt. Dagegen wehrt sie sich vor Gericht.
+[Gender] ist [Religion]. Fachlich ist [Ability]. 
+[Urteil].
+
+Und wie ist es mit dieser Aussage?
+Bei einem Fall wie diesem sollten Gerichte nicht unabhängig entscheiden, sondern mehr darauf hören, was die Mehrheit der Bürgerinnen und Bürger will.",,1-5-Zustimmung,,,,,,,,cat
+gip,W72,Page a 7,0,Nun präsentieren wir Ihnen ein zweites Gerichtsurteil. Uns interessiert wieder ausschließlich Ihre persönliche Meinung dazu.,,,,,,,,,,txt
+gip,W72,Page a 8,0,"Tarek ist 22 Jahre alt, ein talentierter Graffiti-Künstler und Fußball-Fan. Seine Großeltern sind vor 50 Jahren aus der Türkei nach Deutschland gekommen. Er selbst ist in Deutschland geboren und deutscher Staatsbürger. Er hat das Vereins-Wappen seines Lieblings-Bundesliga-Klubs als Graffiti auf die Wand eines Wohnhauses gesprüht. Dabei hat ihn die Polizei erwischt. Nun steht er wegen Sachbeschädigung vor Gericht.
+[Gender] ist [Religion]. Fachlich ist [Ability]. Menschlich ist es [Benevolenz].
+[Urteil].
+
+Wie gerecht finden Sie dieses Urteil?",,Gerechtigkeit-Hoch-Niedrig,,,"[b[Conjoint experiment:]b] Auf den folgenden Seiten lesen die Teilnehmenden den zweiten fiktiven Gerichtsfall mit Urteil. Sie sollen dann für jeden Fall beurteilen, (1) wie fair sie das Urteil finden, (2) für wie integer sie den Richter/die Richterin halten, (3) ob sie die Urteilsfindung lieber der Mehrheit der Bürgerinnen und Bürger überlassen würden, und (optional) (4) wie sehr sie im Allgemeinen der Justiz in Deutschland vertrauen.
+
+[b[Attribute: [Gender] Geschlecht Richter:in]b]
+[i[Filter:]i]
+- wenn expEN72004a = 1, dann: Der zuständige Richter
+- wenn expEN72004a = 2, dann: Die zuständige Richterin
+
+[b[Attribute: [Religion] Religion Richter:in]b]
+[i[Filter:]i]
+expEN72004a = 1:
+- wenn expEN72004b = 1, dann: gläubiger Christ
+- wenn expEN72004b = 2, dann: Christ, doch Religion spielt in seinem Leben keine Rolle
+- wenn expEN72004b = 3, dann: gläubiger Muslim 
+- wenn expEN72004b = 4, dann: Muslim, doch Religion spielt in seinem Leben keine Rolle
+- wenn expEN72004b = 5, dann: Atheist. Er gehört keiner Religion an und glaubt nicht an Gott
+
+expEN72004a = 2:
+- wenn expEN72004b = 1, dann: gläubige Christin
+- wenn expEN72004b = 2, dann: Christin, doch Religion spielt in ihrem Leben keine Rolle
+- wenn expEN72004b = 3, dann: gläubige Muslimin 
+- wenn expEN72004b = 4, dann: Muslimin, doch Religion spielt in ihrem Leben keine Rolle
+- wenn expEN72004b = 5, dann: Atheistin. Sie gehört keiner Religion an und glaubt nicht an Gott
+
+[b[Attribute: [Ability] Fachkompetenz Richter:in]b]
+[i[Filter:]i]
+expEN72004a = 1:
+- wenn expEN72004c = 1, dann: er ein hervorragender Jurist. Er macht selten Fehler
+- wenn expEN72004c = 2, dann: er ein durchschnittlicher Jurist. Er macht manchmal Fehler
+
+expEN72004a = 2:
+- wenn expEN72004c = 1, dann: sie eine hervorragende Juristin. Sie macht selten Fehler
+- wenn expEN72004c = 2, dann: sie eine durchschnittliche Juristin. Sie macht manchmal Fehler
+
+[b[Attribute: [Benevolenz] Benevolenz Richter:in]b]
+[i[Filter:]i]
+expEN72004a = 1:
+- wenn expEN72004d = 1, dann: ihm wichtig, dass sich alle Beteiligten im Gerichtssaal mit Respekt behandelt fühlen
+- wenn expEN72004d = 2, dann: ihm egal, ob sich alle Beteiligten im Gerichtssaal mit Respekt behandelt fühlen
+
+expEN72004a = 2:
+- wenn expEN72004d = 1, dann: ihr wichtig, dass sich alle Beteiligten im Gerichtssaal mit Respekt behandelt fühlen
+- wenn expEN72004d = 2, dann: ihr egal, ob sich alle Beteiligten im Gerichtssaal mit Respekt behandelt fühlen
+
+
+[b[Attribute: [Urteil] Urteil]b]
+[i[Filter:]i]
+expEN72004a = 1:
+- wenn expEN72004e = 1, dann: Er verurteilt Tarek zu einer hohen Geldstrafe von 3.600 Euro. Das ist für ihn ein schwerer finanzieller Schlag
+- wenn expEN72004e = 2, dann: Er lässt Tarek diesmal ohne Strafe davonkommen. Aber er verwarnt Tarek und verpflichtet ihn, zwei Wochen lang in einem gemeinnützigen Projekt ehrenamtlich mitzuarbeiten
+expEN72004a = 2:
+- wenn expEN72004e = 1, dann: Sie verurteilt Tarek zu einer hohen Geldstrafe von 3.600 Euro. Das ist für ihn ein schwerer finanzieller Schlag
+- wenn expEN72004e = 2, dann: Sie lässt Tarek diesmal ohne Strafe davonkommen. Aber sie verwarnt Tarek und verpflichtet ihn, zwei Wochen lang in einem gemeinnützigen Projekt ehrenamtlich mitzuarbeiten",,"expEN72001 = 1, 4",,,cat
+gip,W72,Page a 9,0,"Tarek ist 22 Jahre alt, ein talentierter Graffiti-Künstler und Fußball-Fan. Seine Großeltern sind vor 50 Jahren aus der Türkei nach Deutschland gekommen. Er selbst ist in Deutschland geboren und deutscher Staatsbürger. Er hat das Vereins-Wappen seines Lieblings-Bundesliga-Klubs als Graffiti auf die Wand eines Wohnhauses gesprüht. Dabei hat ihn die Polizei erwischt. Nun steht er wegen Sachbeschädigung vor Gericht.
+[Gender] ist [Religion]. Fachlich ist [Ability]. Menschlich ist es [Benevolenz].
+[Urteil].
+
+Wie sehr stimmen Sie der folgenden Aussage zu?
+[wenn expEN72004a=1: Der Richter war in seinem Urteil parteiisch.][wenn expEN72004a=2: Die Richterin war in ihrem Urteil parteiisch.]",,1-5-Zustimmung,,,,,"expEN72001 = 1, 4",,,cat
+gip,W72,Page a 10,0,"Tarek ist 22 Jahre alt, ein talentierter Graffiti-Künstler und Fußball-Fan. Seine Großeltern sind vor 50 Jahren aus der Türkei nach Deutschland gekommen. Er selbst ist in Deutschland geboren und deutscher Staatsbürger. Er hat das Vereins-Wappen seines Lieblings-Bundesliga-Klubs als Graffiti auf die Wand eines Wohnhauses gesprüht. Dabei hat ihn die Polizei erwischt. Nun steht er wegen Sachbeschädigung vor Gericht.
+[Gender] ist [Religion]. Fachlich ist [Ability]. Menschlich ist es [Benevolenz].
+[Urteil].
+
+Und wie ist es mit dieser Aussage?
+Bei einem Fall wie diesem sollten Gerichte nicht unabhängig entscheiden, sondern mehr darauf hören, was die Mehrheit der Bürgerinnen und Bürger will.",,1-5-Zustimmung,,,,,"expEN72001 = 1, 4",,,cat
+gip,W72,Page a 11,0,"Jasmin ist 32 Jahre alt und [Migration] ist gläubige Muslimin und trägt Kopftuch. Ihr Arbeitgeber verlangt, dass sie während der Arbeitszeit das Kopftuch abnimmt. Dagegen wehrt sie sich vor Gericht.
+[Gender] ist [Religion]. Fachlich ist [Ability]. Menschlich ist es [Benevolenz].
+[Urteil].
+
+Wie gerecht finden Sie dieses Urteil?",,1-5-Gerechtigkeit,,,"[b[Conjoint experiment:]b] Auf den folgenden Seiten lesen die Teilnehmenden den zweiten fiktiven Gerichtsfall mit Urteil. Sie sollen dann beurteilen, (1) wie fair sie das Urteil finden, (2) für wie integer sie den Richter/die Richterin halten, (3) ob sie die Urteilsfindung lieber der Mehrheit der Bürgerinnen und Bürger überlassen würden, und (optional) (4) wie sehr sie im Allgemeinen der Justiz in Deutschland vertrauen.
+
+[b[Attribute: [Migration] Migrationshintergrund Klägerin]b]
+[i[Filter:]i]
+- wenn expEN72007a = 1, dann: in Deutschland geboren. Die deutsche Staatsbürgerin
+- wenn expEN72007a = 2, dann: erst vor Kurzem aus Syrien nach Deutschland zugewandert. Die syrische Staatsbürgerin
+
+[b[Attribute: [Gender] Geschlecht Richter:in]b]
+[i[Filter:]i]
+- wenn expEN72007b = 1, dann: Der zuständige Richter
+- wenn expEN72007b = 2, dann: Die zuständige Richterin
+
+[b[Attribute: [Religion] Religion Richter:in]b]
+[i[Filter:]i]
+expEN72007b = 1:
+- wenn expEN72007c = 1, dann: gläubiger Christ
+- wenn expEN72007c = 2, dann: Christ, doch Religion spielt in seinem Leben keine Rolle
+- wenn expEN72007c = 3, dann: ebenfalls gläubiger Muslim 
+- wenn expEN72007c = 4, dann: ebenfalls Muslim, doch Religion spielt in seinem Leben keine Rolle
+- wenn expEN72007c = 5, dann: Atheist. Er gehört keiner Religion an und glaubt nicht an Gott
+
+expEN72007b = 2:
+- wenn expEN72007c = 1, dann: gläubige Christin
+- wenn expEN72007c = 2, dann: Christin, doch Religion spielt in ihrem Leben keine Rolle
+- wenn expEN72007c = 3, dann: ebenfalls gläubige Muslimin 
+- wenn expEN72007c = 4, dann: ebenfalls Muslimin, doch Religion spielt in ihrem Leben keine Rolle
+- wenn expEN72007c = 5, dann: Atheistin. Sie gehört keiner Religion an und glaubt nicht an Gott
+
+[b[Attribute: [Ability] Fachkompetenz Richter:in]b]
+[i[Filter:]i]
+expEN72007b = 1:
+- wenn expEN72007d = 1, dann: er ein hervorragender Jurist. Er macht selten Fehler
+- wenn expEN72007d = 2, dann: er ein durchschnittlicher Jurist. Er macht manchmal Fehler
+
+expEN72007b = 2:
+- wenn expEN72007d = 1, dann: sie eine hervorragende Juristin. Sie macht selten Fehler
+- wenn expEN72007d = 2, dann: sie eine durchschnittliche Juristin. Sie macht manchmal Fehler
+
+[b[Attribute: [Benevolenz] Benevolenz Richter:in]b]
+[i[Filter:]i]
+expEN72007b = 1:
+- wenn expEN72007e = 1, dann: ihm wichtig, dass sich alle Beteiligten im Gerichtssaal mit Respekt behandelt fühlen
+- wenn expEN72007e = 2, dann: ihm egal, ob sich alle Beteiligten im Gerichtssaal mit Respekt behandelt fühlen
+
+expEN72007b = 2:
+- wenn expEN72007e = 1, dann: ihr wichtig, dass sich alle Beteiligten im Gerichtssaal mit Respekt behandelt fühlen
+- wenn expEN72007e = 2, dann: ihr egal, ob sich alle Beteiligten im Gerichtssaal mit Respekt behandelt fühlen
+
+[b[Attribute: [Urteil] Urteil]b]
+[i[Filter:]i]
+expEN72007b = 1:
+- wenn expEN72007f = 1, dann: Er entscheidet, dass Jasmin das Kopftuch am Arbeitsplatz ablegen muss, weil es dem Unternehmen schaden könnte
+- wenn expEN72007f = 2, dann: Er entscheidet, dass Jasmin das Kopftuch am Arbeitsplatz tragen darf, weil nicht bewiesen ist, dass es dem Unternehmen schadet
+
+expEN72007b = 2:
+- wenn expEN72007f = 1, dann: Sie entscheidet, dass Jasmin das Kopftuch am Arbeitsplatz ablegen muss, weil es dem Unternehmen schaden könnte
+- wenn expEN72007f = 2, dann: Sie entscheidet, dass Jasmin das Kopftuch am Arbeitsplatz tragen darf, weil nicht bewiesen ist, dass es dem Unternehmen schadet",,"expEN72001 = 2, 5",,,cat
+gip,W72,Page a 12,0,"Jasmin ist 32 Jahre alt und [Migration] ist gläubige Muslimin und trägt Kopftuch. Ihr Arbeitgeber verlangt, dass sie während der Arbeitszeit das Kopftuch abnimmt. Dagegen wehrt sie sich vor Gericht.
+[Gender] ist [Religion]. Fachlich ist [Ability]. Menschlich ist es [Benevolenz].
+[Urteil].
+
+Wie sehr stimmen Sie der folgenden Aussage zu?
+[wenn expEN72007b=1: Der Richter war in seinem Urteil parteiisch.][wenn expEN72007b=2: Die Richterin war in ihrem Urteil parteiisch.]",,1-5-Zustimmung,,,,,"expEN72001 = 2, 5",,,cat
+gip,W72,Page a 13,0,"Jasmin ist 32 Jahre alt und [Migration] ist gläubige Muslimin und trägt Kopftuch. Ihr Arbeitgeber verlangt, dass sie während der Arbeitszeit das Kopftuch abnimmt. Dagegen wehrt sie sich vor Gericht.
+[Gender] ist [Religion]. Fachlich ist [Ability]. Menschlich ist es [Benevolenz].
+[Urteil].
+
+Und wie ist es mit dieser Aussage?
+Bei einem Fall wie diesem sollten Gerichte nicht unabhängig entscheiden, sondern mehr darauf hören, was die Mehrheit der Bürgerinnen und Bürger will.",,1-5-Zustimmung,,,,,"expEN72001 = 2, 5",,,cat
+gip,W72,Page a 14,0,"Martin ist 38 Jahre alt und Polizist. Er gilt als sehr zuverlässiger Beamter. In seiner Freizeit hat er in einer WhatsApp-Gruppe mit Kollegen und Kolleginnen Bilder mit Nazi-Symbolen geteilt und über Menschen mit Behinderung, Ausländer und Menschen mit dunkler Hautfarbe gehetzt. Nun steht er wegen der Verwendung von Kennzeichen verfassungswidriger Organisationen und verhetzender Beleidigung vor Gericht.
+[Gender] ist [Religion]. Fachlich ist [Ability]. Menschlich ist es [Benevolenz].
+[Urteil].
+
+Wie gerecht finden Sie dieses Urteil?",,Gerechtigkeit-Hoch-Niedrig,,,"[b[Conjoint experiment:]b] Auf den folgenden Seiten lesen die Teilnehmenden den zweiten fiktiven Gerichtsfall mit Urteil. Sie sollen dann beurteilen, (1) wie fair sie das Urteil finden, (2) für wie integer sie den Richter/die Richterin halten, (3) ob sie die Urteilsfindung lieber der Mehrheit der Bürgerinnen und Bürger überlassen würden, und (optional) (4) wie sehr sie im Allgemeinen der Justiz in Deutschland vertrauen.
+
+[b[Attribute: [Gender] Geschlecht Richter:in]b]
+[i[Filter:]i]
+- wenn expEN72010a = 1, dann: Der zuständige Richter
+- wenn expEN72010a = 2, dann: Die zuständige Richterin
+
+[b[Attribute: [Religion] Religion Richter:in]b]
+[i[Filter:]i]
+expEN72010a = 1:
+- wenn expEN72010b = 1, dann: gläubiger Christ
+- wenn expEN72010b = 2, dann: Christ, doch Religion spielt in seinem Leben keine Rolle
+- wenn expEN72010b = 3, dann: gläubiger Muslim 
+- wenn expEN72010b = 4, dann: Muslim, doch Religion spielt in seinem Leben keine Rolle
+- wenn expEN72010b = 5, dann: Atheist. Er gehört keiner Religion an und glaubt nicht an Gott
+
+expEN72010a = 2:
+- wenn expEN72010b = 1, dann: gläubige Christin
+- wenn expEN72010b = 2, dann: Christin, doch Religion spielt in ihrem Leben keine Rolle
+- wenn expEN72010b = 3, dann: gläubige Muslimin 
+- wenn expEN72010b = 4, dann: Muslimin, doch Religion spielt in ihrem Leben keine Rolle
+- wenn expEN72010b = 5, dann: Atheistin. Sie gehört keiner Religion an und glaubt nicht an Gott
+
+[b[Attribute: [Ability] Fachkompetenz Richter:in]b]
+[i[Filter:]i]
+expEN72010a = 1:
+- wenn expEN72010c = 1, dann: er ein hervorragender Jurist. Er macht selten Fehler
+- wenn expEN72010c = 2, dann: er ein durchschnittlicher Jurist. Er macht manchmal Fehler
+
+expEN72010a = 2:
+- wenn expEN72010c = 1, dann: sie eine hervorragende Juristin. Sie macht selten Fehler
+- wenn expEN72010c = 2, dann: sie eine durchschnittliche Juristin. Sie macht manchmal Fehler
+
+[b[Attribute: [Benevolenz] Benevolenz Richter:in]b]
+[i[Filter:]i]
+expEN72010a = 1:
+- wenn expEN72010d = 1, dann: ihm wichtig, dass sich alle Beteiligten im Gerichtssaal mit Respekt behandelt fühlen
+- wenn expEN72010d = 2, dann: ihm egal, ob sich alle Beteiligten im Gerichtssaal mit Respekt behandelt fühlen
+
+expEN72010a = 2:
+- wenn expEN72010d = 1, dann: ihr wichtig, dass sich alle Beteiligten im Gerichtssaal mit Respekt behandelt fühlen
+- wenn expEN72010d = 2, dann: ihr egal, ob sich alle Beteiligten im Gerichtssaal mit Respekt behandelt fühlen
+
+[b[Attribute: [Urteil] Urteil]b]
+[i[Filter:]i]
+expEN72010a = 1:
+- wenn expEN72007e = 1, dann: Er verurteilt Martin zu einer hohen Geldstrafe von 12.600 Euro. Das ist für ihn ein schwerer finanzieller Schlag
+- wenn expEN72007e = 2, dann: Er lässt Martin diesmal ohne Strafe davonkommen. Aber er verwarnt Martin und verpflichtet ihn, zwei Wochen lang in einem gemeinnützigen Projekt ehrenamtlich mitzuarbeiten
+
+expEN72010a = 2:
+- wenn expEN72007e = 1, dann: Sie verurteilt Martin zu einer hohen Geldstrafe von 12.600 Euro. Das ist für ihn ein schwerer finanzieller Schlag
+- wenn expEN72007e = 2, dann: Sie lässt Martin diesmal ohne Strafe davonkommen. Aber sie verwarnt Martin und verpflichtet ihn, zwei Wochen lang in einem gemeinnützigen Projekt ehrenamtlich mitzuarbeiten",,"expEN72001 = 3, 6",,,cat
+gip,W72,Page a 15,0,"Martin ist 38 Jahre alt und Polizist. Er gilt als sehr zuverlässiger Beamter. In seiner Freizeit hat er in einer WhatsApp-Gruppe mit Kollegen und Kolleginnen Bilder mit Nazi-Symbolen geteilt und über Menschen mit Behinderung, Ausländer und Menschen mit dunkler Hautfarbe gehetzt. Nun steht er wegen der Verwendung von Kennzeichen verfassungswidriger Organisationen und verhetzender Beleidigung vor Gericht.
+[Gender] ist [Religion]. Fachlich ist [Ability]. Menschlich ist es [Benevolenz].
+[Urteil].
+
+Wie sehr stimmen Sie der folgenden Aussage zu?
+[wenn expEN72010a=1: Der Richter war in seinem Urteil parteiisch.][wenn expEN72010a=2: Die Richterin war in ihrem Urteil parteiisch.]",,1-5-Zustimmung,,,,,"expEN72001 = 3, 6",,,cat
+gip,W72,Page a 16,0,"Martin ist 38 Jahre alt und Polizist. Er gilt als sehr zuverlässiger Beamter. In seiner Freizeit hat er in einer WhatsApp-Gruppe mit Kollegen und Kolleginnen Bilder mit Nazi-Symbolen geteilt und über Menschen mit Behinderung, Ausländer und Menschen mit dunkler Hautfarbe gehetzt. Nun steht er wegen der Verwendung von Kennzeichen verfassungswidriger Organisationen und verhetzender Beleidigung vor Gericht.
+[Gender] ist [Religion]. Fachlich ist [Ability]. Menschlich ist es [Benevolenz].
+[Urteil].
+
+Und wie ist es mit dieser Aussage?
+Bei einem Fall wie diesem sollten Gerichte nicht unabhängig entscheiden, sondern mehr darauf hören, was die Mehrheit der Bürgerinnen und Bürger will.",,1-5-Zustimmung,,,,,"expEN72001 = 3, 6",,,cat
+gip,W72,Page a 17,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page a 17,1,interessant,,1-4-sehr,,,,,,,,cat
+gip,W72,Page a 18,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page a 18,1,abwechslungsreich,,1-4-sehr,,,,,,,,cat
+gip,W72,Page a 19,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page a 19,1,relevant,,1-4-sehr,,,,,,,,cat
+gip,W72,Page a 20,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page a 20,1,lang,,1-4-sehr,,,,,,,,cat
+gip,W72,Page a 21,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page a 21,1,schwierig,,1-4-sehr,,,,,,,,cat
+gip,W72,Page a 22,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page a 22,1,zu persönlich,,1-4-sehr,,,,,,,,cat
+gip,W72,Page a 23,0,Wie hat Ihnen dieser Teil der Befragung insgesamt gefallen?,,1-5-bewertung,,,,,,,,cat
+gip,W72,Page a 24,0,"Haben Sie noch weitere Anmerkungen zu diesem Teil der Befragung?
+
+Hier können Sie Lob oder Kritik zu diesem Abschnitt äußern.
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",,,,,,,,,,chr
+gip,W72,Page a 25,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",,,,,,,"exp72001 = 1, 2, und falls noch offene Module vorhanden sind",,,txt
+gip,W72,Page a 26 ,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch auf die Befragungsseite für diesen Monat weitergeleitet. Dort können Sie den nächsten Abschnitt der Befragung auswählen.",,,,,,,"exp72001 = 3, 4, 5 und falls noch offene Module vorhanden sind",,,txt
+gip,W72,Page a 27,0,"Sie haben den letzten Teil der Befragung für diesen Monat abgeschlossen.
+Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
+Sie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,"exp72001 =1, 2, 3, 4, 5 und keine offenen Module mehr vorhanden sind",,,txt
+gip,W72,Page b 1 Introduction,0,"Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, wir freuen uns, dass Sie die Befragung zum Thema Politik in Deutschland gestartet haben.
+Die Beantwortung dieses Teils der Befragung dauert ungefähr 6 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 1,50 Euro auf Ihrem Studienkonto gut.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,,,,txt
+gip,W72,Page b 2,0,"Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. Bitte sagen Sie uns nicht, welchen Aussagen Sie zustimmen, sondern nur wie vielen davon.
+a) Es ist verständlich, dass manche Leute Steuern hinterziehen.
+b) Alkohol am Steuer ist keine Kleinigkeit.
+c) In Deutschland sollten härtere Strafen für Verbrechen eingeführt werden.
+d) Gewalt gegen politische Gegner ist manchmal gerechtfertigt.
+
+Wie vielen dieser Aussagen stimmen Sie zu?",,Zustimmung-Anzahl,,,"Befragte zufällig in zwei Gruppen aufteilen, Gruppe 1 erhält CP72001, Gruppe 2 erhält CP72002. Gruppenzuteilung in separater Variable expCP72001 ablegen.",,expCP72001 = 1,,,cat
+gip,W72,Page b 3,0,"Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. Bitte sagen Sie uns nicht, welchen Aussagen Sie zustimmen, sondern nur wie vielen davon.
+a) Es ist verständlich, dass manche Leute Steuern hinterziehen.
+b) Alkohol am Steuer ist keine Kleinigkeit.
+c) In Deutschland sollten härtere Strafen für Verbrechen eingeführt werden.
+
+Wie vielen dieser Aussagen stimmen Sie zu?",,Zustimmung-Anzahl-II,,,,,expCP72001 = 2,,,cat
+gip,W72,Page b 4,0,"Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. Bitte sagen Sie uns nicht, welchen Aussagen Sie zustimmen, sondern nur wie vielen davon.
+a) Die hohen Gehälter für Manager sind gerechtfertigt.
+b) Die öffentlichen Rundfunkgebühren kommen der Demokratie zugute.
+c) Es würde uns allen besser gehen, wenn wir weniger Fleisch essen würden.
+d) Für manche politischen Ziele ist es in Ordnung, Gewalt einzusetzen.
+
+Wie vielen dieser Aussagen stimmen Sie zu?",,Zustimmung-Anzahl,,,"Befragte zufällig in zwei Gruppen aufteilen, Gruppe 1 erhält CP72003, Gruppe 2 erhält CP72004. Gruppenzuteilung in separater Variable expCP72003 ablegen.",,expCP72003 = 1,,,cat
+gip,W72,Page b 5,0,"Im Folgenden nennen wir einige Aussagen, denen man zustimmen kann oder nicht. Bitte sagen Sie uns, wie vielen von diesen Aussagen Sie zustimmen würden. Bitte sagen Sie uns nicht, welchen Aussagen Sie zustimmen, sondern nur wie vielen davon.
+a) Die hohen Gehälter für Manager sind gerechtfertigt.
+b) Die öffentlichen Rundfunkgebühren kommen der Demokratie zugute.
+c) Es würde uns allen besser gehen, wenn wir weniger Fleisch essen würden.
+
+
+Wie vielen dieser Aussagen stimmen Sie zu?",,Zustimmung-Anzahl-II,,,,,expCP72003 = 2,,,cat
+gip,W72,Page b 6,0,"Wie akzeptabel ist es Ihrer Meinung nach, einen [Wenn expCP72006=1: politischen Gegner] [Wenn expCP72006=2: Politiker der AfD] [Wenn expCP72006=3: Politiker der Grünen] [Wenn expCP72006=4: rechtsextremen Politiker] [Wenn expCP72006=5: linksextremen Politiker] im Internet einzuschüchtern?",,Akzeptabel-1-11,,,"Befragte zufällig in fünf Gruppen aufteilen und Gruppenzuteilung in separater Variable expCP72006 ablegen. Gruppe 1 erhält im Folgenden Fragen zum politischen Gegner, Gruppe 2 zu einem Politiker der AfD, Gruppe 3 zu einem Politiker der Grünen, Gruppe 4 zu einem rechtsextremen Politiker und Gruppe 5 zu einem linksextremen Politiker.",,,,,cat
+gip,W72,Page b 7,0,"Wie akzeptabel ist es Ihrer Meinung nach, Flugblätter, Veranstaltungshinweise oder Wahlwerbung [Wenn expCP72006=1: des politischen Gegners] [Wenn expCP72006=2: der AfD] [Wenn expCP72006=3: der Grünen] [Wenn expCP72006=4: eines rechtsextremen Politikers] [Wenn expCP72006=5: eines linksextremen Politikers] zu entfernen?",,Akzeptabel-1-11,,,,,,,,cat
+gip,W72,Page b 8,0,"Wie akzeptabel ist es Ihrer Meinung nach, andere Leute am Besuch einer Veranstaltung [Wenn expCP72006=1: des politischen Gegners] [Wenn expCP72006=2: der AfD] [Wenn expCP72006=3: der Grünen] [Wenn expCP72006=4: eines rechtsextremen Politikers] [Wenn expCP72006=5: eines linksextremen Politikers] zu hindern?",,Akzeptabel-1-11,,,,,,,,cat
+gip,W72,Page b 9,0,"Wie akzeptabel ist es Ihrer Meinung nach, einen [Wenn expCP72006=1: politischen Gegner] [Wenn expCP72006=2: Politiker der AfD] [Wenn expCP72006=3: Politiker der Grünen] [Wenn expCP72006=4: rechtsextremen Politiker] [Wenn expCP72006=5: linksextremen Politiker] niederzuschreien, um ihn an einer Rede zu hindern?",,Akzeptabel-1-11,,,,,,,,cat
+gip,W72,Page b 10,0,"Wie akzeptabel ist es Ihrer Meinung nach, einen [Wenn expCP72006=1: politischen Gegner] [Wenn expCP72006=2: Politiker der AfD] [Wenn expCP72006=3: Politiker der Grünen] [Wenn expCP72006=4: rechtsextremen Politiker] [Wenn expCP72006=5: linksextremen Politiker] mit Gewalt an einer Rede zu hindern?",,Akzeptabel-1-11,,,,,,,,cat
+gip,W72,Page b 11,0,"Im Folgenden schildern wir Ihnen einige Situationen, in denen politische Gewalt beschrieben wird. Bitte sagen Sie uns jeweils Ihre Meinung dazu.
+Jan M. ist angeklagt Sachbeschädigung begangen zu haben. Er wurde von der Polizei verhaftet, nachdem er mehrere große Wahlplakate von Kandidaten [Wenn expCP72016 = 1: der AfD][Wenn expCP72016 = 2: der Grünen][Wenn expCP72016 = 3: einer rechtsextremen Partei][Wenn expCP72016 = 4: einer linksextremen Partei] heruntergerissen hatte.
+
+Inwieweit würden Sie einen Freispruch für Jan M. befürworten oder ablehnen?",,Ablehnung-1-5,,,"Befragte zufällig in vier Gruppen aufteilen und Gruppenzuteilung in separater Variable expCP72016 ablegen. Gruppe 1 erhält im Folgenden Fragen zur AfD, Gruppe 2 zu den Grünen, Gruppe 3 zu einer rechtsextremen Partei und Gruppe 4 zu einer linksextremen Partei.",,,,,cat
+gip,W72,Page b 12,0,"Thomas K. ist angeklagt Körperverletzung begangen zu haben. Er wurde von der Polizei verhaftet, weil er Steine auf friedliche Teilnehmer einer Kundgebung [Wenn expCP72016 = 1: der AfD][Wenn expCP72016 = 2: der Grünen][Wenn expCP72016 = 3: einer rechtsextremen Partei][Wenn expCP72016 = 4: einer linksextremen Partei] geworfen hatte. Obwohl niemand ernsthaft verletzt wurde, versorgten Sanitäter einen Mann mit einer Kopfwunde.
+
+Inwieweit würden Sie einen Freispruch für Thomas K. befürworten oder ablehnen?",,Ablehnung-1-5,,,,,,,,cat
+gip,W72,Page b 13,0,"Marc H. ist angeklagt Brandstiftung begangen zu haben. Er wurde von der Polizei verhaftet, als er versuchte, vor einem Feuer zu fliehen, das er in der örtlichen Parteizentrale [Wenn expCP72016 = 1: der AfD][Wenn expCP72016 = 2: der Grünen][Wenn expCP72016 = 3: einer rechtsextremen Partei][Wenn expCP72016 = 4: einer linksextremen Partei] gelegt hatte. Obwohl er darauf wartete, dass das Gebäude für die Nacht geschlossen wurde, befanden sich in mehreren benachbarten Gebäuden noch Personen.
+
+Inwieweit würden Sie einen Freispruch für Marc H. befürworten oder ablehnen?",,Ablehnung-1-5,,,,,,,,cat
+gip,W72,Page b 14,0,"Kevin B. ist angeklagt schwere Körperverletzung begangen zu haben. Er wurde von der Polizei verhaftet, nachdem er mit seinem Auto in eine Gruppe von Demonstranten [Wenn expCP72016 = 1: der AfD][Wenn expCP72016 = 2: der Grünen][Wenn expCP72016 = 3: einer rechtsextremen Partei][Wenn expCP72016 = 4: einer linksextremen Partei] gefahren war. Obwohl niemand getötet wurde, wurden mehrere Personen schwer verletzt und eine davon verbrachte einen Monat im Krankenhaus.
+
+Inwieweit würden Sie einen Freispruch für Kevin B. befürworten oder ablehnen?",,Ablehnung-1-5,,,,,,,,cat
+gip,W72,Page b 15,0,"Zurzeit wird in Deutschland kontrovers über Parteiverbote diskutiert. Manche sehen Parteiverbote als wichtiges Instrument um die Demokratie vor Extremisten zu schützen. Andere sehen Parteiverbote als undemokratischen Eingriff in den politischen Wettbewerb.
+
+Was ist Ihre Meinung zum Thema Parteiverbot?",,Parteiverbot1-11,,,,,,,,cat
+gip,W72,Page b 16,0,Jetzt einmal konkret gefragt: Inwieweit würden Sie ein Parteiverbot [Wenn expCP72016 = 1: der AfD][Wenn expCP72016 = 2: der Grünen][Wenn expCP72016 = 3: einer rechtsextremen Partei][Wenn expCP72016 = 4: einer linksextremen Partei] ablehnen oder befürworten?,,Parteiverbot-1-4,,,,,,,,cat
+gip,W72,Page b 17,0,"Zurzeit wird in Deutschland kontrovers über die Rolle des Verfassungsschutzes diskutiert. Manche sehen den Verfassungsschutz als wichtige Behöre um die Demokratie vor Extremisten zu schützen. Andere sehen im Verfassungsschutz eine undemokratische Einrichtung, die den politischen Wettbewerb gefährdet.
+
+Was ist Ihre Meinung zum Thema Verfassungsschutz?",,Verfassungsschutz-1-11,,,,,,,,cat
+gip,W72,Page b 18,0,Jetzt einmal konkret gefragt: Inwieweit würden Sie eine Beobachtung [Wenn expCP72016 = 1: der AfD][Wenn expCP72016 = 2: der Grünen][Wenn expCP72016 = 3: einer rechtsextremen Partei][Wenn expCP72016 = 4: einer linksextremen Partei] durch den Verfassungsschutz ablehnen oder befürworten?,,Verfassungsschutz-1-4,,,,,,,,cat
+gip,W72,Page b 19,0,Welchen dieser Aussagen stimmen Sie zu?,,,"Bitte wählen Sie alle Aussagen aus, denen Sie zustimmen.",,"Bitte wählen Sie alle Aussagen aus, denen Sie zustimmen.",,,,,txt
+gip,W72,Page b 19,1,Gewalt gegen politische Gegner ist manchmal gerechtfertigt.,,,,,,,,,,bin
+gip,W72,Page b 19,2,"Für manche politischen Ziele ist es in Ordnung, Gewalt einzusetzen.",,,,,,,,,,bin
+gip,W72,Page b 19,3,Ich stimme keiner der beiden Aussagen zu.,,,,,,,,,,bin
+gip,W72,Page b 20,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page b 20,1,interessant,,1-4-sehr,,,,,,,,cat
+gip,W72,Page b 21,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page b 21,1,abwechslungsreich,,1-4-sehr,,,,,,,,cat
+gip,W72,Page b 22,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page b 22,1,relevant,,1-4-sehr,,,,,,,,cat
+gip,W72,Page b 23,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page b 23,1,lang,,1-4-sehr,,,,,,,,cat
+gip,W72,Page b 24,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page b 24,1,schwierig,,1-4-sehr,,,,,,,,cat
+gip,W72,Page b 25,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page b 25,1,zu persönlich,,1-4-sehr,,,,,,,,cat
+gip,W72,Page b 26,0,Wie hat Ihnen dieser Teil der Befragung insgesamt gefallen?,,1-5-bewertung,,,,,,,,cat
+gip,W72,Page b 27,0,"Haben Sie noch weitere Anmerkungen zu diesem Teil der Befragung?
+
+Hier können Sie Lob oder Kritik zu diesem Abschnitt äußern.
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",,,,,,,,,,chr
+gip,W72,Page b 28,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",,,,,,,"exp72001 = 1, 2, und falls noch offene Module vorhanden sind",,,txt
+gip,W72,Page b 29,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch auf die Befragungsseite für diesen Monat weitergeleitet. Dort können Sie den nächsten Abschnitt der Befragung auswählen.",,,,,,,"exp72001 = 3, 4, 5 und falls noch offene Module vorhanden sind",,,txt
+gip,W72,Page b 30,0,"Sie haben den letzten Teil der Befragung für diesen Monat abgeschlossen.
+Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
+Sie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,"exp72001 =1, 2, 3, 4, 5 und keine offenen Module mehr vorhanden sind",,,txt
+gip,W72,Page c 1 Introduction,0,"Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, wir freuen uns, dass Sie die Befragung zum Thema Europawahl gestartet haben.
+Die Beantwortung dieses Teils der Befragung dauert ungefähr 6 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 1,50 Euro auf Ihrem Studienkonto gut.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,,,,txt
+gip,W72,Page c 2,0,"Im Juni 2024 fand die Wahl zum Europäischen Parlament statt. Viele Menschen in Deutschland sind aus dem einen oder anderen Grund nicht zur Wahl gegangen.
+
+Haben Sie selbst bei der Wahl zum Europäischen Parlament Ihre Stimme abgegeben?",,1-3-WBT,,,,,,,,cat
+gip,W72,Page c 3,0,Welche Partei haben Sie bei der Wahl zum Europäischen Parlament gewählt?,,1-12-Wahlentscheidung,,,,,CE72142 = 1 (wenn bei der Europawahl 2024 abgestimmt wurde),,,cat
+gip,W72,Page c 4,0,"Stellen Sie sich vor, Sie hätten abgestimmt: Für welche Partei hätten Sie bei der Wahl zum Europäischen Parlament gestimmt?",,1-12-Wahlentscheidung-II,,,,,CE72142 = 2 (wenn bei der Europawahl 2024 nicht abgestimmt wurde) ,,,cat
+gip,W72,Page c 5,0,Wie unzufrieden oder zufrieden sind Sie mit den Leistungen der EU?,,1-7-Zufriedenheit-EU,,,,,,,,cat
+gip,W72,Page c 6,0,"Man hört manchmal, die europäische Einigung sollte weiter vorangetrieben werden.
+Andere sagen, dass sie schon zu weit gegangen ist. Was ist Ihre Meinung?",,1-11-Vorantreiben,,,,,,,,cat
+gip,W72,Page c 7,0,Sollten wichtige Entscheidungen zur Wirtschaftspolitik eher auf nationaler Ebene in Deutschland oder eher auf EU-Ebene getroffen werden?,,1-11-National-EU,,,,,,,,cat
+gip,W72,Page c 8,0,Und sollten wichtige Entscheidungen zur Wirtschaftspolitik eher von den Bürgerinnen und Bürgern oder eher von Expertinnen und Experten getroffen werden?,,1-11-Zustaendigkeit,,,,,,,,cat
+gip,W72,Page c 9,0,Sollten wichtige Entscheidungen zur Migrationspolitik eher auf nationaler Ebene in Deutschland oder eher auf EU-Ebene getroffen werden?,,1-11-National-EU,,,,,,,,cat
+gip,W72,Page c 10,0,Und sollten wichtige Entscheidungen zur Migrationspolitik eher von den Bürgerinnen und Bürgern oder eher von Expertinnen und Experten getroffen werden?,,1-11-Zustaendigkeit,,,,,,,,cat
+gip,W72,Page c 11,0,Sollten wichtige Entscheidungen zur Verteidigungspolitik eher auf nationaler Ebene in Deutschland oder eher auf EU-Ebene getroffen werden?,,1-11-National-EU,,,,,,,,cat
+gip,W72,Page c 12,0,Und sollten wichtige Entscheidungen zur Verteidigungspolitik eher von den Bürgerinnen und Bürgern oder eher von Expertinnen und Experten getroffen werden?,,1-11-Zustaendigkeit,,,,,,,,cat
+gip,W72,Page c 13,0,"Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.
+
+Wenn die EU viele Entscheidungen träfe, denen die meisten Menschen nicht zustimmen, wäre es besser, die EU ganz abzuschaffen.",,1-7-Zustimmung,,,,,,,,cat
+gip,W72,Page c 14 ,0,Was ist Ihre Meinung: Sollte es in Deutschland eine Volksabstimmung über einen EU-Ausstieg oder den Verbleib in der EU geben?,,1-4-Ja-Eher-Nein,,,,,,,,cat
+gip,W72,Page c 15,0,"Angenommen, eine Abstimmung über die Mitgliedschaft Deutschlands in der Europäischen Union würde am kommenden Sonntag stattfinden: Wie würden Sie abstimmen?",,1-4-Verbleib-EU,,,,,,,,cat
+gip,W72,Page c 16,0,"Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.
+
+Wichtige EU-politische Fragen kann ich gut verstehen und einschätzen.",,1-7-Zustimmung,,,,,,,,cat
+gip,W72,Page c 17,0,"Bitte geben Sie an, wie sehr Sie der folgenden Aussage zustimmen.
+
+Die Politikerinnen und Politiker in der EU kümmern sich darum, was Leute wie ich denken.",,1-7-Zustimmung,,,,,,,,cat
+gip,W72,Page c 18,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page c 18,1,interessant,,1-4-sehr,,,,,,,,cat
+gip,W72,Page c 19,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page c 19,1,abwechslungsreich,,1-4-sehr,,,,,,,,cat
+gip,W72,Page c 20,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page c 20,1,relevant,,1-4-sehr,,,,,,,,cat
+gip,W72,Page c 21,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page c 21,1,lang,,1-4-sehr,,,,,,,,cat
+gip,W72,Page c 22,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page c 22,1,schwierig,,1-4-sehr,,,,,,,,cat
+gip,W72,Page c 23,0,"Bewertung dieser Umfrage
+
+Zum Ende dieses Abschnitts möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Themenblock gefallen hat.
+
+Fanden Sie diesen Teil des Fragebogens ...?",,,,,,,,,,txt
+gip,W72,Page c 23,1,zu persönlich,,1-4-sehr,,,,,,,,cat
+gip,W72,Page c 24,0,Wie hat Ihnen dieser Teil der Befragung insgesamt gefallen?,,1-5-bewertung,,,,,,,,cat
+gip,W72,Page c 25,0,"Haben Sie noch weitere Anmerkungen zu diesem Teil der Befragung?
+
+Hier können Sie Lob oder Kritik zu diesem Abschnitt äußern.
+
+Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",,,,,,,,,,chr
+gip,W72,Page c 26,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",,,,,,,"exp72001 = 1, 2, und falls noch offene Module vorhanden sind",,,txt
+gip,W72,Page c 27,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch auf die Befragungsseite für diesen Monat weitergeleitet. Dort können Sie den nächsten Abschnitt der Befragung auswählen.",,,,,,,"exp72001 = 3, 4, 5 und falls noch offene Module vorhanden sind",,,txt
+gip,W72,Page c 28,0,"Sie haben den letzten Teil der Befragung für diesen Monat abgeschlossen.
+Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
+Sie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,"exp72001 =1, 2, 3, 4, 5 und keine offenen Module mehr vorhanden sind",,,txt
+gip,W73,Page m 1 Introduction,0,"Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
+wir freuen uns, dass Sie unseren Fragebogen gestartet haben.
+[wenn exp72001 = .: Ab diesem Monat verändert sich der Aufbau unserer Studie etwas. Wie bisher auch befragen wir Sie alle zwei Monate zu verschiedenen gesellschaftlichen Themen. Anstelle eines zusammenhängenden Fragebogens ist die Befragung dabei ab sofort in mehrere kürzere Abschnitte zu verschiedenen Themen aufgeteilt.][wenn exp72001 != .: Wie beim letzten Mal ist die Befragung in mehrere kürzere Abschnitte zu verschiedenen Themen aufgeteilt.] Sie können dabei selbst entscheiden,[wenn exp73001 = 3,4,5: in welcher Reihenfolge Sie die verschiedenen Themen beantworten möchten und] ob Sie alle hintereinander ausfüllen oder zwischendurch eine Pause einlegen. Für jeden beantworteten Abschnitt schreiben wir Ihnen je nach dessen Länge einen Betrag auf Ihrem Studienkonto gut.
+
+Als Dankeschön für Ihre regelmäßige Teilnahme gibt es auch weiterhin einmal im Jahr einen Bonus von 10 Euro, wenn Sie an allen Befragungen im Jahr teilgenommen haben oder 5 Euro, wenn Sie lediglich eine Befragung verpasst haben. Hierfür ist es wichtig, dass Sie alle Themenabschnitte der jeweiligen Befragung beantworten.
+						
+Sie können die Befragung jederzeit auch unterbrechen und dann später fortfahren.
+
+Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:
+info@gesellschaft-im-wandel.de
+0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+
+Wir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!
+Ihr Forschungsteam der Universität Mannheim",,,,,"In Welle 72 (Juli 2024) wurden die Befragten in 5 gleich große Gruppen eingeteilt und Gruppenzuteilung in separater Variable exp72001 abgelegt. 
+Wenn exp72001 = . (wenn in W72 nicht teilgenommen wurde): Befragte zufällig in 5 Gruppen aufteilen und Zuteilung in separater Variable exp73001 ablegen.
+Wenn exp72001 != . (wenn in W72 teilgenommen wurde): exp73001 = exp72001.",,,,,txt
+gip,W73,Page m 2,0,"Dieses Mal geht es in unserer Studie um die folgenden Themen:
+· Demokratie und Wahlen
+· Bundestagswahlkandidaten und -kandidatinnen
+· Migrationspolitik
+Durch einen Klick auf „Weiter“ werden Sie zum ersten Themenabschnitt weitergeleitet.",,,,,,,"exp73001 = 2 (Teilnehmer, denen die Module in fester Reihenfolge angezeigt wird und die vorher eine Themenübersicht erhalten)",,,txt
+gip,W73,Page m 3,0,"[wenn noch kein Modul gestartet wurde: Dieses Mal geht es in unserer Studie um die folgenden Themen:]
+[wenn schon mindestens ein Modul gestartet wurde: Wir haben für diesen Monat noch Fragen zu folgenden Themen an Sie:]",,Modul,"Hier können Sie auswählen, zu welchem Thema Sie als [wenn noch kein Modul gestartet wurde: Erstes][wenn mindestens ein Modul gestartet wurde: Nächstes] Fragen beantworten möchten.",,"Hier können Sie auswählen, zu welchem Thema Sie als [wenn noch kein Modul gestartet wurde: Erstes][wenn mindestens ein Modul gestartet wurde: Nächstes] Fragen beantworten möchten.",,"exp73001 = 3,4,5 (wenn Teilnehmer die Reihenfolge der Module selbst aussuchen)",,,cat
+gip,W73,Page core 1 Introduction,0,"Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
+wir freuen uns, dass Sie die Befragung zum Thema Demokratie und Wahlen gestartet haben.
+Die Beantwortung dieses Teils der Befragung dauert ungefähr 4 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 1 Euro auf Ihrem Studienkonto gut.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,,,,txt
+gip,W73,Page core 2,0,"In der Politik reden die Leute häufig von „links“ und „rechts“. Wenn Sie diese Skala hier benutzen, wo würden Sie sich selbst einordnen, wenn 1 „links“ und 11 „rechts“ ist?",,1-11-Links-Rechts,"Bitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",,"Bitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",,,,,cat
+gip,W73,Page core 3,0,Sind Sie Mitglied einer politischen Partei?,,1-3-Mitglied,Bei dieser Frage können Sie nur eine Antwort geben. ,,Bei dieser Frage können Sie nur eine Antwort geben.,,,,,cat
+gip,W73,Page core 4,0,"Bitte geben Sie an, welche Partei das ist.",,1-8-Wahlentscheidung,,,,,"party membership1 = 2, 3 (wenn Befragte/-r Mitglied einer politischen Partei ist)",,,cat
+gip,W73,Page core 5,0,"Viele Leute in der Bundesrepublik neigen längere Zeit einer bestimmten politischen Partei zu, obwohl sie auch ab und zu mal eine andere Partei wählen. Wie ist das bei Ihnen: Neigen Sie – ganz allgemein gesprochen – einer bestimmten Partei zu?",,1-2-Ja-Nein,,,,,party membership1 = 1 (wenn Befragte/-r kein Mitglied einer politischen Partei ist) ,,,cat
+gip,W73,Page core 6,0,"Bitte geben Sie an, welche Partei das ist.",,1-8-Wahlentscheidung,,,,,AA73042 = 1 (wenn Befragte/-r einer Partei zuneigt) ,,,cat
+gip,W73,Page core 7,0,Wie stark oder wie schwach neigen Sie – alles zusammengenommen – dieser Partei zu?,,1-5-Stärke,,,,,"AA73043 = 1,2,3,4,5,7,8,9 (Wenn Teilnehmer einer bestimmten Partei zuneigen) oder AA73469 = 1,2,3,4,5,7,8,9 (Wenn Teilnehmer Mitglied einer bestimmten Partei sind)",,,cat
+gip,W73,Page core 8,0,"Wenn Sie an Ihren Bekanntenkreis denken, wie viele Ihrer Bekannten neigen ebenfalls dieser Partei zu? 
+Mit Bekannten meinen wir Personen, die Sie beim Namen kennen und mit denen Sie sich kurz unterhalten würden, wenn Sie sie auf der Straße oder beim Einkaufen treffen.",,1-5-Bekannte,,,,,"AA73043 = 1,2,3,4,5,7,8,9 (Wenn Teilnehmer einer bestimmten Partei zuneigen) oder AA73469 = 1,2,3,4,5,7,8,9 (Wenn Teilnehmer Mitglied einer bestimmten Partei sind)",,,cat
+gip,W73,Page core 9,0,"Wenn Sie an Ihren Bekanntenkreis denken, wie viele Ihrer Bekannten neigen ebenfalls keiner Partei zu? 
+Mit Bekannten meinen wir Personen, die Sie beim Namen kennen und mit denen Sie sich kurz unterhalten würden, wenn Sie sie auf der Straße oder beim Einkaufen treffen.",,1-5-Bekannte,,,,,AA73042 = 2 (wenn Befragte/-r keiner Partei zuneigt) ,,,cat
+gip,W73,Page core 10,0,"Falls Sie bei der letzten Bundestagswahl am 26. September 2021 gewählt haben, für welche Partei haben Sie mit Ihrer Zweitstimme gestimmt?
+Die Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.",,1-10-Wahlentscheidung,Bei dieser Frage können Sie nur eine Antwort geben.,,Bei dieser Frage können Sie nur eine Antwort geben.,,,,,cat
+gip,W73,Page core 11,0,Wie zufrieden oder unzufrieden sind Sie mit den Leistungen der gegenwärtigen Bundesregierung?,,1-11-Zufriedenheit,,,,,,,,cat
+gip,W73,Page core 12,0,"Wie zufrieden sind Sie mit der Art und Weise, wie die Demokratie in der Bundesrepublik Deutschland funktioniert?",,1-11-Zufriedenheit,,,,,,,,cat
+gip,W73,Page core 13,0,"Wie ist das bei Ihnen persönlich: Fühlen Sie sich frei oder unfrei, in der Öffentlichkeit zu sagen, was Sie über die gegenwärtige Politik denken?",,1-4-Frei,,,,,,,,cat
+gip,W73,Page core 14,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht?
+Die Politik behandelt Menschen wie mich mit Respekt.",,1-5-Zustimmung,,,,,,,,cat
+gip,W73,Page core 15,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht?
+Die Politiker kümmern sich darum, was Leute wie ich denken.",,1-5-Zustimmung,,,,,,,,cat
+gip,W73,Page core 16,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht?
+Auch wenn sie nicht perfekt ist und einige Probleme hat, ist die Demokratie trotzdem die beste Regierungsform.",,1-5-Zustimmung,,,,,,,,cat
+gip,W73,Page core 17,0,Wie hat Ihnen dieser Teil der Befragung gefallen?,,Bewertung-1-5,,,,,,,,cat
+gip,W73,Page core 18,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",,,,,,,"exp73001 = 1, 2, und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",,,txt
+gip,W73,Page core 19,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch auf die nächste Seite weitergeleitet. Dort können Sie die Befragung fortführen.",,,,,,,"exp73001 = 3, 4, 5 und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",,,txt
+gip,W73,Page 1 a Introduction,0,"Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
+wir freuen uns, dass Sie die Befragung zum Thema Bundestagswahlkandidaten und  -kandidatinnen gestartet haben.
+Die Beantwortung dieses Teils der Befragung dauert ungefähr 3 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 0,75 Euro auf Ihrem Studienkonto gut.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,,,,txt
+gip,W73,Page a 2,0,"Stellen Sie sich vor, Sie hätten die Wahl zwischen zwei verschiedenen Kandidatinnen oder Kandidaten für den Deutschen Bundestag. Im Folgenden sind einige Eigenschaften der beiden Kandidaten aufgeführt. Es kann sein, dass Ihnen eine etwas ungewöhnliche Person beschrieben wird. Uns interessiert dennoch Ihre persönliche Einschätzung.
+Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]
+Geschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]
+Beruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]
+Partei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]
+Positionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]
+Aktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]
+
+
+
+Auch wenn Sie unentschieden sind oder keine der Möglichkeiten wählen würden, würden Sie eher [wenn expCP73057b_1 = 1: Kandidatin A][wenn expCP73057b_1 = 2: Kandidat A] oder [wenn expCP73057b_2 = 1: Kandidatin B][wenn expCP73057b_2 = 2: Kandidat B] wählen?",,Kandidat-A-B_1,,,"[b[Conjoint Experiment:]b] In der folgenden Frage bekommen die Befragten zwei fiktive Kandidaten für den Deutschen Bundestag in tabellarischer Form vorgestellt und sollen dann entscheiden, welchen der beiden Kandidaten sie wählen würden. Jedem Befragten soll randomisiert zwei Kandidaten jeweils bestehend aus einer Kombination von Werten verschiedener Attribute zugewiesen werden. Die in der jeweiligen Entscheidung verwendeten Werte der Attribute sollen in einer eigenen Variable abgelegt werden. Dabei sollen die Kandidaten nicht in allen Attributen übereinstimmen.
+
+[b[Attribute: Alter A / Alter B]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73057a_1 = 1, dann: 38 Jahre
+- wenn expCP73057a_1 = 2, dann: 46 Jahre
+- wenn expCP73057a_1 = 3, dann: 54 Jahre
+- wenn expCP73057a_1 = 4, dann: 62 Jahre
+- wenn expCP73057a_1 = 5, dann: 70 Jahre
+
+[b[Person B]b]
+- wenn expCP73057a_2 = 1, dann: 38 Jahre
+- wenn expCP73057a_2 = 2, dann: 46 Jahre
+- wenn expCP73057a_2 = 3, dann: 54 Jahre
+- wenn expCP73057a_2 = 4, dann: 62 Jahre
+- wenn expCP73057a_2 = 5, dann: 70 Jahre
+
+[b[Attribute: Geschlecht A / Geschlecht B]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73057b_1 = 1, dann: Weiblich
+- wenn expCP73057b_1 = 2, dann: Männlich
+
+[b[Person B]b]
+- wenn expCP73057b_2 = 1, dann: Weiblich
+- wenn expCP73057b_2 = 2, dann: Männlich
+
+[b[Attribute: Beruf A / Beruf B]b]
+[i[Filter:]i]
+[b[Person A]b]
+expCP73057b_1 = 2: 
+- wenn expCP73057c_1 = 1, dann: Rechtsanwalt
+- wenn expCP73057c_1 = 2, dann: Selbstständiger Unternehmer
+- wenn expCP73057c_1 = 3, dann: Lehrer
+- wenn expCP73057c_1 = 4, dann: Handwerker
+- wenn expCP73057c_1 = 5, dann: Kein Berufsabschluss
+
+expCP73057b_1 = 1: 
+- wenn expCP73057c_1 = 1, dann: Rechtsanwältin
+- wenn expCP73057c_1 = 2, dann: Selbstständige Unternehmerin
+- wenn expCP73057c_1 = 3, dann: Lehrerin
+- wenn expCP73057c_1 = 4, dann: Handwerkerin
+- wenn expCP73057c_1 = 5, dann: Kein Berufsabschluss
+
+[b[Person B]b]
+expCP73057b_2 = 2:
+- wenn expCP73057c_2 = 1, dann: Rechtsanwalt
+- wenn expCP73057c_2 = 2, dann: Selbstständiger Unternehmer
+- wenn expCP73057c_2 = 3, dann: Lehrer
+- wenn expCP73057c_2 = 4, dann: Handwerker
+- wenn expCP73057c_2 = 5, dann: Kein Berufsabschluss
+
+expCP73057b_2 = 1:
+- wenn expCP73057c_2 = 1, dann: Rechtsanwältin
+- wenn expCP73057c_2 = 2, dann: Selbstständige Unternehmerin
+- wenn expCP73057c_2 = 3, dann: Lehrerin
+- wenn expCP73057c_2 = 4, dann: Handwerkerin
+- wenn expCP73057c_2 = 5, dann: Kein Berufsabschluss
+
+[b[Attribute: Partei A / Partei B]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73057d_1 = 1, dann: CDU
+- wenn expCP73057d_1 = 2, dann: SPD
+- wenn expCP73057d_1 = 3, dann: Grüne
+- wenn expCP73057d_1 = 4, dann: AfD
+- wenn expCP73057d_1 = 5, dann: Bündnis Sahra Wagenknecht
+- wenn expCP73057d_1 = 6, dann: FDP
+- wenn expCP73057d_1 = 7, dann: parteilos
+
+[b[Person B]b]
+- wenn expCP73057d_2 = 1, dann: CDU
+- wenn expCP73057d_2 = 2, dann: SPD
+- wenn expCP73057d_2 = 3, dann: Grüne
+- wenn expCP73057d_2 = 4, dann: AfD
+- wenn expCP73057d_2 = 5, dann: Bündnis Sahra Wagenknecht
+- wenn expCP73057d_2 = 6, dann: FDP
+- wenn expCP73057d_2 = 7, dann: parteilos
+
+[b[Attribute: Position_1 A / Position_1 B]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73057e_1 = 1, dann: Die staatlichen Sozialleistungen sollen ausgebaut werden.
+- wenn expCP73057e_1 = 2, dann: Die staatlichen Sozialleistungen sollen weder ausgebaut noch eingeschränkt werden.
+- wenn expCP73057e_1 = 3, dann: Die staatlichen Sozialleistungen sollen eingeschränkt werden.
+
+[b[Person B]b]
+- wenn expCP73057e_2 = 1, dann: Die staatlichen Sozialleistungen sollen ausgebaut werden.
+- wenn expCP73057e_2 = 2, dann: Die staatlichen Sozialleistungen sollen weder ausgebaut noch eingeschränkt werden.
+- wenn expCP73057e_2 = 3, dann: Die staatlichen Sozialleistungen sollen eingeschränkt werden.
+
+[b[Attribute: Position_2 A / Position_2 B]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73057f_1 = 1, dann: Die Politik sollte alle Bürger mit Respekt behandeln.
+- wenn expCP73057f_1 = 2, dann: [leer]
+- wenn expCP73057f_1 = 3, dann: Die Politik muss die Bürger abholen und ihnen politische Entscheidungen besser erklären.
+
+[b[Person B]b]
+- wenn expCP73057f_2 = 1, dann: Die Politik sollte alle Bürger mit Respekt behandeln.
+- wenn expCP73057f_2 = 2, dann: [leer]
+- wenn expCP73057f_2 = 3, dann: Die Politik muss die Bürger abholen und ihnen politische Entscheidungen besser erklären.
+
+[b[Attribute: Position_3 A / Position_3 B]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73057g_1 = 1, dann: Die Zuzugsmöglichkeiten von Ausländern sollen erleichtert werden.
+- wenn expCP73057g_1 = 2, dann: Die Zuzugsmöglichkeiten von Ausländern sollen weder eingeschränkt noch erleichtert werden.
+- wenn expCP73057g_1 = 3, dann: Die Zuzugsmöglichkeiten von Ausländern sollen eingeschränkt werden.
+
+[b[Person B]b]
+- wenn expCP73057g_2 = 1, dann: Die Zuzugsmöglichkeiten von Ausländern sollen erleichtert werden.
+- wenn expCP73057g_2 = 2, dann: Die Zuzugsmöglichkeiten von Ausländern sollen weder eingeschränkt noch erleichtert werden.
+- wenn expCP73057g_2 = 3, dann: Die Zuzugsmöglichkeiten von Ausländern sollen eingeschränkt werden.
+
+[b[Attribute: Aktuelle Situation A / Aktuelle Situation B]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73057i_1 = 1, dann: Wird wegen extremen Äußerungen zum Thema Migration vom Verfassungsschutz beobachtet.
+- wenn expCP73057i_1 = 2, dann: Muss sich wegen extremen Äußerungen zum Thema Migration vor Gericht verantworten.
+- wenn expCP73057i_1 = 3, dann: Wird wegen extremen Äußerungen zum Thema Umverteilung vom Verfassungsschutz beobachtet.
+- wenn expCP73057i_1 = 4, dann: Muss sich wegen extremen Äußerungen zum Thema Umverteilung vor Gericht verantworten.
+- wenn expCP73057i_1 = 5, dann: [leer]
+
+[b[Person B]b]
+- wenn expCP73057i_2 = 1, dann: Wird wegen extremen Äußerungen zum Thema Migration vom Verfassungsschutz beobachtet.
+- wenn expCP73057i_2 = 2, dann: Muss sich wegen extremen Äußerungen zum Thema Migration vor Gericht verantworten.
+- wenn expCP73057i_2 = 3, dann: Wird wegen extremen Äußerungen zum Thema Umverteilung vom Verfassungsschutz beobachtet.
+- wenn expCP73057i_2 = 4, dann: Muss sich wegen extremen Äußerungen zum Thema Umverteilung vor Gericht verantworten.
+- wenn expCP73057i_2 = 5, dann: [leer]",,,,,cat
+gip,W73,Page a 3,0,"Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]
+Geschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]
+Beruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]
+Partei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]
+Positionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]
+Aktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]
+
+Was denken Sie, wie ernst nimmt [wenn expCP73057b_1 = 1: Kandidatin A][wenn expCP73057b_1 = 2: Kandidat A] die Sorgen der Menschen in Deutschland?",,Ernst-1-11,,,,,,,,cat
+gip,W73,Page a 4,0,"Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]
+Geschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]
+Beruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]
+Partei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]
+Positionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]
+Aktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]
+
+Und was denken Sie, wie ernst nimmt [wenn expCP73057b_2 = 1: Kandidatin B][wenn expCP73057b_2 = 2: Kandidat B] die Sorgen der Menschen in Deutschland?",,Ernst-1-11,,,,,,,,cat
+gip,W73,Page a 5,0,"Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]
+Geschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]
+Beruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]
+Partei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]
+Positionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]
+Aktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]
+
+Was denken Sie, wie extrem ist [wenn expCP73057b_1 = 1: Kandidatin A][wenn expCP73057b_1 = 2: Kandidat A]?",,Extrem-1-11,,,,,,,,cat
+gip,W73,Page a 6,0,"Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]
+Geschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]
+Beruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]
+Partei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]
+Positionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]
+Aktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]
+
+Und was denken Sie, wie extrem ist [wenn expCP73057b_2 = 1: Kandidatin B][wenn expCP73057b_2 = 2: Kandidat B]?",,Extrem-1-11,,,,,,,,cat
+gip,W73,Page a 7,0,"Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]
+Geschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]
+Beruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]
+Partei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]
+Positionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]
+Aktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]
+
+Was denken Sie, sollte [wenn expCP73057b_1 = 1: Kandidatin A][wenn expCP73057b_1 = 2: Kandidat A] überhaupt zur Wahl um ein politisches Amt antreten dürfen?",,Ja-Nein,,,,,,,,cat
+gip,W73,Page a 8,0,"Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]
+Geschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]
+Beruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]
+Partei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]
+Positionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]
+Aktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]
+
+Und was denken Sie, sollte [wenn expCP73057b_2 = 1: Kandidatin B][wenn expCP73057b_2 = 2: Kandidat B] überhaupt zur Wahl um ein politisches Amt antreten dürfen?",,Ja-Nein,,,,,,,,cat
+gip,W73,Page a 9,0,Wie hat Ihnen dieser Teil der Befragung gefallen?,,Bewertung-1-5,,,,,,,,cat
+gip,W73,Page a 10,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",,,,,,,"exp73001 = 1, 2, und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",,,txt
+gip,W73,Page a 11,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung! 
+Sie werden in Kürze automatisch auf die nächste Seite weitergeleitet. Dort können Sie die Befragung fortführen.",,,,,,,"exp73001 = 3, 4, 5 und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",,,txt
+gip,W73,Page b 1 Introduction,0,"Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
+wir freuen uns, dass Sie die Befragung zum Thema Migrationspolitik gestartet haben.
+Die Beantwortung dieses Teils der Befragung dauert ungefähr 6 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 1,50 Euro auf Ihrem Studienkonto gut.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,,,,txt
+gip,W73,Page b 2,0,"Stellen Sie sich vor, Sie hätten die Wahl zwischen zwei verschiedenen Kandidatinnen oder Kandidaten für den Deutschen Bundestag. Im Folgenden sind einige politischen Positionen der beiden Kandidaten aufgeführt. Es kann sein, dass Ihnen eine etwas ungewöhnliche Person beschrieben wird. Uns interessiert dennoch Ihre persönliche Einschätzung.
+Einwanderung: Kandidat A [expCP73190a_1]; Kandidat B [expCP73190a_2]
+Integration: Kandidat A [expCP73190b_1]; Kandidat B [expCP73190b_2]
+Staatsbürgerschaft: Kandidat A [expCP73190c_1]; Kandidat B [expCP73190c_2]
+Klima: Kandidat A [expCP73190d_1]; Kandidat B [expCP73190d_2]
+Sozialleistungen: Kandidat A [expCP73190e_1]; Kandidat B [expCP73190e_2]
+Gleichstellungspolitik: Kandidat A [expCP73190f_1]; Kandidat B [expCP73190f_2]
+Antidiskriminierung: Kandidat A [expCP73190g_1]; Kandidat B [expCP73190g_2]
+Militärausgaben: Kandidat A [expCP73190h_1]; Kandidat B [expCP73190h_2]
+Entwicklungshilfe: Kandidat A [expCP73190i_1]; Kandidat B [expCP73190i_2]
+Freiheit/Sicherheit: Kandidat A [expCP73190j_1]; Kandidat B [expCP73190j_2]
+
+Auch wenn Sie unentschieden sind oder keine der Möglichkeiten wählen würden, würden Sie eher Kandidat A oder Kandidat B wählen?",,Kandidat-A-B_2,,,"[b[Conjoint Experiment:]b] In der folgenden Frage bekommen die Befragten zwei fiktive Kandidaten für den Deutschen Bundestag in tabellarischer Form vorgestellt und sollen dann entscheiden, welchen der beiden Kandidaten sie wählen würden. Jedem Befragten soll randomisiert zwei Kandidaten jeweils bestehend aus einer Kombination von Werten verschiedener Attribute zugewiesen werden. Die in der jeweiligen Entscheidun verwendeten Werte der Attribute sollen in einer eigenen Variable abgelegt werden. Dabei sollen die Kandidaten nicht in allen Attributen übereinstimmen.
+
+[b[Attribute: Einwanderung]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73190a_1 = 1, dann: Offene Einwanderungspolitik
+- wenn expCP73190a_1 = 2, dann: Restriktive Einwanderungspolitik
+
+[b[Person B]b]
+- wenn expCP73190a_2 = 1, dann: Offene Einwanderungspolitik
+- wenn expCP73190a_2 = 2, dann: Restriktive Einwanderungspolitik
+
+[b[Attribute: Integration]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73190b_1 = 1, dann: Volle Rechte für Einwanderer
+- wenn expCP73190b_1 = 2, dann: Nur begrenzte Rechte für Einwanderer
+
+[b[Person B]b]
+- wenn expCP73190b_2 = 1, dann: Volle Rechte für Einwanderer
+- wenn expCP73190b_2 = 2, dann: Nur begrenzte Rechte für Einwanderer
+
+[b[Attribute: Staatsbürgerschaft]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73190c_1 = 1, dann: Einfacher Zugang zur deutschen Staatsbürgerschaft
+- wenn expCP73190c_1 = 2, dann: Restriktiver Zugang zur deutschen Staatsbürgerschaft
+
+[b[Person B]b]
+- wenn expCP73190c_2 = 1, dann: Einfacher Zugang zur deutschen Staatsbürgerschaft
+- wenn expCP73190c_2 = 2, dann: Restriktiver Zugang zur deutschen Staatsbürgerschaft
+
+[b[Attribute: Klima]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73190d_1 = 1, dann: Mehr Klimaschutz auf Kosten von Wirtschaftswachstum
+- wenn expCP73190d_1 = 2, dann: Mehr Wirtschaftswachstum auf Kosten von Klimaschutz
+
+[b[Person B]b]
+- wenn expCP73190d_2 = 1, dann: Mehr Klimaschutz auf Kosten von Wirtschaftswachstum
+- wenn expCP73190d_2 = 2, dann: Mehr Wirtschaftswachstum auf Kosten von Klimaschutz
+
+[b[Attribute: Sozialleistungen]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73190e_1 = 1, dann: Mehr Sozialleistungen und höhere Steuern
+- wenn expCP73190e_1 = 2, dann: Weniger Sozialleistungen und niedrigere Steuern
+
+[b[Person B]b]
+- wenn expCP73190e_2 = 1, dann: Mehr Sozialleistungen und höhere Steuern
+- wenn expCP73190e_2 = 2, dann: Weniger Sozialleistungen und niedrigere Steuern
+
+
+[b[Attribute: Gleichstellungspolitik]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73190f_1 = 1, dann: Ausbau von Gleichstellungspolitik und Frauenförderung 
+- wenn expCP73190f_1 = 2, dann: Reduzierung von Gleichstellungspolitik und Frauenförderung
+
+[b[Person B]b]
+- wenn expCP73190f_2 = 1, dann: Ausbau von Gleichstellungspolitik und Frauenförderung 
+- wenn expCP73190f_2 = 2, dann: Reduzierung von Gleichstellungspolitik und Frauenförderung
+
+[b[Attribute: Antidiskriminierung]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73190g_1 = 1, dann: Ausbau von Antidiskriminierungspolitik für gesellschaftliche Minderheiten
+- wenn expCP73190g_1 = 2, dann: Reduzierung von Antidiskriminierungspolitik für gesellschaftliche Minderheiten
+
+[b[Person B]b]
+- wenn expCP73190g_2 = 1, dann: Ausbau von Antidiskriminierungspolitik für gesellschaftliche Minderheiten
+- wenn expCP73190g_2 = 2, dann: Reduzierung von Antidiskriminierungspolitik für gesellschaftliche Minderheiten
+
+[b[Attribute: Militärausgaben]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73190h_1 = 1, dann: Erhöhung der Militärausgaben
+- wenn expCP73190h_1 = 2, dann: Reduzierung der Militärausgaben
+
+[b[Person B]b]
+- wenn expCP73190h_2 = 1, dann: Erhöhung der Militärausgaben
+- wenn expCP73190h_2 = 2, dann: Reduzierung der Militärausgaben
+
+[b[Attribute: Entwicklungshilfe]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn expCP73190i_1 = 1, dann: Erhöhung der Entwicklungshilfe
+- wenn expCP73190i_1 = 2, dann: Reduzierung der Entwicklungshilfe
+
+[b[Person B]b]
+- wenn expCP73190i_2 = 1, dann: Erhöhung der Entwicklungshilfe
+- wenn expCP73190i_2 = 2, dann: Reduzierung der Entwicklungshilfe
+
+[b[Attribute: Freiheit/Sicherheit]b]
+[i[Filter:]i]
+[b[Person A]b]
+- wenn: expCP73190j_1 = 1, dann: Mehr Freiheiten auf Kosten von Sicherheit
+- wenn: expCP73190j_1 = 1, dann: Mehr Sicherheit auf Kosten von Freiheiten
+
+[b[Person B]b]
+- wenn: expCP73190j_2 = 1, dann: Mehr Freiheiten auf Kosten von Sicherheit
+- wenn: expCP73190j_2 = 1, dann: Mehr Sicherheit auf Kosten von Freiheiten",,,,,cat
+gip,W73,Page b 3,0,"An wen denken Sie, wenn Sie an die Menschen denken, die im letzten Jahr nach Deutschland gekommen sind, um hier zu leben?",,,,,,,,,,chr
+gip,W73,Page b 4,0,"Wenn Sie an die Menschen denken, die im letzten Jahr nach Deutschland gekommen sind, um hier zu leben: Wie hoch ist der Anteil derjenigen unter ihnen, die eingewandert sind, um hier zu arbeiten?",,,Bitte geben Sie Ihre Schätzung in Prozent an.,,Bitte geben Sie Ihre Schätzung in Prozent an.,,,,,int
+gip,W73,Page b 5,0,"Jetzt interessiert uns die wahrscheinliche Spanne des Anteils derjenigen, die im letzten Jahr nach Deutschland eingewandert sind, um hier zu arbeiten.
+
+Von den Menschen, die im letzten Jahr nach Deutschland gekommen sind: Wie hoch ist der Anteil derjenigen unter ihnen, die eingewandert sind, um hier zu arbeiten, mindestens?",,,Bitte geben Sie die wahrscheinliche Untergrenze in Prozent an.,,Bitte geben Sie die wahrscheinliche Untergrenze in Prozent an.,,,,,int
+gip,W73,Page b 6,0,"Wie hoch ist der Anteil derjenigen unter ihnen, die eingewandert sind, um hier zu arbeiten, höchstens?",,,Bitte geben Sie die wahrscheinliche Obergrenze in Prozent an.	,,Bitte geben Sie die wahrscheinliche Obergrenze in Prozent an.,,,,,int
+gip,W73,Page b 7,0,"Wenn Sie an die Menschen denken, die im letzten Jahr nach Deutschland gekommen sind, um hier zu leben: Wie hoch ist der Anteil derjenigen unter ihnen, die aus einem Land der EU kommen?",,,Bitte geben Sie Ihre Schätzung in Prozent an.,,Bitte geben Sie Ihre Schätzung in Prozent an.,,,,,int
+gip,W73,Page b 8 ,0,"Jetzt interessiert uns die wahrscheinliche Spanne des Anteils derjenigen, die im letzten Jahr aus einem Land der EU nach Deutschland eingewandert sind.
+
+Von den Menschen, die im letzten Jahr nach Deutschland gekommen sind: Wie hoch ist der Anteil derjenigen unter ihnen, die aus einem Land der EU kommen, mindestens?",,,Bitte geben Sie die wahrscheinliche Untergrenze in Prozent an.,,Bitte geben Sie die wahrscheinliche Untergrenze in Prozent an.,,,,,int
+gip,W73,Page b 9,0,"Und wie hoch ist der Anteil derjenigen unter ihnen, die aus einem Land der EU kommen, höchstens?",,,Bitte geben Sie die wahrscheinliche Obergrenze in Prozent an.,,Bitte geben Sie die wahrscheinliche Obergrenze in Prozent an.,,,,,int
+gip,W73,Page b 10 ,0,"Was würden Sie sagen: Ist es im Allgemeinen gut oder schlecht für die deutsche Wirtschaft, dass Einwanderer hierherkommen?",,1-11-Bewertung,,,,,,,,cat
+gip,W73,Page b 11,0,"Und würden Sie sagen, dass das kulturelle Leben in Deutschland im Allgemeinen durch Einwanderer untergraben oder bereichert wird?",,1-11-Bereicherung,,,,,,,,cat
+gip,W73,Page b 12,0,"Wie gut oder schlecht ist es Ihrer Meinung nach, wenn Menschen aus anderen Ländern das Recht haben, nach Deutschland einzuwandern?",,1-11-Bewertung,,,,,,,,cat
+gip,W73,Page b 13,0,"Sind die derzeitigen Einwanderungsgesetze in Deutschland Ihrer Meinung nach zu großzügig, zu restriktiv oder genau richtig?",,1-10-Restriktiv,,,,,,,,cat
+gip,W73,Page b 14,0,"Sind die derzeitigen Rechte für Einwanderer in Deutschland Ihrer Meinung nach zu großzügig, zu restriktiv oder genau richtig?",,1-10-Restriktiv,,,,,,,,cat
+gip,W73,Page b 15,0,"Sind die derzeitigen Einwanderungszahlen nach Deutschland Ihrer Meinung nach zu groß, zu niedrig oder genau richtig?",,1-10-Hoch-Niedrig,,,,,,,,cat
+gip,W73,Page b 16,0,"Welche der folgenden Dinge wären Sie bereit zu tun, um Ihre Position zur Migrationspolitik zu unterstützen?",,,"Bitte wählen Sie alle aus, die zutreffen.",,"Bitte wählen Sie alle aus, die zutreffen.",,,,,txt
+gip,W73,Page b 16,1,"Für Parteien stimmen, die mit meiner Position zu Migration übereinstimmen",,,,,,,,,,bin
+gip,W73,Page b 16,2,An politischen Diskussionen im Alltag teilnehmen,,,,,,,,,,bin
+gip,W73,Page b 16,3,Jemanden von meinen Positionen überzeugen,,,,,,,,,,bin
+gip,W73,Page b 16,4,Einen Anstecker tragen,,,,,,,,,,bin
+gip,W73,Page b 16,5,Meinungen in sozialen Medien teilen,,,,,,,,,,bin
+gip,W73,Page b 16,6,Kontakt mit Mitgliedern des Bundestags aufnehmen,,,,,,,,,,bin
+gip,W73,Page b 16,7,Einer Partei oder Organisation Geld spenden,,,,,,,,,,bin
+gip,W73,Page b 16,8,An einer Demonstration teilnehmen,,,,,,,,,,bin
+gip,W73,Page b 16,9,Aktives Mitglied einer Partei oder Organisation werden,,,,,,,,,,bin
+gip,W73,Page b 16,10,Ein Amt in einer Partei oder Organisation übernehmen,,,,,,,,,,bin
+gip,W73,Page b 16,11,Keines dieser Dinge,,,,,,,,,,bin
+gip,W73,Page b 17,0,Wie hat Ihnen dieser Teil der Befragung gefallen?,,1-5-bewertung,,,,,,,,cat
+gip,W73,Page b 18,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",,,,,,,"exp73001 = 1, 2, und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",,,txt
+gip,W73,Page b 19,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung! 
+Sie werden in Kürze automatisch auf die nächste Seite weitergeleitet. Dort können Sie die Befragung fortführen.",,,,,,,"exp73001 = 3, 4, 5 und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",,,txt
+gip,W73,Page m 4,0,"Bewertung dieser Umfrage
+
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+
+Fanden Sie den Fragebogen ...?",,,,,,,"exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,txt
+gip,W73,Page m 4,1,interessant,,1-4-sehr,,,,,,,,cat
+gip,W73,Page m 5,0,"Bewertung dieser Umfrage
+
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+
+Fanden Sie den Fragebogen ...?",,,,,,,"exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,txt
+gip,W73,Page m 5,1,abwechslungsreich,,1-4-sehr,,,,,,,,cat
+gip,W73,Page m 6,0,"Bewertung dieser Umfrage
+
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+
+Fanden Sie den Fragebogen ...?",,,,,,,"exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,txt
+gip,W73,Page m 6,1,relevant,,1-4-sehr,,,,,,,,cat
+gip,W73,Page m 7,0,"Bewertung dieser Umfrage
+
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+
+Fanden Sie den Fragebogen ...?",,,,,,,"exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,txt
+gip,W73,Page m 7,1,lang,,1-4-sehr,,,,,,,,cat
+gip,W73,Page m 8,0,"Bewertung dieser Umfrage
+
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+
+Fanden Sie den Fragebogen ...?",,,,,,,"exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,txt
+gip,W73,Page m 8,1,schwierig,,1-4-sehr,,,,,,,,cat
+gip,W73,Page m 9,0,"Bewertung dieser Umfrage
+
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+
+Fanden Sie den Fragebogen ...?",,,,,,,"exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,txt
+gip,W73,Page m 9,1,zu persönlich,,1-4-sehr,,,,,,,,cat
+gip,W73,Page m 10,0,Wie hat Ihnen die Befragung insgesamt gefallen?,,1-5-bewertung,,,,,"exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,cat
+gip,W73,Page m 11,0,"Haben Sie noch weitere Anmerkungen?
+
+Hier können Sie Lob oder Kritik zum Fragebogen äußern. Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",,,,,,,"exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,chr
+gip,W73,Page m 12,0,"Sie haben den letzten Teil der Befragung für diesen Monat abgeschlossen. 
+Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
+Sie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,"exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,txt
+gip,W74,Page m 1 Introduction,0,"Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
+wir freuen uns, dass Sie unseren Fragebogen gestartet haben.
+[wenn exp72001 = . und exp74001 = .:Ab diesem Monat verändert sich der Aufbau unserer Studie etwas. Wie bisher auch befragen wir Sie alle zwei Monate zu verschiedenen gesellschaftlichen Themen. Anstelle eines zusammenhängenden Fragebogens ist die Befragung dabei ab sofort in mehrere kürzere Abschnitte zu verschiedenen Themen aufgeteilt.][wenn exp74001 != .:Wie beim letzten Mal ist die Befragung in mehrere kürzere Abschnitte zu verschiedenen Themen aufgeteilt.] Sie können dabei selbst entscheiden,[wenn exp74001 = 3,4,5: in welcher Reihenfolge Sie die verschiedenen Themen beantworten möchten und] ob Sie alle hintereinander ausfüllen oder zwischendurch eine Pause einlegen. Für jeden beantworteten Abschnitt schreiben wir Ihnen je nach dessen Länge einen Betrag auf Ihrem Studienkonto gut.
+Als Dankeschön für Ihre regelmäßige Teilnahme gibt es auch weiterhin einmal im Jahr einen Bonus von 10 Euro, wenn Sie an allen Befragungen im Jahr teilgenommen haben oder 5 Euro, wenn Sie lediglich eine Befragung verpasst haben. Hierfür ist es wichtig, dass Sie alle Themenabschnitte der jeweiligen Befragung beantworten.
+Sie können die Befragung jederzeit auch unterbrechen und dann später fortfahren.
+Sollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:
+info@gesellschaft-im-wandel.de
+0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+Wir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!
+Ihr Forschungsteam von der Universität Mannheim",,,,,"In Welle 72 (Juli 2024) und Welle 73 (September 2024) wurden die Befragten in 5 gleich große Gruppen eingeteilt und Gruppenzuteilung in separaten Variablen exp72001 und abgelegt. 
+Wenn exp72001 = . und exp73001 = . (wenn in W72 und W73 nicht teilgenommen wurde): Befragte zufällig in 5 Gruppen aufteilen und Zuteilung in separater Variable exp74001 ablegen.
+Wenn exp72001 != . oder exp73001 != . (wenn in W72 und/oder W73 eilgenommen wurde): exp74001 = exp73001 = exp72001.",,,,,txt
+gip,W74,Page m 2,0,"Dieses Mal geht es in unserer Studie um die folgenden Themen:
+• Beschäftigung und Zufriedenheit
+• Gesellschaftliche Entwicklungen
+• Diskriminierung und Sicherheit
+Durch einen Klick auf „Weiter“ werden Sie zum ersten Themenabschnitt weitergeleitet.",,,,,,,"exp74001 = 2 (Teilnehmer, denen die Module in fester Reihenfolge angezeigt wird und die vorher eine Themenübersicht erhalten)",,,txt
+gip,W74,Page m 3,0,"[wenn noch kein Modul gestartet wurde: Dieses Mal geht es in unserer Studie um die folgenden Themen:]
+[wenn schon mindestens ein Modul gestartet wurde: Wir haben für diesen Monat noch Fragen zu folgenden Themen an Sie:]",,Modul,"Hier können Sie auswählen, zu welchem Thema Sie als [wenn noch kein Modul gestartet wurde: Erstes][wenn mindestens ein Modul gestartet wurde: Nächstes] Fragen beantworten möchten.",,"Hier können Sie auswählen, zu welchem Thema Sie als [wenn noch kein Modul gestartet wurde: Erstes][wenn mindestens ein Modul gestartet wurde: Nächstes] Fragen beantworten möchten.",,"exp74001 = 3,4,5 (wenn Teilnehmer die Reihenfolge der Module selbst aussuchen)",,,cat
+gip,W74,Page core 1 Introduction,0,"Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
+wir freuen uns, dass Sie die Befragung zum Thema Beschäftigung und Zufriedenheit gestartet haben. 
+Wie bereits der Titel unserer Studie „Gesellschaft im Wandel“ sagt, möchten wir auch erforschen, welche Veränderungen und Entwicklungen sich bei den Studienteilnehmerinnen und Studienteilnehmern im Laufe der Zeit ergeben. 
+Daher bitten wir Sie bei diesem Abschnitt einige Fragen aus dem vergangenen Jahr erneut zu beantworten. 
+Die Beantwortung dieses Teils der Befragung dauert ungefähr 4 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 1 Euro auf Ihrem Studienkonto gut.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,,,,txt
+gip,W74,Page core 2,0,"Im Folgenden sehen Sie eine Liste mit (beruflichen) Tätigkeiten. Bitte geben Sie alle an, die aktuell auf Sie zutreffen.",,,Bei dieser Frage können Sie mehrere Antworten geben.,,Bei dieser Frage können Sie mehrere Antworten geben.,,,,,txt
+gip,W74,Page core 2,1,Vollzeiterwerbstätig,,,,,,,,,,bin
+gip,W74,Page core 2,2,Teilzeiterwerbstätig,,,,,,,,,,bin
+gip,W74,Page core 2,3,"Altersteilzeit (unabhängig davon, ob in der Arbeits- oder Freistellungsphase befindlich)",,,,,,,,,,bin
+gip,W74,Page core 2,4,"Geringfügig erwerbstätig, 538-Euro-Job, Minijob",,,,,,,,,,bin
+gip,W74,Page core 2,5,„Ein-Euro-Job“ (bei Bezug von Bürgergeld),,,,,,,,,,bin
+gip,W74,Page core 2,6,Gelegentlich oder unregelmäßig beschäftigt,,,,,,,,,,bin
+gip,W74,Page core 2,7,In einer beruflichen Ausbildung/Lehre,,,,,,,,,,bin
+gip,W74,Page core 2,8,In Umschulung,,,,,,,,,,bin
+gip,W74,Page core 2,9,"Freiwilliger Wehrdienst, Bundesfreiwilligendienst",,,,,,,,,,bin
+gip,W74,Page core 2,10,Freiwilliges Soziales/Ökologisches/Kulturelles Jahr,,,,,,,,,,bin
+gip,W74,Page core 2,11,"Elternzeit, Mutterschutz oder sonstige Beurlaubung (Altersteilzeit oben angeben)",,,,,,,,,,bin
+gip,W74,Page core 2,12,Schüler/-in an einer allgemeinbildenden Schule,,,,,,,,,,bin
+gip,W74,Page core 2,13,Student/-in,,,,,,,,,,bin
+gip,W74,Page core 2,14,"Rentner/-in, Pensionär/-in, im Vorruhestand",,,,,,,,,,bin
+gip,W74,Page core 2,15,Arbeitslos,,,,,,,,,,bin
+gip,W74,Page core 2,16,Dauerhaft erwerbsunfähig,,,,,,,,,,bin
+gip,W74,Page core 2,17,Hausfrau/Hausmann,,,,,,,,,,bin
+gip,W74,Page core 3,0,Und welche der Beschreibungen trifft am besten auf Ihre aktuelle berufliche Situation zu? Was würden Sie als Ihre Haupttätigkeit bezeichnen?,,Haupttaetigkeit-1,Bei dieser Frage können Sie nur eine Antwort geben.,,Bei dieser Frage können Sie nur eine Antwort geben.,,mindestens zwei der Items AA74450_a bis AA74450_q = 1 (wenn Befragte/-r mehr als eine berufliche Tätigkeit ausgewählt hat),,,cat
+gip,W74,Page core 4,0,Waren Sie früher einmal vollzeit- oder teilzeiterwerbstätig?,,Ja-Nein,,,,,"AA74451 = 8, 9, 10, 11, 13, 14, 15, 16, 17 oder ((AA74450_h = 1 oder AA74450_i = 1 oder AA74450_j = 1 oder AA74450_k = 1 oder AA74450_m = 1 oder AA74450_n = 1 oder AA74450_o = 1 oder AA74450_p = 1 oder AA74450_q = 1) und AA74451 = .) (wenn Haupterwerbsstatus der/des Befragten in Umschulung, Freiwilliger Wehrdienst, Bundesfreiwilligendienst, Freiwilliges Soziales/Ökologisches/Kulturelles Jahr, Mutterschafts-, Erziehungsurlaub, Elternzeit oder sonstige Beurlaubung, Student/-in, Rentner/-in, Pensionär/-in, im Vorruhestand, arbeitslos, dauerhaft erwerbsunfähig oder Hausfrau/Hausmann)",,,cat
+gip,W74,Page core 5,0,Sind Sie in Ihrer bezahlten Tätigkeit … ?,,Beschaeftigung-1-3,,,,,"AA74451 = 1, 2, 3, 4, 5, 6, 7 oder ((AA74450_a = 1 oder AA74450_b = 1 oder AA74450_c = 1 oder AA74450_d = 1 oder AA74450_e = 1 oder AA74450_f = 1 oder AA74450_g = 1) und AA74451 =.) (wenn Haupterwerbsstatus der/des Befragten vollzeiterwerbstätig bis in einer beruflichen Ausbildung/Lehre)",,,cat
+gip,W74,Page core 6,0,"Sind Sie derzeit in Ihrer Tätigkeit als Angestellte/-r, Arbeiter/-in oder Beamter/-in in Kurzarbeit oder freigestellt?",,Arbeitsumfang-1-4,"Es geht hier um die vertraglich vereinbarte und entlohnte Arbeitszeit, nicht um die tatsächliche Zeit, die Sie derzeit mit der Arbeit verbringen.",,"Es geht hier um die vertraglich vereinbarte und entlohnte Arbeitszeit, nicht um die tatsächliche Zeit, die Sie derzeit mit der Arbeit verbringen.",,AA74452=1 (wenn abhängig beschäftigt),,,cat
+gip,W74,Page core 7,0,Wo arbeiten Sie in Ihrer Haupttätigkeit derzeit?,,Arbeitsort-1-5,,,,,"AA74451 = 1, 2, 3, 4, 5, 6, 7 oder ((AA74450_a = 1 oder AA74450_b = 1 oder AA74450_c = 1 oder AA74450_d = 1 oder AA74450_e = 1 oder AA74450_f = 1 oder AA74450_g = 1) und AA74451 =.) (wenn Haupterwerbsstatus der/des Befragten vollzeiterwerbstätig bis in einer beruflichen Ausbildung/Lehre)",,,cat
+gip,W74,Page core 8,0,"Wie stehen Sie zu einem Gesetz, das Beschäftigten ein Recht auf Arbeiten von zu Hause einräumen würde, insofern ihre Tätigkeit dies grundsätzlich zulässt?",,Dagegen-1-4,,,,,,,,cat
+gip,W74,Page core 9,0,Ist der Arbeitsvertrag Ihres Beschäftigungsverhältnisses … ?,,Befristet-1-2,,,,,AA74452 = 1 (wenn Befragte/-r abhängig beschäftigt),,,cat
+gip,W74,Page core 10,0,"Sind Sie im öffentlichen Dienst beschäftigt?
+Zum öffentlichen Dienst gehören: Behörden und Einrichtungen von Gemeinden, Ländern und Bund, zum Beispiel öffentliche Schulen und Universitäten, städtische Krankenhäuser, die Bundesagentur für Arbeit, Sozialversicherungsträger, Polizei oder Bundeswehr.
+Nicht zum öffentlichen Dienst gehören Beschäftigte und Beamte in Nachfolgeunternehmen der Deutschen Post, der Bundes- und Reichsbahn sowie Beschäftigte der Kirchen.",,Ja-Nein,,,,,AA74452 = 1 (wenn Befragte/-r abhängig beschäftigt),,,cat
+gip,W74,Page core 11,0,Waren Sie in Ihrer letzten bezahlten Tätigkeit … ?,,Beschaeftigung-1-3,,,,,AA74006 = 1 (wenn Befragte/-r früher vollzeit- oder teilzeiterwerbstätig),,,cat
+gip,W74,Page core 12,0,War der Arbeitsvertrag Ihres letzten Beschäftigungsverhältnisses … ?,,Befristet-1-2,,,,,AA74455 = 1 (wenn Befragte/-r früher abhängig beschäftigt),,,cat
+gip,W74,Page core 13,0,"Waren Sie in Ihrem letzten Beschäftigungsverhältnis im öffentlichen Dienst beschäftigt?
+Zum öffentlichen Dienst gehören: Behörden und Einrichtungen von Gemeinden, Ländern und Bund, zum Beispiel öffentliche Schulen und Universitäten, städtische Krankenhäuser, die Bundesagentur für Arbeit, Sozialversicherungsträger, Polizei oder Bundeswehr.
+Nicht zum öffentlichen Dienst gehören Beschäftigte und Beamte in Nachfolgeunternehmen der Deutschen Post, der Bundes- und Reichsbahn sowie Beschäftigte der Kirchen.",,Ja-Nein,,,,,AA74455 = 1 (wenn Befragte/-r früher abhängig beschäftigt),,,cat
+gip,W74,Page core 14,0,Können Sie Ihre (letzte) berufliche Tätigkeit einem der folgenden Wirtschaftsbereiche zuordnen?,,,,,,,"AA74451 = 1, 2, 3, 4, 5, 6, 7 oder ((AA74450_a = 1 oder AA74450_b = 1 oder AA74450_c = 1 oder AA74450_d = 1 oder AA74450_e = 1 oder AA74450_f = 1 oder AA74450_g = 1) und AA74451 = .) oder AA74006 = 1 (wenn Haupterwerbsstatus der/des Befragten vollzeiterwerbstätig bis in einer beruflichen Ausbildung/Lehre oder wenn Befragte/-r früher vollzeit- oder teilzeiterwerbstätig)",,,txt
+gip,W74,Page core 14,1,,,1-wirtschaftsbereich,,,,,,,,cat
+gip,W74,Page core 14,2,"Verarbeitendes Gewerbe, Herstellung von Waren, Energie- und Wasserversorgung",,2-6-wirtschaftsbereich,,,,,,,,cat
+gip,W74,Page core 14,3,"Handel, Verkehr, Gastgewerbe",,7-12-wirtschaftsbereich,,,,,,,,cat
+gip,W74,Page core 14,4,"Freiberufliche, wissenschaftliche und technische Dienstleistungen sowie sonstige wirtschaftliche Dienstleistungen",,13-14-wirtschaftsbereich,,,,,,,,cat
+gip,W74,Page core 14,5,"Öffentliche Verwaltung, Verteidigung, Sozialversicherung, Erziehung und Unterricht, Gesundheit und Sozialwesen",,15-17-wirtschaftsbereich,,,,,,,,cat
+gip,W74,Page core 14,6,Sonstige Dienstleistungen,,18-19-wirtschaftsbereich,,,,,,,,cat
+gip,W74,Page core 15,0,"Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?
+Ich bin mit …
+Bitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",,,Bei dieser Frage können Sie nur eine Antwort geben.,,Bei dieser Frage können Sie nur eine Antwort geben.,,,,,txt
+gip,W74,Page core 15,1,meinem Familienleben,,1-10-Zufrieden,,,,,,,,cat
+gip,W74,Page core 16,0,"Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?
+Ich bin mit …
+Bitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",,,Bei dieser Frage können Sie nur eine Antwort geben.,,Bei dieser Frage können Sie nur eine Antwort geben.,,,,,txt
+gip,W74,Page core 16,1,meiner Freizeit,,1-10-Zufrieden,,,,,,,,cat
+gip,W74,Page core 17,0,"Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?
+Ich bin mit …
+Bitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",,,Bei dieser Frage können Sie nur eine Antwort geben.,,Bei dieser Frage können Sie nur eine Antwort geben.,,,,,txt
+gip,W74,Page core 17,1,meiner finanziellen Situation,,1-10-Zufrieden,,,,,,,,cat
+gip,W74,Page core 18,0,"Wie zufrieden sind Sie gegenwärtig mit dem folgenden Bereich Ihres Lebens?
+Ich bin mit …
+Bitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",,,Bei dieser Frage können Sie nur eine Antwort geben.,,Bei dieser Frage können Sie nur eine Antwort geben.,,"AA74450_a = 1 und/oder AA74450_b = 1 und/oder AA74450_c = 1 und/oder AA74450_d = 1 und/oder AA74450_e = 1 und/oder AA74450_f = 1 und/oder AA74450_g = 1 und/oder AA74450_i = 1 und/oder AA74450_j = 1 und/oder AA74450_k = 1 (wenn Befragte/-r vollzeiterwerbstätig bis in einer beruflichen Ausbildung/Lehre ist oder Freiwilliger Wehrdienst, Bundesfreiwilligendienst bis Mutterschafts-, Erziehungsurlaub, Elternzeit oder sonstige Beurlaubung macht)",,,txt
+gip,W74,Page core 18,1,meiner Arbeit,,1-10-Zufrieden,,,,,,,,cat
+gip,W74,Page core 19,0,Wie hat Ihnen dieser Teil der Befragung gefallen?,,1-5-Gut,,,,,,,,cat
+gip,W74,Page core 20,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",,,,,,,"exp74001 = 1, 2 und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",,,txt
+gip,W74,Page core 21,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung! 
+Sie werden in Kürze automatisch auf die nächste Seite weitergeleitet. Dort können Sie die Befragung fortführen.",,,,,,,"exp74001 = 3, 4, 5 und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",,,txt
+gip,W74,Page a 1 Introduction,0,"Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
+wir freuen uns, dass Sie die Befragung zum Thema Gesellschaftliche Entwicklungen gestartet haben.
+Die Beantwortung dieses Teils der Befragung dauert ungefähr 15 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 3,75 Euro auf Ihrem Studienkonto gut.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,,,,txt
+gip,W74,Page a 2,0,"Wenn am nächsten Sonntag Bundestagswahl wäre, welche Partei würden Sie dann mit Ihrer Zweitstimme wählen?",,1-10-Wahlentscheidung,"Die Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.",,"Die Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.",,,,,cat
+gip,W74,Page a 3,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+Die Bundesregierung sollte das Einkommen der Wohlhabenderen an diejenigen umverteilen, die weniger gut gestellt sind.",,1-7-Zustimmung,,,,,,,,cat
+gip,W74,Page a 4,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+Die Bundesregierung sollte sich für die Stärkung des Privatunternehmertums und der Marktwirtschaft einsetzen.",,1-7-Zustimmung,,,,,,,,cat
+gip,W74,Page a 5,0,"Wie gut oder schlecht ist der folgende Vorschlag Ihrer Meinung nach?
+Die Regierung sollte neue Prioritäten setzen, so dass ein größerer Teil des öffentlichen Haushalts in [Wenn expIP74003 = 1: ländliche Regionen] [Wenn expIP74003 = 2: Orte in ländlichen Regionen, die von einer Abwanderung der Bevölkerung betroffen sind,] [Wenn expIP74003 = 3: Orte in ländlichen Regionen, in denen viele Menschen in Armut leben,] [Wenn expIP74003 = 4: Städte] [Wenn expIP74003 = 5: Städte, in denen viele Menschen in Armut leben,] [Wenn expIP74003 = 6: Städte, in denen viele Menschen in Armut leben und in denen auch viele Einwanderer leben,] fließt.",,1-7-Gut-Schlecht,,,Befragte zufällig in sechs Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74003 ablegen.,,,,,cat
+gip,W74,Page a 6,0,"Auf einer Skala von 0 bis 10 – wo würden Sie sich einordnen?
+0 bedeutet, dass Menschen, die Symbole, die [Wenn expIP74004 = 1, 2: Musliminnen und Muslimen][Wenn expIP74004 = 3, 4: Jüdinnen und Juden][Wenn expIP74004 = 5, 6: Christinnen und Christen] heilig sind, [Wenn expIP74004 = 1, 3, 5 : kritisieren][Wenn expIP74004 = 2, 4, 6: abwerten], dies weiterhin tun dürfen, wenn sie es wollen, weil wir in einer Demokratie mit Meinungsfreiheit leben.
+	
+10 bedeutet, dass Menschen, die Symbole, die [Wenn expIP74004 = 1, 2: Musliminnen und Muslimen][Wenn expIP74004 = 3, 4: Jüdinnen und Juden][Wenn expIP74004 = 5, 6: Christinnen und Christen] heilig sind, [Wenn expIP74004 = 1, 3, 5 : kritisieren][Wenn expIP74004 = 2, 4, 6: abwerten], damit aufhören sollten, da sie die religiösen Überzeugungen der Menschen respektieren sollten.",,0-10-Einordnung,,,Befragte zufällig in sechs Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74004 ablegen.,,,,,cat
+gip,W74,Page a 7,0,"In einigen [Wenn expIP74005= 1, 2, 3: Krankenhäusern] [Wenn expIP74005= 4, 5, 6: Gefängnissen] gibt es Seelsorger, deren Aufgabe es ist, sich um die spirituellen Bedürfnisse [Wenn expIP74005 = 1, 2, 3: der Patienten] [Wenn expIP74005 = 4, 5, 6: der Insassen] zu kümmern. 
+
+Wie sehr vertrauen oder misstrauen Sie muslimischen Seelsorgern, [Wenn expIP74005 = 1, 4: ] [Wenn expIP74005 = 2, 5: die an einer inländischen Hochschule ausgebildet wurden,] [Wenn expIP74005 = 3, 6: die im Ausland in einem Land, in dem der Islam die Hauptreligion ist, ausgebildet wurden,] den muslimischen [Wenn expIP74005 = 1, 2, 3: Patienten] [Wenn expIP74005 = 4, 5, 6: Insassen] in Deutschland eine angemessene spirituelle Begleitung zu bieten?",,1-7-Vertrauen,,,Befragte zufällig in sechs Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74005 ablegen.,,,,,cat
+gip,W74,Page a 8,0,"Glauben Sie, dass der folgende Punkt eher positive oder eher negative Auswirkungen auf die Gesellschaft haben?
+Die Klimabewegung",,1-7-Positiv-Negativ,,,,,,,,cat
+gip,W74,Page a 9,0,"Glauben Sie, dass der folgende Punkt eher positive oder eher negative Auswirkungen auf die Gesellschaft haben?
+Feminismus",,1-7-Positiv-Negativ,,,,,,,,cat
+gip,W74,Page a 10,0,"Glauben Sie, dass der folgende Punkt eher positive oder eher negative Auswirkungen auf die Gesellschaft haben?
+Einwanderung",,1-7-Positiv-Negativ,,,,,,,,cat
+gip,W74,Page a 11,0,"Glauben Sie, dass der folgende Punkt eher positive oder eher negative Auswirkungen auf die Gesellschaft haben?
+Die EU (Europäische Union)",,1-7-Positiv-Negativ,,,,,,,,cat
+gip,W74,Page a 12,0,"Glauben Sie, dass der folgende Punkt eher positive oder eher negative Auswirkungen auf die Gesellschaft haben?
+Das christliche Kulturerbe in unserem Land",,1-7-Positiv-Negativ,,,,,,,,cat
+gip,W74,Page a 13,0,"Inwieweit stimmen Sie zu oder nicht zu, dass Deutschland die Einwanderungspolitik in Bezug auf Flüchtlinge [Wenn expIP74011 = 1: aus der Ukraine] [Wenn expIP74011 = 2: aus Nicht-EU-Ländern] [Wenn expIP74011 = 3: ] verschärfen sollte?",,1-7-Zustimmung,,,Befragte zufällig in drei Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74011 ablegen.,,,,,cat
+gip,W74,Page a 14,0,"Wie einfach oder schwierig ist es Ihrer Meinung nach, Flüchtlinge [Wenn expIP74012 = 1: aus der Ukraine] [Wenn expIP74012 = 2: aus Nicht-EU-Ländern] [Wenn expIP74012 = 3: ] in Deutschland zu integrieren?",,1-7-Einfach-Schwierig,,,Befragte zufällig in drei Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74012 ablegen.,,,,,cat
+gip,W74,Page a 15,0,"Wir möchten nun erfahren, wie Sie die Meinung anderer Bürgerinnen und Bürger zu verschiedenen Maßnahmen zur Verringerung der Treibhausgasemissionen einschätzen. Selbstverständlich kennen Sie nicht alle Meinungen Ihrer Mitbürgerinnen und Mitbürger, aber wir möchten dennoch gerne wissen, was Sie darüber denken.",,,,,,,,,,txt
+gip,W74,Page a 16,0,"Wie schätzen Sie die Meinung der Deutschen zu folgender Aussage ein?
+[Wenn expIP74013 = 1: Die Nutzung öffentlicher Verkehrsmittel sollte günstiger sein.]
+[Wenn expIP74013 = 2: Fossile Kraftstoffe (Benzin/Diesel) sollten teurer werden.]",,1-7-Einschätzung,,,"Befragte zufällig in zwei Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74013_1 ablegen. Gruppe 1 bekommt IP74013 und IP72015, Gruppe 2 bekommt IP74014 und IP74016.
+[wenn expIP74013_1 =1: Befragte zufällig in zwei Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74013 ablegen. Gruppe 1 bekommt die obere Aussage und Gruppe 2 die untere Aussage.]",,expIP74013_1 = 1,,,cat
+gip,W74,Page a 17,0,"Wie schätzen Sie die Meinung der Deutschen zu folgender Aussage ein?
+[Wenn expIP74014 = 1: Lebensmittel mit einem hohen CO2-Fußabdruck sollten teurer sein, während Lebensmittel mit einem niedrigen CO2-Fußabdruck günstiger sein sollten.]
+[Wenn expIP74014 = 2: Rotes Fleisch sollte teurer sein, während pflanzliche Lebensmittel günstiger sein sollten.]",,1-7-Einschätzung,,,Befragte zufällig in zwei Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74014 ablegen. Gruppe 1 bekommt die obere Aussage und Gruppe 2 die untere Aussage.,,expIP74013_1 = 2,,,cat
+gip,W74,Page a 18,0,"Wie schätzen Sie die Meinung der Deutschen zu folgender Aussage ein?
+In Deutschland sollte die Gewinnung von Windenergie [Wenn expIP74015 = 1: auf See] [Wenn expIP74015 = 2: an Land] weiter ausgebaut werden.",,1-7-Einschätzung,,,Befragte zufällig in zwei Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74015 ablegen. Gruppe 1 bekommt die obere Aussage und Gruppe 2 die untere Aussage.,,expIP74013_1 = 1,,,cat
+gip,W74,Page a 19,0,"Wie schätzen Sie die Meinung der Deutschen zu folgender Aussage ein?
+Es sollten mehr [Wenn expIP74016 = 1: Solaranlagen auf Häusern installiert] [Wenn expIP74016 = 2: Solarkraftwerke (Solarparks) gebaut] werden.",,1-7-Einschätzung,,,Befragte zufällig in zwei Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74016 ablegen. Gruppe 1 bekommt die obere Aussage und Gruppe 2 die untere Aussage.,,expIP74013_1 = 2,,,cat
+gip,W74,Page a 20,0,"Manche Leute schlagen vor, dass Kantinen [Wenn expIP74017=1: keine Gerichte mit Fleisch mehr servieren, um den Klimawandel zu verlangsamen] [Wenn expIP74017=2: dem Speiseplan Gerichte ohne Fleisch hinzufügen, um den Klimawandel zu verlangsamen] [Wenn expIP74017=3: keine Gerichte mit Schweinefleisch mehr servieren, um auf die religiösen Regeln der Musliminnen und Muslime Rücksicht zu nehmen] [Wenn expIP74017=4: dem Speiseplan Gerichte ohne Schweinefleisch hinzufügen, um auf die religiösen Regeln der Musliminnen und Muslime Rücksicht zu nehmen].
+
+Wie schätzen Sie die Einstellung der Deutschen zu diesem Thema ein?",,1-7-Einschätzung,,,Befragte zufällig in vier Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74017 ablegen.,,,,,cat
+gip,W74,Page a 21,0,"Wenn Sie sich auf der folgenden Skala einordnen würden, wie würden Sie sich selbst am ehesten beschreiben?",,0-10-Landmensch,,,,,,,,cat
+gip,W74,Page a 22,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+Die Politikerinnen und Politiker schenken den Menschen außerhalb der großen Städte bei der Gestaltung ihrer Politik nicht genügend Aufmerksamkeit.",,1-7-Zustimmung,,,,,,,,cat
+gip,W74,Page a 23,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+Die Gesundheitsversorgung sollte für alle[Wenn expIP74020 = 1: , die in Deutschland leben,][Wenn expIP74020 = 2: , die in Deutschland leben, einschließlich der in Deutschland lebenden Einwanderer,][Wenn expIP74020 = 3: in Deutschland lebenden Einwanderer] kostenlos sein, auch wenn das bedeutet, dass die Regierung die Steuern für die Mehrzahl der erwerbstätigen Familien erhöhen muss.",,1-7-Zustimmung,,,Befragte zufällig in drei Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74020 ablegen.,,,,,cat
+gip,W74,Page a 24,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+Die Nachmittagsbetreuung sollte für alle [Wenn expIP74021 = 1: Familien mit Grundschulkindern, die in Deutschland leben,][Wenn expIP74021 = 2: Familien mit Grundschulkindern, die in Deutschland leben, einschließlich der in Deutschland lebenden Einwanderer,][Wenn expIP74021 = 3: Familien in Deutschland lebender Einwanderer mit Grundschulkindern] verfügbar und kostenlos sein, auch wenn das bedeutet, dass die Regierung die Steuern für die Mehrzahl der erwerbstätigen Familien erhöhen muss.",,1-7-Zustimmung,,,Befragte zufällig in drei Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74021 ablegen.,,,,,cat
+gip,W74,Page a 25,0,"Stellen Sie sich einmal folgende Situation vor:
+[Wenn expIP74022=1,2,3: Die evangelische und die katholische Kirche] [Wenn expIP74022=4,5,6: Eine Kommunalverwaltung] in Deutschland [Wenn expIP74022=1,2,3: haben] [Wenn expIP74022=4,5,6: hat] darüber diskutiert, ob sie einige Gebäude verkaufen [Wenn expIP74022=1,2,3: sollen] [Wenn expIP74022=4,5,6: soll] oder nicht. Nun wurde ein Vorschlag gemacht, der vorsieht, dass [Wenn expIP74022=1,2,3: eine zentral gelegene Kirche] [Wenn expIP74022=4,5,6: ein zentral gelegenes öffentliches Gebäude] verkauft und in [Wenn expIP74022=1,4: eine Moschee] [Wenn expIP74022=2,5: eine von einer ausländischen muslimischen Organisation finanzierte Moschee] [Wenn expIP74022=3,6: ein von einem internationalen Unternehmen betriebenes Hotel] umgewandelt werden soll.  
+
+Wie positiv oder negativ stehen Sie diesem Vorschlag gegenüber?",,1-7-Positiv-Negativ-II,,,Befragte zufällig in sechs Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74022 ablegen.,,,,,cat
+gip,W74,Page a 26,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+Redefreiheit sollte für alle gelten, unabhängig davon, wie [Wenn expIP74023 = 1: rassistisch die][Wenn expIP74023 = 2: konservativ die islamischen][Wenn expIP74023 = 3: konservativ die christlichen] Ansichten sind, die geäußert werden.",,1-7-Zustimmung,,,Befragte zufällig in drei Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74023 ablegen.,,,,,cat
+gip,W74,Page a 27,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+Deutschland sollte die Ausbildung von Imamen (islamische Geistliche) an [Wenn expIP74024 = 1, 2, 3, 4: etablierten inländischen Hochschulen, die derzeit christliche Pfarrer ausbilden,] [Wenn expIP74024 = 5, 6, 7, 8: von muslimischen Organisationen betriebenen inländischen Instituten] [Wenn expIP74024 = 1, 2, 5, 6: öffentlich fördern] [Wenn expIP74024 = 3, 4, 7, 8: erlauben] [Wenn expIP74024 = 1, 3, 5, 7: ] [Wenn expIP74024 = 2, 4, 6, 8: , damit die Muslime in Deutschland diese Ausbildung nicht im Ausland absolvieren müssen, in einem Land, in dem der Islam die Hauptreligion ist].",,1-7-Zustimmung,,,Befragte zufällig in acht Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74024 ablegen.,,,,,cat
+gip,W74,Page a 28,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+Frauen übertreiben bei Beschwerden über sexuelle Belästigung am Arbeitsplatz.",,1-7-Zustimmung,,,,,,,,cat
+gip,W74,Page a 29,0,"Was glauben Sie: Inwieweit stimmen die meisten [Wenn expIP74026 = 1: Frauen] [Wenn expIP74026 = 2: Männer] [Wenn expIP74026 = 3: ] in Deutschland zu oder nicht zu, dass Frauen bei sexueller Belästigung am Arbeitsplatz übertreiben?",,1-7-Zustimmung-Pl,,,Befragte zufällig in drei Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74026 ablegen.,,,,,cat
+gip,W74,Page a 30,0,"Sind Sie der Meinung, dass es für nicht-europäische Einwanderer einfacher oder schwieriger sein sollte, sich in Deutschland niederzulassen?",,1-6-Einfacher,,,,,,,,cat
+gip,W74,Page a 31,0,"[Wenn expIP74028 = 1: Wir würden gerne mehr über Ihre Gedanken zum Thema nicht-europäischer Einwanderung erfahren. 
+Was ist Ihrer Meinung nach das beste Argument dafür, es nicht-europäischen Einwanderern zu [Wenn IP74027 = 1, 2, 3: erleichtern] [Wenn IP74027 = 4, 5, 6: erschweren], sich in Deutschland niederzulassen?]
+[Wenn expIP74028 = 2: Manche Menschen sind der Meinung, dass es für nicht-europäische Einwanderer [Wenn IP74027 = 1 , 2, 3: schwieriger] [Wenn IP74027 = 4, 5, 6: leichter] sein sollte, sich in Deutschland niederzulassen. Überlegen Sie sich einmal Gründe, die für diese Ansicht sprechen, auch wenn Sie diese selbst nicht vertreten. 
+Wenn Sie eins nennen müssten: Welches ist das beste Argument dafür, es nicht-europäischen Einwanderern [Wenn IP74027 = 1, 2, 3: schwieriger] [Wenn IP74027 = 4, 5, 6: leichter] zu machen, sich in Deutschland niederzulassen?]
+[Wenn expIP74028 = 3: Manche Menschen sind der Meinung, dass es für nicht-europäische Einwanderer [Wenn IP74027 = 1, 2, 3: schwieriger] [Wenn IP74027 = 4, 5, 6: leichter] sein sollte, sich in Deutschland niederzulassen. Versuchen Sie, sich in die Perspektive von jemandem hineinzuversetzen, der diese Meinung vertritt, auch wenn Sie diese selbst nicht vertreten. Denken Sie einmal an jemanden, den Sie kennen, der [Wenn IP74027 = 1, 2, 3: skeptisch] [Wenn IP74027 = 4, 5, 6: positiv] gegenüber nicht-europäischer Einwanderung ist, oder stellen Sie sich jemanden mit dieser Ansicht vor.
+Was denken Sie, ist für diese Person das beste Argument dafür, es nicht-europäischen Einwanderern zu [Wenn IP74027 = 1, 2, 3: erschweren] [Wenn IP74027 = 4, 5, 6: erleichtern] sich in Deutschland niederzulassen?]",,,,,Befragte zufällig in drei Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74028 ablegen.,,IP74027 ! = -90 (wenn IP74027 beantwortet wurde),,,chr
+gip,W74,Page a 32,0,"Inwieweit haben Sie das Gefühl, dass diejenigen, die [Wenn IP74027 = 1, 2, 3: skeptisch] [Wenn IP74027 = 4, 5, 6: positiv] gegenüber nicht-europäischer Einwanderung sind, dieses Argument respektieren?",,1-5-Maß,,,,,"IP74028_txt !=  . , -90 (wenn IP74028_txt beantwortet wurde) und expIP74028 = 1 ",,,cat
+gip,W74,Page a 33,0,"Halten Sie dies für ein gutes oder schlechtes Argument dafür, es nicht-europäischen Einwanderern zu [Wenn IP74027 = 1, 2, 3: erschweren] [Wenn IP74027 = 4, 5, 6: erleichtern], sich in Deutschland niederzulassen?",,1-7-Argument,,,,,"IP74028_txt != . , -90 (wenn IP74028_txt beantwortet wurde) und expIP74028 = 2, 3",,,cat
+gip,W74,Page a 34,0,"Wir möchten wissen, was Sie von denjenigen halten, die der Meinung sind, dass es für nicht-europäische Einwanderer [Wenn IP74027=1,2,3: schwieriger] [Wenn IP74027=4,5,6: leichter] sein sollte, sich in Deutschland niederzulassen. 
+
+Wir bitten Sie, diejenigen, die diese Meinung vertreten, auf einem sogenannten „Gefühlsthermometer“ zu bewerten. 
+Bewertungen zwischen 50 und 100 Grad bedeuten, dass Sie ihnen gegenüber warme und positive Gefühle haben. Bewertungen zwischen 0 und 50 Grad bedeuten, dass Sie ihnen gegenüber kalte und negative Gefühle hegen. Bewertungen von 50 Grad bedeuten, dass Sie ihnen gegenüber weder besonders warm noch besonders kalt empfinden.",,,"Bitte verschieben Sie den Regler, um Ihre Bewertung abzugeben.",,"Bitte verschieben Sie den Regler, um Ihre Bewertung abzugeben.",,If IP74027 ! = -90 (wenn IP74027 beantwortet wurde) ,,,chr
+gip,W74,Page a 35,0,"Wir möchten nun Ihre Meinungen zu den Treibhausgasemissionen und anderen wichtigen Themen hören. Einige der Fragen werden ähnlich sein wie die, die Sie zuvor erhalten haben. Bitte beachten Sie jedoch, dass es sich hierbei nicht um dieselben Fragen handelt.",,,,,,,,,,txt
+gip,W74,Page a 36,0,"Die negativen Auswirkungen von Treibhausgasen auf die Umwelt und das Klima sind in der öffentlichen Debatte breit diskutiert worden. Eine Maßnahme, die diese Emissionen reduzieren kann, ist die [Wenn expIP74032=1: Besteuerung von CO2] [Wenn expIP74032=2: Reformierung der Landwirtschaft].
+
+Wie positiv oder negativ stehen Sie dieser Maßnahme gegenüber?",,0-10-Positiv-Negativ,,,Befragte zufällig in zwei Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74032 ablegen.,,,,,cat
+gip,W74,Page a 37,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+[Wenn expIP74013 = 1: Die Nutzung öffentlicher Verkehrsmittel sollte günstiger sein.] 
+[Wenn expIP74013 = 2: Fossile Kraftstoffe (Benzin/Diesel) sollten teurer werden.]",,1-7-Zustimmung,,,Die gleiche Gruppeneinteilung wie bei IP74013 verwenden.,,expIP74013_1 = 1,,,cat
+gip,W74,Page a 38,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+[Wenn expIP74014 = 1: Lebensmittel mit einem hohen CO2-Fußabdruck sollten teurer sein, während Lebensmittel mit einem niedrigen CO2-Fußabdruck günstiger sein sollten.]
+[Wenn expIP74014 = 2: Rotes Fleisch sollte teurer sein, während pflanzliche Lebensmittel günstiger sein sollten.]",,1-7-Zustimmung,,,Die gleiche Gruppeneinteilung wie bei IP74014 verwenden.,,expIP74013_1 = 2,,,cat
+gip,W74,Page a 39,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+In Deutschland sollte die Gewinnung von Windenergie [Wenn expIP74015 = 1: auf See] [Wenn expIP74015 = 2: an Land] weiter ausgebaut werden.]",,1-7-Zustimmung,,,Die gleiche Gruppeneinteilung wie bei IP74015 verwenden.,,expIP74013_1 = 1,,,cat
+gip,W74,Page a 40,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+Es sollten mehr [Wenn expIP74016 = 1: Solaranlagen auf Häusern installiert] [Wenn expIP74016 = 2: Solarkraftwerke (Solarparks) gebaut] werden.",,1-7-Zustimmung,,,Die gleiche Gruppeneinteilung wie bei IP74016 verwenden.,,expIP74013_1 = 2,,,cat
+gip,W74,Page a 41,0,"Manche Leute schlagen vor, dass Kantinen [Wenn expIP74017=1: keine Gerichte mit Fleisch mehr servieren, um den Klimawandel zu verlangsamen] [Wenn expIP74017=2: dem Speiseplan Gerichte ohne Fleisch hinzufügen, um den Klimawandel zu verlangsamen] [Wenn expIP74017=3: keine Gerichte mit Schweinefleisch mehr servieren, um auf die religiösen Regeln der Musliminnen und Muslime Rücksicht zu nehmen] [Wenn expIP74017=4: dem Speiseplan Gerichte ohne Schweinefleisch hinzufügen, um auf die religiösen Regeln der Musliminnen und Muslime Rücksicht zu nehmen]. 
+
+Inwieweit stimmen Sie dem Vorschlag zu oder nicht zu?",,Zustimmung2,,,Die gleiche Gruppeneinteilung wie bei IP74017 verwenden.,,,,,cat
+gip,W74,Page a 42,0,"Auf einer Skala von 0 bis 10 – wo würden Sie sich einordnen?
+0 bedeutet, dass die meisten [Wenn expIP74038 = 1: Imame (muslimische Geistliche)][Wenn expIP74038 = 2: christlichen Pfarrer][Wenn expIP74038 = 3: muslimischen Politikerinnen und Politiker][Wenn expIP74038 = 4: Politikerinnen und Politiker] in Deutschland genug wissen, um im Interesse der Menschen in ihren Gemeinden zu handeln.
+10 bedeutet, dass die meisten [Wenn expIP74038 = 1: Imame (muslimische Geistliche)][Wenn expIP74038 = 2: christlichen Pfarrer][Wenn expIP74038 = 3: muslimischen Politikerinnen und Politiker][Wenn expIP74038 = 4: Politikerinnen und Politiker] in Deutschland mehr über das Leben der Mitglieder ihrer Gemeinden lernen müssen.",,0-10-Einschätzung-Wissen,,,Befragte zufällig in vier Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74038 ablegen.,,,,,cat
+gip,W74,Page a 43,0,"Stellen Sie sich einmal folgende Situation vor:
+In einer Stadtverwaltung in Deutschland wird über eine mögliche Reform der Feiertage auf lokaler Ebene diskutiert. 
+Einem Vorschlag zufolge [Wenn expIP74039=1: bekommen alle Musliminnen und Muslime den Tag frei, um das Zuckerfest (das Fastenbrechen) zu feiern, sofern sie dies durch Überstunden ausgleichen] [Wenn expIP74039=2: bekommen alle Personen in der Gemeinde einen zusätzlichen freien Tag, wenn die Musliminnen und Muslime das Zuckerfest (das Fastenbrechen) feiern] [Wenn expIP74039=3: bekommen alle Personen in der Gemeinde den Tag frei, wenn die Musliminnen und Muslime das Zuckerfest (das Fastenbrechen) feiern. Der Feiertag wird einen der gesetzlichen christlichen Feiertage ersetzen] [Wenn expIP74039=4: bekommen alle Personen in der Gemeinde einen Tag frei, wenn Musliminnen und Muslime das Zuckerfest (das Fastenbrechen) feiern. Der Feiertag wird einen bestehenden gesetzlichen Feiertag ersetzen].
+
+Wie positiv oder negativ stehen Sie diesem Vorschlag gegenüber?",,1-7-Positiv-Negativ-II,,,Befragte zufällig in vier Gruppen aufteilen und Gruppenzuteilung in separater Variable expIP74039 ablegen.,,,,,cat
+gip,W74,Page a 44,0,"Stellen Sie sich vor, [gender_1] Vorsitzende [group_1] hat darum gebeten, eine öffentliche Veranstaltung abzuhalten, um den Islam als Bedrohung für [threat] zu kritisieren. 
+[gender_2] Vorsitzende [relationship] vor Ort lebt, sagte: „Der Islam ist heutzutage eine der größten Bedrohungen für [threat], und deshalb sprechen wir darüber“.
+
+Inwieweit stimmen Sie zu oder nicht zu, dass [group_2] die Erlaubnis erhalten sollte, die Veranstaltung abzuhalten?",,1-7-Zustimmung,,,"[b[Conjoint Experiment:]b] Auf der folgenden Seite lesen die Teilnehmenden ein Szenario, das sie bewerten sollen. Das Szenario setzt sich aus drei verschiedenen Inhalten zusammen. Die Werte sollen den Befragten zufällig zugeordnet werden.
+
+[b[Attribute: [gender] gender:]b]
+[i[Filter:]i]
+- wenn expIP74040d = 1, dann: [_1: die][_2: Die]
+- wenn expIP74040d = 2, dann: [ _1: der][_2: Der]
+
+[b[Attribute: [group] group:]b]
+[i[Filter:]i]
+- wenn expIP74040a = 1, dann: [_1: einer lokalen Gruppe der AfD] [_2: die lokale Gruppe der AfD]
+- wenn expIP74040a = 2, dann: [_1: einer lokalen Gruppe der CDU] [_2: die lokale Gruppe der CDU]
+- wenn expIP74040a = 3, dann: [_1: einer lokalen anti-islamischen Gruppe] [_2: die lokale anti-islamische Gruppe]
+
+[b[Attribute: [threat] threat:]b]
+[i[Filter:]i]
+- wenn expIP74040b = 1, dann: die Rechte von Schwulen und Lesben in Deutschland
+- wenn expIP74040b = 2, dann: die deutsche Kultur
+
+[b[Attribute: [relationship] relationship:]b]
+[i[Filter:]i]
+- wenn expIP74040c = 1, dann: [wenn expIP74040d = 1: , die mit ihrem Mann] [wenn expIP74040d = 2: , der mit seinem Mann]
+- wenn expIP74040c = 2, dann: [wenn expIP74040d = 1: , die mit ihrer Frau] [wenn expIP74040d = 2: , der mit seiner Frau]",,,,,cat
+gip,W74,Page a 45,0,"Stellen Sie sich vor, [gender_1] Vorsitzende [group_1] hat darum gebeten, eine öffentliche Veranstaltung abzuhalten, um den Islam als Bedrohung für [threat] zu kritisieren. 
+[gender_2] Vorsitzende [relationship] vor Ort lebt, sagte: „Der Islam ist heutzutage eine der größten Bedrohungen für [threat], und deshalb sprechen wir darüber“.
+
+Inwieweit stimmen Sie der Ansicht, die auf der Veranstaltung verbreitet werden soll, zu oder nicht zu?",,1-7-Zustimmung,,,,,,,,cat
+gip,W74,Page a 46,0,"Stellen Sie sich vor, [gender_1] Vorsitzende [group_1] hat darum gebeten, eine öffentliche Veranstaltung abzuhalten, um den Islam als Bedrohung für [threat] zu kritisieren. 
+[gender_2] Vorsitzende [relationship] vor Ort lebt, sagte: „Der Islam ist heutzutage eine der größten Bedrohungen für [threat], und deshalb sprechen wir darüber“.
+
+Auf der Grundlage der Informationen, die Sie über die lokale Gruppe haben, die die Veranstaltung durchführen möchte: Wie sehr würden Sie sagen, dass Sie sie mögen oder ablehnen?",,1-7-Sympathie,,,,,,,,cat
+gip,W74,Page a 47,0,"Wie akzeptabel oder inakzeptabel ist es Ihrer Meinung nach heutzutage, wenn jemand in der deutschen Gesellschaft etwas Negatives über Musliminnen und Muslime sagt?",,1-7-Akzeptabel,,,,,,,,cat
+gip,W74,Page a 48,0,"Was beschreibt die Gegend, in der Sie leben, am besten?",,1-5-Wohnort,,,,,,,,cat
+gip,W74,Page a 49,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+Die Welt wäre ein besserer Ort, wenn die Menschen aus anderen Ländern mehr wie die Deutschen wären.",,1-7-Zustimmung,,,,,,,,cat
+gip,W74,Page a 50,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+Deutschland ist im Großen und Ganzen ein besseres Land als die meisten anderen Länder.",,1-7-Zustimmung,,,,,,,,cat
+gip,W74,Page a 51,0,"Inwieweit stimmen Sie der folgenden Aussage zu oder nicht zu?
+Die Welt wäre ein besserer Ort, wenn die Deutschen die Schwächen Deutschlands anerkennen würden.",,1-7-Zustimmung,,,,,,,,cat
+gip,W74,Page a 52,0,"Was würden Sie sagen, wie gut oder schlecht trifft die folgende Beschreibung auf Sie zu?
+Es ist mir persönlich wichtig, Musliminnen und Muslimen gegenüber unvoreingenommen zu sein.",,1-7-Zutreffen,,,,,,,,cat
+gip,W74,Page a 53,0,"Was würden Sie sagen, wie gut oder schlecht trifft die folgende Beschreibung auf Sie zu?
+Ich möchte nicht als rassistisch wahrgenommen werden, auch nicht vor mir selbst.",,1-7-Zutreffen,,,,,,,,cat
+gip,W74,Page a 54,0,Wie hat Ihnen dieser Teil der Befragung gefallen?,,1-5-Gut,,,,,,,,cat
+gip,W74,Page a 55,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",,,,,,,"exp74001 = 1, 2 und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",,,txt
+gip,W74,Page a 56,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung! 
+Sie werden in Kürze automatisch auf die nächste Seite weitergeleitet. Dort können Sie die Befragung fortführen.",,,,,,,"exp74001 = 3, 4, 5 und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",,,txt
+gip,W74,Page b 1 Introduction,0,"Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, 
+wir freuen uns, dass Sie die Befragung zum Thema Diskriminierung und Sicherheit gestartet haben.
+Die Beantwortung dieses Teils der Befragung dauert ungefähr 7 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 1,75 Euro auf Ihrem Studienkonto gut.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,,,,txt
+gip,W74,Page b 2,0,"Allgemein gesprochen, wie viel Vertrauen haben Sie in die Bundesregierung?",,Vertrauen-1-11,,,,,,,,cat
+gip,W74,Page b 3,0,"Auf den nächsten Seiten stellen wir Ihnen eine fiktive Situation aus dem Arbeitsleben vor. Das heißt: So ähnliche Situationen gibt es wirklich, aber diese haben wir uns ausgedacht. Wir möchten von Ihnen wissen, was Sie über diese Situation denken. Im Anschluss stellen wir Ihnen einige Fragen dazu. Bitte lesen Sie sich die Situation aufmerksam durch. Uns interessiert nur Ihre persönliche Meinung. Es gibt dabei kein „richtig“ oder „falsch“.",,,,,"Befragte zufällig in 2 Gruppen aufteilen und Gruppenzuteilung in separater Variable expEN74013 ablegen.
+Gruppe 1 erhält EN74013, EN74014, EN74015, EN74028
+Gruppe 2 erhält EN74016, EN74017, EN74018, EN74029
+Dabei soll immer zuerst Qp. 03.00 angezeigt werden.",,,,,txt
+gip,W74,Page b 4,0,"[Gender] ist [Group]. [Engagement]. [Gender] bewirbt sich derzeit auf eine Stelle als Führungskraft. [wenn expEN74013a = 1: Er will Abteilungsleiter werden. Er] [wenn expEN74013a = 2: Sie will Abteilungsleiterin werden. Sie] passt perfekt zu den Stellenanzeigen. [wenn expEN74013a = 1: Aber er bekommt nur Absagen. Er glaubt, seine] [wenn expEN74013a = 2: Aber sie bekommt nur Absagen. Sie glaubt, ihre] [wenn expEN74013b = 1: Religion] [wenn expEN74013b = 2: ostdeutsche Herkunft] ist der Grund dafür. [Suffering]. 
+
+[Gender] findet, dass [wenn expEN74013b = 1 Musliminnen und Muslime] [wenn expEN74013b = 2 Ostdeutsche] die gleichen Chancen wie alle auf dem Arbeitsmarkt verdient haben. [wenn expEN74013a = 1: Sein] [wenn expEN74013a = 2: Ihr] Vorschlag: Damit kein Arbeitgeber erahnen kann, ob jemand [wenn expEN74013b = 1 muslimisch] [wenn expEN74013b = 2 ostdeutsch] ist oder nicht, sollten in Zukunft alle Menschen bei Bewerbungen Hinweise auf ihre Herkunft weglassen, zum Beispiel [wenn expEN74013b = 1 den Namen oder das Geburtsland] [wenn expEN74013b = 2: den Geburts- und Wohnort].
+
+Wenn Sie Geschichten wie die von [wenn expEN74013a = 1: Herrn K.] [wenn expEN74013a = 2: Frau K.] lesen, wie sehr stimmen Sie der folgenden Aussage zu? 
+Die Diskriminierung von [wenn expEN74013b = 1: Musliminnen und Muslimen] [wenn expEN74013b = 2: Menschen aus den neuen Bundesländern] im Arbeitsleben ist ein großes Problem in Deutschland.",,Zustimmung-1-5,,,"[b[Conjoint Experiment:]b] Auf den folgenden Seiten erhalten die Teilnehmenden jeweils eine Situationsbeschreibung über Diskriminierung im Berufsleben. Sie sollen dann für die Situationsbeschreibung beurteilen, (1) ob sie finden, dass in Deutschland verschiedene Bevölkerungsgruppen benachteiligt sind, (2) ob sie zur Verbesserung der Chancengleichheit etwas tun würden, was für sie möglicherweise mit Kosten verbunden ist, und (3) wie sie das Funktionieren der Demokratie bewerten, wenn sie an Chancengleichheit denken.
+
+Wenn expEN74013 = 1: Zuordnung in expEN74013a bis expEN74013d
+Wenn expEN74013 = 2: Zuordnung in expEN74016a bis expEN74016d
+
+[b[Attribute: [Gender] Geschlecht:]b] 
+[i[Filter:]i]
+- wenn expEN74013a = 1, dann: Herr K.
+- wenn expEN74013a = 2, dann: Frau K. 
+
+- wenn expEN74016a = 1, dann: Herr K.
+- wenn expEN74016a = 2, dann: Frau K.
+
+
+[b[Attribute: [Group] Soziale Gruppe:]b] 
+[i[Filter:]i]
+- wenn expEN74013b = 1, dann: [wenn expEN74013a/expEN74016a = 1: Muslim. Er ist deutscher Staatsbürger] [wenn expEN74013a/expEN74016a = 2: Muslimin. Sie ist deutsche Staatsbürgerin] und in Deutschland aufgewachsen
+- wenn expEN74013b = 2, dann: [wenn expEN74013a/expEN74016a = 1: Ostdeutscher. Er] [wenn expEN74013a/expEN74016a = 2: Ostdeutsche. Sie] ist in den neuen Bundesländern geboren und aufgewachsen
+
+- wenn expEN74016b = 1, dann: [wenn expEN74013a/expEN74016a = 1: Muslim. Er ist deutscher Staatsbürger] [wenn expEN74013a/expEN74016a = 2: Muslimin. Sie ist deutsche Staatsbürgerin] und in Deutschland aufgewachsen
+- wenn expEN74016b = 2, dann: [wenn expEN74013a/expEN74016a = 1: Ostdeutscher. Er] [wenn expEN74013a/expEN74016a = 2: Ostdeutsche. Sie] ist in den neuen Bundesländern geboren und aufgewachsen
+
+[b[Attribute: [Engagement] Gesellschaftliches Engagement:]b] 
+[i[Filter:]i]
+- wenn expEN74013c = 1, dann: [wenn expEN74013a/expEN74016a = 1: Ein gutes Miteinander ist ihm wichtig. In seiner Freizeit ist er im Bürgerverein seiner Stadt aktiv] [wenn expEN74013a/expEN74016a = 2: Ein gutes Miteinander ist ihr wichtig. In ihrer Freizeit ist sie im Bürgerverein ihrer Stadt aktiv]
+- wenn expEN74013c = 2, dann: [wenn expEN74013a/expEN74016a = 1: In seiner Freizeit hat er gerne seine Ruhe. Ihm ist es zu anstrengend, etwas für ein gutes Miteinander zu tun, beispielsweise im Bürgerverein seiner Stadt] [wenn expEN74013a/expEN74016a = 2: In ihrer Freizeit hat sie gerne ihre Ruhe. Ihr ist es zu anstrengend, etwas für ein gutes Miteinander zu tun, beispielsweise im Bürgerverein ihrer Stadt] 
+
+- wenn expEN74016c = 1, dann: [wenn expEN74013a/expEN74016a = 1: Ein gutes Miteinander ist ihm wichtig. In seiner Freizeit ist er im Bürgerverein seiner Stadt aktiv] [wenn expEN74013a/expEN74016a = 2: Ein gutes Miteinander ist ihr wichtig. In ihrer Freizeit ist sie im Bürgerverein ihrer Stadt aktiv]
+- wenn expEN74016c = 2, dann: [wenn expEN74013a/expEN74016a = 1: In seiner Freizeit hat er gerne seine Ruhe. Ihm ist es zu anstrengend, etwas für ein gutes Miteinander zu tun, beispielsweise im Bürgerverein seiner Stadt] [wenn expEN74013a/expEN74016a = 2: In ihrer Freizeit hat sie gerne ihre Ruhe. Ihr ist es zu anstrengend, etwas für ein gutes Miteinander zu tun, beispielsweise im Bürgerverein ihrer Stadt] 
+
+[b[Attribute: [Suffering] Leidensdruck:]b] 
+[i[Filter:]i]
+- wenn expEN74013d = 1, dann: Das macht [wenn expEN74013a/expEN74016a = 1: Herrn K.] [wenn expEN74013a/expEN74016a = 2: Frau K.] fertig
+- wenn expEN74013d = 2, dann: Auch Untersuchungen zeigen, dass [wenn expEN74013b/expEN74016b =1: Musliminnen und Muslime] [wenn expEN74013b/expEN74016b =2 Ostdeutsche] im Arbeitsleben benachteiligt werden
+
+- wenn expEN74016d = 1, dann: Das macht [wenn expEN74013a/expEN74016a = 1: Herrn K.] [wenn expEN74013a/expEN74016a = 2: Frau K.] fertig
+- wenn expEN74016d = 2, dann: Auch Untersuchungen zeigen, dass [wenn expEN74013b/expEN74016b =1: Musliminnen und Muslime] [wenn expEN74013b/expEN74016b =2 Ostdeutsche] im Arbeitsleben benachteiligt werden",,expEN74013 = 1 (Experimentalgruppe 1),,,cat
+gip,W74,Page b 5,0,"[Gender] ist [Group]. [Engagement]. [Gender] bewirbt sich derzeit auf eine Stelle als Führungskraft. [wenn expEN74013a = 1: Er will Abteilungsleiter werden. Er] [wenn expEN74013a = 2: Sie will Abteilungsleiterin werden. Sie] passt perfekt zu den Stellenanzeigen. [wenn expEN74013a = 1: Aber er bekommt nur Absagen. Er glaubt, seine] [wenn expEN74013a = 2: Aber sie bekommt nur Absagen. Sie glaubt, ihre] [wenn expEN74013b = 1: Religion] [wenn expEN74013b = 2: ostdeutsche Herkunft] ist der Grund dafür. [Suffering]. 
+
+[Gender] findet, dass [wenn expEN74013b = 1 Musliminnen und Muslime] [wenn expEN74013b = 2 Ostdeutsche] die gleichen Chancen wie alle auf dem Arbeitsmarkt verdient haben. [wenn expEN74013a = 1: Sein] [wenn expEN74013a = 2: Ihr] Vorschlag: Damit kein Arbeitgeber erahnen kann, ob jemand [wenn expEN74013b = 1 muslimisch] [wenn expEN74013b = 2 ostdeutsch] ist oder nicht, sollten in Zukunft alle Menschen bei Bewerbungen Hinweise auf ihre Herkunft weglassen, zum Beispiel [wenn expEN74013b = 1 den Namen oder das Geburtsland] [wenn expEN74013b = 2: den Geburts- und Wohnort].
+
+Was denken Sie: Wie häufig kommt es vor, dass [wenn expEN74013b = 1: Musliminnen und Muslime] [wenn expEN74013b = 2: Menschen aus den neuen Bundesländern] im Arbeitsleben diskriminiert werden?",,Schaetzung-1-11,"Bitte antworten Sie auf einer Skala von 1 bis 11, wobei 1 bedeutet, dass [wenn expEN74013b = 1: Musliminnen und Muslime] [wenn expEN74013b = 2: Menschen aus den neuen Bundesländern] so gut wie nie diskriminiert werden; 11 bedeutet, dass sie so gut wie immer diskriminiert werden.",,"Bitte antworten Sie auf einer Skala von 1 bis 11, wobei 1 bedeutet, dass [wenn expEN74013b = 1: Musliminnen und Muslime] [wenn expEN74013b = 2: Menschen aus den neuen Bundesländern] so gut wie nie diskriminiert werden; 11 bedeutet, dass sie so gut wie immer diskriminiert werden.",,expEN74013 = 1 (Experimentalgruppe 1),,,cat
+gip,W74,Page b 6,0,"[Gender] ist [Group]. [Engagement]. [Gender] bewirbt sich derzeit auf eine Stelle als Führungskraft. [wenn expEN74013a = 1: Er will Abteilungsleiter werden. Er] [wenn expEN74013a = 2: Sie will Abteilungsleiterin werden. Sie] passt perfekt zu den Stellenanzeigen. [wenn expEN74013a = 1: Aber er bekommt nur Absagen. Er glaubt, seine] [wenn expEN74013a = 2: Aber sie bekommt nur Absagen. Sie glaubt, ihre] [wenn expEN74013b = 1: Religion] [wenn expEN74013b = 2: ostdeutsche Herkunft] ist der Grund dafür. [Suffering]. 
+
+[Gender] findet, dass [wenn expEN74013b = 1 Musliminnen und Muslime] [wenn expEN74013b = 2 Ostdeutsche] die gleichen Chancen wie alle auf dem Arbeitsmarkt verdient haben. [wenn expEN74013a = 1: Sein] [wenn expEN74013a = 2: Ihr] Vorschlag: Damit kein Arbeitgeber erahnen kann, ob jemand [wenn expEN74013b = 1 muslimisch] [wenn expEN74013b = 2 ostdeutsch] ist oder nicht, sollten in Zukunft alle Menschen bei Bewerbungen Hinweise auf ihre Herkunft weglassen, zum Beispiel [wenn expEN74013b = 1 den Namen oder das Geburtsland] [wenn expEN74013b = 2: den Geburts- und Wohnort].
+
+
+Wie sehr lehnen Sie den Vorschlag von [wenn expEN74013a = 1: Herrn K.] [wenn expEN74013a = 2: Frau K.] ab oder unterstützen ihn?",,Ablehnung-1-5,,,,,expEN74013 = 1 (Experimentalgruppe 1),,,cat
+gip,W74,Page b 7,0,"[Gender] ist [Group]. [Engagement]. [Gender] bewirbt sich derzeit auf eine Stelle als Führungskraft. [wenn expEN74013a = 1: Er will Abteilungsleiter werden. Er] [wenn expEN74013a = 2: Sie will Abteilungsleiterin werden. Sie] passt perfekt zu den Stellenanzeigen. [wenn expEN74013a = 1: Aber er bekommt nur Absagen. Er glaubt, seine] [wenn expEN74013a = 2: Aber sie bekommt nur Absagen. Sie glaubt, ihre] [wenn expEN74013b = 1: Religion] [wenn expEN74013b = 2: ostdeutsche Herkunft] ist der Grund dafür. [Suffering].
+
+[Gender] findet, dass [wenn expEN74013b = 1 Musliminnen und Muslime] [wenn expEN74013b = 2 Ostdeutsche] die gleichen Chancen wie alle auf dem Arbeitsmarkt verdient haben. [wenn expEN74013a = 1: Sein] [wenn expEN74013a = 2: Ihr] Vorschlag: Damit kein Arbeitgeber erahnen kann, ob jemand [wenn expEN74013b = 1 muslimisch] [wenn expEN74013b = 2 ostdeutsch] ist oder nicht, sollten in Zukunft alle Menschen bei Bewerbungen Hinweise auf ihre Herkunft weglassen, zum Beispiel [wenn expEN74013b = 1 den Namen oder das Geburtsland] [wenn expEN74013b = 2: den Geburts- und Wohnort].
+
+Wie wichtig ist es für die Demokratie im Allgemeinen, dass die Regierung Maßnahmen ergreift, um Menschen wie [wenn expEN74013a = 1: Herrn K.] [wenn expEN74013a = 2: Frau K.] vor Diskriminierung im Arbeitsleben zu schützen?",,Wichtig-1-11,"Bitte antworten Sie auf einer Skala von 1 bis 11, wobei 1 bedeutet, dass es überhaupt nicht wichtig für die Demokratie ist, dass die Regierung Maßnahmen ergreift; 11 bedeutet, dass es äußerst wichtig für die Demokratie ist.",,"Bitte antworten Sie auf einer Skala von 1 bis 11, wobei 1 bedeutet, dass es überhaupt nicht wichtig für die Demokratie ist, dass die Regierung Maßnahmen ergreift; 11 bedeutet, dass es äußerst wichtig für die Demokratie ist.",,expEN74013 = 1 (Experimentalgruppe 1),,,cat
+gip,W74,Page b 8,0,"[Gender] ist [Group]. [Engagement]. Auf der Arbeit macht [wenn expEN74016a = 1: sein Kollege] [wenn expEN74016a = 2: ihre Kollegin] abfällige Bemerkungen über [wenn expEN74016b = 1: Musliminnen und Muslime] [wenn expEN74016b = 2: Ostdeutsche]. [wenn expEN74016a = 1: Er] [wenn expEN74016a = 2: Sie] fühlt sich diskriminiert. [Suffering]. 
+
+[wenn expEN74016a = 1: Er] [wenn expEN74016a = 2: Sie] wünscht sich, dass andere [wenn expEN74016a = 1: diesen Kollegen] [wenn expEN74016a = 2: diese Kollegin] auffordern, mit den abfälligen Bemerkungen aufzuhören.
+
+Wenn Sie Geschichten wie die von [wenn expEN74016a = 1: Herrn K.] [wenn expEN74016a = 2: Frau K.] lesen, wie sehr stimmen Sie der folgenden Aussage zu?
+Die Diskriminierung von [wenn expEN74016b = 1: Musliminnen und Muslimen] [wenn expEN74016b = 2: Menschen aus den neuen Bundesländern] im Arbeitsleben ist ein großes Problem in Deutschland.",,Zustimmung-1-5,,,,,expEN74013 = 2 (Experimentalgruppe 2),,,cat
+gip,W74,Page b 9,0,"[Gender] ist [Group]. [Engagement]. Auf der Arbeit macht [wenn expEN74016a = 1: sein Kollege] [wenn expEN74016a = 2: ihre Kollegin] abfällige Bemerkungen über [wenn expEN74016b = 1: Musliminnen und Muslime] [wenn expEN74016b = 2: Ostdeutsche]. [wenn expEN74016a = 1: Er] [wenn expEN74016a = 2: Sie] fühlt sich diskriminiert. [Suffering]. 
+
+[wenn expEN74016a = 1: Er] [wenn expEN74016a = 2: Sie] wünscht sich, dass andere [wenn expEN74016a = 1: diesen Kollegen] [wenn expEN74016a = 2: diese Kollegin] auffordern, mit den abfälligen Bemerkungen aufzuhören.
+
+Was denken Sie: Wie häufig kommt es vor, dass [wenn exp EN74016b = 1: Musliminnen und Muslime] [wenn expEN74016b = 2: Menschen aus den neuen Bundesländern] im Arbeitsleben diskriminiert werden?",,Schaetzung-1-11,"Bitte antworten Sie auf einer Skala von 1 bis 11, wobei 1 bedeutet, dass [wenn expEN74016b = 1: Musliminnen und Muslime] [wenn expEN74016b = 2: Menschen aus den neuen Bundesländern] so gut wie nie diskriminiert werden; 11 bedeutet, dass sie so gut wie immer diskriminiert werden.",,"Bitte antworten Sie auf einer Skala von 1 bis 11, wobei 1 bedeutet, dass [wenn expEN74016b = 1: Musliminnen und Muslime] [wenn expEN74016b = 2: Menschen aus den neuen Bundesländern] so gut wie nie diskriminiert werden; 11 bedeutet, dass sie so gut wie immer diskriminiert werden.",,expEN74013 = 2 (Experimentalgruppe 2),,,cat
+gip,W74,Page b 10,0,"[Gender] ist [Group]. [Engagement]. Auf der Arbeit macht [wenn expEN74016a = 1: sein Kollege] [wenn expEN74016a = 2: ihre Kollegin] abfällige Bemerkungen über [wenn expEN74016b = 1: Musliminnen und Muslime] [wenn expEN74016b = 2: Ostdeutsche]. [wenn expEN74016a = 1: Er] [wenn expEN74016a = 2: Sie] fühlt sich diskriminiert. [Suffering]. 
+
+[wenn expEN74016a = 1: Er] [wenn expEN74016a = 2: Sie] wünscht sich, dass andere [wenn expEN74016a = 1: diesen Kollegen] [wenn expEN74016a = 2: diese Kollegin] auffordern, mit den abfälligen Bemerkungen aufzuhören.
+
+Stellen Sie sich vor, jemand spricht auf Ihrer Arbeit abfällig über [wenn expEN74016b = 1: Musliminnen und Muslime] [wenn expEN74016b = 2: Ostdeutsche]. Würden Sie den Wunsch von [wenn expEN74016a = 1: Herrn K.] [wenn expEN74016a = 2: Frau K.] nach Beistand ablehnen oder unterstützen?",,Ablehnung-1-5,,,,,expEN74013 = 2 (Experimentalgruppe 2),,,cat
+gip,W74,Page b 11,0,"[Gender] ist [Group]. [Engagement]. Auf der Arbeit macht [wenn expEN74016a = 1: sein Kollege] [wenn expEN74016a = 2: ihre Kollegin] abfällige Bemerkungen über [wenn expEN74016b = 1: Musliminnen und Muslime] [wenn expEN74016b = 2: Ostdeutsche]. [wenn expEN74016a = 1: Er] [wenn expEN74016a = 2: Sie] fühlt sich diskriminiert. [Suffering].
+
+[wenn expEN74016a = 1: Er] [wenn expEN74016a = 2: Sie] wünscht sich, dass andere [wenn expEN74016a = 1: diesen Kollegen] [wenn expEN74016a = 2: diese Kollegin] auffordern, mit den abfälligen Bemerkungen aufzuhören.
+
+
+Wie wichtig ist es für die Demokratie im Allgemeinen, dass die Regierung Maßnahmen ergreift, um Menschen wie [wenn expEN74016a = 1: Herrn K.] [wenn expEN74016a = 2: Frau K.] vor Diskriminierung im Arbeitsleben zu schützen?",,Wichtig-1-11,"Bitte antworten Sie auf einer Skala von 1 bis 11, wobei 1 bedeutet, dass es überhaupt nicht wichtig für die Demokratie ist, dass die Regierung Maßnahmen ergreift; 11 bedeutet, dass es äußerst wichtig für die Demokratie ist.",,"Bitte antworten Sie auf einer Skala von 1 bis 11, wobei 1 bedeutet, dass es überhaupt nicht wichtig für die Demokratie ist, dass die Regierung Maßnahmen ergreift; 11 bedeutet, dass es äußerst wichtig für die Demokratie ist.",,expEN74013 = 2 (Experimentalgruppe 2),,,cat
+gip,W74,Page b 12,0,"Wie sehr stimmen Sie der folgenden Aussage zu?
+Das politische System der Bundesrepublik schützt die grundlegenden Freiheiten der Bürger.",,Zustimmung-1-5,,,,,,,,cat
+gip,W74,Page b 13,0,"Auf den nächsten Seiten stellen wir Ihnen vier fiktive Situationen zum Schutz vor Extremismus vor. Das heißt: Ähnliche Maßnahmen zum Schutz vor Extremismus gibt es wirklich, aber diese haben wir uns ausgedacht. Im Anschluss bitten wir Sie jeweils um eine Einschätzung der Situation. Bitte lesen Sie sich die Geschichten aufmerksam durch. Bitte geben Sie an, was Sie selbst über die Sicherheitsmaßnahmen denken. Uns interessiert nur Ihre persönliche Meinung. Es gibt dabei kein „richtig“ oder „falsch“.
+Auch wenn sich die Situationen möglicherweise auf den ersten Blick ähneln, unterscheiden sie sich doch an der ein oder anderen Stelle.",,,,,Befragte zufällig in 2 Gruppen aufteilen und Gruppenzuteilung in separater Variable expEN74020 ablegen.,,,,,txt
+gip,W74,Page b 14,0,"[Person], ein Mann aus der Nachbarschaft, liebt Kampfsport. Er ist Mitglied in einem Kampfsport-Verein. Sein Verein unterstützt mit den Mitgliedsbeiträgen eine [Club] im Ausland. [Support]. Weil sein Kampfsport-Verein Extremismus unterstützt, gilt [Person] auch als Unterstützer von Extremismus. [Measure]. 
+
+Wie gerechtfertigt finden Sie die Maßnahme?",,Gerechtfertigt-I,,,"[b[Conjoint Experiment:]b] Auf den folgenden Seiten erhalten die Teilnehmenden jeweils vier Beschreibungen über einen Unterstützer von Extremismus. Sie sollen dann für jeden Fall beurteilen, (1) wie gerechtfertigt sie die Schutzmaßnahme finden.
+Dabei sollen die vier Beschreibungen nie identisch sein. 
+
+[b[Attribute: [Person] Identität Person:]b]
+[i[Filter:]i]
+- wenn expEN74020a = 1, dann: Hassan
+- wenn expEN74021a = 1, dann: Hassan
+- wenn expEN74022a = 1, dann: Hassan
+- wenn expEN74023a = 1, dann: Hassan
+
+- wenn expEN74020a = 2, dann: Stefan
+- wenn expEN74021a = 2, dann: Stefan
+- wenn expEN74022a = 2, dann: Stefan
+- wenn expEN74023a = 2, dann: Stefan
+
+[b[Attribute: [club] Ausrichtung Fitnessstudio:]b]
+[i[Filter:]i]
+- wenn expEN74020b = 1, dann: islamistische Organisation
+- wenn expEN74021b = 1, dann: islamistische Organisation
+- wenn expEN74022b = 1, dann: islamistische Organisation
+- wenn expEN74023b = 1, dann: islamistische Organisation
+
+- wenn expEN74020b = 2, dann: rechtsextreme Organisation
+- wenn expEN74021b = 2, dann: rechtsextreme Organisation
+- wenn expEN74022b = 2, dann: rechtsextreme Organisation
+- wenn expEN74023b = 2, dann: rechtsextreme Organisation
+
+[b[Attribute: [support] Unterstützung Organisation:]b]
+[i[Filter:]i]
+- wenn expEN74020c = 1, dann: [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 1: Hassan] [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 2: Stefan] weiß davon nichts
+- wenn expEN74021c = 1, dann: [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 1: Hassan] [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 2: Stefan] weiß davon nichts
+- wenn expEN74022c = 1, dann: [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 1: Hassan] [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 2: Stefan] weiß davon nichts
+- wenn expEN74023c = 1, dann: [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 1: Hassan] [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 2: Stefan] weiß davon nichts
+
+- wenn expEN74020c = 2, dann: [wenn expEN740240a = 1/expEN740241a/ expEN740242a/ expEN740243a: Hassan] [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 2: Stefan] weiß davon, aber es stört ihn nicht
+- wenn expEN74021c = 2, dann: [wenn expEN740240a = 1/expEN740241a/ expEN740242a/ expEN740243a: Hassan] [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 2: Stefan] weiß davon, aber es stört ihn nicht
+- wenn expEN74022c = 2, dann: [wenn expEN740240a = 1/expEN740241a/ expEN740242a/ expEN740243a: Hassan] [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 2: Stefan] weiß davon, aber es stört ihn nicht
+- wenn expEN74023c = 2, dann: [wenn expEN740240a = 1/expEN740241a/ expEN740242a/ expEN740243a: Hassan] [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 2: Stefan] weiß davon, aber es stört ihn nicht
+
+- wenn expEN74020c = 3, dann: [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 1: Hassan] [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 2: Stefan] weiß davon. Er findet die Ideen der Organisation gut
+- wenn expEN74021c = 3, dann: [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 1: Hassan] [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 2: Stefan] weiß davon. Er findet die Ideen der Organisation gut
+- wenn expEN74022c = 3, dann: [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 1: Hassan] [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 2: Stefan] weiß davon. Er findet die Ideen der Organisation gut
+- wenn expEN74023c = 3, dann: [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 1: Hassan] [wenn expEN740240a/expEN740241a/ expEN740242a/ expEN740243a = 2: Stefan] weiß davon. Er findet die Ideen der Organisation gut
+
+[b[Attribute: [Measure] Schutzmaßnahme:]b]
+[i[Filter:]i]
+- wenn expEN74020d = 1, dann: Der Verfassungsschutz wird auf ihn aufmerksam. Er muss an einer Schulung gegen Radikalisierung teilnehmen
+- wenn expEN74021d = 1, dann: Der Verfassungsschutz wird auf ihn aufmerksam. Er muss an einer Schulung gegen Radikalisierung teilnehmen
+- wenn expEN74022d = 1, dann: Der Verfassungsschutz wird auf ihn aufmerksam. Er muss an einer Schulung gegen Radikalisierung teilnehmen
+- wenn expEN74023d = 1, dann: Der Verfassungsschutz wird auf ihn aufmerksam. Er muss an einer Schulung gegen Radikalisierung teilnehmen
+
+- wenn expEN74020d = 2, dann: Er wird jetzt vom Verfassungsschutz überwacht, immer wenn er im Verein trainiert
+- wenn expEN74021d = 2, dann: Er wird jetzt vom Verfassungsschutz überwacht, immer wenn er im Verein trainiert
+- wenn expEN74022d = 2, dann: Er wird jetzt vom Verfassungsschutz überwacht, immer wenn er im Verein trainiert
+- wenn expEN74023d = 2, dann: Er wird jetzt vom Verfassungsschutz überwacht, immer wenn er im Verein trainiert
+
+- wenn expEN74020d = 3, dann: Der Verfassungsschutz überwacht ab sofort sein Mobiltelefon, hört seine Gespräche mit, erstellt Bewegungsprofile und liest all seine Nachrichten und E-Mails mit
+- wenn expEN74021d = 3, dann: Der Verfassungsschutz überwacht ab sofort sein Mobiltelefon, hört seine Gespräche mit, erstellt Bewegungsprofile und liest all seine Nachrichten und E-Mails mit
+- wenn expEN74022d = 3, dann: Der Verfassungsschutz überwacht ab sofort sein Mobiltelefon, hört seine Gespräche mit, erstellt Bewegungsprofile und liest all seine Nachrichten und E-Mails mit
+- wenn expEN74023d = 3, dann: Der Verfassungsschutz überwacht ab sofort sein Mobiltelefon, hört seine Gespräche mit, erstellt Bewegungsprofile und liest all seine Nachrichten und E-Mails mit",,expEN74020 = 1,,,cat
+gip,W74,Page b 15,0,"[Person], ein Mann aus der Nachbarschaft, liebt Kampfsport. Er ist Mitglied in einem Kampfsport-Verein. Sein Verein unterstützt mit den Mitgliedsbeiträgen eine [Club] im Ausland. [Support]. Weil sein Kampfsport-Verein Extremismus unterstützt, gilt [Person] auch als Unterstützer von Extremismus. [Measure]. 
+
+Wie gerechtfertigt finden Sie die Maßnahme?",,Gerechtfertigt-I,,,,,expEN74020 = 1,,,cat
+gip,W74,Page b 16,0,"[Person], ein Mann aus der Nachbarschaft, liebt Kampfsport. Er ist Mitglied in einem Kampfsport-Verein. Sein Verein unterstützt mit den Mitgliedsbeiträgen eine [Club] im Ausland. [Support]. Weil sein Kampfsport-Verein Extremismus unterstützt, gilt [Person] auch als Unterstützer von Extremismus. [Measure]. 
+
+Wie gerechtfertigt finden Sie die Maßnahme?",,Gerechtfertigt-I,,,,,expEN74020 = 1,,,cat
+gip,W74,Page b 17,0,"[Person], ein Mann aus der Nachbarschaft, liebt Kampfsport. Er ist Mitglied in einem Kampfsport-Verein. Sein Verein unterstützt mit den Mitgliedsbeiträgen eine [Club] im Ausland. [Support]. Weil sein Kampfsport-Verein Extremismus unterstützt, gilt [Person] auch als Unterstützer von Extremismus. [Measure]. 
+
+Wie gerechtfertigt finden Sie die Maßnahme?",,Gerechtfertigt-I,,,,,expEN74020 = 1,,,cat
+gip,W74,Page b 18,0,"Ein Mann aus der Nachbarschaft liebt Kampfsport. Er ist [Nationality], in Deutschland aufgewachsen und [Glaube]. Er ist Mitglied in einem Kampfsport-Verein. Sein Verein unterstützt mit den Mitgliedsbeiträgen eine [Club] im Ausland. [Support]. Weil sein Kampfsport-Verein Extremismus unterstützt, gilt der Mann auch als Unterstützer von Extremismus. [Measure]. 
+
+Wie gerechtfertigt finden Sie die Maßnahme?",,Gerechtfertigt-I,,,"[b[Conjoint Experiment:]b]  Auf den folgenden Seiten erhalten die Teilnehmenden jeweils vier Beschreibungen über einen Unterstützer von Extremismus. Sie sollen dann für jeden Fall beurteilen, (1) wie gerechtfertigt sie die Schutzmaßnahme finden. 
+Dabei sollen die vier Beschreibungen nie identisch sein. 
+
+[b[Attribute: [Glaube] Identität Person:]b]
+[i[Filter:]i]
+- wenn expEN74024a = 1, dann: Muslim, aber das ist für ihn nicht wichtig
+- wenn expEN74025a = 1, dann: Muslim, aber das ist für ihn nicht wichtig
+- wenn expEN74026a = 1, dann: Muslim, aber das ist für ihn nicht wichtig
+- wenn expEN74027a = 1, dann: Muslim, aber das ist für ihn nicht wichtig
+
+- wenn expEN74024a = 2, dann: Christ, aber das ist für ihn nicht wichtig
+- wenn expEN74025a = 2, dann: Christ, aber das ist für ihn nicht wichtig
+- wenn expEN74026a = 2, dann: Christ, aber das ist für ihn nicht wichtig
+- wenn expEN74027a = 2, dann: Christ, aber das ist für ihn nicht wichtig
+
+- wenn expEN74024a = 3, dann: gläubiger Muslim 
+- wenn expEN74025a = 3, dann: gläubiger Muslim 
+- wenn expEN74026a = 3, dann: gläubiger Muslim 
+- wenn expEN74027a = 3, dann: gläubiger Muslim 
+
+- wenn expEN74024a = 4, dann: gläubiger Christ
+- wenn expEN74025a = 4, dann: gläubiger Christ
+- wenn expEN74026a = 4, dann: gläubiger Christ
+- wenn expEN74027a = 4, dann: gläubiger Christ
+
+[b[Attribute: [club] Ausrichtung Fitnessstudio:]b]
+[i[Filter:]i]
+- wenn expEN74024b = 1, dann: islamistische Organisation
+- wenn expEN74025b = 1, dann: islamistische Organisation
+- wenn expEN74026b = 1, dann: islamistische Organisation
+- wenn expEN74027b = 1, dann: islamistische Organisation
+
+- wenn expEN74024b = 2, dann: rechtsextreme Organisation
+- wenn expEN74025b = 2, dann: rechtsextreme Organisation
+- wenn expEN74026b = 2, dann: rechtsextreme Organisation
+- wenn expEN74027b = 2, dann: rechtsextreme Organisation
+
+[b[Attribute: [support] Unterstützung Organisation:]b]
+[i[Filter:]i]
+- wenn expEN74024c = 1, dann: Der Mann weiß davon nichts
+- wenn expEN74025c = 1, dann: Der Mann weiß davon nichts
+- wenn expEN74026c = 1, dann: Der Mann weiß davon nichts
+- wenn expEN74027c = 1, dann: Der Mann weiß davon nichts
+
+- wenn expEN74024c = 2, dann: Der Mann weiß davon, aber es stört ihn nicht
+- wenn expEN74025c = 2, dann: Der Mann weiß davon, aber es stört ihn nicht
+- wenn expEN74026c = 2, dann: Der Mann weiß davon, aber es stört ihn nicht
+- wenn expEN74027c = 2, dann: Der Mann weiß davon, aber es stört ihn nicht
+
+- wenn expEN74024c = 3, dann: Der Mann weiß davon. Er findet die Ideen der Organisation gut 
+- wenn expEN74025c = 3, dann: Der Mann weiß davon. Er findet die Ideen der Organisation gut 
+- wenn expEN74026c = 3, dann: Der Mann weiß davon. Er findet die Ideen der Organisation gut
+- wenn expEN74027c = 3, dann: Der Mann weiß davon. Er findet die Ideen der Organisation gut
+
+[b[Attribute: [Measure] Schutzmaßnahme:]b]
+[i[Filter:]i]
+- wenn expEN74024d = 1, dann: Der Verfassungsschutz wird auf ihn aufmerksam. Er muss an einer Schulung gegen Radikalisierung teilnehmen
+- wenn expEN74025d = 1, dann: Der Verfassungsschutz wird auf ihn aufmerksam. Er muss an einer Schulung gegen Radikalisierung teilnehmen
+- wenn expEN74026d = 1, dann: Der Verfassungsschutz wird auf ihn aufmerksam. Er muss an einer Schulung gegen Radikalisierung teilnehmen
+- wenn expEN74027d = 1, dann: Der Verfassungsschutz wird auf ihn aufmerksam. Er muss an einer Schulung gegen Radikalisierung teilnehmen
+
+- wenn expEN74024d = 2, dann: Er wird jetzt vom Verfassungsschutz überwacht, immer wenn er im Verein trainiert
+- wenn expEN74025d = 2, dann: Er wird jetzt vom Verfassungsschutz überwacht, immer wenn er im Verein trainiert
+- wenn expEN74026d = 2, dann: Er wird jetzt vom Verfassungsschutz überwacht, immer wenn er im Verein trainiert
+- wenn expEN74027d = 2, dann: Er wird jetzt vom Verfassungsschutz überwacht, immer wenn er im Verein trainiert
+
+- wenn expEN74024d = 3, dann: Der Verfassungsschutz überwacht ab sofort sein Mobiltelefon, hört seine Gespräche mit, erstellt Bewegungsprofile und liest all seine Nachrichten und E-Mails mit
+- wenn expEN74025d = 3, dann: Der Verfassungsschutz überwacht ab sofort sein Mobiltelefon, hört seine Gespräche mit, erstellt Bewegungsprofile und liest all seine Nachrichten und E-Mails mit
+- wenn expEN74026d = 3, dann: Der Verfassungsschutz überwacht ab sofort sein Mobiltelefon, hört seine Gespräche mit, erstellt Bewegungsprofile und liest all seine Nachrichten und E-Mails mit
+- wenn expEN74027d = 3, dann: Der Verfassungsschutz überwacht ab sofort sein Mobiltelefon, hört seine Gespräche mit, erstellt Bewegungsprofile und liest all seine Nachrichten und E-Mails mit
+
+[b[Attribute: [Nationality] Staatsangehörigkeit:]b]
+[i[Filter:]i]
+- wenn expEN74024e = 1, dann: deutscher Staatsbürger
+- wenn expEN74025e = 1, dann: deutscher Staatsbürger
+- wenn expEN74026e = 1, dann: deutscher Staatsbürger
+- wenn expEN74027e = 1, dann: deutscher Staatsbürger
+
+- wenn expEN74024e = 2, dann: syrischer Staatsbürger
+- wenn expEN74025e = 2, dann: syrischer Staatsbürger
+- wenn expEN74026e = 2, dann: syrischer Staatsbürger
+- wenn expEN74027e = 2, dann: syrischer Staatsbürger",,expEN74020 = 2,,,cat
+gip,W74,Page b 19,0,"Ein Mann aus der Nachbarschaft liebt Kampfsport. Er ist [Nationality], in Deutschland aufgewachsen und [Glaube]. Er ist Mitglied in einem Kampfsport-Verein. Sein Verein unterstützt mit den Mitgliedsbeiträgen eine [Club] im Ausland. [Support]. Weil sein Kampfsport-Verein Extremismus unterstützt, gilt der Mann auch als Unterstützer von Extremismus. [Measure]. 
+
+Wie gerechtfertigt finden Sie die Maßnahme?",,Gerechtfertigt-I,,,,,expEN74020 = 2,,,cat
+gip,W74,Page b 20,0,"Ein Mann aus der Nachbarschaft liebt Kampfsport. Er ist [Nationality], in Deutschland aufgewachsen und [Glaube]. Er ist Mitglied in einem Kampfsport-Verein. Sein Verein unterstützt mit den Mitgliedsbeiträgen eine [Club] im Ausland. [Support]. Weil sein Kampfsport-Verein Extremismus unterstützt, gilt der Mann auch als Unterstützer von Extremismus. [Measure]. 
+
+Wie gerechtfertigt finden Sie die Maßnahme?",,Gerechtfertigt-I,,,,,expEN74020 = 2,,,cat
+gip,W74,Page b 21,0,"Ein Mann aus der Nachbarschaft liebt Kampfsport. Er ist [Nationality], in Deutschland aufgewachsen und [Glaube]. Er ist Mitglied in einem Kampfsport-Verein. Sein Verein unterstützt mit den Mitgliedsbeiträgen eine [Club] im Ausland. [Support]. Weil sein Kampfsport-Verein Extremismus unterstützt, gilt der Mann auch als Unterstützer von Extremismus. [Measure]. 
+
+Wie gerechtfertigt finden Sie die Maßnahme?",,Gerechtfertigt-I,,,,,expEN74020 = 2,,,cat
+gip,W74,Page b 22,0,Wie hat Ihnen dieser Teil der Befragung gefallen?,,Bewertung-1-5,,,,,,,,cat
+gip,W74,Page b 23,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung!
+Sie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",,,,,,,"exp74001 = 1, 2 und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",,,txt
+gip,W74,Page b 24,0,"Vielen Dank für die Beantwortung dieses Teils der Befragung! 
+Sie werden in Kürze automatisch auf die nächste Seite weitergeleitet. Dort können Sie die Befragung fortführen.",,,,,,,"exp74001 = 3, 4, 5 und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",,,txt
+gip,W74,Page m 4,0,"Bewertung dieser Umfrage
+
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+
+Fanden Sie den Fragebogen ...?",,,,,,,"exp74001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,txt
+gip,W74,Page m 4,1,interessant,,1-4-sehr,,,,,,,,cat
+gip,W74,Page m 5,0,"Bewertung dieser Umfrage
+
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+
+Fanden Sie den Fragebogen ...?",,,,,,,"exp74001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,txt
+gip,W74,Page m 5,1,abwechslungsreich,,1-4-sehr,,,,,,,,cat
+gip,W74,Page m 6,0,"Bewertung dieser Umfrage
+
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+
+Fanden Sie den Fragebogen ...?",,,,,,,"exp74001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,txt
+gip,W74,Page m 6,1,relevant,,1-4-sehr,,,,,,,,cat
+gip,W74,Page m 7,0,"Bewertung dieser Umfrage
+
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+
+Fanden Sie den Fragebogen ...?",,,,,,,"exp74001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,txt
+gip,W74,Page m 7,1,lang,,1-4-sehr,,,,,,,,cat
+gip,W74,Page m 8,0,"Bewertung dieser Umfrage
+
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+
+Fanden Sie den Fragebogen ...?",,,,,,,"exp74001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,txt
+gip,W74,Page m 8,1,schwierig,,1-4-sehr,,,,,,,,cat
+gip,W74,Page m 9,0,"Bewertung dieser Umfrage
+
+Zum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.
+
+Fanden Sie den Fragebogen ...?",,,,,,,"exp74001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,txt
+gip,W74,Page m 9,1,zu persönlich,,1-4-sehr,,,,,,,,cat
+gip,W74,Page m 10,0,Wie hat Ihnen die Befragung insgesamt gefallen?,,1-5-bewertung,,,,,"exp74001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,cat
+gip,W74,Page m 11,0,"Haben Sie noch weitere Anmerkungen?
+
+Hier können Sie Lob oder Kritik zum Fragebogen äußern. Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.
+Telefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)
+E-Mail: info@gesellschaft-im-wandel.de",,,,,,,"exp74001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,chr
+gip,W74,Page m 12,0,"Sie haben den letzten Teil der Befragung für diesen Monat abgeschlossen. 
+Vielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.
+Sie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.
+Ihr Forschungsteam von der Universität Mannheim",,,,,,,"exp74001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",,,txt
