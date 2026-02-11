@@ -1,0 +1,2390 @@
+{
+  "study": "gip",
+  "name": "W73",
+  "label": "GIP Wave 73",
+  "description": "[b[Allgemeine Hinweise für Datennutzer]b] \nDie Datensätze der Welle 73 enthalten folgende Kennungen und zugespielte Variablen:\n• id_g - Unique ID, GIP\n• hhid_g - Household Identifyer, GIP\n• pid - Person identifyer (wthin HH)\n• gender_24 - gender\n• year_of_birth_cat_24 - year of birth categories\n• educ_school_24 - highest educational degree\n• educ_job_24 - highest professional qualification\n• marital_status_24 - marital status\n• number_hh_members_24 - number of household members\n• occupation_23 - employment status\n• german_citizenship_24 - german citizenship\n• internet_usage_23 - private internet usage\n• state_24 - residence state\n• sample - year of recruitment\n• dDatum - Interview-Datum",
+  "analysis_unit": "p",
+  "period": "2024/09",
+  "instrument": "W73",
+  "questions": {
+    "Page m 1 Introduction": {
+      "question": "Page m 1 Introduction",
+      "name": "Page m 1 Introduction",
+      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\n[wenn exp72001 = .: Ab diesem Monat verändert sich der Aufbau unserer Studie etwas. Wie bisher auch befragen wir Sie alle zwei Monate zu verschiedenen gesellschaftlichen Themen. Anstelle eines zusammenhängenden Fragebogens ist die Befragung dabei ab sofort in mehrere kürzere Abschnitte zu verschiedenen Themen aufgeteilt.][wenn exp72001 != .: Wie beim letzten Mal ist die Befragung in mehrere kürzere Abschnitte zu verschiedenen Themen aufgeteilt.] Sie können dabei selbst entscheiden,[wenn exp73001 = 3,4,5: in welcher Reihenfolge Sie die verschiedenen Themen beantworten möchten und] ob Sie alle hintereinander ausfüllen oder zwischendurch eine Pause einlegen. Für jeden beantworteten Abschnitt schreiben wir Ihnen je nach dessen Länge einen Betrag auf Ihrem Studienkonto gut.\n\nAls Dankeschön für Ihre regelmäßige Teilnahme gibt es auch weiterhin einmal im Jahr einen Bonus von 10 Euro, wenn Sie an allen Befragungen im Jahr teilgenommen haben oder 5 Euro, wenn Sie lediglich eine Befragung verpasst haben. Hierfür ist es wichtig, dass Sie alle Themenabschnitte der jeweiligen Befragung beantworten.\n\t\t\t\t\t\t\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren.\n\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\n\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie unseren Fragebogen gestartet haben.\n[wenn exp72001 = .: Ab diesem Monat verändert sich der Aufbau unserer Studie etwas. Wie bisher auch befragen wir Sie alle zwei Monate zu verschiedenen gesellschaftlichen Themen. Anstelle eines zusammenhängenden Fragebogens ist die Befragung dabei ab sofort in mehrere kürzere Abschnitte zu verschiedenen Themen aufgeteilt.][wenn exp72001 != .: Wie beim letzten Mal ist die Befragung in mehrere kürzere Abschnitte zu verschiedenen Themen aufgeteilt.] Sie können dabei selbst entscheiden,[wenn exp73001 = 3,4,5: in welcher Reihenfolge Sie die verschiedenen Themen beantworten möchten und] ob Sie alle hintereinander ausfüllen oder zwischendurch eine Pause einlegen. Für jeden beantworteten Abschnitt schreiben wir Ihnen je nach dessen Länge einen Betrag auf Ihrem Studienkonto gut.\n\nAls Dankeschön für Ihre regelmäßige Teilnahme gibt es auch weiterhin einmal im Jahr einen Bonus von 10 Euro, wenn Sie an allen Befragungen im Jahr teilgenommen haben oder 5 Euro, wenn Sie lediglich eine Befragung verpasst haben. Hierfür ist es wichtig, dass Sie alle Themenabschnitte der jeweiligen Befragung beantworten.\n\t\t\t\t\t\t\nSie können die Befragung jederzeit auch unterbrechen und dann später fortfahren.\n\nSollten Sie Fragen haben, so können Sie uns gerne eine E-Mail schreiben oder unsere Hotline anrufen:\ninfo@gesellschaft-im-wandel.de\n0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\n\nWir wünschen Ihnen viel Freude beim Ausfüllen und danken Ihnen für die Unterstützung!\nIhr Forschungsteam der Universität Mannheim",
+          "description": "In Welle 72 (Juli 2024) wurden die Befragten in 5 gleich große Gruppen eingeteilt und Gruppenzuteilung in separater Variable exp72001 abgelegt. \nWenn exp72001 = . (wenn in W72 nicht teilgenommen wurde): Befragte zufällig in 5 Gruppen aufteilen und Zuteilung in separater Variable exp73001 ablegen.\nWenn exp72001 != . (wenn in W72 teilgenommen wurde): exp73001 = exp72001.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page m 2": {
+      "question": "Page m 2",
+      "name": "Page m 2",
+      "label": "Dieses Mal geht es in unserer Studie um die folgenden Themen:\n· Demokratie und Wahlen\n· Bundestagswahlkandidaten und -kandidatinnen\n· Migrationspolitik\nDurch einen Klick auf „Weiter“ werden Sie zum ersten Themenabschnitt weitergeleitet.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Dieses Mal geht es in unserer Studie um die folgenden Themen:\n· Demokratie und Wahlen\n· Bundestagswahlkandidaten und -kandidatinnen\n· Migrationspolitik\nDurch einen Klick auf „Weiter“ werden Sie zum ersten Themenabschnitt weitergeleitet.",
+          "filter": "exp73001 = 2 (Teilnehmer, denen die Module in fester Reihenfolge angezeigt wird und die vorher eine Themenübersicht erhalten)",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page m 3": {
+      "question": "Page m 3",
+      "name": "Page m 3",
+      "label": "[wenn noch kein Modul gestartet wurde: Dieses Mal geht es in unserer Studie um die folgenden Themen:]\n[wenn schon mindestens ein Modul gestartet wurde: Wir haben für diesen Monat noch Fragen zu folgenden Themen an Sie:]",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "[wenn noch kein Modul gestartet wurde: Dieses Mal geht es in unserer Studie um die folgenden Themen:]\n[wenn schon mindestens ein Modul gestartet wurde: Wir haben für diesen Monat noch Fragen zu folgenden Themen an Sie:]",
+          "instruction": "Hier können Sie auswählen, zu welchem Thema Sie als [wenn noch kein Modul gestartet wurde: Erstes][wenn mindestens ein Modul gestartet wurde: Nächstes] Fragen beantworten möchten.",
+          "description": "Hier können Sie auswählen, zu welchem Thema Sie als [wenn noch kein Modul gestartet wurde: Erstes][wenn mindestens ein Modul gestartet wurde: Nächstes] Fragen beantworten möchten.",
+          "filter": "exp73001 = 3,4,5 (wenn Teilnehmer die Reihenfolge der Module selbst aussuchen)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Demokratie und Wahlen [wenn exp73001=4: (ca. 4 Minuten)][wenn exp73001=5: (ca. 4 Minuten, Gutschrift 1 Euro)]"
+            },
+            {
+              "value": 2,
+              "label": "Bundestagswahlkandidaten und -kandidatinnen [wenn exp73001=4: (ca. 3 Minuten)][wenn exp73001=5: (ca. 3 Minuten, Gutschrift 0,75 Euro)]"
+            },
+            {
+              "value": 3,
+              "label": "Migrationspolitik [wenn exp73001=4: (ca. 6 Minuten)][wenn exp73001=5: (ca. 6 Minuten, Gutschrift 1,50 Euro)]"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 1 Introduction": {
+      "question": "Page core 1 Introduction",
+      "name": "Page core 1 Introduction",
+      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie die Befragung zum Thema Demokratie und Wahlen gestartet haben.\nDie Beantwortung dieses Teils der Befragung dauert ungefähr 4 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 1 Euro auf Ihrem Studienkonto gut.\nIhr Forschungsteam von der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie die Befragung zum Thema Demokratie und Wahlen gestartet haben.\nDie Beantwortung dieses Teils der Befragung dauert ungefähr 4 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 1 Euro auf Ihrem Studienkonto gut.\nIhr Forschungsteam von der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 2": {
+      "question": "Page core 2",
+      "name": "Page core 2",
+      "label": "In der Politik reden die Leute häufig von „links“ und „rechts“. Wenn Sie diese Skala hier benutzen, wo würden Sie sich selbst einordnen, wenn 1 „links“ und 11 „rechts“ ist?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "In der Politik reden die Leute häufig von „links“ und „rechts“. Wenn Sie diese Skala hier benutzen, wo würden Sie sich selbst einordnen, wenn 1 „links“ und 11 „rechts“ ist?",
+          "instruction": "Bitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
+          "description": "Bitte geben Sie den Wert an, der auf Sie persönlich zutrifft.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Links"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Rechts"
+            },
+            {
+              "value": -99,
+              "label": "Weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 3": {
+      "question": "Page core 3",
+      "name": "Page core 3",
+      "label": "Sind Sie Mitglied einer politischen Partei?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sind Sie Mitglied einer politischen Partei?",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben. ",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ich bin kein Mitglied. "
+            },
+            {
+              "value": 2,
+              "label": "Ich bin passives Mitglied."
+            },
+            {
+              "value": 3,
+              "label": "Ich bin aktives Mitglied. "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 4": {
+      "question": "Page core 4",
+      "name": "Page core 4",
+      "label": "Bitte geben Sie an, welche Partei das ist.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, welche Partei das ist.",
+          "filter": "party membership1 = 2, 3 (wenn Befragte/-r Mitglied einer politischen Partei ist)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "CDU/CSU"
+            },
+            {
+              "value": 2,
+              "label": "SPD"
+            },
+            {
+              "value": 3,
+              "label": "FDP"
+            },
+            {
+              "value": 4,
+              "label": "Bündnis 90/Die Grünen"
+            },
+            {
+              "value": 5,
+              "label": "Die Linke"
+            },
+            {
+              "value": 8,
+              "label": "AfD"
+            },
+            {
+              "value": 9,
+              "label": "Bündnis Sahra Wagenknecht"
+            },
+            {
+              "value": 7,
+              "label": "Andere Partei, und zwar (bitte eintragen): [answer field]"
+            },
+            {
+              "value": -98,
+              "label": "Keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 5": {
+      "question": "Page core 5",
+      "name": "Page core 5",
+      "label": "Viele Leute in der Bundesrepublik neigen längere Zeit einer bestimmten politischen Partei zu, obwohl sie auch ab und zu mal eine andere Partei wählen. Wie ist das bei Ihnen: Neigen Sie – ganz allgemein gesprochen – einer bestimmten Partei zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Viele Leute in der Bundesrepublik neigen längere Zeit einer bestimmten politischen Partei zu, obwohl sie auch ab und zu mal eine andere Partei wählen. Wie ist das bei Ihnen: Neigen Sie – ganz allgemein gesprochen – einer bestimmten Partei zu?",
+          "filter": "party membership1 = 1 (wenn Befragte/-r kein Mitglied einer politischen Partei ist) ",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ja"
+            },
+            {
+              "value": 2,
+              "label": "Nein"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 6": {
+      "question": "Page core 6",
+      "name": "Page core 6",
+      "label": "Bitte geben Sie an, welche Partei das ist.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bitte geben Sie an, welche Partei das ist.",
+          "filter": "AA73042 = 1 (wenn Befragte/-r einer Partei zuneigt) ",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "CDU/CSU"
+            },
+            {
+              "value": 2,
+              "label": "SPD"
+            },
+            {
+              "value": 3,
+              "label": "FDP"
+            },
+            {
+              "value": 4,
+              "label": "Bündnis 90/Die Grünen"
+            },
+            {
+              "value": 5,
+              "label": "Die Linke"
+            },
+            {
+              "value": 8,
+              "label": "AfD"
+            },
+            {
+              "value": 9,
+              "label": "Bündnis Sahra Wagenknecht"
+            },
+            {
+              "value": 7,
+              "label": "Andere Partei, und zwar (bitte eintragen): [answer field]"
+            },
+            {
+              "value": -98,
+              "label": "Keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 7": {
+      "question": "Page core 7",
+      "name": "Page core 7",
+      "label": "Wie stark oder wie schwach neigen Sie – alles zusammengenommen – dieser Partei zu?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie stark oder wie schwach neigen Sie – alles zusammengenommen – dieser Partei zu?",
+          "filter": "AA73043 = 1,2,3,4,5,7,8,9 (Wenn Teilnehmer einer bestimmten Partei zuneigen) oder AA73469 = 1,2,3,4,5,7,8,9 (Wenn Teilnehmer Mitglied einer bestimmten Partei sind)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr stark"
+            },
+            {
+              "value": 2,
+              "label": "Ziemlich stark"
+            },
+            {
+              "value": 3,
+              "label": "Mäßig"
+            },
+            {
+              "value": 4,
+              "label": "Ziemlich schwach"
+            },
+            {
+              "value": 5,
+              "label": "Sehr schwach"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 8": {
+      "question": "Page core 8",
+      "name": "Page core 8",
+      "label": "Wenn Sie an Ihren Bekanntenkreis denken, wie viele Ihrer Bekannten neigen ebenfalls dieser Partei zu? \nMit Bekannten meinen wir Personen, die Sie beim Namen kennen und mit denen Sie sich kurz unterhalten würden, wenn Sie sie auf der Straße oder beim Einkaufen treffen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie an Ihren Bekanntenkreis denken, wie viele Ihrer Bekannten neigen ebenfalls dieser Partei zu? \nMit Bekannten meinen wir Personen, die Sie beim Namen kennen und mit denen Sie sich kurz unterhalten würden, wenn Sie sie auf der Straße oder beim Einkaufen treffen.",
+          "filter": "AA73043 = 1,2,3,4,5,7,8,9 (Wenn Teilnehmer einer bestimmten Partei zuneigen) oder AA73469 = 1,2,3,4,5,7,8,9 (Wenn Teilnehmer Mitglied einer bestimmten Partei sind)",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Keiner "
+            },
+            {
+              "value": 2,
+              "label": "Weniger als die Hälfte  "
+            },
+            {
+              "value": 3,
+              "label": "Etwa die Hälfte"
+            },
+            {
+              "value": 4,
+              "label": "Mehr als die Hälfte"
+            },
+            {
+              "value": 5,
+              "label": "Alle"
+            },
+            {
+              "value": -99,
+              "label": "Weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 9": {
+      "question": "Page core 9",
+      "name": "Page core 9",
+      "label": "Wenn Sie an Ihren Bekanntenkreis denken, wie viele Ihrer Bekannten neigen ebenfalls keiner Partei zu? \nMit Bekannten meinen wir Personen, die Sie beim Namen kennen und mit denen Sie sich kurz unterhalten würden, wenn Sie sie auf der Straße oder beim Einkaufen treffen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie an Ihren Bekanntenkreis denken, wie viele Ihrer Bekannten neigen ebenfalls keiner Partei zu? \nMit Bekannten meinen wir Personen, die Sie beim Namen kennen und mit denen Sie sich kurz unterhalten würden, wenn Sie sie auf der Straße oder beim Einkaufen treffen.",
+          "filter": "AA73042 = 2 (wenn Befragte/-r keiner Partei zuneigt) ",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Keiner "
+            },
+            {
+              "value": 2,
+              "label": "Weniger als die Hälfte  "
+            },
+            {
+              "value": 3,
+              "label": "Etwa die Hälfte"
+            },
+            {
+              "value": 4,
+              "label": "Mehr als die Hälfte"
+            },
+            {
+              "value": 5,
+              "label": "Alle"
+            },
+            {
+              "value": -99,
+              "label": "Weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 10": {
+      "question": "Page core 10",
+      "name": "Page core 10",
+      "label": "Falls Sie bei der letzten Bundestagswahl am 26. September 2021 gewählt haben, für welche Partei haben Sie mit Ihrer Zweitstimme gestimmt?\nDie Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Falls Sie bei der letzten Bundestagswahl am 26. September 2021 gewählt haben, für welche Partei haben Sie mit Ihrer Zweitstimme gestimmt?\nDie Zweitstimme ist die Stimme, mit der Sie eine Partei wählen.",
+          "instruction": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "description": "Bei dieser Frage können Sie nur eine Antwort geben.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Habe nicht gewählt"
+            },
+            {
+              "value": 2,
+              "label": "Nicht wahlberechtigt (nicht volljährig/keine deutsche Staatsbürgerschaft)"
+            },
+            {
+              "value": 4,
+              "label": "SPD"
+            },
+            {
+              "value": 3,
+              "label": "CDU/CSU"
+            },
+            {
+              "value": 6,
+              "label": "Bündnis 90/Die Grünen"
+            },
+            {
+              "value": 5,
+              "label": "FDP"
+            },
+            {
+              "value": 11,
+              "label": "AfD"
+            },
+            {
+              "value": 7,
+              "label": "Die Linke"
+            },
+            {
+              "value": 10,
+              "label": "Andere Partei, und zwar (bitte eintragen): [answer field]"
+            },
+            {
+              "value": -98,
+              "label": "Möchte ich nicht sagen"
+            },
+            {
+              "value": -99,
+              "label": "Weiß ich nicht mehr"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 11": {
+      "question": "Page core 11",
+      "name": "Page core 11",
+      "label": "Wie zufrieden oder unzufrieden sind Sie mit den Leistungen der gegenwärtigen Bundesregierung?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie zufrieden oder unzufrieden sind Sie mit den Leistungen der gegenwärtigen Bundesregierung?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Völlig unzufrieden"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Völlig zufrieden"
+            },
+            {
+              "value": -99,
+              "label": "Weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 12": {
+      "question": "Page core 12",
+      "name": "Page core 12",
+      "label": "Wie zufrieden sind Sie mit der Art und Weise, wie die Demokratie in der Bundesrepublik Deutschland funktioniert?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie zufrieden sind Sie mit der Art und Weise, wie die Demokratie in der Bundesrepublik Deutschland funktioniert?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Völlig unzufrieden"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Völlig zufrieden"
+            },
+            {
+              "value": -99,
+              "label": "Weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 13": {
+      "question": "Page core 13",
+      "name": "Page core 13",
+      "label": "Wie ist das bei Ihnen persönlich: Fühlen Sie sich frei oder unfrei, in der Öffentlichkeit zu sagen, was Sie über die gegenwärtige Politik denken?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie ist das bei Ihnen persönlich: Fühlen Sie sich frei oder unfrei, in der Öffentlichkeit zu sagen, was Sie über die gegenwärtige Politik denken?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Frei"
+            },
+            {
+              "value": 2,
+              "label": "Eher frei"
+            },
+            {
+              "value": 3,
+              "label": "Eher unfrei"
+            },
+            {
+              "value": 4,
+              "label": "Unfrei"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 14": {
+      "question": "Page core 14",
+      "name": "Page core 14",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht?\nDie Politik behandelt Menschen wie mich mit Respekt.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht?\nDie Politik behandelt Menschen wie mich mit Respekt.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 15": {
+      "question": "Page core 15",
+      "name": "Page core 15",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht?\nDie Politiker kümmern sich darum, was Leute wie ich denken.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht?\nDie Politiker kümmern sich darum, was Leute wie ich denken.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 16": {
+      "question": "Page core 16",
+      "name": "Page core 16",
+      "label": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht?\nAuch wenn sie nicht perfekt ist und einige Probleme hat, ist die Demokratie trotzdem die beste Regierungsform.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Inwieweit stimmen Sie der folgenden Aussage zu oder nicht?\nAuch wenn sie nicht perfekt ist und einige Probleme hat, ist die Demokratie trotzdem die beste Regierungsform.",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Stimme überhaupt nicht zu"
+            },
+            {
+              "value": 2,
+              "label": "Stimme eher nicht zu"
+            },
+            {
+              "value": 3,
+              "label": "Weder noch"
+            },
+            {
+              "value": 4,
+              "label": "Stimme eher zu"
+            },
+            {
+              "value": 5,
+              "label": "Stimme voll und ganz zu"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 18,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 17": {
+      "question": "Page core 17",
+      "name": "Page core 17",
+      "label": "Wie hat Ihnen dieser Teil der Befragung gefallen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie hat Ihnen dieser Teil der Befragung gefallen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut"
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 19,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 18": {
+      "question": "Page core 18",
+      "name": "Page core 18",
+      "label": "Vielen Dank für die Beantwortung dieses Teils der Befragung!\nSie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Beantwortung dieses Teils der Befragung!\nSie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",
+          "filter": "exp73001 = 1, 2, und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 20,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page core 19": {
+      "question": "Page core 19",
+      "name": "Page core 19",
+      "label": "Vielen Dank für die Beantwortung dieses Teils der Befragung!\nSie werden in Kürze automatisch auf die nächste Seite weitergeleitet. Dort können Sie die Befragung fortführen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Beantwortung dieses Teils der Befragung!\nSie werden in Kürze automatisch auf die nächste Seite weitergeleitet. Dort können Sie die Befragung fortführen.",
+          "filter": "exp73001 = 3, 4, 5 und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 21,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page 1 a Introduction": {
+      "question": "Page 1 a Introduction",
+      "name": "Page 1 a Introduction",
+      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie die Befragung zum Thema Bundestagswahlkandidaten und  -kandidatinnen gestartet haben.\nDie Beantwortung dieses Teils der Befragung dauert ungefähr 3 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 0,75 Euro auf Ihrem Studienkonto gut.\nIhr Forschungsteam von der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie die Befragung zum Thema Bundestagswahlkandidaten und  -kandidatinnen gestartet haben.\nDie Beantwortung dieses Teils der Befragung dauert ungefähr 3 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 0,75 Euro auf Ihrem Studienkonto gut.\nIhr Forschungsteam von der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 22,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page a 2": {
+      "question": "Page a 2",
+      "name": "Page a 2",
+      "label": "Stellen Sie sich vor, Sie hätten die Wahl zwischen zwei verschiedenen Kandidatinnen oder Kandidaten für den Deutschen Bundestag. Im Folgenden sind einige Eigenschaften der beiden Kandidaten aufgeführt. Es kann sein, dass Ihnen eine etwas ungewöhnliche Person beschrieben wird. Uns interessiert dennoch Ihre persönliche Einschätzung.\nAlter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]\nGeschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]\nBeruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]\nPartei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]\nPositionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]\nAktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]\n\n\n\nAuch wenn Sie unentschieden sind oder keine der Möglichkeiten wählen würden, würden Sie eher [wenn expCP73057b_1 = 1: Kandidatin A][wenn expCP73057b_1 = 2: Kandidat A] oder [wenn expCP73057b_2 = 1: Kandidatin B][wenn expCP73057b_2 = 2: Kandidat B] wählen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich vor, Sie hätten die Wahl zwischen zwei verschiedenen Kandidatinnen oder Kandidaten für den Deutschen Bundestag. Im Folgenden sind einige Eigenschaften der beiden Kandidaten aufgeführt. Es kann sein, dass Ihnen eine etwas ungewöhnliche Person beschrieben wird. Uns interessiert dennoch Ihre persönliche Einschätzung.\nAlter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]\nGeschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]\nBeruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]\nPartei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]\nPositionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]\nAktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]\n\n\n\nAuch wenn Sie unentschieden sind oder keine der Möglichkeiten wählen würden, würden Sie eher [wenn expCP73057b_1 = 1: Kandidatin A][wenn expCP73057b_1 = 2: Kandidat A] oder [wenn expCP73057b_2 = 1: Kandidatin B][wenn expCP73057b_2 = 2: Kandidat B] wählen?",
+          "description": "[b[Conjoint Experiment:]b] In der folgenden Frage bekommen die Befragten zwei fiktive Kandidaten für den Deutschen Bundestag in tabellarischer Form vorgestellt und sollen dann entscheiden, welchen der beiden Kandidaten sie wählen würden. Jedem Befragten soll randomisiert zwei Kandidaten jeweils bestehend aus einer Kombination von Werten verschiedener Attribute zugewiesen werden. Die in der jeweiligen Entscheidung verwendeten Werte der Attribute sollen in einer eigenen Variable abgelegt werden. Dabei sollen die Kandidaten nicht in allen Attributen übereinstimmen.\n\n[b[Attribute: Alter A / Alter B]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73057a_1 = 1, dann: 38 Jahre\n- wenn expCP73057a_1 = 2, dann: 46 Jahre\n- wenn expCP73057a_1 = 3, dann: 54 Jahre\n- wenn expCP73057a_1 = 4, dann: 62 Jahre\n- wenn expCP73057a_1 = 5, dann: 70 Jahre\n\n[b[Person B]b]\n- wenn expCP73057a_2 = 1, dann: 38 Jahre\n- wenn expCP73057a_2 = 2, dann: 46 Jahre\n- wenn expCP73057a_2 = 3, dann: 54 Jahre\n- wenn expCP73057a_2 = 4, dann: 62 Jahre\n- wenn expCP73057a_2 = 5, dann: 70 Jahre\n\n[b[Attribute: Geschlecht A / Geschlecht B]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73057b_1 = 1, dann: Weiblich\n- wenn expCP73057b_1 = 2, dann: Männlich\n\n[b[Person B]b]\n- wenn expCP73057b_2 = 1, dann: Weiblich\n- wenn expCP73057b_2 = 2, dann: Männlich\n\n[b[Attribute: Beruf A / Beruf B]b]\n[i[Filter:]i]\n[b[Person A]b]\nexpCP73057b_1 = 2: \n- wenn expCP73057c_1 = 1, dann: Rechtsanwalt\n- wenn expCP73057c_1 = 2, dann: Selbstständiger Unternehmer\n- wenn expCP73057c_1 = 3, dann: Lehrer\n- wenn expCP73057c_1 = 4, dann: Handwerker\n- wenn expCP73057c_1 = 5, dann: Kein Berufsabschluss\n\nexpCP73057b_1 = 1: \n- wenn expCP73057c_1 = 1, dann: Rechtsanwältin\n- wenn expCP73057c_1 = 2, dann: Selbstständige Unternehmerin\n- wenn expCP73057c_1 = 3, dann: Lehrerin\n- wenn expCP73057c_1 = 4, dann: Handwerkerin\n- wenn expCP73057c_1 = 5, dann: Kein Berufsabschluss\n\n[b[Person B]b]\nexpCP73057b_2 = 2:\n- wenn expCP73057c_2 = 1, dann: Rechtsanwalt\n- wenn expCP73057c_2 = 2, dann: Selbstständiger Unternehmer\n- wenn expCP73057c_2 = 3, dann: Lehrer\n- wenn expCP73057c_2 = 4, dann: Handwerker\n- wenn expCP73057c_2 = 5, dann: Kein Berufsabschluss\n\nexpCP73057b_2 = 1:\n- wenn expCP73057c_2 = 1, dann: Rechtsanwältin\n- wenn expCP73057c_2 = 2, dann: Selbstständige Unternehmerin\n- wenn expCP73057c_2 = 3, dann: Lehrerin\n- wenn expCP73057c_2 = 4, dann: Handwerkerin\n- wenn expCP73057c_2 = 5, dann: Kein Berufsabschluss\n\n[b[Attribute: Partei A / Partei B]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73057d_1 = 1, dann: CDU\n- wenn expCP73057d_1 = 2, dann: SPD\n- wenn expCP73057d_1 = 3, dann: Grüne\n- wenn expCP73057d_1 = 4, dann: AfD\n- wenn expCP73057d_1 = 5, dann: Bündnis Sahra Wagenknecht\n- wenn expCP73057d_1 = 6, dann: FDP\n- wenn expCP73057d_1 = 7, dann: parteilos\n\n[b[Person B]b]\n- wenn expCP73057d_2 = 1, dann: CDU\n- wenn expCP73057d_2 = 2, dann: SPD\n- wenn expCP73057d_2 = 3, dann: Grüne\n- wenn expCP73057d_2 = 4, dann: AfD\n- wenn expCP73057d_2 = 5, dann: Bündnis Sahra Wagenknecht\n- wenn expCP73057d_2 = 6, dann: FDP\n- wenn expCP73057d_2 = 7, dann: parteilos\n\n[b[Attribute: Position_1 A / Position_1 B]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73057e_1 = 1, dann: Die staatlichen Sozialleistungen sollen ausgebaut werden.\n- wenn expCP73057e_1 = 2, dann: Die staatlichen Sozialleistungen sollen weder ausgebaut noch eingeschränkt werden.\n- wenn expCP73057e_1 = 3, dann: Die staatlichen Sozialleistungen sollen eingeschränkt werden.\n\n[b[Person B]b]\n- wenn expCP73057e_2 = 1, dann: Die staatlichen Sozialleistungen sollen ausgebaut werden.\n- wenn expCP73057e_2 = 2, dann: Die staatlichen Sozialleistungen sollen weder ausgebaut noch eingeschränkt werden.\n- wenn expCP73057e_2 = 3, dann: Die staatlichen Sozialleistungen sollen eingeschränkt werden.\n\n[b[Attribute: Position_2 A / Position_2 B]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73057f_1 = 1, dann: Die Politik sollte alle Bürger mit Respekt behandeln.\n- wenn expCP73057f_1 = 2, dann: [leer]\n- wenn expCP73057f_1 = 3, dann: Die Politik muss die Bürger abholen und ihnen politische Entscheidungen besser erklären.\n\n[b[Person B]b]\n- wenn expCP73057f_2 = 1, dann: Die Politik sollte alle Bürger mit Respekt behandeln.\n- wenn expCP73057f_2 = 2, dann: [leer]\n- wenn expCP73057f_2 = 3, dann: Die Politik muss die Bürger abholen und ihnen politische Entscheidungen besser erklären.\n\n[b[Attribute: Position_3 A / Position_3 B]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73057g_1 = 1, dann: Die Zuzugsmöglichkeiten von Ausländern sollen erleichtert werden.\n- wenn expCP73057g_1 = 2, dann: Die Zuzugsmöglichkeiten von Ausländern sollen weder eingeschränkt noch erleichtert werden.\n- wenn expCP73057g_1 = 3, dann: Die Zuzugsmöglichkeiten von Ausländern sollen eingeschränkt werden.\n\n[b[Person B]b]\n- wenn expCP73057g_2 = 1, dann: Die Zuzugsmöglichkeiten von Ausländern sollen erleichtert werden.\n- wenn expCP73057g_2 = 2, dann: Die Zuzugsmöglichkeiten von Ausländern sollen weder eingeschränkt noch erleichtert werden.\n- wenn expCP73057g_2 = 3, dann: Die Zuzugsmöglichkeiten von Ausländern sollen eingeschränkt werden.\n\n[b[Attribute: Aktuelle Situation A / Aktuelle Situation B]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73057i_1 = 1, dann: Wird wegen extremen Äußerungen zum Thema Migration vom Verfassungsschutz beobachtet.\n- wenn expCP73057i_1 = 2, dann: Muss sich wegen extremen Äußerungen zum Thema Migration vor Gericht verantworten.\n- wenn expCP73057i_1 = 3, dann: Wird wegen extremen Äußerungen zum Thema Umverteilung vom Verfassungsschutz beobachtet.\n- wenn expCP73057i_1 = 4, dann: Muss sich wegen extremen Äußerungen zum Thema Umverteilung vor Gericht verantworten.\n- wenn expCP73057i_1 = 5, dann: [leer]\n\n[b[Person B]b]\n- wenn expCP73057i_2 = 1, dann: Wird wegen extremen Äußerungen zum Thema Migration vom Verfassungsschutz beobachtet.\n- wenn expCP73057i_2 = 2, dann: Muss sich wegen extremen Äußerungen zum Thema Migration vor Gericht verantworten.\n- wenn expCP73057i_2 = 3, dann: Wird wegen extremen Äußerungen zum Thema Umverteilung vom Verfassungsschutz beobachtet.\n- wenn expCP73057i_2 = 4, dann: Muss sich wegen extremen Äußerungen zum Thema Umverteilung vor Gericht verantworten.\n- wenn expCP73057i_2 = 5, dann: [leer]",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "[wenn expCP73057b_1 = 1: Kandidatin A] [wenn expCP73057b_1 = 2: Kandidat A]"
+            },
+            {
+              "value": 2,
+              "label": "[wenn expCP73057b_2 = 1: Kandidatin B] [wenn expCP73057b_2 = 2: Kandidat B]"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 23,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page a 3": {
+      "question": "Page a 3",
+      "name": "Page a 3",
+      "label": "Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]\nGeschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]\nBeruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]\nPartei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]\nPositionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]\nAktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]\n\nWas denken Sie, wie ernst nimmt [wenn expCP73057b_1 = 1: Kandidatin A][wenn expCP73057b_1 = 2: Kandidat A] die Sorgen der Menschen in Deutschland?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]\nGeschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]\nBeruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]\nPartei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]\nPositionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]\nAktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]\n\nWas denken Sie, wie ernst nimmt [wenn expCP73057b_1 = 1: Kandidatin A][wenn expCP73057b_1 = 2: Kandidat A] die Sorgen der Menschen in Deutschland?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Überhaupt nicht ernst"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Voll und ganz ernst "
+            },
+            {
+              "value": -99,
+              "label": "Weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 24,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page a 4": {
+      "question": "Page a 4",
+      "name": "Page a 4",
+      "label": "Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]\nGeschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]\nBeruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]\nPartei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]\nPositionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]\nAktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]\n\nUnd was denken Sie, wie ernst nimmt [wenn expCP73057b_2 = 1: Kandidatin B][wenn expCP73057b_2 = 2: Kandidat B] die Sorgen der Menschen in Deutschland?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]\nGeschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]\nBeruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]\nPartei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]\nPositionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]\nAktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]\n\nUnd was denken Sie, wie ernst nimmt [wenn expCP73057b_2 = 1: Kandidatin B][wenn expCP73057b_2 = 2: Kandidat B] die Sorgen der Menschen in Deutschland?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Überhaupt nicht ernst"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Voll und ganz ernst "
+            },
+            {
+              "value": -99,
+              "label": "Weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 25,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page a 5": {
+      "question": "Page a 5",
+      "name": "Page a 5",
+      "label": "Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]\nGeschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]\nBeruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]\nPartei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]\nPositionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]\nAktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]\n\nWas denken Sie, wie extrem ist [wenn expCP73057b_1 = 1: Kandidatin A][wenn expCP73057b_1 = 2: Kandidat A]?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]\nGeschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]\nBeruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]\nPartei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]\nPositionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]\nAktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]\n\nWas denken Sie, wie extrem ist [wenn expCP73057b_1 = 1: Kandidatin A][wenn expCP73057b_1 = 2: Kandidat A]?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Überhaupt nicht extrem"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr extrem"
+            },
+            {
+              "value": -99,
+              "label": "Weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 26,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page a 6": {
+      "question": "Page a 6",
+      "name": "Page a 6",
+      "label": "Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]\nGeschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]\nBeruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]\nPartei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]\nPositionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]\nAktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]\n\nUnd was denken Sie, wie extrem ist [wenn expCP73057b_2 = 1: Kandidatin B][wenn expCP73057b_2 = 2: Kandidat B]?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]\nGeschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]\nBeruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]\nPartei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]\nPositionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]\nAktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]\n\nUnd was denken Sie, wie extrem ist [wenn expCP73057b_2 = 1: Kandidatin B][wenn expCP73057b_2 = 2: Kandidat B]?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Überhaupt nicht extrem"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr extrem"
+            },
+            {
+              "value": -99,
+              "label": "Weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 27,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page a 7": {
+      "question": "Page a 7",
+      "name": "Page a 7",
+      "label": "Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]\nGeschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]\nBeruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]\nPartei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]\nPositionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]\nAktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]\n\nWas denken Sie, sollte [wenn expCP73057b_1 = 1: Kandidatin A][wenn expCP73057b_1 = 2: Kandidat A] überhaupt zur Wahl um ein politisches Amt antreten dürfen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]\nGeschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]\nBeruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]\nPartei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]\nPositionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]\nAktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]\n\nWas denken Sie, sollte [wenn expCP73057b_1 = 1: Kandidatin A][wenn expCP73057b_1 = 2: Kandidat A] überhaupt zur Wahl um ein politisches Amt antreten dürfen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ja"
+            },
+            {
+              "value": 2,
+              "label": "Nein"
+            },
+            {
+              "value": -99,
+              "label": "Weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 28,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page a 8": {
+      "question": "Page a 8",
+      "name": "Page a 8",
+      "label": "Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]\nGeschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]\nBeruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]\nPartei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]\nPositionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]\nAktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]\n\nUnd was denken Sie, sollte [wenn expCP73057b_2 = 1: Kandidatin B][wenn expCP73057b_2 = 2: Kandidat B] überhaupt zur Wahl um ein politisches Amt antreten dürfen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Alter: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057a_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057a_2]\nGeschlecht: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057b_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057b_2]\nBeruf: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057c_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057c_2]\nPartei:  wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057d_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057d_2]\nPositionen: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057e_1], [expCP73057f_1], [expCP73057g_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057e_2], [expCP73057f_2], [expCP73057g_2]\nAktuelle Situation: wenn expCP73057b_1 = 1: Kandidatin A / expCP73057b_1 = 2: Kandidat A [expCP73057i_1]; wenn expCP73057b_2 = 1: Kandidatin B / expCP73057b_2 = 2: Kandidat B [expCP73057i_2]\n\nUnd was denken Sie, sollte [wenn expCP73057b_2 = 1: Kandidatin B][wenn expCP73057b_2 = 2: Kandidat B] überhaupt zur Wahl um ein politisches Amt antreten dürfen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Ja"
+            },
+            {
+              "value": 2,
+              "label": "Nein"
+            },
+            {
+              "value": -99,
+              "label": "Weiß ich nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 29,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page a 9": {
+      "question": "Page a 9",
+      "name": "Page a 9",
+      "label": "Wie hat Ihnen dieser Teil der Befragung gefallen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie hat Ihnen dieser Teil der Befragung gefallen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut"
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 30,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page a 10": {
+      "question": "Page a 10",
+      "name": "Page a 10",
+      "label": "Vielen Dank für die Beantwortung dieses Teils der Befragung!\nSie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Beantwortung dieses Teils der Befragung!\nSie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",
+          "filter": "exp73001 = 1, 2, und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 31,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page a 11": {
+      "question": "Page a 11",
+      "name": "Page a 11",
+      "label": "Vielen Dank für die Beantwortung dieses Teils der Befragung! \nSie werden in Kürze automatisch auf die nächste Seite weitergeleitet. Dort können Sie die Befragung fortführen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Beantwortung dieses Teils der Befragung! \nSie werden in Kürze automatisch auf die nächste Seite weitergeleitet. Dort können Sie die Befragung fortführen.",
+          "filter": "exp73001 = 3, 4, 5 und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 32,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 1 Introduction": {
+      "question": "Page b 1 Introduction",
+      "name": "Page b 1 Introduction",
+      "label": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie die Befragung zum Thema Migrationspolitik gestartet haben.\nDie Beantwortung dieses Teils der Befragung dauert ungefähr 6 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 1,50 Euro auf Ihrem Studienkonto gut.\nIhr Forschungsteam von der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Liebe Teilnehmerin/lieber Teilnehmer an „Gesellschaft im Wandel“, \nwir freuen uns, dass Sie die Befragung zum Thema Migrationspolitik gestartet haben.\nDie Beantwortung dieses Teils der Befragung dauert ungefähr 6 Minuten. Sobald Sie diesen bis zum Ende ausgefüllt haben, schreiben wir Ihnen 1,50 Euro auf Ihrem Studienkonto gut.\nIhr Forschungsteam von der Universität Mannheim",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 33,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 2": {
+      "question": "Page b 2",
+      "name": "Page b 2",
+      "label": "Stellen Sie sich vor, Sie hätten die Wahl zwischen zwei verschiedenen Kandidatinnen oder Kandidaten für den Deutschen Bundestag. Im Folgenden sind einige politischen Positionen der beiden Kandidaten aufgeführt. Es kann sein, dass Ihnen eine etwas ungewöhnliche Person beschrieben wird. Uns interessiert dennoch Ihre persönliche Einschätzung.\nEinwanderung: Kandidat A [expCP73190a_1]; Kandidat B [expCP73190a_2]\nIntegration: Kandidat A [expCP73190b_1]; Kandidat B [expCP73190b_2]\nStaatsbürgerschaft: Kandidat A [expCP73190c_1]; Kandidat B [expCP73190c_2]\nKlima: Kandidat A [expCP73190d_1]; Kandidat B [expCP73190d_2]\nSozialleistungen: Kandidat A [expCP73190e_1]; Kandidat B [expCP73190e_2]\nGleichstellungspolitik: Kandidat A [expCP73190f_1]; Kandidat B [expCP73190f_2]\nAntidiskriminierung: Kandidat A [expCP73190g_1]; Kandidat B [expCP73190g_2]\nMilitärausgaben: Kandidat A [expCP73190h_1]; Kandidat B [expCP73190h_2]\nEntwicklungshilfe: Kandidat A [expCP73190i_1]; Kandidat B [expCP73190i_2]\nFreiheit/Sicherheit: Kandidat A [expCP73190j_1]; Kandidat B [expCP73190j_2]\n\nAuch wenn Sie unentschieden sind oder keine der Möglichkeiten wählen würden, würden Sie eher Kandidat A oder Kandidat B wählen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Stellen Sie sich vor, Sie hätten die Wahl zwischen zwei verschiedenen Kandidatinnen oder Kandidaten für den Deutschen Bundestag. Im Folgenden sind einige politischen Positionen der beiden Kandidaten aufgeführt. Es kann sein, dass Ihnen eine etwas ungewöhnliche Person beschrieben wird. Uns interessiert dennoch Ihre persönliche Einschätzung.\nEinwanderung: Kandidat A [expCP73190a_1]; Kandidat B [expCP73190a_2]\nIntegration: Kandidat A [expCP73190b_1]; Kandidat B [expCP73190b_2]\nStaatsbürgerschaft: Kandidat A [expCP73190c_1]; Kandidat B [expCP73190c_2]\nKlima: Kandidat A [expCP73190d_1]; Kandidat B [expCP73190d_2]\nSozialleistungen: Kandidat A [expCP73190e_1]; Kandidat B [expCP73190e_2]\nGleichstellungspolitik: Kandidat A [expCP73190f_1]; Kandidat B [expCP73190f_2]\nAntidiskriminierung: Kandidat A [expCP73190g_1]; Kandidat B [expCP73190g_2]\nMilitärausgaben: Kandidat A [expCP73190h_1]; Kandidat B [expCP73190h_2]\nEntwicklungshilfe: Kandidat A [expCP73190i_1]; Kandidat B [expCP73190i_2]\nFreiheit/Sicherheit: Kandidat A [expCP73190j_1]; Kandidat B [expCP73190j_2]\n\nAuch wenn Sie unentschieden sind oder keine der Möglichkeiten wählen würden, würden Sie eher Kandidat A oder Kandidat B wählen?",
+          "description": "[b[Conjoint Experiment:]b] In der folgenden Frage bekommen die Befragten zwei fiktive Kandidaten für den Deutschen Bundestag in tabellarischer Form vorgestellt und sollen dann entscheiden, welchen der beiden Kandidaten sie wählen würden. Jedem Befragten soll randomisiert zwei Kandidaten jeweils bestehend aus einer Kombination von Werten verschiedener Attribute zugewiesen werden. Die in der jeweiligen Entscheidun verwendeten Werte der Attribute sollen in einer eigenen Variable abgelegt werden. Dabei sollen die Kandidaten nicht in allen Attributen übereinstimmen.\n\n[b[Attribute: Einwanderung]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73190a_1 = 1, dann: Offene Einwanderungspolitik\n- wenn expCP73190a_1 = 2, dann: Restriktive Einwanderungspolitik\n\n[b[Person B]b]\n- wenn expCP73190a_2 = 1, dann: Offene Einwanderungspolitik\n- wenn expCP73190a_2 = 2, dann: Restriktive Einwanderungspolitik\n\n[b[Attribute: Integration]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73190b_1 = 1, dann: Volle Rechte für Einwanderer\n- wenn expCP73190b_1 = 2, dann: Nur begrenzte Rechte für Einwanderer\n\n[b[Person B]b]\n- wenn expCP73190b_2 = 1, dann: Volle Rechte für Einwanderer\n- wenn expCP73190b_2 = 2, dann: Nur begrenzte Rechte für Einwanderer\n\n[b[Attribute: Staatsbürgerschaft]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73190c_1 = 1, dann: Einfacher Zugang zur deutschen Staatsbürgerschaft\n- wenn expCP73190c_1 = 2, dann: Restriktiver Zugang zur deutschen Staatsbürgerschaft\n\n[b[Person B]b]\n- wenn expCP73190c_2 = 1, dann: Einfacher Zugang zur deutschen Staatsbürgerschaft\n- wenn expCP73190c_2 = 2, dann: Restriktiver Zugang zur deutschen Staatsbürgerschaft\n\n[b[Attribute: Klima]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73190d_1 = 1, dann: Mehr Klimaschutz auf Kosten von Wirtschaftswachstum\n- wenn expCP73190d_1 = 2, dann: Mehr Wirtschaftswachstum auf Kosten von Klimaschutz\n\n[b[Person B]b]\n- wenn expCP73190d_2 = 1, dann: Mehr Klimaschutz auf Kosten von Wirtschaftswachstum\n- wenn expCP73190d_2 = 2, dann: Mehr Wirtschaftswachstum auf Kosten von Klimaschutz\n\n[b[Attribute: Sozialleistungen]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73190e_1 = 1, dann: Mehr Sozialleistungen und höhere Steuern\n- wenn expCP73190e_1 = 2, dann: Weniger Sozialleistungen und niedrigere Steuern\n\n[b[Person B]b]\n- wenn expCP73190e_2 = 1, dann: Mehr Sozialleistungen und höhere Steuern\n- wenn expCP73190e_2 = 2, dann: Weniger Sozialleistungen und niedrigere Steuern\n\n\n[b[Attribute: Gleichstellungspolitik]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73190f_1 = 1, dann: Ausbau von Gleichstellungspolitik und Frauenförderung \n- wenn expCP73190f_1 = 2, dann: Reduzierung von Gleichstellungspolitik und Frauenförderung\n\n[b[Person B]b]\n- wenn expCP73190f_2 = 1, dann: Ausbau von Gleichstellungspolitik und Frauenförderung \n- wenn expCP73190f_2 = 2, dann: Reduzierung von Gleichstellungspolitik und Frauenförderung\n\n[b[Attribute: Antidiskriminierung]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73190g_1 = 1, dann: Ausbau von Antidiskriminierungspolitik für gesellschaftliche Minderheiten\n- wenn expCP73190g_1 = 2, dann: Reduzierung von Antidiskriminierungspolitik für gesellschaftliche Minderheiten\n\n[b[Person B]b]\n- wenn expCP73190g_2 = 1, dann: Ausbau von Antidiskriminierungspolitik für gesellschaftliche Minderheiten\n- wenn expCP73190g_2 = 2, dann: Reduzierung von Antidiskriminierungspolitik für gesellschaftliche Minderheiten\n\n[b[Attribute: Militärausgaben]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73190h_1 = 1, dann: Erhöhung der Militärausgaben\n- wenn expCP73190h_1 = 2, dann: Reduzierung der Militärausgaben\n\n[b[Person B]b]\n- wenn expCP73190h_2 = 1, dann: Erhöhung der Militärausgaben\n- wenn expCP73190h_2 = 2, dann: Reduzierung der Militärausgaben\n\n[b[Attribute: Entwicklungshilfe]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn expCP73190i_1 = 1, dann: Erhöhung der Entwicklungshilfe\n- wenn expCP73190i_1 = 2, dann: Reduzierung der Entwicklungshilfe\n\n[b[Person B]b]\n- wenn expCP73190i_2 = 1, dann: Erhöhung der Entwicklungshilfe\n- wenn expCP73190i_2 = 2, dann: Reduzierung der Entwicklungshilfe\n\n[b[Attribute: Freiheit/Sicherheit]b]\n[i[Filter:]i]\n[b[Person A]b]\n- wenn: expCP73190j_1 = 1, dann: Mehr Freiheiten auf Kosten von Sicherheit\n- wenn: expCP73190j_1 = 1, dann: Mehr Sicherheit auf Kosten von Freiheiten\n\n[b[Person B]b]\n- wenn: expCP73190j_2 = 1, dann: Mehr Freiheiten auf Kosten von Sicherheit\n- wenn: expCP73190j_2 = 1, dann: Mehr Sicherheit auf Kosten von Freiheiten",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Kandidat A"
+            },
+            {
+              "value": 2,
+              "label": "Kandidat B"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 34,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 3": {
+      "question": "Page b 3",
+      "name": "Page b 3",
+      "label": "An wen denken Sie, wenn Sie an die Menschen denken, die im letzten Jahr nach Deutschland gekommen sind, um hier zu leben?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "An wen denken Sie, wenn Sie an die Menschen denken, die im letzten Jahr nach Deutschland gekommen sind, um hier zu leben?",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 35,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 4": {
+      "question": "Page b 4",
+      "name": "Page b 4",
+      "label": "Wenn Sie an die Menschen denken, die im letzten Jahr nach Deutschland gekommen sind, um hier zu leben: Wie hoch ist der Anteil derjenigen unter ihnen, die eingewandert sind, um hier zu arbeiten?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie an die Menschen denken, die im letzten Jahr nach Deutschland gekommen sind, um hier zu leben: Wie hoch ist der Anteil derjenigen unter ihnen, die eingewandert sind, um hier zu arbeiten?",
+          "instruction": "Bitte geben Sie Ihre Schätzung in Prozent an.",
+          "description": "Bitte geben Sie Ihre Schätzung in Prozent an.",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 36,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 5": {
+      "question": "Page b 5",
+      "name": "Page b 5",
+      "label": "Jetzt interessiert uns die wahrscheinliche Spanne des Anteils derjenigen, die im letzten Jahr nach Deutschland eingewandert sind, um hier zu arbeiten.\n\nVon den Menschen, die im letzten Jahr nach Deutschland gekommen sind: Wie hoch ist der Anteil derjenigen unter ihnen, die eingewandert sind, um hier zu arbeiten, mindestens?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Jetzt interessiert uns die wahrscheinliche Spanne des Anteils derjenigen, die im letzten Jahr nach Deutschland eingewandert sind, um hier zu arbeiten.\n\nVon den Menschen, die im letzten Jahr nach Deutschland gekommen sind: Wie hoch ist der Anteil derjenigen unter ihnen, die eingewandert sind, um hier zu arbeiten, mindestens?",
+          "instruction": "Bitte geben Sie die wahrscheinliche Untergrenze in Prozent an.",
+          "description": "Bitte geben Sie die wahrscheinliche Untergrenze in Prozent an.",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 37,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 6": {
+      "question": "Page b 6",
+      "name": "Page b 6",
+      "label": "Wie hoch ist der Anteil derjenigen unter ihnen, die eingewandert sind, um hier zu arbeiten, höchstens?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie hoch ist der Anteil derjenigen unter ihnen, die eingewandert sind, um hier zu arbeiten, höchstens?",
+          "instruction": "Bitte geben Sie die wahrscheinliche Obergrenze in Prozent an.\t",
+          "description": "Bitte geben Sie die wahrscheinliche Obergrenze in Prozent an.",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 38,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 7": {
+      "question": "Page b 7",
+      "name": "Page b 7",
+      "label": "Wenn Sie an die Menschen denken, die im letzten Jahr nach Deutschland gekommen sind, um hier zu leben: Wie hoch ist der Anteil derjenigen unter ihnen, die aus einem Land der EU kommen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wenn Sie an die Menschen denken, die im letzten Jahr nach Deutschland gekommen sind, um hier zu leben: Wie hoch ist der Anteil derjenigen unter ihnen, die aus einem Land der EU kommen?",
+          "instruction": "Bitte geben Sie Ihre Schätzung in Prozent an.",
+          "description": "Bitte geben Sie Ihre Schätzung in Prozent an.",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 39,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 8 ": {
+      "question": "Page b 8 ",
+      "name": "Page b 8 ",
+      "label": "Jetzt interessiert uns die wahrscheinliche Spanne des Anteils derjenigen, die im letzten Jahr aus einem Land der EU nach Deutschland eingewandert sind.\n\nVon den Menschen, die im letzten Jahr nach Deutschland gekommen sind: Wie hoch ist der Anteil derjenigen unter ihnen, die aus einem Land der EU kommen, mindestens?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Jetzt interessiert uns die wahrscheinliche Spanne des Anteils derjenigen, die im letzten Jahr aus einem Land der EU nach Deutschland eingewandert sind.\n\nVon den Menschen, die im letzten Jahr nach Deutschland gekommen sind: Wie hoch ist der Anteil derjenigen unter ihnen, die aus einem Land der EU kommen, mindestens?",
+          "instruction": "Bitte geben Sie die wahrscheinliche Untergrenze in Prozent an.",
+          "description": "Bitte geben Sie die wahrscheinliche Untergrenze in Prozent an.",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 40,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 9": {
+      "question": "Page b 9",
+      "name": "Page b 9",
+      "label": "Und wie hoch ist der Anteil derjenigen unter ihnen, die aus einem Land der EU kommen, höchstens?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und wie hoch ist der Anteil derjenigen unter ihnen, die aus einem Land der EU kommen, höchstens?",
+          "instruction": "Bitte geben Sie die wahrscheinliche Obergrenze in Prozent an.",
+          "description": "Bitte geben Sie die wahrscheinliche Obergrenze in Prozent an.",
+          "scale": "int",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 41,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 10 ": {
+      "question": "Page b 10 ",
+      "name": "Page b 10 ",
+      "label": "Was würden Sie sagen: Ist es im Allgemeinen gut oder schlecht für die deutsche Wirtschaft, dass Einwanderer hierherkommen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Was würden Sie sagen: Ist es im Allgemeinen gut oder schlecht für die deutsche Wirtschaft, dass Einwanderer hierherkommen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr gut"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 42,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 11": {
+      "question": "Page b 11",
+      "name": "Page b 11",
+      "label": "Und würden Sie sagen, dass das kulturelle Leben in Deutschland im Allgemeinen durch Einwanderer untergraben oder bereichert wird?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Und würden Sie sagen, dass das kulturelle Leben in Deutschland im Allgemeinen durch Einwanderer untergraben oder bereichert wird?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr stark untergraben"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr stark bereichert"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 43,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 12": {
+      "question": "Page b 12",
+      "name": "Page b 12",
+      "label": "Wie gut oder schlecht ist es Ihrer Meinung nach, wenn Menschen aus anderen Ländern das Recht haben, nach Deutschland einzuwandern?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie gut oder schlecht ist es Ihrer Meinung nach, wenn Menschen aus anderen Ländern das Recht haben, nach Deutschland einzuwandern?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "Sehr gut"
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 5
+            },
+            {
+              "value": 6
+            },
+            {
+              "value": 7
+            },
+            {
+              "value": 8
+            },
+            {
+              "value": 9
+            },
+            {
+              "value": 10
+            },
+            {
+              "value": 11,
+              "label": "Sehr schlecht"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 44,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 13": {
+      "question": "Page b 13",
+      "name": "Page b 13",
+      "label": "Sind die derzeitigen Einwanderungsgesetze in Deutschland Ihrer Meinung nach zu großzügig, zu restriktiv oder genau richtig?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sind die derzeitigen Einwanderungsgesetze in Deutschland Ihrer Meinung nach zu großzügig, zu restriktiv oder genau richtig?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 5,
+              "label": "Zu großzügig"
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": 0,
+              "label": "Genau richtig"
+            },
+            {
+              "value": -1
+            },
+            {
+              "value": -2
+            },
+            {
+              "value": -3
+            },
+            {
+              "value": -4
+            },
+            {
+              "value": -5,
+              "label": "Zu restriktiv"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 45,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 14": {
+      "question": "Page b 14",
+      "name": "Page b 14",
+      "label": "Sind die derzeitigen Rechte für Einwanderer in Deutschland Ihrer Meinung nach zu großzügig, zu restriktiv oder genau richtig?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sind die derzeitigen Rechte für Einwanderer in Deutschland Ihrer Meinung nach zu großzügig, zu restriktiv oder genau richtig?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 5,
+              "label": "Zu großzügig"
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": 0,
+              "label": "Genau richtig"
+            },
+            {
+              "value": -1
+            },
+            {
+              "value": -2
+            },
+            {
+              "value": -3
+            },
+            {
+              "value": -4
+            },
+            {
+              "value": -5,
+              "label": "Zu restriktiv"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 46,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 15": {
+      "question": "Page b 15",
+      "name": "Page b 15",
+      "label": "Sind die derzeitigen Einwanderungszahlen nach Deutschland Ihrer Meinung nach zu groß, zu niedrig oder genau richtig?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sind die derzeitigen Einwanderungszahlen nach Deutschland Ihrer Meinung nach zu groß, zu niedrig oder genau richtig?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 5,
+              "label": "Zu groß"
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": 0,
+              "label": "Genau richtig"
+            },
+            {
+              "value": -1
+            },
+            {
+              "value": -2
+            },
+            {
+              "value": -3
+            },
+            {
+              "value": -4
+            },
+            {
+              "value": -5,
+              "label": "Zu niedrig"
+            },
+            {
+              "value": -99,
+              "label": "Weiß nicht"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 47,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 16": {
+      "question": "Page b 16",
+      "name": "Page b 16",
+      "label": "Welche der folgenden Dinge wären Sie bereit zu tun, um Ihre Position zur Migrationspolitik zu unterstützen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Welche der folgenden Dinge wären Sie bereit zu tun, um Ihre Position zur Migrationspolitik zu unterstützen?",
+          "instruction": "Bitte wählen Sie alle aus, die zutreffen.",
+          "description": "Bitte wählen Sie alle aus, die zutreffen.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "Für Parteien stimmen, die mit meiner Position zu Migration übereinstimmen",
+          "scale": "bin",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text": "An politischen Diskussionen im Alltag teilnehmen",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text": "Jemanden von meinen Positionen überzeugen",
+          "scale": "bin",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text": "Einen Anstecker tragen",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text": "Meinungen in sozialen Medien teilen",
+          "scale": "bin",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text": "Kontakt mit Mitgliedern des Bundestags aufnehmen",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text": "Einer Partei oder Organisation Geld spenden",
+          "scale": "bin",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text": "An einer Demonstration teilnehmen",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text": "Aktives Mitglied einer Partei oder Organisation werden",
+          "scale": "bin",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text": "Ein Amt in einer Partei oder Organisation übernehmen",
+          "scale": "bin",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text": "Keines dieser Dinge",
+          "scale": "bin",
+          "sn": 11,
+          "number": ""
+        }
+      ],
+      "sn": 48,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 17": {
+      "question": "Page b 17",
+      "name": "Page b 17",
+      "label": "Wie hat Ihnen dieser Teil der Befragung gefallen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie hat Ihnen dieser Teil der Befragung gefallen?",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut "
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 49,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 18": {
+      "question": "Page b 18",
+      "name": "Page b 18",
+      "label": "Vielen Dank für die Beantwortung dieses Teils der Befragung!\nSie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Beantwortung dieses Teils der Befragung!\nSie werden in Kürze automatisch zum nächsten Abschnitt der Befragung weitergeleitet.",
+          "filter": "exp73001 = 1, 2, und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 50,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page b 19": {
+      "question": "Page b 19",
+      "name": "Page b 19",
+      "label": "Vielen Dank für die Beantwortung dieses Teils der Befragung! \nSie werden in Kürze automatisch auf die nächste Seite weitergeleitet. Dort können Sie die Befragung fortführen.",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Vielen Dank für die Beantwortung dieses Teils der Befragung! \nSie werden in Kürze automatisch auf die nächste Seite weitergeleitet. Dort können Sie die Befragung fortführen.",
+          "filter": "exp73001 = 3, 4, 5 und falls noch offene Module/die QE-Fragen im Mantel vorhanden sind",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 51,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page m 4": {
+      "question": "Page m 4",
+      "name": "Page m 4",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "filter": "exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "interessant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 52,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page m 5": {
+      "question": "Page m 5",
+      "name": "Page m 5",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "filter": "exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "abwechslungsreich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 53,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page m 6": {
+      "question": "Page m 6",
+      "name": "Page m 6",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "filter": "exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "relevant",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 54,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page m 7": {
+      "question": "Page m 7",
+      "name": "Page m 7",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "filter": "exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "lang",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 55,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page m 8": {
+      "question": "Page m 8",
+      "name": "Page m 8",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "filter": "exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "schwierig",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 56,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page m 9": {
+      "question": "Page m 9",
+      "name": "Page m 9",
+      "label": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Bewertung dieser Umfrage\n\nZum Schluss möchten wir Ihnen die Gelegenheit geben, uns mitzuteilen, wie Ihnen der Fragebogen gefallen hat.\n\nFanden Sie den Fragebogen ...?",
+          "filter": "exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text": "zu persönlich",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "1 überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label": "4 sehr"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 57,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page m 10": {
+      "question": "Page m 10",
+      "name": "Page m 10",
+      "label": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Wie hat Ihnen die Befragung insgesamt gefallen?",
+          "filter": "exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",
+          "scale": "cat",
+          "answers": [
+            {
+              "value": 1,
+              "label": "überhaupt nicht"
+            },
+            {
+              "value": 2,
+              "label": "nicht so gut "
+            },
+            {
+              "value": 3,
+              "label": "mittelmäßig"
+            },
+            {
+              "value": 4,
+              "label": "gut"
+            },
+            {
+              "value": 5,
+              "label": "sehr gut "
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 58,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page m 11": {
+      "question": "Page m 11",
+      "name": "Page m 11",
+      "label": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern. Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Haben Sie noch weitere Anmerkungen?\n\nHier können Sie Lob oder Kritik zum Fragebogen äußern. Wenn Sie generell Fragen zur Studie haben oder uns etwas mitteilen möchten, können Sie uns telefonisch oder per E-Mail erreichen.\nTelefon: 0800-5892604 (kostenlos aus dem deutschen Fest- und Mobilfunknetz)\nE-Mail: info@gesellschaft-im-wandel.de",
+          "filter": "exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",
+          "scale": "chr",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 59,
+      "instrument": "W73",
+      "study": "gip"
+    },
+    "Page m 12": {
+      "question": "Page m 12",
+      "name": "Page m 12",
+      "label": "Sie haben den letzten Teil der Befragung für diesen Monat abgeschlossen. \nVielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\nIhr Forschungsteam von der Universität Mannheim",
+      "label_de": "",
+      "items": [
+        {
+          "item": "0",
+          "text": "Sie haben den letzten Teil der Befragung für diesen Monat abgeschlossen. \nVielen Dank für die Teilnahme an der Befragung! Sie leisten damit einen wichtigen Beitrag zur Erforschung unserer Gesellschaft.\nSie werden in Kürze automatisch auf die Internetseite der Studie weitergeleitet.\nIhr Forschungsteam von der Universität Mannheim",
+          "filter": "exp73001 = 1, 2, 3, 4, 5 und alle Module beantwortet wurden",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 60,
+      "instrument": "W73",
+      "study": "gip"
+    }
+  }
+}
