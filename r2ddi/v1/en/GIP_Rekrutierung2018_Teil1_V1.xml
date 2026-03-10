@@ -1,0 +1,2387 @@
+<codebook>
+  <dataDscr>
+    <var ID="id_g" intrvl="numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Unique ID, GIP</labl>
+      <sumStat type="Min.">40010201</sumStat>
+      <sumStat type="1st Qu.">42540251</sumStat>
+      <sumStat type="Median">44938651</sumStat>
+      <sumStat type="Mean">44957068.1263895</sumStat>
+      <sumStat type="3rd Qu.">47439451</sumStat>
+      <sumStat type="Max.">49992101</sumStat>
+      <sumStat type="valid">4858</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="hhid_g" intrvl="numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Household Identifyer, GIP</labl>
+      <sumStat type="Min.">400102</sumStat>
+      <sumStat type="1st Qu.">425402.5</sumStat>
+      <sumStat type="Median">449386.5</sumStat>
+      <sumStat type="Mean">449570.671263895</sumStat>
+      <sumStat type="3rd Qu.">474394.5</sumStat>
+      <sumStat type="Max.">499921</sumStat>
+      <sumStat type="valid">4858</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="pid" intrvl="numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Person identifyer (wthin HH)</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">1</sumStat>
+      <sumStat type="Median">1</sumStat>
+      <sumStat type="Mean">1</sumStat>
+      <sumStat type="3rd Qu.">1</sumStat>
+      <sumStat type="Max.">1</sumStat>
+      <sumStat type="valid">4858</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="dDatum" intrvl="numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Interview-Datum (online)</labl>
+      <sumStat type="Min.">21442</sumStat>
+      <sumStat type="1st Qu.">21446</sumStat>
+      <sumStat type="Median">21463</sumStat>
+      <sumStat type="Mean">21469.0754296626</sumStat>
+      <sumStat type="3rd Qu.">21483.75</sumStat>
+      <sumStat type="Max.">21606</sumStat>
+      <sumStat type="NA's">1716</sumStat>
+      <sumStat type="valid">3142</sumStat>
+      <sumStat type="invalid">1716</sumStat>
+    </var>
+    <var ID="mode" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Participation Mode Recruitment Part 1</labl>
+      <sumStat type="valid">4858</sumStat>
+      <sumStat type="invalid">0</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. online</labl>
+        <catStat type="freq">3142</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>2</catValu>
+        <labl>2. paper</labl>
+        <catStat type="freq">1716</catStat>
+      </catgry>
+    </var>
+    <var ID="recruitment_group_2018" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Gruppen Registrierung 2018</labl>
+      <sumStat type="valid">4858</sumStat>
+      <sumStat type="invalid">0</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. Gruppe 1a: Bonus 50€</labl>
+        <catStat type="freq"> 422</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>2</catValu>
+        <labl>2. Gruppe 1b: Bonus 20€</labl>
+        <catStat type="freq"> 413</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>3</catValu>
+        <labl>3. Gruppe 2: online only</labl>
+        <catStat type="freq">1067</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>4</catValu>
+        <labl>4. Gruppe 3: paper first</labl>
+        <catStat type="freq"> 993</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>5</catValu>
+        <labl>5. Gruppe 4: online first</labl>
+        <catStat type="freq"> 905</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>6</catValu>
+        <labl>6. Gruppe 5: concurrent mode</labl>
+        <catStat type="freq">1058</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3004" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>technology stay up-to-date</labl>
+      <sumStat type="valid">4809</sumStat>
+      <sumStat type="invalid">49</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  29</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. Überhaupt nicht wichtig</labl>
+        <catStat type="freq"> 213</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>2</catValu>
+        <labl>2. Eher nicht wichtig</labl>
+        <catStat type="freq">1754</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  20</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>3</catValu>
+        <labl>3. Eher wichtig</labl>
+        <catStat type="freq">2153</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>4</catValu>
+        <labl>4. Sehr wichtig</labl>
+        <catStat type="freq"> 689</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3001" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  27</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. Ich habe keinen Zugang zum Internet</labl>
+        <catStat type="freq"> 114</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>2</catValu>
+        <labl>2. Nutze ich nie</labl>
+        <catStat type="freq">  37</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  24</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>3</catValu>
+        <labl>3. Weniger als einmal im Monat</labl>
+        <catStat type="freq">  28</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>4</catValu>
+        <labl>4. Einmal im Monat</labl>
+        <catStat type="freq">  24</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>5</catValu>
+        <labl>5. Mehrmals im Monat</labl>
+        <catStat type="freq"> 153</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>6</catValu>
+        <labl>6. Einmal in der Woche</labl>
+        <catStat type="freq">  83</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>7</catValu>
+        <labl>7. Mehrmals in der Woche</labl>
+        <catStat type="freq"> 551</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>8</catValu>
+        <labl>8. Täglich</labl>
+        <catStat type="freq">1050</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>9</catValu>
+        <labl>9. Mehrmals täglich</labl>
+        <catStat type="freq">2767</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3002_a" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage multimedia</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2439</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">2368</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3002_b" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage gaming</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">3681</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">1126</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3002_c" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage creative</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4377</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 430</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3002_d" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage lookup</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq"> 580</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">4227</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3002_f" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage news</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1430</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">3377</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3002_g" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage read blogs</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4072</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 735</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3002_h" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage make website</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4547</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 260</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3002_i" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage check mail</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq"> 640</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">4167</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3002_j" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage occupation/private network</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2594</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">2213</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3002_l" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage compare</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1633</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">3174</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3002_m" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage buy sell</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1461</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">3346</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3002_n" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage banking</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1787</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">3020</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3002_o" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage other</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4526</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 281</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3002_no" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet usage none</labl>
+      <sumStat type="valid">4807</sumStat>
+      <sumStat type="invalid">51</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4774</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">  33</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3003_a" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet device pc</labl>
+      <sumStat type="valid">4804</sumStat>
+      <sumStat type="invalid">54</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2464</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">2340</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  54</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3003_b" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet device notebook</labl>
+      <sumStat type="valid">4804</sumStat>
+      <sumStat type="invalid">54</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1843</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">2961</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  54</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3003_c" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet device tablet</labl>
+      <sumStat type="valid">4804</sumStat>
+      <sumStat type="invalid">54</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2783</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">2021</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  54</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3003_d" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet device smartphone</labl>
+      <sumStat type="valid">4804</sumStat>
+      <sumStat type="invalid">54</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq"> 767</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">4037</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  54</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3003_h" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet device other</labl>
+      <sumStat type="valid">4804</sumStat>
+      <sumStat type="invalid">54</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4628</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 176</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  54</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3003_no" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>internet device none</labl>
+      <sumStat type="valid">4804</sumStat>
+      <sumStat type="invalid">54</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4773</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">  31</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  54</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3005_a" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>More health services</labl>
+      <sumStat type="valid">4824</sumStat>
+      <sumStat type="invalid">34</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1597</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">3227</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  34</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3005_b" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>More basic insurance</labl>
+      <sumStat type="valid">4824</sumStat>
+      <sumStat type="invalid">34</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">3883</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 941</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  34</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3005_c" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>More support for unemployed people</labl>
+      <sumStat type="valid">4824</sumStat>
+      <sumStat type="invalid">34</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">3214</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">1610</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  34</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3005_d" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>More pension</labl>
+      <sumStat type="valid">4824</sumStat>
+      <sumStat type="invalid">34</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1576</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">3248</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  34</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3005_e" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>More education</labl>
+      <sumStat type="valid">4824</sumStat>
+      <sumStat type="invalid">34</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq"> 962</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">3862</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  34</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3005_f" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>More childcare</labl>
+      <sumStat type="valid">4824</sumStat>
+      <sumStat type="invalid">34</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2015</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">2809</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  34</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3005_g" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>More internal security</labl>
+      <sumStat type="valid">4824</sumStat>
+      <sumStat type="invalid">34</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2669</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">2155</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  34</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3005_h" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>More environment protection</labl>
+      <sumStat type="valid">4824</sumStat>
+      <sumStat type="invalid">34</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">1943</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">2881</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  34</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3005_i" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>More digitalization</labl>
+      <sumStat type="valid">4824</sumStat>
+      <sumStat type="invalid">34</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2885</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">1939</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  34</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3005_j" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>More integration</labl>
+      <sumStat type="valid">4824</sumStat>
+      <sumStat type="invalid">34</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">3440</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">1384</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  34</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3005_k" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>More spending money other</labl>
+      <sumStat type="valid">4824</sumStat>
+      <sumStat type="invalid">34</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4362</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 462</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  34</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3005_l" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>More none</labl>
+      <sumStat type="valid">4824</sumStat>
+      <sumStat type="invalid">34</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4812</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">  12</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  34</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3006_a" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Less health services</labl>
+      <sumStat type="valid">4823</sumStat>
+      <sumStat type="invalid">35</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4759</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">  64</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  35</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3006_b" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Less basic insurance</labl>
+      <sumStat type="valid">4823</sumStat>
+      <sumStat type="invalid">35</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4110</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 713</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  35</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3006_c" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Less support for unemployed people</labl>
+      <sumStat type="valid">4823</sumStat>
+      <sumStat type="invalid">35</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4444</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 379</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  35</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3006_d" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Less pension</labl>
+      <sumStat type="valid">4823</sumStat>
+      <sumStat type="invalid">35</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4736</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">  87</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  35</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3006_e" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Less education</labl>
+      <sumStat type="valid">4823</sumStat>
+      <sumStat type="invalid">35</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4788</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">  35</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  35</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3006_f" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Less childcare</labl>
+      <sumStat type="valid">4823</sumStat>
+      <sumStat type="invalid">35</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4685</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 138</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  35</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3006_g" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Less internal security</labl>
+      <sumStat type="valid">4823</sumStat>
+      <sumStat type="invalid">35</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4491</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 332</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  35</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3006_h" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Less environment protection</labl>
+      <sumStat type="valid">4823</sumStat>
+      <sumStat type="invalid">35</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4632</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 191</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  35</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3006_i" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Less digitalization</labl>
+      <sumStat type="valid">4823</sumStat>
+      <sumStat type="invalid">35</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4389</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 434</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  35</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3006_j" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Less integration</labl>
+      <sumStat type="valid">4823</sumStat>
+      <sumStat type="invalid">35</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">3642</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">1181</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  35</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3006_k" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Less spending money other</labl>
+      <sumStat type="valid">4823</sumStat>
+      <sumStat type="invalid">35</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4078</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 745</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  35</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3006_l" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>Less none</labl>
+      <sumStat type="valid">4823</sumStat>
+      <sumStat type="invalid">35</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">2909</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq">1914</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  35</catStat>
+      </catgry>
+    </var>
+    <var ID="RQB3001" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>gender</labl>
+      <sumStat type="valid">4808</sumStat>
+      <sumStat type="invalid">50</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  13</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. Männlich</labl>
+        <catStat type="freq">2423</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>2</catValu>
+        <labl>2. Weiblich</labl>
+        <catStat type="freq">2385</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  37</catStat>
+      </catgry>
+    </var>
+    <var ID="RQB3018" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>year of birth</labl>
+      <sumStat type="valid">4803</sumStat>
+      <sumStat type="invalid">55</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">  2</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq"> 13</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">  0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. 1935-1939</labl>
+        <catStat type="freq">  1</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>10</catValu>
+        <labl>10. 1980-1984</labl>
+        <catStat type="freq">375</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>11</catValu>
+        <labl>11. 1985-1989</labl>
+        <catStat type="freq">379</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>12</catValu>
+        <labl>12. 1990-1994</labl>
+        <catStat type="freq">359</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>13</catValu>
+        <labl>13. 1995-1999</labl>
+        <catStat type="freq">354</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>14</catValu>
+        <labl>14. 2000 und später</labl>
+        <catStat type="freq">140</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>2</catValu>
+        <labl>2. 1940-1944</labl>
+        <catStat type="freq">133</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq"> 40</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>3</catValu>
+        <labl>3. 1945-1949</labl>
+        <catStat type="freq">248</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>4</catValu>
+        <labl>4. 1950-1954</labl>
+        <catStat type="freq">425</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>5</catValu>
+        <labl>5. 1955-1959</labl>
+        <catStat type="freq">485</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>6</catValu>
+        <labl>6. 1960-1964</labl>
+        <catStat type="freq">533</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>7</catValu>
+        <labl>7. 1965-1969</labl>
+        <catStat type="freq">561</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>8</catValu>
+        <labl>8. 1970-1974</labl>
+        <catStat type="freq">421</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>9</catValu>
+        <labl>9. 1975-1979</labl>
+        <catStat type="freq">389</catStat>
+      </catgry>
+    </var>
+    <var ID="RQB3003" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>highest educational degree</labl>
+      <sumStat type="valid">4792</sumStat>
+      <sumStat type="invalid">66</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  25</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. Noch Schüler/-in</labl>
+        <catStat type="freq">  89</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>2</catValu>
+        <labl>2. Schule beendet ohne Abschluss</labl>
+        <catStat type="freq">  51</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  41</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>3</catValu>
+        <labl>3. Volks-/Hauptschulabschluss bzw. Polytechnische Oberschule mit Abschluss 8. oder</labl>
+        <catStat type="freq"> 696</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>4</catValu>
+        <labl>4. Mittlere Reife, Realschulabschluss bzw. Polytechnische Oberschule mit Abschluss</labl>
+        <catStat type="freq">1528</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>5</catValu>
+        <labl>5. Fachhochschulreife (Abschluss einer Fachoberschule etc.)</labl>
+        <catStat type="freq"> 599</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>6</catValu>
+        <labl>6. Abitur bzw. erweiterte Oberschule mit Abschluss 12. Klasse (Hochschulreife)</labl>
+        <catStat type="freq">1673</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>7</catValu>
+        <labl>7. Ein anderer Schulabschluss, und zwar (bitte eintragen):</labl>
+        <catStat type="freq"> 156</catStat>
+      </catgry>
+    </var>
+    <var ID="RQB3005" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>highest professional qualification</labl>
+      <sumStat type="valid">4737</sumStat>
+      <sumStat type="invalid">121</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">  78</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. Noch in beruflicher Ausbildung (Berufsvorbereitungsjahr, Auszubildende/-r,  Prak</labl>
+        <catStat type="freq"> 302</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>10</catValu>
+        <labl>10. Universitätsabschluss (z. B. Diplom, Magister, Staatsexamen, Master)</labl>
+        <catStat type="freq"> 627</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>11</catValu>
+        <labl>11. Promotion</labl>
+        <catStat type="freq"> 125</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>12</catValu>
+        <labl>12. Einen anderen beruflichen Abschluss, und zwar (bitte eintragen):</labl>
+        <catStat type="freq"> 162</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>2</catValu>
+        <labl>2. Schüler/-in und besuche eine berufsorientierte Aufbau-, Fachschule o. ä.</labl>
+        <catStat type="freq">  62</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  43</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>3</catValu>
+        <labl>3. Keinen beruflichen Abschluss und nicht in beruflicher Ausbildung</labl>
+        <catStat type="freq"> 255</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>4</catValu>
+        <labl>4. Beruflich-betriebliche Berufsausbildung (Lehre) abgeschlossen</labl>
+        <catStat type="freq">1589</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>5</catValu>
+        <labl>5. Beruflich-schulische Ausbildung (Berufsfachschule, Handelsschule, Vorbereitungsd</labl>
+        <catStat type="freq"> 332</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>6</catValu>
+        <labl>6. Ausbildung an einer Fachschule der DDR abgeschlossen</labl>
+        <catStat type="freq"> 110</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>7</catValu>
+        <labl>7. Ausbildung an einer Fach-, Meister-, Technikerschule, Berufs- oder Fachakademie</labl>
+        <catStat type="freq"> 628</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>8</catValu>
+        <labl>8. Bachelor an (Fach-)Hochschule abgeschlossen</labl>
+        <catStat type="freq"> 175</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>9</catValu>
+        <labl>9. Fachhochschulabschluss (z. B. Diplom, Master)</labl>
+        <catStat type="freq"> 370</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3007" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>No email address</labl>
+      <sumStat type="valid">4760</sumStat>
+      <sumStat type="invalid">98</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">4460</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 300</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">  98</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3007_1" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>No mobile phone number</labl>
+      <sumStat type="valid">187</sumStat>
+      <sumStat type="invalid">4671</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not checked</labl>
+        <catStat type="freq">  27</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item checked</labl>
+        <catStat type="freq"> 160</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">4671</catStat>
+      </catgry>
+    </var>
+    <var ID="RQD3009_TXT_na" intrvl="labeled_numeric" files="GIP_Rekrutierung2018_Teil1_V1">
+      <labl>weitere Anmerkungen_text_na</labl>
+      <sumStat type="valid">2847</sumStat>
+      <sumStat type="invalid">2011</sumStat>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-80</catValu>
+        <labl>-80. Wert nicht plausibel</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-90</catValu>
+        <labl>-90. item nonresponse</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-91</catValu>
+        <labl>-91. 'bitte wählen'-Platzhalter</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>-97</catValu>
+        <labl>-97. trifft nicht zu</labl>
+        <catStat type="freq">   0</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>0</catValu>
+        <labl>0. item not answered</labl>
+        <catStat type="freq">2611</catStat>
+      </catgry>
+      <catgry missing="c(valid = FALSE)">
+        <catValu>1</catValu>
+        <labl>1. item answered</labl>
+        <catStat type="freq"> 236</catStat>
+      </catgry>
+      <catgry missing="c(valid = TRUE)">
+        <catValu>.</catValu>
+        <catStat type="freq">2011</catStat>
+      </catgry>
+    </var>
+  </dataDscr>
+  <fileDscr ID="GIP_Rekrutierung2018_Teil1_V1"/>
+</codebook>
